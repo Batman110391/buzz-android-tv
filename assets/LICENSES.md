@@ -1,0 +1,6 @@
+# Licenze asset
+
+| File | Autore | Fonte | Licenza |
+|---|---|---|---|
+| assets/models/host/host.glb (Mage.glb, KayKit Adventurers 1.0) | Kay Lousberg | https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0 | CC0 |
+| assets/fonts/LilitaOne-Regular.ttf | Juan Montoreano | https://github.com/google/fonts/tree/main/ofl/lilitaone | OFL 1.1 |

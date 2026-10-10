@@ -9,3 +9,4 @@ Thumbs.db
 .vscode/
 # Claude Code local
 .claude/settings.local.json
+ref/
