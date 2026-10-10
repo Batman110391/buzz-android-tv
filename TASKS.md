@@ -14,12 +14,30 @@ Esecutore: **P** = sessione padre · **W** = worker Sonnet · **S** = supervisor
 | T05 | `net/server.gd`: HTTP su 8080 che serve `net/controller.html`, WebSocket su 8081; segnale `button_pressed(player_id)`. `controller.html`: un pulsante grande | W | T02 | `net/server.gd`, `net/controller.html` | dal browser del PC su `localhost:8080` il pulsante produce il segnale (log) | done |
 | T06 | Collegare `server.gd` alla scena di prova (pulsante del telefono → colore del cubo) | P | T04, T05 | `main.gd` | prova da PC | done |
 | T07 | Preset di esportazione Android (permesso INTERNET), `adb connect`, installazione e avvio sulla TV | W | T03, T06 | `export_presets.cfg` | l'app si avvia sulla TV | done |
-| T08 | Prova sulla TV: FPS, telecomando, pulsante dal telefono, nessun screensaver | S + P | T07 | — | checklist M0 in PLAN.md | doing |
+| T08 | Prova sulla TV: FPS, telecomando, pulsante dal telefono, nessun screensaver | S + P | T07 | — | checklist M0 in PLAN.md | done |
 
 **Parallelo possibile:** T03 subito, in qualsiasi momento · T04 ∥ T05 dopo T02.
 
+
+## M1 — Vertical slice
+
+Contratti delle interfacce: PLAN.md §4 "Contratti M1". Ogni worker legge **solo** quella sezione + il proprio task.
+
+| ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
+|---|---|---|---|---|---|---|
+| T10 | Regole: `Game` secondo il contratto + test (risposta valida, doppia, fuori fase, tardiva, indice errato, fine anticipata se rispondono tutti, punteggi, classifica, FINAL dopo N domande). + 12 domande italiane di cultura generale nel formato di PLAN.md | W | — | `game/game.gd`, `game/questions.json`, `tests/test_game.gd` | `--headless --script res://tests/test_game.gd` → PASS, exit 0 | todo |
+| T11 | Palco con primitive (pavimento lucido, fondale con archi/luci, 6 podi colorati con Label3D nome+punti, luci scenografiche, camere) + coriandoli (`CPUParticles3D`, compatibile GLES3) secondo il contratto | W | — | `stage/stage.tscn`, `stage/stage.gd` | screenshot `--write-movie` di una scena di prova temporanea fuori dal repo | todo |
+| T12 | Presentatore placeholder: modello **CC0** animato (Quaternius / KayKit / Kenney, es. via poly.pizza), glb in `assets/models/host/`, `host.tscn` + `host.gd` secondo il contratto, licenza in `assets/LICENSES.md` | W | — | `assets/models/host/*`, `assets/LICENSES.md`, `stage/host.tscn`, `stage/host.gd` | import senza errori + screenshot con le 4 animazioni | todo |
+| T13 | HUD secondo il contratto, stile "quiz TV" (pannelli arrotondati, colori forti), font OFL da Google Fonts in `assets/fonts/` | W | — | `ui/hud.tscn`, `ui/hud.gd`, `assets/fonts/*` | screenshot di menu, domanda, reveal, classifica | todo |
+| T14 | `main`: collega Game ↔ stage ↔ host ↔ hud; giocatore 1 da tastiera `1`–`4` e telecomando; 3 bot con risposte casuali; tempi di regia; battute del presentatore come testo a schermo (voce in M3) | P | T10–T13 | `main.tscn`, `main.gd`, `project.godot` | partita completa da PC (60–90 s) | todo |
+| T15 | Export sulla TV + misura FPS durante la partita; se < 30: ridurre ombre/luci/particelle | W | T14 | `project.godot` (solo impostazioni grafiche), file di stage indicati dal padre | screenshot TV + FPS | todo |
+| T16 | Playtest e approvazione estetica | S | T15 | — | ok del supervisore | todo |
+
+**Parallelo:** T10 ∥ T11 ∥ T12 ∥ T13 (4 worker), poi T14 (padre), poi T15.
+**Nota T14:** il server di M0 resta in `net/`, ma la scena di prova (cubo) viene sostituita.
 ## Log
 - 2026-10-10 — Piano scritto (PLAN.md), flusso di lavoro definito (CLAUDE.md, worker). In attesa dell'approvazione del supervisore.
 - 2026-10-10 — T01 done. T02 done: Godot 4.7.2, JDK 17, SDK (build-tools 35.0.1, android-35, NDK 28.1), template 4.7.2 (percorsi in CLAUDE.md). T03 done: TV AFTKRT già su adb. T04 ∥ T05 avviati.
 - 2026-10-10 — T04 done (screenshot ok). T05 done (test_server PASS). T06 done: server in main.gd, URL LAN sulla Label, parse JSON senza log d'errore. Nota T07: includere `*.html` nel filtro di esportazione.
 - 2026-10-10 — T07 done: APK armeabi-v7a sulla TV, 60 FPS a regime (11 all'avvio). Fix: IP LAN con priorità 192.168 (la TV ha una VPN su tun0); usare solo l'adb dell'SDK. Da sistemare più avanti: icona del progetto; app non visibile nel launcher (serve Gradle + leanback).
+- 2026-10-10 — T08 done: M0 CHIUSA (telecomando, telefono, screensaver ok). Task M1 e contratti scritti. Prossimo: nuova sessione → T10–T13 in parallelo.

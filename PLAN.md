@@ -99,6 +99,52 @@ BUZZ/
     └── test_game.gd             # test delle regole, eseguibile da riga di comando
 ```
 
+### Contratti M1 (interfacce fisse: i worker in parallelo si basano su queste)
+
+**`game/game.gd`** — `class_name Game extends RefCounted`, nessun nodo, nessun timer di Godot: il tempo avanza solo con `tick(delta)`.
+```
+enum Phase { MENU, INTRO, QUESTION, REVEAL, SCOREBOARD, FINAL }
+signal phase_changed(phase: Phase)
+signal question_started(index: int, total: int, q: Dictionary)   # q = {category, question, answers[4] già mescolate, correct}
+signal answer_received(player_id: int)
+signal question_resolved(correct: int, results: Dictionary, scores: Dictionary)  # results: id→bool, scores: id→int
+signal game_over(ranking: Array)                                 # [{id, name, score}] ordinato
+func setup(player_names: Array[String], questions: Array, num_questions: int) -> void
+func start() -> void              # MENU → INTRO
+func advance() -> void            # INTRO→QUESTION, REVEAL→SCOREBOARD, SCOREBOARD→QUESTION|FINAL
+func submit_answer(player_id: int, choice: int) -> bool   # false se non valida (vedi §4 validazione)
+func tick(delta: float) -> void   # solo in QUESTION: scaduto il tempo o risposto tutti → REVEAL
+func time_left() -> float
+```
+Costanti in cima al file: `QUESTION_TIME := 15.0`, `POINTS_CORRECT := 100`. Player id = indice in `player_names`.
+
+**`stage/stage.tscn` + `stage.gd`** — solo grafica, nessuna regola.
+```
+func setup_players(names: Array[String]) -> void    # mostra N podi (max 6) con nome e punteggio
+func play_intro() -> void                           # transizione di camera verso il palco; emette intro_finished
+func focus_question() -> void                       # inquadratura domanda, luci "tensione"
+func show_reveal(results: Dictionary) -> void       # podi verdi/rossi
+func update_scores(scores: Dictionary) -> void
+func celebrate(winner_id: int) -> void              # luci + coriandoli sul vincitore
+signal intro_finished
+```
+Contiene un `Marker3D` chiamato `HostSpot` dove `main` piazza il presentatore.
+
+**`stage/host.tscn` + `host.gd`** — `func play(anim: String) -> void` con almeno `"idle"`, `"talk"`, `"surprise"`, `"celebrate"` (nomi mappati sulle animazioni reali del modello).
+
+**`ui/hud.tscn` + `hud.gd`** — `CanvasLayer`, solo testi/UI.
+```
+func show_menu() -> void                            # titolo + "Premi OK per iniziare"
+func show_question(index: int, total: int, q: Dictionary) -> void   # categoria, testo, 4 risposte (blu, arancione, verde, giallo)
+func set_time(left: float, total: float) -> void    # barra/numero del timer
+func mark_answered(player_id: int) -> void          # indicatore "ha risposto"
+func show_reveal(correct: int) -> void              # evidenzia la giusta, attenua le altre
+func show_scoreboard(ranking: Array) -> void
+func show_final(ranking: Array) -> void
+func hide_all() -> void
+```
+Testi leggibili da 3 m: domanda ≥ 56 px, risposte ≥ 44 px, margini di sicurezza 5%.
+
 ### Formato domande (`questions.json`)
 ```json
 [
@@ -156,16 +202,16 @@ Niente asset, nomi, personaggi o audio di Buzz/Sony.
 
 Ogni milestone si chiude solo con **l'approvazione del supervisore**.
 
-### M0 — Prova tecnica (elimina i rischi)
+### M0 — Prova tecnica (elimina i rischi) ✅ chiusa 2026-10-10 (60 FPS sulla TV, telefono e telecomando ok)
 Obiettivo: dimostrare che le due incognite reali funzionano prima di costruire il gioco.
 
-- [ ] Godot installato; progetto con renderer Compatibility, 1920×1080
-- [ ] Scena di prova: cubo 3D animato + contatore FPS
-- [ ] Toolchain Android pronta (JDK, Android SDK, keystore di debug), tutto gratuito
-- [ ] APK installato sulla Fire TV via `adb` in Wi-Fi
-- [ ] Il tasto centrale del telecomando cambia colore al cubo
-- [ ] Il telefono apre `http://<IP-TV>:8080`, preme un pulsante, il cubo cambia colore
-- [ ] FPS misurati sulla TV (obiettivo ≥ 30 stabili); lo schermo non va in screensaver
+- [x] Godot installato; progetto con renderer Compatibility, 1920×1080
+- [x] Scena di prova: cubo 3D animato + contatore FPS
+- [x] Toolchain Android pronta (JDK, Android SDK, keystore di debug), tutto gratuito
+- [x] APK installato sulla Fire TV via `adb` in Wi-Fi
+- [x] Il tasto centrale del telecomando cambia colore al cubo
+- [x] Il telefono apre `http://<IP-TV>:8080`, preme un pulsante, il cubo cambia colore
+- [x] FPS misurati sulla TV (obiettivo ≥ 30 stabili); lo schermo non va in screensaver
 
 **Se fallisce:** la rete locale non va → valutiamo l'hotspot del telefono o un relay. Le prestazioni sono scarse → grafica più semplice o risoluzione 3D ridotta.
 
