@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Buzz</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #111; color: #fff; font-family: sans-serif;
+    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; touch-action: manipulation; }
+  #s { position: fixed; top: 0; left: 0; right: 0; height: 8vh; display: flex; align-items: center;
+    justify-content: center; font-size: 5vw; background: #333; }
+  #b { position: fixed; top: 8vh; left: 0; right: 0; bottom: 0; width: 100%; border: 0; border-radius: 0;
+    background: #d00; color: #fff; font-size: 15vw; font-weight: bold; }
+  #b:active { background: #f55; }
+</style>
+</head>
+<body>
+<div id="s">Non connesso</div>
+<button id="b">PREMI</button>
+<script>
+let ws;
+const s = document.getElementById("s");
+function connect() {
+  ws = new WebSocket("ws://" + location.hostname + ":8081");
+  ws.onopen = () => s.textContent = "Connesso";
+  ws.onclose = () => { s.textContent = "Non connesso"; setTimeout(connect, 1000); };
+}
+connect();
+document.getElementById("b").addEventListener("pointerdown", e => {
+  e.preventDefault();
+  if (ws.readyState === 1) ws.send('{"t":"press"}');
+  if (navigator.vibrate) navigator.vibrate(50);
+});
+</script>
+</body>
+</html>

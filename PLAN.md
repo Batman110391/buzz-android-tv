@@ -22,7 +22,7 @@ Come lavora Claude (sessione padre + worker in parallelo, regole anti-spreco): v
 
 | Tema | Decisione | Motivo |
 |---|---|---|
-| Dispositivo TV | **Fire TV Stick 4K Max** (Fire OS, basato su Android, non Vega OS) | Già posseduto; accetta APK installati manualmente |
+| Dispositivo TV | **Fire TV Stick 4K Max 2ª gen** (AFTKRT, Fire OS 8.1 = Android 11, GPU PowerVR GE9215, GLES 3.2, Vulkan 1.1, output 1920×1080, IP 192.168.1.61, già collegata via adb) | Già posseduto; accetta APK installati manualmente |
 | Uso | Privato, a casa, con amici | Niente store, niente account, niente pubblicazione |
 | Budget | **Solo strumenti e asset gratuiti** | — |
 | Motore | **Godot 4.x stabile**, **renderer Compatibility** (OpenGL ES 3) dal primo giorno | Prestazioni native sulla Stick; ciò che si vede sul PC è vicino a ciò che si vedrà sulla TV |

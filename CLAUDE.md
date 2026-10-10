@@ -33,6 +33,13 @@ Caricato in ogni sessione: tenerlo corto.
 - Nessun riassunto finale ridondante; nessuna documentazione oltre a PLAN.md, TASKS.md e commenti essenziali.
 - Effort più alto per un worker (`medium`) solo se un task è fallito due volte o è chiaramente difficile.
 
+## Toolchain (verificata)
+- Godot 4.7.2 console: `C:\Users\simon\AppData\Local\Microsoft\WinGet\Packages\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\Godot_v4.7.2-stable_win64_console.exe` (GUI: stessa cartella, senza `_console`)
+- JDK 17: `C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot` (nel PATH c'è il JDK 11: non usarlo)
+- Android SDK: `C:\Users\simon\AppData\Local\Android\Sdk` · keystore debug: `C:\Users\simon\.android\debug.keystore`
+- Fire TV: `adb` già collegato a `192.168.1.61:5555` (AFTKRT)
+- Screenshot senza editor: avvio non headless con `--write-movie <dir>/shot.png --quit-after 30`
+
 ## Convenzioni tecniche
 - Godot 4.x stabile, renderer **Compatibility**, 1920×1080, GDScript con tipi statici.
 - Regole in `game/game.gd` senza nodi grafici; la grafica reagisce ai segnali.
