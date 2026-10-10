@@ -38,7 +38,7 @@ Caricato in ogni sessione: tenerlo corto.
 - JDK 17: `C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot` (nel PATH c'è il JDK 11: non usarlo)
 - Android SDK: `C:\Users\simon\AppData\Local\Android\Sdk` · keystore debug: `C:\Users\simon\.android\debug.keystore`
 - Fire TV: `192.168.1.61:5555` (AFTKRT). **ABI solo `armeabi-v7a`** (userland 32 bit). Ha una VPN (tun0 172.16.0.2).
-- **Usare SOLO l'adb dell'SDK** (`...AndroidSdkplatform-toolsdb.exe`): quello in `C:platform-tools` è vecchio e i due si chiudono il daemon a vicenda.
+- **Usare SOLO l'adb dell'SDK** (`C:\Users\simon\AppData\Local\Android\Sdk\platform-tools\adb.exe`): quello in `C:\platform-tools` (nel PATH) è vecchio e i due si chiudono il daemon a vicenda.
 - Export + install: `godot --headless --path . --export-debug "Android" export/buzz-debug.apk` → `adb install -r` → `adb shell monkey -p com.buzz.quizparty 1`. Gli FPS bassi nei primi secondi sono normali (avvio).
 - Screenshot senza editor: avvio non headless con `--write-movie <dir>/shot.png --quit-after 30`
 
