@@ -19,13 +19,12 @@ func _ready() -> void:
 
 
 func get_lan_url() -> String:
-	for a in IP.get_local_addresses():
-		if a.count(".") != 3:
-			continue
-		var p := a.split(".")
-		var b := int(p[1])
-		if a.begins_with("192.168.") or a.begins_with("10.") or (p[0] == "172" and b >= 16 and b <= 31):
-			return "http://%s:%d" % [a, HTTP_PORT]
+	# 192.168 prima: 10.x e 172.x sono spesso interfacce VPN (es. tun0 sulla Fire TV)
+	var addrs := IP.get_local_addresses()
+	for prefix in ["192.168.", "10.", "172."]:
+		for a in addrs:
+			if a.begins_with(prefix) and a.count(".") == 3:
+				return "http://%s:%d" % [a, HTTP_PORT]
 	return "http://127.0.0.1:%d" % HTTP_PORT
 
 
