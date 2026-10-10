@@ -1,0 +1,11 @@
+# Godot
+.godot/
+*.import.tmp
+export/
+*.apk
+*.keystore
+# OS / editor
+Thumbs.db
+.vscode/
+# Claude Code local
+.claude/settings.local.json
