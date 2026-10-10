@@ -42,8 +42,8 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 | ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
 |---|---|---|---|---|---|---|
 | V1 | Personaggi cartoon caricaturali (presentatore + 4-6 concorrenti): S li genera su Meshy con i prompt del padre, scarica i glb rigged + animati | S + P | — | `assets/models/characters/*` | glb importati, animazioni mappate | doing |
-| V2 | Studio stile quiz TV (rif. `ref/5.jpg`, `6.jpg`, `1.jpg`) + slot per personaggi | W | — | `stage/stage.tscn`, `stage/stage.gd` | screenshot | doing |
-| V3 | HUD stile quiz TV: barra domanda in alto + orologio, risposte a sinistra, giocatori a destra con ritratto, ✓/✗ (rif. `ref/5.jpg`, `4.jpg`) | W | — | `ui/hud.tscn`, `ui/hud.gd`, `assets/fonts/*` | screenshot | doing |
+| V2 | Studio stile quiz TV (rif. `ref/5.jpg`, `6.jpg`, `1.jpg`) + slot per personaggi | W | — | `stage/stage.tscn`, `stage/stage.gd` | screenshot | done |
+| V3 | HUD stile quiz TV: barra domanda in alto + orologio, risposte a sinistra, giocatori a destra con ritratto, ✓/✗ (rif. `ref/5.jpg`, `4.jpg`) | W | — | `ui/hud.tscn`, `ui/hud.gd`, `assets/fonts/*` | screenshot | done |
 | V4 | Scena di prova: studio + personaggi + HUD come `ref/5.jpg`; FPS sulla TV | P | V1–V3 | `main.*`, `project.godot` | screenshot PC + TV, ok S | todo |
 
 ## Log
@@ -53,3 +53,4 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 - 2026-10-10 — T07 done: APK armeabi-v7a sulla TV, 60 FPS a regime (11 all'avvio). Fix: IP LAN con priorità 192.168 (la TV ha una VPN su tun0); usare solo l'adb dell'SDK. Da sistemare più avanti: icona del progetto; app non visibile nel launcher (serve Gradle + leanback).
 - 2026-10-10 — T08 done: M0 CHIUSA (telecomando, telefono, screensaver ok). Task M1 e contratti scritti. Prossimo: nuova sessione → T10–T13 in parallelo.
 - 2026-10-10 — T10 done. T11–T13 fatti ma provvisori: il supervisore vuole il livello di Buzz PS3 (rif. in `ref/`). Aperta la "Prova visiva" V1–V4 prima di T14.
+- 2026-10-10 — V2 (studio neon, 4 luci, MultiMesh) e V3 (HUD stile ref 5/4) done, verificati insieme su screenshot. Da sistemare in V4: inquadratura (presentatore e pannelli coprono i concorrenti). V1: supervisore su Meshy (3D Model → Text to 3D, Meshy 6, Smart Topology, Rigging, GLB).
