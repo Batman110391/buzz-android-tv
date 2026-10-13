@@ -14,7 +14,6 @@ const R_FLOOR := 4.8
 const R_STAGE := 6.0
 const CAM_Q := Vector3(0, 1.9, 6.4)
 const LOOK_Q := Vector3(0, 1.2, 0)
-const FOV_Q := 36.0
 const GREEN := Color(0.15, 0.95, 0.25)
 const RED := Color(0.95, 0.08, 0.08)
 const POD_COLORS: Array[Color] = [Color(0.95, 0.25, 0.3), Color(0.2, 0.55, 1.0), Color(0.3, 0.8, 0.35),
@@ -26,7 +25,6 @@ const PLATE_BLUE := Color(0.2, 0.5, 1.0)
 
 var _mood: Array[Color] = M_BLUE.duplicate()
 var _look := LOOK_Q
-var _ctw: Tween
 var _mtw: Tween
 var _m_band: StandardMaterial3D
 var _m_dots: StandardMaterial3D
@@ -508,21 +506,6 @@ func _set_mood(m: Array[Color], dur: float) -> void:
 		_apply(c), 0.0, 1.0, dur)
 
 
-func _cam_to(pos: Vector3, look: Vector3, fov: float, dur: float) -> Tween:
-	if _ctw:
-		_ctw.kill()
-	var p0 := cam.position
-	var l0 := _look
-	var f0 := cam.fov
-	_ctw = create_tween().set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
-	_ctw.tween_method(func(t: float) -> void:
-		cam.position = p0.lerp(pos, t)
-		_look = l0.lerp(look, t)
-		cam.fov = lerpf(f0, fov, t)
-		cam.look_at(_look), 0.0, 1.0, dur)
-	return _ctw
-
-
 # ---------- podi ----------
 
 func _place_spots(n: int) -> void:
@@ -620,16 +603,11 @@ func _tint(i: int, c: Color, plate: Color) -> void:
 
 func play_intro() -> void:
 	_set_mood(M_BLUE, 0.3)
-	cam.position = Vector3(0, 10, 17)
-	_look = Vector3(0, 1.0, 0)
-	cam.fov = 45.0
-	cam.look_at(_look)
-	_cam_to(Vector3(0, 3.2, 12), Vector3(0, 1.4, 0), 40.0, 3.0).finished.connect(func() -> void: intro_finished.emit())
+	get_tree().create_timer(3.0).timeout.connect(func() -> void: intro_finished.emit())
 
 
 func focus_question() -> void:
 	_set_mood(M_QUESTION, 1.0)
-	_cam_to(CAM_Q, LOOK_Q, FOV_Q, 1.0)
 
 
 func show_reveal(results: Dictionary) -> void:
@@ -647,10 +625,8 @@ func update_scores(scores: Dictionary) -> void:
 func celebrate(winner_id: int) -> void:
 	_set_mood(M_GOLD, 0.8)
 	if winner_id < 0 or winner_id >= _pods.size():
-		_cam_to(Vector3(0, 3.2, 12), Vector3(0, 1.4, 0), 40.0, 1.5)
 		return
 	var p := (get_node("PlayerSpot%d" % winner_id) as Node3D).position
-	_cam_to(Vector3(p.x * 0.6, 2.2, p.z + 8.0), p * 0.8 + Vector3(0, 1.0, 0), 40.0, 1.5)
 	_confetti.position = p + Vector3(0, 3.0, 1.0)
 	_confetti.restart()
 	_confetti.emitting = true
