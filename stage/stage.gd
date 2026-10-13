@@ -17,6 +17,8 @@ const LOOK_Q := Vector3(0, 1.2, 0)
 const FOV_Q := 36.0
 const GREEN := Color(0.15, 0.95, 0.25)
 const RED := Color(0.95, 0.08, 0.08)
+const POD_COLORS: Array[Color] = [Color(0.95, 0.25, 0.3), Color(0.2, 0.55, 1.0), Color(0.3, 0.8, 0.35),
+	Color(1.0, 0.75, 0.15), Color(0.7, 0.35, 0.95), Color(1.0, 0.5, 0.15)]
 const PLATE_BLUE := Color(0.2, 0.5, 1.0)
 
 @onready var cam: Camera3D = $Camera3D
@@ -106,7 +108,7 @@ func _pol(r: float, a: float, y: float) -> Vector3:
 func _quad(st: SurfaceTool, p: Array[Vector3], c: Array[Color]) -> void:
 	for i in [0, 1, 2, 0, 2, 3]:
 		st.set_color(c[i])
-		st.set_uv(Vector2(p[i].x, p[i].z) * 10.0)
+		st.set_uv(Vector2(p[i].x, p[i].z) * 2.0)
 		st.add_vertex(p[i])
 
 
@@ -125,11 +127,11 @@ func _face(n: Node3D) -> void:
 
 
 func _dot_tex() -> ImageTexture:
-	var img := Image.create(32, 32, true, Image.FORMAT_RGBA8)
-	for y in 32:
-		for x in 32:
-			var d := Vector2(x + 0.5, y + 0.5).distance_to(Vector2(16, 16))
-			img.set_pixel(x, y, Color(0.05, 0.05, 0.05, 0.5).lerp(Color.WHITE, 1.0 - smoothstep(4.5, 7.0, d)))
+	var img := Image.create(64, 64, true, Image.FORMAT_RGBA8)
+	for y in 64:
+		for x in 64:
+			var d := Vector2(x + 0.5, y + 0.5).distance_to(Vector2(32, 32))
+			img.set_pixel(x, y, Color(0.12, 0.1, 0.14, 0.6).lerp(Color.WHITE, 1.0 - smoothstep(8.0, 22.0, d)))
 	img.generate_mipmaps()
 	return ImageTexture.create_from_image(img)
 
@@ -166,13 +168,17 @@ func _build_env() -> void:
 	env.background_mode = Environment.BG_COLOR
 	env.background_color = Color(0.01, 0.008, 0.025)
 	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
-	env.ambient_light_color = Color(0.45, 0.4, 0.5)
-	env.ambient_light_energy = 0.7
+	env.ambient_light_color = Color(0.5, 0.45, 0.55)
+	env.ambient_light_energy = 0.6
+	env.tonemap_mode = Environment.TONE_MAPPER_FILMIC
+	env.adjustment_enabled = true
+	env.adjustment_saturation = 1.15
+	env.adjustment_contrast = 1.05
 	if GLOW:
 		env.glow_enabled = true
-		env.glow_intensity = 0.8
+		env.glow_intensity = 0.55
 		env.glow_bloom = 0.1
-		env.glow_hdr_threshold = 0.9
+		env.glow_hdr_threshold = 1.1
 		env.glow_blend_mode = Environment.GLOW_BLEND_MODE_ADDITIVE
 	$WorldEnvironment.environment = env
 
@@ -423,23 +429,24 @@ void fragment() {
 
 func _build_lights() -> void:
 	var d := DirectionalLight3D.new()
-	d.light_energy = 0.8
-	d.light_color = Color(1.0, 0.93, 0.85)
-	d.rotation_degrees = Vector3(-30, 0, 0)
+	d.light_energy = 1.1
+	d.light_color = Color(1.0, 0.88, 0.72)
+	d.rotation_degrees = Vector3(-38, -12, 0)
 	d.shadow_enabled = false
 	add_child(d)
 	_lights.append(d)
 	for sx in [-1.0, 1.0]:
 		var o := OmniLight3D.new()
-		o.position = Vector3(sx * 6.0, 3.0, -3.5)
-		o.omni_range = 14.0
-		o.light_energy = 2.0
+		o.position = Vector3(sx * 4.0, 3.2, -5.0)
+		o.omni_range = 12.0
+		o.light_energy = 3.0
 		add_child(o)
 		_lights.append(o)
 	var f := OmniLight3D.new()
 	f.position = Vector3(0, 3.5, 5.0)
 	f.omni_range = 12.0
-	f.light_energy = 0.7
+	f.light_energy = 0.6
+	f.light_color = Color(0.7, 0.8, 1.0)
 	add_child(f)
 	_lights.append(f)
 
@@ -485,9 +492,8 @@ func _apply(m: Array[Color]) -> void:
 	_m_stand.albedo_color = _k(m[0], 0.16)
 	_m_cone_a.set_shader_parameter("col", Color(m[0].r, m[0].g, m[0].b, 0.2))
 	_m_cone_b.set_shader_parameter("col", Color(m[2].r, m[2].g, m[2].b, 0.16))
-	_lights[1].light_color = m[0]
-	_lights[2].light_color = m[2]
-	_lights[3].light_color = m[0].lerp(Color.WHITE, 0.5)
+	_lights[1].light_color = m[0].lerp(Color.WHITE, 0.35)
+	_lights[2].light_color = m[2].lerp(Color.WHITE, 0.35)
 
 
 func _set_mood(m: Array[Color], dur: float) -> void:
@@ -528,18 +534,25 @@ func _place_spots(n: int) -> void:
 		s.rotation.y = atan2(-x, CAM_Q.z - s.position.z)
 
 
-func _pod_body(parent: Node3D, silver: Material, dome_m: Material) -> void:
-	var col := BoxMesh.new()
-	col.size = Vector3(0.55, 1.05, 0.4)
-	_add(col, silver, Vector3(0, 0.525, 0), parent)
-	var top := BoxMesh.new()
-	top.size = Vector3(0.6, 0.05, 0.45)
-	_add(top, silver, Vector3(0, 1.075, 0), parent)
+func _pod_body(parent: Node3D, body_m: Material, dome_m: Material) -> void:
+	var col := CylinderMesh.new()
+	col.top_radius = 0.38
+	col.bottom_radius = 0.42
+	col.height = 1.0
+	col.radial_segments = 32
+	_add(col, body_m, Vector3(0, 0.5, 0), parent).scale = Vector3(1, 1, 0.55)
+	var top := SphereMesh.new()
+	top.radius = 0.4
+	top.height = 0.2
+	top.radial_segments = 32
+	top.rings = 8
+	_add(top, body_m, Vector3(0, 1.0, 0), parent).scale = Vector3(1, 1, 0.55)
 	var dome := SphereMesh.new()
 	dome.radius = 0.14
 	dome.height = 0.14
 	dome.is_hemisphere = true
-	_add(dome, dome_m, Vector3(0, 1.1, 0), parent)
+	dome.radial_segments = 24
+	_add(dome, dome_m, Vector3(0, 1.08, 0), parent)
 
 
 func setup_players(names: Array[String]) -> void:
@@ -552,11 +565,13 @@ func setup_players(names: Array[String]) -> void:
 	for i in n:
 		var spot: Marker3D = get_node("PlayerSpot%d" % i)
 		var silver := StandardMaterial3D.new()
-		silver.albedo_color = Color(0.95, 0.96, 1.0)
-		silver.metallic = 0.1
-		silver.roughness = 0.4
+		silver.albedo_color = POD_COLORS[i % POD_COLORS.size()]
+		silver.roughness = 0.2
+		silver.clearcoat_enabled = true
+		silver.clearcoat_roughness = 0.1
 		var dome_m := StandardMaterial3D.new()
 		dome_m.albedo_color = RED
+		dome_m.roughness = 0.15
 		dome_m.emission_enabled = true
 		dome_m.emission = RED
 		dome_m.emission_energy_multiplier = 1.8
@@ -573,17 +588,18 @@ func setup_players(names: Array[String]) -> void:
 		# targhetta: bordo colorato + pannello scuro + testo
 		var border := _mat(PLATE_BLUE)
 		var bq := QuadMesh.new()
-		bq.size = Vector2(0.54, 0.26)
-		_add(bq, border, Vector3(0, 0.84, 0.202), root)
+		bq.size = Vector2(0.64, 0.38)
+		_add(bq, border, Vector3(0, 0.78, 0.226), root)
 		var pq := QuadMesh.new()
-		pq.size = Vector2(0.5, 0.22)
-		_add(pq, _mat(Color(0.03, 0.04, 0.1)), Vector3(0, 0.84, 0.205), root)
+		pq.size = Vector2(0.6, 0.34)
+		_add(pq, _mat(Color(0.03, 0.04, 0.1)), Vector3(0, 0.78, 0.229), root)
 		var lab := Label3D.new()
-		lab.font_size = 36
-		lab.pixel_size = 0.0026
-		lab.outline_size = 8
+		lab.font_size = 96
+		lab.pixel_size = 0.0013
+		lab.outline_size = 14
+		lab.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
 		lab.shaded = false
-		lab.position = Vector3(0, 0.84, 0.21)
+		lab.position = Vector3(0, 0.78, 0.233)
 		root.add_child(lab)
 		_pods.append({"root": root, "mirror": mir, "dome": dome_m, "border": border, "label": lab, "name": names[i]})
 		_label(i, 0)

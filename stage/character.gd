@@ -20,6 +20,20 @@ func setup(model_path: String, height: float = 1.8) -> void:
 	for m in model.find_children("*", "MeshInstance3D", true, false):
 		aabb = aabb.merge((m as MeshInstance3D).get_aabb())
 	model.scale = Vector3.ONE * (height / aabb.size.y)
+	for m in model.find_children("*", "MeshInstance3D", true, false):
+		var mi := m as MeshInstance3D
+		for i in mi.mesh.get_surface_count():
+			var bm := mi.mesh.surface_get_material(i) as StandardMaterial3D
+			if bm == null:
+				continue
+			bm = bm.duplicate()
+			bm.roughness = 0.7
+			bm.metallic = 0.0
+			bm.rim_enabled = true
+			bm.rim = 0.3
+			bm.rim_tint = 0.5
+			bm.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+			mi.set_surface_override_material(i, bm)
 	_ap = AnimationPlayer.new()
 	model.add_child(_ap)
 	var lib := AnimationLibrary.new()
