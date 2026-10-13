@@ -1,0 +1,233 @@
+{
+  "chef": {
+    "nome": "Gastone",
+    "colore": "#F2384A",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        150
+      ]
+    },
+    "figli_di_testa": [
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ]
+  },
+  "nonna": {
+    "nome": "Nonna Pina",
+    "colore": "#2F7BFF",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "dietro",
+      "corpo",
+      "testa",
+      "occhi",
+      "bocca",
+      "sopra",
+      "sopracciglia"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        152
+      ]
+    },
+    "figli_di_testa": [
+      "dietro",
+      "testa",
+      "occhi",
+      "bocca",
+      "sopra",
+      "sopracciglia"
+    ]
+  },
+  "zombi": {
+    "nome": "Ugo",
+    "colore": "#33C759",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        150
+      ]
+    },
+    "figli_di_testa": [
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ]
+  },
+  "gatto": {
+    "nome": "Brioche",
+    "colore": "#FFD43B",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "dietro",
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        148
+      ]
+    },
+    "figli_di_testa": [
+      "dietro",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ]
+  },
+  "boss": {
+    "nome": "Don Ciccio",
+    "colore": "#A855F7",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        152
+      ]
+    },
+    "figli_di_testa": [
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ]
+  },
+  "diva": {
+    "nome": "Vanessa",
+    "colore": "#FF8A1F",
+    "tela": [
+      200,
+      200
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "dietro",
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ],
+    "perni": {
+      "testa": [
+        100,
+        148
+      ]
+    },
+    "figli_di_testa": [
+      "dietro",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "sopra"
+    ]
+  },
+  "host": {
+    "nome": "Tony Scintilla",
+    "colore": "#FF3DA8",
+    "tela": [
+      240,
+      300
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "baffi",
+      "capelli",
+      "braccio"
+    ],
+    "perni": {
+      "testa": [
+        120,
+        195
+      ],
+      "capelli": [
+        120,
+        112
+      ],
+      "braccio": [
+        186,
+        300
+      ],
+      "occhi": [
+        123,
+        134
+      ]
+    },
+    "figli_di_testa": [
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "baffi",
+      "capelli"
+    ]
+  }
+}
