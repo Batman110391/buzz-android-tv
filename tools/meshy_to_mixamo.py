@@ -12,12 +12,16 @@ for x in list(bpy.data.objects):
 bpy.context.view_layer.objects.active = o
 o.select_set(True)
 bpy.ops.object.transform_apply(location=False, rotation=True, scale=True)
+# Meshy mette l'origine a metà corpo: piedi a z=0 e centro in x/y, se no metà personaggio finisce sotto il pavimento
+pts = [o.matrix_world @ v.co for v in o.data.vertices]
+o.location -= mathutils.Vector(((min(p.x for p in pts) + max(p.x for p in pts)) / 2, (min(p.y for p in pts) + max(p.y for p in pts)) / 2, min(p.z for p in pts)))
+bpy.ops.object.transform_apply(location=True, rotation=False, scale=False)
 tris = sum(len(p.vertices) - 2 for p in o.data.polygons)
 d = o.modifiers.new("dec", 'DECIMATE'); d.ratio = min(1.0, 20000 / tris)
 bpy.ops.object.modifier_apply(modifier="dec")
 print("TRIS", tris, "->", sum(len(p.vertices) - 2 for p in o.data.polygons), "dims", tuple(round(v, 3) for v in o.dimensions))
 obj = os.path.join(out, "host.obj")
-bpy.ops.wm.obj_export(filepath=obj, export_selected_objects=True, export_materials=True)
+bpy.ops.wm.obj_export(filepath=obj, export_selected_objects=True, export_materials=True, global_scale=100)  # Mixamo legge l'OBJ in cm
 mat = next(l.split(" ", 1)[1].strip() for l in open(obj) if l.startswith("usemtl"))
 open(os.path.join(out, "host.mtl"), "w").write(f"newmtl {mat}\nKd 1 1 1\nmap_Kd host.png\n")
 shutil.copy(albedo, os.path.join(out, "host.png"))
