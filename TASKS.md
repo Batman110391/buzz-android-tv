@@ -109,7 +109,7 @@ Obiettivo: sulla TV, titolo con Tony che parla + una domanda con 6 podi animati 
 |---|---|---|---|---|---|---|
 | Q1 | Design in `design/quizzone/` (`.gdignore`), font Baloo 2 in `assets/fonts/`, LICENSES | P | — | `design/**`, `assets/fonts/*`, `assets/LICENSES.md` | file presenti | done |
 | Q2 | Personaggi cutout: svg_to_png + personaggio.gd + scena di prova (Tony grande che parla con fumetto + 6 concorrenti che ciclano gli stati) | W (medium) | Q1 | `tools/svg_to_png.gd`, `assets/personaggi/**`, `ui/personaggio.gd`, `tests/test_personaggi.gd/.tscn` | cattura 30 s | todo |
-| Q3 | Palco PNG + palco.gd + risposta/podio/schermata_domanda + scena di prova (con personaggi segnaposto) | W (medium) | Q1 | `tools/palco.html`, `assets/palco/**`, `ui/palco.gd`, `ui/risposta.gd`, `ui/podio.gd`, `ui/schermata_domanda.gd`, `tests/test_domanda.gd/.tscn` | cattura 30 s confrontata con `1d`/`1e` del design | todo |
+| Q3 | Palco PNG + palco.gd + risposta/podio/schermata_domanda + scena di prova (con personaggi segnaposto) | W (medium) | Q1 | `tools/palco.html`, `assets/palco/**`, `ui/palco.gd`, `ui/risposta.gd`, `ui/podio.gd`, `ui/schermata_domanda.gd`, `tests/test_domanda.gd/.tscn` | cattura 30 s confrontata con `1d`/`1e` del design | done |
 | Q4 | Scena di prova completa (titolo → domanda con bot → rivelazione → Tony che commenta) + TV: FPS e memoria | P | Q2, Q3 | `tests/quizzone_test.*`, `project.godot` (main_scene temporanea) | `tools/perf.sh`, ok del supervisore | todo |
 
 ## Log
