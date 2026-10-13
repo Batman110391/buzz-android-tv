@@ -69,12 +69,12 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 
 | ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
 |---|---|---|---|---|---|---|
-| R1 | Scaricare da Mixamo le animazioni `walk strut point laugh taunt` | S | — | `assets/animations/*` | file presenti | todo |
-| R2 | `director.gd`: regista con camere sempre in movimento e stacchi | W | — | `stage/director.gd`, `stage/stage.gd` (solo camera) | cattura 30 s di una scena di prova fuori dal repo | todo |
-| R3 | `walk_to`/`face` in character.gd + nuove animazioni | W | R1 | `stage/character.gd` | cattura 30 s | todo |
-| R4 | Musica + effetti CC0 e `audio/sfx.gd` | W | — | `audio/sfx.gd`, `assets/audio/**`, `assets/LICENSES.md` | test headless che carica tutti i suoni | todo |
-| R5 | HUD animato (entrate, punteggi che contano, timer che pulsa) | W | — | `ui/hud.gd` | cattura 30 s | todo |
-| R6 | Collegare tutto in main: presentatore che gira per lo studio e sfotte, shot per fase, suoni | P | R2–R5 | `main.gd`, `main.tscn`, `project.godot` | `-- --demo --quick` 30 s | todo |
+| R1 | Scaricare da Mixamo le animazioni `walk strut point laugh taunt` | S | — | `assets/animations/*` | file presenti | done |
+| R2 | `director.gd`: regista con camere sempre in movimento e stacchi | W | — | `stage/director.gd`, `stage/stage.gd` (solo camera) | cattura 30 s di una scena di prova fuori dal repo | done |
+| R3 | `walk_to`/`face` in character.gd + nuove animazioni | W | R1 | `stage/character.gd` | cattura 30 s | done |
+| R4 | Musica + effetti CC0 e `audio/sfx.gd` | W | — | `audio/sfx.gd`, `assets/audio/**`, `assets/LICENSES.md` | test headless che carica tutti i suoni | done |
+| R5 | HUD animato (entrate, punteggi che contano, timer che pulsa) | W | — | `ui/hud.gd` | cattura 30 s | done |
+| R6 | Collegare tutto in main: presentatore che gira per lo studio e sfotte, shot per fase, suoni | P | R2–R5 | `main.gd`, `main.tscn`, `project.godot` | `-- --demo --quick` 30 s | done |
 | R7 | FPS sulla TV | W | R6 | impostazioni grafiche | FPS ≥ 30 | todo |
 
 **Regola catture:** massimo 30 s di gioco (`--fixed-fps 10 --quit-after 300`), `-- --demo --quick` salta l'intro.
@@ -92,3 +92,4 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 - 2026-10-13 — Nuovo presentatore `host.fbx` (Meshy in T-pose → Blender: 1 mesh, 20k tris, OBJ zip → auto-rigger Mixamo): tutte le animazioni ok. Per altri modelli Meshy: `blender -b --python tools/meshy_to_mixamo.py -- <fbx> <albedo.png> <cartella>` → caricare lo zip su Mixamo.
 - 2026-10-13 — Contratti V4 in PLAN.md ("Contratti prova visiva"). V4 pronto con prompt del worker in TASKS.md. Prossimo: nuova sessione → lanciare V4 (worker, medium) → verificare i frame → misura FPS sulla TV.
 - 2026-10-13 — host.fbx ririggato (piedi a z=0, cm). V4 base + V5 look fatti. Supervisore: "statico, banale, lontano anni luce". Deciso: prima la regia (R1–R7), poi i round (tutti approvati, PLAN.md §4 "Contratti regia"), poi lo studio 3D vero.
+- 2026-10-13 — R1–R6 done: animazioni walk/strut/point/laugh/taunt fatte in Blender (`tools/make_anims.py`, keyframe a mano), director.gd (camere mobili + stacchi), Sfx autoload (Kenney CC0 + suoni sintetizzati: da far ascoltare al supervisore), HUD animato, main collegato (presentatore entra da dietro i podi, gira durante la domanda, sfotte chi sbaglia). Prossimo: R7 FPS sulla TV.
