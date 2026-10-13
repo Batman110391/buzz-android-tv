@@ -5,12 +5,24 @@ extends Node3D
 
 const ANIM_DIR := "res://assets/animations/"
 const ANIMS: Array[String] = ["idle", "happy", "talk", "talk2", "think", "cheer", "victory", "defeated", "disappointed",
-	"clap", "surprised", "rally", "zombie_idle", "dance_hiphop", "dance_rumba", "dance_silly", "dance_thriller"]
+	"clap", "surprised", "rally", "zombie_idle", "dance_hiphop", "dance_rumba", "dance_silly", "dance_thriller",
+	"walk", "strut", "point", "laugh", "taunt"]
 const LOOPS: Array[String] = ["idle", "happy", "talk", "talk2", "think", "zombie_idle",
-	"dance_hiphop", "dance_rumba", "dance_silly", "dance_thriller"]
+	"dance_hiphop", "dance_rumba", "dance_silly", "dance_thriller", "walk", "strut"]
+## Velocita' al suolo (m/s) delle animazioni in place, per un personaggio con scheletro alto quanto quello Mixamo (anche a 0.777 m). Valori stampati da tools/make_anims.py.
+const WALK_SPEED := {"walk": 1.104, "strut": 0.655}
+const SRC_HIPS := 0.777
+
+signal arrived
 
 var _ap: AnimationPlayer
 var _skel: Skeleton3D
+var _dest := Vector3.ZERO
+var _speed := 0.0
+var _anim := "walk"
+var _walking := false
+var _started := false
+var _turn: Tween
 
 func setup(model_path: String, height: float = 1.8) -> void:
 	var model: Node3D = load(model_path).instantiate()
@@ -74,3 +86,41 @@ func _retarget(path: String, skel_path: String) -> Animation:
 	a.loop_mode = Animation.LOOP_LINEAR if path.get_file().get_basename() in LOOPS else Animation.LOOP_NONE
 	src.free()
 	return a
+
+# Si gira (0.25 s) verso `pos` (stesso spazio di `position`, y ignorata), cammina con `anim` a velocita' coerente col passo,
+# poi idle + `arrived`. Una nuova chiamata annulla la precedente.
+func walk_to(pos: Vector3, anim: String = "walk") -> void:
+	_dest = Vector3(pos.x, position.y, pos.z)
+	var hips_h := (global_transform.affine_inverse() * _skel.global_transform * _skel.get_bone_global_rest(0)).origin.y
+	_speed = WALK_SPEED.get(anim, 1.0) * hips_h / SRC_HIPS
+	_anim = anim
+	_started = false
+	_walking = true
+	face(_dest)
+
+# Rotazione morbida sul posto verso `pos`.
+func face(pos: Vector3) -> void:
+	var d := pos - position
+	d.y = 0.0
+	if d.length() < 0.001:
+		return
+	if _turn != null:
+		_turn.kill()
+	_turn = create_tween()
+	_turn.tween_property(self, "rotation:y", rotation.y + angle_difference(rotation.y, atan2(d.x, d.z)), 0.25)
+
+func _process(delta: float) -> void:
+	if not _walking or (_turn != null and _turn.is_running()):
+		return
+	if not _started:
+		_started = true
+		play(_anim)
+	var left := _dest - position
+	var step := _speed * delta
+	if left.length() <= step:
+		position = _dest
+		_walking = false
+		play("idle")
+		arrived.emit()
+	else:
+		position += left.normalized() * step

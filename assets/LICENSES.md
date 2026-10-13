@@ -11,3 +11,4 @@
 | assets/audio/sfx/fanfare.ogg | Kenney (Music Jingles) | https://kenney.nl/assets/music-jingles | CC0 |
 | assets/audio/sfx/cash.ogg | Kenney (Casino Audio) | https://kenney.nl/assets/casino-audio | CC0 |
 | assets/audio/sfx/{buzz,whoosh,applause,aww,drumroll,explosion,boing}.ogg, assets/audio/music/*.ogg | sintetizzati da zero (script Node, nessun campione esterno) | generati nel progetto | CC0 (dedica del progetto) |
+| assets/animations/{walk,strut,point,laugh,taunt}.fbx | generate proceduralmente (keyframe + IK) con tools/make_anims.py su scheletro Mixamo di idle.fbx | questo repository | proprie, nessuna fonte esterna |
