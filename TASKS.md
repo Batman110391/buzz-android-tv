@@ -63,6 +63,22 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 > INQUADRATURA domanda: presentatore in primo piano al centro, i 4 concorrenti visibili dietro nella fascia x 620–1380 (stile `ref/5.jpg`, guardalo).
 > CHECK: `godot --path C:\react\BUZZ --write-movie <scratchpad>\V4\shot.png --quit-after 3600 -- --demo` (non headless), nessun ERROR/WARNING nell'output; guarda i frame di intro, domanda, reveal, classifica, finale e correggi. Report max 10 righe con i nomi dei frame migliori.
 
+| V5 | Look più cartoon (luci, podi, pavimento, label) | W | V4 | `stage/*` | screenshot | done |
+
+## Regia — la scena deve vivere (contratti: PLAN.md §4 "Contratti regia")
+
+| ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
+|---|---|---|---|---|---|---|
+| R1 | Scaricare da Mixamo le animazioni `walk strut point laugh taunt` | S | — | `assets/animations/*` | file presenti | todo |
+| R2 | `director.gd`: regista con camere sempre in movimento e stacchi | W | — | `stage/director.gd`, `stage/stage.gd` (solo camera) | cattura 30 s di una scena di prova fuori dal repo | todo |
+| R3 | `walk_to`/`face` in character.gd + nuove animazioni | W | R1 | `stage/character.gd` | cattura 30 s | todo |
+| R4 | Musica + effetti CC0 e `audio/sfx.gd` | W | — | `audio/sfx.gd`, `assets/audio/**`, `assets/LICENSES.md` | test headless che carica tutti i suoni | todo |
+| R5 | HUD animato (entrate, punteggi che contano, timer che pulsa) | W | — | `ui/hud.gd` | cattura 30 s | todo |
+| R6 | Collegare tutto in main: presentatore che gira per lo studio e sfotte, shot per fase, suoni | P | R2–R5 | `main.gd`, `main.tscn`, `project.godot` | `-- --demo --quick` 30 s | todo |
+| R7 | FPS sulla TV | W | R6 | impostazioni grafiche | FPS ≥ 30 | todo |
+
+**Regola catture:** massimo 30 s di gioco (`--fixed-fps 10 --quit-after 300`), `-- --demo --quick` salta l'intro.
+
 ## Log
 - 2026-10-10 — Piano scritto (PLAN.md), flusso di lavoro definito (CLAUDE.md, worker). In attesa dell'approvazione del supervisore.
 - 2026-10-10 — T01 done. T02 done: Godot 4.7.2, JDK 17, SDK (build-tools 35.0.1, android-35, NDK 28.1), template 4.7.2 (percorsi in CLAUDE.md). T03 done: TV AFTKRT già su adb. T04 ∥ T05 avviati.
@@ -75,3 +91,4 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 - 2026-10-13 — Personaggi Mixamo in `assets/models/characters/` (polpetta, smeralda, zippo, lola, zombi, elvio, macho) + 17 animazioni Mixamo in `assets/animations/`; `stage/character.gd` le ripunta sullo scheletro di ogni modello (ok sui 7 Mixamo). Presentatore Meshy: rig incompatibile (assi diversi, 31 ossa, pesi difettosi) → da ririggare con l'auto-rigger di Mixamo.
 - 2026-10-13 — Nuovo presentatore `host.fbx` (Meshy in T-pose → Blender: 1 mesh, 20k tris, OBJ zip → auto-rigger Mixamo): tutte le animazioni ok. Per altri modelli Meshy: `blender -b --python tools/meshy_to_mixamo.py -- <fbx> <albedo.png> <cartella>` → caricare lo zip su Mixamo.
 - 2026-10-13 — Contratti V4 in PLAN.md ("Contratti prova visiva"). V4 pronto con prompt del worker in TASKS.md. Prossimo: nuova sessione → lanciare V4 (worker, medium) → verificare i frame → misura FPS sulla TV.
+- 2026-10-13 — host.fbx ririggato (piedi a z=0, cm). V4 base + V5 look fatti. Supervisore: "statico, banale, lontano anni luce". Deciso: prima la regia (R1–R7), poi i round (tutti approvati, PLAN.md §4 "Contratti regia"), poi lo studio 3D vero.

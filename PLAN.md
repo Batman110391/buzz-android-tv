@@ -171,6 +171,19 @@ Le API di M1 restano valide per `game/game.gd` (sopra). Cambiano/si aggiungono:
 
 **Voce** (`assets/voice/<id>.mp3`, testi in `lines.json`): gruppi per prefisso, si sceglie a caso evitando l'ultima usata del gruppo. Generali: `menu_ intro_ qfirst_ qnext_ qlast_ firstbuzz_ nobody_ hurry_ allright_ noneright_ someright_ scores_ tie_ final_ outro_ filler_`. Per personaggio: `pres_<chiave>` (presentazione), `solo_<chiave>` (unico che indovina), `last_<chiave>` (ultimo in classifica), `win_<chiave>` (vince). Il presentatore NON legge le domande. Nuove battute: aggiungerle a `lines.json` e lanciare `node tools/gen_voice.mjs --go <id>` (crediti contati: genera solo i file mancanti).
 
+### Contratti regia (R) — 2026-10-13
+Giudizio del supervisore su V5: "statico, banale". Si dà vita alla scena prima di tutto il resto.
+
+**`stage/director.gd`** (extends Node, possiede la camera): `var d := preload("res://stage/director.gd").new(); add_child(d); d.setup(stage.cam, stage, host)`. `shot(name: String, focus := -1)` con `name` in `intro wide question host player reveal scores winner`; `shake(strength := 1.0)`. Regole: la camera **non è mai ferma** (carrellata, orbita o avvicinamento lento); dentro uno shot ci sono 2–3 inquadrature con **stacchi netti** ogni 3–6 s; `player`/`winner` usano `focus` (indice concorrente); `host` segue il presentatore mentre cammina; `question` lascia libera la fascia centrale (x 620–1380, y > 240) e mostra i concorrenti. `stage.gd` non muove più la camera (resta `intro_finished` dopo ~3 s).
+
+**`stage/character.gd`** (aggiunte): `walk_to(pos: Vector3, anim := "walk") -> void` (si gira, cammina a velocità realistica, emette `arrived`), `face(pos: Vector3)`. Animazioni nuove: `walk strut` (loop, in place), `point laugh taunt` (una volta).
+
+**`audio/sfx.gd`** (autoload `Sfx`, registrato dal padre): `play(name, vol_db := 0.0)`, `music(name)` (dissolvenza 1 s), `stop_music()`, `duck(on: bool)` (musica −12 dB mentre parla il presentatore). Effetti: `buzz correct wrong tick tick_fast whoosh pop applause aww drumroll fanfare explosion cash boing`. Musiche (loop): `menu question scores final`. File `.ogg` in `assets/audio/sfx|music/`, solo CC0.
+
+**`ui/hud.gd`**: stessa API, ma tutto entra ed esce animato (scivola/rimbalza), i punteggi contano in su, il timer pulsa negli ultimi 5 s, il reveal lampeggia.
+
+**Round (da progettare dopo la regia, tutti approvati):** Furto, Sabotaggio (dispetto privato sul telefono del primo), Patata Bollente, La Talpa, Lello Bugiardo, Più o Meno (cursore sul telefono), La Botola (finale: chi sbaglia sprofonda).
+
 ### Protocollo con i telefoni (M2)
 Messaggi JSON su WebSocket.
 
