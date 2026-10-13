@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cl-nat-0001",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "animale piu veloce ghepardo",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Qual è l'animale terrestre più veloce?",
+    "risposte": [
+      "Ghepardo",
+      "Leone",
+      "Gazzella",
+      "Cavallo"
+    ]
+  },
+  {
+    "id": "cl-nat-0001",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "grande felino leone",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Come si chiama il re della savana?",
+    "risposte": [
+      "Leone",
+      "Tigre",
+      "Giaguaro",
+      "Puma"
+    ]
+  },
+  {
+    "id": "cl-nat-0002",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "animale piu veloce ghepardo",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Quale felino corre più di tutti?",
+    "risposte": [
+      "Ghepardo",
+      "Leone",
+      "Tigre",
+      "Puma"
+    ]
+  },
+  {
+    "id": "cl-nat-0003",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "velocita ghepardo chilometri",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Qual è l'animale terrestre più veloce?",
+    "risposte": [
+      "Ghepardo",
+      "Leopardo",
+      "Lince",
+      "Lupo"
+    ]
+  }
+]

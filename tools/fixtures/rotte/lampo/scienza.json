@@ -1,0 +1,20 @@
+[
+  {
+    "id": "la-sci-0001",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "acqua formula h2o",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Qual è la formula chimica dell'acqua, il liquido della vita?",
+    "risposte": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ]
+  }
+]

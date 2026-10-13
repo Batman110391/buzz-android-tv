@@ -181,7 +181,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] App avviabile dal launcher della Fire TV (icona, leanback)
 
 ### D — Domande dal server (§4 "Domande"; può procedere in parallelo a G1)
-- [ ] D1 schema + `tools/domande_check.mjs` + `tools/mock_api.mjs`
+- [x] D1 schema + `tools/domande_check.mjs` + `tools/mock_api.mjs`
 - [ ] D2 dotazione iniziale ~1.620 domande (12 categorie), check verde
 - [ ] D3 prompt `genera.md`/`verifica.md` + `prompt_test.mjs`: soglie passate prima in mock, poi con le chiavi vere
 - [ ] D4 Worker + D1 + cron + endpoint, dotazione caricata, URL pubblico

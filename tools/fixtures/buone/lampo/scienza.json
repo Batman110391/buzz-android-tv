@@ -1,0 +1,38 @@
+[
+  {
+    "id": "la-sci-0001",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "simbolo chimico oro",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Simbolo chimico dell'oro?",
+    "risposte": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ]
+  },
+  {
+    "id": "la-sci-0002",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "pianeta rosso marte",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Quale pianeta è detto rosso?",
+    "risposte": [
+      "Marte",
+      "Venere",
+      "Giove",
+      "Saturno"
+    ]
+  }
+]

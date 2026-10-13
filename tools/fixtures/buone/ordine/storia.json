@@ -1,0 +1,50 @@
+[
+  {
+    "id": "or-sto-0001",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "ordine scoperta america rivoluzione francese",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "criterio": "Dal più antico al più recente",
+    "elementi": [
+      "Scoperta dell'America",
+      "Rivoluzione francese",
+      "Unità d'Italia",
+      "Prima guerra mondiale"
+    ],
+    "valori": [
+      "1492",
+      "1789",
+      "1861",
+      "1914"
+    ]
+  },
+  {
+    "id": "or-sto-0002",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "ordine caduta roma muro berlino",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "criterio": "In ordine cronologico",
+    "elementi": [
+      "Caduta di Roma",
+      "Presa di Bisanzio",
+      "Sbarco sulla Luna",
+      "Caduta del Muro"
+    ],
+    "valori": [
+      "476",
+      "1453",
+      "1969",
+      "1989"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cl-sto-0001",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "capitale italia roma",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Quale città NON è mai stata capitale d'Italia?",
+    "risposte": [
+      "Napoli",
+      "Torino",
+      "Firenze",
+      "Roma"
+    ]
+  },
+  {
+    "id": "cl-sto-0002",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "curiosita": "Una curiosità breve.",
+    "fatto": "scoperta america colombo",
+    "fonte": "https://it.wikipedia.org/wiki/Italia",
+    "origine": "claude",
+    "creata": "2026-10-13",
+    "domanda": "Chi scoprì l'America?",
+    "risposte": [
+      "Colombo",
+      "Vespucci",
+      "Cabot"
+    ]
+  }
+]
