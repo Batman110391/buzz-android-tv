@@ -1,4 +1,4 @@
-# CLAUDE.md — BUZZ (quiz party 3D, Godot 4 → Fire TV)
+# CLAUDE.md — Quizzone! (quiz party 2D, Godot 4 → Fire TV)
 
 Caricato in ogni sessione: tenerlo corto.
 
@@ -6,6 +6,7 @@ Caricato in ogni sessione: tenerlo corto.
 - `PLAN.md`: decisioni, architettura, roadmap. Leggere **solo la sezione che serve**.
 - `TASKS.md`: bacheca dei task. È la memoria tra sessioni: leggerla all'avvio.
 - `INITIAL_PLAN.md`: visione originale, superata da PLAN.md. Non leggerla salvo richiesta.
+- `design/quizzone/README.md`: design system (misure, colori, schermate). Leggere solo la sezione che serve.
 
 ## Ruoli
 - **Supervisore (utente):** decide, approva, fa le azioni fisiche (TV, telefoni). Non scrive codice. Risposte in italiano, brevi.
