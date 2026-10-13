@@ -32,6 +32,7 @@ var _ans_labels: Array[Label] = []
 var _ans_nums: Array[Label] = []
 var _rows: Dictionary = {}  # id -> {row, style, score, badge, val}
 var _loops: Array[Tween] = []
+var _exits: Dictionary = {}  # Control -> Tween di uscita
 var _final_title: Label
 var _score_list: VBoxContainer
 var _final_list: VBoxContainer
@@ -168,6 +169,13 @@ func _loop(tw: Tween) -> void:
 	_loops.append(tw)
 
 
+## Tween registrato: viene ucciso al cambio fase.
+func _t() -> Tween:
+	var tw := create_tween()
+	_loops.append(tw)
+	return tw
+
+
 func _stop_loops() -> void:
 	for t in _loops:
 		t.kill()
@@ -191,6 +199,7 @@ func _build_menu(root: Control) -> void:
 	_rect(t, 300, 250, 1320, 330)
 	t.pivot_offset = Vector2(660, 165)
 	t.rotation_degrees = -3.0
+	t.set_meta("breathe", true)
 	var p := _glass(_menu, 560, 700, 800, 130, _style(NAVY, GOLD, 5, 30, 14.0))
 	var s := _label(p, 56)
 	s.text = "PREMI OK PER INIZIARE"
@@ -256,6 +265,7 @@ func _build_center(root: Control, title: String) -> Control:
 
 func _fill_ranking(list: VBoxContainer, ranking: Array) -> void:
 	for ch in list.get_children():
+		list.remove_child(ch)
 		ch.queue_free()
 	var rows := ranking.size()
 	var rh := mini(96, int(640.0 / maxi(rows, 1)) - 12)
@@ -265,6 +275,18 @@ func _fill_ranking(list: VBoxContainer, ranking: Array) -> void:
 		var holder := Control.new()
 		holder.custom_minimum_size = Vector2(900, rh)
 		list.add_child(holder)
+		holder.pivot_offset = Vector2(450, rh / 2.0)
+		holder.scale = Vector2(0.8, 0.8)
+		holder.modulate.a = 0.0
+		var tw := _t().set_parallel(true)
+		tw.tween_property(holder, "scale", Vector2.ONE, 0.4).set_delay(0.12 * i).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+		tw.tween_property(holder, "modulate:a", 1.0, 0.25).set_delay(0.12 * i)
+		if i == 0:  # brillio sul primo
+			var sh := _t()
+			sh.tween_interval(0.5)
+			for n in 3:
+				sh.tween_property(holder, "modulate", Color(1.7, 1.6, 1.2), 0.15)
+				sh.tween_property(holder, "modulate", Color.WHITE, 0.25)
 		var st := _style(Color(0.04, 0.06, 0.18, 0.92), col, 6, 16, 10.0)
 		_glass(holder, 0, 0, 900, rh, st)
 		var pos := _label(holder, 48, GOLD)
@@ -285,21 +307,38 @@ func _fill_ranking(list: VBoxContainer, ranking: Array) -> void:
 func _only(c: Control) -> void:
 	_stop_loops()
 	for x: Control in [_menu, _question, _score, _final]:
-		x.visible = x == c
+		if x == c:
+			if _exits.has(x):
+				(_exits[x] as Tween).kill()
+				_exits.erase(x)
+			x.visible = true
+			x.modulate.a = 1.0
+		elif x.visible and not _exits.has(x):  # uscita veloce
+			var ex := create_tween()
+			ex.tween_property(x, "modulate:a", 0.0, 0.15)
+			ex.tween_callback(func() -> void:
+				x.visible = false
+				_exits.erase(x))
+			_exits[x] = ex
 	if c == null:
 		return
 	if c == _menu:
 		for ch in _menu.get_children():
 			if ch.has_meta("pulse"):
-				var tw := create_tween()
+				var tw := _t()
 				tw.tween_property(ch, "scale", Vector2(1.06, 1.06), 0.6).set_trans(Tween.TRANS_SINE)
 				tw.tween_property(ch, "scale", Vector2.ONE, 0.6).set_trans(Tween.TRANS_SINE)
 				_loop(tw)
+			elif ch.has_meta("breathe"):
+				var tb := _t()
+				tb.tween_property(ch, "scale", Vector2(1.03, 1.03), 1.4).set_trans(Tween.TRANS_SINE)
+				tb.tween_property(ch, "scale", Vector2.ONE, 1.4).set_trans(Tween.TRANS_SINE)
+				_loop(tb)
 	if c != _question:
 		c.pivot_offset = Vector2(960, 540)
 		c.scale = Vector2(0.92, 0.92)
 		c.modulate.a = 0.0
-		var tw2 := create_tween().set_parallel(true)
+		var tw2 := _t().set_parallel(true)
 		tw2.tween_property(c, "scale", Vector2.ONE, 0.3).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 		tw2.tween_property(c, "modulate:a", 1.0, 0.25)
 
@@ -387,6 +426,7 @@ func show_question(index: int, total: int, q: Dictionary) -> void:
 		_ans_styles[i].bg_color = NAVY
 		_ans_nums[i].add_theme_color_override("font_color", ANSWER_COLORS[i])
 		_ans_panels[i].scale = Vector2.ONE
+	var k := 0
 	for d: Dictionary in _rows.values():
 		var st: StyleBoxFlat = d.style
 		st.border_color = EDGE
@@ -394,18 +434,22 @@ func show_question(index: int, total: int, q: Dictionary) -> void:
 		st.shadow_color = Color(0, 0, 0, 0.45)
 		st.shadow_size = 10
 		(d.badge as Control).visible = false
-		(d.row as Control).visible = true
-		(d.row as Control).modulate.a = 0.0
-		create_tween().tween_property(d.row, "modulate:a", 1.0, 0.5).set_delay(0.5)
+		(d.score as Label).text = str(d.val)
+		var row: Control = d.row
+		row.visible = true
+		row.scale = Vector2.ONE
+		row.position.x = 2000.0
+		_t().tween_property(row, "position:x", float(ROW_X), 0.5).set_delay(0.4 + 0.08 * k).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+		k += 1
 	set_time(1.0, 1.0)
 	_bar.position.y = -220
-	create_tween().tween_property(_bar, "position:y", 54.0, 0.45).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	_t().tween_property(_bar, "position:y", 54.0, 0.6).set_trans(Tween.TRANS_ELASTIC).set_ease(Tween.EASE_OUT)
 	_clock_box.modulate.a = 0.0
-	create_tween().tween_property(_clock_box, "modulate:a", 1.0, 0.4).set_delay(0.3)
+	_t().tween_property(_clock_box, "modulate:a", 1.0, 0.4).set_delay(0.3)
 	for i in 4:
 		var p := _ans_panels[i]
 		p.position.x = -620
-		create_tween().tween_property(p, "position:x", 96.0, 0.4).set_delay(0.3 + 0.15 * i).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+		_t().tween_property(p, "position:x", 96.0, 0.4).set_delay(0.3 + 0.08 * i).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 
 func set_time(left: float, total: float) -> void:
@@ -432,29 +476,32 @@ func mark_answered(player_id: int) -> void:
 	st.shadow_color = Color(col.r, col.g, col.b, 0.8)
 	st.shadow_size = 20
 	var row: Control = d.row
-	row.scale = Vector2(1.08, 1.08)
-	create_tween().tween_property(row, "scale", Vector2.ONE, 0.3).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	row.scale = Vector2(1.15, 1.15)
+	_t().tween_property(row, "scale", Vector2.ONE, 0.35).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 
 func show_reveal(correct: int, results: Dictionary) -> void:
 	for i in 4:
 		if i == correct:
-			_ans_styles[i].bg_color = ANSWER_COLORS[i].darkened(0.15)
 			_ans_nums[i].add_theme_color_override("font_color", Color.WHITE)
-			var tw := create_tween()
-			tw.tween_property(_ans_panels[i], "scale", Vector2(1.05, 1.05), 0.4).set_trans(Tween.TRANS_SINE)
-			tw.tween_property(_ans_panels[i], "scale", Vector2.ONE, 0.4).set_trans(Tween.TRANS_SINE)
-			_loop(tw)
+			var tw := _t()
+			tw.tween_property(_ans_styles[i], "bg_color", Color.WHITE, 0.15)
+			tw.tween_property(_ans_styles[i], "bg_color", ANSWER_COLORS[i].darkened(0.15), 0.25)
+			tw.set_loops(3)  # finito: 3 lampi
+			var tp := _t()
+			tp.tween_property(_ans_panels[i], "scale", Vector2(1.08, 1.08), 0.35).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+			tp.tween_property(_ans_panels[i], "scale", Vector2(1.04, 1.04), 0.3).set_trans(Tween.TRANS_SINE)
 		else:
-			_ans_labels[i].modulate = DIM
 			_ans_nums[i].add_theme_color_override("font_color", Color(1, 1, 1, 0.2))
+			_t().tween_property(_ans_labels[i], "modulate", DIM, 0.3)
+			_t().tween_property(_ans_styles[i], "bg_color", Color(0.02, 0.03, 0.08, 0.9), 0.3)
 	for id: int in _rows:
 		var b: Badge = _rows[id].badge
 		b.ok = bool(results.get(id, false))
 		b.queue_redraw()
 		b.visible = true
 		b.scale = Vector2.ZERO
-		create_tween().tween_property(b, "scale", Vector2.ONE, 0.3).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+		_t().tween_property(b, "scale", Vector2.ONE, 0.5).set_delay(0.1 * id).set_trans(Tween.TRANS_ELASTIC).set_ease(Tween.EASE_OUT)
 
 
 func update_scores(scores: Dictionary) -> void:
@@ -463,17 +510,25 @@ func update_scores(scores: Dictionary) -> void:
 		(d.badge as Control).visible = false
 		var to: int = int(scores.get(id, d.val))
 		var lbl: Label = d.score
-		var tw := create_tween()
-		tw.tween_method(func(v: float) -> void: lbl.text = str(int(round(v))), float(d.val), float(to), 0.9).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+		var gain: int = to - int(d.val)
+		_t().tween_method(func(v: float) -> void: lbl.text = str(int(round(v))), float(d.val), float(to), 0.8).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+		if gain > 0:
+			var pl := _label(d.row, 40, Color("7CFF6B"), HORIZONTAL_ALIGNMENT_RIGHT)
+			pl.text = "+%d" % gain
+			_rect(pl, 150, 20, 180, 48)
+			var tw := pl.create_tween().set_parallel(true)  # legato al label, si libera da solo
+			tw.tween_property(pl, "position:y", -40.0, 1.0).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_OUT)
+			tw.tween_property(pl, "modulate:a", 0.0, 0.5).set_delay(0.5)
+			tw.chain().tween_callback(pl.queue_free)
 		d.val = to
 
 
 func show_scoreboard(ranking: Array) -> void:
-	_fill_ranking(_score_list, ranking)
 	_only(_score)
+	_fill_ranking(_score_list, ranking)
 
 
 func show_final(ranking: Array) -> void:
 	_final_title.text = ("VINCE %s!" % str(ranking[0].get("name", "")).to_upper()) if ranking.size() > 0 else "FINE!"
-	_fill_ranking(_final_list, ranking)
 	_only(_final)
+	_fill_ranking(_final_list, ranking)
