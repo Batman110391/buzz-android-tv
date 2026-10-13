@@ -172,11 +172,11 @@ Ogni milestone si chiude con l'approvazione del supervisore sulla TV.
 ### G1 — Partita completa da telecomando (bot al posto degli amici)
 Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il Worker non serve ancora.
 
-- [ ] Titolo (1a) con opzione sottotitoli
-- [ ] Lobby (1b): giocatore 1 da telecomando + bot, scelta del numero di giocatori (2–6)
-- [ ] Presentazione round (1c)
-- [ ] 10 domande Accumula Punti con Tony che commenta (entra/esce, battute per situazione)
-- [ ] Classifica finale (1f) con coriandoli e vincitore che esulta
+- [x] Titolo (1a) con opzione sottotitoli
+- [x] Lobby (1b): giocatore 1 da telecomando + bot, scelta del numero di giocatori (2–6)
+- [x] Presentazione round (1c)
+- [x] 10 domande Accumula Punti con Tony che commenta (entra/esce, battute per situazione)
+- [x] Classifica finale (1f) con coriandoli e vincitore che esulta
 - [x] Battute nuove con i nomi di Tony e dei 6 concorrenti (ElevenLabs)
 - [ ] App avviabile dal launcher della Fire TV (icona, leanback)
 

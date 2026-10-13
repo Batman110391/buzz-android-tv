@@ -12,3 +12,8 @@ Thumbs.db
 ref/
 # Segreti locali
 .env
+# Build Android (Gradle): output e librerie di Godot si rigenerano
+android/build/build/
+android/build/.gradle/
+android/build/libs/
+android/build/src/main/assets/

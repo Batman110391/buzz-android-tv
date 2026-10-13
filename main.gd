@@ -1,0 +1,377 @@
+extends Node2D
+## Flusso della partita (G1): Titolo -> Lobby (←/→ numero di giocatori, OK) -> Round -> 10 domande (Game) -> Finale -> Titolo.
+## Giocatore 1 da telecomando/tastiera, gli altri sono bot. `-- --demo`: tutto automatico, anche il giocatore 1.
+
+const DOMANDE := 10
+const ROUND := "ACCUMULA PUNTI"
+const INK := Color("1B0B3A")
+const CREAM := Color("FFF4DC")
+const GIOCATORI := [
+	["Gastone", "F2384A", "chef"], ["Nonna Pina", "2F7BFF", "nonna"], ["Ugo", "33C759", "zombi"],
+	["Brioche", "FFD43B", "gatto"], ["Don Ciccio", "A855F7", "boss"], ["Vanessa", "FF8A1F", "diva"],
+]
+const DIRS: Array[String] = ["ui_up", "ui_right", "ui_down", "ui_left"]
+const FUMETTO_TITOLO := Vector2(560, 40)
+const FUMETTO_DOMANDA := Vector2(420, 470)
+const FUMETTO_BASSO := Vector2(420, 1026)  # y = bordo basso: il fumetto sale quanto serve
+const FUMETTO_FINALE := Vector2(96, 190)
+
+var _demo := "--demo" in OS.get_cmdline_user_args()
+var _fase := ""  # titolo | lobby | round | domanda | rivela | finale | (transizione)
+var _titolo: SchermataTitolo
+var _lobby: SchermataLobby
+var _round: SchermataRound
+var _s: SchermataDomanda
+var _finale: SchermataFinale
+var _host: Personaggio
+var _fumetto: PanelContainer
+var _fumetto_l: Label
+var _testi: Dictionary
+var _sottotitoli := true  # fumetto con le battute di Tony; si cambia dal titolo, salvato in user://
+var _domande := Domande.new()
+var _game: Game
+var _n := 4  # giocatori scelti nella lobby
+var _pers: Array[Personaggio] = []
+var _q: Dictionary
+var _i := 0  # indice della domanda in corso
+var _parla := false  # Tony sta parlando
+var _quando: Array[float] = []
+var _scelte := {}  # pid -> risposta
+var _hurry := false
+var _perf := FileAccess.file_exists("user://perf.txt")
+var _pt := 0.0
+var _pn := 0
+
+
+func _ready() -> void:
+	add_child(Palco.new())
+	_titolo = SchermataTitolo.new()
+	_lobby = SchermataLobby.new()
+	_round = SchermataRound.new()
+	_s = SchermataDomanda.new()
+	_finale = SchermataFinale.new()
+	for sc: CanvasItem in [_titolo, _lobby, _round, _s, _finale]:
+		sc.visible = false
+		add_child(sc)
+	_round.position.y = -70.0  # lascia spazio al fumetto di Tony sotto la carta
+	_lobby.setup("quizzone.tv", "KR7Q")  # ponytail: codice fisso finché non ci sono i telefoni (G2)
+	_host = Personaggio.new()
+	_host.setup("host")
+	_host.position.x = -700.0
+	add_child(_host)
+	_crea_fumetto()
+	var cfg := ConfigFile.new()
+	if cfg.load("user://impostazioni.cfg") == OK:
+		_sottotitoli = cfg.get_value("audio", "sottotitoli", true)
+	_titolo.set_sottotitoli(_sottotitoli)
+	var lines: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/voice/lines.json"))
+	var re := RegEx.create_from_string(r"\[[^\]]*\]\s*")
+	for k: String in lines:
+		_testi[k] = re.sub(str(lines[k]), "", true)
+	_domande.carica()
+	_mostra_titolo()
+
+
+# ---------------------------------------------------------------- titolo
+func _mostra_titolo() -> void:
+	_fase = "titolo"
+	Sfx.music("menu")
+	_titolo.mostra()
+	_host.position = Vector2(60, 300)
+	_host.scale = Vector2.ONE * 2.5
+	await _dici("menu_1", "saluto", FUMETTO_TITOLO)
+	if _demo and _fase == "titolo":
+		_vai_lobby()
+	while _fase == "titolo":  # ogni tanto Tony richiama l'attenzione
+		await get_tree().create_timer(12.0).timeout
+		if _fase == "titolo" and not _parla:
+			await _dici(["menu_2", "filler_1", "filler_2"].pick_random(), "annuncio", FUMETTO_TITOLO)
+
+
+func _vai_lobby() -> void:
+	_fase = "transizione"
+	_titolo.nascondi()
+	_fumetto.visible = false
+	await _esci_tony()
+	_fase = "lobby"
+	for i in 6:
+		_lobby.togli(i)
+	for i in _n:
+		_lobby.aggiungi(i, GIOCATORI[i][2], GIOCATORI[i][0], Color(GIOCATORI[i][1]))
+	_lobby.visible = true
+	if _demo:
+		await get_tree().create_timer(1.5).timeout
+		await _cambia_giocatori(1)
+		await get_tree().create_timer(1.0).timeout
+		_vai_round()
+
+
+## ←/→ nella lobby: aggiunge (Tony presenta il nuovo arrivato) o toglie l'ultimo giocatore (minimo 2).
+func _cambia_giocatori(d: int) -> void:
+	var n := clampi(_n + d, 2, 6)
+	if n == _n:
+		return
+	if d > 0:
+		_lobby.aggiungi(_n, GIOCATORI[_n][2], GIOCATORI[_n][0], Color(GIOCATORI[_n][1]))
+		Sfx.play("pop")
+		var id: String = GIOCATORI[_n][2]
+		_n = n
+		if not _parla:
+			await _tony_commenta("pres_" + id, "annuncio", FUMETTO_BASSO)
+	else:
+		_n = n
+		_lobby.togli(_n)
+
+
+# ---------------------------------------------------------------- round + domande
+func _vai_round() -> void:
+	_fase = "round"
+	_lobby.visible = false
+	await _tony_commenta("intro_1", "saluto", FUMETTO_BASSO, false)
+	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
+	await get_tree().create_timer(0.6).timeout
+	await _tony_commenta("round_1", "annuncio", FUMETTO_BASSO)
+	_round.nascondi()
+	_inizia_partita()
+
+
+func _inizia_partita() -> void:
+	var g: Array = []
+	var nomi: Array[String] = []
+	for i in _n:
+		g.append({"nome": GIOCATORI[i][0], "colore": Color(GIOCATORI[i][1]), "punti": 0})
+		nomi.append(GIOCATORI[i][0])
+	_s.setup_podi(g)
+	_pers.clear()
+	for i in _n:
+		var p := Personaggio.new()
+		p.setup(GIOCATORI[i][2])
+		_s.podio(i).metti_personaggio(p)
+		_pers.append(p)
+	_s.visible = true
+	Sfx.music("question")
+	_game = Game.new()
+	_game.question_started.connect(_domanda)
+	_game.question_resolved.connect(_rivela)
+	_game.game_over.connect(_fine)
+	_game.setup(nomi, _domande.pesca("classica", DOMANDE), DOMANDE)
+	_game.start()
+	_game.advance()
+
+
+func _domanda(i: int, tot: int, q: Dictionary) -> void:
+	_fase = "domanda"
+	_q = q
+	_i = i
+	_hurry = false
+	_scelte.clear()
+	_quando.clear()
+	for pid in _n:
+		_quando.append(randf_range(2.0, 11.0) if pid > 0 or _demo else INF)
+		_pers[pid].stato("pensa")
+	_s.mostra_domanda(i + 1, tot, ROUND, q["domanda"], q["risposte"])
+	_s.set_tempo(Game.QUESTION_TIME, Game.QUESTION_TIME)
+	if i == 0:
+		_dici("qfirst_1", "annuncio")
+	elif i == tot - 1:
+		_dici("qlast_1", "annuncio")
+
+
+func _risponde(pid: int, scelta: int) -> void:
+	if _fase != "domanda" or not _game.submit_answer(pid, scelta):
+		return
+	if _scelte.is_empty() and randf() < 0.5 and not _parla:
+		_dici("firstbuzz_%d" % (randi() % 2 + 1), "sorpresa")
+	_scelte[pid] = scelta
+	_s.risposto(pid, scelta)
+
+
+func _process(dt: float) -> void:
+	if _perf:
+		_pt += dt
+		_pn += 1
+		if _pt >= 2.0:
+			print("PERF fps=", snappedf(_pn / _pt, 0.1), " phase=", _fase)
+			_pt = 0.0
+			_pn = 0
+	if _fase != "domanda":
+		return
+	var trascorso := Game.QUESTION_TIME - _game.time_left()
+	for pid in _n:
+		if not _scelte.has(pid) and trascorso >= _quando[pid]:
+			# bot: indovina poco più di una volta su due
+			_risponde(pid, _q["correct"] if randf() < 0.55 else randi() % 4)
+	_s.set_tempo(_game.time_left(), Game.QUESTION_TIME)
+	if _game.time_left() <= 5.0 and not _hurry and _scelte.size() < _n:
+		_hurry = true
+		if not _parla:
+			_dici("hurry_%d" % (randi() % 2 + 1), "annuncio")
+	_game.tick(dt)  # può emettere question_resolved -> _rivela
+
+
+func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void:
+	_fase = "rivela"
+	var punti: Array = []
+	var giusti: Array = []
+	for pid in _n:
+		punti.append(Game.POINTS_CORRECT)
+		if risultati[pid]:
+			giusti.append(pid)
+	_s.rivela(corretta, _scelte, punti)
+	Sfx.play("correct" if not giusti.is_empty() else "wrong")
+	await get_tree().create_timer(1.8).timeout
+	var k := "someright_%d" % (randi() % 3 + 1)
+	var g := "esulta"
+	if giusti.size() == _n:
+		k = "allright_%d" % (randi() % 2 + 1)
+	elif giusti.is_empty():
+		k = "noneright_%d" % (randi() % 2 + 1)
+		g = "delusione"
+	elif giusti.size() == 1:
+		k = "solo_" + GIOCATORI[giusti[0]][2]
+	elif _i == DOMANDE / 2 - 1:  # a metà partita Tony punzecchia l'ultimo
+		k = "last_" + GIOCATORI[_ultimo(punteggi)][2]
+		g = "delusione"
+	await _tony_commenta(k, g, FUMETTO_DOMANDA)
+	_game.advance()  # REVEAL -> SCOREBOARD
+	_game.advance()  # -> domanda successiva oppure FINAL (game_over)
+
+
+func _ultimo(punteggi: Dictionary) -> int:
+	var u := 0
+	for pid in _n:
+		if punteggi[pid] < punteggi[u]:
+			u = pid
+	return u
+
+
+# ---------------------------------------------------------------- finale
+func _fine(classifica: Array) -> void:
+	_fase = "finale"
+	_s.visible = false
+	var c: Array = []
+	for r: Dictionary in classifica:
+		var d: Array = GIOCATORI[r["id"]]
+		c.append({"nome": d[0], "colore": Color(d[1]), "personaggio": d[2], "punti": r["score"]})
+	Sfx.music("final")
+	Sfx.play("fanfare")
+	_finale.mostra(c)
+	await get_tree().create_timer(2.5).timeout
+	Sfx.play("applause")
+	await _tony_commenta("final_1", "annuncio", FUMETTO_FINALE, false)
+	var pari: bool = classifica.size() > 1 and classifica[0]["score"] == classifica[1]["score"]
+	await _tony_commenta("tie_1" if pari else "win_" + GIOCATORI[classifica[0]["id"]][2], "esulta", FUMETTO_FINALE, false)
+	await _tony_commenta("outro_1", "saluto", FUMETTO_FINALE)
+	if _demo:
+		await get_tree().create_timer(2.0).timeout
+		_torna_al_titolo()
+
+
+func _torna_al_titolo() -> void:
+	if _fase != "finale":
+		return
+	_fase = "transizione"
+	_finale.nascondi()
+	await get_tree().create_timer(0.4).timeout
+	_mostra_titolo()
+
+
+# ---------------------------------------------------------------- input
+func _input(e: InputEvent) -> void:
+	var ok := e.is_action_pressed("ui_accept")
+	match _fase:
+		"titolo":
+			if ok:
+				_vai_lobby()
+			elif e.is_action_pressed("ui_down") or _tasto(e, KEY_S):
+				_sottotitoli = not _sottotitoli
+				var cfg := ConfigFile.new()
+				cfg.load("user://impostazioni.cfg")
+				cfg.set_value("audio", "sottotitoli", _sottotitoli)
+				cfg.save("user://impostazioni.cfg")
+				_titolo.set_sottotitoli(_sottotitoli)
+				_fumetto.visible = _sottotitoli and _fumetto.visible
+		"lobby":
+			if ok and not _parla:  # aspetta che Tony finisca la presentazione
+				_vai_round()
+			elif e.is_action_pressed("ui_right"):
+				_cambia_giocatori(1)
+			elif e.is_action_pressed("ui_left"):
+				_cambia_giocatori(-1)
+		"domanda":
+			if _demo:
+				return
+			for i in 4:
+				if e.is_action_pressed(DIRS[i]) or _tasto(e, KEY_1 + i):
+					_risponde(0, i)
+		"finale":
+			if ok:
+				_torna_al_titolo()
+
+
+func _tasto(e: InputEvent, k: Key) -> bool:
+	return e is InputEventKey and e.pressed and not e.echo and (e as InputEventKey).keycode == k
+
+
+# ---------------------------------------------------------------- Tony: voce + fumetto
+func _crea_fumetto() -> void:
+	var sb := Risposta.box(CREAM, INK, 6, 16, 44)
+	sb.content_margin_left = 44
+	sb.content_margin_right = 44
+	sb.content_margin_top = 24
+	sb.content_margin_bottom = 34
+	_fumetto = PanelContainer.new()
+	_fumetto.add_theme_stylebox_override("panel", sb)
+	_fumetto.custom_minimum_size = Vector2(900, 0)
+	_fumetto_l = Label.new()
+	_fumetto_l.add_theme_font_override("font", Risposta.font_testo())
+	_fumetto_l.add_theme_font_size_override("font_size", 52)
+	_fumetto_l.add_theme_color_override("font_color", INK)
+	_fumetto_l.add_theme_constant_override("line_spacing", -12)
+	_fumetto_l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_fumetto_l.custom_minimum_size = Vector2(812, 0)
+	_fumetto.add_child(_fumetto_l)
+	_fumetto.visible = false
+	add_child(_fumetto)
+
+
+## Tony entra dal basso a sinistra, dice `k` e (con `esce`) se ne va.
+func _tony_commenta(k: String, g: String, pos_fumetto: Vector2, esce := true) -> void:
+	if _host.position.x < 0.0:
+		_host.position = Vector2(-500, 520)
+		_host.scale = Vector2.ONE * 1.8
+		create_tween().tween_property(_host, "position:x", 20.0, 0.45).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	await _dici(k, g, pos_fumetto)
+	if esce:
+		await get_tree().create_timer(0.5).timeout
+		_fumetto.visible = false
+		await _esci_tony()
+
+
+func _esci_tony() -> void:
+	var tw := create_tween()
+	tw.tween_property(_host, "position:x", -700.0, 0.35).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_IN)
+	await tw.finished
+
+
+## Tony dice la battuta `k`; con i sottotitoli attivi il testo appare nel fumetto in `pos` (INF = niente fumetto).
+func _dici(k: String, g: String, pos := Vector2.INF) -> void:
+	_fumetto.visible = _sottotitoli and pos != Vector2.INF
+	if _fumetto.visible:
+		var w := 1380.0 if pos.y > 540.0 else 900.0  # in basso largo: meno righe, copre meno
+		_fumetto.custom_minimum_size.x = w
+		_fumetto_l.custom_minimum_size.x = w - 88.0
+		_fumetto_l.text = _testi.get(k, "")
+		_fumetto.reset_size()
+		_fumetto.position = Vector2(pos.x, minf(pos.y, 1026.0 - _fumetto.size.y))  # mai sotto l'area sicura
+		_fumetto.pivot_offset = Vector2(0, 60)
+		_fumetto.scale = Vector2.ZERO
+		create_tween().tween_property(_fumetto, "scale", Vector2.ONE, 0.3).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	var stream := load("res://assets/voice/%s.mp3" % k) as AudioStream
+	Sfx.duck(true)
+	_host.gesto(g, stream.get_length())
+	_host.parla(stream)
+	_parla = true
+	await _host.finito_parlare
+	_parla = false
+	Sfx.duck(false)
