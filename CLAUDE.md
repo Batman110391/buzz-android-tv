@@ -26,6 +26,7 @@ Caricato in ogni sessione: tenerlo corto.
 
 ## Regole anti-spreco di token
 - Niente worker per task banali: costa di più spiegarlo che farlo.
+- **Chat del padre corta:** il lavoro sporco (Blender, import, render, iterazioni sugli screenshot) va ai worker. Quando la chat si allunga, il padre scrive in TASKS.md lo stato e il prompt pronto del prossimo task, fa il commit e chiede `/clear`.
 - Leggere solo i file e le sezioni necessari; niente esplorazioni "per sicurezza".
 - Report dei worker: max 10 righe (file toccati, esito del check, problemi). Niente codice incollato.
 - Non rifare il lavoro di un worker: se il check fallisce, rimandarlo con l'errore preciso.

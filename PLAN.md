@@ -158,6 +158,19 @@ Testi leggibili da 3 m: domanda ≥ 56 px, risposte ≥ 44 px, margini di sicure
 ```
 L'ordine delle risposte viene mescolato a ogni partita.
 
+### Contratti prova visiva (V4) — stato reale del codice al 2026-10-13
+Le API di M1 restano valide per `game/game.gd` (sopra). Cambiano/si aggiungono:
+
+**`stage/stage.gd`** (stage.tscn): stesse funzioni di M1 (`setup_players(names)`, `play_intro()`→`intro_finished`, `focus_question()`, `show_reveal(results)`, `update_scores(scores)`, `celebrate(winner_id)`), più i `Marker3D` figli diretti `HostSpot` e `PlayerSpot0`…`PlayerSpot5` (+Z verso la camera; `setup_players` riposiziona i primi N in arco). `const GLOW` in cima per spegnere il glow.
+
+**`ui/hud.gd`** (hud.tscn, CanvasLayer): `show_menu()`, `setup_players(names, portraits)` (portraits: Texture2D o null → quadrato colorato con iniziale), `show_question(index, total, q)`, `set_time(left, total)`, `mark_answered(id)`, `show_reveal(correct, results)` (✓/✗ per giocatore), `update_scores(scores)`, `show_scoreboard(ranking)`, `show_final(ranking)`, `hide_all()`. Layout: barra domanda in alto, risposte a sinistra (x 96–600), giocatori a destra (x 1380–1824); il centro è libero per il 3D.
+
+**`stage/character.gd`** (script, niente .tscn): `var c := preload("res://stage/character.gd").new(); add_child(c); c.setup(path, height := 1.8); c.play(anim)`. Animazioni: loop `idle happy talk talk2 think zombie_idle dance_hiphop dance_rumba dance_silly dance_thriller`; una volta e poi idle `cheer victory defeated disappointed clap surprised rally`.
+
+**Personaggi** (`assets/models/characters/`): presentatore `host.fbx` = **Lello Splendore**. Concorrenti (file → nome → chiave voce): `polpetta.fbx` Don Polpetta `polpetta` · `smeralda.fbx` Madame Smeralda `smeralda` · `zippo.fbx` Zippo `zippo` (altezza 1.4) · `lola.fbx` Lola Bigodina `lola` · `zombi.fbx` Zio Zombi `zombi` · `elvio.fbx` Elvio Panzerotto `elvio` · `macho.fbx` El Macho `macho`.
+
+**Voce** (`assets/voice/<id>.mp3`, testi in `lines.json`): gruppi per prefisso, si sceglie a caso evitando l'ultima usata del gruppo. Generali: `menu_ intro_ qfirst_ qnext_ qlast_ firstbuzz_ nobody_ hurry_ allright_ noneright_ someright_ scores_ tie_ final_ outro_ filler_`. Per personaggio: `pres_<chiave>` (presentazione), `solo_<chiave>` (unico che indovina), `last_<chiave>` (ultimo in classifica), `win_<chiave>` (vince). Il presentatore NON legge le domande. Nuove battute: aggiungerle a `lines.json` e lanciare `node tools/gen_voice.mjs --go <id>` (crediti contati: genera solo i file mancanti).
+
 ### Protocollo con i telefoni (M2)
 Messaggi JSON su WebSocket.
 

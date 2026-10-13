@@ -41,10 +41,27 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 
 | ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
 |---|---|---|---|---|---|---|
-| V1 | Personaggi cartoon caricaturali (presentatore + 4-6 concorrenti): S li genera su Meshy con i prompt del padre, scarica i glb rigged + animati | S + P | — | `assets/models/characters/*` | glb importati, animazioni mappate | doing |
+| V1 | Personaggi cartoon caricaturali (presentatore + 4-6 concorrenti): S li genera su Meshy con i prompt del padre, scarica i glb rigged + animati | S + P | — | `assets/models/characters/*` | glb importati, animazioni mappate | done |
 | V2 | Studio stile quiz TV (rif. `ref/5.jpg`, `6.jpg`, `1.jpg`) + slot per personaggi | W | — | `stage/stage.tscn`, `stage/stage.gd` | screenshot | done |
 | V3 | HUD stile quiz TV: barra domanda in alto + orologio, risposte a sinistra, giocatori a destra con ritratto, ✓/✗ (rif. `ref/5.jpg`, `4.jpg`) | W | — | `ui/hud.tscn`, `ui/hud.gd`, `assets/fonts/*` | screenshot | done |
-| V4 | Scena di prova: studio + personaggi + HUD come `ref/5.jpg`; FPS sulla TV | P | V1–V3 | `main.*`, `project.godot` | screenshot PC + TV, ok S | todo |
+| V4 | Scena di prova: studio + personaggi + HUD come `ref/5.jpg`; FPS sulla TV | W | V1–V3 | vedi prompt sotto | screenshot PC + TV, ok S | todo |
+
+**Prompt pronto per il worker V4** (effort `medium`; il padre lo lancia così com'è, poi verifica i frame):
+> Task V4 — Scena di prova completa (mini-partita di 3 domande, livello quiz TV)
+> Progetto Godot 4.7.2 in C:\react\BUZZ, renderer Compatibility, 1920×1080, GDScript tipizzato. Godot console: vedi CLAUDE.md "Toolchain".
+> LEGGI SOLO: PLAN.md sezioni "Contratti M1" (solo la parte `game/game.gd`) e "Contratti prova visiva (V4)". Non esplorare altro.
+> FILE CONSENTITI: `main.tscn`, `main.gd` (sostituisci la scena del cubo; non usare `net/`), `project.godot` (solo azioni di input), `export_presets.cfg` (solo `include_filter`: aggiungi `*.json`), `stage/stage.gd` (solo posizioni/fov delle camere), ELIMINA `stage/host.tscn`, `stage/host.gd`, `assets/models/host/` e la riga KayKit in `assets/LICENSES.md`.
+> FLUSSO: 4 giocatori = giocatore 1 umano + 3 bot, personaggi diversi scelti a caso fra i 7; nomi = nomi dei personaggi; `Game.setup(nomi, questions.json, 3)`. Presentatore (`character.gd` con `host.fbx`) su `HostSpot`, concorrenti su `PlayerSpotN`. Voce con un `AudioStreamPlayer`; mentre parla il presentatore fa `talk`/`talk2`, poi `idle`.
+> MENU: `hud.show_menu()`, voce `menu_` ogni ~12 s; OK/Invio/tasto centrale → `game.start()`.
+> INTRO: `stage.play_intro()` + voce `intro_`; poi `pres_<chiave>` di ogni concorrente (il presentato fa `happy`/`clap`); quando voce e intro sono finite → `advance()`.
+> QUESTION: `hud.show_question`, `stage.focus_question()`, voce `qfirst_`/`qnext_`/`qlast_`, concorrenti `think`; `game.tick(delta)` in `_process`, `hud.set_time`. Giocatore 1: tasti `1`–`4` e telecomando (su=0, destra=1, giù=2, sinistra=3). Bot: rispondono a caso dopo 2–10 s. Prima risposta della domanda → 50% voce `firstbuzz_`; a 5 s dalla fine se qualcuno non ha risposto → `hurry_`. `answer_received` → `hud.mark_answered`.
+> REVEAL (`question_resolved`): `hud.show_reveal`, `stage.show_reveal`; chi ha indovinato `cheer`/`victory`, gli altri `disappointed`/`defeated`; voce: tutti → `allright_`, nessuno → `noneright_`, uno solo → `solo_<chiave>`, altrimenti `someright_`; presentatore `surprised` o `clap`. Fine voce + 1 s → `advance()`.
+> SCOREBOARD: `hud.update_scores` + `stage.update_scores` + `hud.show_scoreboard`; voce: pareggio in testa → `tie_`, altrimenti 50% `last_<chiave dell'ultimo>` / 50% `scores_`. Fine voce + 1 s → `advance()`.
+> FINAL (`game_over`): voce `final_` → poi `win_<chiave>`, `stage.celebrate(vincitore)`, vincitore `dance_*` a caso, altri `clap`; `hud.show_final`; voce `outro_`; OK → MENU.
+> Mai sovrapporre due battute: una nuova interrompe solo se è di fase diversa.
+> DEMO: con l'argomento `-- --demo` anche il giocatore 1 è un bot e il MENU parte da solo dopo 2 s (serve per i test).
+> INQUADRATURA domanda: presentatore in primo piano al centro, i 4 concorrenti visibili dietro nella fascia x 620–1380 (stile `ref/5.jpg`, guardalo).
+> CHECK: `godot --path C:\react\BUZZ --write-movie <scratchpad>\V4\shot.png --quit-after 3600 -- --demo` (non headless), nessun ERROR/WARNING nell'output; guarda i frame di intro, domanda, reveal, classifica, finale e correggi. Report max 10 righe con i nomi dei frame migliori.
 
 ## Log
 - 2026-10-10 — Piano scritto (PLAN.md), flusso di lavoro definito (CLAUDE.md, worker). In attesa dell'approvazione del supervisore.
@@ -57,3 +74,4 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 - 2026-10-13 — Voce del presentatore "Lello Splendore" (showman provocatore, non legge le domande): 56 battute in `assets/voice/` generate con `tools/gen_voice.mjs` (ElevenLabs v3, voce Voice Design, Creative). Chiave in variabile utente ELEVENLABS_API_KEY. Personaggi: modelli Mixamo in `3dmodel/` (non ancora nel repo), nomi fissi: Don Polpetta, Madame Smeralda, Zippo, Lola Bigodina, Zio Zombi, Elvio Panzerotto, El Macho.
 - 2026-10-13 — Personaggi Mixamo in `assets/models/characters/` (polpetta, smeralda, zippo, lola, zombi, elvio, macho) + 17 animazioni Mixamo in `assets/animations/`; `stage/character.gd` le ripunta sullo scheletro di ogni modello (ok sui 7 Mixamo). Presentatore Meshy: rig incompatibile (assi diversi, 31 ossa, pesi difettosi) → da ririggare con l'auto-rigger di Mixamo.
 - 2026-10-13 — Nuovo presentatore `host.fbx` (Meshy in T-pose → Blender: 1 mesh, 20k tris, OBJ zip → auto-rigger Mixamo): tutte le animazioni ok. Per altri modelli Meshy: `blender -b --python tools/meshy_to_mixamo.py -- <fbx> <albedo.png> <cartella>` → caricare lo zip su Mixamo.
+- 2026-10-13 — Contratti V4 in PLAN.md ("Contratti prova visiva"). V4 pronto con prompt del worker in TASKS.md. Prossimo: nuova sessione → lanciare V4 (worker, medium) → verificare i frame → misura FPS sulla TV.
