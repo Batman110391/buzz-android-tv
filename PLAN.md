@@ -27,6 +27,11 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 | Sottotitoli | Fumetto con il testo di Tony, attivabile/disattivabile dal titolo (salvato in `user://impostazioni.cfg`) | Accessibilità |
 | Controller | Pagina web sul telefono (WebSocket verso la TV); tastiera/telecomando + bot per i test | Nessuna app da installare |
 | Lingua | Italiano | — |
+| **Domande** | Servite da un **Cloudflare Worker + D1** (piano gratuito); la TV le scarica all'avvio e le tiene in cache; aggiornate da un cron del Worker che genera con **Gemini** e verifica con un modello **OpenRouter** diverso (§4 "Domande") | Domande nuove senza aggiornare l'app, costo zero |
+| Dotazione iniziale | ~1.600 domande scritte da Claude (worker), incluse anche nell'APK come riserva offline | Si gioca anche senza rete; fanno da "set buono" per tarare i prompt |
+| Foto Misteriosa | Immagini da **Pixabay** (API gratuita), scelte dal Worker | G3 |
+| Segreti | Solo in `.env` sul PC (da `.env.example`, escluso da git) e nei segreti del Worker; mai nell'APK | Repo pubblico |
+| Repository | Pubblico con licenza; gestisce le release dell'APK quando serve | — |
 
 ---
 
@@ -45,14 +50,19 @@ La logica non contiene grafica: `game/game.gd` emette segnali, le schermate li a
 ```
 BUZZ/
 ├── project.godot · main.tscn/main.gd      # flusso della partita, collega game ↔ schermate ↔ input ↔ voce
-├── game/game.gd · questions.json          # regole pure + domande
+├── game/game.gd                            # regole pure (nessun nodo grafico)
+├── game/domande.gd                         # (D5) carica le domande: cache → server → riserva; ricorda le uscite
+├── domande/<tipo>/<categoria>.json         # (D2) dotazione iniziale = riserva offline nell'APK
 ├── ui/                                     # schermate e componenti (costruiti da codice)
 │   ├── palco.gd · risposta.gd · podio.gd · schermata_domanda.gd · personaggio.gd
 ├── net/server.gd · controller.html        # HTTP 8080 + WebSocket 8081 sulla TV
 ├── audio/sfx.gd                            # autoload Sfx (effetti + musica)
 ├── assets/ personaggi/ palco/ fonts/ voice/ audio/   (licenze: assets/LICENSES.md)
 ├── design/quizzone/                        # design system (con .gdignore): README, .dc.html, SVG sorgente
+├── server/                                 # (D4, con .gdignore) Cloudflare Worker: src/, schema.sql, wrangler.toml
 ├── tools/ svg_to_png.gd · palco.html · gen_voice.mjs · perf.sh
+│   ├── domande_check.mjs · prompt_test.mjs · mock_api.mjs · prompts/ · fixtures/   # (D1–D3)
+├── .env.example                            # variabili per gli script (copiare in .env, escluso da git)
 └── tests/ test_game.gd · test_server.gd · test_personaggi.* · test_domanda.* · quizzone_test.* (prova completa)
 ```
 
@@ -63,8 +73,73 @@ BUZZ/
 - `Podio`: `setup(nome, colore, numero, punti)`, `metti_personaggio(p)`, `set_stato(''|ok|ko|risposto|bomba|mira)` (imposta anche lo stato del personaggio), `badge(testo, scuro)`, `set_punti(n)`.
 - `SchermataDomanda`: `setup_podi(giocatori)`, `podio(i)`, `mostra_domanda(n, tot, titolo_round, testo, risposte)`, `set_tempo(left, total)`, `risposto(pid, scelta)`, `rivela(corretta, scelte, punti)`.
 
-### Formato domande (`questions.json`)
-`{"category": "...", "question": "...", "answers": ["...", "...", "...", "..."], "correct": 0}`
+### Domande — contenuti, server, aggiornamento automatico (approvato 2026-10-13)
+
+**Perché così.** Le domande cambiano spesso, l'app no: la TV le scarica da un server gratuito e le mette in cache. Un'IA genera, un'IA *diversa* verifica alla cieca, regole automatiche scartano il resto; le statistiche reali delle partite correggono la difficoltà e sospendono le domande sbagliate. Finché il server non c'è si lavora con i **mock** (sotto).
+
+#### Tipi (divisi per *come si gioca*, non per gioco: molti giochi usano la stessa forma)
+| Tipo | Giochi | Campi specifici | Lunghezze massime |
+|---|---|---|---|
+| `classica` | Accumula Punti, Ruba Punti, Torta in Faccia, Conto alla Rovescia | `risposte[4]` (la **giusta è sempre la prima**: il gioco mescola) | domanda 90, risposta 26 |
+| `lampo` | Dito Veloce, Passa la Bomba | come `classica`, ma si capisce in 2 s | domanda 55, risposta 16 |
+| `ordine` | Metti in Ordine | `criterio` ("Dal più antico al più recente"), `elementi[4]` **nell'ordine giusto**, `valori[4]` (1492, 1789…: si mostrano alla rivelazione e rendono l'ordine verificabile) | criterio 50, elemento 22, valore 14 |
+| `foto` | Foto Misteriosa | `immagine` (URL Pixabay), `autore`, `pagina`, `risposte[4]` | (G3) |
+
+Le lunghezze vengono dal design: pannello domanda 1540 px a 60 px = 2 righe; carta risposta 848 px a 48 px. Contano i caratteri dopo il trim.
+
+#### Campi comuni
+```json
+{"id":"cl-geo-0001","tipo":"classica","categoria":"geografia","difficolta":2,
+ "domanda":"Qual è la capitale dell'Australia?",
+ "risposte":["Canberra","Sydney","Melbourne","Perth"],
+ "curiosita":"Fu costruita apposta per mettere d'accordo Sydney e Melbourne.",
+ "fatto":"capitale australia canberra",
+ "fonte":"https://it.wikipedia.org/wiki/Canberra",
+ "origine":"claude","creata":"2026-10-13"}
+```
+- `id`: `<cl|la|or|fo>-<cat3>-<NNNN>`, unico e mai riusato.
+- `fatto`: chiave breve del fatto chiesto, minuscole senza accenti né punteggiatura; due domande sullo stesso fatto = doppione (anche se scritte diversamente).
+- `curiosita` (≤ 120): si mostra alla rivelazione ("Lo sapevi?").
+- `fonte`: pagina dove il fatto si verifica (preferibilmente Wikipedia italiana).
+- `origine`: `claude` | `gemini`; sul server si aggiungono `stato` (`attiva` | `sospesa`), `uscite`, `giuste`.
+
+**Categorie (12, chiavi fisse):** `geografia` `storia` `scienza` `natura` (natura e animali) `cinema_tv` `musica` `sport` `cucina` `arte_letteratura` `lingua` (lingua italiana e modi di dire) `tecnologia` (tecnologia e invenzioni) `costume` (costume, giochi, vita quotidiana, curiosità).
+
+**Difficoltà** (per un gruppo di amici adulti italiani, età miste): **1** la sa quasi chiunque · **2** circa metà del tavolo · **3** pochi, ma sentita la risposta si dice "ah, giusto!" (mai nozioni da specialisti). Dopo 20 uscite la difficoltà si ricalcola dai dati reali: ≥ 75% giuste → 1, 35–75% → 2, < 35% → 3; < 5% dopo 20 uscite → `sospesa` (probabilmente sbagliata).
+
+**Regole di qualità** (stesse per Claude, Gemini e il verificatore):
+1. Una sola risposta giusta, senza ambiguità né interpretazioni.
+2. Sbagliate plausibili, dello stesso tipo e formato della giusta (tutte città, tutti anni…), di lunghezza simile; niente risposte-scherzo.
+3. Vietati: negazioni ("quale NON…"), "tutte/nessuna delle precedenti", domande sul futuro, fatti che possono cambiare entro 5 anni (record, cariche, "l'attuale…"), opinioni, stereotipi, contenuti offensivi, politica di parte, tragedie recenti.
+4. La domanda non contiene indizi della risposta; italiano corretto con accenti (È, perché); niente punto finale nelle risposte.
+5. Varietà: niente due domande sullo stesso `fatto`; non più di 3 domande sullo stesso argomento ristretto per categoria.
+
+#### Dotazione iniziale (D2, scritta da Claude)
+Per categoria: 90 `classica` (30 per difficoltà) + 30 `lampo` + 15 `ordine` → **~1.620** domande in `domande/<tipo>/<categoria>.json` (array JSON). Una partita ne usa ~30 → ~50 partite senza ripetizioni. `tools/domande_check.mjs` valida tutto (schema, lunghezze, regole meccaniche, doppioni di `fatto` e di testo) ed esce con codice ≠ 0 se trova errori.
+
+#### Prompt e banco di prova (D3)
+- `tools/prompts/genera.md` (Gemini): ruolo, pubblico, regole di qualità, scala di difficoltà con 2 esempi per livello presi dalla dotazione, elenco dei `fatto` già presenti nella categoria, richiesta di N domande di un `tipo`/`categoria`/`difficolta`; uscita JSON con schema obbligato (`responseSchema`).
+- `tools/prompts/verifica.md` (OpenRouter): riceve la domanda con le risposte **mescolate e senza indicare la giusta**; restituisce `scelta`, `sicurezza` 0–100, `difficolta` stimata, `problemi[]` (`ambigua` `piu_giuste` `errata` `superata` `indizio` `troppo_lunga` `offensiva` `noiosa`). **Accettata** se `scelta` = giusta, `sicurezza` ≥ 80 e `problemi` vuoto.
+- `tools/prompt_test.mjs`: (a) set **buono** = campione della dotazione → il verificatore ne deve accettare ≥ 90%; (b) set **rotto** `tools/fixtures/rotte.json` (~60 domande sbagliate apposta: giusta errata, due giuste, superate, negazioni, indizi) → deve scartarne ≥ 90%; (c) generatore: ≥ 70% delle domande prodotte accettate, 0 errori di schema, 0 doppioni. Si ritoccano i prompt finché tutte e tre le soglie passano; i risultati si annotano in TASKS.md.
+- Con `QUIZZONE_MOCK=1` (default) gli script leggono risposte finte da `tools/fixtures/` invece di chiamare le IA: si sviluppa e si testa tutto senza chiavi e senza consumare quote.
+
+#### Server (D4): Cloudflare Worker + D1 in `server/`
+| Endpoint | Chi | Cosa |
+|---|---|---|
+| `GET /v1/versione` | TV | `{"versione": 12, "totale": 1620}` — numero che sale a ogni inserimento/modifica |
+| `GET /v1/domande` | TV | `{"versione": 12, "domande": [...]}` solo `attiva`, senza campi interni (compresso dal CDN) |
+| `POST /v1/esiti` | TV a fine partita | `{"partita": "<uuid>", "esiti": [{"id": "...", "giocatori": 4, "giuste": 2}]}` — max 64 KB, max 60 esiti, id esistenti, numeri plausibili, altrimenti 400 |
+| `POST /v1/segnala` | telefono (G2) | `{"id": "...", "motivo": "errata|ambigua|altro"}` — limite per IP |
+| `POST /v1/admin/*` | supervisore | `Authorization: Bearer QUIZZONE_ADMIN_TOKEN`: sospendi/riattiva, lancia il cron a mano |
+| cron (settimanale) | Worker | sceglie le combinazioni tipo/categoria/difficoltà più scarse → Gemini genera → regole meccaniche → OpenRouter verifica → inserisce le accettate (`origine: gemini`) → `versione`+1 |
+
+Modelli in variabili del Worker (`GEMINI_MODEL`, `OPENROUTER_MODEL`): i modelli gratuiti cambiano, si sostituiscono senza toccare il codice. Chiavi con `wrangler secret put`. Limiti del piano gratuito (CPU per richiesta, sotto-richieste, scritture D1, cron) da ricontrollare sulla documentazione Cloudflare prima di scrivere il Worker.
+
+#### Mock (finché il Worker non c'è)
+`tools/mock_api.mjs` (Node, nessuna dipendenza): stesso contratto del Worker su `http://<IP del PC>:8787` (la porta di `wrangler dev`), serve la dotazione di `domande/` e scrive gli esiti ricevuti in un file nello scratchpad. Così il gioco (D5) si sviluppa contro l'API vera; passare al Worker = cambiare l'URL.
+
+#### Client nel gioco (D5): `game/domande.gd`
+All'avvio: `GET /v1/versione` (timeout 3 s) → se più nuova della cache scarica `/v1/domande` → **valida ogni domanda** come dato non fidato (tipo, categoria, lunghezze, 4 risposte, scarta il resto) → salva `user://domande.json`. Senza rete o con errori: cache, altrimenti la riserva `res://domande/`. Ricorda gli id usciti (`user://uscite.json`) e pesca prima i mai usciti. Sceglie per tipo/difficoltà secondo il round. A fine partita invia gli esiti (se fallisce, li ritenta la volta dopo). URL del server in `project.godot` (`quizzone/api_url`).
 
 ### Protocollo con i telefoni (M2)
 Messaggi JSON su WebSocket.
@@ -95,6 +170,8 @@ Ogni milestone si chiude con l'approvazione del supervisore sulla TV.
 ### M0 — Prova tecnica ✅ (2026-10-10) · Prova Quizzone ✅ (2026-10-13: 60 FPS, approvata)
 
 ### G1 — Partita completa da telecomando (bot al posto degli amici)
+Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il Worker non serve ancora.
+
 - [ ] Titolo (1a) con opzione sottotitoli
 - [ ] Lobby (1b): giocatore 1 da telecomando + bot, scelta del numero di giocatori (2–6)
 - [ ] Presentazione round (1c)
@@ -103,6 +180,13 @@ Ogni milestone si chiude con l'approvazione del supervisore sulla TV.
 - [ ] Battute nuove con i nomi di Tony e dei 6 concorrenti (ElevenLabs)
 - [ ] App avviabile dal launcher della Fire TV (icona, leanback)
 
+### D — Domande dal server (§4 "Domande"; può procedere in parallelo a G1)
+- [ ] D1 schema + `tools/domande_check.mjs` + `tools/mock_api.mjs`
+- [ ] D2 dotazione iniziale ~1.620 domande (12 categorie), check verde
+- [ ] D3 prompt `genera.md`/`verifica.md` + `prompt_test.mjs`: soglie passate prima in mock, poi con le chiavi vere
+- [ ] D4 Worker + D1 + cron + endpoint, dotazione caricata, URL pubblico
+- [ ] D5 `game/domande.gd`: cache, validazione, riserva, uscite, esiti; prova sulla TV senza rete e con rete
+
 ### G2 — Telefoni come controller
 - [ ] Lobby con QR + indirizzo + codice; il telefono sceglie personaggio e nome (1l)
 - [ ] 4 tasti con forma e testo (1m), risposta bloccata (1n), esito sul telefono
@@ -110,13 +194,14 @@ Ogni milestone si chiude con l'approvazione del supervisore sulla TV.
 
 ### G3 — Mini-giochi
 - [ ] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o)
-- [ ] Torta in Faccia · Metti in Ordine · Foto Misteriosa (servono foto libere)
+- [ ] Torta in Faccia · Metti in Ordine · Foto Misteriosa (immagini Pixabay via API, scelte dal Worker; autore e pagina mostrati)
 - [ ] Conto alla Rovescia come finale
 
 ### G4 — Contenuti e rifinitura
 - [ ] 200+ domande in categorie, riviste dal supervisore
 - [ ] Musica e effetti coerenti con lo stile
 - [ ] Playtest con amici veri
+- [ ] Repo pubblico con licenza, README, release dell'APK firmato
 
 ---
 
@@ -132,3 +217,4 @@ Ogni milestone si chiude con l'approvazione del supervisore sulla TV.
 ## 7. Decisioni aperte
 - Numero di round e domande per partita (dopo il playtest).
 - Ordine e scelta dei mini-giochi in una partita (fissa o casuale).
+- Licenza del repo pubblico (codice) e note per gli asset: voci ElevenLabs piano Free = attribuzione e uso non commerciale.

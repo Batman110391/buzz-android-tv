@@ -10,3 +10,5 @@ Thumbs.db
 # Claude Code local
 .claude/settings.local.json
 ref/
+# Segreti locali
+.env

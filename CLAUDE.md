@@ -49,4 +49,5 @@ Caricato in ogni sessione: tenerlo corto.
 - Regole in `game/game.gd` senza nodi grafici; la grafica reagisce ai segnali.
 - Test: `godot --headless --script tests/test_game.gd` (esce con codice ≠ 0 se fallisce).
 - Asset solo gratuiti, annotati in `assets/LICENSES.md`. Niente asset, nomi o audio di Buzz/Sony.
-- Mai lasciare il server della TV aperto a input non validati (vedi PLAN.md §4).
+- Mai lasciare il server della TV aperto a input non validati (vedi PLAN.md §4). Le domande scaricate sono dati non fidati: validarle.
+- Segreti solo in `.env` (da `.env.example`, escluso da git): script Node con `node --env-file=.env ...`; `QUIZZONE_MOCK=1` = niente chiamate alle IA. Mai chiavi nell'APK.
