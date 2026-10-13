@@ -8,11 +8,18 @@ func _check(cond: bool, msg: String) -> void:
 		quit(1)
 
 func _init() -> void:
-	var f := FileAccess.open("res://game/questions.json", FileAccess.READ)
-	var qs: Array = JSON.parse_string(f.get_as_text())
-	_check(qs.size() == 12, "12 domande")
-	for q: Dictionary in qs:
-		_check(q["answers"].size() == 4 and int(q["correct"]) >= 0 and int(q["correct"]) <= 3, "domanda valida")
+	DirAccess.remove_absolute(Domande.USCITE)
+	var dom := Domande.new()
+	dom.carica()
+	var prime: Array = dom.pesca("classica", 5)
+	_check(prime.size() == 5, "pesca 5")
+	var qs: Array = dom.pesca("classica", 100)
+	_check(qs.size() >= 12, "riserva >= 12")
+	for q: Dictionary in qs.slice(0, qs.size() - 5):
+		_check(not prime.has(q), "prima le mai uscite")
+	for q: Dictionary in dom.pesca("classica", 3, 2):
+		_check(int(q["difficolta"]) == 2, "filtro difficolta")
+	DirAccess.remove_absolute(Domande.USCITE)
 
 	var names: Array[String] = ["A", "B", "C"]
 	var g = GameScript.new()
@@ -61,13 +68,14 @@ func _init() -> void:
 	g2.start()
 	g2.advance()
 	var q: Dictionary = q2[0]
-	_check(q["answers"][q["correct"]] == "Po", "mescolamento conserva la giusta")
-	_check(qs[0]["answers"][0] == "Po", "originale intatto")
+	var giusta: String = qs[0]["risposte"][0]
+	_check(q["risposte"][q["correct"]] == giusta, "mescolamento conserva la giusta")
+	_check(qs[0]["risposte"][0] == giusta and not qs[0].has("correct"), "originale intatto")
 	g2.submit_answer(0, q["correct"])
 	g2.submit_answer(1, (q["correct"] + 1) % 4)
 	g2.tick(0.1)
 	g2.tick(20.0)
 	_check(res2[0][1][0] and not res2[0][1][1] and not res2[0][1][2], "risultati")
-	_check(res2[0][2][0] == 100 and res2[0][2][1] == 0, "punteggi")
+	_check(res2[0][2][0] == 500 and res2[0][2][1] == 0, "punteggi")
 	print("PASS")
 	quit(0)

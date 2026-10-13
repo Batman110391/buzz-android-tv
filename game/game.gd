@@ -1,7 +1,7 @@
 class_name Game extends RefCounted
 
 const QUESTION_TIME := 15.0
-const POINTS_CORRECT := 100
+const POINTS_CORRECT := 500
 enum Phase { MENU, INTRO, QUESTION, REVEAL, SCOREBOARD, FINAL }
 
 signal phase_changed(phase: Phase)
@@ -40,12 +40,12 @@ func start() -> void:
 	_index = -1
 	_set_phase(Phase.INTRO)
 
+# formato di domande/ (game/domande.gd): la giusta è risposte[0]; qui si mescola e si aggiunge "correct"
 func _shuffle_answers(src: Dictionary) -> Dictionary:
 	var q: Dictionary = src.duplicate(true)
-	var right: String = q["answers"][int(q["correct"])]
-	var answers: Array = q["answers"]
+	var right: String = q["risposte"][0]
+	var answers: Array = q["risposte"]
 	answers.shuffle()
-	q["answers"] = answers
 	q["correct"] = answers.find(right)
 	return q
 

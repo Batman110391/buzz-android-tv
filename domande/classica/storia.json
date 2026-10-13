@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-sto-0001",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno è caduto il Muro di Berlino?",
+    "risposte": [
+      "1989",
+      "1985",
+      "1987",
+      "1991"
+    ],
+    "curiosita": "Cadde la notte del 9 novembre, dopo un annuncio fatto per errore in TV.",
+    "fatto": "caduta muro berlino 1989",
+    "fonte": "https://it.wikipedia.org/wiki/Muro_di_Berlino",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-sto-0002",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fu il primo imperatore di Roma?",
+    "risposte": [
+      "Augusto",
+      "Nerone",
+      "Giulio Cesare",
+      "Traiano"
+    ],
+    "curiosita": "Giulio Cesare non fu mai imperatore: era dittatore.",
+    "fatto": "primo imperatore roma augusto",
+    "fonte": "https://it.wikipedia.org/wiki/Augusto",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

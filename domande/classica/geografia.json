@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-geo-0001",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il fiume più lungo d'Italia?",
+    "risposte": [
+      "Po",
+      "Tevere",
+      "Adige",
+      "Arno"
+    ],
+    "curiosita": "Attraversa quattro regioni e nasce dal Monviso.",
+    "fatto": "fiume piu lungo italia po",
+    "fonte": "https://it.wikipedia.org/wiki/Po",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-geo-0002",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale dell'Australia?",
+    "risposte": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Perth"
+    ],
+    "curiosita": "Fu costruita apposta per mettere d'accordo Sydney e Melbourne.",
+    "fatto": "capitale australia canberra",
+    "fonte": "https://it.wikipedia.org/wiki/Canberra",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

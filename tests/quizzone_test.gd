@@ -61,7 +61,9 @@ func _ready() -> void:
 	var re := RegEx.create_from_string(r"\[[^\]]*\]\s*")
 	for k: String in lines:
 		_testi[k] = re.sub(str(lines[k]), "", true)
-	_domande = JSON.parse_string(FileAccess.get_file_as_string("res://game/questions.json"))
+	var dom := Domande.new()
+	dom.carica()
+	_domande = dom.pesca("classica", 100)
 	if "--quick" in OS.get_cmdline_user_args():
 		_titolo.visible = false
 		_host.position.x = -700.0
@@ -169,14 +171,17 @@ func _domanda() -> void:
 	_hurry = false
 	_quando.clear()
 	_scelta.clear()
-	var q: Dictionary = _domande[randi() % _domande.size()]
+	var q: Dictionary = _domande[randi() % _domande.size()].duplicate(true)
+	var giusta: String = q["risposte"][0]
+	q["risposte"].shuffle()
+	q["correct"] = q["risposte"].find(giusta)
 	for i in GIOCATORI.size():
 		_quando.append(randf_range(2.0, 11.0) if i > 0 else 999.0)
 		_scelta.append(-1)
 		_s.podio(i).set_stato("")
 		_pers[i].stato("pensa")
 	_s.set_meta("q", q)
-	_s.mostra_domanda(_n + 1, 3, "ACCUMULA PUNTI", q["question"], q["answers"])
+	_s.mostra_domanda(_n + 1, 3, "ACCUMULA PUNTI", q["domanda"], q["risposte"])
 	_s.set_tempo(TOT, TOT)
 
 

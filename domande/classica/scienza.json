@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-sci-0001",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Qual è il simbolo chimico dell'oro?",
+    "risposte": [
+      "Au",
+      "Ag",
+      "Or",
+      "Fe"
+    ],
+    "curiosita": "Au viene dal latino aurum.",
+    "fatto": "simbolo chimico oro au",
+    "fonte": "https://it.wikipedia.org/wiki/Oro",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-sci-0002",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Qual è il pianeta più grande del Sistema Solare?",
+    "risposte": [
+      "Giove",
+      "Saturno",
+      "Nettuno",
+      "Urano"
+    ],
+    "curiosita": "Dentro Giove ci starebbero più di mille Terre.",
+    "fatto": "pianeta piu grande giove",
+    "fonte": "https://it.wikipedia.org/wiki/Giove_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

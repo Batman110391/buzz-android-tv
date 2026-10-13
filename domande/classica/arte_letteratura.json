@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-art-0001",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse la Gioconda?",
+    "risposte": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raffaello",
+      "Caravaggio"
+    ],
+    "curiosita": "Leonardo se la portò dietro fino in Francia e non la consegnò mai.",
+    "fatto": "gioconda leonardo",
+    "fonte": "https://it.wikipedia.org/wiki/Gioconda",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-art-0002",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse la Divina Commedia?",
+    "risposte": [
+      "Dante Alighieri",
+      "Petrarca",
+      "Boccaccio",
+      "Manzoni"
+    ],
+    "curiosita": "Fu Boccaccio ad aggiungere l'aggettivo divina.",
+    "fatto": "divina commedia dante",
+    "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

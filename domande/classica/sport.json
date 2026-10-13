@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cl-spo-0001",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori per squadra scendono in campo in una partita di calcio?",
+    "risposte": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "curiosita": "Il numero 11 fu fissato dalle regole inglesi del 1870.",
+    "fatto": "giocatori squadra calcio 11",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

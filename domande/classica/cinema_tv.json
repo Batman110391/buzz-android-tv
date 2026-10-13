@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cl-cin-0001",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto il film \"Il Padrino\"?",
+    "risposte": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Steven Spielberg",
+      "Stanley Kubrick"
+    ],
+    "curiosita": "Nel film recita anche la figlia di Coppola, Sofia, da neonata.",
+    "fatto": "regista padrino coppola",
+    "fonte": "https://it.wikipedia.org/wiki/Il_padrino_(film)",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]

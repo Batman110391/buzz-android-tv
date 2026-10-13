@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-mus-0001",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quanti tasti ha un pianoforte standard?",
+    "risposte": [
+      "88",
+      "76",
+      "92",
+      "100"
+    ],
+    "curiosita": "52 tasti bianchi e 36 neri.",
+    "fatto": "tasti pianoforte 88",
+    "fonte": "https://it.wikipedia.org/wiki/Pianoforte",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-mus-0002",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale compositore scrisse \"Le quattro stagioni\"?",
+    "risposte": [
+      "Vivaldi",
+      "Mozart",
+      "Bach",
+      "Verdi"
+    ],
+    "curiosita": "Ogni concerto è accompagnato da un sonetto, forse scritto da Vivaldi stesso.",
+    "fatto": "quattro stagioni vivaldi",
+    "fonte": "https://it.wikipedia.org/wiki/Le_quattro_stagioni",
+    "origine": "claude",
+    "creata": "2026-10-13"
+  }
+]
