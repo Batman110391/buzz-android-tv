@@ -38,7 +38,7 @@ Caricato in ogni sessione: tenerlo corto.
 - Godot 4.7.2 console: `C:\Users\simon\AppData\Local\Microsoft\WinGet\Packages\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\Godot_v4.7.2-stable_win64_console.exe` (GUI: stessa cartella, senza `_console`)
 - JDK 17: `C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot` (nel PATH c'è il JDK 11: non usarlo)
 - Android SDK: `C:\Users\simon\AppData\Local\Android\Sdk` · keystore debug: `C:\Users\simon\.android\debug.keystore`
-- Fire TV: `192.168.1.61:5555` (AFTKRT). **ABI solo `armeabi-v7a`** (userland 32 bit). Ha una VPN (tun0 172.16.0.2).
+- Fire TV: `192.168.1.59:5555` (AFTKRT; IP DHCP, può cambiare: controllare `adb devices`). **ABI solo `armeabi-v7a`** (userland 32 bit). Ha una VPN (tun0 172.16.0.2).
 - **Usare SOLO l'adb dell'SDK** (`C:\Users\simon\AppData\Local\Android\Sdk\platform-tools\adb.exe`): quello in `C:\platform-tools` (nel PATH) è vecchio e i due si chiudono il daemon a vicenda.
 - Export + install: `godot --headless --path . --export-debug "Android" export/buzz-debug.apk` → `adb install -r` → `adb shell monkey -p com.buzz.quizparty 1`. Gli FPS bassi nei primi secondi sono normali (avvio).
 - Screenshot senza editor: avvio non headless con `--write-movie <dir>/shot.png --quit-after 30`

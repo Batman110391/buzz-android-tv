@@ -40,10 +40,13 @@ var _q_t := 0.0
 var _hurry := false
 var _answered: Dictionary = {}
 var _bot_t: Dictionary = {}
+var _perf := FileAccess.file_exists("user://perf.txt")  # misura sulla TV: tools/perf.sh
+var _perf_t := 0.0
+var _perf_n := 0
 
 
 func _ready() -> void:
-	demo = "--demo" in OS.get_cmdline_user_args()
+	demo = "--demo" in OS.get_cmdline_user_args() or _perf
 	questions = JSON.parse_string(FileAccess.get_file_as_string("res://game/questions.json"))
 	var all: Array = CHARS.keys()
 	all.shuffle()
@@ -85,6 +88,13 @@ func _spawn(key: String, parent: Node, height: float) -> Node3D:
 
 
 func _process(delta: float) -> void:
+	if _perf:
+		_perf_t += delta
+		_perf_n += 1
+		if _perf_t >= 2.0:
+			print("PERF fps=", snappedf(_perf_n / _perf_t, 0.1), " phase=", _phase, " prim=", RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME))
+			_perf_t = 0.0
+			_perf_n = 0
 	if not _voice.playing:
 		Sfx.duck(false)
 		if _host_talking:

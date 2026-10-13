@@ -75,7 +75,8 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 | R4 | Musica + effetti CC0 e `audio/sfx.gd` | W | — | `audio/sfx.gd`, `assets/audio/**`, `assets/LICENSES.md` | test headless che carica tutti i suoni | done |
 | R5 | HUD animato (entrate, punteggi che contano, timer che pulsa) | W | — | `ui/hud.gd` | cattura 30 s | done |
 | R6 | Collegare tutto in main: presentatore che gira per lo studio e sfotte, shot per fase, suoni | P | R2–R5 | `main.gd`, `main.tscn`, `project.godot` | `-- --demo --quick` 30 s | done |
-| R7 | FPS sulla TV | W | R6 | impostazioni grafiche | FPS ≥ 30 | todo |
+| R7 | FPS sulla TV: trovato e tolto il crash (env.adjustment = perdita di memoria su PowerVR), luce per vertice, misura con `tools/perf.sh` | P | R6 | impostazioni grafiche | app stabile | done |
+| R8 | **Studio rifatto per la TV**: tutto opaco e unshaded (luce dipinta nei colori/texture), niente riflesso specchiato, niente strati trasparenti grandi (pubblico, coni, bagliori, puntini del pavimento); stessa estetica neon. Obiettivo ≥ 50 FPS in tutte le fasi | P/W | R7 | `stage/stage.gd` | `bash tools/perf.sh build` + `run 60` | todo |
 
 **Regola catture:** massimo 30 s di gioco (`--fixed-fps 10 --quit-after 300`), `-- --demo --quick` salta l'intro.
 
@@ -93,3 +94,4 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 - 2026-10-13 — Contratti V4 in PLAN.md ("Contratti prova visiva"). V4 pronto con prompt del worker in TASKS.md. Prossimo: nuova sessione → lanciare V4 (worker, medium) → verificare i frame → misura FPS sulla TV.
 - 2026-10-13 — host.fbx ririggato (piedi a z=0, cm). V4 base + V5 look fatti. Supervisore: "statico, banale, lontano anni luce". Deciso: prima la regia (R1–R7), poi i round (tutti approvati, PLAN.md §4 "Contratti regia"), poi lo studio 3D vero.
 - 2026-10-13 — R1–R6 done: animazioni walk/strut/point/laugh/taunt fatte in Blender (`tools/make_anims.py`, keyframe a mano), director.gd (camere mobili + stacchi), Sfx autoload (Kenney CC0 + suoni sintetizzati: da far ascoltare al supervisore), HUD animato, main collegato (presentatore entra da dietro i podi, gira durante la domanda, sfotte chi sbaglia). Prossimo: R7 FPS sulla TV.
+- 2026-10-13 — R7: sulla TV l'app moriva per memoria (GL 610 MB, lowmemorykiller) → causa `env.adjustment_*` (LUT RGBAFloat che perde memoria ogni frame su PowerVR GE9215): tolto. Ora stabile (~180 MB GL). FPS 11–27: bisezione sulla TV → personaggi + HUD + logica ≈ 60 FPS da soli; **lo studio è il collo di bottiglia** (overdraw: pavimento trasparente sopra copie specchiate, pubblico/coni/bagliori trasparenti), non le luci né i triangoli. Attivati `force_vertex_shading` (+40%), MSAA 2x, glow off, texture personaggi max 1024. Strumento: `bash tools/perf.sh build|run [s]` (log `PERF fps=` attivo solo con user://perf.txt). Prossimo: R8.

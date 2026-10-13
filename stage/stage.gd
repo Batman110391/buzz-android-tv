@@ -3,7 +3,7 @@ extends Node3D
 
 signal intro_finished
 
-const GLOW := true
+const GLOW := false
 
 # Mood = [tono (fascia/scale/schermi/luci), puntini pavimento, accento (anello/arco)]
 const M_QUESTION: Array[Color] = [Color(1.0, 0.45, 0.03), Color(1.0, 0.1, 0.08), Color(0.12, 0.45, 1.0)]
@@ -169,9 +169,7 @@ func _build_env() -> void:
 	env.ambient_light_color = Color(0.5, 0.45, 0.55)
 	env.ambient_light_energy = 0.6
 	env.tonemap_mode = Environment.TONE_MAPPER_FILMIC
-	env.adjustment_enabled = true
-	env.adjustment_saturation = 1.15
-	env.adjustment_contrast = 1.05
+	# niente env.adjustment_*: sulla Fire TV (PowerVR) la LUT RGBAFloat perde memoria a ogni frame e uccide l'app
 	if GLOW:
 		env.glow_enabled = true
 		env.glow_intensity = 0.55
