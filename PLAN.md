@@ -177,7 +177,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] Presentazione round (1c)
 - [ ] 10 domande Accumula Punti con Tony che commenta (entra/esce, battute per situazione)
 - [ ] Classifica finale (1f) con coriandoli e vincitore che esulta
-- [ ] Battute nuove con i nomi di Tony e dei 6 concorrenti (ElevenLabs)
+- [x] Battute nuove con i nomi di Tony e dei 6 concorrenti (ElevenLabs)
 - [ ] App avviabile dal launcher della Fire TV (icona, leanback)
 
 ### D — Domande dal server (§4 "Domande"; può procedere in parallelo a G1)
