@@ -1,0 +1,54 @@
+{
+  "screen": { "width": 1920, "height": 1080, "safe": { "x": 96, "y": 54 } },
+  "colors": {
+    "ink": "#1B0B3A", "cream": "#FFF4DC", "white": "#FFFFFF",
+    "stage_dark": "#12052E", "stage": "#25095E", "stage_light": "#4B1FA8",
+    "neon_magenta": "#FF3DA8", "neon_cyan": "#22E1FF", "gold": "#FFC83D",
+    "dim_bg": "#3A2A6E", "dim_text": "#B8ACE0", "dim_badge": "#5B4A93",
+    "shadow_hard": "#0A0320"
+  },
+  "players": [
+    { "id": 1, "name": "Gastone",    "character": "chef",  "color": "#F2384A" },
+    { "id": 2, "name": "Nonna Pina", "character": "nonna", "color": "#2F7BFF" },
+    { "id": 3, "name": "Ugo",        "character": "zombi", "color": "#33C759" },
+    { "id": 4, "name": "Brioche",    "character": "gatto", "color": "#FFD43B" },
+    { "id": 5, "name": "Don Ciccio", "character": "boss",  "color": "#A855F7" },
+    { "id": 6, "name": "Vanessa",    "character": "diva",  "color": "#FF8A1F" }
+  ],
+  "answers": [
+    { "key": "A", "shape": "rombo" }, { "key": "B", "shape": "cerchio" },
+    { "key": "C", "shape": "triangolo" }, { "key": "D", "shape": "quadrato" }
+  ],
+  "fonts": { "display": "Lilita One", "text": "Baloo 2 ExtraBold (800)" },
+  "type": {
+    "logo": 200, "round_title": 136, "screen_title": 88,
+    "question": 60, "question_min": 56, "answer": 48, "answer_min": 44,
+    "label": 40, "min": 32
+  },
+  "stylebox": {
+    "card":  { "bg": "cream", "border": 6, "border_bottom": 16, "border_color": "ink", "radius": 28 },
+    "panel": { "bg": "ink", "border": 8, "border_color": "neon_magenta", "radius": 32, "hard_shadow_y": 14 },
+    "tab":   { "bg": "neon_magenta", "border": 6, "border_color": "ink", "height": 60, "radius": 30 },
+    "podium_front": { "border": 6, "border_bottom": 14, "radius_bottom": 22, "size": [212, 144] }
+  },
+  "layout_standard": {
+    "tab":      { "x": 140, "y": 54,  "h": 60 },
+    "question": { "x": 96,  "y": 88,  "w": 1540, "h": 214 },
+    "timer":    { "x": 1664, "y": 88, "size": 160 },
+    "answers":  { "x": 96,  "y": 336, "w": 1728, "h": 292, "cols": 2, "row_h": 134, "gap": 24 },
+    "podiums":  { "x": 96,  "y": 650, "w": 1728, "h": 376, "item": [240, 376] }
+  },
+  "answer_states": {
+    "normal": { "bg": "cream", "text": "ink", "scale": 1.0 },
+    "correct": { "bg": "white", "text": "ink", "scale": 1.03, "ring": "white 6px @ -18px" },
+    "wrong": { "bg": "dim_bg", "text": "dim_text", "scale": 0.97 }
+  },
+  "tweens": {
+    "card_in": { "scale": [0, 1.1, 1], "duration": 0.35, "trans": "BACK", "ease": "OUT", "stagger": 0.08 },
+    "idle_breath": { "scale_y": [1, 1.03], "duration": 1.6, "trans": "SINE" },
+    "answered_hop": { "dy": -24, "duration": 0.25, "trans": "QUAD" },
+    "reveal_correct": { "scale": [1.08, 1.03], "duration": 0.6, "trans": "ELASTIC" },
+    "reveal_wrong": { "duration": 0.2 },
+    "score_count": { "duration": 0.8 }
+  }
+}

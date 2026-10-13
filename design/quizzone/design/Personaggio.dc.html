@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><script src="personaggi-v2.js"></script></helmet>
+<div style="position:relative;width:100%;height:100%">{{ art }}
+<sc-if value="{{ splat }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 200" width="100%" height="100%" style="position:absolute;left:0;top:0;display:block;overflow:visible"><g stroke="#1B0B3A" stroke-width="5" stroke-linejoin="round">
+<path d="M66 96 C52 74 86 58 100 74 C114 54 150 70 136 94 C156 104 140 134 120 126 C116 146 84 146 84 128 C60 134 50 108 66 96 Z" fill="#FFF4DC"></path>
+<path d="M84 128 L82 150 M120 126 L124 144" fill="none" stroke="#FFF4DC" stroke-width="8" stroke-linecap="round"></path>
+<circle cx="96" cy="94" r="6" fill="#FF7FA8" stroke="none"></circle><circle cx="116" cy="108" r="5" fill="#FF7FA8" stroke="none"></circle><circle cx="82" cy="112" r="4" fill="#FF7FA8" stroke="none"></circle>
+</g></svg></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:240,&quot;height&quot;:240},&quot;who&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;chef&quot;,&quot;nonna&quot;,&quot;zombi&quot;,&quot;gatto&quot;,&quot;boss&quot;,&quot;diva&quot;,&quot;host&quot;],&quot;default&quot;:&quot;chef&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;espressione&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;neutro&quot;,&quot;felice&quot;,&quot;triste&quot;,&quot;sorpreso&quot;,&quot;arrabbiato&quot;],&quot;default&quot;:&quot;neutro&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;splat&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    if (!window.PV2) this.iv = setInterval(() => { if (window.PV2) { clearInterval(this.iv); this.forceUpdate(); } }, 50);
+  }
+  componentWillUnmount() { clearInterval(this.iv); }
+  renderVals() {
+    const who = this.props.who ?? 'chef', ex = this.props.espressione || 'neutro';
+    const PV = window.PV2;
+    let art = null;
+    if (PV) {
+      const [w, h] = (PV.CH[who] || PV.CH.chef).vb;
+      art = React.createElement('svg', { viewBox: `0 0 ${w} ${h}`, width: '100%', height: '100%', style: { display: 'block', overflow: 'visible' }, dangerouslySetInnerHTML: { __html: PV.inner(who, ex) } });
+    }
+    return { art, splat: !!this.props.splat };
+  }
+}
+</script>
+</body>
+</html>

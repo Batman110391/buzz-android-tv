@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Lilita+One&display=swap" rel="stylesheet"></helmet>
+<div style="position:relative;width:240px;height:376px;font-family:'Baloo 2',sans-serif;opacity:{{ opacity }}">
+<div style="position:absolute;left:6px;top:0;width:228px;height:228px"><dc-import name="Personaggio" who="{{ who }}" espressione="{{ espr }}" splat="{{ splat }}" hint-size="228px,228px" style="width:228px;height:228px"></dc-import></div>
+<div style="position:absolute;left:14px;top:232px;width:212px;height:144px;box-sizing:border-box;background:{{ colore }};border:6px solid #1B0B3A;border-bottom-width:14px;border-radius:0 0 22px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:8px 10px 4px">
+<div style="font-size:32px;font-weight:800;line-height:1;color:#1B0B3A;white-space:nowrap">{{ nome }}</div>
+<div style="background:#1B0B3A;border-radius:14px;min-width:150px;height:60px;box-sizing:border-box;padding:0 14px;display:flex;align-items:center;justify-content:center;font-family:'Lilita One',sans-serif;font-size:46px;line-height:1;color:#FFF4DC">{{ punti }}</div>
+</div>
+<div style="position:absolute;left:4px;top:204px;width:232px;height:40px;box-sizing:border-box;border-radius:20px;background:{{ colore }};border:6px solid #1B0B3A;overflow:hidden"><div style="position:absolute;inset:0;background:rgba(255,255,255,.4)"></div></div>
+<div style="position:absolute;left:-6px;top:322px;width:52px;height:52px;box-sizing:border-box;border-radius:50%;background:#1B0B3A;border:4px solid {{ colore }};display:flex;align-items:center;justify-content:center;font-family:'Lilita One',sans-serif;font-size:32px;line-height:1;color:{{ colore }}">{{ num }}</div>
+<sc-if value="{{ isOk }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;right:-6px;top:36px;width:84px;height:84px;box-sizing:border-box;border-radius:50%;background:#FFF4DC;border:6px solid #1B0B3A;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 40 40" width="46" height="46"><path d="M8 21 L17 30 L33 10" fill="none" stroke="#1B0B3A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></sc-if>
+<sc-if value="{{ isKo }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;right:-6px;top:36px;width:84px;height:84px;box-sizing:border-box;border-radius:50%;background:#3A2A6E;border:6px solid #1B0B3A;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 40 40" width="40" height="40"><path d="M9 9 L31 31 M31 9 L9 31" fill="none" stroke="#FFF4DC" stroke-width="7" stroke-linecap="round"></path></svg></div></sc-if>
+<sc-if value="{{ isRisp }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;right:-6px;top:36px;width:84px;height:84px;box-sizing:border-box;border-radius:50%;background:#1B0B3A;border:6px solid {{ colore }};display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 40 40" width="40" height="40"><rect x="8" y="18" width="24" height="17" rx="4" fill="#FFF4DC"></rect><path d="M13 18 V13 a7 7 0 0 1 14 0 V18" fill="none" stroke="#FFF4DC" stroke-width="5"></path></svg></div></sc-if>
+<sc-if value="{{ isBomba }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;right:-30px;top:10px;width:130px;height:130px"><svg viewBox="0 0 120 120" width="130" height="130" style="overflow:visible"><circle cx="56" cy="70" r="40" fill="#1B0B3A" stroke="#FFF4DC" stroke-width="6"></circle><path d="M34 58 Q38 42 54 37" fill="none" stroke="#6E5BB0" stroke-width="7" stroke-linecap="round"></path><rect x="62" y="22" width="22" height="18" rx="4" transform="rotate(35 73 31)" fill="#4A3A7A" stroke="#FFF4DC" stroke-width="5"></rect><path d="M80 22 Q90 6 104 14" fill="none" stroke="#C9A36A" stroke-width="6" stroke-linecap="round"></path><polygon points="106,0 110,10 120,12 112,18 114,28 106,22 98,28 100,18 92,12 102,10" fill="#FFC83D" stroke="#1B0B3A" stroke-width="3"></polygon></svg></div></sc-if>
+<sc-if value="{{ isMira }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:44px;top:30px;width:150px;height:150px"><svg viewBox="0 0 100 100" width="150" height="150"><circle cx="50" cy="50" r="40" fill="none" stroke="#1B0B3A" stroke-width="12"></circle><circle cx="50" cy="50" r="40" fill="none" stroke="#FFF4DC" stroke-width="5"></circle><path d="M50 2 V26 M50 74 V98 M2 50 H26 M74 50 H98" stroke="#1B0B3A" stroke-width="11" stroke-linecap="round"></path><path d="M50 2 V26 M50 74 V98 M2 50 H26 M74 50 H98" stroke="#FFF4DC" stroke-width="4" stroke-linecap="round"></path></svg></div></sc-if>
+<sc-if value="{{ hasBadge }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:50%;top:-14px;transform:translateX(-50%) rotate(-4deg);white-space:nowrap;padding:4px 20px;box-sizing:border-box;border-radius:30px;border:6px solid #1B0B3A;background:{{ badgeBg }};color:{{ badgeFg }};font-family:'Lilita One',sans-serif;font-size:40px;line-height:1.1">{{ badge }}</div></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:300,&quot;height&quot;:420},&quot;who&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;chef&quot;,&quot;nonna&quot;,&quot;zombi&quot;,&quot;gatto&quot;,&quot;boss&quot;,&quot;diva&quot;],&quot;default&quot;:&quot;chef&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;nome&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Gastone&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;colore&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#F2384A&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;num&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:1,&quot;tsType&quot;:&quot;number&quot;},&quot;punti&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;1.250&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;stato&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;&quot;,&quot;ok&quot;,&quot;ko&quot;,&quot;risposto&quot;,&quot;bomba&quot;,&quot;mira&quot;],&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;badge&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;badgeScuro&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;},&quot;spento&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;},&quot;splat&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const p = this.props, s = p.stato || '';
+    return {
+      who: p.who || 'chef', nome: p.nome || 'Gastone', colore: p.colore || '#F2384A',
+      num: p.num ?? 1, punti: p.punti ?? '0',
+      isOk: s === 'ok', isKo: s === 'ko', isRisp: s === 'risposto', isBomba: s === 'bomba', isMira: s === 'mira',
+      hasBadge: !!p.badge, badge: p.badge,
+      badgeBg: p.badgeScuro ? '#3A2A6E' : '#FFF4DC', badgeFg: p.badgeScuro ? '#FFF4DC' : '#1B0B3A',
+      opacity: p.spento ? 0.4 : 1, splat: !!p.splat,
+      espr: p.espressione || (p.splat ? 'arrabbiato' : { ok: 'felice', ko: 'triste', mira: 'sorpreso', bomba: 'sorpreso' }[s] || 'neutro')
+    };
+  }
+}
+</script>
+</body>
+</html>

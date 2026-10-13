@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Lilita+One&display=swap" rel="stylesheet"></helmet>
+<div style="position:relative;width:100%;height:100%;box-sizing:border-box;background:{{ bg }};border:6px solid #1B0B3A;border-bottom-width:16px;border-radius:28px;display:flex;align-items:center;gap:22px;padding:0 22px 0 16px;transform:scale({{ scala }})">
+<div style="width:92px;height:92px;flex:none">
+<sc-if value="{{ isA }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="92" height="92"><polygon points="50,3 97,50 50,97 3,50" fill="{{ bf }}"></polygon><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="{{ lf }}">A</text></svg></sc-if>
+<sc-if value="{{ isB }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="92" height="92"><circle cx="50" cy="50" r="46" fill="{{ bf }}"></circle><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="{{ lf }}">B</text></svg></sc-if>
+<sc-if value="{{ isC }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="92" height="92"><polygon points="50,4 98,94 2,94" fill="{{ bf }}"></polygon><text x="50" y="84" text-anchor="middle" font-family="Lilita One" font-size="40" fill="{{ lf }}">C</text></svg></sc-if>
+<sc-if value="{{ isD }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="92" height="92"><rect x="7" y="7" width="86" height="86" rx="12" fill="{{ bf }}"></rect><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="{{ lf }}">D</text></svg></sc-if>
+</div>
+<div style="flex:1;min-width:0;font-family:'Baloo 2',sans-serif;font-weight:800;font-size:48px;line-height:1.05;color:{{ fg }}">{{ testo }}</div>
+<div style="display:flex;gap:8px;flex:none">
+<sc-for list="{{ chips }}" as="c" hint-placeholder-count="0"><div style="width:60px;height:60px;box-sizing:border-box;border-radius:50%;background:{{ c.colore }};border:5px solid #1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One',sans-serif;font-size:34px;line-height:1;color:#1B0B3A">{{ c.num }}</div></sc-for>
+</div>
+<sc-if value="{{ isOk }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;inset:-18px;border:6px solid #FFFFFF;border-radius:44px;pointer-events:none"></div><div style="position:absolute;right:-26px;top:-34px;width:84px;height:84px;box-sizing:border-box;border-radius:50%;background:#1B0B3A;border:6px solid #FFFFFF;display:flex;align-items:center;justify-content:center;transform:rotate(-8deg)"><svg viewBox="0 0 40 40" width="46" height="46"><path d="M8 21 L17 30 L33 10" fill="none" stroke="#FFF4DC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:860,&quot;height&quot;:150},&quot;lettera&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;],&quot;default&quot;:&quot;A&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;testo&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Mozzarella campana&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;stato&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;normale&quot;,&quot;giusta&quot;,&quot;sbagliata&quot;],&quot;default&quot;:&quot;normale&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;chips&quot;:{&quot;editor&quot;:null,&quot;default&quot;:[],&quot;tsType&quot;:&quot;{colore:string,num:number}[]&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const p = this.props, s = p.stato || 'normale', L = p.lettera || 'A';
+    const ok = s === 'giusta', ko = s === 'sbagliata';
+    const chips = p.chips || [];
+    return {
+      testo: p.testo ?? 'Risposta', isA: L === 'A', isB: L === 'B', isC: L === 'C', isD: L === 'D',
+      chips, isOk: ok,
+      bg: ok ? '#FFFFFF' : ko ? '#3A2A6E' : '#FFF4DC',
+      fg: ko ? '#B8ACE0' : '#1B0B3A',
+      bf: ko ? '#5B4A93' : '#1B0B3A',
+      lf: ko ? '#B8ACE0' : '#FFF4DC',
+      scala: ok ? 1.03 : ko ? 0.97 : 1
+    };
+  }
+}
+</script>
+</body>
+</html>

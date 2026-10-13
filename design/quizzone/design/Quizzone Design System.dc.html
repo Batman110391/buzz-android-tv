@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Lilita+One&display=swap" rel="stylesheet"><style>body{margin:0;background:#EDE7DA;font-family:'Baloo 2',system-ui,sans-serif;color:#1B0B3A}a{color:#7A2FD0}a:hover{color:#FF3DA8}.dv-turn{padding:48px 56px 40px;border-bottom:2px solid rgba(27,11,58,.1)}.dv-thd{display:flex;align-items:baseline;gap:14px;margin:0 0 8px}.dv-tid{font:600 11px ui-monospace,Menlo,monospace;padding:3px 8px;background:#1B0B3A;color:#fff;border-radius:4px;text-decoration:none}.dv-tname{font:400 34px/1.1 'Lilita One',sans-serif;color:#1B0B3A}.dv-sub{font-size:16px;line-height:1.45;color:rgba(27,11,58,.7);max-width:900px;margin:0 0 26px;text-wrap:pretty}.dv-opts{display:flex;flex-wrap:wrap;gap:36px;align-items:flex-start}.dv-opt{flex:none;display:flex;flex-direction:column;gap:10px}.dv-oid{font:600 11px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(27,11,58,.1);color:#1B0B3A;border-radius:5px;text-decoration:none}.dv-olabel{display:flex;align-items:baseline;gap:10px;font:600 15px/1.3 'Baloo 2',sans-serif;color:#1B0B3A}.dv-olabel span{font-weight:500;color:rgba(27,11,58,.6)}.dv-opt:target .dv-oid{background:#FF3DA8;color:#fff}</style></helmet>
+
+<section class="dv-turn" id="t0" data-screen-label="Intro">
+<div style="display:flex;gap:40px;align-items:center;flex-wrap:wrap">
+<div style="width:200px;height:250px;flex:none"><dc-import name="Personaggio" who="host" hint-size="200px,250px" style="width:200px;height:250px"></dc-import></div>
+<div style="flex:1;min-width:320px;max-width:860px">
+<div style="font-family:'Lilita One';font-size:72px;line-height:1;color:#1B0B3A">QUIZZONE!</div>
+<div style="font-size:20px;font-weight:700;margin:6px 0 16px">Design system e schermate · quiz party TV 1920×1080 per Godot 4 (Compatibility)</div>
+<div style="font-size:16px;line-height:1.5;color:rgba(27,11,58,.75);text-wrap:pretty">Nome di lavoro “Quizzone!”. Ogni schermata è disegnata a 1920×1080 con coordinate reali in pixel (qui mostrata al 50%): posizioni e misure nel sorgente si possono copiare 1:1 in Godot. Niente sfocature: profondità con bordi spessi e ombre dure, bagliori neon con una doppia linea. I personaggi sono schizzi vettoriali a pezzi separati, pronti per essere ridisegnati da un illustratore e animati a cutout.</div>
+</div>
+</div>
+</section>
+
+<section class="dv-turn" id="t1" data-screen-label="Fondamenta">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Fondamenta</span></div>
+<p class="dv-sub">Regola chiave: le risposte sono crema con forme (rombo, cerchio, triangolo, quadrato), mai colorate. Così i 6 colori dei giocatori non si confondono mai con le risposte: quando un giocatore sceglie, compare il suo gettone colorato sulla carta crema. Giusta/sbagliata si distingue per luminosità (accesa vs spenta), non per tinta.</p>
+<div class="dv-opts">
+
+<div class="dv-opt"><div class="dv-olabel">Colori giocatori <span>testo sempre inchiostro #1B0B3A sopra</span></div>
+<div style="display:grid;grid-template-columns:repeat(3,150px);gap:12px">
+<sc-for list="{{ cast6 }}" as="c" hint-placeholder-count="6"><div style="border-radius:14px;overflow:hidden;border:4px solid #1B0B3A;background:#fff"><div style="height:84px;background:{{ c.colore }};display:flex;align-items:flex-end;justify-content:space-between;padding:6px 10px;box-sizing:border-box;font-family:'Lilita One';font-size:30px">{{ c.num }}</div><div style="padding:6px 10px;font-size:13px;line-height:1.3"><b>{{ c.colname }}</b><br>{{ c.colore }} · {{ c.nome }}</div></div></sc-for>
+</div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Studio e interfaccia</div>
+<div style="display:grid;grid-template-columns:repeat(4,120px);gap:12px">
+<sc-for list="{{ studio }}" as="c" hint-placeholder-count="8"><div style="border-radius:14px;overflow:hidden;border:4px solid #1B0B3A;background:#fff"><div style="height:70px;background:{{ c.hex }}"></div><div style="padding:6px 8px;font-size:12px;line-height:1.3"><b>{{ c.n }}</b><br>{{ c.hex }}<br><span style="opacity:.65">{{ c.uso }}</span></div></div></sc-for>
+</div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Tipografia <span>valori a 1080p · minimo 32 px</span></div>
+<div style="width:640px;background:#25095E;border-radius:14px;border:4px solid #1B0B3A;padding:24px 28px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px;color:#FFF4DC">
+<sc-for list="{{ tipi }}" as="t" hint-placeholder-count="7"><div style="display:flex;align-items:baseline;gap:16px;border-bottom:1px solid rgba(255,244,220,.15);padding-bottom:10px"><div style="width:150px;flex:none;font-size:12px;line-height:1.3;opacity:.75">{{ t.n }}<br>{{ t.spec }}</div><div style="font-family:{{ t.ff }};font-weight:800;font-size:{{ t.prev }}px;line-height:1.05;white-space:nowrap;overflow:hidden">{{ t.es }}</div></div></sc-for>
+<div style="font-size:13px;line-height:1.45;opacity:.8">Lilita One (titoli, numeri, lettere) + Baloo 2 ExtraBold (domande, risposte, nomi). Entrambi OFL con accenti italiani; in Godot usare FontFile con MSDF attivo. Anteprima al 50%.</div>
+</div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Area sicura e griglia <span>96 px lati · 54 px sopra/sotto</span></div>
+<div style="width:480px;height:270px;position:relative;border-radius:10px;overflow:hidden;border:4px solid #1B0B3A">
+<div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.25);transform-origin:0 0">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:8px dashed #22E1FF;box-sizing:border-box"></div>
+<div style="position:absolute;left:96px;top:88px;width:1728px;height:214px;background:rgba(255,61,168,.35)"></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;background:rgba(255,244,220,.3)"></div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;background:rgba(255,200,61,.3)"></div>
+<div style="position:absolute;left:140px;top:150px;font-family:'Lilita One';font-size:72px;color:#fff">DOMANDA 88–302</div>
+<div style="position:absolute;left:140px;top:430px;font-family:'Lilita One';font-size:72px;color:#fff">RISPOSTE 336–628</div>
+<div style="position:absolute;left:140px;top:800px;font-family:'Lilita One';font-size:72px;color:#fff">PODI 650–1026</div>
+</div></div>
+<div style="font-size:13px;line-height:1.45;max-width:480px;color:rgba(27,11,58,.7)">Layout standard per tutte le domande. Lo sfondo e i personaggi possono uscire dall’area sicura, il testo mai.</div>
+</div>
+
+<div class="dv-opt"><div class="dv-olabel">Forma e profondità <span>tutto traducibile in StyleBoxFlat</span></div>
+<div style="width:520px;background:#25095E;border-radius:14px;border:4px solid #1B0B3A;padding:28px;box-sizing:border-box;display:grid;grid-template-columns:1fr 1fr;gap:26px;color:#FFF4DC;font-size:13px;line-height:1.4">
+<div><div style="height:80px;background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:16px;border-radius:28px"></div><div style="margin-top:8px"><b>Carta</b> · bordo 6 · fondo 16 · raggio 28</div></div>
+<div><div style="height:80px;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320"></div><div style="margin-top:8px"><b>Pannello neon</b> · bordo 8 · ombra dura y+14</div></div>
+<div><div style="height:56px;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px"></div><div style="margin-top:8px"><b>Linguetta</b> · altezza 60 · raggio pieno</div></div>
+<div><svg viewBox="0 0 200 60" width="100%" height="56"><path d="M10 50 Q100 -10 190 50" fill="none" stroke="#22E1FF" stroke-opacity=".22" stroke-width="26"></path><path d="M10 50 Q100 -10 190 50" fill="none" stroke="#22E1FF" stroke-width="6"></path></svg><div style="margin-top:8px"><b>Neon</b> · Line2D 36 px α .2 + Line2D 8 px</div></div>
+</div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Movimento <span>Tween di Godot, nessuno shader</span></div>
+<div style="width:520px;background:#fff;border-radius:14px;border:4px solid #1B0B3A;padding:18px 22px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.35">
+<sc-for list="{{ moti }}" as="m" hint-placeholder-count="6"><div style="display:grid;grid-template-columns:150px 1fr;gap:12px;border-bottom:1px solid rgba(27,11,58,.1);padding-bottom:8px"><b>{{ m.n }}</b><span>{{ m.d }}</span></div></sc-for>
+</div></div>
+
+</div>
+</section>
+
+<section class="dv-turn" id="t2" data-screen-label="Componenti">
+<div class="dv-thd"><a class="dv-tid" href="#t2">2</a><span class="dv-tname">Componenti</span></div>
+<p class="dv-sub">Mostrati al 50%. Ogni componente è una scena Godot riutilizzabile (Risposta.tscn, Podio.tscn) con uno stato che cambia colori e icone.</p>
+<div class="dv-opts">
+<div class="dv-opt"><div class="dv-olabel">Risposta <span>normale · giusta · sbagliata · 848×134</span></div>
+<div style="width:520px;background:#25095E;border-radius:14px;border:4px solid #1B0B3A;padding:30px 36px;box-sizing:border-box">
+<div style="width:448px;height:450px;position:relative">
+<div style="position:absolute;left:0;top:0;width:848px;transform:scale(.5);transform-origin:0 0;display:flex;flex-direction:column;gap:60px;padding-top:20px">
+<div style="height:134px"><dc-import name="Risposta" lettera="A" testo="Parmigiano" stato="normale" hint-size="848px,134px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:134px"><dc-import name="Risposta" lettera="B" testo="Mozzarella campana" stato="giusta" chips="{{ chB }}" hint-size="848px,134px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:134px"><dc-import name="Risposta" lettera="C" testo="Gorgonzola" stato="sbagliata" chips="{{ chA }}" hint-size="848px,134px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:134px"><dc-import name="Risposta" lettera="D" testo="Asiago" stato="normale" chips="{{ chD }}" hint-size="848px,134px" style="width:100%;height:100%"></dc-import></div>
+</div></div></div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Podio <span>240×376 · stati</span></div>
+<div style="width:900px;background:#25095E;border-radius:14px;border:4px solid #1B0B3A;padding:30px 24px 16px;box-sizing:border-box">
+<div style="height:200px;position:relative"><div style="position:absolute;left:0;top:0;width:1704px;transform:scale(.5);transform-origin:0 0;display:flex;gap:4px;justify-content:space-between">
+<sc-for list="{{ demoPodi }}" as="p" hint-placeholder-count="7"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for>
+</div></div>
+<div style="display:flex;justify-content:space-between;color:#FFF4DC;font-size:13px;padding:8px 6px 0"><sc-for list="{{ demoPodi }}" as="p" hint-placeholder-count="7"><span style="width:116px;text-align:center">{{ p.etichetta }}</span></sc-for></div>
+</div></div>
+
+<div class="dv-opt"><div class="dv-olabel">Timer e contatori <span>160×160 · TextureProgressBar radiale</span></div>
+<div style="width:420px;background:#25095E;border-radius:14px;border:4px solid #1B0B3A;padding:30px;box-sizing:border-box;display:flex;gap:26px;align-items:center;color:#FFF4DC;font-size:13px">
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px"><div style="width:80px;height:80px;border-radius:50%;border:4px solid #1B0B3A;box-sizing:border-box;background:conic-gradient(#FFC83D 0 62%,#3A2A6E 62% 100%);display:flex;align-items:center;justify-content:center"><div style="width:56px;height:56px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:32px">12</div></div>Secondi</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px"><div style="width:80px;height:80px;border-radius:50%;border:4px solid #1B0B3A;box-sizing:border-box;background:#FFC83D;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#1B0B3A;font-family:'Lilita One';font-size:28px;line-height:.9">740<span style="font-size:12px">PUNTI</span></div>Dito Veloce</div>
+<div style="display:flex;flex-direction:column;align-items:center;gap:8px"><svg viewBox="0 0 120 120" width="84" height="84" style="overflow:visible"><circle cx="56" cy="70" r="40" fill="#1B0B3A" stroke="#FFF4DC" stroke-width="6"></circle><path d="M34 58 Q38 42 54 37" fill="none" stroke="#6E5BB0" stroke-width="7" stroke-linecap="round"></path><rect x="62" y="22" width="22" height="18" rx="4" transform="rotate(35 73 31)" fill="#4A3A7A" stroke="#FFF4DC" stroke-width="5"></rect><path d="M80 22 Q90 6 104 14" fill="none" stroke="#C9A36A" stroke-width="6" stroke-linecap="round"></path><polygon points="106,0 110,10 120,12 112,18 114,28 106,22 98,28 100,18 92,12 102,10" fill="#FFC83D" stroke="#1B0B3A" stroke-width="3"></polygon><text x="56" y="86" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#FFF4DC">?</text></svg>Bomba</div>
+</div></div>
+</div>
+</section>
+
+<section class="dv-turn" id="t3" data-screen-label="Personaggi">
+<div class="dv-thd"><a class="dv-tid" href="#t3">3</a><span class="dv-tname">Personaggi</span></div>
+<p class="dv-sub">Schizzi di direzione, non grafica finale: un illustratore dovrebbe ridisegnarli mantenendo silhouette, palette e contorno inchiostro spesso. Ogni pezzo (testa, occhi, bocca, cappello, corpo, accessori) è un livello separato per animazione cutout con Skeleton2D. Stati da animare per tutti: attesa, pensa, risposto, esulta, sconfitta, torta in faccia.</p>
+<div class="dv-opts">
+<div class="dv-opt" id="1p"><div class="dv-olabel"><a class="dv-oid" href="#1p">1p</a>Presentatore</div>
+<div style="width:520px;height:340px;border-radius:18px;border:4px solid #1B0B3A;background:#25095E;display:flex;gap:20px;padding:20px;box-sizing:border-box;color:#FFF4DC">
+<div style="width:240px;height:300px;flex:none"><dc-import name="Personaggio" who="host" hint-size="240px,300px" style="width:240px;height:300px"></dc-import></div>
+<div style="display:flex;flex-direction:column;gap:8px;padding-top:10px"><div style="font-family:'Lilita One';font-size:34px;line-height:1">Tony Scintilla</div><div style="font-size:14px;font-weight:700;color:#22E1FF">Presentatore</div><div style="font-size:14px;line-height:1.45">Ciuffo turchese alto trenta centimetri, giacca di paillettes, sorriso che brilla davvero. Ride come una sirena, commenta ogni risposta (spesso a sproposito) e si sporge verso la telecamera quando svela il risultato.</div><a href="Presentatore Animato.dc.html" style="font-size:15px;font-weight:800;color:#FFC83D">Guarda le animazioni →</a></div>
+</div></div>
+<sc-for list="{{ cast6 }}" as="c" hint-placeholder-count="6"><div class="dv-opt"><div class="dv-olabel">Giocatore {{ c.num }} <span>{{ c.colname }}</span></div>
+<div style="width:250px;border-radius:18px;border:4px solid #1B0B3A;background:{{ c.colore }};overflow:hidden">
+<div style="height:210px;padding:14px 20px 0;box-sizing:border-box"><dc-import name="Personaggio" who="{{ c.who }}" hint-size="196px,196px" style="width:196px;height:196px;margin:0 auto;display:block"></dc-import></div>
+<div style="background:#FFF4DC;border-top:4px solid #1B0B3A;padding:12px 14px;height:150px;box-sizing:border-box"><div style="font-family:'Lilita One';font-size:24px;line-height:1">{{ c.nome }}</div><div style="font-size:13px;font-weight:700;opacity:.7;margin:2px 0 6px">{{ c.ruolo }}</div><div style="font-size:13px;line-height:1.35">{{ c.tic }}</div></div>
+</div></div></sc-for>
+</div>
+</section>
+
+<section class="dv-turn" id="t4" data-screen-label="Flusso di gioco">
+<div class="dv-thd"><a class="dv-tid" href="#t4">4</a><span class="dv-tname">Flusso di gioco</span></div>
+<p class="dv-sub">Titolo → lobby → presentazione round → domanda → rivelazione → … → classifica finale. 1920×1080 al 50%.</p>
+<div class="dv-opts" style="filter:{{ filtro }}">
+
+<div class="dv-opt" id="1a" data-screen-label="1a Titolo"><div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>Titolo</div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:820px;top:60px;width:880px;height:880px;border-radius:50%;box-sizing:border-box;border:12px solid #22E1FF;background:repeating-conic-gradient(#2B0F6B 0deg 9deg,#3A1680 9deg 18deg)"></div>
+<div style="position:absolute;left:760px;top:330px;width:1000px;text-align:center;transform:rotate(-5deg);font-family:'Lilita One',sans-serif;font-size:200px;line-height:1;color:#FFC83D;-webkit-text-stroke:20px #1B0B3A;paint-order:stroke fill;text-shadow:0 18px 0 #1B0B3A">QUIZZONE!</div>
+<div style="position:absolute;left:900px;top:600px;width:720px;transform:rotate(-5deg);display:flex;justify-content:center"><div style="background:#FF3DA8;border:6px solid #1B0B3A;border-radius:18px;padding:8px 34px;font-family:'Baloo 2';font-weight:800;font-size:48px;line-height:1.1;color:#1B0B3A">Il quiz più pazzo del salotto</div></div>
+<div style="position:absolute;left:90px;top:300px;width:600px;height:750px"><dc-import name="Personaggio" who="host" hint-size="600px,750px" style="width:600px;height:750px"></dc-import></div>
+<div style="position:absolute;left:880px;top:850px;width:760px;display:flex;flex-direction:column;align-items:center;gap:14px">
+<div style="background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:14px;border-radius:40px;padding:10px 44px;font-family:'Lilita One';font-size:48px;color:#1B0B3A">Premi INVIO per giocare</div>
+<div style="font-family:'Baloo 2';font-weight:800;font-size:34px;color:#FFF4DC">oppure entra dal telefono: quizzone.tv</div>
+</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1b" data-screen-label="1b Lobby"><div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Lobby <span>4 su 6 entrati</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:54px;font-family:'Lilita One';font-size:88px;line-height:1.1;color:#FFF4DC;-webkit-text-stroke:14px #1B0B3A;paint-order:stroke fill;text-shadow:0 10px 0 #1B0B3A">Entrate in studio!</div>
+<div style="position:absolute;right:96px;top:70px;background:#FFC83D;border:6px solid #1B0B3A;border-bottom-width:14px;border-radius:40px;padding:6px 32px;font-family:'Lilita One';font-size:40px;color:#1B0B3A">4/6 · INVIO per iniziare</div>
+<div style="position:absolute;left:96px;top:200px;width:620px;height:826px;box-sizing:border-box;background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:16px;border-radius:32px;display:flex;flex-direction:column;align-items:center;gap:20px;padding:34px">
+<div style="font-family:'Baloo 2';font-weight:800;font-size:44px;line-height:1;color:#1B0B3A">Inquadra col telefono</div>
+<div style="width:380px;height:380px;box-sizing:border-box;border:6px solid #1B0B3A;border-radius:16px;background:repeating-linear-gradient(45deg,#E9DFC6 0 14px,#FFF4DC 14px 28px);display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:40px;color:#1B0B3A">QR CODE</div>
+<div style="font-family:'Baloo 2';font-weight:800;font-size:34px;line-height:1;color:#1B0B3A">oppure vai su</div>
+<div style="font-family:'Lilita One';font-size:64px;line-height:1;color:#1B0B3A">quizzone.tv</div>
+<div style="display:flex;gap:14px"><sc-for list="{{ codice }}" as="k" hint-placeholder-count="4"><div style="width:100px;height:112px;border-radius:18px;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:80px;color:#FFC83D">{{ k }}</div></sc-for></div>
+</div>
+<div style="position:absolute;left:780px;top:200px;width:1044px;height:826px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:28px">
+<sc-for list="{{ slots }}" as="s" hint-placeholder-count="6"><div style="position:relative">
+<sc-if value="{{ s.j }}" hint-placeholder-val="{{ true }}"><div style="position:absolute;inset:0;box-sizing:border-box;background:{{ s.colore }};border:6px solid #1B0B3A;border-bottom-width:16px;border-radius:28px;overflow:hidden;display:flex;flex-direction:column;align-items:center"><div style="width:290px;height:290px;margin-top:14px"><dc-import name="Personaggio" who="{{ s.who }}" hint-size="290px,290px" style="width:290px;height:290px"></dc-import></div><div style="margin-top:auto;width:100%;background:#1B0B3A;padding:10px 0 12px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:40px;line-height:1;color:#FFF4DC">{{ s.nome }}</div></div></sc-if>
+<sc-if value="{{ s.e }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;inset:0;box-sizing:border-box;border:6px dashed rgba(255,244,220,.55);border-radius:28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px"><div style="font-family:'Lilita One';font-size:120px;line-height:1;color:rgba(255,244,220,.45)">?</div><div style="font-family:'Baloo 2';font-weight:800;font-size:36px;color:#FFF4DC">In attesa…</div></div></sc-if>
+</div></sc-for>
+</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1c" data-screen-label="1c Intro round"><div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Presentazione round</div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:400px;top:120px;width:1240px;height:640px;box-sizing:border-box;transform:rotate(-2deg);background:#1B0B3A;border:10px solid #FF3DA8;border-radius:48px;box-shadow:0 20px 0 #0A0320;display:flex;flex-direction:column;align-items:center;padding:70px 80px 0;gap:14px">
+<div style="position:absolute;top:-40px;background:#FFC83D;border:6px solid #1B0B3A;border-radius:40px;padding:6px 36px;font-family:'Lilita One';font-size:44px;color:#1B0B3A">ROUND 3 DI 6</div>
+<svg viewBox="0 0 120 120" width="200" height="200" style="overflow:visible"><circle cx="56" cy="70" r="40" fill="#3A2A6E" stroke="#FFF4DC" stroke-width="6"></circle><path d="M34 58 Q38 42 54 37" fill="none" stroke="#8A78D0" stroke-width="7" stroke-linecap="round"></path><rect x="62" y="22" width="22" height="18" rx="4" transform="rotate(35 73 31)" fill="#4A3A7A" stroke="#FFF4DC" stroke-width="5"></rect><path d="M80 22 Q90 6 104 14" fill="none" stroke="#C9A36A" stroke-width="6" stroke-linecap="round"></path><polygon points="106,0 110,10 120,12 112,18 114,28 106,22 98,28 100,18 92,12 102,10" fill="#FFC83D" stroke="#1B0B3A" stroke-width="3"></polygon></svg>
+<div style="font-family:'Lilita One';font-size:136px;line-height:1;color:#FFC83D;-webkit-text-stroke:14px #0A0320;paint-order:stroke fill">PASSA LA BOMBA</div>
+<div style="font-family:'Baloo 2';font-weight:800;font-size:44px;line-height:1.15;color:#FFF4DC;text-align:center;text-wrap:balance">Rispondi giusto per passare la bomba. Chi ce l’ha quando esplode perde 500 punti.</div>
+</div>
+<div style="position:absolute;left:60px;top:560px;width:400px;height:500px"><dc-import name="Personaggio" who="host" hint-size="400px,500px" style="width:400px;height:500px"></dc-import></div>
+<div style="position:absolute;left:470px;top:840px;background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:14px;border-radius:40px;padding:18px 40px;font-family:'Baloo 2';font-weight:800;font-size:48px;line-height:1.1;color:#1B0B3A">Attenti a non scottarvi!<div style="position:absolute;left:-30px;top:40px;width:0;height:0;border-top:20px solid transparent;border-bottom:20px solid transparent;border-right:34px solid #1B0B3A"></div></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1d" data-screen-label="1d Domanda"><div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a>Domanda · Accumula Punti <span>layout standard</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Quale di questi formaggi si fa con il latte di bufala?</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">DOMANDA 3/10 · ACCUMULA PUNTI</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:conic-gradient(#FFC83D 0 62%,#3A2A6E 62% 100%);display:flex;align-items:center;justify-content:center"><div style="width:112px;height:112px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;line-height:1;color:#FFF4DC">12</div></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Parmigiano" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Mozzarella campana" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Gorgonzola" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Asiago" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pDomanda }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1e" data-screen-label="1e Rivelazione"><div class="dv-olabel"><a class="dv-oid" href="#1e">1e</a>Rivelazione <span>gettoni giocatore sulle risposte</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Quale di questi formaggi si fa con il latte di bufala?</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">DOMANDA 3/10 · ACCUMULA PUNTI</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:#3A2A6E;display:flex;align-items:center;justify-content:center"><div style="width:112px;height:112px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;line-height:1;color:#FFF4DC">0</div></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Parmigiano" stato="sbagliata" chips="{{ chA }}" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Mozzarella campana" stato="giusta" chips="{{ chB }}" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Gorgonzola" stato="sbagliata" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Asiago" stato="sbagliata" chips="{{ chD }}" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pRivela }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1f" data-screen-label="1f Classifica finale"><div class="dv-olabel"><a class="dv-oid" href="#1f">1f</a>Classifica finale</div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<sc-for list="{{ confetti }}" as="k" hint-placeholder-count="0"><div style="position:absolute;left:{{ k.x }}px;top:{{ k.y }}px;width:{{ k.w }}px;height:{{ k.h }}px;background:{{ k.c }};border:3px solid #1B0B3A;transform:rotate({{ k.r }}deg)"></div></sc-for>
+<div style="position:absolute;left:0;top:54px;width:1920px;text-align:center;font-family:'Lilita One';font-size:100px;line-height:1.1;color:#FFC83D;-webkit-text-stroke:16px #1B0B3A;paint-order:stroke fill;text-shadow:0 12px 0 #1B0B3A">CLASSIFICA FINALE</div>
+<div style="position:absolute;left:520px;top:240px;width:880px;height:786px;display:flex;align-items:flex-end;justify-content:center;gap:10px">
+<sc-for list="{{ top3 }}" as="t" hint-placeholder-count="3"><div style="width:280px;display:flex;flex-direction:column;align-items:center">
+<div style="width:{{ t.sz }}px;height:{{ t.sz }}px;margin-bottom:-30px;position:relative;z-index:1"><dc-import name="Personaggio" who="{{ t.who }}" hint-size="260px,260px" style="width:100%;height:100%"></dc-import></div>
+<div style="width:280px;height:{{ t.h }}px;box-sizing:border-box;background:{{ t.blocco }};border:6px solid #1B0B3A;border-bottom-width:16px;border-radius:24px 24px 0 0;display:flex;flex-direction:column;align-items:center;padding-top:22px;gap:6px;position:relative;z-index:2">
+<div style="font-family:'Lilita One';font-size:120px;line-height:.9;color:#1B0B3A">{{ t.pos }}</div>
+<div style="background:{{ t.colore }};border:5px solid #1B0B3A;border-radius:16px;padding:2px 18px;font-family:'Baloo 2';font-weight:800;font-size:38px;line-height:1.1;color:#1B0B3A;white-space:nowrap">{{ t.nome }}</div>
+<div style="font-family:'Lilita One';font-size:44px;line-height:1;color:#1B0B3A">{{ t.punti }}</div>
+</div></div></sc-for>
+</div>
+<div style="position:absolute;left:1440px;top:420px;width:384px;display:flex;flex-direction:column;gap:16px">
+<sc-for list="{{ resto }}" as="r" hint-placeholder-count="3"><div style="height:104px;box-sizing:border-box;background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:12px;border-radius:22px;display:flex;align-items:center;gap:12px;padding:0 18px 0 10px"><div style="width:84px;height:84px;border-radius:50%;background:{{ r.colore }};border:4px solid #1B0B3A;overflow:hidden;flex:none"><dc-import name="Personaggio" who="{{ r.who }}" hint-size="84px,84px" style="width:84px;height:84px"></dc-import></div><div style="flex:1;font-family:'Baloo 2';font-weight:800;font-size:34px;line-height:1;color:#1B0B3A">{{ r.pos }} {{ r.nome }}</div><div style="font-family:'Lilita One';font-size:34px;color:#1B0B3A">{{ r.punti }}</div></div></sc-for>
+</div>
+<div style="position:absolute;left:40px;top:580px;width:380px;height:475px"><dc-import name="Personaggio" who="host" hint-size="380px,475px" style="width:380px;height:475px"></dc-import></div>
+<div style="position:absolute;left:96px;top:330px;width:420px;box-sizing:border-box;background:#FFF4DC;border:6px solid #1B0B3A;border-bottom-width:14px;border-radius:36px;padding:16px 28px;font-family:'Baloo 2';font-weight:800;font-size:44px;line-height:1.1;color:#1B0B3A">Applausi per Don Ciccio!</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+</div>
+</section>
+
+<section class="dv-turn" id="t5" data-screen-label="Mini-giochi">
+<div class="dv-thd"><a class="dv-tid" href="#t5">5</a><span class="dv-tname">Mini-giochi</span></div>
+<p class="dv-sub">Round ispirati al genere, con regole e nomi originali. Riutilizzano lo stesso layout (pannello, 4 risposte, podi) e cambiano solo il contatore e gli stati dei podi, così il codice resta unico. Conto alla Rovescia ha un layout proprio per la finale.</p>
+<div class="dv-opts" style="filter:{{ filtro }}">
+
+<div class="dv-opt" id="1g" data-screen-label="1g Dito Veloce"><div class="dv-olabel"><a class="dv-oid" href="#1g">1g</a>Dito Veloce <span>i punti scendono col tempo</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Su quanti colli è stata fondata Roma?</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 2 · DITO VELOCE</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:#FFC83D;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Lilita One';color:#1B0B3A"><div style="font-size:60px;line-height:.95">740</div><div style="font-size:32px;line-height:1">PUNTI</div></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Cinque" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Sette" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Nove" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Dodici" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pDito }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1h" data-screen-label="1h Passa la Bomba"><div class="dv-olabel"><a class="dv-oid" href="#1h">1h</a>Passa la Bomba <span>miccia nascosta</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Brioche, qual è il fiume più lungo d’Italia?</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 3 · PASSA LA BOMBA</div>
+<div style="position:absolute;left:1650px;top:70px;width:190px;height:190px"><svg viewBox="0 0 120 120" width="190" height="190" style="overflow:visible"><circle cx="56" cy="70" r="40" fill="#1B0B3A" stroke="#FFF4DC" stroke-width="6"></circle><path d="M34 58 Q38 42 54 37" fill="none" stroke="#6E5BB0" stroke-width="7" stroke-linecap="round"></path><rect x="62" y="22" width="22" height="18" rx="4" transform="rotate(35 73 31)" fill="#4A3A7A" stroke="#FFF4DC" stroke-width="5"></rect><path d="M80 22 Q90 6 104 14" fill="none" stroke="#C9A36A" stroke-width="6" stroke-linecap="round"></path><polygon points="106,0 110,10 120,12 112,18 114,28 106,22 98,28 100,18 92,12 102,10" fill="#FFC83D" stroke="#1B0B3A" stroke-width="3"></polygon><text x="56" y="86" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#FFF4DC">?</text></svg></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Tevere" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Adige" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Po" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Arno" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pBomba }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1i" data-screen-label="1i Ruba Punti"><div class="dv-olabel"><a class="dv-oid" href="#1i">1i</a>Ruba Punti <span>scelta della vittima</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Giusto, Nonna Pina! Ora scegli a chi rubare i punti.</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 4 · RUBA PUNTI</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:conic-gradient(#FFC83D 0 80%,#3A2A6E 80% 100%);display:flex;align-items:center;justify-content:center"><div style="width:112px;height:112px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;line-height:1;color:#FFF4DC">8</div></div>
+<div style="position:absolute;left:560px;top:340px;width:800px;height:270px;box-sizing:border-box;transform:rotate(-2deg);background:#FFC83D;border:8px solid #1B0B3A;border-bottom-width:20px;border-radius:36px;display:flex;align-items:center;justify-content:center;gap:30px">
+<div style="font-family:'Lilita One';font-size:170px;line-height:1;color:#1B0B3A">300</div>
+<div style="font-family:'Baloo 2';font-weight:800;font-size:44px;line-height:1.05;color:#1B0B3A">punti<br>da rubare</div>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pRuba }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1j" data-screen-label="1j Torta in Faccia"><div class="dv-olabel"><a class="dv-oid" href="#1j">1j</a>Torta in Faccia <span>sfida a due · 3 torte e sei fuori</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Da quale regione viene il pesto?</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 5 · TORTA IN FACCIA</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:conic-gradient(#FFC83D 0 45%,#3A2A6E 45% 100%);display:flex;align-items:center;justify-content:center"><div style="width:112px;height:112px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;line-height:1;color:#FFF4DC">6</div></div>
+<div style="position:absolute;left:96px;top:462px;width:360px;height:564px"><div style="width:240px;height:376px;transform:scale(1.5);transform-origin:0 0"><dc-import name="Podio" who="boss" nome="Don Ciccio" colore="#A855F7" num="5" punti="2.100" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></div></div>
+<div style="position:absolute;left:1464px;top:462px;width:360px;height:564px"><div style="width:240px;height:376px;transform:scale(1.5);transform-origin:0 0"><dc-import name="Podio" who="zombi" nome="Ugo" colore="#33C759" num="3" punti="1.600" splat="{{ true }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></div></div>
+<div style="position:absolute;left:120px;top:350px;display:flex;gap:10px"><sc-for list="{{ torteDon }}" as="t" hint-placeholder-count="3"><svg viewBox="0 0 100 70" width="96" height="68" style="opacity:{{ t.o }}"><ellipse cx="50" cy="46" rx="44" ry="20" fill="#C98A4B" stroke="#1B0B3A" stroke-width="5"></ellipse><ellipse cx="50" cy="36" rx="40" ry="16" fill="#FFF4DC" stroke="#1B0B3A" stroke-width="5"></ellipse><circle cx="50" cy="22" r="9" fill="#FF7FA8" stroke="#1B0B3A" stroke-width="4"></circle></svg></sc-for></div>
+<div style="position:absolute;left:1490px;top:350px;display:flex;gap:10px"><sc-for list="{{ torteUgo }}" as="t" hint-placeholder-count="3"><svg viewBox="0 0 100 70" width="96" height="68" style="opacity:{{ t.o }}"><ellipse cx="50" cy="46" rx="44" ry="20" fill="#C98A4B" stroke="#1B0B3A" stroke-width="5"></ellipse><ellipse cx="50" cy="36" rx="40" ry="16" fill="#FFF4DC" stroke="#1B0B3A" stroke-width="5"></ellipse><circle cx="50" cy="22" r="9" fill="#FF7FA8" stroke="#1B0B3A" stroke-width="4"></circle></svg></sc-for></div>
+<div style="position:absolute;left:500px;top:350px;width:920px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Liguria" hint-size="448px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Puglia" hint-size="448px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Sicilia" hint-size="448px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Veneto" hint-size="448px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:760px;top:690px;width:400px;display:flex;flex-direction:column;align-items:center;gap:6px">
+<svg viewBox="0 0 100 70" width="300" height="210"><ellipse cx="50" cy="46" rx="44" ry="20" fill="#C98A4B" stroke="#1B0B3A" stroke-width="4"></ellipse><ellipse cx="50" cy="36" rx="40" ry="16" fill="#FFF4DC" stroke="#1B0B3A" stroke-width="4"></ellipse><circle cx="50" cy="22" r="9" fill="#FF7FA8" stroke="#1B0B3A" stroke-width="3.5"></circle></svg>
+<div style="font-family:'Lilita One';font-size:56px;line-height:1;color:#FFF4DC;-webkit-text-stroke:10px #1B0B3A;paint-order:stroke fill">Chi la lancia?</div>
+</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1k" data-screen-label="1k Conto alla Rovescia"><div class="dv-olabel"><a class="dv-oid" href="#1k">1k</a>Conto alla Rovescia <span>finale · i punti si svuotano</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FFC83D;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">FINALE · −50 PUNTI AL SECONDO</div>
+<div style="position:absolute;left:96px;top:140px;width:800px;height:870px;display:flex;align-items:flex-end;justify-content:space-between">
+<sc-for list="{{ bars }}" as="b" hint-placeholder-count="6"><div style="width:116px;display:flex;flex-direction:column;align-items:center;opacity:{{ b.o }}">
+<div style="width:136px;height:136px;margin-bottom:-14px;position:relative;z-index:1"><dc-import name="Personaggio" who="{{ b.who }}" hint-size="136px,136px" style="width:136px;height:136px"></dc-import></div>
+<div style="width:116px;height:{{ b.h }}px;box-sizing:border-box;background:{{ b.colore }};border:6px solid #1B0B3A;border-bottom:none;border-radius:20px 20px 0 0;display:flex;justify-content:center;padding-top:10px;position:relative;z-index:2"><div style="font-family:'Lilita One';font-size:34px;line-height:1;color:#1B0B3A">{{ b.v }}</div></div>
+</div></sc-for>
+</div>
+<div style="position:absolute;left:96px;top:1004px;width:800px;height:22px;background:#1B0B3A;border-radius:6px"></div>
+<div style="position:absolute;left:940px;top:140px;width:884px;height:250px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:24px 44px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:56px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Chi ha dipinto la Cappella Sistina?</div>
+<div style="position:absolute;left:940px;top:420px;width:884px;height:536px;display:flex;flex-direction:column;gap:20px">
+<div style="height:119px"><dc-import name="Risposta" lettera="A" testo="Raffaello" hint-size="884px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="B" testo="Michelangelo" chips="{{ chFin }}" hint-size="884px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="C" testo="Caravaggio" hint-size="884px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="D" testo="Giotto" hint-size="884px,119px" style="width:100%;height:100%"></dc-import></div>
+</div>
+<div style="position:absolute;left:940px;top:972px;width:884px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:36px;line-height:1;color:#FFF4DC">Rispondi giusto per fermare il conto!</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1q" data-screen-label="1q Metti in Ordine"><div class="dv-olabel"><a class="dv-oid" href="#1q">1q</a>Metti in Ordine <span>tocca le 4 risposte nella sequenza giusta</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:88px;width:1540px;height:214px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:28px 56px 20px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC;text-wrap:balance">Dal più antico al più recente</div>
+<div style="position:absolute;left:140px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 6 · METTI IN ORDINE</div>
+<div style="position:absolute;left:1664px;top:88px;width:160px;height:160px;border-radius:50%;border:8px solid #1B0B3A;box-sizing:border-box;background:conic-gradient(#FFC83D 0 70%,#3A2A6E 70% 100%);display:flex;align-items:center;justify-content:center"><div style="width:112px;height:112px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;line-height:1;color:#FFF4DC">14</div></div>
+<div style="position:absolute;left:96px;top:336px;width:1728px;height:292px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:134px 134px;gap:24px">
+<dc-import name="Risposta" lettera="A" testo="Colosseo" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="B" testo="Torre di Pisa" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="C" testo="Piramidi di Giza" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+<dc-import name="Risposta" lettera="D" testo="Torre Eiffel" hint-size="852px,134px" style="width:100%;height:100%"></dc-import>
+</div>
+<div style="position:absolute;left:96px;top:650px;width:1728px;height:376px;display:flex;justify-content:space-between"><sc-for list="{{ pOrdine }}" as="p" hint-placeholder-count="6"><dc-import name="Podio" who="{{ p.who }}" nome="{{ p.nome }}" colore="{{ p.colore }}" num="{{ p.num }}" punti="{{ p.punti }}" stato="{{ p.stato }}" badge="{{ p.badge }}" badge-scuro="{{ p.badgeScuro }}" spento="{{ p.spento }}" hint-size="240px,376px" style="width:240px;height:376px"></dc-import></sc-for></div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+<div class="dv-opt" id="1r" data-screen-label="1r Foto Misteriosa"><div class="dv-olabel"><a class="dv-oid" href="#1r">1r</a>Foto Misteriosa <span>la foto si scopre a tasselli, i punti scendono</span></div>
+<div style="width:960px;height:540px;overflow:hidden;border-radius:10px;position:relative;background:#12052E"><div style="position:absolute;left:0;top:0;width:1920px;height:1080px;transform:scale(.5);transform-origin:0 0;overflow:hidden">
+<dc-import name="Palco" hint-size="1920px,1080px" style="position:absolute;left:0;top:0;width:1920px;height:1080px"></dc-import>
+<div style="position:absolute;left:96px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FF3DA8;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ROUND 7 · FOTO MISTERIOSA</div>
+<div style="position:absolute;right:96px;top:54px;height:60px;box-sizing:border-box;padding:0 28px;display:flex;align-items:center;background:#FFC83D;border:6px solid #1B0B3A;border-radius:30px;font-family:'Lilita One';font-size:36px;color:#1B0B3A">600 PUNTI</div>
+<div style="position:absolute;left:96px;top:140px;width:1000px;height:640px;box-sizing:border-box;border:8px solid #1B0B3A;border-radius:28px;overflow:hidden;background:repeating-linear-gradient(45deg,#E9DFC6 0 22px,#FFF4DC 22px 44px);box-shadow:0 14px 0 #0A0320">
+<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:48px;color:#1B0B3A">FOTO · segnaposto</div>
+<div style="position:absolute;inset:0;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(4,1fr)">
+<sc-for list="{{ tiles }}" as="k" hint-placeholder-count="24"><div style="position:relative"><sc-if value="{{ k.c }}" hint-placeholder-val="{{ true }}"><div style="position:absolute;inset:0;background:#2B0F6B;border:3px solid #1B0B3A;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:64px;color:#4B1FA8">?</div></sc-if></div></sc-for>
+</div></div>
+<div style="position:absolute;left:96px;top:830px;width:1000px;height:196px;display:flex;justify-content:space-between;align-items:flex-end">
+<sc-for list="{{ fotoGioc }}" as="g" hint-placeholder-count="6"><div style="width:150px;display:flex;flex-direction:column;align-items:center;gap:6px;opacity:{{ g.o }}"><div style="position:relative;width:130px;height:130px;box-sizing:border-box;border-radius:50%;background:{{ g.colore }};border:6px solid #1B0B3A;overflow:hidden"><dc-import name="Personaggio" who="{{ g.who }}" hint-size="118px,118px" style="width:118px;height:118px"></dc-import></div><div style="font-family:'Baloo 2';font-weight:800;font-size:32px;line-height:1;color:#FFF4DC;white-space:nowrap">{{ g.lab }}</div></div></sc-for>
+</div>
+<div style="position:absolute;left:1140px;top:140px;width:684px;height:200px;box-sizing:border-box;background:#1B0B3A;border:8px solid #FF3DA8;border-radius:32px;box-shadow:0 14px 0 #0A0320;display:flex;align-items:center;justify-content:center;padding:20px 36px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:60px;line-height:1.1;color:#FFF4DC">Che cos’è?</div>
+<div style="position:absolute;left:1140px;top:380px;width:684px;height:536px;display:flex;flex-direction:column;gap:20px">
+<div style="height:119px"><dc-import name="Risposta" lettera="A" testo="Fontana di Trevi" hint-size="684px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="B" testo="Ponte di Rialto" hint-size="684px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="C" testo="Duomo di Milano" hint-size="684px,119px" style="width:100%;height:100%"></dc-import></div>
+<div style="height:119px"><dc-import name="Risposta" lettera="D" testo="Torre di Pisa" hint-size="684px,119px" style="width:100%;height:100%"></dc-import></div>
+</div>
+<div style="position:absolute;left:1140px;top:950px;width:684px;text-align:center;font-family:'Baloo 2';font-weight:800;font-size:36px;line-height:1;color:#FFF4DC">Un tassello ogni secondo: −25 punti</div>
+<sc-if value="{{ showSafe }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:96px;top:54px;width:1728px;height:972px;border:4px dashed #22E1FF;box-sizing:border-box"></div></sc-if>
+</div></div></div>
+
+</div>
+</section>
+
+<section class="dv-turn" id="t6" data-screen-label="Telefono">
+<div class="dv-thd"><a class="dv-tid" href="#t6">6</a><span class="dv-tname">Controller da telefono</span></div>
+<p class="dv-sub">Pagina web 390×844. Stesse forme e lettere della TV: chi guarda lo schermo trova subito il tasto giusto. Tastiera: tasti 1–4 (o A–D). Bersagli touch ≥ 120 px di altezza.</p>
+<div class="dv-opts">
+
+<div class="dv-opt" id="1l"><div class="dv-olabel"><a class="dv-oid" href="#1l">1l</a>Scegli personaggio</div>
+<div style="width:390px;height:844px;border-radius:44px;border:10px solid #0A0320;box-sizing:border-box;background:#25095E;overflow:hidden;display:flex;flex-direction:column;padding:28px 20px 24px;gap:14px">
+<div style="font-family:'Lilita One';font-size:30px;color:#FFC83D;text-align:center">QUIZZONE!</div>
+<div style="font-weight:800;font-size:24px;color:#FFF4DC;text-align:center">Chi vuoi essere?</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+<sc-for list="{{ scelta }}" as="c" hint-placeholder-count="6"><div style="position:relative;height:150px;box-sizing:border-box;border-radius:20px;border:4px solid #1B0B3A;border-bottom-width:9px;background:{{ c.colore }};opacity:{{ c.o }};outline:{{ c.ring }};outline-offset:3px;display:flex;flex-direction:column;align-items:center;padding-top:6px"><div style="width:104px;height:104px"><dc-import name="Personaggio" who="{{ c.who }}" hint-size="104px,104px" style="width:104px;height:104px"></dc-import></div><div style="font-weight:800;font-size:17px;line-height:1;color:#1B0B3A">{{ c.lab }}</div></div></sc-for>
+</div>
+<div style="height:56px;box-sizing:border-box;border-radius:16px;border:4px solid #1B0B3A;background:#FFF4DC;display:flex;align-items:center;padding:0 16px;font-weight:700;font-size:20px;color:#1B0B3A">Brioche</div>
+<div style="margin-top:auto;height:72px;box-sizing:border-box;border-radius:22px;border:4px solid #1B0B3A;border-bottom-width:10px;background:#FFC83D;display:flex;align-items:center;justify-content:center;font-family:'Lilita One';font-size:32px;color:#1B0B3A">ENTRA!</div>
+</div></div>
+
+<div class="dv-opt" id="1m"><div class="dv-olabel"><a class="dv-oid" href="#1m">1m</a>Rispondi</div>
+<div style="width:390px;height:844px;border-radius:44px;border:10px solid #0A0320;box-sizing:border-box;background:#25095E;overflow:hidden;display:flex;flex-direction:column">
+<div style="background:#FFD43B;border-bottom:5px solid #1B0B3A;display:flex;align-items:center;gap:12px;padding:30px 20px 12px"><div style="width:64px;height:64px;flex:none"><dc-import name="Personaggio" who="gatto" hint-size="64px,64px" style="width:64px;height:64px"></dc-import></div><div style="flex:1"><div style="font-weight:800;font-size:22px;line-height:1;color:#1B0B3A">Brioche</div><div style="font-weight:700;font-size:16px;color:#1B0B3A">Domanda 3/10</div></div><div style="font-family:'Lilita One';font-size:28px;color:#1B0B3A">750</div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;padding:22px 18px">
+<sc-for list="{{ tasti }}" as="t" hint-placeholder-count="4"><div style="flex:1;box-sizing:border-box;border-radius:24px;border:4px solid #1B0B3A;border-bottom-width:12px;background:#FFF4DC;display:flex;align-items:center;gap:16px;padding:0 16px"><div style="width:72px;height:72px;flex:none"><sc-if value="{{ t.isA }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="72" height="72"><polygon points="50,3 97,50 50,97 3,50" fill="#1B0B3A"></polygon><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#FFF4DC">A</text></svg></sc-if><sc-if value="{{ t.isB }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="72" height="72"><circle cx="50" cy="50" r="46" fill="#1B0B3A"></circle><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#FFF4DC">B</text></svg></sc-if><sc-if value="{{ t.isC }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="72" height="72"><polygon points="50,4 98,94 2,94" fill="#1B0B3A"></polygon><text x="50" y="84" text-anchor="middle" font-family="Lilita One" font-size="40" fill="#FFF4DC">C</text></svg></sc-if><sc-if value="{{ t.isD }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 100 100" width="72" height="72"><rect x="7" y="7" width="86" height="86" rx="12" fill="#1B0B3A"></rect><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#FFF4DC">D</text></svg></sc-if></div><div style="font-weight:800;font-size:24px;line-height:1.1;color:#1B0B3A">{{ t.testo }}</div></div></sc-for>
+</div>
+<div style="text-align:center;font-weight:700;font-size:16px;color:#FFF4DC;padding:0 0 22px">Guarda la TV e tocca la risposta</div>
+</div></div>
+
+<div class="dv-opt" id="1n"><div class="dv-olabel"><a class="dv-oid" href="#1n">1n</a>Risposta bloccata</div>
+<div style="width:390px;height:844px;border-radius:44px;border:10px solid #0A0320;box-sizing:border-box;background:#FFD43B;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:30px">
+<div style="width:200px;height:200px"><dc-import name="Personaggio" who="gatto" hint-size="200px,200px" style="width:200px;height:200px"></dc-import></div>
+<div style="width:120px;height:120px;border-radius:50%;background:#1B0B3A;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 100 100" width="70" height="70"><circle cx="50" cy="50" r="46" fill="#FFF4DC"></circle><text x="50" y="66" text-anchor="middle" font-family="Lilita One" font-size="44" fill="#1B0B3A">B</text></svg></div>
+<div style="font-family:'Lilita One';font-size:36px;line-height:1.05;color:#1B0B3A;text-align:center">Risposta bloccata!</div>
+<div style="font-weight:700;font-size:20px;color:#1B0B3A;text-align:center">Aspetta gli altri e guarda la TV</div>
+<div style="display:flex;gap:8px;margin-top:6px"><sc-for list="{{ cast6 }}" as="c" hint-placeholder-count="6"><div style="width:30px;height:30px;border-radius:50%;border:3px solid #1B0B3A;background:{{ c.colore }}"></div></sc-for></div>
+</div></div>
+
+<div class="dv-opt" id="1o"><div class="dv-olabel"><a class="dv-oid" href="#1o">1o</a>Ruba Punti · scegli</div>
+<div style="width:390px;height:844px;border-radius:44px;border:10px solid #0A0320;box-sizing:border-box;background:#25095E;overflow:hidden;display:flex;flex-direction:column;padding:30px 18px 24px;gap:12px">
+<div style="font-family:'Lilita One';font-size:30px;line-height:1.05;color:#FFC83D;text-align:center">Ruba 300 punti a…</div>
+<sc-for list="{{ vittime }}" as="v" hint-placeholder-count="5"><div style="flex:1;box-sizing:border-box;border-radius:22px;border:4px solid #1B0B3A;border-bottom-width:10px;background:{{ v.colore }};display:flex;align-items:center;gap:12px;padding:0 14px"><div style="width:84px;height:84px;flex:none"><dc-import name="Personaggio" who="{{ v.who }}" hint-size="84px,84px" style="width:84px;height:84px"></dc-import></div><div style="flex:1;font-weight:800;font-size:24px;line-height:1;color:#1B0B3A">{{ v.nome }}</div><div style="font-family:'Lilita One';font-size:24px;color:#1B0B3A">{{ v.punti }}</div></div></sc-for>
+</div></div>
+
+</div>
+</section>
+
+<section class="dv-turn" id="t7" data-screen-label="Note Godot">
+<div class="dv-thd"><a class="dv-tid" href="#t7">7</a><span class="dv-tname">Note per l’implementazione in Godot</span></div>
+<p class="dv-sub">I valori numerici sono anche in <a href="design-tokens.json">design-tokens.json</a>.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px;max-width:1500px">
+<sc-for list="{{ note }}" as="n" hint-placeholder-count="6"><div style="background:#fff;border:4px solid #1B0B3A;border-radius:16px;padding:18px 20px"><div style="font-family:'Lilita One';font-size:22px;margin-bottom:8px">{{ n.t }}</div><div style="font-size:14px;line-height:1.5;white-space:pre-line">{{ n.d }}</div></div></sc-for>
+</div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;areaSicura&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Verifica&quot;},&quot;scalaGrigi&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Verifica&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const f = n => n.toLocaleString('it-IT');
+    const P = [
+      { who: 'chef', nome: 'Gastone', colore: '#F2384A', num: 1, colname: 'Rosso pomodoro', ruolo: 'Chef tre stelle', tic: 'Assaggia ogni risposta prima di darla. Quando indovina urla “Squisito!” e lancia il cappello.' },
+      { who: 'nonna', nome: 'Nonna Pina', colore: '#2F7BFF', num: 2, colname: 'Blu elettrico', ruolo: 'Nonna di 94 anni', tic: 'Lavora a maglia durante le domande. Se sbaglia, la colpa è degli occhiali.' },
+      { who: 'zombi', nome: 'Ugo', colore: '#33C759', num: 3, colname: 'Verde slime', ruolo: 'Zombi', tic: 'Perde pezzi quando si emoziona. L’occhio destro guarda sempre da un’altra parte.' },
+      { who: 'gatto', nome: 'Brioche', colore: '#FFD43B', num: 4, colname: 'Giallo canarino', ruolo: 'Gatto', tic: 'Si addormenta tra una domanda e l’altra. Quando vince fa le fusa a tutto volume.' },
+      { who: 'boss', nome: 'Don Ciccio', colore: '#A855F7', num: 5, colname: 'Viola melanzana', ruolo: 'Boss di quartiere', tic: 'Non perde mai: “si trova un accordo”. Se sbaglia fissa il presentatore in silenzio.' },
+      { who: 'diva', nome: 'Vanessa', colore: '#FF8A1F', num: 6, colname: 'Arancio tramonto', ruolo: 'Diva del cinema', tic: 'Si mette in posa a ogni inquadratura e manda baci al pubblico, anche quando perde.' }
+    ];
+    const sc = [1250, 900, 1600, 750, 2100, 1400];
+    const base = P.map((p, i) => ({ ...p, punti: f(sc[i]), stato: '', badge: '', badgeScuro: false, spento: false }));
+    const mk = o => base.map((p, i) => ({ ...p, ...(o[i] || {}) }));
+    const ch = i => ({ colore: P[i].colore, num: P[i].num });
+    const conf = [];
+    const cols = P.map(p => p.colore).concat(['#FFF4DC', '#22E1FF']);
+    let s = 7;
+    const rnd = () => (s = (s * 9301 + 49297) % 233280) / 233280;
+    for (let i = 0; i < 26; i++) conf.push({ x: Math.round(rnd() * 1880), y: Math.round(rnd() * 600), w: 18 + Math.round(rnd() * 14), h: 30 + Math.round(rnd() * 16), r: Math.round(rnd() * 180), c: cols[i % cols.length] });
+    const bv = [820, 0, 1240, 460, 1900, 1080];
+    const shapes = L => ({ isA: L === 'A', isB: L === 'B', isC: L === 'C', isD: L === 'D' });
+    return {
+      showSafe: !!this.props.areaSicura,
+      filtro: this.props.scalaGrigi ? 'grayscale(1)' : 'none',
+      cast6: P,
+      studio: [
+        { n: 'Inchiostro', hex: '#1B0B3A', uso: 'contorni, testo' },
+        { n: 'Crema', hex: '#FFF4DC', uso: 'carte, testo chiaro' },
+        { n: 'Palco', hex: '#25095E', uso: 'sfondo medio' },
+        { n: 'Palco luce', hex: '#4B1FA8', uso: 'centro sfondo' },
+        { n: 'Neon magenta', hex: '#FF3DA8', uso: 'pannelli, linguette' },
+        { n: 'Neon ciano', hex: '#22E1FF', uso: 'archi, accenti' },
+        { n: 'Oro', hex: '#FFC83D', uso: 'timer, premi, CTA' },
+        { n: 'Spento', hex: '#3A2A6E', uso: 'risposta sbagliata' }
+      ],
+      tipi: [
+        { n: 'Logo', spec: 'Lilita One 200 · contorno 20', ff: "'Lilita One'", prev: 56, es: 'QUIZZONE!' },
+        { n: 'Titolo round', spec: 'Lilita One 136', ff: "'Lilita One'", prev: 44, es: 'PASSA LA BOMBA' },
+        { n: 'Titolo schermata', spec: 'Lilita One 88–100', ff: "'Lilita One'", prev: 40, es: 'Entrate in studio!' },
+        { n: 'Domanda', spec: 'Baloo 2 800 · 60 (min 56)', ff: "'Baloo 2'", prev: 30, es: 'Qual è il fiume più lungo?' },
+        { n: 'Risposta', spec: 'Baloo 2 800 · 48 (min 44)', ff: "'Baloo 2'", prev: 24, es: 'Mozzarella campana' },
+        { n: 'Numeri, etichette', spec: 'Lilita One 40–64', ff: "'Lilita One'", prev: 24, es: '1.250 · +500' },
+        { n: 'Minimo', spec: 'Baloo 2 800 · 32', ff: "'Baloo 2'", prev: 16, es: 'Nonna Pina · DOMANDA 3/10' }
+      ],
+      moti: [
+        { n: 'Entrata carta', d: 'scale 0 → 1.1 → 1 · 0,35 s · TRANS_BACK EASE_OUT · ritardo 0,08 s tra le risposte' },
+        { n: 'Respiro idle', d: 'scale.y 1 ↔ 1.03 sui personaggi · 1,6 s · TRANS_SINE · sfasato per giocatore' },
+        { n: 'Risposto', d: 'podio: salto y −24 px e ritorno · 0,25 s · TRANS_QUAD; icona lucchetto pop-in' },
+        { n: 'Rivelazione', d: 'sbagliate → colore spento 0,2 s; giusta scale 1.08 → 1.03 · TRANS_ELASTIC 0,6 s' },
+        { n: 'Punti', d: 'badge +500 sale di 40 px; contatore conta in 0,8 s' },
+        { n: 'Luci palco', d: 'lampadine: modulate alfa alternata a due gruppi ogni 0,4 s (niente shader)' }
+      ],
+      chA: [ch(1)], chB: [ch(0), ch(2), ch(4)], chD: [ch(3)], chFin: [ch(2)],
+      demoPodi: [
+        { ...base[0], etichetta: 'Normale' },
+        { ...base[1], stato: 'risposto', etichetta: 'Risposto' },
+        { ...base[2], stato: 'ok', badge: '+500', etichetta: 'Giusto' },
+        { ...base[3], stato: 'ko', etichetta: 'Sbagliato' },
+        { ...base[4], stato: 'bomba', etichetta: 'Ha la bomba' },
+        { ...base[5], stato: 'mira', etichetta: 'Nel mirino' },
+        { ...base[0], spento: true, badge: '−300', badgeScuro: true, etichetta: 'Fuori / perde' }
+      ],
+      pDomanda: mk({ 0: { stato: 'risposto' }, 2: { stato: 'risposto' }, 4: { stato: 'risposto' } }),
+      pRivela: mk({ 0: { stato: 'ok', badge: '+500', punti: f(1750) }, 1: { stato: 'ko' }, 2: { stato: 'ok', badge: '+500', punti: f(2100) }, 3: { stato: 'ko' }, 4: { stato: 'ok', badge: '+500', punti: f(2600) }, 5: { spento: true } }),
+      pDito: mk({ 2: { stato: 'risposto', badge: '1° 0,8 s' }, 4: { stato: 'risposto', badge: '2° 1,4 s' }, 0: { stato: 'risposto', badge: '3° 2,1 s' } }),
+      pBomba: mk({ 3: { stato: 'bomba', badge: 'Tocca a te!' } }),
+      pRuba: mk({ 1: { stato: 'ok', badge: 'Ladra!' }, 0: { stato: 'mira' }, 2: { stato: 'mira' }, 3: { stato: 'mira' }, 4: { stato: 'mira', badge: 'Lui?', badgeScuro: true }, 5: { stato: 'mira' } }),
+      pOrdine: mk({ 0: { stato: 'risposto', badge: 'C A B D' }, 2: { badge: 'C A …' }, 4: { stato: 'risposto', badge: 'A C B D' }, 5: { badge: 'C …' } }),
+      tiles: Array.from({ length: 24 }, (_, i) => ({ c: ![2, 7, 9, 14, 15, 20].includes(i) })),
+      fotoGioc: P.map((p, i) => ({ ...p, lab: [1, 4].includes(i) ? 'Bloccato' : p.nome, o: [1, 4].includes(i) ? 0.55 : 1 })),
+      torteDon: [{ o: 0.3 }, { o: 0.3 }, { o: 0.3 }],
+      torteUgo: [{ o: 1 }, { o: 0.3 }, { o: 0.3 }],
+      bars: P.map((p, i) => ({ who: p.who, colore: p.colore, v: bv[i] ? f(bv[i]) : 'FUORI', h: Math.round(64 + bv[i] / 1900 * 600), o: bv[i] ? 1 : 0.4 })),
+      codice: ['K', 'R', '7', 'Q'],
+      slots: [4, 0, 5, 3].map(i => ({ ...P[i], j: true, e: false })).concat([{ j: false, e: true }, { j: false, e: true }]),
+      top3: [
+        { ...P[2], pos: '2', h: 330, sz: 240, blocco: '#D9D4EC', punti: f(2950) },
+        { ...P[4], pos: '1', h: 440, sz: 290, blocco: '#FFC83D', punti: f(3400) },
+        { ...P[5], pos: '3', h: 250, sz: 220, blocco: '#C98A4B', punti: f(2300) }
+      ],
+      resto: [{ ...P[0], pos: '4.', punti: f(1900) }, { ...P[1], pos: '5.', punti: f(1450) }, { ...P[3], pos: '6.', punti: f(800) }],
+      confetti: conf,
+      scelta: P.map((p, i) => ({ ...p, lab: i === 3 ? 'Scelto ✓' : i === 1 || i === 4 ? 'Preso' : p.nome, o: i === 1 || i === 4 ? 0.35 : 1, ring: i === 3 ? '4px solid #FFF4DC' : 'none' })),
+      tasti: [['A', 'Parmigiano'], ['B', 'Mozzarella campana'], ['C', 'Gorgonzola'], ['D', 'Asiago']].map(([L, t]) => ({ ...shapes(L), testo: t })),
+      vittime: [0, 2, 3, 4, 5].map(i => base[i]),
+      note: [
+        { t: 'Pannelli e carte', d: 'StyleBoxFlat: bg_color, border_width 6 (bottom 16 per l’effetto 3D), border_color #1B0B3A, corner_radius 28, anti_aliasing on.\nOmbra dura = secondo StyleBox sfalsato di +14 px in y (non usare shadow_size: è sfumata).' },
+        { t: 'Testo', d: 'Label con LabelSettings: outline_size 14–20 in #1B0B3A per titoli su sfondo scuro, shadow_offset (0, 12), shadow_size 0.\nautowrap + max 2 righe per le domande; se non entra, scendere a 56 px, mai sotto.' },
+        { t: 'Palco', d: 'Pre-renderizzare lo sfondo (gradiente + archi + raggi) in un unico PNG 1920×1080: un solo draw call.\nLampadine e archi neon animati come Sprite/Line2D separati sopra, con modulate alfa.' },
+        { t: 'Neon senza shader', d: 'Ogni linea neon = due Line2D: una larga 36 px con alfa 0,2 e una piena da 8 px. Niente glow, niente WorldEnvironment.' },
+        { t: 'Personaggi', d: 'Ogni personaggio in un atlante 2048×2048. Pezzi: corpo, testa, occhi (aperti/chiusi), bocca (3 forme), cappello/accessorio.\nAnimazione con AnimationPlayer + Skeleton2D o solo Node2D annidati; squash & stretch con scale.' },
+        { t: 'Prestazioni Fire TV', d: 'Evitare grandi superfici semitrasparenti sovrapposte (overdraw). Massimo 2 gradienti per schermata.\nFont MSDF per scalare senza nuove texture. Test a 60 fps; se scende, disattivare il respiro dei podi fuori inquadratura.' },
+        { t: 'Colori e accessibilità', d: 'Giocatore = colore + numero + personaggio, mai solo colore. Testo sui colori giocatore sempre #1B0B3A (contrasto ≥ 4,5:1 su tutti e sei).\nGiusta/sbagliata per luminosità: verificabile con la Tweak “scala di grigi”.' },
+        { t: 'Ingressi', d: 'Telefono: WebSocket verso Godot, pagina 390×844. Tastiera: 1–4 o A–D per le risposte, INVIO per avanzare.\nLe forme ◆ ● ▲ ■ sono identiche su TV e telefono.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
