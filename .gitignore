@@ -10,4 +10,3 @@ Thumbs.db
 # Claude Code local
 .claude/settings.local.json
 ref/
-art/characters/*.glb
