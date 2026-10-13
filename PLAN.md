@@ -1,7 +1,7 @@
 # PLAN.md — Quiz Party 3D per Fire TV
 
 > Piano operativo. Nasce da [INITIAL_PLAN.md](INITIAL_PLAN.md) (la visione originale, che resta invariata) e dalle decisioni prese insieme.
-> Ultimo aggiornamento: 2026-10-10.
+> Ultimo aggiornamento: 2026-10-13 (grafica 2D pre-renderizzata).
 
 ---
 
@@ -26,6 +26,7 @@ Come lavora Claude (sessione padre + worker in parallelo, regole anti-spreco): v
 | Uso | Privato, a casa, con amici | Niente store, niente account, niente pubblicazione |
 | Budget | **Solo strumenti e asset gratuiti** | — |
 | Motore | **Godot 4.x stabile**, **renderer Compatibility** (OpenGL ES 3) dal primo giorno | Prestazioni native sulla Stick; ciò che si vede sul PC è vicino a ciò che si vedrà sulla TV |
+| Grafica (2026-10-13) | **2D pre-renderizzata**: studio e personaggi renderizzati in Blender, Godot compone sprite (§4 "Architettura 2D") | Il 3D dal vivo sulla GE9215 non supera ~35 FPS; la prova 2D fa 60 FPS con 50 MB |
 | Linguaggio del gioco | GDScript | Lo scrive Claude |
 | Controller dei giocatori | Pagina web (HTML/JS semplice) aperta dal browser del telefono | Nessuna app da installare |
 | Rete | **Wi-Fi locale: la Fire TV fa da server** (HTTP per la pagina, WebSocket per i messaggi) | Nessun servizio esterno, nessun costo |
@@ -184,6 +185,59 @@ Giudizio del supervisore su V5: "statico, banale". Si dà vita alla scena prima 
 
 **Round (da progettare dopo la regia, tutti approvati):** Furto, Sabotaggio (dispetto privato sul telefono del primo), Patata Bollente, La Talpa, Lello Bugiardo, Più o Meno (cursore sul telefono), La Botola (finale: chi sbaglia sprofonda).
 
+### Architettura 2D pre-renderizzata (2026-10-13) — sostituisce il 3D dal vivo
+Il 3D dal vivo sulla GE9215 a 1080p non supera ~32–40 FPS; la prova P2 (fondale + 5 sprite) fa **60 FPS, 50 MB GL**. Tutto ciò che si vede è un'immagine renderizzata in Blender (EEVEE); Godot compone solo strati 2D. **Le API di stage/director/character restano le stesse** (sotto): cambia l'implementazione, così `main.gd` cambia poco. Il codice 3D (`stage/stage.gd`, `director.gd`, `character.gd`) viene eliminato a fine milestone.
+
+**Strati (dal fondo):** `fondale (mood)` → `concorrenti (sprite, tagliati sotto il bordo del podio)` → `podi (sprite per slot, con nome/punti come Label Godot)` → `presentatore (sprite + ombra ellittica, scala in base alla y)` → `effetti (coriandoli CPUParticles2D, flash)` → `HUD`. Tutto in un `Node2D` "mondo" ripreso da una `Camera2D`; l'HUD sta in un CanvasLayer sopra.
+
+**Coordinate:** i render sono a **2× (3840×2160)** così la regia può zoomare fino a 2× senza sgranare. Il mondo Godot usa le stesse coordinate px del render 2×; inquadratura larga = `Camera2D.zoom = 0.5`.
+
+**Inquadrature:** una sola camera Blender (quella di `tools/prerender_preview.py`: pos (0,−5.4,2.6), target (0,3,1.75), 30 mm). La regia è 2D: carrellate/zoom lenti della `Camera2D` + stacchi netti (niente camere 3D diverse). Shot di `director` invariati: `intro wide question host player reveal scores winner`.
+
+**Fondali (mood):** `neutral` (menu, intro, classifica), `question` (più freddo/teso), `reveal` (caldo), `final` (oro/festa). Cambio mood = dissolvenza 0,5 s fra due fondali (2 strati solo durante la dissolvenza). Lo studio è **senza podi e senza personaggi**. Migliorie richieste: pubblico vero (non birilli), podi non a scatola, schermi laterali meno accesi, meno viola → notte neon.
+
+**Slot:** 6 podi fissi in arco (con N giocatori si usano gli N centrali). Podio canonico: bordo superiore a **z = 0,80 m**, concorrente 0,65 m dietro il centro del podio (come in `prerender_preview.py`). Ogni podio = sprite RGBA renderizzato nella sua posizione (holdout del resto) + targhetta vuota dove Godot scrive nome/punti.
+
+**Sprite dei personaggi:** renderizzati **una volta per personaggio**, non per slot: personaggio al centro della scena, camera con la stessa elevazione della camera principale. Concorrenti: si renderizza solo la parte **sopra il bordo del podio** (holdout di un podio canonico), quindi in gioco il bordo inferiore dello sprite si appoggia al bordo superiore del podio dello slot, che lo copre. Presentatore: figura intera, cammina davanti ai podi; `walk`/`strut` di profilo verso destra, verso sinistra = `flip_h`.
+- 10 fps, loop ≤ 3 s, una-volta ≤ 3 s; ritaglio stretto **per animazione** (bbox di tutti i frame).
+- Concorrenti (9): `idle think happy cheer victory disappointed defeated clap dance` (`dance` = una delle 4 danze, fissa per personaggio; `zombi` usa `zombie_idle` come idle). Presentatore (10): `idle talk talk2 point laugh taunt clap surprised walk strut`.
+- Ritratto per l'HUD: `portrait.png` 256×256 (testa e spalle).
+- Import Godot: **VRAM compresso** (ETC2/ASTC, 1 byte/px) per sprite e fondali; mipmap solo sui fondali.
+
+**Budget memoria (TV):** obiettivo **≤ 250 MB GL** con 4 concorrenti + presentatore caricati. Stima: concorrente ~225 frame × ~100 KB ≈ 25 MB, presentatore ~250 × ~300 KB ≈ 75 MB, fondali 4 × ~5 MB. Se la prova P3 dice di no: 8 fps, poi caricamento per fase (`dance` solo in FINAL).
+
+**File generati (formati fissi):**
+```
+assets/studio/bg_<mood>.png            3840×2160 RGB
+assets/studio/podium_<0..5>.png        RGBA, ritagliato, parti colorate in grigio neutro
+assets/studio/podium_<0..5>_tint.png   stesso rettangolo: solo le parti colorate (luminanza bianca su alpha), Godot le disegna sopra con modulate = colore del giocatore
+assets/studio/layout.json              {"size":[3840,2160],
+                                        "slots":[{"podium_pos":[x,y],   // angolo alto-sx dello sprite del podio
+                                                  "anchor":[x,y],       // centro del bordo superiore del podio
+                                                  "plate":[x,y,w,h],    // targhetta per nome/punti
+                                                  "scale":s}],          // scala dei concorrenti in quello slot
+                                        "floor":{"near_y":y,"near_scale":s,"far_y":y,"far_scale":s,"x_min":x,"x_max":x},  // dove cammina il presentatore
+                                        "host_home":[x,y]}
+assets/sprites/<chiave>/<anim>_<NNN>.png   RGBA (chiave: host polpetta smeralda zippo lola zombi elvio macho)
+assets/sprites/<chiave>/portrait.png
+assets/sprites/<chiave>/manifest.json  {"fps":10,"anims":{"idle":{"frames":24,"loop":true,
+                                          "offset":[x,y]}}}     // posizione dell'angolo alto-sx rispetto all'anchor (piedi del presentatore / bordo podio dei concorrenti), px 2×
+```
+Le cartelle degli asset si leggono **solo dal manifest** (nell'APK esportato `DirAccess` non vede i `.png`).
+
+**Sorgenti non di gioco:** `art/` con `.gdignore` (Godot non la importa): `.glb` dei concorrenti convertiti da Godot (Blender 5.2 non legge gli FBX 6100), file `.blend` se servono. Gli FBX/animazioni in `assets/models` e `assets/animations` passano in `art/` a fine milestone.
+
+**Nuovi file di gioco (stesse API del 3D):**
+- `stage/sprite_char.gd` (Node2D): `setup(key)`, `play(anim)`, `walk_to(pos: Vector2, anim := "walk")` → segnale `arrived`, `face(pos: Vector2)`; animazioni una-volta tornano a `idle`. Nomi delle animazioni 3D non disponibili (`rally`, `dance_*`) mappati: `rally`→`cheer`, `dance_*`→`dance`.
+- `stage/studio.gd` (Node2D, niente .tscn): `setup_players(names, keys)`, `play_intro()`→`intro_finished`, `focus_question()`, `show_reveal(results)`, `update_scores(scores)`, `celebrate(winner_id)`, `set_mood(name)`, `slot_anchor(i) -> Vector2`, `host_home() -> Vector2`, `scale_at(y) -> float`.
+- `stage/director2d.gd` (Node, possiede la `Camera2D`): `setup(cam, studio, host)`, `shot(name, focus := -1)`, `shake(strength := 1.0)`. Stesse regole del director 3D: mai fermo, 2–3 inquadrature per shot con stacchi ogni 3–6 s, `question` lascia libero il centro (x 620–1380 a schermo).
+- `ui/hud.gd`: stessa API; pannelli **opachi** (niente grandi rettangoli semitrasparenti); ritratti da `portrait.png`.
+
+**Strumenti Blender (`blender -b --python <script> -- ...`):**
+- `tools/render_studio.py <out>` → fondali, podi, `layout.json` + `preview.png` (composizione con sagome dei personaggi) per l'approvazione.
+- `tools/render_sprites.py <chiave> [anim ...]` → `assets/sprites/<chiave>/` + `sheet.png` (provino: 1 frame ogni 5) nello scratchpad.
+- Codice comune con `prerender_preview.py` copiato, non condiviso (sono script usa e getta; prerender_preview.py si elimina a fine milestone).
+
 ### Protocollo con i telefoni (M2)
 Messaggi JSON su WebSocket.
 
@@ -254,6 +308,14 @@ Una sequenza giocabile di 60–90 secondi che sembri già un quiz televisivo.
 - [ ] Fine con scena di vittoria e coriandoli
 - [ ] `tests/test_game.gd` passa (regole, punteggi, risposte doppie/tardive)
 - [ ] Gira sulla Fire TV a ≥ 30 FPS
+
+### M1-2D — Vertical slice in 2D pre-renderizzato (sostituisce la grafica di M1)
+- [ ] P3: memoria e tempo di caricamento di 5 set di sprite misurati sulla TV (≤ 250 MB GL)
+- [ ] Studio renderizzato (4 mood, 6 podi, layout.json) approvato dal supervisore sul provino
+- [ ] Sprite di presentatore + 7 concorrenti con manifest e ritratti
+- [ ] `studio.gd`, `sprite_char.gd`, `director2d.gd` con le API del 3D; HUD opaco
+- [ ] `main` in 2D: partita completa `-- --demo` senza errori; codice 3D eliminato
+- [ ] Sulla TV: 60 FPS (o 30 fissi) in tutte le fasi, avvio < 15 s
 
 ### M2 — Telefoni come controller
 - [ ] QR code + indirizzo visibili sulla TV nella lobby

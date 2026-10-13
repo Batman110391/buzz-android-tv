@@ -80,6 +80,21 @@ Si copia lo **stile** (studio al neon, layout HUD, personaggi caricaturali), mai
 
 **Regola catture:** massimo 30 s di gioco (`--fixed-fps 10 --quit-after 300`), `-- --demo --quick` salta l'intro.
 
+## M1-2D — grafica pre-renderizzata (contratti: PLAN.md §4 "Architettura 2D pre-renderizzata")
+
+| ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
+|---|---|---|---|---|---|---|
+| P3 | Memoria/caricamento sulla TV di 5 set di sprite sintetici (4×225 frame ~300×330 + 250 frame ~400×750), import VRAM compresso | W | — | `tests/prerender_test.*`, `assets/p3_test/` (temporanea, non nel commit), `project.godot` (solo main_scene, da ripristinare) | GL MB + secondi di caricamento + FPS dalla TV | todo |
+| D1 | `.glb` dei 7 concorrenti in `art/characters/` (Godot headless, non in git: `godot --headless --path . --script res://tools/fbx_to_glb.gd`), `art/.gdignore` | P | — | `tools/fbx_to_glb.gd`, `art/**` | Blender importa ogni glb con l'armatura | done |
+| D2 | `tools/render_studio.py`: 4 fondali, 6 podi, `layout.json`, provino | W (medium) | — | `tools/render_studio.py`, `assets/studio/**` | provino ok del supervisore | todo |
+| D3 | `tools/render_sprites.py`: sprite + manifest + ritratto; prima il presentatore | W (medium) | — (concorrenti: D1) | `tools/render_sprites.py`, `assets/sprites/**` | sheet.png ok | todo |
+| D4 | Runtime 2D: `studio.gd`, `sprite_char.gd`, `director2d.gd` + scena di prova | W | D2, D3 | `stage/studio.gd`, `stage/sprite_char.gd`, `stage/director2d.gd`, `tests/test_2d.tscn/.gd` | cattura 30 s | todo |
+| D5 | HUD opaco + ritratti da `portrait.png` | W | D3 | `ui/hud.gd`, `ui/hud.tscn` | cattura 30 s | todo |
+| D6 | `main` in 2D; eliminare stage.gd/director.gd/character.gd/stage.tscn, prerender_preview.py, prerender_test; FBX → `art/` | P | D4, D5 | `main.*`, `project.godot` | `-- --demo` completo senza errori | todo |
+| D7 | TV: FPS per fase, memoria, tempo di avvio | P | D6 | impostazioni | `tools/perf.sh` | todo |
+
+**Parallelo:** P3 ∥ D1 ∥ D2 ∥ D3 subito; D4 ∥ D5 dopo i primi asset; poi D6, D7.
+
 ## Log
 - 2026-10-10 — Piano scritto (PLAN.md), flusso di lavoro definito (CLAUDE.md, worker). In attesa dell'approvazione del supervisore.
 - 2026-10-10 — T01 done. T02 done: Godot 4.7.2, JDK 17, SDK (build-tools 35.0.1, android-35, NDK 28.1), template 4.7.2 (percorsi in CLAUDE.md). T03 done: TV AFTKRT già su adb. T04 ∥ T05 avviati.
