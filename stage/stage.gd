@@ -32,15 +32,10 @@ var _m_ring: StandardMaterial3D
 var _m_stairs: StandardMaterial3D
 var _m_screen: StandardMaterial3D
 var _m_stand: StandardMaterial3D
-var _m_cone_a: ShaderMaterial
-var _m_cone_b: ShaderMaterial
 var _m_arch: StandardMaterial3D
 var _lights: Array[Light3D] = []  # 0 dir, 1-2 rim, 3 fill
-var _mirror: Node3D
-var _pods: Array[Dictionary] = []  # {root, mirror, dome, border, label, name}
+var _pods: Array[Dictionary] = []  # {root, dome, border, label, name}
 var _confetti: CPUParticles3D
-var _sparkles: Array[StandardMaterial3D] = []
-var _glow_tex: GradientTexture2D
 
 
 func _ready() -> void:
@@ -56,14 +51,11 @@ func _ready() -> void:
 
 # ---------- helpers ----------
 
-func _mat(c: Color, add: bool = false) -> StandardMaterial3D:
+func _mat(c: Color) -> StandardMaterial3D:
 	var m := StandardMaterial3D.new()
 	m.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
 	m.albedo_color = c
 	m.cull_mode = BaseMaterial3D.CULL_DISABLED
-	if add:
-		m.blend_mode = BaseMaterial3D.BLEND_MODE_ADD
-		m.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
 	return m
 
 
@@ -129,18 +121,7 @@ func _dot_tex() -> ImageTexture:
 	for y in 64:
 		for x in 64:
 			var d := Vector2(x + 0.5, y + 0.5).distance_to(Vector2(32, 32))
-			img.set_pixel(x, y, Color(0.12, 0.1, 0.14, 0.6).lerp(Color.WHITE, 1.0 - smoothstep(8.0, 22.0, d)))
-	img.generate_mipmaps()
-	return ImageTexture.create_from_image(img)
-
-
-func _sil_tex() -> ImageTexture:
-	var img := Image.create(64, 96, true, Image.FORMAT_RGBA8)
-	for y in 96:
-		for x in 64:
-			var head := Vector2(x, y).distance_to(Vector2(32, 26)) < 11.0
-			var body := y > 46 and pow((x - 32) / 27.0, 2) + pow((y - 92) / 44.0, 2) < 1.0
-			img.set_pixel(x, y, Color.WHITE if head or body else Color(1, 1, 1, 0))
+			img.set_pixel(x, y, Color(0.07, 0.06, 0.08).lerp(Color.WHITE, 1.0 - smoothstep(8.0, 22.0, d)))
 	img.generate_mipmaps()
 	return ImageTexture.create_from_image(img)
 
@@ -164,7 +145,7 @@ func _radial(inner: Color, mid: Color, outer: Color) -> GradientTexture2D:
 func _build_env() -> void:
 	var env := Environment.new()
 	env.background_mode = Environment.BG_COLOR
-	env.background_color = Color(0.01, 0.008, 0.025)
+	env.background_color = Color(0.005, 0.005, 0.012)
 	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	env.ambient_light_color = Color(0.5, 0.45, 0.55)
 	env.ambient_light_energy = 0.6
@@ -180,51 +161,42 @@ func _build_env() -> void:
 
 
 func _build_set() -> void:
-	_glow_tex = _radial(Color.WHITE, Color(1, 1, 1, 0.45), Color(1, 1, 1, 0))
-	_mirror = Node3D.new()
-	_mirror.scale = Vector3(1, -1, 1)
-	add_child(_mirror)
-
-	# pavimento: dischetto trasparente con puntini LED (sopra le copie specchiate)
+	# pavimento opaco con puntini LED dipinti nella texture
 	_m_dots = _mat(Color.WHITE)
-	_m_dots.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
 	_m_dots.albedo_texture = _dot_tex()
 	_m_dots.vertex_color_use_as_albedo = true
-	_m_dots.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+	_m_dots.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 	_add(_ring(0.0, R_FLOOR, 0.0, Color(0.12, 0.12, 0.12), Color(1, 1, 1), 48), _m_dots, Vector3.ZERO, self)
 	# fascia esterna arancione (sfumata)
 	_m_band = _mat(Color.WHITE)
 	_m_band.vertex_color_use_as_albedo = true
 	_add(_ring(R_FLOOR, R_STAGE, 0.004, Color(0.55, 0.55, 0.55), Color(1, 1, 1)), _m_band, Vector3.ZERO, self)
-	# bordo scuro lucido + terreno nero
+	# bordo scuro (il terreno nero è il colore di sfondo)
 	var rim_m := _mat(Color.WHITE)
 	rim_m.vertex_color_use_as_albedo = true
 	_add(_ring(R_STAGE, 6.7, 0.0, Color(0.04, 0.04, 0.07), Color(0.01, 0.01, 0.02), 64), rim_m, Vector3.ZERO, self)
-	var ground := _mat(Color(0.005, 0.005, 0.012))
-	_add(_ring(6.7, 60.0, -0.01, Color.WHITE, Color.WHITE, 32), ground, Vector3.ZERO, self)
 
-	# anello neon blu (parete bassa + toro) e sua copia specchiata
+	# anello neon blu (parete bassa + toro)
 	_m_ring = _mat(Color.WHITE)
 	var wall_m := _mat(Color(0.03, 0.03, 0.08))
-	for parent in [self, _mirror]:
-		var wall := CylinderMesh.new()
-		wall.top_radius = R_STAGE + 0.05
-		wall.bottom_radius = R_STAGE + 0.05
-		wall.height = 0.5
-		wall.cap_top = false
-		wall.cap_bottom = false
-		wall.radial_segments = 64
-		_add(wall, wall_m, Vector3(0, 0.25, 0), parent)
-		var t := TorusMesh.new()
-		t.inner_radius = R_STAGE - 0.04
-		t.outer_radius = R_STAGE + 0.14
-		t.rings = 64
-		t.ring_segments = 8
-		_add(t, _m_ring, Vector3(0, 0.5, 0), parent)
+	var wall := CylinderMesh.new()
+	wall.top_radius = R_STAGE + 0.05
+	wall.bottom_radius = R_STAGE + 0.05
+	wall.height = 0.5
+	wall.cap_top = false
+	wall.cap_bottom = false
+	wall.radial_segments = 64
+	_add(wall, wall_m, Vector3(0, 0.25, 0), self)
+	var t := TorusMesh.new()
+	t.inner_radius = R_STAGE - 0.04
+	t.outer_radius = R_STAGE + 0.14
+	t.rings = 64
+	t.ring_segments = 8
+	_add(t, _m_ring, Vector3(0, 0.5, 0), self)
 
 	_build_stands()
 	_build_screens_stairs()
-	_build_trusses_cones()
+	_build_trusses()
 	_build_lights()
 	_build_confetti()
 
@@ -235,7 +207,7 @@ func _build_stands() -> void:
 	st.begin(Mesh.PRIMITIVE_TRIANGLES)
 	var segs := 40
 	var a_max := deg_to_rad(115.0)
-	var tiers := 8
+	var tiers := 4
 	var rows: Array[Dictionary] = []
 	for i in tiers:
 		var r := 9.0 + i * 1.5
@@ -252,25 +224,24 @@ func _build_stands() -> void:
 		rows.append({"r": r + 0.75, "y": y})
 	_m_stand = _mat(Color.WHITE)
 	_m_stand.vertex_color_use_as_albedo = true
+	_m_stand.cull_mode = BaseMaterial3D.CULL_BACK
 	var sm := MeshInstance3D.new()
 	sm.mesh = st.commit()
 	sm.material_override = _m_stand
 	add_child(sm)
 
-	# pubblico: sagome nere (un solo MultiMesh) + lucine sparse
+	# pubblico: tronchi neri opachi low-poly (un solo MultiMesh)
 	var sil := _mat(Color(0.012, 0.008, 0.016))
-	sil.albedo_texture = _sil_tex()
-	sil.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR
-	sil.alpha_scissor_threshold = 0.5
-	sil.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
-	var q := QuadMesh.new()
-	q.size = Vector2(0.7, 1.05)
+	var q := CylinderMesh.new()
+	q.top_radius = 0.2
+	q.bottom_radius = 0.3
+	q.height = 1.0
+	q.radial_segments = 5
+	q.rings = 0
+	q.cap_bottom = false
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 7
 	var xf: Array[Transform3D] = []
-	var spark: Array[Transform3D] = []
-	var spark_c: Array[Color] = []
-	var pal: Array[Color] = [Color(1, 1, 1), Color(0.5, 0.75, 1.0), Color(1, 0.7, 0.35)]
 	for row in rows:
 		var r: float = row.r
 		var y: float = row.y
@@ -280,28 +251,9 @@ func _build_stands() -> void:
 			var p := _pol(r + rng.randf_range(-0.3, 0.3), a, y)
 			if rng.randf() < 0.12:
 				continue
-			var d := Vector3(-p.x, 0, -p.z).normalized()
-			var b := Basis.looking_at(-d).scaled(Vector3(rng.randf_range(0.85, 1.15), rng.randf_range(0.9, 1.2), 1.0))
+			var b := Basis.IDENTITY.scaled(Vector3(rng.randf_range(0.85, 1.15), rng.randf_range(0.9, 1.2), 0.8))
 			xf.append(Transform3D(b, p + Vector3(0, 0.5, 0)))
-			if rng.randf() < 0.1:
-				spark.append(Transform3D(Basis.IDENTITY, p + Vector3(rng.randf_range(-0.3, 0.3), rng.randf_range(0.2, 1.0), 0.3)))
-				spark_c.append(pal[rng.randi() % 3])
 	_mm(q, sil, xf, [], self)
-	var sq := QuadMesh.new()
-	sq.size = Vector2(0.28, 0.28)
-	var half := spark.size() / 2
-	for g in 2:
-		var sm2 := _mat(Color(1, 1, 1, 0.9), true)
-		sm2.billboard_mode = BaseMaterial3D.BILLBOARD_ENABLED
-		sm2.vertex_color_use_as_albedo = true
-		sm2.albedo_texture = _glow_tex
-		_sparkles.append(sm2)
-		_mm(sq, sm2, spark.slice(g * half, (g + 1) * half if g == 0 else spark.size()),
-				spark_c.slice(g * half, (g + 1) * half if g == 0 else spark_c.size()), self)
-		# lampeggio: i due gruppi si alternano
-		var tw := create_tween().set_loops()
-		tw.tween_property(sm2, "albedo_color:a", 0.15 if g == 0 else 1.0, 0.7 + g * 0.3)
-		tw.tween_property(sm2, "albedo_color:a", 1.0 if g == 0 else 0.15, 0.7 + g * 0.3)
 
 
 func _build_screens_stairs() -> void:
@@ -358,14 +310,13 @@ func _build_screens_stairs() -> void:
 		root.add_child(lab)
 
 
-func _build_trusses_cones() -> void:
+func _build_trusses() -> void:
 	var dark := _mat(Color(0.03, 0.03, 0.05))
 	var dot := QuadMesh.new()
-	dot.size = Vector2(0.3, 0.3)
-	var dm := _mat(Color(1, 1, 1, 1), true)
+	dot.size = Vector2(0.14, 0.14)
+	var dm := _mat(Color.WHITE)
 	dm.billboard_mode = BaseMaterial3D.BILLBOARD_ENABLED
 	dm.vertex_color_use_as_albedo = true
-	dm.albedo_texture = _glow_tex
 	var xf: Array[Transform3D] = []
 	var cols: Array[Color] = []
 	# americane orizzontali con lucine
@@ -390,37 +341,6 @@ func _build_trusses_cones() -> void:
 		xf.append(Transform3D(Basis.IDENTITY, Vector3(sin(a) * 8.1, 1.5 + cos(a) * 8.1, -14.4)))
 		cols.append(Color(1, 0.85, 0.5) if i % 2 == 0 else Color(1, 1, 1))
 	_mm(dot, dm, xf, cols, self)
-	# coni di luce additivi finti
-	var sh := Shader.new()
-	sh.code = """shader_type spatial;
-render_mode unshaded, blend_add, cull_disabled, depth_draw_never;
-uniform vec4 col : source_color = vec4(1.0);
-void fragment() {
-	float f = pow(abs(dot(normalize(NORMAL), normalize(VIEW))), 1.5);
-	ALBEDO = col.rgb;
-	ALPHA = col.a * f * (1.0 - UV.y);
-}"""
-	_m_cone_a = ShaderMaterial.new()
-	_m_cone_a.shader = sh
-	_m_cone_b = ShaderMaterial.new()
-	_m_cone_b.shader = sh
-	var srcs: Array[Vector3] = [Vector3(-7, 5.1, -8.5), Vector3(-3.5, 5.1, -8.5), Vector3(3.5, 5.1, -8.5), Vector3(7, 5.1, -8.5), Vector3(-5, 6.6, -11), Vector3(5, 6.6, -11)]
-	var tgts: Array[Vector3] = [Vector3(2, 0, 0), Vector3(-1, 0, 1), Vector3(1, 0, 1), Vector3(-2, 0, 0), Vector3(3, 0, -1), Vector3(-3, 0, -1)]
-	for i in srcs.size():
-		var len := srcs[i].distance_to(tgts[i])
-		var piv := Node3D.new()
-		piv.position = srcs[i]
-		add_child(piv)
-		piv.look_at(tgts[i])
-		var c := CylinderMesh.new()
-		c.top_radius = 0.08
-		c.bottom_radius = 1.5
-		c.height = len
-		c.radial_segments = 16
-		c.cap_top = false
-		c.cap_bottom = false
-		var mi := _add(c, _m_cone_a if i % 2 == 0 else _m_cone_b, Vector3(0, 0, -len / 2.0), piv)
-		mi.rotation.x = PI / 2.0
 
 
 func _build_lights() -> void:
@@ -486,8 +406,6 @@ func _apply(m: Array[Color]) -> void:
 	_m_stairs.albedo_color = _k(m[0], 1.05)
 	_m_screen.albedo_color = _k(m[0], 1.2)
 	_m_stand.albedo_color = _k(m[0], 0.16)
-	_m_cone_a.set_shader_parameter("col", Color(m[0].r, m[0].g, m[0].b, 0.2))
-	_m_cone_b.set_shader_parameter("col", Color(m[2].r, m[2].g, m[2].b, 0.16))
 	_lights[1].light_color = m[0].lerp(Color.WHITE, 0.35)
 	_lights[2].light_color = m[2].lerp(Color.WHITE, 0.35)
 
@@ -539,7 +457,6 @@ func _pod_body(parent: Node3D, body_m: Material, dome_m: Material) -> void:
 func setup_players(names: Array[String]) -> void:
 	for p in _pods:
 		(p.root as Node).queue_free()
-		(p.mirror as Node).queue_free()
 	_pods.clear()
 	var n := mini(names.size(), 6)
 	_place_spots(n)
@@ -561,11 +478,6 @@ func setup_players(names: Array[String]) -> void:
 		root.rotation.y = spot.rotation.y
 		add_child(root)
 		_pod_body(root, silver, dome_m)
-		var mir := Node3D.new()
-		mir.position = root.position
-		mir.rotation.y = root.rotation.y
-		_mirror.add_child(mir)
-		_pod_body(mir, silver, dome_m)
 		# targhetta: bordo colorato + pannello scuro + testo
 		var border := _mat(PLATE_BLUE)
 		var bq := QuadMesh.new()
@@ -578,11 +490,11 @@ func setup_players(names: Array[String]) -> void:
 		lab.font_size = 96
 		lab.pixel_size = 0.0013
 		lab.outline_size = 14
-		lab.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+		lab.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 		lab.shaded = false
 		lab.position = Vector3(0, 0.78, 0.233)
 		root.add_child(lab)
-		_pods.append({"root": root, "mirror": mir, "dome": dome_m, "border": border, "label": lab, "name": names[i]})
+		_pods.append({"root": root, "dome": dome_m, "border": border, "label": lab, "name": names[i]})
 		_label(i, 0)
 
 
