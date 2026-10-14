@@ -25,7 +25,7 @@ func _init() -> void:
 	var g = GameScript.new()
 	var resolved: Array = []
 	var over: Array = []
-	g.question_resolved.connect(func(c: int, r: Dictionary, s: Dictionary) -> void: resolved.append([c, r, s]))
+	g.question_resolved.connect(func(c: int, r: Dictionary, s: Dictionary, _w: Dictionary) -> void: resolved.append([c, r, s]))
 	g.game_over.connect(func(r: Array) -> void: over.append(r))
 	g.setup(names, qs, 2)
 	_check(not g.submit_answer(0, 0), "risposta fuori fase")
@@ -63,7 +63,7 @@ func _init() -> void:
 	var res2: Array = []
 	var q2: Array = []
 	g2.question_started.connect(func(i: int, t: int, q: Dictionary) -> void: q2.append(q))
-	g2.question_resolved.connect(func(c: int, r: Dictionary, s: Dictionary) -> void: res2.append([c, r, s]))
+	g2.question_resolved.connect(func(c: int, r: Dictionary, s: Dictionary, _w: Dictionary) -> void: res2.append([c, r, s]))
 	g2.setup(names, [qs[0]], 1)
 	g2.start()
 	g2.advance()
@@ -73,9 +73,10 @@ func _init() -> void:
 	_check(qs[0]["risposte"][0] == giusta and not qs[0].has("correct"), "originale intatto")
 	g2.submit_answer(0, q["correct"])
 	g2.submit_answer(1, (q["correct"] + 1) % 4)
-	g2.tick(0.1)
+	g2.tick(7.5)
+	g2.submit_answer(2, q["correct"])  # giusta a metà tempo
 	g2.tick(20.0)
-	_check(res2[0][1][0] and not res2[0][1][1] and not res2[0][1][2], "risultati")
-	_check(res2[0][2][0] == 500 and res2[0][2][1] == 0, "punteggi")
+	_check(res2[0][1][0] and not res2[0][1][1] and res2[0][1][2], "risultati")
+	_check(res2[0][2][0] == 500 and res2[0][2][1] == 0 and res2[0][2][2] == 380, "punteggi per velocità")
 	print("PASS")
 	quit(0)

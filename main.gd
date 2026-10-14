@@ -144,7 +144,7 @@ func _vai_round() -> void:
 	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
 	await _presenta_giocatori()
 	_fase = "round"
-	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
+	_round.mostra(1, 1, ROUND, "Fino a 500 punti per ogni risposta giusta: più sei veloce, più ne fai!", "💰")
 	await get_tree().create_timer(0.6).timeout
 	await _commenta(["round_1", "gilda_round_1"].pick_random(), "annuncio", FUMETTO_BASSO)
 	_round.nascondi()
@@ -152,7 +152,7 @@ func _vai_round() -> void:
 
 
 ## Primo piano di ogni giocatore non ancora presentato in questa sessione, con la battuta di Tony; OK salta tutto.
-## ponytail: qui andrà il caricamento in background (domande dal server, foto) quando ci sarà (D5, G3).
+## ponytail: qui andrà il caricamento in background delle domande dal server quando ci sarà (D5).
 func _presenta_giocatori() -> void:
 	_fase = "presentazioni"
 	_salta = false
@@ -280,12 +280,12 @@ func _process(dt: float) -> void:
 	_game.tick(dt)  # può emettere question_resolved -> _rivela
 
 
-func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void:
+func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary, vinti: Dictionary) -> void:
 	_fase = "rivela"
 	var punti: Array = []
 	var giusti: Array = []
 	for pid in _n:
-		punti.append(Game.POINTS_CORRECT)
+		punti.append(vinti[pid])
 		if risultati[pid]:
 			giusti.append(pid)
 	_s.rivela(corretta, _scelte, punti)

@@ -26,22 +26,21 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 | Voce | ElevenLabs v3, battute pre-generate (`tools/gen_voice.mjs`, testi in `assets/voice/lines.json`); lip-sync dal volume | Già funzionante |
 | **Co-conduttrice** | **Gilda Lampo** (approvata 2026-10-14): alla pari con Tony, lucida e ironica; tiene il ritmo, presenta round e classifica, smonta Tony con battute secche. Le situazioni pescano battute di entrambi + duetti (Tony → Gilda). Voce Voice Design sul 2° account ElevenLabs (`ELEVENLABS_API_KEY2`), Tony resta sul 1° | Meno ripetizioni, più "show", inclusività; raddoppia i crediti voce |
 | Sottotitoli | Fumetto con il testo di Tony, attivabile/disattivabile dal titolo (salvato in `user://impostazioni.cfg`) | Accessibilità |
-| **Minigiochi** (2026-10-14) | Ogni minigioco è un round. Prima della partita chi ha il telecomando sceglie quali giocare (tutti selezionati di default, minimo 4): così decide la durata. Primo rilascio, 8 selezionabili: Accumula Punti, Dito Veloce, Passa la Bomba, Ruba Punti, Torta in Faccia, Metti in Ordine, Foto Misteriosa, La risposta più vicina. **Conto alla Rovescia** chiude sempre la partita (non si toglie). **Duello degli indizi** parte da solo (recupero, sotto). Nuovi minigiochi arrivano con gli aggiornamenti dell'APK | Durata scelta senza menu complicati |
+| **Minigiochi** (2026-10-14) | Ogni minigioco è un round. Prima della partita chi ha il telecomando sceglie quali giocare (tutti selezionati di default, minimo 4): così decide la durata. Primo rilascio, 7 selezionabili: Accumula Punti, Dito Veloce, Passa la Bomba, Ruba Punti, Torta in Faccia, Metti in Ordine, La risposta più vicina (Foto Misteriosa tolta il 2026-10-14: forse in un aggiornamento). **Conto alla Rovescia** chiude sempre la partita (non si toglie). **Duello degli indizi** parte da solo (recupero, sotto). Nuovi minigiochi arrivano con gli aggiornamenti dell'APK | Durata scelta senza menu complicati |
 | **Duello degli indizi** | A metà partita, se tra primo e ultimo ci sono ≥ 3 risposte giuste di distanza (1.500 punti; soglia da tarare col playtest). Due squadre dalla classifica (3: 1°+3° / 2° · 4: 1°+4° / 2°+3° · 5: 1°+5° / 2°+3°+4° · 6: 1°+6°+5° / 2°+3°+4°; con 2 giocatori non c'è). Indizi uno alla volta, poi 4 risposte: il premio parte alto e **scende a ogni indizio sbloccato** (nessuno perde punti già fatti) | Dà una possibilità a chi è indietro senza annullare la partita |
 | Controller | Pagina web sul telefono (WebSocket verso la TV); tastiera/telecomando + bot per i test | Nessuna app da installare |
 | Lingua | Italiano | — |
 | **Domande** | Servite da un **Cloudflare Worker + D1** (piano gratuito); la TV le scarica all'avvio e le tiene in cache; aggiornate da un cron del Worker che genera con **Gemini** e verifica con un modello **OpenRouter** diverso (§4 "Domande") | Domande nuove senza aggiornare l'app, costo zero |
 | Dotazione iniziale | ~1.600 domande scritte da Claude (worker), incluse anche nell'APK come riserva offline | Si gioca anche senza rete; fanno da "set buono" per tarare i prompt |
-| Foto Misteriosa | Immagini da **Pixabay** (API gratuita), scelte dal Worker | G3 |
 | Segreti | Solo in `.env` sul PC (da `.env.example`, escluso da git) e nei segreti del Worker; mai nell'APK | Repo pubblico |
 | Repository | Pubblico con licenza; gestisce le release dell'APK quando serve | — |
 
 ---
 
 ## 3. Regole
-**Accumula Punti (base):** 4 risposte (A rombo, B cerchio, C triangolo, D quadrato), timer 15 s, una risposta per giocatore (definitiva), il round finisce allo scadere o quando hanno risposto tutti, **+500** a chi indovina. Valori in un solo punto (`game/game.gd`).
+**Accumula Punti (base):** 4 risposte (A rombo, B cerchio, C triangolo, D quadrato), timer 15 s, una risposta per giocatore (definitiva), il round finisce allo scadere o quando hanno risposto tutti; chi indovina prende **da 500 (subito) a 250 punti (all'ultimo istante)**, lineare e arrotondato a 10 (2026-10-14: così conta anche la velocità). Durante la domanda si accende solo il podio di chi ha risposto: le scelte si vedono alla rivelazione. Valori in un solo punto (`game/game.gd`).
 
-**Mini-giochi** (README del design, sezione "Mini-giochi"): Dito Veloce (punti che scendono col tempo), Passa la Bomba (chi ha la bomba quando esplode −500), Ruba Punti (chi indovina ruba a una vittima), Torta in Faccia (duello 1 contro 1), Metti in Ordine, Foto Misteriosa (tasselli che si scoprono), **Conto alla Rovescia** (finale: −50 punti/s finché non rispondi giusto).
+**Mini-giochi** (README del design, sezione "Mini-giochi"): Dito Veloce (punti che scendono col tempo), Passa la Bomba (chi ha la bomba quando esplode −500), Ruba Punti (chi indovina ruba a una vittima), Torta in Faccia (duello 1 contro 1), Metti in Ordine, **Conto alla Rovescia** (finale: −50 punti/s finché non rispondi giusto).
 
 **Partita:** Titolo → Lobby → N round (presentazione del round + domande) → Conto alla Rovescia → Classifica finale → Titolo.
 
@@ -86,7 +85,6 @@ BUZZ/
 | `classica` | Accumula Punti, Ruba Punti, Torta in Faccia, Conto alla Rovescia | `risposte[4]` (la **giusta è sempre la prima**: il gioco mescola) | domanda 90, risposta 26 |
 | `lampo` | Dito Veloce, Passa la Bomba | come `classica`, ma si capisce in 2 s | domanda 55, risposta 16 |
 | `ordine` | Metti in Ordine | `criterio` ("Dal più antico al più recente"), `elementi[4]` **nell'ordine giusto**, `valori[4]` (1492, 1789…: si mostrano alla rivelazione e rendono l'ordine verificabile) | criterio 50, elemento 22, valore 14 |
-| `foto` | Foto Misteriosa | `immagine` (URL Pixabay), `autore`, `pagina`, `risposte[4]` | (G3) |
 | `stima` | La risposta più vicina | `valore` (numero esatto), `unita` ("km", "abitanti"); la stima si scrive sul telefono | (G3) |
 | `indizi` | Duello degli indizi | `categoria_indizi` ("Personaggio storico"), `indizi[3]` dal più vago al più chiaro, `risposte[4]` | (G3) |
 
@@ -206,7 +204,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 
 ### G3 — Mini-giochi
 - [ ] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o)
-- [ ] Torta in Faccia · Metti in Ordine · Foto Misteriosa (immagini Pixabay via API, scelte dal Worker; autore e pagina mostrati)
+- [ ] Torta in Faccia · Metti in Ordine
 - [ ] Conto alla Rovescia come finale
 - [ ] Schermata di scelta dei minigiochi prima della partita (telecomando; tutti accesi, minimo 4)
 - [ ] La risposta più vicina (stima dal telefono, vince chi si avvicina di più)
@@ -227,7 +225,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 | QR code: Godot non lo genera | Generatore QR in GDScript (algoritmo pubblico) o solo indirizzo + codice |
 | Crediti ElevenLabs | Generare solo i file mancanti (`--go <id>`), testi rivisti prima |
 | Domande sbagliate | Revisione del supervisore |
-| Foto Misteriosa: immagini | Solo CC0 / pubblico dominio, in LICENSES.md |
+| Effetti sonori | Solo CC0 da Freesound (`FREESOUND_API_KEY`), annotati in LICENSES.md |
 
 ## 7. Decisioni aperte
 - Numero di round e domande per partita (dopo il playtest).

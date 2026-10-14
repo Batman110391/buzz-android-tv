@@ -1,13 +1,14 @@
 class_name Game extends RefCounted
 
 const QUESTION_TIME := 15.0
-const POINTS_CORRECT := 500
+const POINTS_CORRECT := 500  # risposta giusta data subito
+const POINTS_MIN := 250  # risposta giusta all'ultimo istante (in mezzo: lineare, arrotondato a 10)
 enum Phase { MENU, INTRO, QUESTION, REVEAL, SCOREBOARD, FINAL }
 
 signal phase_changed(phase: Phase)
 signal question_started(index: int, total: int, q: Dictionary)
 signal answer_received(player_id: int)
-signal question_resolved(correct: int, results: Dictionary, scores: Dictionary)
+signal question_resolved(correct: int, results: Dictionary, scores: Dictionary, won: Dictionary)
 signal game_over(ranking: Array)
 
 var _names: Array[String] = []
@@ -18,6 +19,7 @@ var _index: int = -1
 var _phase: Phase = Phase.MENU
 var _timer: float = 0.0
 var _answers: Dictionary = {}
+var _answer_left: Dictionary = {}  # player_id -> secondi rimasti quando ha risposto
 var _scores: Dictionary = {}
 
 func setup(player_names: Array[String], questions: Array, num_questions: int) -> void:
@@ -70,6 +72,7 @@ func _next_question() -> void:
 	_index += 1
 	_timer = QUESTION_TIME
 	_answers.clear()
+	_answer_left.clear()
 	_set_phase(Phase.QUESTION)
 	question_started.emit(_index, _selected.size(), _selected[_index])
 
@@ -79,6 +82,7 @@ func submit_answer(player_id: int, choice: int) -> bool:
 	if _answers.has(player_id) or time_left() <= 0.0 or choice < 0 or choice > 3:
 		return false
 	_answers[player_id] = choice
+	_answer_left[player_id] = time_left()
 	answer_received.emit(player_id)
 	return true
 
@@ -90,13 +94,14 @@ func tick(delta: float) -> void:
 		return
 	var correct: int = _selected[_index]["correct"]
 	var results: Dictionary = {}
+	var won: Dictionary = {}
 	for i in _names.size():
 		var ok: bool = _answers.get(i, -1) == correct
 		results[i] = ok
-		if ok:
-			_scores[i] += POINTS_CORRECT
+		won[i] = snappedi(roundi(lerpf(POINTS_MIN, POINTS_CORRECT, _answer_left[i] / QUESTION_TIME)), 10) if ok else 0
+		_scores[i] += won[i]
 	_set_phase(Phase.REVEAL)
-	question_resolved.emit(correct, results, _scores.duplicate())
+	question_resolved.emit(correct, results, _scores.duplicate(), won)
 
 func time_left() -> float:
 	return _timer if _phase == Phase.QUESTION else 0.0
