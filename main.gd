@@ -144,7 +144,7 @@ func _vai_round() -> void:
 	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
 	await _presenta_giocatori()
 	_fase = "round"
-	_round.mostra(1, 1, ROUND, "Fino a 500 punti per ogni risposta giusta: più sei veloce, più ne fai!", "💰")
+	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
 	await get_tree().create_timer(0.6).timeout
 	await _commenta(["round_1", "gilda_round_1"].pick_random(), "annuncio", FUMETTO_BASSO)
 	_round.nascondi()
@@ -280,12 +280,12 @@ func _process(dt: float) -> void:
 	_game.tick(dt)  # può emettere question_resolved -> _rivela
 
 
-func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary, vinti: Dictionary) -> void:
+func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void:
 	_fase = "rivela"
 	var punti: Array = []
 	var giusti: Array = []
 	for pid in _n:
-		punti.append(vinti[pid])
+		punti.append(Game.POINTS_CORRECT)
 		if risultati[pid]:
 			giusti.append(pid)
 	_s.rivela(corretta, _scelte, punti)

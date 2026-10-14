@@ -38,7 +38,7 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 ---
 
 ## 3. Regole
-**Accumula Punti (base):** 4 risposte (A rombo, B cerchio, C triangolo, D quadrato), timer 15 s, una risposta per giocatore (definitiva), il round finisce allo scadere o quando hanno risposto tutti; chi indovina prende **da 500 (subito) a 250 punti (all'ultimo istante)**, lineare e arrotondato a 10 (2026-10-14: così conta anche la velocità). Durante la domanda si accende solo il podio di chi ha risposto: le scelte si vedono alla rivelazione. Valori in un solo punto (`game/game.gd`).
+**Accumula Punti (base):** 4 risposte (A rombo, B cerchio, C triangolo, D quadrato), timer 15 s, una risposta per giocatore (definitiva), il round finisce allo scadere o quando hanno risposto tutti; **+500** a chi indovina (la velocità conta solo in Dito Veloce). Durante la domanda si accende solo il podio di chi ha risposto: le scelte si vedono alla rivelazione. Valori in un solo punto (`game/game.gd`).
 
 **Mini-giochi** (README del design, sezione "Mini-giochi"): Dito Veloce (punti che scendono col tempo), Passa la Bomba (chi ha la bomba quando esplode −500), Ruba Punti (chi indovina ruba a una vittima), Torta in Faccia (duello 1 contro 1), Metti in Ordine, **Conto alla Rovescia** (finale: −50 punti/s finché non rispondi giusto).
 
