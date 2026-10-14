@@ -31,13 +31,25 @@ Lucida e ironica, alla pari con Tony. Voce sul 2° account ElevenLabs (`ELEVENLA
 | C3 | Testi: ~40 battute di Gilda (round, classifica, punzecchiate a Tony, situazioni) + ~10 duetti; S approva; generazione | P + S | C1 | `assets/voice/*` | file presenti, ascolto S | done |
 | C4 | `main`: due conduttori (Gilda entra da destra, fumetto suo), mazzi misti, duetti | P | C2, C3 | `main.*` | `-- --demo` + cattura | done |
 
+## G2 — Telefoni come controller (PLAN.md §4 "Protocollo con i telefoni", §5 G2)
+
+| ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
+|---|---|---|---|---|---|---|
+| G2a | `net/server.gd` secondo il protocollo: codice, slot, join/welcome/reject, lobby, state, result, token di rientro, bot, validazione e limiti. API per main: segnali `joined(slot, nome, avatar)`, `left(slot)`, `answered(slot, q, choice)`; `codice`, `url()`, `apri_lobby()`, `chiudi_lobby()`, `set_bot({slot: avatar})`, `invia_stato(d)`, `invia_esito(slot, d)`, `reset()`, `giocatori()` | W | — | `net/server.gd`, `tests/test_server.gd` | test headless PASS (casi validi e non validi) | doing |
+| G2b | `net/controller.html` (390×844): 1l scelta personaggio + nome (+ codice se manca da `?c=`), attesa, 1m 4 tasti, 1n bloccata, esito, finale, riconnessione; `?demo=<schermata>` mostra ogni schermata con dati finti senza WebSocket | W | — | `net/controller.html` | screenshot Chrome headless di ogni schermata ≈ design | doing |
+| G2c | QR vero nella lobby (`setup(url, codice)`: QR dell'URL completo, etichetta senza `http://` e senza `?c=`) | W | — | `ui/qr.gd` o `addons/qr/**`, `ui/schermata_lobby.gd`, `tests/test_lobby.*`, `assets/LICENSES.md` | cattura lobby + QR decodificato (OpenCV o telefono di S) | doing |
+| G2d | `main`: server nella lobby e in partita (telefoni + bot con ←/→, telecomando solo senza telefoni), stati/esiti ai telefoni, riconnessione | P | G2a–c | `main.*` | prova con 2 browser sul PC (Godot + Chrome) | todo |
+| G2e | Prova sulla TV con 2–6 telefoni veri + approvazione | S | G2d | — | ok S | todo |
+
+**Parallelo:** G2a ∥ G2b ∥ G2c ∥ D2 (worker), poi G2d (padre).
+
 ## D — Domande dal server (PLAN.md §4 "Domande": leggere SOLO quella sezione)
 Variabili in `.env` (da `.env.example`); script Node lanciati con `node --env-file=.env ...`. Finché `QUIZZONE_MOCK=1` nessuna chiamata alle IA.
 
 | ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
 |---|---|---|---|---|---|---|
 | D1 | `tools/domande_check.mjs` (valida `domande/**`: schema per tipo, lunghezze, regole meccaniche, id unici, doppioni di `fatto` e di testo normalizzato; report per categoria/tipo/difficoltà; exit ≠ 0 se errori) + `tools/mock_api.mjs` (contratto del Worker su :8787, esiti in un file) + 6 domande d’esempio buone e 6 rotte in `tools/fixtures/` per testare il check | W | — | `tools/domande_check.mjs`, `tools/mock_api.mjs`, `tools/fixtures/**` | il check passa sulle buone e trova ogni errore delle rotte; `curl` sul mock | done |
-| D2 | Dotazione: per ogni categoria 90 classica (30/30/30) + 30 lampo + 15 ordine in `domande/<tipo>/<categoria>.json`; 4 worker alla volta, 3 categorie ciascuno; poi il padre fa girare il check su tutto | W ×4 | D1 | `domande/<tipo>/<sue categorie>.json` | `domande_check` verde, 20 domande a campione lette dal padre | todo |
+| D2 | Dotazione: per ogni categoria 90 classica (30/30/30) + 30 lampo + 15 ordine in `domande/<tipo>/<categoria>.json`; 4 worker × 3 categorie (D2a geografia storia scienza · D2b natura cinema_tv musica · D2c sport cucina arte_letteratura · D2d lingua tecnologia costume); poi il padre fa girare il check su tutto | W ×4 | D1 | `domande/<tipo>/<sue categorie>.json` | `domande_check` verde, 20 domande a campione lette dal padre | doing |
 | D3 | `tools/prompts/genera.md`, `verifica.md`, `tools/fixtures/rotte.json` (~60), `tools/prompt_test.mjs` (mock + reale); soglie della PLAN | W (medium) | D2 | `tools/prompts/**`, `tools/fixtures/**`, `tools/prompt_test.mjs` | soglie in mock; poi con chiavi vere (S mette le chiavi in `.env`) | todo |
 | D4 | Worker + D1 + cron in `server/` (con `.gdignore`), dotazione importata, deploy | W (medium) | D3 | `server/**` | `curl` sugli endpoint, cron lanciato a mano | todo |
 | D5 | `game/domande.gd`: rete + cache + validazione + esiti (sopra la versione base di G1e) | W | D1, G1e | `game/domande.gd`, `tests/test_domande.gd` | test headless (mock acceso/spento) + prova TV | todo |

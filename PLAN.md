@@ -144,26 +144,25 @@ Modelli in variabili del Worker (`GEMINI_MODEL`, `OPENROUTER_MODEL`): i modelli 
 #### Client nel gioco (D5): `game/domande.gd`
 All'avvio: `GET /v1/versione` (timeout 3 s) → se più nuova della cache scarica `/v1/domande` → **valida ogni domanda** come dato non fidato (tipo, categoria, lunghezze, 4 risposte, scarta il resto) → salva `user://domande.json`. Senza rete o con errori: cache, altrimenti la riserva `res://domande/`. Ricorda gli id usciti (`user://uscite.json`) e pesca prima i mai usciti. Sceglie per tipo/difficoltà secondo il round. A fine partita invia gli esiti (se fallisce, li ritenta la volta dopo). URL del server in `project.godot` (`quizzone/api_url`).
 
-### Protocollo con i telefoni (M2)
-Messaggi JSON su WebSocket.
+### Protocollo con i telefoni (G2, definito 2026-10-14)
+**Rete.** HTTP 8080 serve solo `GET /` (anche `/?c=XXXX`) = `net/controller.html`, tutto il resto 404; richiesta max 4 KB. WebSocket 8081, max 12 connessioni, messaggi max 1 KB. Ogni sessione ha un **codice** di 4 caratteri (`ABCDEFGHJKLMNPQRSTUVWXYZ23456789`) che sta nell'URL del QR (`http://<ip>:8080/?c=KR7Q`); chi scrive l'URL a mano lo inserisce sul telefono. Il codice tiene fuori i dispositivi della LAN che non vedono la TV.
 
-| Direzione | Messaggio | Contenuto |
+**Giocatori.** 6 slot (0–5). Il personaggio decide colore e nome predefinito (`GIOCATORI` in main: chef/rosso, nonna/blu, zombi/verde, gatto/giallo, boss/viola, diva/arancio). Lo slot lo sceglie la TV (il primo libero). I bot (←/→ nella lobby) occupano slot e personaggi come i telefoni. Se nessun telefono è entrato, lo slot 0 si gioca col telecomando (come in G1).
+
+Messaggi JSON con il campo `t`:
+| Direzione | `t` | Campi |
 |---|---|---|
-| telefono → TV | `join` | `name`, `avatar`, `player_id` (se si sta riconnettendo) |
-| telefono → TV | `answer` | `question_index`, `choice` (0–3) |
-| TV → telefono | `welcome` | `player_id`, colore assegnato |
-| TV → telefono | `state` | fase corrente, eventuale domanda attiva |
-| TV → telefono | `result` | corretta sì/no, punti, posizione |
+| tel → TV | `join` | `code`, `name` (trim, senza caratteri di controllo, max 12; vuoto = nome del personaggio), `avatar` (id personaggio), `token` (solo per rientrare) |
+| tel → TV | `answer` | `q` (indice domanda, int), `choice` (0–3) |
+| TV → tel | `welcome` | `slot`, `token` (16 hex casuali), `name`, `avatar`, `color` ("#F2384A") |
+| TV → tel | `reject` | `reason`: `codice` · `pieno` · `preso` (personaggio occupato) · `partita` (partita in corso e token sconosciuto) |
+| TV → tutti | `lobby` | `presi` (personaggi occupati, bot compresi) — anche a chi non è ancora entrato |
+| TV → tutti | `state` | `fase`: `lobby` · `domanda` · `rivela` · `attesa` · `finale`; con `domanda`: `q`, `tot`, `domanda`, `risposte[4]` (nell'ordine mostrato in TV) e, per ciascun telefono, `scelta` (-1 se non ha risposto) |
+| TV → tel | `result` | `giusta` (bool), `punti` (guadagnati), `totale`, `posizione` |
 
-**Validazione sul lato TV** (la TV è l'unica autorità):
-- il giocatore esiste;
-- la fase è `QUESTION`;
-- la domanda è quella attiva;
-- il giocatore non ha già risposto;
-- il tempo non è scaduto (misurato sulla TV, non sul telefono);
-- tutto il resto viene ignorato.
+**Validazione sul lato TV** (la TV è l'unica autorità; tutto il resto si ignora in silenzio): JSON valido e oggetto, tipi esatti; `join` una sola volta per connessione, codice giusto, personaggio esistente e libero; `answer` solo da connessione entrata, fase `domanda`, `q` = domanda attiva, `choice` intero 0–3; "non ha già risposto" e "tempo non scaduto" li controlla `Game.submit_answer` (tempo misurato sulla TV).
 
-**Riconnessione:** il telefono salva `player_id` nel `localStorage` e lo rimanda al `join`.
+**Riconnessione.** Il telefono salva `token` nel `localStorage` e lo rimanda nel `join`: riprende il suo slot (anche a partita in corso) e riceve subito l'ultimo `state`. Nella lobby uno slot disconnesso si libera dopo 15 s; in partita resta suo fino al ritorno al titolo.
 
 ---
 
