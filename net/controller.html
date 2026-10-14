@@ -167,12 +167,12 @@ function render(){
  if(f==="domanda"){
   var done = st.scelta>=0; id = "s-q";
   $("qt").textContent = st.domanda||"";
-  document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+" di "+st.tot;
+  document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
   var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot;
   $("bb").style.display = mia?"block":"none";
   if(bomba && !mia){
    id = "s-w"; $("w1").textContent = (st.bomba_nome||"Qualcuno")+" ha la bomba!"; $("w2").textContent = "💣 Guarda la TV";
-   document.querySelector("#s-w .wq").textContent = "Domanda "+(st.q+1)+" di "+st.tot;
+   document.querySelector("#s-w .wq").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
   }
   if(id==="s-q") $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
    return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'><span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span><span>'+esc(r)+'</span></button>';
@@ -203,7 +203,7 @@ function render(){
 function tick(){
  if(!st||(st.fase!=="domanda"&&st.fase!=="ruba")) return;
  var s = Math.max(0, Math.ceil((fine-Date.now())/1000)), l = document.querySelectorAll(".tm");
- for(var i=0;i<l.length;i++){ l[i].textContent = s; l[i].classList.toggle("hurry", s<=5) }
+ for(var i=0;i<l.length;i++){ l[i].textContent = s; l[i].classList.toggle("hurry", s<=5); l[i].style.visibility = st.gioco==="bomba"?"hidden":"" }  // Bomba: miccia nascosta, niente timer
 }
 setInterval(tick, 200);
 $("tasti").onclick = function(e){

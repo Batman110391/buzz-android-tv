@@ -1,7 +1,7 @@
 extends Node2D
 ## Flusso della partita: Titolo -> Lobby (←/→ numero di giocatori, OK) -> Scelta dei giochi -> un round per gioco
 ## (Game, o Bomba per Passa la Bomba) -> Finale -> Titolo. Regole dei round: PLAN.md §2.
-## Telefoni + bot; senza telefoni il giocatore 1 è il telecomando. `-- --demo`: tutto automatico.
+## Si gioca dal telefono (+ bot); il telecomando serve solo a preparare la partita. `-- --demo`: tutto automatico.
 
 const DOMANDE := 5  # per round
 const GIOCHI := [  # solo quelli già fatti (G3f aggiunge gli altri e Conto alla Rovescia)
@@ -21,7 +21,6 @@ const GIOCATORI := [
 	["Gastone", "F2384A", "chef"], ["Nonna Pina", "2F7BFF", "nonna"], ["Ugo", "33C759", "zombi"],
 	["Brioche", "FFD43B", "gatto"], ["Don Ciccio", "A855F7", "boss"], ["Vanessa", "FF8A1F", "diva"],
 ]
-const DIRS: Array[String] = ["ui_up", "ui_right", "ui_down", "ui_left"]
 const FUMETTO_TITOLO := Vector2(560, 40)
 const FUMETTO_DOMANDA := Vector2(420, 470)
 const FUMETTO_BASSO := Vector2(420, 1026)  # y = bordo basso: il fumetto sale quanto serve
@@ -55,7 +54,6 @@ var _n := 0  # giocatori in partita (= _g.size())
 var _g: Array[Dictionary] = []  # giocatori in partita, per pid: {nome, id, colore, slot, bot}
 var _bot := {}  # slot della lobby -> personaggio dei bot (restano tra una partita e l'altra)
 var _pid_di := {}  # slot -> pid dei telefoni in partita
-var _telefoni := false  # in partita c'è almeno un telefono (allora il telecomando non gioca)
 var _server: Node
 var _pers: Array[Personaggio] = []
 var _q: Dictionary
@@ -270,7 +268,6 @@ func _vai_round() -> void:
 	for p in _g:
 		p["colore"] = _colore(p["id"])
 	_n = _g.size()
-	_telefoni = not tel.is_empty()
 	_server.invia_stato({"fase": "attesa"})
 	_fase = "round"
 	_lobby.visible = false
@@ -441,7 +438,7 @@ func _b_domanda(q: Dictionary, chi: int) -> void:
 	_i += 1
 	_t = 0.0
 	_scelte.clear()
-	var umano: bool = not _demo and (not _g[chi]["bot"] or (chi == 0 and not _telefoni))
+	var umano: bool = not _demo and not _g[chi]["bot"]
 	_quando_b = INF if umano else randf_range(1.5, 4.5)
 	_s.mostra_domanda(_i + 1, 0, _gioco()["titolo"].to_upper(), q["domanda"], q["risposte"])
 	for pid in _n:
@@ -488,7 +485,7 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 	_scelte.clear()
 	_quando.clear()
 	for pid in _n:
-		var umano: bool = not _demo and (not _g[pid]["bot"] or (pid == 0 and not _telefoni))  # senza telefoni il pid 0 è il telecomando
+		var umano: bool = not _demo and not _g[pid]["bot"]  # si gioca solo dal telefono: il telecomando non è un giocatore
 		_quando.append(INF if umano else randf_range(2.0, _game.tempo_domanda() * 0.75))
 		_pers[pid].stato("pensa")
 	var gi := _gioco()
@@ -626,9 +623,8 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	_game.advance()  # -> domanda successiva oppure FINAL (game_over -> _fine_round)
 
 
-## Ruba Punti: chi ha indovinato sceglie una vittima (telefono); bot, telecomando e chi non sceglie in tempo
+## Ruba Punti: chi ha indovinato sceglie una vittima sul telefono; i bot e chi non sceglie in tempo
 ## rubano al primo in classifica tra gli altri.
-## ponytail: il telecomando non sceglie la vittima, aggiungere ←/→ se serve giocare Ruba senza telefoni.
 func _fase_ruba(giusti: Array) -> void:
 	_fase = "ruba"
 	_t = 0.0
@@ -770,12 +766,6 @@ func _input(e: InputEvent) -> void:
 				for d: Array in [["ui_up", Vector2i.UP], ["ui_down", Vector2i.DOWN], ["ui_left", Vector2i.LEFT], ["ui_right", Vector2i.RIGHT]]:
 					if e.is_action_pressed(d[0]):
 						_scelta.muovi(d[1])
-		"domanda", "bomba":
-			if _demo or _telefoni:
-				return
-			for i in 4:
-				if e.is_action_pressed(DIRS[i]) or _tasto(e, KEY_1 + i):
-					_risponde(0, i)
 		"finale":
 			if ok:
 				_torna_al_titolo()

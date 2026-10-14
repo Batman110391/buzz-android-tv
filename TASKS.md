@@ -53,6 +53,7 @@ Design come in G1 (screenshot di `design/Quizzone Design System.dc.html`).
 | G3c | `game/bomba.gd` (regole Passa la Bomba) + `ui/bomba.gd` (bomba 1h, esplosione) | W | — | `game/bomba.gd`, `tests/test_bomba*`, `ui/bomba.gd` | test PASS + cattura | done |
 | G3d | Telefono e server per i minigiochi: Ruba (1o lista vittime, messaggio `steal`), Bomba (solo chi ha la bomba risponde) | W | G3b, G3c | `net/controller.html`, `net/server.gd`, `tests/test_server.gd` (protocollo in PLAN §4: P) | test PASS + screenshot | done |
 | G3e | `main`: scelta → round in sequenza (Accumula, Dito, Bomba, Ruba) → finale; battute `round_` | P | G3a–d | `main.*` | `-- --demo` partita intera | review |
+| G3g | Pausa in partita: OK del telecomando → schermata "Pausa" (si ferma tutto: timer, miccia, bot, voce), OK riprende, ↓ + OK esce al titolo (telefoni in attesa) | P | G3e | `main.*` | demo + cattura | todo |
 | G3f | Torta in Faccia · Metti in Ordine · Conto alla Rovescia · La risposta più vicina · Duello degli indizi | — | G3e | — | — | todo |
 
 ## D — Domande dal server (PLAN.md §4 "Domande": leggere SOLO quella sezione)
