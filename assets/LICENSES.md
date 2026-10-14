@@ -22,3 +22,4 @@
 | assets/audio/sfx/boing.ogg | magnuswaker (Freesound: "Boing 2") | https://freesound.org/people/magnuswaker/sounds/540790/ | CC0 |
 | assets/audio/sfx/lock.ogg | SignatureSoundsOrg (Freesound: "19_UI_Game_Error_SFX") | https://freesound.org/people/SignatureSoundsOrg/sounds/869284/ | CC0 |
 | assets/audio/sfx/rise.ogg | AudioPapkin (Freesound: "Riser Hit sfx 025.wav") | https://freesound.org/people/AudioPapkin/sounds/511872/ | CC0 |
+| ui/qr.gd | encoder QR scritto da zero nel progetto (nessun codice esterno) | generato nel progetto | proprio |

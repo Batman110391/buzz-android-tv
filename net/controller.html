@@ -3,34 +3,212 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Buzz</title>
+<title>Quizzone!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Lilita+One&display=swap" rel="stylesheet">
 <style>
-  html, body { margin: 0; height: 100%; background: #111; color: #fff; font-family: sans-serif;
-    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; touch-action: manipulation; }
-  #s { position: fixed; top: 0; left: 0; right: 0; height: 8vh; display: flex; align-items: center;
-    justify-content: center; font-size: 5vw; background: #333; }
-  #b { position: fixed; top: 8vh; left: 0; right: 0; bottom: 0; width: 100%; border: 0; border-radius: 0;
-    background: #d00; color: #fff; font-size: 15vw; font-weight: bold; }
-  #b:active { background: #f55; }
+:root{--ink:#1B0B3A;--cream:#FFF4DC;--stage:#25095E;--gold:#FFC83D;--mag:#FF3DA8;--dimt:#B8ACE0;--pc:#FFC83D}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#12052E;color:var(--cream);overflow:hidden;
+ font-family:"Baloo 2","Arial Rounded MT Bold",Arial,sans-serif;font-weight:800;
+ -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+.d{font-family:"Lilita One","Arial Black",Impact,sans-serif;font-weight:400;letter-spacing:.5px}
+#app{position:relative;width:100%;max-width:390px;height:100vh;height:100dvh;max-height:844px;margin:0 auto;background:var(--stage);overflow:hidden}
+.scr{position:absolute;inset:0;display:none;flex-direction:column;padding:16px}
+.scr.on{display:flex}
+#net{position:absolute;top:0;left:0;right:0;z-index:5;background:var(--mag);color:var(--ink);text-align:center;font-size:15px;padding:4px;display:none}
+h1{margin:6px 0 10px;font-size:34px;text-align:center;color:var(--cream);text-shadow:0 3px 0 var(--ink);line-height:1}
+.err{min-height:22px;text-align:center;color:var(--gold);font-size:16px;margin-bottom:4px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pj{position:relative;border:4px solid var(--ink);border-bottom-width:8px;border-radius:20px;background:var(--c);
+ color:var(--ink);padding:0;height:104px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;overflow:hidden;font:inherit;cursor:pointer}
+.pj svg{position:absolute;top:2px;left:50%;width:72px;height:72px;margin-left:-36px}
+.pj span{position:relative;font-size:15px;line-height:1;padding-bottom:4px;z-index:1}
+.pj.preso{opacity:.35;pointer-events:none}
+.pj.sel{box-shadow:0 0 0 4px #fff,0 0 0 8px var(--ink)}
+input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-bottom-width:8px;border-radius:16px;background:var(--cream);
+ color:var(--ink);font:inherit;font-size:22px;padding:0 14px;outline:0}
+.btn{margin-top:auto;height:64px;border:5px solid var(--ink);border-bottom-width:12px;border-radius:32px;background:var(--gold);color:var(--ink);
+ font-size:32px;cursor:pointer;width:100%}
+.btn:active{transform:translateY(4px);border-bottom-width:8px}
+.hd{margin:-16px -16px 0;padding:34px 16px 14px;background:var(--pc);color:var(--ink);border-bottom:6px solid var(--ink);display:flex;align-items:center;gap:12px}
+.hd .av{width:52px;height:52px;flex:none;display:block}
+.hd b{display:block;font-size:26px;line-height:1}
+.hd small{font-size:15px;opacity:.8}
+.mid{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px}
+.big{font-size:44px;line-height:1;text-shadow:0 4px 0 var(--ink)}
+.sub{font-size:20px;color:var(--dimt)}
+.q{margin:12px 0 10px;background:var(--ink);border:4px solid var(--mag);border-radius:20px;padding:10px 12px;font-size:19px;line-height:1.1;text-align:center}
+.tasti{flex:1;display:flex;flex-direction:column;gap:10px}
+.k{flex:1;display:flex;align-items:center;gap:12px;background:var(--cream);color:var(--ink);border:5px solid var(--ink);border-bottom-width:12px;
+ border-radius:22px;padding:0 14px;font:inherit;font-size:22px;line-height:1.05;text-align:left;cursor:pointer;min-height:0}
+.k:active{transform:translateY(4px);border-bottom-width:8px}
+.k .f{flex:none;width:46px;height:46px;position:relative}
+.k .f svg{width:46px;height:46px;display:block}
+.k .f i{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--cream);font:normal 400 22px "Lilita One",Impact,sans-serif}
+.k.sc{outline:5px solid var(--pc);outline-offset:-1px}
+.k:disabled:not(.sc){opacity:.45}
+.badge{display:inline-block;padding:2px 22px;border:5px solid var(--ink);border-radius:40px;font-size:40px;color:var(--ink)}
+.ok{background:#fff}.ko{background:#5B4A93;color:var(--dimt)}
+.pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
 </style>
 </head>
 <body>
-<div id="s">Non connesso</div>
-<button id="b">PREMI</button>
+<div id="app">
+<div id="net" class="d">Connessione persa, riprovo...</div>
+
+<section class="scr" id="s-join">
+ <h1 class="d">Scegli il tuo personaggio</h1>
+ <div class="err" id="jerr"></div>
+ <div class="grid" id="grid"></div>
+ <input id="code" maxlength="4" placeholder="CODICE (4 caratteri)" autocapitalize="characters" autocomplete="off" style="display:none;text-transform:uppercase;text-align:center">
+ <input id="name" maxlength="12" placeholder="Il tuo nome" autocomplete="off">
+ <button class="btn d" id="go">ENTRA!</button>
+</section>
+
+<section class="scr" id="s-att">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
+ <div class="mid"><div class="big d">Sei dentro!</div><div class="sub">Guarda la TV</div></div>
+</section>
+
+<section class="scr" id="s-q">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div></div>
+ <div class="q" id="qt"></div>
+ <div class="tasti" id="tasti"></div>
+</section>
+
+<section class="scr" id="s-esito">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
+ <div class="mid"><div class="badge d" id="eb"></div><div class="pt d" id="ep"></div>
+ <div class="sub" id="et"></div><div class="big d" id="epos"></div></div>
+</section>
+
+<section class="scr" id="s-fin">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
+ <div class="mid"><div class="sub">Partita finita! Sei</div><div class="big d" id="fpos"></div><div class="sub">Guarda la TV</div></div>
+</section>
+
+<section class="scr" id="s-rej">
+ <div class="mid"><div class="big d" id="rmsg" style="font-size:34px"></div></div>
+ <button class="btn d" id="rback" style="margin-top:0">INDIETRO</button>
+</section>
+</div>
+
 <script>
-let ws;
-const s = document.getElementById("s");
-function connect() {
-  ws = new WebSocket("ws://" + location.hostname + ":8081");
-  ws.onopen = () => s.textContent = "Connesso";
-  ws.onclose = () => { s.textContent = "Non connesso"; setTimeout(connect, 1000); };
+"use strict";
+var SVG = {"chef":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 Z\" fill=\"#FFFFFF\"></path><path d=\"M142 152 C162 160 172 178 174 202 L152 202 C152 182 148 166 142 152 Z\" fill=\"#E4E0EE\" stroke=\"none\"></path><path d=\"M100 162 L118 202\" fill=\"none\" stroke-width=\"4\"></path><circle cx=\"86\" cy=\"178\" r=\"4.5\" fill=\"#F2384A\" stroke-width=\"3\"></circle><circle cx=\"86\" cy=\"194\" r=\"4.5\" fill=\"#F2384A\" stroke-width=\"3\"></circle><circle cx=\"126\" cy=\"178\" r=\"4.5\" fill=\"#F2384A\" stroke-width=\"3\"></circle><circle cx=\"130\" cy=\"194\" r=\"4.5\" fill=\"#F2384A\" stroke-width=\"3\"></circle><path d=\"M72 148 Q100 158 128 148 L100 174 Z\" fill=\"#F2384A\"></path><path d=\"M96 170 L86 194 L100 188 Z\" fill=\"#D42A3B\"></path><path d=\"M104 170 L114 194 L100 188 Z\" fill=\"#D42A3B\"></path><circle cx=\"100\" cy=\"168\" r=\"7\" fill=\"#F2384A\"></circle><circle cx=\"60\" cy=\"112\" r=\"10\" fill=\"#F6C59B\"></circle><circle cx=\"140\" cy=\"112\" r=\"10\" fill=\"#F6C59B\"></circle><path d=\"M57 108 Q62 112 58 118\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M143 108 Q138 112 142 118\" fill=\"none\" stroke-width=\"3\"></path><ellipse cx=\"100\" cy=\"108\" rx=\"41\" ry=\"43\" fill=\"#F6C59B\"></ellipse><path d=\"M122 70 C148 84 150 132 128 148 C140 126 140 92 122 70 Z\" fill=\"#E3A57A\" stroke=\"none\"></path><circle cx=\"74\" cy=\"124\" r=\"7\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><circle cx=\"126\" cy=\"124\" r=\"7\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><ellipse cx=\"100\" cy=\"118\" rx=\"10\" ry=\"9\" fill=\"#EE9A80\"></ellipse><circle cx=\"96\" cy=\"114\" r=\"2.5\" fill=\"#FFFFFF\" stroke=\"none\"></circle><path d=\"M81 105 Q86 96 91 105\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M109 105 Q114 96 119 105\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M78 88 Q86 82 94 88\" fill=\"none\" stroke=\"#1B0B3A\" stroke-width=\"4.5\"></path><path d=\"M122 88 Q114 82 106 88\" fill=\"none\" stroke=\"#1B0B3A\" stroke-width=\"4.5\"></path><path d=\"M86.8 137 Q100 160.9 113.2 137 Z\" fill=\"#3B1430\"></path><ellipse cx=\"100\" cy=\"146.82\" rx=\"6.050000000000001\" ry=\"2.8600000000000003\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><path d=\"M89 138.5 L111 138.5 L109.35 143 L90.65 143 Z\" fill=\"#FFFFFF\" stroke-width=\"2.5\"></path><path d=\"M62 76 C42 68 46 30 74 34 C76 8 124 8 126 34 C154 30 158 68 138 76 Z\" fill=\"#FFFFFF\"></path><path d=\"M84 32 Q86 50 84 64 M100 22 Q102 44 100 64 M116 32 Q114 50 116 64\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M124 30 C140 34 150 52 138 72 L126 72 Z\" fill=\"#E4E0EE\" stroke=\"none\"></path><rect x=\"64\" y=\"60\" width=\"72\" height=\"22\" rx=\"7\" fill=\"#FFFFFF\"></rect><rect x=\"120\" y=\"62\" width=\"14\" height=\"18\" rx=\"3\" fill=\"#E4E0EE\" stroke=\"none\"></rect><polygon points=\"84.0,64.0 85.9,68.5 90.7,68.8 87.0,72.0 88.1,76.7 84.0,74.2 79.9,76.7 81.0,72.0 77.3,68.8 82.1,68.5\" fill=\"#FFC83D\" stroke-width=\"2\"></polygon><polygon points=\"100.0,64.0 101.9,68.5 106.7,68.8 103.0,72.0 104.1,76.7 100.0,74.2 95.9,76.7 97.0,72.0 93.3,68.8 98.1,68.5\" fill=\"#FFC83D\" stroke-width=\"2\"></polygon><polygon points=\"116.0,64.0 117.9,68.5 122.7,68.8 119.0,72.0 120.1,76.7 116.0,74.2 111.9,76.7 113.0,72.0 109.3,68.8 114.1,68.5\" fill=\"#FFC83D\" stroke-width=\"2\"></polygon><path d=\"M100 124 C92 118 78 120 72 128 C66 134 58 130 60 122 C58 136 76 140 88 132 C94 130 98 128 100 128 C102 128 106 130 112 132 C124 140 142 136 140 122 C142 130 134 134 128 128 C122 120 108 118 100 124 Z\" fill=\"#5A2E1A\" stroke-width=\"3.5\"></path><path d=\"M80 126 Q88 122 96 125\" fill=\"none\" stroke=\"#8A4A2A\" stroke-width=\"3\"></path></g></svg>","nonna":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><ellipse cx=\"100\" cy=\"98\" rx=\"52\" ry=\"48\" fill=\"#DCD6EC\"></ellipse><path d=\"M120 56 C146 66 154 100 150 128 C146 100 138 76 120 56 Z\" fill=\"#B9B0D4\" stroke=\"none\"></path><circle cx=\"100\" cy=\"46\" r=\"18\" fill=\"#DCD6EC\"></circle><path d=\"M92 40 Q100 34 108 40\" fill=\"none\" stroke=\"#B9B0D4\" stroke-width=\"3\"></path><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 Z\" fill=\"#2F7BFF\"></path><path d=\"M142 152 C162 160 172 178 174 202 L152 202 C152 182 148 166 142 152 Z\" fill=\"#1E5FD6\" stroke=\"none\"></path><path d=\"M36 186 l8 -6 l8 6 l8 -6 l8 6 M118 186 l8 -6 l8 6 l8 -6 l8 6 l8 -6\" fill=\"none\" stroke=\"#1E5FD6\" stroke-width=\"3\"></path><path d=\"M74 150 Q100 168 126 150 L122 162 Q100 176 78 162 Z\" fill=\"#FFFFFF\"></path><circle cx=\"100\" cy=\"170\" r=\"7\" fill=\"#FFC83D\" stroke-width=\"3\"></circle><path d=\"M28 168 L62 202 M62 166 L32 204\" fill=\"none\" stroke=\"#C9A36A\" stroke-width=\"4\"></path><circle cx=\"44\" cy=\"188\" r=\"16\" fill=\"#FF9FC8\"></circle><path d=\"M31 182 Q44 176 57 184 M29 192 Q44 186 59 194 M38 203 Q46 190 52 173\" fill=\"none\" stroke-width=\"2.5\"></path><circle cx=\"64\" cy=\"118\" r=\"8\" fill=\"#F2C7A5\"></circle><circle cx=\"136\" cy=\"118\" r=\"8\" fill=\"#F2C7A5\"></circle><ellipse cx=\"100\" cy=\"114\" rx=\"38\" ry=\"40\" fill=\"#F2C7A5\"></ellipse><path d=\"M120 80 C142 92 144 136 124 152 C134 130 134 98 120 80 Z\" fill=\"#DCA684\" stroke=\"none\"></path><path d=\"M68 134 q4 4 9 2 M123 136 q5 2 9 -2\" fill=\"none\" stroke-width=\"2.5\"></path><circle cx=\"74\" cy=\"138\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><circle cx=\"126\" cy=\"138\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><ellipse cx=\"100\" cy=\"128\" rx=\"7\" ry=\"6\" fill=\"#E8A88A\"></ellipse><circle cx=\"113\" cy=\"152\" r=\"2\" fill=\"#1B0B3A\" stroke=\"none\"></circle><circle cx=\"83\" cy=\"114\" r=\"17\" fill=\"#FFFFFF\" stroke=\"none\"></circle><path d=\"M75 117 Q83 104.4 91 117\" fill=\"none\" stroke-width=\"5\"></path><circle cx=\"117\" cy=\"114\" r=\"17\" fill=\"#FFFFFF\" stroke=\"none\"></circle><path d=\"M109 117 Q117 104.4 125 117\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M86.8 141 Q100 164.9 113.2 141 Z\" fill=\"#3B1430\"></path><ellipse cx=\"100\" cy=\"150.82\" rx=\"6.050000000000001\" ry=\"2.8600000000000003\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><rect x=\"96\" y=\"142\" width=\"8\" height=\"7\" rx=\"1\" fill=\"#FFFFFF\" stroke-width=\"2.5\"></rect><path d=\"M60 106 C56 66 144 66 140 106 C128 88 72 88 60 106 Z\" fill=\"#DCD6EC\"></path><path d=\"M74 84 Q86 78 98 82 M104 80 Q118 76 128 84\" fill=\"none\" stroke=\"#B9B0D4\" stroke-width=\"3\"></path><rect x=\"66\" y=\"60\" width=\"20\" height=\"13\" rx=\"6\" fill=\"#FF9FC8\" transform=\"rotate(-20 76 66)\"></rect><rect x=\"90\" y=\"52\" width=\"20\" height=\"13\" rx=\"6\" fill=\"#FF9FC8\"></rect><rect x=\"114\" y=\"60\" width=\"20\" height=\"13\" rx=\"6\" fill=\"#FF9FC8\" transform=\"rotate(20 124 66)\"></rect><circle cx=\"83\" cy=\"114\" r=\"17\" fill=\"none\" stroke-width=\"6\"></circle><circle cx=\"117\" cy=\"114\" r=\"17\" fill=\"none\" stroke-width=\"6\"></circle><path d=\"M98 111 Q100 108 102 111\" fill=\"none\"></path><path d=\"M66 112 L60 114 M134 112 L140 114\" fill=\"none\"></path><path d=\"M63 118 Q58 150 76 162\" fill=\"none\" stroke=\"#FFC83D\" stroke-width=\"4\" stroke-dasharray=\"0.1 6\"></path><path d=\"M72 108 Q75 102 81 100 M106 108 Q109 102 115 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3\"></path><path d=\"M75 89 Q83 83 91 89\" fill=\"none\" stroke=\"#9C93BC\" stroke-width=\"3.5\"></path><path d=\"M125 89 Q117 83 109 89\" fill=\"none\" stroke=\"#9C93BC\" stroke-width=\"3.5\"></path></g></svg>","zombi":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 L164 195 L154 202 L142 194 L132 202 L70 202 L60 194 L50 202 L38 195 Z\" fill=\"#33C759\"></path><path d=\"M142 152 C162 160 172 178 175 200 L164 195 L154 202 L152 202 C152 182 148 166 142 152 Z\" fill=\"#229A45\" stroke=\"none\"></path><rect x=\"86\" y=\"132\" width=\"28\" height=\"24\" rx=\"0\" fill=\"#B5D98A\"></rect><path d=\"M88 146 L112 146 M92 142 l0 8 M100 142 l0 8 M108 142 l0 8\" fill=\"none\" stroke-width=\"2.5\"></path><path d=\"M76 148 L88 166 L100 154 L112 166 L124 148 Z\" fill=\"#229A45\"></path><rect x=\"118\" y=\"164\" width=\"22\" height=\"18\" rx=\"2\" fill=\"#9BEAAE\" transform=\"rotate(10 129 173)\" stroke-width=\"3\"></rect><path d=\"M123 169 l9 8 M132 168 l-8 9\" fill=\"none\" stroke-width=\"2.5\"></path><circle cx=\"62\" cy=\"112\" r=\"9\" fill=\"#B5D98A\"></circle><path d=\"M64 80 C64 64 136 64 136 80 L140 138 C140 156 60 156 60 138 Z\" fill=\"#B5D98A\"></path><path d=\"M122 70 C134 72 136 76 136 80 L140 138 C140 148 134 152 124 154 C132 130 132 96 122 70 Z\" fill=\"#8FBE68\" stroke=\"none\"></path><path d=\"M139 104 l6 2 M139 112 l6 0 M139 120 l6 -2\" fill=\"none\" stroke-width=\"3\"></path><ellipse cx=\"84\" cy=\"112\" rx=\"19\" ry=\"18\" fill=\"#8FBE68\" stroke=\"none\"></ellipse><ellipse cx=\"119\" cy=\"114\" rx=\"13\" ry=\"12\" fill=\"#8FBE68\" stroke=\"none\"></ellipse><path d=\"M74 92 L106 86\" fill=\"none\" stroke-width=\"3.5\"></path><path d=\"M80 86 L82 96 M90 84 L92 94 M100 82 L102 92\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M96 124 l2 5 M104 124 l-2 5\" fill=\"none\" stroke-width=\"3\"></path><rect x=\"118\" y=\"124\" width=\"22\" height=\"9\" rx=\"2\" fill=\"#F4E3C1\" transform=\"rotate(-25 129 128)\" stroke-width=\"3\"></rect><path d=\"M69 115 Q84 94 99 115\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M110 117 Q119 103.2 128 117\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M73 90 Q82 84 91 90\" fill=\"none\" stroke=\"#3B2A4F\" stroke-width=\"5\"></path><path d=\"M129 96 Q120 90 111 96\" fill=\"none\" stroke=\"#3B2A4F\" stroke-width=\"5\"></path><path d=\"M84.2 135 Q101 164.6 117.8 135 Z\" fill=\"#3B1430\"></path><ellipse cx=\"101\" cy=\"146.68\" rx=\"7.700000000000001\" ry=\"3.64\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><path d=\"M89.8 139 L94 144 L98.2 140 L102.4 145 L106.6 140 L110.8 144\" fill=\"#FFFDE8\" stroke-width=\"2.5\"></path><path d=\"M62 84 L66 62 L78 74 L86 54 L98 70 L110 52 L118 70 L132 58 L138 84 C120 74 80 74 62 84 Z\" fill=\"#3B2A4F\"></path><path d=\"M86 60 L90 70 M110 58 L112 68\" fill=\"none\" stroke=\"#5A4570\" stroke-width=\"3\"></path><path d=\"M122 66 Q124 50 136 52\" fill=\"none\" stroke-width=\"11\"></path><path d=\"M122 66 Q124 50 136 52\" fill=\"none\" stroke=\"#FF9FC8\" stroke-width=\"5\"></path><circle cx=\"136\" cy=\"51\" r=\"1.6\" fill=\"#1B0B3A\" stroke=\"none\"></circle></g></svg>","gatto":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M146 198 C190 192 198 140 174 126 C164 120 158 132 166 138 C180 150 174 178 144 182 Z\" fill=\"#FFD43B\"></path><path d=\"M176 150 l12 -4 M178 166 l12 2\" fill=\"none\" stroke=\"#D98A12\" stroke-width=\"5\"></path><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 Z\" fill=\"#FFD43B\"></path><path d=\"M142 152 C162 160 172 178 174 202 L152 202 C152 182 148 166 142 152 Z\" fill=\"#E9B21C\" stroke=\"none\"></path><path d=\"M70 202 C72 174 86 160 100 160 C114 160 128 174 130 202 Z\" fill=\"#FFF4DC\"></path><path d=\"M100 160 L78 149 L78 171 Z M100 160 L122 149 L122 171 Z\" fill=\"#2B0F6B\"></path><circle cx=\"100\" cy=\"160\" r=\"6\" fill=\"#2B0F6B\"></circle><circle cx=\"86\" cy=\"156\" r=\"2\" fill=\"#FFF4DC\" stroke=\"none\"></circle><circle cx=\"114\" cy=\"164\" r=\"2\" fill=\"#FFF4DC\" stroke=\"none\"></circle><circle cx=\"100\" cy=\"178\" r=\"6\" fill=\"#FFC83D\" stroke-width=\"3\"></circle><path d=\"M58 94 L64 40 L98 72 Z\" fill=\"#FFD43B\"></path><path d=\"M142 94 L136 40 L102 72 Z\" fill=\"#FFD43B\"></path><path d=\"M68 80 L71 56 L88 72 Z\" fill=\"#FF9FC8\" stroke-width=\"3\"></path><path d=\"M132 80 L129 56 L112 72 Z\" fill=\"#FF9FC8\" stroke-width=\"3\"></path><path d=\"M52 110 C52 74 148 74 148 110 L157 116 L149 121 L155 129 L145 131 C136 148 64 148 55 131 L45 129 L51 121 L43 116 Z\" fill=\"#FFD43B\"></path><path d=\"M126 80 C146 90 150 112 145 131 C138 142 130 146 122 148 C138 128 138 98 126 80 Z\" fill=\"#E9B21C\" stroke=\"none\"></path><path d=\"M92 76 L94 88 M100 74 L100 90 M108 76 L106 88\" fill=\"none\" stroke=\"#D98A12\" stroke-width=\"5\"></path><ellipse cx=\"100\" cy=\"127\" rx=\"21\" ry=\"13\" fill=\"#FFF4DC\" stroke=\"none\"></ellipse><circle cx=\"70\" cy=\"124\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><circle cx=\"130\" cy=\"124\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><path d=\"M94 119 L106 119 L100 126 Z\" fill=\"#FF7FA8\" stroke-width=\"3\"></path><path d=\"M69 109 Q82 90.4 95 109\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M105 109 Q118 90.4 131 109\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M73 84 Q80 78 87 84\" fill=\"none\" stroke=\"#D98A12\" stroke-width=\"4\"></path><path d=\"M127 84 Q120 78 113 84\" fill=\"none\" stroke=\"#D98A12\" stroke-width=\"4\"></path><path d=\"M89.2 126 Q100 146.1 110.8 126 Z\" fill=\"#3B1430\"></path><ellipse cx=\"100\" cy=\"134.58\" rx=\"4.95\" ry=\"2.34\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><path d=\"M91 127.5 L109 127.5 L107.65 132 L92.35 132 Z\" fill=\"#FFFFFF\" stroke-width=\"2.5\"></path><path d=\"M76 124 L44 117 M76 130 L44 136 M124 124 L156 117 M124 130 L156 136\" fill=\"none\" stroke-width=\"3\"></path></g></svg>","boss":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 Z\" fill=\"#A855F7\"></path><path d=\"M142 152 C162 160 172 178 174 202 L152 202 C152 182 148 166 142 152 Z\" fill=\"#7A2FD0\" stroke=\"none\"></path><path d=\"M50 174 L48 202 M66 160 L64 202 M134 160 L136 202 M150 174 L152 202\" fill=\"none\" stroke=\"#7A2FD0\" stroke-width=\"3\"></path><path d=\"M80 150 L100 196 L120 150 Z\" fill=\"#FFFFFF\"></path><path d=\"M95 154 L105 154 L108 184 L100 194 L92 184 Z\" fill=\"#1B0B3A\" stroke-width=\"3\"></path><path d=\"M80 150 L100 196 L70 170 Z M120 150 L100 196 L130 170 Z\" fill=\"#7A2FD0\"></path><path d=\"M136 176 L152 176 L144 166 Z\" fill=\"#FFFFFF\" stroke-width=\"3\"></path><circle cx=\"62\" cy=\"172\" r=\"6\" fill=\"#FFFFFF\" stroke-width=\"3\"></circle><circle cx=\"62\" cy=\"172\" r=\"2\" fill=\"#FFC83D\" stroke=\"none\"></circle><path d=\"M74 158 Q100 186 126 158\" fill=\"none\" stroke=\"#FFC83D\" stroke-width=\"6\" stroke-dasharray=\"0.1 8\"></path><circle cx=\"58\" cy=\"116\" r=\"9\" fill=\"#E8B28C\"></circle><circle cx=\"142\" cy=\"116\" r=\"9\" fill=\"#E8B28C\"></circle><ellipse cx=\"100\" cy=\"114\" rx=\"45\" ry=\"41\" fill=\"#E8B28C\"></ellipse><path d=\"M124 78 C146 90 150 130 132 150 C142 128 140 96 124 78 Z\" fill=\"#CD9470\" stroke=\"none\"></path><path d=\"M60 118 Q100 172 140 118 Q132 152 100 154 Q68 152 60 118 Z\" fill=\"#9C7560\" stroke=\"none\" opacity=\".35\"></path><path d=\"M80 147 Q100 158 120 147\" fill=\"none\" stroke-width=\"3.5\"></path><path d=\"M128 100 L134 116\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M127 105 l8 -2 M129 111 l8 -2\" fill=\"none\" stroke-width=\"2.5\"></path><path d=\"M80 118 Q87 121 94 118 M106 118 Q113 121 120 118\" fill=\"none\" stroke-width=\"2.5\"></path><ellipse cx=\"100\" cy=\"126\" rx=\"11\" ry=\"9\" fill=\"#D99A78\"></ellipse><circle cx=\"96\" cy=\"123\" r=\"2.5\" fill=\"#FFFFFF\" stroke=\"none\"></circle><path d=\"M79.2 114 Q87 101.64 94.8 114\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M105.2 114 Q113 101.64 120.8 114\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M74 97 Q85 91 96 97\" fill=\"none\" stroke=\"#1B0B3A\" stroke-width=\"8\"></path><path d=\"M126 97 Q115 91 104 97\" fill=\"none\" stroke=\"#1B0B3A\" stroke-width=\"8\"></path><path d=\"M82.8 138 Q96 161.9 109.2 138 Z\" fill=\"#3B1430\"></path><ellipse cx=\"96\" cy=\"147.82\" rx=\"6.050000000000001\" ry=\"2.8600000000000003\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><path d=\"M85 139.5 L107 139.5 L105.35 144 L86.65 144 Z\" fill=\"#FFFFFF\" stroke-width=\"2.5\"></path><path d=\"M64 86 C62 44 138 44 136 86 Z\" fill=\"#2A1A44\"></path><path d=\"M100 50 L100 62\" fill=\"none\" stroke=\"#4A3A6A\" stroke-width=\"3\"></path><rect x=\"64\" y=\"70\" width=\"72\" height=\"12\" rx=\"0\" fill=\"#A855F7\" stroke-width=\"4\"></rect><ellipse cx=\"100\" cy=\"86\" rx=\"66\" ry=\"12\" fill=\"#2A1A44\"></ellipse><path d=\"M46 84 Q100 77 154 84\" fill=\"none\" stroke=\"#4A3A6A\" stroke-width=\"3\"></path><rect x=\"108\" y=\"138\" width=\"38\" height=\"9\" rx=\"3\" fill=\"#7A4A2A\" stroke-width=\"3.5\"></rect><rect x=\"144\" y=\"138\" width=\"7\" height=\"9\" rx=\"2\" fill=\"#FF8A1F\" stroke-width=\"3\"></rect><circle cx=\"160\" cy=\"124\" r=\"5\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3\"></circle><circle cx=\"170\" cy=\"108\" r=\"7\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3\"></circle></g></svg>","diva":"<svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" overflow=\"visible\" xmlns:c2pa=\"http://c2pa.org/manifest\"><g stroke=\"#1B0B3A\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M46 160 C22 150 22 120 34 108 C22 92 32 64 52 58 C56 38 82 28 100 34 C118 28 144 38 148 58 C168 64 178 92 166 108 C178 120 178 150 154 160 C130 172 70 172 46 160 Z\" fill=\"#FF8A1F\"></path><path d=\"M150 70 C164 84 166 104 156 116 M44 76 C34 90 36 106 44 116\" fill=\"none\" stroke=\"#E06A00\" stroke-width=\"4\"></path><path d=\"M70 44 Q86 36 100 38\" fill=\"none\" stroke=\"#FFB066\" stroke-width=\"5\"></path><path d=\"M24 202 C26 160 60 146 100 146 C140 146 174 160 176 202 Z\" fill=\"#F7C6A3\"></path><path d=\"M30 202 C36 182 66 176 100 180 C134 176 164 182 170 202 Z\" fill=\"#FF8A1F\"></path><circle cx=\"60\" cy=\"194\" r=\"2.5\" fill=\"#FFE0B0\" stroke=\"none\"></circle><circle cx=\"84\" cy=\"196\" r=\"2.5\" fill=\"#FFE0B0\" stroke=\"none\"></circle><circle cx=\"118\" cy=\"194\" r=\"2.5\" fill=\"#FFE0B0\" stroke=\"none\"></circle><circle cx=\"144\" cy=\"196\" r=\"2.5\" fill=\"#FFE0B0\" stroke=\"none\"></circle><path d=\"M34 186 Q100 168 166 186\" fill=\"none\" stroke-width=\"24\" stroke-dasharray=\"0.1 13\"></path><path d=\"M34 186 Q100 168 166 186\" fill=\"none\" stroke=\"#FF9FC8\" stroke-width=\"15\" stroke-dasharray=\"0.1 13\"></path><rect x=\"88\" y=\"134\" width=\"24\" height=\"24\" rx=\"0\" fill=\"#F7C6A3\" stroke=\"none\"></rect><path d=\"M78 156 Q100 172 122 156\" fill=\"none\" stroke-width=\"10\" stroke-dasharray=\"0.1 9\"></path><path d=\"M78 156 Q100 172 122 156\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"5\" stroke-dasharray=\"0.1 9\"></path><ellipse cx=\"100\" cy=\"108\" rx=\"36\" ry=\"40\" fill=\"#F7C6A3\"></ellipse><path d=\"M118 74 C138 88 140 126 120 144 C130 122 130 92 118 74 Z\" fill=\"#E4A47E\" stroke=\"none\"></path><circle cx=\"78\" cy=\"122\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><circle cx=\"122\" cy=\"122\" r=\"6\" fill=\"#FF8FA3\" stroke=\"none\" opacity=\".55\"></circle><path d=\"M100 112 Q105 120 98 121\" fill=\"none\" stroke-width=\"3.5\"></path><circle cx=\"117\" cy=\"124\" r=\"2.5\" fill=\"#1B0B3A\" stroke=\"none\"></circle><circle cx=\"64\" cy=\"132\" r=\"10\" fill=\"none\" stroke-width=\"8\"></circle><circle cx=\"64\" cy=\"132\" r=\"10\" fill=\"none\" stroke=\"#FFC83D\" stroke-width=\"4\"></circle><circle cx=\"136\" cy=\"132\" r=\"10\" fill=\"none\" stroke-width=\"8\"></circle><circle cx=\"136\" cy=\"132\" r=\"10\" fill=\"none\" stroke=\"#FFC83D\" stroke-width=\"4\"></circle><path d=\"M75.5 107 Q86 92 96.5 107 Z\" fill=\"#FF9FC8\" stroke=\"none\"></path><path d=\"M79 109 Q86 97.6 93 109\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M79 106 l-6 -4\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M103.5 107 Q114 92 124.5 107 Z\" fill=\"#FF9FC8\" stroke=\"none\"></path><path d=\"M107 109 Q114 97.6 121 109\" fill=\"none\" stroke-width=\"5\"></path><path d=\"M121 106 l6 -4\" fill=\"none\" stroke-width=\"3\"></path><path d=\"M78 90 Q86 84 94 90\" fill=\"none\" stroke=\"#C85F00\" stroke-width=\"3.5\"></path><path d=\"M122 90 Q114 84 106 90\" fill=\"none\" stroke=\"#C85F00\" stroke-width=\"3.5\"></path><path d=\"M88 128 Q100 150 112 128 Z\" fill=\"none\" stroke=\"#E0123A\" stroke-width=\"9\"></path><path d=\"M88 128 Q100 150 112 128 Z\" fill=\"#3B1430\"></path><ellipse cx=\"100\" cy=\"137.2\" rx=\"5.5\" ry=\"2.6\" fill=\"#FF7FA8\" stroke=\"none\"></ellipse><path d=\"M90 129.5 L110 129.5 L108.5 134 L91.5 134 Z\" fill=\"#FFFFFF\" stroke-width=\"2.5\"></path><path d=\"M62 104 C60 58 140 58 138 104 C130 80 108 70 90 84 C80 92 70 96 62 104 Z\" fill=\"#FF8A1F\"></path><path d=\"M110 54 Q130 62 132 82\" fill=\"none\" stroke=\"#E06A00\" stroke-width=\"4\"></path><path d=\"M78 66 Q88 60 98 62\" fill=\"none\" stroke=\"#FFB066\" stroke-width=\"4\"></path><path d=\"M84 61 C70 53 75 43 84 49 C93 43 98 53 84 61 Z\" fill=\"#FF3DA8\" stroke-width=\"4\"></path><path d=\"M116 61 C102 53 107 43 116 49 C125 43 130 53 116 61 Z\" fill=\"#FF3DA8\" stroke-width=\"4\"></path><path d=\"M94 50 Q100 46 106 50\" fill=\"none\" stroke-width=\"4\"></path><circle cx=\"80\" cy=\"48\" r=\"2\" fill=\"#FFFFFF\" stroke=\"none\"></circle><circle cx=\"112\" cy=\"48\" r=\"2\" fill=\"#FFFFFF\" stroke=\"none\"></circle></g></svg>"};
+var PERS = [
+ {id:"chef",nome:"Gastone",c:"#F2384A"},{id:"nonna",nome:"Nonna Pina",c:"#2F7BFF"},
+ {id:"zombi",nome:"Ugo",c:"#33C759"},{id:"gatto",nome:"Brioche",c:"#FFD43B"},
+ {id:"boss",nome:"Don Ciccio",c:"#A855F7"},{id:"diva",nome:"Vanessa",c:"#FF8A1F"}];
+var REJ = {codice:"Codice sbagliato. Controlla la TV.",pieno:"La partita è piena.",
+ preso:"Quel personaggio è già preso. Scegline un altro.",partita:"Partita già iniziata. Aspetta la prossima."};
+var SHAPE = ['<path d="M23 3 43 23 23 43 3 23Z"/>','<circle cx="23" cy="23" r="20"/>','<path d="M23 3 44 41H2Z"/>','<rect x="4" y="4" width="38" height="38" rx="3"/>'];
+var $ = function(i){return document.getElementById(i)};
+var ls = {get:function(k){try{return localStorage.getItem(k)||""}catch(e){return ""}},set:function(k,v){try{v?localStorage.setItem(k,v):localStorage.removeItem(k)}catch(e){}}};
+var P = new URLSearchParams(location.search), demo = P.get("demo");
+var urlCode = (P.get("c")||"").toUpperCase();
+var code = urlCode || ls.get("qz_code");
+var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
+
+function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
+function show(id){
+ var l = document.querySelectorAll(".scr"); for(var i=0;i<l.length;i++) l[i].classList.toggle("on", l[i].id===id);
 }
-connect();
-document.getElementById("b").addEventListener("pointerdown", e => {
-  e.preventDefault();
-  if (ws.readyState === 1) ws.send('{"t":"press"}');
-  if (navigator.vibrate) navigator.vibrate(50);
-});
+function head(sec){
+ var h = sec.querySelector(".hd"); if(!h||!me) return;
+ sec.style.setProperty("--pc", me.color);
+ h.querySelector(".av").innerHTML = SVG[me.avatar]||"";
+ h.querySelector(".nm").textContent = me.name;
+ var p = pers(me.avatar), c = h.querySelector(".ch"); if(c) c.textContent = p?p.nome:"";
+}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+function buildGrid(){
+ $("grid").innerHTML = PERS.map(function(p){
+  return '<button class="pj'+(presi.indexOf(p.id)>=0?" preso":"")+(sel===p.id?" sel":"")+'" data-id="'+p.id+'" style="--c:'+p.c+'">'+SVG[p.id]+'<span class="d">'+p.nome+'</span></button>';
+ }).join("");
+}
+$("grid").onclick = function(e){
+ var b = e.target.closest(".pj"); if(!b||b.classList.contains("preso")) return;
+ sel = b.dataset.id; buildGrid();
+};
+
+function render(){
+ if(!me){
+  if(rej){ $("rmsg").textContent = rej; show("s-rej"); return }
+  if(presi.indexOf(sel)>=0) sel = "";
+  buildGrid(); $("jerr").textContent = err; $("code").style.display = urlCode?"none":"block"; show("s-join"); return;
+ }
+ var f = st ? st.fase : "lobby", id;
+ if(f==="domanda"){
+  var done = st.scelta>=0; id = "s-q";
+  $("qt").textContent = st.domanda||"";
+  document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+" di "+st.tot;
+  $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
+   return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'><span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span><span>'+esc(r)+'</span></button>';
+  }).join("");
+ } else if(f==="rivela" && res){
+  id = "s-esito";
+  $("eb").textContent = res.giusta?"GIUSTA!":"SBAGLIATA"; $("eb").className = "badge d "+(res.giusta?"ok":"ko");
+  $("ep").textContent = (res.punti>=0?"+":"")+res.punti;
+  $("et").textContent = "Totale: "+res.totale+" punti"; $("epos").textContent = res.posizione+"° posto";
+ } else if(f==="finale"){
+  id = "s-fin";
+  $("fpos").textContent = res ? res.posizione+"° posto" : "in classifica";
+ } else id = "s-att";
+ head($(id)); show(id);
+}
+$("tasti").onclick = function(e){
+ var b = e.target.closest(".k"); if(!b||b.disabled||!st) return;
+ var i = +b.dataset.i;
+ st.scelta = i; if(navigator.vibrate) navigator.vibrate(50);
+ send({t:"answer",q:st.q,choice:i}); render();
+};
+$("go").onclick = function(){
+ var c = urlCode || $("code").value.trim().toUpperCase();
+ if(!sel){ err = "Scegli un personaggio."; return render() }
+ if(!/^[A-Z0-9]{4}$/.test(c)){ err = "Inserisci il codice di 4 caratteri."; return render() }
+ err = ""; code = c; ls.set("qz_code", c);
+ send({t:"join",code:c,name:$("name").value.trim(),avatar:sel,token:""});
+};
+$("rback").onclick = function(){ rej = ""; render() };
+
+function send(o){ if(ws && ws.readyState===1) ws.send(JSON.stringify(o)) }
+function onMsg(m){
+ if(!m || typeof m!=="object") return;
+ if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
+ else if(m.t==="lobby"){ presi = m.presi||[] }
+ else if(m.t==="state"){ if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="result"){ res = m }
+ else if(m.t==="reject"){
+  ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
+  if(m.reason==="preso"||m.reason==="codice"){ err = r; rej = "" } else rej = r;
+ }
+ render();
+}
+function connect(){
+ ws = new WebSocket("ws://"+location.hostname+":8081");
+ ws.onopen = function(){ $("net").style.display = "none";
+  var t = ls.get("qz_token"); if(t&&code) send({t:"join",code:code,name:"",avatar:ls.get("qz_av"),token:t}) };
+ ws.onmessage = function(e){ try{ onMsg(JSON.parse(e.data)) }catch(x){} };
+ ws.onclose = function(){ $("net").style.display = "block"; setTimeout(connect, 1000) };
+ ws.onerror = function(){ try{ws.close()}catch(x){} };
+}
+
+if(demo){
+ var D = {name:"Gastone",avatar:"chef",color:"#F2384A",slot:0};
+ var Q = {t:"state",fase:"domanda",q:2,tot:10,domanda:"Qual è la capitale d'Australia?",risposte:["Sydney","Canberra","Melbourne","Perth"],scelta:-1};
+ presi = ["nonna","gatto"]; sel = "chef";
+ if(demo==="codice"){ urlCode = ""; }
+ else if(demo==="attesa"){ me = D; st = {t:"state",fase:"lobby"} }
+ else if(demo==="1m"){ me = D; st = Q }
+ else if(demo==="1n"){ me = D; st = Object.assign({},Q,{scelta:1}) }
+ else if(demo==="esito"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
+ else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }
+ else if(demo==="reject"){ rej = REJ.pieno }
+ render();
+} else { render(); connect(); }
 </script>
 </body>
 </html>

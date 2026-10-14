@@ -10,6 +10,7 @@ const GRIGLIA := Vector2(752, 200)
 const GAP := 28.0
 
 var _url: Label
+var _qr: TextureRect
 var _cod: Array[Label] = []
 var _pill: Label
 var _vuoti: Array[Node2D] = []
@@ -27,16 +28,6 @@ class Tratteggio extends Node2D:
 			draw_dashed_line(p[i], p[i + 1], c, 6, 20)
 
 
-class Strisce extends Node2D:
-	var dim: Vector2
-	func _draw() -> void:
-		draw_rect(Rect2(Vector2.ZERO, dim), Color("F0E2C4"))
-		var x := -dim.y
-		while x < dim.x:
-			var a := Vector2(maxf(x, 0), 0 if x >= 0 else -x)
-			var b := Vector2(minf(x + dim.y, dim.x), dim.y if x + dim.y <= dim.x else dim.x - x)
-			draw_line(a, b, Color("E6D3AE"), 14)
-			x += 40.0
 
 
 func _init() -> void:
@@ -91,16 +82,13 @@ func _card() -> void:
 	c.position = Vector2(96, 200)
 	add_child(c)
 	c.add_child(_pos(_lab("Inquadra col telefono", Risposta.font_testo(), 48, INK, 620, 70), 0, 28))
-	var qr := Strisce.new()
-	qr.dim = Vector2(368, 368)
-	qr.position = Vector2(6, 6)
 	var qp := Panel.new()
-	qp.add_theme_stylebox_override("panel", Risposta.box(Color.TRANSPARENT, INK, 6, 6, 8))
+	qp.add_theme_stylebox_override("panel", Risposta.box(CREAM, INK, 6, 6, 8))
 	qp.size = Vector2(380, 380)
 	qp.position = Vector2(120, 112)
-	qp.add_child(qr)
-	qp.move_child(qr, 0)
-	qp.add_child(_lab("QR CODE", Risposta.font_display(), 44, INK, 380, 380))
+	_qr = TextureRect.new()
+	_qr.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	qp.add_child(_qr)
 	c.add_child(qp)
 	c.add_child(_pos(_lab("oppure vai su", Risposta.font_testo(), 36, INK, 620, 50), 0, 510))
 	_url = _lab("", Risposta.font_display(), 64, INK, 620, 80)
@@ -122,7 +110,11 @@ func _pos(n: Control, x: float, y: float) -> Control:
 
 
 func setup(url: String, codice: String) -> void:
-	_url.text = url
+	_url.text = url.trim_prefix("http://").trim_prefix("https://").get_slice("/", 0)
+	var t := Qr.texture(url, 368, INK, CREAM)
+	_qr.texture = t
+	if t:
+		_qr.position = (Vector2(380, 380) - t.get_size()) / 2.0
 	for i in 4:
 		_cod[i].text = codice.substr(i, 1)
 

@@ -11,7 +11,7 @@ func _ready() -> void:
 	add_child(Palco.new())
 	_l = SchermataLobby.new()
 	add_child(_l)
-	_l.setup("quizzone.tv", "KR7Q")
+	_l.setup("http://192.168.1.59:8080/?c=KR7Q", "KR7Q")
 	var t := Timer.new()
 	t.wait_time = 1.5
 	t.timeout.connect(_passo)
