@@ -190,7 +190,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 
 ### C — Co-conduttrice Gilda Lampo (dopo G1h)
 - [ ] Voce (Voice Design, 3 anteprime, sceglie S)
-- [ ] Personaggio cutout nello stile del design (SVG a pezzi + rig come Tony), approvato da S
+- [x] Personaggio cutout nello stile del design (SVG a pezzi + rig come Tony), approvato da S
 - [ ] Due conduttori in `main`: mazzi con battute di entrambi, duetti, Gilda entra da destra con il suo fumetto
 - [ ] ~40 battute di Gilda + ~10 duetti (testi approvati da S); dopo il 2026-11-10 le battute di Tony che diventano duetti
 
