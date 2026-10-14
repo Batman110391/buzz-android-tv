@@ -23,13 +23,13 @@ func carica() -> void:
 			_uscite[id] = true
 
 
-## n domande del tipo (e della difficoltà, se > 0): prima le mai uscite, poi le altre; le segna come uscite.
+## n domande del tipo (e della difficoltà se > 0, della categoria se non vuota): prima le mai uscite, poi le altre; le segna come uscite.
 ## Le risposte restano con la giusta per prima: le mescola Game.
-func pesca(tipo: String, n: int, difficolta := 0) -> Array:
+func pesca(tipo: String, n: int, difficolta := 0, categoria := "") -> Array:
 	var nuove: Array = []
 	var vecchie: Array = []
 	for q: Dictionary in _tutte:
-		if q["tipo"] == tipo and (difficolta == 0 or int(q["difficolta"]) == difficolta):
+		if q["tipo"] == tipo and (difficolta == 0 or int(q["difficolta"]) == difficolta) and (categoria == "" or q["categoria"] == categoria):
 			(vecchie if _uscite.has(q["id"]) else nuove).append(q)
 	nuove.shuffle()
 	vecchie.shuffle()

@@ -34,7 +34,7 @@ async function http(nome, url, opts) {
   if (!r.ok) throw new Error(`${nome}: HTTP ${r.status}\n${(await r.text()).slice(0, 300)}`);
   return r.json();
 }
-const jsonDa = (testo) => JSON.parse(String(testo).replace(/^\s*```(?:json)?|```\s*$/g, ""));
+const jsonDa = (testo) => { const m = String(testo).match(/\{[\s\S]*\}/); if (!m) throw new Error(`risposta senza JSON: "${String(testo).slice(0, 200)}"`); return JSON.parse(m[0]); };
 const richiedi = (v) => { if (!process.env[v]) throw new Error(`manca ${v} (node --env-file=.env ... e QUIZZONE_MOCK=0)`); return process.env[v]; };
 
 const S = (type, extra = {}) => ({ type, ...extra });
@@ -81,12 +81,16 @@ function presenta(q) {
 
 async function verificaReale(q, p) {
   const prompt = leggi("prompts/verifica.md").replace("{{DOMANDA}}", p.testo);
-  const r = await http("OpenRouter", "https://openrouter.ai/api/v1/chat/completions", {
-    method: "POST",
-    headers: { "content-type": "application/json", authorization: `Bearer ${richiedi("OPENROUTER_API_KEY")}` },
-    body: JSON.stringify({ model: richiedi("OPENROUTER_MODEL"), messages: [{ role: "user", content: prompt }], response_format: { type: "json_object" }, temperature: 0 }),
-  });
-  return jsonDa(r.choices?.[0]?.message?.content ?? "{}");
+  for (let t = 0; t < 3; t++) { // il modello free a volte risponde con contenuto vuoto: riprova
+    const r = await http("OpenRouter", "https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${richiedi("OPENROUTER_API_KEY")}` },
+      body: JSON.stringify({ model: richiedi("OPENROUTER_MODEL"), messages: [{ role: "user", content: prompt }], temperature: 0 }),
+    });
+    const c = r.choices?.[0]?.message?.content;
+    if (c && c.trim()) return jsonDa(c);
+  }
+  throw new Error("OpenRouter: risposta vuota per 3 volte di fila");
 }
 
 const mockV = JSON.parse(leggi("fixtures/mock_verifica.json"));
@@ -123,7 +127,9 @@ async function valuta(items) {
       const v = MOCK ? verificaMock(q, p) : await verificaReale(q, p);
       const corretta = q.tipo === "ordine" ? JSON.stringify(v.ordine) === JSON.stringify([0, 1, 2, 3].map((k) => p.perm.indexOf(k))) : v.scelta === p.perm.indexOf(0);
       const ok = corretta && v.sicurezza >= 80 && (v.problemi ?? []).length === 0;
-      esiti.push({ q, ok, schema: 0, motivo: ok ? "" : !corretta ? "scelta diversa dalla giusta" : `sicurezza ${v.sicurezza} problemi [${(v.problemi ?? []).join(",")}]` });
+      esiti.push({ q, ok, schema: 0, motivo: ok ? "" : !corretta ? "scelta diversa dalla giusta" : `sicurezza ${v.sicurezza} problemi [${(v.problemi ?? []).join(",")}]`, dett: ok || corretta || MOCK ? "" : `
+${p.testo}
+    atteso: ${q.tipo === "ordine" ? JSON.stringify([0, 1, 2, 3].map((k) => p.perm.indexOf(k))) : p.perm.indexOf(0)}  grezza: ${JSON.stringify(v)}` });
     }
     return esiti;
   } finally { rmSync(tmp, { recursive: true, force: true }); }
@@ -132,7 +138,7 @@ async function valuta(items) {
 // ---------- prove ----------
 const pct = (a, b) => (b ? Math.round((100 * a) / b) : 0);
 const righe = [], falliti = [];
-const mostraScarti = (titolo, esiti) => esiti.filter((e) => !e.ok).forEach((e) => console.log(`  ${titolo} scartata: ${e.q.id ?? e.q.fatto} (${e.motivo})`));
+const mostraScarti = (titolo, esiti) => esiti.filter((e) => !e.ok).forEach((e) => console.log(`  ${titolo} scartata: ${e.q.id ?? e.q.fatto} (${e.motivo})${e.dett ?? ""}`));
 
 try {
   const buoni = mescola(dotazione).slice(0, N);

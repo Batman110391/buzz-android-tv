@@ -19,7 +19,7 @@ Scrivi {{N}} domande di tipo **{{TIPO}}**, categoria **{{CATEGORIA}}**, difficol
 3. Vietati: negazioni ("quale NON..."), "tutte/nessuna delle precedenti", il futuro, fatti che cambiano entro 5 anni (record, cariche, "l'attuale", classifiche), opinioni, stereotipi, offese, politica di parte, tragedie recenti.
 4. Nessun indizio della risposta nella domanda. Italiano corretto con tutti gli accenti (perché, più, già, può, città). Nessun punto finale nelle risposte.
 5. La risposta giusta è SEMPRE la prima di `risposte` (lo script la mescola dopo). Per "ordine": `elementi` già nell'ordine giusto.
-6. `curiosita`: una frase vera e curiosa, massimo 120 caratteri, che non ripete la domanda.
+6. `curiosita`: una frase vera e curiosa, massimo 110 caratteri (conta bene: oltre 120 è scartata), che non ripete la domanda.
 7. `fatto`: chiave brevissima (3-8 parole) in minuscolo, senza accenti né punteggiatura, che identifica il fatto testato (es. "capitale australia canberra").
 8. `fonte`: URL di una pagina it.wikipedia.org reale che conferma il fatto. Se non sei sicuro che esista, scegli un altro fatto.
 9. Le {{N}} domande devono trattare fatti diversi tra loro; al massimo 3 sullo stesso argomento ristretto.

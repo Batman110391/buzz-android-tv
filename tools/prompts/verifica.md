@@ -15,10 +15,10 @@ Le risposte sono numerate da 0 e **mescolate**: la posizione non indica nulla.
    - `piu_giuste`: più di una risposta è corretta
    - `errata`: nessuna risposta è corretta, o il fatto è sbagliato
    - `superata`: il fatto è cambiato o cambierà presto (record, cariche, classifiche, "l'attuale")
-   - `indizio`: la domanda svela la risposta, o le sbagliate sono così implausibili che la giusta si indovina
+   - `indizio`: la domanda contiene parole della risposta giusta, oppure le sbagliate sono così assurde che la giusta si indovina senza sapere nulla. Una domanda facile NON è un indizio
    - `troppo_lunga`: domanda o risposte troppo lunghe per essere lette in fretta su una TV
    - `offensiva`: stereotipi, offese, politica di parte, tragedie recenti
-   - `noiosa`: banale o priva di interesse per un tavolo di adulti
+   - `noiosa`: nessuno al tavolo la troverebbe interessante (priva di qualsiasi spunto). Una domanda facile o di cultura generale NON è noiosa
 
 # Uscita
 Solo JSON: `{"scelta":<int>,"ordine":[<int>,...],"sicurezza":<0-100>,"difficolta":<1-3>,"problemi":[...]}`. `ordine` solo per il tipo ordine, altrimenti omettilo. Nessun testo fuori dal JSON.

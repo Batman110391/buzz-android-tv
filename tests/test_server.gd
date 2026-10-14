@@ -9,6 +9,7 @@ var joined_log: Array = []
 var answered_log: Array = []
 var left_log: Array = []
 var stole_log: Array = []
+var cat_log: Array = []
 
 
 func _check(nome: String, cond: bool) -> void:
@@ -89,6 +90,7 @@ func _initialize() -> void:
 	server.left.connect(func(s: int): left_log.append(s))
 	server.answered.connect(func(s: int, q: int, ch: int): answered_log.append([s, q, ch]))
 	server.stole.connect(func(s: int, q: int, v: int): stole_log.append([s, q, v]))
+	server.categoria_scelta.connect(func(s: int, r: int, sc: int): cat_log.append([s, r, sc]))
 	server.apri_lobby()
 	var code: String = server.codice
 
@@ -194,6 +196,31 @@ func _initialize() -> void:
 	await _pump()
 	_check("dopo aver rubato puo false", _take(a2, "state").get("puo") == false)
 
+	_tx(a2, {"t": "cat", "r": 1, "scelta": 0})
+	await _pump()
+	_check("cat fuori fase ignorata", cat_log.is_empty())
+	_vuota(a2)
+	_vuota(b)
+	server.invia_stato({"fase": "categoria", "r": 1, "tempo": 10, "opzioni": [], "chi": 0, "puo": [0]})
+	await _pump()
+	_check("categoria puo per telefono", _take(a2, "state").get("puo") == true and _take(b, "state").get("puo") == false)
+	for m in [{"t": "cat", "r": 2, "scelta": 0}, {"t": "cat", "r": 1, "scelta": 3}, {"t": "cat", "r": 1, "scelta": -1},
+			{"t": "cat", "r": 1, "scelta": "1"}, {"t": "cat", "r": "1", "scelta": 1}, {"t": "cat", "r": 1}]:
+		_tx(a2, m)
+	_tx(b, {"t": "cat", "r": 1, "scelta": 1})
+	_tx(c, {"t": "cat", "r": 1, "scelta": 1})
+	await _pump()
+	_check("cat r/scelta/tipi sbagliati, slot non autorizzato, non entrato ignorate", cat_log.is_empty())
+	_tx(a2, {"t": "cat", "r": 1, "scelta": 2})
+	await _pump()
+	_check("cat valida -> categoria_scelta", cat_log == [[0, 1, 2]])
+	_tx(a2, {"t": "cat", "r": 1, "scelta": 1})
+	await _pump()
+	_check("doppia cat ignorata", cat_log.size() == 1)
+	_vuota(a2)
+	server.invia_stato({"fase": "categoria", "r": 1, "tempo": 10, "opzioni": [], "chi": 0, "puo": [0]})
+	await _pump()
+	_check("dopo la scelta puo false", _take(a2, "state").get("puo") == false)
 
 	var d := _nuovo()
 	await _apri(d)

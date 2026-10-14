@@ -59,6 +59,8 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .v .a{flex:none;width:58px;height:58px;background:var(--c);border-right:4px solid var(--ink);position:relative}
 .v .a svg{position:absolute;inset:0;width:100%;height:100%}
 .v b{flex:1;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kc{font-size:30px;justify-content:center;gap:14px}
+.kc b{font-size:48px;font-weight:400;line-height:1}
 .pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
 </style>
 </head>
@@ -91,6 +93,12 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
  <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Ruba Punti</small></div><span class="tm d"></span></div>
  <div class="big d" style="font-size:36px;text-align:center;margin-top:12px">Ruba 300 punti!</div>
  <div class="vl" id="vl"></div>
+</section>
+
+<section class="scr" id="s-cat">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Categoria</small></div><span class="tm d"></span></div>
+ <div class="big d" style="font-size:34px;text-align:center;margin:12px 0 10px">Scegli la categoria!</div>
+ <div class="tasti" id="cl"></div>
 </section>
 
 <section class="scr" id="s-w">
@@ -132,6 +140,7 @@ var urlCode = (P.get("c")||"").toUpperCase();
 var code = urlCode || ls.get("qz_code");
 var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
 var rub = -1;  // q in cui ho già scelto la vittima
+var catr = -1, catn = "";  // round in cui ho già scelto la categoria, e il suo nome
 var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
 
 function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
@@ -188,6 +197,17 @@ function render(){
    if(st.puo){ $("w1").textContent = "Bersaglio scelto!"; $("w2").textContent = "Guarda la TV" }
    else { $("w1").textContent = "Qualcuno sta rubando…"; $("w2").textContent = "Guarda la TV" }
   }
+ } else if(f==="categoria"){
+  if(st.puo && catr!==st.r){
+   id = "s-cat";
+   $("cl").innerHTML = (st.opzioni||[]).map(function(o,i){
+    return '<button class="k kc d" data-i="'+i+'"><b>'+esc(o.icona||"")+'</b><span>'+esc(o.nome)+'</span></button>';
+   }).join("");
+  } else {
+   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Categoria";
+   if(st.puo){ $("w1").textContent = "Hai scelto: "+catn; $("w2").textContent = "Guarda la TV" }
+   else { $("w1").textContent = (st.chi_nome||"Qualcuno")+" sta scegliendo la categoria…"; $("w2").textContent = "Guarda la TV" }
+  }
  } else if(f==="rivela" && res){
   id = "s-esito";
   $("eb").textContent = res.giusta?"GIUSTA!":"SBAGLIATA"; $("eb").className = "badge d "+(res.giusta?"ok":"ko");
@@ -201,7 +221,7 @@ function render(){
  head($(id)); show(id); tick();
 }
 function tick(){
- if(!st||(st.fase!=="domanda"&&st.fase!=="ruba")) return;
+ if(!st||(st.fase!=="domanda"&&st.fase!=="ruba"&&st.fase!=="categoria")) return;
  var s = Math.max(0, Math.ceil((fine-Date.now())/1000)), l = document.querySelectorAll(".tm");
  for(var i=0;i<l.length;i++){ l[i].textContent = s; l[i].classList.toggle("hurry", s<=5); l[i].style.visibility = st.gioco==="bomba"?"hidden":"" }  // Bomba: miccia nascosta, niente timer
 }
@@ -217,6 +237,11 @@ $("vl").onclick = function(e){
  rub = st.q; if(navigator.vibrate) navigator.vibrate(50);
  send({t:"steal",q:st.q,victim:+b.dataset.s}); render();
 };
+$("cl").onclick = function(e){
+ var b = e.target.closest(".k"); if(!b||!st||catr===st.r) return;
+ var i = +b.dataset.i; catr = st.r; catn = ((st.opzioni||[])[i]||{}).nome||""; if(navigator.vibrate) navigator.vibrate(50);
+ send({t:"cat",r:st.r,scelta:i}); render();
+};
 $("go").onclick = function(){
  var c = urlCode || $("code").value.trim().toUpperCase();
  if(!sel){ err = "Scegli un personaggio."; return render() }
@@ -231,7 +256,7 @@ function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
  else if(m.t==="lobby"){ presi = m.presi||[] }
- else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
   ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
@@ -262,6 +287,9 @@ if(demo){
   st = {t:"state",fase:"ruba",q:2,punti:300,tempo:8,puo:demo==="ruba",vittime:[
    {slot:0,name:"Gastone",color:"#F2384A",avatar:"chef",punti:2350},{slot:1,name:"Nonna Pina",color:"#2F7BFF",avatar:"nonna",punti:3100},
    {slot:2,name:"Ugo",color:"#33C759",avatar:"zombi",punti:1800},{slot:3,name:"Brioche",color:"#FFD43B",avatar:"gatto",punti:900}]} }
+ else if(demo==="categoria"||demo==="categoria_attesa"){ me = D; fine = Date.now()+8000;
+  st = {t:"state",fase:"categoria",r:1,tempo:8,chi:3,chi_nome:"Brioche",puo:demo==="categoria",opzioni:[
+   {id:"geo",nome:"Geografia",icona:"🌍"},{id:"cinema",nome:"Cinema e TV",icona:"🎬"},{id:"cucina",nome:"Cucina",icona:"🍝"}]} }
  else if(demo==="esito_testo"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2,testo:"Hai rubato 300 punti a Ugo!"} }
  else if(demo==="esito"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
  else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }

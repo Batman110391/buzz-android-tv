@@ -6,6 +6,7 @@ signal joined(slot: int, nome: String, avatar: String)
 signal left(slot: int)
 signal answered(slot: int, q: int, choice: int)
 signal stole(slot: int, q: int, victim: int)
+signal categoria_scelta(slot: int, r: int, scelta: int)
 
 const HTTP_PORT := 8080
 const WS_PORT := 8081
@@ -37,6 +38,7 @@ var _state := {}
 var _t_stato := 0  # ms di quando è arrivato _state: "tempo" si accorcia per chi lo riceve dopo
 var _risposte := {}  # slot -> {q, choice}
 var _rubato := {}  # slot -> q in cui ha già rubato
+var _scelto := {}  # slot -> r in cui ha già scelto la categoria
 
 
 func _init() -> void:
@@ -93,6 +95,7 @@ func reset() -> void:
 	_players.clear()
 	_risposte.clear()
 	_rubato.clear()
+	_scelto.clear()
 	_state = {}
 	_tutti(_msg_lobby())
 
@@ -202,6 +205,8 @@ func _ricevi(c: Dictionary, txt: String) -> void:
 			_answer(c, m)
 		"steal":
 			_steal(c, m)
+		"cat":
+			_cat(c, m)
 
 
 func _join(c: Dictionary, m: Dictionary) -> void:
@@ -299,6 +304,22 @@ func _steal(c: Dictionary, m: Dictionary) -> void:
 	stole.emit(c.slot, int(q), int(v))
 
 
+func _cat(c: Dictionary, m: Dictionary) -> void:
+	if c.slot < 0 or _state.get("fase") != "categoria":
+		return
+	var r = m.get("r")
+	var sc = m.get("scelta")
+	if not (_es_int(r) and _es_int(sc)) or int(sc) < 0 or int(sc) > 2:
+		return
+	if not _es_int(_state.get("r")) or int(r) != int(_state.get("r")):
+		return
+	var puo = _state.get("puo")
+	if not (puo is Array and c.slot in puo) or _scelto.get(c.slot, -1) == int(r):
+		return
+	_scelto[c.slot] = int(r)
+	categoria_scelta.emit(c.slot, int(r), int(sc))
+
+
 func _es_int(v) -> bool:
 	return v is int or (v is float and absf(v) < 1e9 and v == floorf(v))
 
@@ -333,6 +354,9 @@ func _msg_state(slot: int) -> Dictionary:
 	if d.get("fase") == "ruba":
 		var puo = d.get("puo", [])
 		d["puo"] = puo is Array and slot in puo and _rubato.get(slot, -1) != int(d.get("q", -1))
+	if d.get("fase") == "categoria":
+		var puo = d.get("puo", [])
+		d["puo"] = puo is Array and slot in puo and _scelto.get(slot, -1) != int(d.get("r", -1))
 	return d
 
 
