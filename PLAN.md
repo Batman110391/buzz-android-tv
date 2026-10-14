@@ -213,6 +213,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 ### G4 — Contenuti e rifinitura
 - [ ] 200+ domande in categorie, riviste dal supervisore
 - [ ] Musica e effetti coerenti con lo stile
+- [ ] Icona e banner del launcher rifiniti
 - [ ] Playtest con amici veri
 - [ ] Repo pubblico con licenza, README, release dell'APK firmato
 
