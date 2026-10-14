@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-cuc-0001",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Alimenti, dal meno al più calorico (100 g)",
+    "elementi": [
+      "Cetriolo",
+      "Mela",
+      "Pane",
+      "Olio d'oliva"
+    ],
+    "valori": [
+      "15 kcal",
+      "52 kcal",
+      "265 kcal",
+      "900 kcal"
+    ],
+    "curiosita": "Il grasso fornisce 9 kcal per grammo, contro le 4 di zuccheri e proteine.",
+    "fatto": "ordine calorie cetriolo mela pane olio",
+    "fonte": "https://it.wikipedia.org/wiki/Caloria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0002",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Dal meno al più calorico, a parità di peso",
+    "elementi": [
+      "Lattuga",
+      "Latte intero",
+      "Pasta cruda",
+      "Burro"
+    ],
+    "valori": [
+      "15 kcal",
+      "64 kcal",
+      "350 kcal",
+      "740 kcal"
+    ],
+    "curiosita": "Il burro è composto per circa l'80 per cento da grasso.",
+    "fatto": "ordine calorie lattuga latte pasta burro",
+    "fonte": "https://it.wikipedia.org/wiki/Burro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0003",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Misure di peso, dalla più leggera alla più pesante",
+    "elementi": [
+      "Etto",
+      "Chilo",
+      "Quintale",
+      "Tonnellata"
+    ],
+    "valori": [
+      "100 g",
+      "1 kg",
+      "100 kg",
+      "1000 kg"
+    ],
+    "curiosita": "In salumeria si ordina ancora il prosciutto a etti.",
+    "fatto": "ordine misure di peso etto tonnellata",
+    "fonte": "https://it.wikipedia.org/wiki/Chilogrammo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0004",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Pasti della giornata, dal mattino alla sera",
+    "elementi": [
+      "Colazione",
+      "Pranzo",
+      "Merenda",
+      "Cena"
+    ],
+    "valori": [
+      "mattina",
+      "mezzogiorno",
+      "pomeriggio",
+      "sera"
+    ],
+    "curiosita": "La parola pranzo viene dal latino prandium, il pasto di metà giornata.",
+    "fatto": "ordine pasti della giornata colazione cena",
+    "fonte": "https://it.wikipedia.org/wiki/Pasto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0005",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Portate di un pranzo italiano, dalla prima",
+    "elementi": [
+      "Antipasto",
+      "Primo",
+      "Secondo",
+      "Dolce"
+    ],
+    "valori": [
+      "1ª portata",
+      "2ª portata",
+      "3ª portata",
+      "4ª portata"
+    ],
+    "curiosita": "Il contorno si serve di solito insieme al secondo.",
+    "fatto": "ordine portate pranzo italiano antipasto dolce",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0006",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Marchi italiani, dal più antico per fondazione",
+    "elementi": [
+      "Buitoni",
+      "Barilla",
+      "Lavazza",
+      "Ferrero"
+    ],
+    "valori": [
+      "1827",
+      "1877",
+      "1895",
+      "1946"
+    ],
+    "curiosita": "Barilla nacque a Parma come bottega di pane e pasta.",
+    "fatto": "ordine fondazione marchi alimentari italiani buitoni ferrero",
+    "fonte": "https://it.wikipedia.org/wiki/Barilla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0007",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Bevande, dalla gradazione alcolica più bassa",
+    "elementi": [
+      "Birra",
+      "Vino",
+      "Porto",
+      "Whisky"
+    ],
+    "valori": [
+      "circa 5%",
+      "circa 12%",
+      "circa 20%",
+      "circa 40%"
+    ],
+    "curiosita": "La gradazione indica la percentuale di alcol sul volume.",
+    "fatto": "ordine gradazione alcolica birra vino porto whisky",
+    "fonte": "https://it.wikipedia.org/wiki/Gradazione_alcolica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0008",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Misure da cucina, dalla minore alla maggiore",
+    "elementi": [
+      "Cucchiaino",
+      "Cucchiaio",
+      "Tazza (USA)",
+      "Pinta (USA)"
+    ],
+    "valori": [
+      "5 ml",
+      "15 ml",
+      "237 ml",
+      "473 ml"
+    ],
+    "curiosita": "Un cucchiaio equivale a tre cucchiaini.",
+    "fatto": "ordine misure cucina cucchiaino pinta",
+    "fonte": "https://it.wikipedia.org/wiki/Cucchiaio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0009",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Peperoncini, dal meno al più piccante",
+    "elementi": [
+      "Peperone dolce",
+      "Jalapeño",
+      "Habanero",
+      "Carolina Reaper"
+    ],
+    "valori": [
+      "0 SHU",
+      "~5.000 SHU",
+      "~200.000 SHU",
+      "~1,6 mln SHU"
+    ],
+    "curiosita": "La scala Scoville porta il nome del chimico Wilbur Scoville.",
+    "fatto": "ordine piccantezza scoville peperoncini",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_Scoville",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0010",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Cuochi famosi, dal più antico per nascita",
+    "elementi": [
+      "Pellegrino Artusi",
+      "Auguste Escoffier",
+      "Gualtiero Marchesi",
+      "Massimo Bottura"
+    ],
+    "valori": [
+      "1820",
+      "1846",
+      "1930",
+      "1962"
+    ],
+    "curiosita": "Artusi era romagnolo ma visse a lungo a Firenze.",
+    "fatto": "ordine nascita cuochi artusi escoffier marchesi bottura",
+    "fonte": "https://it.wikipedia.org/wiki/Pellegrino_Artusi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0011",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Marchi alimentari, dal più antico per fondazione",
+    "elementi": [
+      "Cinzano",
+      "Peroni",
+      "Perugina",
+      "Illy"
+    ],
+    "valori": [
+      "1757",
+      "1846",
+      "1907",
+      "1933"
+    ],
+    "curiosita": "Cinzano nacque a Torino ed è legato al vermut.",
+    "fatto": "ordine fondazione marchi cinzano peroni perugina illy",
+    "fonte": "https://it.wikipedia.org/wiki/Cinzano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0012",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Prodotti Ferrero, dal più antico al più recente",
+    "elementi": [
+      "Nutella",
+      "Kinder Cioccolato",
+      "Kinder Sorpresa",
+      "Ferrero Rocher"
+    ],
+    "valori": [
+      "1964",
+      "1968",
+      "1974",
+      "1982"
+    ],
+    "curiosita": "La ditta fu fondata ad Alba da Pietro Ferrero.",
+    "fatto": "ordine prodotti ferrero nutella kinder rocher",
+    "fonte": "https://it.wikipedia.org/wiki/Ferrero_(azienda)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0013",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Bevande, dalla più antica per nascita",
+    "elementi": [
+      "Coca-Cola",
+      "Fanta",
+      "Sprite",
+      "Red Bull"
+    ],
+    "valori": [
+      "1886",
+      "1940",
+      "1961",
+      "1987"
+    ],
+    "curiosita": "La Fanta nacque in Germania durante la seconda guerra mondiale.",
+    "fatto": "ordine nascita bevande coca cola fanta sprite red bull",
+    "fonte": "https://it.wikipedia.org/wiki/Fanta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0014",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Bottiglie di Champagne, dalla più piccola",
+    "elementi": [
+      "Magnum",
+      "Jéroboam",
+      "Réhoboam",
+      "Mathusalem"
+    ],
+    "valori": [
+      "1,5 litri",
+      "3 litri",
+      "4,5 litri",
+      "6 litri"
+    ],
+    "curiosita": "I nomi vengono da re e patriarchi della Bibbia.",
+    "fatto": "ordine bottiglie champagne magnum mathusalem",
+    "fonte": "https://it.wikipedia.org/wiki/Champagne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0015",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Piatti per città di origine, da nord a sud",
+    "elementi": [
+      "Fonduta (Aosta)",
+      "Tortellini (Bologna)",
+      "Carbonara (Roma)",
+      "Cannolo (Palermo)"
+    ],
+    "valori": [
+      "45,7° N",
+      "44,5° N",
+      "41,9° N",
+      "38,1° N"
+    ],
+    "curiosita": "Tra Aosta e Palermo ci sono oltre sette gradi di latitudine.",
+    "fatto": "ordine piatti citta origine latitudine aosta palermo",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

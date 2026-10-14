@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-spo-0001",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si gioca nella NBA?",
+    "risposte": [
+      "Basket",
+      "Baseball",
+      "Hockey",
+      "Football"
+    ],
+    "curiosita": "La sigla sta per National Basketball Association.",
+    "fatto": "sport della nba basket",
+    "fonte": "https://it.wikipedia.org/wiki/National_Basketball_Association",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0002",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di che colore è la maglia della nazionale italiana?",
+    "risposte": [
+      "Azzurra",
+      "Rossa",
+      "Verde",
+      "Bianca"
+    ],
+    "curiosita": "Il blu richiama i colori di casa Savoia.",
+    "fatto": "colore maglia nazionale italiana azzurra",
+    "fonte": "https://it.wikipedia.org/wiki/Nazionale_di_calcio_dell'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0003",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori si sfidano in un singolare di tennis?",
+    "risposte": [
+      "Due",
+      "Uno",
+      "Tre",
+      "Quattro"
+    ],
+    "curiosita": "Nel doppio i giocatori in campo sono invece quattro.",
+    "fatto": "giocatori singolare tennis due",
+    "fonte": "https://it.wikipedia.org/wiki/Tennis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0004",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Qual è il simbolo della Ferrari?",
+    "risposte": [
+      "Cavallino",
+      "Toro",
+      "Leone",
+      "Aquila"
+    ],
+    "curiosita": "Era l'emblema dell'aviatore Francesco Baracca.",
+    "fatto": "simbolo ferrari cavallino rampante",
+    "fonte": "https://it.wikipedia.org/wiki/Ferrari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0005",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di che colore sono le Ferrari da corsa?",
+    "risposte": [
+      "Rosso",
+      "Giallo",
+      "Blu",
+      "Verde"
+    ],
+    "curiosita": "Il rosso corsa era il colore assegnato alle auto italiane.",
+    "fatto": "colore ferrari da corsa rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Scuderia_Ferrari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0006",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "In quale città giocano sia l'Inter sia il Milan?",
+    "risposte": [
+      "Milano",
+      "Roma",
+      "Torino",
+      "Napoli"
+    ],
+    "curiosita": "Le due squadre condividono lo stadio di San Siro.",
+    "fatto": "citta di inter e milan milano",
+    "fonte": "https://it.wikipedia.org/wiki/Derby_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0007",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti tempi dura una partita di calcio?",
+    "risposte": [
+      "Due",
+      "Tre",
+      "Quattro",
+      "Uno"
+    ],
+    "curiosita": "Tra i due tempi c'è un intervallo di quindici minuti.",
+    "fatto": "tempi partita calcio due",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0008",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti quarti dura una partita di basket?",
+    "risposte": [
+      "Quattro",
+      "Due",
+      "Tre",
+      "Sei"
+    ],
+    "curiosita": "Nella NBA ogni quarto dura 12 minuti.",
+    "fatto": "quarti partita basket quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Pallacanestro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0009",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Bebe Vio?",
+    "risposte": [
+      "Scherma",
+      "Judo",
+      "Nuoto",
+      "Tennis"
+    ],
+    "curiosita": "È campionessa paralimpica di fioretto.",
+    "fatto": "bebe vio sport scherma",
+    "fonte": "https://it.wikipedia.org/wiki/Beatrice_Vio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0010",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Jannik Sinner?",
+    "risposte": [
+      "Tennis",
+      "Sci",
+      "Golf",
+      "Calcio"
+    ],
+    "curiosita": "Da bambino fu anche un promettente sciatore.",
+    "fatto": "jannik sinner sport tennis",
+    "fonte": "https://it.wikipedia.org/wiki/Jannik_Sinner",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0011",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti punti vale una tripla nel basket?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Quattro",
+      "Uno"
+    ],
+    "curiosita": "Il tiro da tre punti arrivò nell'NBA nel 1979.",
+    "fatto": "punti tripla basket tre",
+    "fonte": "https://it.wikipedia.org/wiki/Pallacanestro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0012",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Lewis Hamilton?",
+    "risposte": [
+      "Formula 1",
+      "Rally",
+      "Motociclismo",
+      "Ciclismo"
+    ],
+    "curiosita": "È britannico e ha vinto sette titoli mondiali.",
+    "fatto": "lewis hamilton sport formula 1",
+    "fonte": "https://it.wikipedia.org/wiki/Lewis_Hamilton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0013",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport praticava Pelé?",
+    "risposte": [
+      "Calcio",
+      "Basket",
+      "Pugilato",
+      "Tennis"
+    ],
+    "curiosita": "Con il Brasile vinse tre Mondiali.",
+    "fatto": "pele sport calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Pel%C3%A9",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0014",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si pratica in un velodromo?",
+    "risposte": [
+      "Ciclismo",
+      "Atletica",
+      "Equitazione",
+      "Scherma"
+    ],
+    "curiosita": "La pista ha curve inclinate chiamate paraboliche.",
+    "fatto": "sport velodromo ciclismo pista",
+    "fonte": "https://it.wikipedia.org/wiki/Velodromo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0015",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport usa arco e frecce?",
+    "risposte": [
+      "Tiro con l'arco",
+      "Tiro a segno",
+      "Scherma",
+      "Biathlon"
+    ],
+    "curiosita": "È sport olimpico fin dal 1900, con pause.",
+    "fatto": "sport arco e frecce",
+    "fonte": "https://it.wikipedia.org/wiki/Tiro_con_l'arco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0016",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale sport usa pietre levigate sul ghiaccio?",
+    "risposte": [
+      "Curling",
+      "Hockey",
+      "Bob",
+      "Skeleton"
+    ],
+    "curiosita": "Gli atleti spazzano il ghiaccio per guidare la pietra.",
+    "fatto": "sport pietre ghiaccio curling",
+    "fonte": "https://it.wikipedia.org/wiki/Curling",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0017",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale gara vinse Tamberi alle Olimpiadi di Tokyo?",
+    "risposte": [
+      "Salto in alto",
+      "Salto con l'asta",
+      "Lancio del peso",
+      "400 ostacoli"
+    ],
+    "curiosita": "Divise l'oro con l'amico qatariota Barshim.",
+    "fatto": "gianmarco tamberi gara oro tokyo salto in alto",
+    "fonte": "https://it.wikipedia.org/wiki/Gianmarco_Tamberi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0018",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti tocchi può dare una squadra di pallavolo?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Quattro",
+      "Cinque"
+    ],
+    "curiosita": "Il muro non conta come tocco di squadra.",
+    "fatto": "tocchi squadra pallavolo tre",
+    "fonte": "https://it.wikipedia.org/wiki/Pallavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0019",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti giocatori ha in campo una squadra di calcio a 5?",
+    "risposte": [
+      "Cinque",
+      "Sei",
+      "Sette",
+      "Quattro"
+    ],
+    "curiosita": "Il portiere è compreso nel numero.",
+    "fatto": "giocatori in campo calcio a cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_a_5",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0020",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Di che colore è la maglia del Brasile?",
+    "risposte": [
+      "Gialla",
+      "Blu",
+      "Verde",
+      "Bianca"
+    ],
+    "curiosita": "Dopo il 1950 il bianco fu sostituito dal giallo.",
+    "fatto": "colore maglia brasile gialla",
+    "fonte": "https://it.wikipedia.org/wiki/Nazionale_di_calcio_del_Brasile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0021",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Che ruolo ha Gianluigi Buffon?",
+    "risposte": [
+      "Portiere",
+      "Difensore",
+      "Attaccante",
+      "Centrocampista"
+    ],
+    "curiosita": "Ha vinto il Mondiale del 2006 con l'Italia.",
+    "fatto": "ruolo gianluigi buffon portiere",
+    "fonte": "https://it.wikipedia.org/wiki/Gianluigi_Buffon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0022",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale squadra gioca al Santiago Bernabéu?",
+    "risposte": [
+      "Real Madrid",
+      "Barcellona",
+      "Atletico Madrid",
+      "Siviglia"
+    ],
+    "curiosita": "Lo stadio prende il nome da un ex presidente del club.",
+    "fatto": "squadra stadio santiago bernabeu real madrid",
+    "fonte": "https://it.wikipedia.org/wiki/Stadio_Santiago_Bernab%C3%A9u",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0023",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale squadra ha come simbolo l'aquila?",
+    "risposte": [
+      "Lazio",
+      "Roma",
+      "Napoli",
+      "Fiorentina"
+    ],
+    "curiosita": "L'aquila della società si chiama Olimpia.",
+    "fatto": "squadra simbolo aquila lazio",
+    "fonte": "https://it.wikipedia.org/wiki/Societ%C3%A0_Sportiva_Lazio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0024",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Come si chiama il pieno di birilli al primo tiro?",
+    "risposte": [
+      "Strike",
+      "Spare",
+      "Ace",
+      "Birdie"
+    ],
+    "curiosita": "Nel bowling il punteggio perfetto è 300.",
+    "fatto": "bowling tutti birilli primo tiro strike",
+    "fonte": "https://it.wikipedia.org/wiki/Bowling",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0025",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Come si chiama un servizio vincente nel tennis?",
+    "risposte": [
+      "Ace",
+      "Break",
+      "Let",
+      "Smash"
+    ],
+    "curiosita": "In italiano si può dire anche asso.",
+    "fatto": "servizio vincente tennis ace",
+    "fonte": "https://it.wikipedia.org/wiki/Tennis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0026",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Chi vinse il primo scudetto a girone unico?",
+    "risposte": [
+      "Ambrosiana-Inter",
+      "Juventus",
+      "Bologna",
+      "Genoa"
+    ],
+    "curiosita": "Era la stagione 1929-1930.",
+    "fatto": "primo scudetto girone unico ambrosiana inter",
+    "fonte": "https://it.wikipedia.org/wiki/Serie_A",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0027",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale città ospitò le Olimpiadi del 1936?",
+    "risposte": [
+      "Berlino",
+      "Parigi",
+      "Amsterdam",
+      "Londra"
+    ],
+    "curiosita": "Jesse Owens vinse quattro ori in quei Giochi.",
+    "fatto": "olimpiadi 1936 berlino",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_della_XI_Olimpiade",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0028",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti punti vale un touchdown nel football americano?",
+    "risposte": [
+      "Sei",
+      "Sette",
+      "Cinque",
+      "Tre"
+    ],
+    "curiosita": "La trasformazione successiva può valere uno o due punti.",
+    "fatto": "punti touchdown football americano sei",
+    "fonte": "https://it.wikipedia.org/wiki/Football_americano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0029",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanto è alta la rete maschile della pallavolo?",
+    "risposte": [
+      "2,43 metri",
+      "2,24 metri",
+      "2,50 metri",
+      "2,35 metri"
+    ],
+    "curiosita": "Quella femminile è più bassa, a 2,24 metri.",
+    "fatto": "altezza rete pallavolo maschile",
+    "fonte": "https://it.wikipedia.org/wiki/Pallavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0030",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Colore della giacca del vincitore del Masters di golf?",
+    "risposte": [
+      "Verde",
+      "Gialla",
+      "Blu",
+      "Rossa"
+    ],
+    "curiosita": "La tradizione della giacca verde è iniziata nel 1949.",
+    "fatto": "giacca vincitore masters golf verde",
+    "fonte": "https://it.wikipedia.org/wiki/Masters_(golf)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

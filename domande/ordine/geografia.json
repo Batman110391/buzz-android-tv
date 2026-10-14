@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-geo-0001",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Continenti, dal più piccolo al più grande",
+    "elementi": [
+      "Oceania",
+      "Europa",
+      "Africa",
+      "Asia"
+    ],
+    "valori": [
+      "8,5 mln km²",
+      "10,2 mln km²",
+      "30,3 mln km²",
+      "44,6 mln km²"
+    ],
+    "curiosita": "L'Asia occupa quasi un terzo delle terre emerse.",
+    "fatto": "continenti per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Continente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0002",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Oceani, dal più piccolo al più grande",
+    "elementi": [
+      "Artico",
+      "Indiano",
+      "Atlantico",
+      "Pacifico"
+    ],
+    "valori": [
+      "14 mln km²",
+      "70 mln km²",
+      "106 mln km²",
+      "165 mln km²"
+    ],
+    "curiosita": "Il Pacifico è più grande di tutte le terre emerse messe insieme.",
+    "fatto": "oceani per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Oceano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0003",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Città italiane, dalla più a nord alla più a sud",
+    "elementi": [
+      "Milano",
+      "Roma",
+      "Napoli",
+      "Palermo"
+    ],
+    "valori": [
+      "45,5° N",
+      "41,9° N",
+      "40,9° N",
+      "38,1° N"
+    ],
+    "curiosita": "Palermo è alla stessa latitudine di Atene, circa 38° nord.",
+    "fatto": "citta italiane latitudine nord sud",
+    "fonte": "https://it.wikipedia.org/wiki/Latitudine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0004",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Stati europei, dal più piccolo al più grande",
+    "elementi": [
+      "Città del Vaticano",
+      "Monaco",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "valori": [
+      "0,44 km²",
+      "2 km²",
+      "61 km²",
+      "160 km²"
+    ],
+    "curiosita": "Il Vaticano è più piccolo di un grande parco cittadino.",
+    "fatto": "stati europei piccoli per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Stati_europei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0005",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Fiumi, dal più corto al più lungo",
+    "elementi": [
+      "Arno",
+      "Tevere",
+      "Po",
+      "Danubio"
+    ],
+    "valori": [
+      "241 km",
+      "405 km",
+      "652 km",
+      "2.850 km"
+    ],
+    "curiosita": "Il Po è il fiume più lungo interamente in territorio italiano.",
+    "fatto": "fiumi per lunghezza arno danubio",
+    "fonte": "https://it.wikipedia.org/wiki/Fiume",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0006",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Capitali europee, dalla più a ovest alla più a est",
+    "elementi": [
+      "Lisbona",
+      "Londra",
+      "Roma",
+      "Atene"
+    ],
+    "valori": [
+      "9,1° O",
+      "0,1° O",
+      "12,5° E",
+      "23,7° E"
+    ],
+    "curiosita": "Lisbona è la capitale continentale più occidentale d'Europa.",
+    "fatto": "capitali europee longitudine",
+    "fonte": "https://it.wikipedia.org/wiki/Longitudine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0007",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Montagne, dalla più bassa alla più alta",
+    "elementi": [
+      "Cervino",
+      "Kilimangiaro",
+      "Aconcagua",
+      "Everest"
+    ],
+    "valori": [
+      "4.478 m",
+      "5.895 m",
+      "6.961 m",
+      "8.849 m"
+    ],
+    "curiosita": "Il Kilimangiaro è la montagna più alta dell'Africa.",
+    "fatto": "montagne per altezza cervino everest",
+    "fonte": "https://it.wikipedia.org/wiki/Montagna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0008",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Regioni, dalla più piccola alla più grande",
+    "elementi": [
+      "Valle d'Aosta",
+      "Liguria",
+      "Toscana",
+      "Sicilia"
+    ],
+    "valori": [
+      "~3.300 km²",
+      "~5.400 km²",
+      "~23.000 km²",
+      "~25.700 km²"
+    ],
+    "curiosita": "La Sicilia è la regione più estesa d'Italia.",
+    "fatto": "regioni italiane per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Regioni_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0009",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Isole, dalla più piccola alla più grande",
+    "elementi": [
+      "Elba",
+      "Corsica",
+      "Sardegna",
+      "Sicilia"
+    ],
+    "valori": [
+      "~224 km²",
+      "~8.700 km²",
+      "~24.100 km²",
+      "~25.700 km²"
+    ],
+    "curiosita": "Sardegna e Sicilia sono la seconda e la prima isola del Mediterraneo.",
+    "fatto": "isole mediterraneo per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Isole_del_Mediterraneo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0010",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Laghi italiani, dal più piccolo al più grande",
+    "elementi": [
+      "Trasimeno",
+      "Como",
+      "Maggiore",
+      "Garda"
+    ],
+    "valori": [
+      "~124 km²",
+      "~146 km²",
+      "~213 km²",
+      "~368 km²"
+    ],
+    "curiosita": "Il Trasimeno è il lago più grande dell'Italia centrale.",
+    "fatto": "laghi italiani per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Laghi_italiani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0011",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Fiumi italiani, dal più corto al più lungo",
+    "elementi": [
+      "Arno",
+      "Tevere",
+      "Adige",
+      "Po"
+    ],
+    "valori": [
+      "241 km",
+      "405 km",
+      "410 km",
+      "652 km"
+    ],
+    "curiosita": "Tevere e Adige differiscono di appena cinque chilometri.",
+    "fatto": "fiumi italiani per lunghezza",
+    "fonte": "https://it.wikipedia.org/wiki/Fiumi_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0012",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Capitali del Sud America, da nord a sud",
+    "elementi": [
+      "Quito",
+      "Lima",
+      "Santiago",
+      "Buenos Aires"
+    ],
+    "valori": [
+      "0,2° S",
+      "12,0° S",
+      "33,4° S",
+      "34,6° S"
+    ],
+    "curiosita": "Quito è così vicina all'Equatore da esserne quasi sulla linea.",
+    "fatto": "capitali sudamericane latitudine",
+    "fonte": "https://it.wikipedia.org/wiki/Quito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0013",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Paesi europei, dal meno al più esteso",
+    "elementi": [
+      "Italia",
+      "Germania",
+      "Spagna",
+      "Francia"
+    ],
+    "valori": [
+      "~301.000 km²",
+      "~357.000 km²",
+      "~506.000 km²",
+      "~551.000 km²"
+    ],
+    "curiosita": "La Francia metropolitana è il Paese più esteso dell'Unione europea.",
+    "fatto": "paesi europei per superficie",
+    "fonte": "https://it.wikipedia.org/wiki/Paesi_europei_per_estensione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0014",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Città italiane, dalla più a ovest alla più a est",
+    "elementi": [
+      "Torino",
+      "Cagliari",
+      "Roma",
+      "Bari"
+    ],
+    "valori": [
+      "7,7° E",
+      "9,1° E",
+      "12,5° E",
+      "16,9° E"
+    ],
+    "curiosita": "Da Torino a Bari ci sono più di nove gradi di longitudine.",
+    "fatto": "citta italiane longitudine",
+    "fonte": "https://it.wikipedia.org/wiki/Longitudine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0015",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Rilievi italiani, dal più basso al più alto",
+    "elementi": [
+      "Vesuvio",
+      "Gran Sasso",
+      "Etna",
+      "Monte Bianco"
+    ],
+    "valori": [
+      "1.281 m",
+      "2.912 m",
+      "~3.350 m",
+      "4.806 m"
+    ],
+    "curiosita": "Il Monte Bianco è la vetta più alta delle Alpi.",
+    "fatto": "rilievi italiani per altezza",
+    "fonte": "https://it.wikipedia.org/wiki/Monte_Bianco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

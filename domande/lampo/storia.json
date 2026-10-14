@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-sto-0001",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale popolo costruì il Colosseo?",
+    "risposte": [
+      "Romani",
+      "Greci",
+      "Egizi",
+      "Etruschi"
+    ],
+    "curiosita": "Poteva ospitare decine di migliaia di spettatori.",
+    "fatto": "popolo costruttore colosseo romani",
+    "fonte": "https://it.wikipedia.org/wiki/Colosseo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0002",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Dove nacque Cristoforo Colombo, secondo la tradizione?",
+    "risposte": [
+      "Genova",
+      "Venezia",
+      "Pisa",
+      "Napoli"
+    ],
+    "curiosita": "Altre città se ne contendono la nascita, ma Genova è la più accreditata.",
+    "fatto": "citta nascita colombo genova",
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0003",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fu il primo uomo a camminare sulla Luna?",
+    "risposte": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Jurij Gagarin",
+      "John Glenn"
+    ],
+    "curiosita": "Disse: Un piccolo passo per un uomo, un grande balzo per l'umanità.",
+    "fatto": "primo uomo a camminare sulla luna armstrong",
+    "fonte": "https://it.wikipedia.org/wiki/Neil_Armstrong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0004",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale animale usò Annibale per attraversare le Alpi?",
+    "risposte": [
+      "Elefanti",
+      "Cammelli",
+      "Cavalli",
+      "Muli"
+    ],
+    "curiosita": "Pochi sopravvissero al freddo delle Alpi.",
+    "fatto": "animale annibale alpi elefanti",
+    "fonte": "https://it.wikipedia.org/wiki/Annibale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0005",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Di che colore erano le camicie dei garibaldini?",
+    "risposte": [
+      "Rosso",
+      "Nero",
+      "Azzurro",
+      "Verde"
+    ],
+    "curiosita": "Garibaldi le aveva adottate in Sudamerica, perché economiche.",
+    "fatto": "colore camicie garibaldini rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Camicie_rosse",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0006",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale popolo antico costruì la Grande Muraglia?",
+    "risposte": [
+      "Cinesi",
+      "Mongoli",
+      "Giapponesi",
+      "Persiani"
+    ],
+    "curiosita": "Le sue parti più antiche risalgono a oltre 2.000 anni fa.",
+    "fatto": "popolo grande muraglia cinesi",
+    "fonte": "https://it.wikipedia.org/wiki/Grande_Muraglia_cinese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0007",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'epoca dei castelli e dei cavalieri?",
+    "risposte": [
+      "Medioevo",
+      "Rinascimento",
+      "Antichità",
+      "Età moderna"
+    ],
+    "curiosita": "Si fa convenzionalmente durare dal 476 al 1492.",
+    "fatto": "epoca castelli cavalieri medioevo",
+    "fonte": "https://it.wikipedia.org/wiki/Medioevo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0008",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale regina diede il nome all'epoca vittoriana?",
+    "risposte": [
+      "Vittoria",
+      "Elisabetta I",
+      "Anna",
+      "Maria Stuarda"
+    ],
+    "curiosita": "Regnò dal 1837 al 1901, per oltre 63 anni.",
+    "fatto": "regina epoca vittoriana vittoria",
+    "fonte": "https://it.wikipedia.org/wiki/Vittoria_del_Regno_Unito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0009",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fondò Roma, secondo la leggenda, con Remo?",
+    "risposte": [
+      "Romolo",
+      "Enea",
+      "Numa",
+      "Servio"
+    ],
+    "curiosita": "Secondo la leggenda, i gemelli furono allattati da una lupa.",
+    "fatto": "mitico fondatore roma romolo",
+    "fonte": "https://it.wikipedia.org/wiki/Romolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0010",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come entrarono i Greci a Troia, secondo la leggenda?",
+    "risposte": [
+      "Cavallo di legno",
+      "Torre d'assedio",
+      "Galleria segreta",
+      "Nave da guerra"
+    ],
+    "curiosita": "La storia è raccontata nell'Eneide di Virgilio.",
+    "fatto": "leggenda ingresso troia cavallo di legno",
+    "fonte": "https://it.wikipedia.org/wiki/Cavallo_di_Troia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0011",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale santo di Assisi fondò l'ordine dei Francescani?",
+    "risposte": [
+      "Francesco",
+      "Benedetto",
+      "Domenico",
+      "Antonio"
+    ],
+    "curiosita": "Nel 1226 morì ad Assisi, a soli 44 anni.",
+    "fatto": "fondatore francescani francesco d assisi",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_d'Assisi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0012",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Da chi prende il nome l'America?",
+    "risposte": [
+      "Amerigo Vespucci",
+      "Colombo",
+      "Magellano",
+      "Caboto"
+    ],
+    "curiosita": "Fu il cartografo Martin Waldseemüller a proporre il nome nel 1507.",
+    "fatto": "nome america amerigo vespucci",
+    "fonte": "https://it.wikipedia.org/wiki/Amerigo_Vespucci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0013",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale regina francese fu ghigliottinata nel 1793?",
+    "risposte": [
+      "Maria Antonietta",
+      "Giuseppina",
+      "Maria Teresa",
+      "Anna d'Austria"
+    ],
+    "curiosita": "Era la moglie di Luigi XVI e nata in Austria.",
+    "fatto": "regina ghigliottinata 1793 maria antonietta",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Antonietta_d'Asburgo-Lorena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0014",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Che cosa portava l'acqua nelle città romane?",
+    "risposte": [
+      "Acquedotti",
+      "Cisterne",
+      "Dighe",
+      "Pozzi"
+    ],
+    "curiosita": "Alcuni funzionano ancora oggi dopo duemila anni.",
+    "fatto": "opere romane acqua acquedotti",
+    "fonte": "https://it.wikipedia.org/wiki/Acquedotto_romano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0015",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale popolo antico inventò la democrazia?",
+    "risposte": [
+      "Greci",
+      "Romani",
+      "Egizi",
+      "Fenici"
+    ],
+    "curiosita": "La parola democrazia significa potere del popolo.",
+    "fatto": "popolo inventore democrazia greci",
+    "fonte": "https://it.wikipedia.org/wiki/Democrazia_ateniese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0016",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale fiume varcò Cesare con il suo esercito?",
+    "risposte": [
+      "Rubicone",
+      "Tevere",
+      "Po",
+      "Arno"
+    ],
+    "curiosita": "Il fiume segnava il confine tra l'Italia e la provincia della Gallia Cisalpina.",
+    "fatto": "fiume attraversato da cesare rubicone",
+    "fonte": "https://it.wikipedia.org/wiki/Rubicone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0017",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale antico popolo cretese ebbe il labirinto?",
+    "risposte": [
+      "Minoici",
+      "Micenei",
+      "Fenici",
+      "Ittiti"
+    ],
+    "curiosita": "Il loro palazzo principale sorgeva a Cnosso.",
+    "fatto": "popolo creta minotauro minoici",
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_minoica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0018",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale dittatore governò la Spagna fino al 1975?",
+    "risposte": [
+      "Francisco Franco",
+      "Salazar",
+      "Mussolini",
+      "Primo de Rivera"
+    ],
+    "curiosita": "Il suo regime durò quasi quarant'anni.",
+    "fatto": "dittatore spagna fino al 1975 franco",
+    "fonte": "https://it.wikipedia.org/wiki/Francisco_Franco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0019",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale isola nacque Napoleone?",
+    "risposte": [
+      "Corsica",
+      "Elba",
+      "Sardegna",
+      "Sant'Elena"
+    ],
+    "curiosita": "Nacque ad Ajaccio nel 1769, un anno dopo il passaggio della Corsica alla Francia.",
+    "fatto": "isola nascita napoleone corsica",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0020",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale isola dell'Atlantico morì in esilio Napoleone?",
+    "risposte": [
+      "Sant'Elena",
+      "Elba",
+      "Corsica",
+      "Madeira"
+    ],
+    "curiosita": "Vi trascorse i suoi ultimi sei anni, fino al 1821.",
+    "fatto": "isola morte napoleone sant elena",
+    "fonte": "https://it.wikipedia.org/wiki/Sant'Elena_(isola)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0021",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi raggiunse l'India per mare nel 1498?",
+    "risposte": [
+      "Vasco da Gama",
+      "Bartolomeu Dias",
+      "Pedro Cabral",
+      "Magellano"
+    ],
+    "curiosita": "Doppiò il Capo di Buona Speranza, già raggiunto da Dias.",
+    "fatto": "navigatore india 1498 vasco da gama",
+    "fonte": "https://it.wikipedia.org/wiki/Vasco_da_Gama",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0022",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "La guerra franco-inglese del 1337-1453 è detta dei...",
+    "risposte": [
+      "Cent'anni",
+      "Trent'anni",
+      "Sette anni",
+      "Quarant'anni"
+    ],
+    "curiosita": "In realtà durò 116 anni, con lunghe tregue.",
+    "fatto": "guerra francia inghilterra 1337 cent anni",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_dei_cent'anni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0023",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale antico popolo viveva in Toscana prima dei Romani?",
+    "risposte": [
+      "Etruschi",
+      "Sabini",
+      "Sanniti",
+      "Latini"
+    ],
+    "curiosita": "La loro lingua non somiglia ad alcuna altra lingua antica conosciuta.",
+    "fatto": "popolo toscana prima dei romani etruschi",
+    "fonte": "https://it.wikipedia.org/wiki/Etruschi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0024",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale impero era governato da Solimano il Magnifico?",
+    "risposte": [
+      "Impero ottomano",
+      "Impero persiano",
+      "Impero bizantino",
+      "Impero mongolo"
+    ],
+    "curiosita": "Regnò dal 1520 al 1566, l'epoca di massima espansione.",
+    "fatto": "impero solimano il magnifico ottomano",
+    "fonte": "https://it.wikipedia.org/wiki/Solimano_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0025",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale dinastia francese ebbe Luigi XIV e Luigi XVI?",
+    "risposte": [
+      "Borbone",
+      "Savoia",
+      "Asburgo",
+      "Medici"
+    ],
+    "curiosita": "Il ramo spagnolo della dinastia regna ancora oggi sulla Spagna.",
+    "fatto": "dinastia luigi xiv e luigi xvi borbone",
+    "fonte": "https://it.wikipedia.org/wiki/Casa_di_Borbone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0026",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale città fu capitale dell'impero di Carlo Magno?",
+    "risposte": [
+      "Aquisgrana",
+      "Parigi",
+      "Roma",
+      "Colonia"
+    ],
+    "curiosita": "Qui l'imperatore fece costruire la cappella palatina nel 790.",
+    "fatto": "capitale carlo magno aquisgrana",
+    "fonte": "https://it.wikipedia.org/wiki/Aquisgrana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0027",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Dove risiedettero i papi nel Trecento, in Francia?",
+    "risposte": [
+      "Avignone",
+      "Lione",
+      "Marsiglia",
+      "Tolosa"
+    ],
+    "curiosita": "Il periodo è detto cattività avignonese e durò circa settant'anni.",
+    "fatto": "citta papi trecento avignone",
+    "fonte": "https://it.wikipedia.org/wiki/Papato_avignonese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0028",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu l'ultimo imperatore francese?",
+    "risposte": [
+      "Napoleone III",
+      "Napoleone I",
+      "Luigi Filippo",
+      "Carlo X"
+    ],
+    "curiosita": "Era nipote di Napoleone Bonaparte e fu sconfitto a Sedan nel 1870.",
+    "fatto": "ultimo imperatore francese napoleone iii",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_III",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0029",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi vinse ad Azio contro Antonio e Cleopatra?",
+    "risposte": [
+      "Ottaviano",
+      "Giulio Cesare",
+      "Pompeo",
+      "Bruto"
+    ],
+    "curiosita": "La vittoria del 31 a.C. lo portò a diventare Augusto.",
+    "fatto": "vincitore battaglia di azio ottaviano",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Azio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0030",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi sconfisse i Romani a Teutoburgo nel 9 d.C.?",
+    "risposte": [
+      "Germani",
+      "Galli",
+      "Unni",
+      "Parti"
+    ],
+    "curiosita": "Vennero distrutte tre intere legioni.",
+    "fatto": "battaglia di teutoburgo germani",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_della_foresta_di_Teutoburgo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

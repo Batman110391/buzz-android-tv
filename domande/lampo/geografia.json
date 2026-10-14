@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-geo-0001",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Il Vaticano si trova dentro quale città?",
+    "risposte": [
+      "Roma",
+      "Firenze",
+      "Milano",
+      "Napoli"
+    ],
+    "curiosita": "È lo Stato più piccolo del mondo, circa 44 ettari.",
+    "fatto": "vaticano dentro la citta di roma",
+    "fonte": "https://it.wikipedia.org/wiki/Citt%C3%A0_del_Vaticano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0002",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Dove si trova la Torre Eiffel?",
+    "risposte": [
+      "Parigi",
+      "Lione",
+      "Marsiglia",
+      "Nizza"
+    ],
+    "curiosita": "Fu costruita per l'Esposizione universale del 1889.",
+    "fatto": "torre eiffel citta parigi",
+    "fonte": "https://it.wikipedia.org/wiki/Torre_Eiffel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0003",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale continente scorre il Rio delle Amazzoni?",
+    "risposte": [
+      "America del Sud",
+      "Africa",
+      "Asia",
+      "Europa"
+    ],
+    "curiosita": "Porta al mare più acqua di qualsiasi altro fiume.",
+    "fatto": "rio delle amazzoni continente america del sud",
+    "fonte": "https://it.wikipedia.org/wiki/Rio_delle_Amazzoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0004",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale oceano bagna la costa ovest degli Stati Uniti?",
+    "risposte": [
+      "Pacifico",
+      "Atlantico",
+      "Indiano",
+      "Artico"
+    ],
+    "curiosita": "Il nome significa calmo e lo diede Magellano.",
+    "fatto": "oceano costa ovest stati uniti pacifico",
+    "fonte": "https://it.wikipedia.org/wiki/Oceano_Pacifico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0005",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Dove si trovano le piramidi di Giza?",
+    "risposte": [
+      "Egitto",
+      "Messico",
+      "Sudan",
+      "Perù"
+    ],
+    "curiosita": "La Grande Piramide fu la costruzione più alta del mondo per oltre 3.800 anni.",
+    "fatto": "piramidi di giza paese egitto",
+    "fonte": "https://it.wikipedia.org/wiki/Piramidi_di_Giza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0006",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale della Spagna?",
+    "risposte": [
+      "Madrid",
+      "Barcellona",
+      "Siviglia",
+      "Valencia"
+    ],
+    "curiosita": "È una delle capitali europee più alte, a circa 650 metri.",
+    "fatto": "capitale spagna madrid",
+    "fonte": "https://it.wikipedia.org/wiki/Madrid",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0007",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Dove si trova l'Acropoli con il Partenone?",
+    "risposte": [
+      "Atene",
+      "Sparta",
+      "Corinto",
+      "Salonicco"
+    ],
+    "curiosita": "Il Partenone fu dedicato alla dea Atena nel V secolo a.C.",
+    "fatto": "acropoli partenone atene",
+    "fonte": "https://it.wikipedia.org/wiki/Acropoli_di_Atene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0008",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale della Germania?",
+    "risposte": [
+      "Berlino",
+      "Monaco",
+      "Amburgo",
+      "Francoforte"
+    ],
+    "curiosita": "Dal 1990 è tornata capitale della Germania riunificata.",
+    "fatto": "capitale germania berlino",
+    "fonte": "https://it.wikipedia.org/wiki/Berlino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0009",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale dell'Austria?",
+    "risposte": [
+      "Vienna",
+      "Salisburgo",
+      "Graz",
+      "Innsbruck"
+    ],
+    "curiosita": "È attraversata dal Danubio ed è nota per i suoi caffè storici.",
+    "fatto": "capitale austria vienna",
+    "fonte": "https://it.wikipedia.org/wiki/Vienna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0010",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Di quale Paese il canguro è un simbolo?",
+    "risposte": [
+      "Australia",
+      "Nuova Zelanda",
+      "Sudafrica",
+      "Brasile"
+    ],
+    "curiosita": "Compare sullo stemma nazionale accanto all'emù.",
+    "fatto": "canguro simbolo australia",
+    "fonte": "https://it.wikipedia.org/wiki/Canguro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0011",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale Paese si trova Barcellona?",
+    "risposte": [
+      "Spagna",
+      "Portogallo",
+      "Francia",
+      "Italia"
+    ],
+    "curiosita": "Ospitò le Olimpiadi estive del 1992.",
+    "fatto": "barcellona paese spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Barcellona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0012",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Di quale Paese Lisbona è la capitale?",
+    "risposte": [
+      "Portogallo",
+      "Spagna",
+      "Brasile",
+      "Grecia"
+    ],
+    "curiosita": "Sorge alla foce del fiume Tago, sull'oceano Atlantico.",
+    "fatto": "lisbona capitale portogallo",
+    "fonte": "https://it.wikipedia.org/wiki/Lisbona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0013",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale città italiana si trova ai piedi del Vesuvio?",
+    "risposte": [
+      "Napoli",
+      "Salerno",
+      "Bari",
+      "Palermo"
+    ],
+    "curiosita": "Il vulcano è visibile da quasi tutto il golfo.",
+    "fatto": "citta ai piedi del vesuvio napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Napoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0014",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale città americana si trova Hollywood?",
+    "risposte": [
+      "Los Angeles",
+      "San Francisco",
+      "Las Vegas",
+      "Miami"
+    ],
+    "curiosita": "La celebre scritta sulle colline compare dal 1923.",
+    "fatto": "hollywood citta los angeles",
+    "fonte": "https://it.wikipedia.org/wiki/Hollywood",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0015",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la moneta ufficiale del Regno Unito?",
+    "risposte": [
+      "Sterlina",
+      "Euro",
+      "Dollaro",
+      "Corona"
+    ],
+    "curiosita": "È la più antica moneta ancora in uso al mondo.",
+    "fatto": "moneta regno unito sterlina",
+    "fonte": "https://it.wikipedia.org/wiki/Sterlina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0016",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale penisola ospita Spagna e Portogallo?",
+    "risposte": [
+      "Penisola iberica",
+      "Anatolia",
+      "Scandinavia",
+      "Penisola italica"
+    ],
+    "curiosita": "Il nome deriva dagli antichi Iberi.",
+    "fatto": "penisola spagna portogallo iberica",
+    "fonte": "https://it.wikipedia.org/wiki/Penisola_iberica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0017",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova Praga?",
+    "risposte": [
+      "Repubblica Ceca",
+      "Slovacchia",
+      "Polonia",
+      "Ungheria"
+    ],
+    "curiosita": "È detta la città dalle cento torri.",
+    "fatto": "praga paese repubblica ceca",
+    "fonte": "https://it.wikipedia.org/wiki/Praga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0018",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale del Belgio?",
+    "risposte": [
+      "Bruxelles",
+      "Anversa",
+      "Bruges",
+      "Liegi"
+    ],
+    "curiosita": "Ospita le principali istituzioni dell'Unione europea.",
+    "fatto": "capitale belgio bruxelles",
+    "fonte": "https://it.wikipedia.org/wiki/Bruxelles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0019",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Il Peloponneso è una penisola di quale Paese?",
+    "risposte": [
+      "Grecia",
+      "Turchia",
+      "Albania",
+      "Croazia"
+    ],
+    "curiosita": "È unita al resto del Paese da un istmo tagliato da un canale.",
+    "fatto": "peloponneso paese grecia",
+    "fonte": "https://it.wikipedia.org/wiki/Peloponneso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0020",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Le isole Hawaii appartengono a quale Paese?",
+    "risposte": [
+      "Stati Uniti",
+      "Australia",
+      "Giappone",
+      "Messico"
+    ],
+    "curiosita": "Sono diventate il cinquantesimo Stato nel 1959.",
+    "fatto": "hawaii appartengono stati uniti",
+    "fonte": "https://it.wikipedia.org/wiki/Hawaii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0021",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale città ha come simbolo la statua della Sirenetta?",
+    "risposte": [
+      "Copenaghen",
+      "Oslo",
+      "Stoccolma",
+      "Helsinki"
+    ],
+    "curiosita": "La statua si ispira alla fiaba di Hans Christian Andersen.",
+    "fatto": "sirenetta simbolo copenaghen",
+    "fonte": "https://it.wikipedia.org/wiki/La_sirenetta_(Copenaghen)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0022",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale Paese ha come capitale Bangkok?",
+    "risposte": [
+      "Thailandia",
+      "Vietnam",
+      "Cambogia",
+      "Laos"
+    ],
+    "curiosita": "Il suo nome ufficiale è lunghissimo, il più lungo tra le capitali.",
+    "fatto": "capitale bangkok thailandia",
+    "fonte": "https://it.wikipedia.org/wiki/Bangkok",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0023",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale città si trova la Casa Bianca?",
+    "risposte": [
+      "Washington",
+      "New York",
+      "Boston",
+      "Filadelfia"
+    ],
+    "curiosita": "È la residenza ufficiale del presidente degli Stati Uniti.",
+    "fatto": "casa bianca citta washington",
+    "fonte": "https://it.wikipedia.org/wiki/Casa_Bianca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0024",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale regione italiana si trova Pompei?",
+    "risposte": [
+      "Campania",
+      "Lazio",
+      "Puglia",
+      "Calabria"
+    ],
+    "curiosita": "Gli scavi hanno conservato case, affreschi e persino il pane.",
+    "fatto": "pompei regione campania",
+    "fonte": "https://it.wikipedia.org/wiki/Pompei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0025",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova il sito di Stonehenge?",
+    "risposte": [
+      "Regno Unito",
+      "Irlanda",
+      "Francia",
+      "Paesi Bassi"
+    ],
+    "curiosita": "Le sue pietre sono state erette più di quattromila anni fa.",
+    "fatto": "stonehenge paese regno unito",
+    "fonte": "https://it.wikipedia.org/wiki/Stonehenge",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0026",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova la città di Samarcanda?",
+    "risposte": [
+      "Uzbekistan",
+      "Kazakistan",
+      "Iran",
+      "Turkmenistan"
+    ],
+    "curiosita": "Fu una tappa fondamentale della Via della Seta.",
+    "fatto": "samarcanda paese uzbekistan",
+    "fonte": "https://it.wikipedia.org/wiki/Samarcanda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0027",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale Paese ha come capitale Ulan Bator?",
+    "risposte": [
+      "Mongolia",
+      "Kazakistan",
+      "Nepal",
+      "Kirghizistan"
+    ],
+    "curiosita": "È una delle capitali più fredde del mondo.",
+    "fatto": "capitale ulan bator mongolia",
+    "fonte": "https://it.wikipedia.org/wiki/Ulan_Bator",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0028",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova Lubiana?",
+    "risposte": [
+      "Slovenia",
+      "Croazia",
+      "Slovacchia",
+      "Serbia"
+    ],
+    "curiosita": "Il suo simbolo è il Ponte dei Draghi.",
+    "fatto": "lubiana paese slovenia",
+    "fonte": "https://it.wikipedia.org/wiki/Lubiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0029",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale Paese ha come capitale Bucarest?",
+    "risposte": [
+      "Romania",
+      "Bulgaria",
+      "Moldavia",
+      "Ungheria"
+    ],
+    "curiosita": "Il suo Palazzo del Parlamento è tra gli edifici più grandi del mondo.",
+    "fatto": "capitale bucarest romania",
+    "fonte": "https://it.wikipedia.org/wiki/Bucarest",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0030",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova la capitale Kathmandu?",
+    "risposte": [
+      "Nepal",
+      "Bhutan",
+      "India",
+      "Bangladesh"
+    ],
+    "curiosita": "Sorge in una valle a circa 1.400 metri, ai piedi dell'Himalaya.",
+    "fatto": "kathmandu paese nepal",
+    "fonte": "https://it.wikipedia.org/wiki/Kathmandu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

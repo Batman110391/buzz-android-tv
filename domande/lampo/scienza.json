@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-sci-0001",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Il Sole è una stella o un pianeta?",
+    "risposte": [
+      "Stella",
+      "Pianeta",
+      "Cometa",
+      "Asteroide"
+    ],
+    "curiosita": "È una nana gialla, più luminosa della maggior parte delle stelle.",
+    "fatto": "sole stella o pianeta",
+    "fonte": "https://it.wikipedia.org/wiki/Sole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0002",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti giorni ha un anno bisestile?",
+    "risposte": [
+      "366",
+      "365",
+      "364",
+      "367"
+    ],
+    "curiosita": "Il giorno in più è il 29 febbraio.",
+    "fatto": "giorni anno bisestile 366",
+    "fonte": "https://it.wikipedia.org/wiki/Anno_bisestile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0003",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti lati ha un esagono?",
+    "risposte": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "curiosita": "Le api costruiscono le celle del miele a forma esagonale.",
+    "fatto": "lati esagono sei",
+    "fonte": "https://it.wikipedia.org/wiki/Esagono",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0004",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanto fa 7 per 8?",
+    "risposte": [
+      "56",
+      "54",
+      "63",
+      "48"
+    ],
+    "curiosita": "Per ricordarlo c'è una filastrocca: cinque, sei, sette, otto.",
+    "fatto": "risultato 7 per 8 56",
+    "fonte": "https://it.wikipedia.org/wiki/Moltiplicazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0005",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Qual è la radice quadrata di 81?",
+    "risposte": [
+      "9",
+      "8",
+      "7",
+      "11"
+    ],
+    "curiosita": "Nove per nove dà 81, quindi 81 è un quadrato perfetto.",
+    "fatto": "radice quadrata di 81 nove",
+    "fonte": "https://it.wikipedia.org/wiki/Radice_quadrata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0006",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiama il liquido rosso che scorre nelle vene?",
+    "risposte": [
+      "Sangue",
+      "Linfa",
+      "Bile",
+      "Saliva"
+    ],
+    "curiosita": "Un adulto ne ha circa cinque litri.",
+    "fatto": "liquido rosso vene sangue",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0007",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Con quale organo sentiamo gli odori?",
+    "risposte": [
+      "Naso",
+      "Lingua",
+      "Orecchio",
+      "Occhio"
+    ],
+    "curiosita": "Nel naso abbiamo circa 400 tipi di recettori dell'olfatto.",
+    "fatto": "organo olfatto naso",
+    "fonte": "https://it.wikipedia.org/wiki/Naso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0008",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'acqua allo stato gassoso?",
+    "risposte": [
+      "Vapore",
+      "Ghiaccio",
+      "Nebbia",
+      "Rugiada"
+    ],
+    "curiosita": "Il vapore acqueo è invisibile: le nuvole sono goccioline.",
+    "fatto": "acqua stato gassoso vapore",
+    "fonte": "https://it.wikipedia.org/wiki/Vapore_acqueo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0009",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale strumento misura la temperatura?",
+    "risposte": [
+      "Termometro",
+      "Barometro",
+      "Bilancia",
+      "Orologio"
+    ],
+    "curiosita": "Galileo costruì uno dei primi termoscopi.",
+    "fatto": "strumento misura temperatura termometro",
+    "fonte": "https://it.wikipedia.org/wiki/Termometro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0010",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Qual è l'unità di misura della lunghezza?",
+    "risposte": [
+      "Metro",
+      "Litro",
+      "Grammo",
+      "Secondo"
+    ],
+    "curiosita": "Il metro fu introdotto in Francia dopo la Rivoluzione.",
+    "fatto": "unita lunghezza si metro",
+    "fonte": "https://it.wikipedia.org/wiki/Metro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0011",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Che cosa studia la biologia?",
+    "risposte": [
+      "La vita",
+      "Le rocce",
+      "Gli astri",
+      "I numeri"
+    ],
+    "curiosita": "La parola deriva dal greco bios, che significa vita.",
+    "fatto": "biologia studia esseri viventi",
+    "fonte": "https://it.wikipedia.org/wiki/Biologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0012",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Che cosa studia l'astronomia?",
+    "risposte": [
+      "Gli astri",
+      "Gli animali",
+      "Le rocce",
+      "Il clima"
+    ],
+    "curiosita": "È una delle scienze più antiche praticate dall'uomo.",
+    "fatto": "astronomia studia astri",
+    "fonte": "https://it.wikipedia.org/wiki/Astronomia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0013",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti gradi misura un angolo retto?",
+    "risposte": [
+      "90",
+      "45",
+      "180",
+      "60"
+    ],
+    "curiosita": "Due rette perpendicolari formano quattro angoli retti.",
+    "fatto": "gradi angolo retto novanta",
+    "fonte": "https://it.wikipedia.org/wiki/Angolo_retto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0014",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale figura ha 4 lati uguali e 4 angoli retti?",
+    "risposte": [
+      "Quadrato",
+      "Rettangolo",
+      "Rombo",
+      "Trapezio"
+    ],
+    "curiosita": "Il quadrato è un caso speciale di rettangolo e di rombo.",
+    "fatto": "figura quattro lati uguali angoli retti quadrato",
+    "fonte": "https://it.wikipedia.org/wiki/Quadrato_(geometria)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0015",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti zeri ci sono in un milione?",
+    "risposte": [
+      "6",
+      "5",
+      "7",
+      "9"
+    ],
+    "curiosita": "Un miliardo ne ha nove.",
+    "fatto": "zeri in un milione sei",
+    "fonte": "https://it.wikipedia.org/wiki/Milione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0016",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale organo contiene le corde vocali?",
+    "risposte": [
+      "Laringe",
+      "Faringe",
+      "Trachea",
+      "Esofago"
+    ],
+    "curiosita": "Le corde vocali vibrano fino a centinaia di volte al secondo.",
+    "fatto": "organo corde vocali laringe",
+    "fonte": "https://it.wikipedia.org/wiki/Laringe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0017",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è il simbolo chimico dell'argento?",
+    "risposte": [
+      "Ag",
+      "Ar",
+      "Al",
+      "As"
+    ],
+    "curiosita": "Viene dal latino argentum.",
+    "fatto": "simbolo chimico argento ag",
+    "fonte": "https://it.wikipedia.org/wiki/Argento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0018",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Di che metallo sono fatte le lattine delle bibite?",
+    "risposte": [
+      "Alluminio",
+      "Piombo",
+      "Stagno",
+      "Rame"
+    ],
+    "curiosita": "Una lattina riciclata può tornare in negozio in circa due mesi.",
+    "fatto": "metallo lattine bibite alluminio",
+    "fonte": "https://it.wikipedia.org/wiki/Alluminio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0019",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è il pianeta più lontano dal Sole?",
+    "risposte": [
+      "Nettuno",
+      "Urano",
+      "Saturno",
+      "Plutone"
+    ],
+    "curiosita": "Un suo anno dura circa 165 anni terrestri.",
+    "fatto": "pianeta piu lontano dal sole nettuno",
+    "fonte": "https://it.wikipedia.org/wiki/Nettuno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0020",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanti ventricoli ha il cuore umano?",
+    "risposte": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "curiosita": "I ventricoli sono le camere che spingono il sangue fuori dal cuore.",
+    "fatto": "numero ventricoli cuore due",
+    "fonte": "https://it.wikipedia.org/wiki/Ventricolo_cardiaco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0021",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è l'organo più esteso del corpo umano?",
+    "risposte": [
+      "Pelle",
+      "Fegato",
+      "Polmoni",
+      "Intestino"
+    ],
+    "curiosita": "Nell'adulto copre circa due metri quadrati.",
+    "fatto": "organo piu esteso corpo umano pelle",
+    "fonte": "https://it.wikipedia.org/wiki/Cute",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0022",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale scienziato greco avrebbe gridato Eureka?",
+    "risposte": [
+      "Archimede",
+      "Pitagora",
+      "Euclide",
+      "Talete"
+    ],
+    "curiosita": "Avrebbe scoperto il principio della spinta nella vasca da bagno.",
+    "fatto": "scienziato eureka archimede",
+    "fonte": "https://it.wikipedia.org/wiki/Archimede",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0023",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale gas riempie i dirigibili moderni?",
+    "risposte": [
+      "Elio",
+      "Azoto",
+      "Neon",
+      "Ossigeno"
+    ],
+    "curiosita": "L'idrogeno è infiammabile: lo dimostrò il disastro dell'Hindenburg.",
+    "fatto": "gas dirigibili moderni elio",
+    "fonte": "https://it.wikipedia.org/wiki/Elio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0024",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale sostanza forma la maggior parte del corpo umano?",
+    "risposte": [
+      "Acqua",
+      "Proteine",
+      "Grassi",
+      "Sali"
+    ],
+    "curiosita": "Costituisce circa il 60% del peso di un adulto.",
+    "fatto": "sostanza maggior parte corpo umano acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0025",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanti gradi sommano gli angoli di un triangolo?",
+    "risposte": [
+      "180",
+      "90",
+      "270",
+      "360"
+    ],
+    "curiosita": "Vale per ogni triangolo, qualunque sia la sua forma.",
+    "fatto": "somma angoli interni triangolo 180",
+    "fonte": "https://it.wikipedia.org/wiki/Triangolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0026",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale unità di misura si usa per l'energia?",
+    "risposte": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "curiosita": "Prende il nome dal fisico inglese James Prescott Joule.",
+    "fatto": "unita misura energia joule",
+    "fonte": "https://it.wikipedia.org/wiki/Joule",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0027",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Che tipo di roccia è il marmo?",
+    "risposte": [
+      "Metamorfica",
+      "Ignea",
+      "Sedimentaria",
+      "Vulcanica"
+    ],
+    "curiosita": "Il calcare si trasforma in marmo con calore e pressione.",
+    "fatto": "tipo roccia marmo metamorfica",
+    "fonte": "https://it.wikipedia.org/wiki/Marmo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0028",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale particella dell'atomo ha carica positiva?",
+    "risposte": [
+      "Protone",
+      "Elettrone",
+      "Neutrone",
+      "Fotone"
+    ],
+    "curiosita": "Il numero di protoni identifica ogni elemento chimico.",
+    "fatto": "particella atomo carica positiva protone",
+    "fonte": "https://it.wikipedia.org/wiki/Protone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0029",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scala misura l'acidità di una soluzione?",
+    "risposte": [
+      "Scala pH",
+      "Scala Mohs",
+      "Scala Richter",
+      "Scala Kelvin"
+    ],
+    "curiosita": "Un pH uguale a 7 indica una soluzione neutra, come l'acqua pura.",
+    "fatto": "scala acidita soluzione ph",
+    "fonte": "https://it.wikipedia.org/wiki/PH",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0030",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Come si chiama la resistenza al cambiamento di moto?",
+    "risposte": [
+      "Inerzia",
+      "Gravità",
+      "Attrito",
+      "Pressione"
+    ],
+    "curiosita": "È la prima legge di Newton.",
+    "fatto": "principio resistenza cambiamenti moto inerzia",
+    "fonte": "https://it.wikipedia.org/wiki/Leggi_di_Newton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

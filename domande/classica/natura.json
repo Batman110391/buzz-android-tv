@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "cl-nat-0001",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Qual è l'animale terrestre più grande?",
+    "risposte": [
+      "Elefante",
+      "Rinoceronte",
+      "Ippopotamo",
+      "Giraffa"
+    ],
+    "curiosita": "Un maschio adulto può superare le sei tonnellate di peso.",
+    "fatto": "animale terrestre piu grande elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Elefante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0002",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Qual è il mammifero più grande del mondo?",
+    "risposte": [
+      "Balenottera azzurra",
+      "Capodoglio",
+      "Elefante africano",
+      "Balena franca"
+    ],
+    "curiosita": "Può superare i 25 metri di lunghezza.",
+    "fatto": "mammifero piu grande balenottera azzurra",
+    "fonte": "https://it.wikipedia.org/wiki/Balenottera_azzurra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0003",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quante zampe ha un ragno?",
+    "risposte": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "curiosita": "Non è un insetto: i ragni sono aracnidi.",
+    "fatto": "zampe ragno otto",
+    "fonte": "https://it.wikipedia.org/wiki/Araneae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0004",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale produce il miele?",
+    "risposte": [
+      "Ape",
+      "Vespa",
+      "Calabrone",
+      "Formica"
+    ],
+    "curiosita": "Un'ape operaia in vita sua ne produce meno di un cucchiaino.",
+    "fatto": "animale produce miele ape",
+    "fonte": "https://it.wikipedia.org/wiki/Apis_mellifera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0005",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale è il simbolo del WWF?",
+    "risposte": [
+      "Panda gigante",
+      "Tigre",
+      "Orso polare",
+      "Elefante"
+    ],
+    "curiosita": "Il logo si ispirò al panda Chi Chi dello zoo di Londra.",
+    "fatto": "simbolo wwf panda",
+    "fonte": "https://it.wikipedia.org/wiki/Panda_gigante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0006",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale uccello è il simbolo della Nuova Zelanda?",
+    "risposte": [
+      "Kiwi",
+      "Pinguino",
+      "Struzzo",
+      "Emù"
+    ],
+    "curiosita": "Il nome deriva dal suo verso e dà il soprannome ai neozelandesi.",
+    "fatto": "uccello simbolo nuova zelanda kiwi",
+    "fonte": "https://it.wikipedia.org/wiki/Apteryx",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0007",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "In quale animale si trasforma un bruco?",
+    "risposte": [
+      "Farfalla",
+      "Coccinella",
+      "Libellula",
+      "Lucciola"
+    ],
+    "curiosita": "Passa attraverso lo stadio di crisalide.",
+    "fatto": "bruco diventa farfalla",
+    "fonte": "https://it.wikipedia.org/wiki/Lepidoptera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0008",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Qual è il più veloce animale terrestre?",
+    "risposte": [
+      "Ghepardo",
+      "Leone",
+      "Antilope",
+      "Cavallo"
+    ],
+    "curiosita": "Può scattare oltre i 100 km/h per pochi secondi.",
+    "fatto": "animale terrestre piu veloce ghepardo",
+    "fonte": "https://it.wikipedia.org/wiki/Acinonyx_jubatus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0009",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il piccolo della rana?",
+    "risposte": [
+      "Girino",
+      "Avannotto",
+      "Bruco",
+      "Pulcino"
+    ],
+    "curiosita": "Vive in acqua e respira con le branchie.",
+    "fatto": "piccolo della rana girino",
+    "fonte": "https://it.wikipedia.org/wiki/Girino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0010",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale rettile ha il carapace?",
+    "risposte": [
+      "Tartaruga",
+      "Lucertola",
+      "Coccodrillo",
+      "Serpente"
+    ],
+    "curiosita": "Il carapace è fatto di ossa saldate alla colonna vertebrale.",
+    "fatto": "rettile con carapace tartaruga",
+    "fonte": "https://it.wikipedia.org/wiki/Testudines",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0011",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Che animale è Flipper, protagonista della serie TV?",
+    "risposte": [
+      "Delfino",
+      "Squalo",
+      "Foca",
+      "Balena"
+    ],
+    "curiosita": "Era interpretato da diversi delfini tursiopi.",
+    "fatto": "flipper delfino",
+    "fonte": "https://it.wikipedia.org/wiki/Tursiops_truncatus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0012",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale albero produce le ghiande?",
+    "risposte": [
+      "Quercia",
+      "Castagno",
+      "Faggio",
+      "Noce"
+    ],
+    "curiosita": "Le ghiande sono il frutto della quercia e cibo per cinghiali e scoiattoli.",
+    "fatto": "ghiande quercia",
+    "fonte": "https://it.wikipedia.org/wiki/Quercia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0013",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale gas assorbono le piante per la fotosintesi?",
+    "risposte": [
+      "Anidride carbonica",
+      "Ossigeno",
+      "Azoto",
+      "Idrogeno"
+    ],
+    "curiosita": "Lo trasformano in zuccheri usando la luce del sole.",
+    "fatto": "gas assorbito dalle piante anidride carbonica",
+    "fonte": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0014",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale dorme appeso a testa in giù?",
+    "risposte": [
+      "Pipistrello",
+      "Gufo",
+      "Scoiattolo",
+      "Riccio"
+    ],
+    "curiosita": "Si aggrappa con gli artigli dei piedi anche quando dorme.",
+    "fatto": "pipistrello dorme a testa in giu",
+    "fonte": "https://it.wikipedia.org/wiki/Chiroptera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0015",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale rettile cambia colore per mimetizzarsi?",
+    "risposte": [
+      "Camaleonte",
+      "Iguana",
+      "Tartaruga",
+      "Cobra"
+    ],
+    "curiosita": "Muove gli occhi in modo indipendente e ha la lingua lunghissima.",
+    "fatto": "rettile cambia colore camaleonte",
+    "fonte": "https://it.wikipedia.org/wiki/Chamaeleonidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0016",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale di questi animali ha un marsupio?",
+    "risposte": [
+      "Canguro",
+      "Lemure",
+      "Scimpanzé",
+      "Cammello"
+    ],
+    "curiosita": "Il cucciolo nasce minuscolo e finisce lo sviluppo nel marsupio.",
+    "fatto": "animale con marsupio canguro",
+    "fonte": "https://it.wikipedia.org/wiki/Macropodidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0017",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale è chiamato \"re della savana\"?",
+    "risposte": [
+      "Leone",
+      "Leopardo",
+      "Ghepardo",
+      "Ippopotamo"
+    ],
+    "curiosita": "Vive in branchi familiari, detti anche gruppi.",
+    "fatto": "re della savana leone",
+    "fonte": "https://it.wikipedia.org/wiki/Panthera_leo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0018",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Qual è l'animale più alto del mondo?",
+    "risposte": [
+      "Giraffa",
+      "Elefante",
+      "Struzzo",
+      "Alce"
+    ],
+    "curiosita": "Può superare i cinque metri di altezza.",
+    "fatto": "animale piu alto giraffa",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa_camelopardalis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0019",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale uccello rosa sta spesso su una zampa sola?",
+    "risposte": [
+      "Fenicottero",
+      "Cigno",
+      "Pellicano",
+      "Cicogna"
+    ],
+    "curiosita": "Il colore rosa gli viene dai crostacei di cui si nutre.",
+    "fatto": "uccello rosa fenicottero",
+    "fonte": "https://it.wikipedia.org/wiki/Phoenicopteridae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0020",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale marino ha otto braccia con le ventose?",
+    "risposte": [
+      "Polpo",
+      "Medusa",
+      "Riccio di mare",
+      "Stella marina"
+    ],
+    "curiosita": "Ha tre cuori e il sangue blu.",
+    "fatto": "animale otto braccia ventose polpo",
+    "fonte": "https://it.wikipedia.org/wiki/Octopus_vulgaris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0021",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "In quale luogo vive il pinguino imperatore?",
+    "risposte": [
+      "Antartide",
+      "Artico",
+      "Groenlandia",
+      "Siberia"
+    ],
+    "curiosita": "Resiste a temperature inferiori ai -40 gradi.",
+    "fatto": "pinguino imperatore vive antartide",
+    "fonte": "https://it.wikipedia.org/wiki/Aptenodytes_forsteri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0022",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale insetto si illumina nelle sere d'estate?",
+    "risposte": [
+      "Lucciola",
+      "Zanzara",
+      "Cicala",
+      "Cavalletta"
+    ],
+    "curiosita": "La luce serve ai maschi e alle femmine per trovarsi.",
+    "fatto": "insetto che si illumina lucciola",
+    "fonte": "https://it.wikipedia.org/wiki/Lampyridae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0023",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Da quale animale selvatico discende il cane?",
+    "risposte": [
+      "Lupo",
+      "Volpe",
+      "Sciacallo",
+      "Orso"
+    ],
+    "curiosita": "La domesticazione iniziò più di 15.000 anni fa.",
+    "fatto": "antenato del cane lupo",
+    "fonte": "https://it.wikipedia.org/wiki/Canis_lupus_familiaris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0024",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale africano ha il manto a strisce bianche e nere?",
+    "risposte": [
+      "Zebra",
+      "Gnu",
+      "Bufalo",
+      "Giraffa"
+    ],
+    "curiosita": "Ogni zebra ha un disegno di strisce unico.",
+    "fatto": "zebra manto a strisce",
+    "fonte": "https://it.wikipedia.org/wiki/Zebra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0025",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale fiore ruota la corolla seguendo il sole?",
+    "risposte": [
+      "Girasole",
+      "Margherita",
+      "Tulipano",
+      "Papavero"
+    ],
+    "curiosita": "Da giovane segue il sole, da adulto guarda a est.",
+    "fatto": "fiore segue il sole girasole",
+    "fonte": "https://it.wikipedia.org/wiki/Helianthus_annuus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0026",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale va in letargo durante l'inverno?",
+    "risposte": [
+      "Riccio",
+      "Lepre",
+      "Cervo",
+      "Volpe"
+    ],
+    "curiosita": "Il suo cuore rallenta fino a pochi battiti al minuto.",
+    "fatto": "animale in letargo riccio",
+    "fonte": "https://it.wikipedia.org/wiki/Erinaceus_europaeus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0027",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Di cosa si nutrono le api per fare il miele?",
+    "risposte": [
+      "Nettare",
+      "Foglie",
+      "Radici",
+      "Corteccia"
+    ],
+    "curiosita": "Lo raccolgono dai fiori e lo trasformano nell'alveare.",
+    "fatto": "api miele nettare",
+    "fonte": "https://it.wikipedia.org/wiki/Nettare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0028",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale di questi animali è un mammifero?",
+    "risposte": [
+      "Delfino",
+      "Squalo",
+      "Tonno",
+      "Polpo"
+    ],
+    "curiosita": "Respira aria con i polmoni e allatta i piccoli.",
+    "fatto": "mammifero delfino",
+    "fonte": "https://it.wikipedia.org/wiki/Delphinidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0029",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Da quale albero si ricavano le olive?",
+    "risposte": [
+      "Ulivo",
+      "Cipresso",
+      "Pino",
+      "Fico"
+    ],
+    "curiosita": "Alcuni ulivi italiani hanno più di mille anni.",
+    "fatto": "olive ulivo",
+    "fonte": "https://it.wikipedia.org/wiki/Olea_europaea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0030",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quante zampe ha un insetto?",
+    "risposte": [
+      "6",
+      "8",
+      "4",
+      "10"
+    ],
+    "curiosita": "Il corpo è diviso in capo, torace e addome.",
+    "fatto": "zampe insetto sei",
+    "fonte": "https://it.wikipedia.org/wiki/Insecta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0031",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Qual è il più grande felino vivente?",
+    "risposte": [
+      "Tigre",
+      "Leone",
+      "Giaguaro",
+      "Puma"
+    ],
+    "curiosita": "La tigre siberiana può superare i 250 kg.",
+    "fatto": "piu grande felino tigre",
+    "fonte": "https://it.wikipedia.org/wiki/Panthera_tigris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0032",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'ape maschio?",
+    "risposte": [
+      "Fuco",
+      "Operaia",
+      "Regina",
+      "Sentinella"
+    ],
+    "curiosita": "I fuchi servono solo ad accoppiarsi con la regina.",
+    "fatto": "maschio ape fuco",
+    "fonte": "https://it.wikipedia.org/wiki/Fuco_(ape)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0033",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale mammifero depone le uova?",
+    "risposte": [
+      "Ornitorinco",
+      "Canguro",
+      "Armadillo",
+      "Pangolino"
+    ],
+    "curiosita": "Vive in Australia e ha un becco da anatra.",
+    "fatto": "mammifero che depone uova ornitorinco",
+    "fonte": "https://it.wikipedia.org/wiki/Ornithorhynchus_anatinus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0034",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si orientano i pipistrelli al buio?",
+    "risposte": [
+      "Con gli ultrasuoni",
+      "Con l'olfatto",
+      "Con i baffi",
+      "Con il calore"
+    ],
+    "curiosita": "Emettono suoni e ascoltano l'eco che torna.",
+    "fatto": "pipistrelli orientamento ultrasuoni",
+    "fonte": "https://it.wikipedia.org/wiki/Ecolocazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0035",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quanti cuori ha un polpo?",
+    "risposte": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "curiosita": "Due pompano il sangue alle branchie, uno al resto del corpo.",
+    "fatto": "cuori del polpo tre",
+    "fonte": "https://it.wikipedia.org/wiki/Octopus_vulgaris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0036",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale albero californiano è tra i più alti del mondo?",
+    "risposte": [
+      "Sequoia",
+      "Baobab",
+      "Quercia",
+      "Cipresso"
+    ],
+    "curiosita": "Alcuni esemplari superano i 100 metri.",
+    "fatto": "albero piu alto sequoia",
+    "fonte": "https://it.wikipedia.org/wiki/Sequoia_sempervirens",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0037",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Di cosa si nutre quasi solo il panda gigante?",
+    "risposte": [
+      "Bambù",
+      "Eucalipto",
+      "Canna da zucchero",
+      "Bacche"
+    ],
+    "curiosita": "Ne mangia fino a 14 kg al giorno.",
+    "fatto": "panda mangia bambu",
+    "fonte": "https://it.wikipedia.org/wiki/Panda_gigante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0038",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Di quali foglie si nutre il koala?",
+    "risposte": [
+      "Eucalipto",
+      "Bambù",
+      "Quercia",
+      "Palma"
+    ],
+    "curiosita": "Dorme fino a 20 ore al giorno perché la dieta dà poca energia.",
+    "fatto": "koala mangia eucalipto",
+    "fonte": "https://it.wikipedia.org/wiki/Phascolarctos_cinereus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0039",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale pesce risale i fiumi per riprodursi?",
+    "risposte": [
+      "Salmone",
+      "Merluzzo",
+      "Tonno",
+      "Sogliola"
+    ],
+    "curiosita": "Torna a deporre le uova proprio dove è nato.",
+    "fatto": "salmone risale fiumi",
+    "fonte": "https://it.wikipedia.org/wiki/Salmo_salar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0040",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il gruppo di cui fanno parte balene e delfini?",
+    "risposte": [
+      "Cetacei",
+      "Pinnipedi",
+      "Sirenii",
+      "Crostacei"
+    ],
+    "curiosita": "Hanno un orecchio adatto a sentire sott'acqua.",
+    "fatto": "gruppo balene delfini cetacei",
+    "fonte": "https://it.wikipedia.org/wiki/Cetacea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0041",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il processo con cui le piante producono zuccheri?",
+    "risposte": [
+      "Fotosintesi",
+      "Respirazione",
+      "Traspirazione",
+      "Germinazione"
+    ],
+    "curiosita": "Usa luce, acqua e anidride carbonica e rilascia ossigeno.",
+    "fatto": "nome processo piante zuccheri luce fotosintesi",
+    "fonte": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0042",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale sostanza dà il colore verde alle foglie?",
+    "risposte": [
+      "Clorofilla",
+      "Carotene",
+      "Melanina",
+      "Emoglobina"
+    ],
+    "curiosita": "In autunno si degrada e emergono i colori gialli e rossi.",
+    "fatto": "colore verde foglie clorofilla",
+    "fonte": "https://it.wikipedia.org/wiki/Clorofilla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0043",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale uccello può volare anche all'indietro?",
+    "risposte": [
+      "Colibrì",
+      "Rondine",
+      "Falco",
+      "Gabbiano"
+    ],
+    "curiosita": "Batte le ali fino a 50 volte al secondo.",
+    "fatto": "uccello vola indietro colibri",
+    "fonte": "https://it.wikipedia.org/wiki/Trochilidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0044",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Qual è il più grande uccello vivente?",
+    "risposte": [
+      "Struzzo",
+      "Emù",
+      "Casuario",
+      "Condor"
+    ],
+    "curiosita": "Corre fino a 70 km/h e non sa volare.",
+    "fatto": "piu grande uccello struzzo",
+    "fonte": "https://it.wikipedia.org/wiki/Struthio_camelus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0045",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale animale è il simbolo del Parco nazionale del Gran Paradiso?",
+    "risposte": [
+      "Stambecco",
+      "Camoscio",
+      "Muflone",
+      "Marmotta"
+    ],
+    "curiosita": "Il parco fu creato per salvarlo dall'estinzione.",
+    "fatto": "simbolo parco gran paradiso stambecco",
+    "fonte": "https://it.wikipedia.org/wiki/Parco_nazionale_del_Gran_Paradiso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0046",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Da quale animale si ricava la seta?",
+    "risposte": [
+      "Baco da seta",
+      "Ragno",
+      "Pecora",
+      "Alpaca"
+    ],
+    "curiosita": "Un solo bozzolo può contenere un filo lungo oltre un chilometro.",
+    "fatto": "seta baco da seta",
+    "fonte": "https://it.wikipedia.org/wiki/Bombyx_mori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0047",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama la fase in cui il bruco si trasforma in farfalla?",
+    "risposte": [
+      "Crisalide",
+      "Larva",
+      "Uovo",
+      "Muta"
+    ],
+    "curiosita": "Dentro il bozzolo il suo corpo si riorganizza del tutto.",
+    "fatto": "fase bruco farfalla crisalide",
+    "fonte": "https://it.wikipedia.org/wiki/Crisalide",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0048",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale rettile può rigenerare la coda?",
+    "risposte": [
+      "Lucertola",
+      "Serpente",
+      "Tartaruga",
+      "Coccodrillo"
+    ],
+    "curiosita": "La coda si stacca per distrarre i predatori.",
+    "fatto": "rettile rigenera coda lucertola",
+    "fonte": "https://it.wikipedia.org/wiki/Lacertidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0049",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale cetaceo ha una lunga zanna a spirale?",
+    "risposte": [
+      "Narvalo",
+      "Beluga",
+      "Orca",
+      "Tricheco"
+    ],
+    "curiosita": "La zanna è in realtà un dente che può superare i due metri.",
+    "fatto": "zanna a spirale narvalo",
+    "fonte": "https://it.wikipedia.org/wiki/Monodon_monoceros",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0050",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale animale marino maschio porta i piccoli in una tasca?",
+    "risposte": [
+      "Cavalluccio marino",
+      "Pinguino",
+      "Tricheco",
+      "Foca"
+    ],
+    "curiosita": "È il maschio a portare avanti la gravidanza.",
+    "fatto": "cavalluccio marino maschio gravidanza",
+    "fonte": "https://it.wikipedia.org/wiki/Hippocampus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0051",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale pianta carnivora chiude le foglie sulle mosche?",
+    "risposte": [
+      "Dionea",
+      "Ninfea",
+      "Begonia",
+      "Azalea"
+    ],
+    "curiosita": "Il nome comune è \"Venere acchiappamosche\".",
+    "fatto": "pianta carnivora dionea",
+    "fonte": "https://it.wikipedia.org/wiki/Dionaea_muscipula",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0052",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale prezioso fungo sotterraneo è famoso ad Alba?",
+    "risposte": [
+      "Tartufo bianco",
+      "Porcino",
+      "Ovolo",
+      "Finferlo"
+    ],
+    "curiosita": "Si cerca di notte con l'aiuto di cani addestrati.",
+    "fatto": "tartufo bianco alba",
+    "fonte": "https://it.wikipedia.org/wiki/Tuber_magnatum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0053",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Qual è il più grande pesce del mondo?",
+    "risposte": [
+      "Squalo balena",
+      "Squalo bianco",
+      "Squalo tigre",
+      "Squalo martello"
+    ],
+    "curiosita": "Si nutre solo di plancton, nonostante la taglia.",
+    "fatto": "piu grande pesce squalo balena",
+    "fonte": "https://it.wikipedia.org/wiki/Squalo_balena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0054",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il cibo riservato alla regina delle api?",
+    "risposte": [
+      "Pappa reale",
+      "Propoli",
+      "Cera",
+      "Polline"
+    ],
+    "curiosita": "La regina ne mangia per tutta la vita.",
+    "fatto": "cibo regina api pappa reale",
+    "fonte": "https://it.wikipedia.org/wiki/Pappa_reale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0055",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quante camere ha lo stomaco di una mucca?",
+    "risposte": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "curiosita": "Rumina il cibo, cioè lo mastica una seconda volta.",
+    "fatto": "stomaco mucca quattro camere",
+    "fonte": "https://it.wikipedia.org/wiki/Ruminantia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0056",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale albero fornisce il sughero?",
+    "risposte": [
+      "Quercia da sughero",
+      "Faggio",
+      "Castagno",
+      "Pioppo"
+    ],
+    "curiosita": "Si stacca la corteccia senza abbattere la pianta.",
+    "fatto": "sughero quercia da sughero",
+    "fonte": "https://it.wikipedia.org/wiki/Quercus_suber",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0057",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Da quale pesce si ricava il caviale?",
+    "risposte": [
+      "Storione",
+      "Salmone",
+      "Merluzzo",
+      "Aringa"
+    ],
+    "curiosita": "Il caviale sono le uova non fecondate dello storione.",
+    "fatto": "caviale storione",
+    "fonte": "https://it.wikipedia.org/wiki/Acipenseridae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0058",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale scienziato scrisse \"L'origine delle specie\"?",
+    "risposte": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Linneo",
+      "Lamarck"
+    ],
+    "curiosita": "Il libro uscì nel 1859.",
+    "fatto": "origine delle specie darwin",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_Darwin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0059",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quante vertebre cervicali ha una giraffa?",
+    "risposte": [
+      "7",
+      "14",
+      "9",
+      "12"
+    ],
+    "curiosita": "Ne ha quante l'uomo, ma molto più lunghe.",
+    "fatto": "vertebre cervicali giraffa sette",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa_camelopardalis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0060",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale uccello è il più veloce in picchiata?",
+    "risposte": [
+      "Falco pellegrino",
+      "Aquila reale",
+      "Condor",
+      "Albatros"
+    ],
+    "curiosita": "In picchiata supera i 300 km/h.",
+    "fatto": "uccello piu veloce falco pellegrino",
+    "fonte": "https://it.wikipedia.org/wiki/Falco_peregrinus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0061",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Qual è il più grande rettile vivente?",
+    "risposte": [
+      "Coccodrillo marino",
+      "Anaconda",
+      "Drago di Komodo",
+      "Alligatore"
+    ],
+    "curiosita": "Può superare i sei metri di lunghezza.",
+    "fatto": "piu grande rettile coccodrillo marino",
+    "fonte": "https://it.wikipedia.org/wiki/Crocodylus_porosus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0062",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quante zampe ha un gambero?",
+    "risposte": [
+      "10",
+      "8",
+      "6",
+      "12"
+    ],
+    "curiosita": "Per questo i gamberi appartengono ai decapodi.",
+    "fatto": "zampe gambero dieci",
+    "fonte": "https://it.wikipedia.org/wiki/Decapoda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0063",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale naturalista svedese introdusse la nomenclatura binomia?",
+    "risposte": [
+      "Linneo",
+      "Darwin",
+      "Mendel",
+      "Pasteur"
+    ],
+    "curiosita": "Nel Settecento ordinò migliaia di specie con due nomi latini.",
+    "fatto": "nomenclatura binomia linneo",
+    "fonte": "https://it.wikipedia.org/wiki/Linneo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0064",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale sostanza usano le api per sigillare l'alveare?",
+    "risposte": [
+      "Propoli",
+      "Cera",
+      "Polline",
+      "Nettare"
+    ],
+    "curiosita": "Ha anche proprietà antibatteriche.",
+    "fatto": "propoli api alveare",
+    "fonte": "https://it.wikipedia.org/wiki/Propoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0065",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale pianta ha il fiore singolo più grande del mondo?",
+    "risposte": [
+      "Rafflesia",
+      "Girasole",
+      "Ninfea gigante",
+      "Orchidea"
+    ],
+    "curiosita": "Cresce in Indonesia e puzza di carne in decomposizione.",
+    "fatto": "fiore piu grande rafflesia",
+    "fonte": "https://it.wikipedia.org/wiki/Rafflesia_arnoldii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0066",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Su quale isola vivono i lemuri in natura?",
+    "risposte": [
+      "Madagascar",
+      "Sumatra",
+      "Borneo",
+      "Sri Lanka"
+    ],
+    "curiosita": "Quasi tutte le specie vivono solo lì.",
+    "fatto": "lemuri madagascar",
+    "fonte": "https://it.wikipedia.org/wiki/Lemuriformes",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0067",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale grande scimmia vive solo in Asia?",
+    "risposte": [
+      "Orango",
+      "Gorilla",
+      "Scimpanzé",
+      "Bonobo"
+    ],
+    "curiosita": "Il nome significa \"uomo della foresta\".",
+    "fatto": "grande scimmia asiatica orango",
+    "fonte": "https://it.wikipedia.org/wiki/Pongo_(genere)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0068",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Dove si riproducono le anguille europee?",
+    "risposte": [
+      "Mar dei Sargassi",
+      "Mar Baltico",
+      "Mar Nero",
+      "Mar Rosso"
+    ],
+    "curiosita": "Attraversano l'Atlantico per deporre le uova.",
+    "fatto": "anguilla riproduzione mar dei sargassi",
+    "fonte": "https://it.wikipedia.org/wiki/Anguilla_anguilla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0069",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "A quale famiglia appartiene il pomodoro?",
+    "risposte": [
+      "Solanacee",
+      "Rosacee",
+      "Crucifere",
+      "Liliacee"
+    ],
+    "curiosita": "È imparentato con patata, melanzana e peperone.",
+    "fatto": "famiglia pomodoro solanacee",
+    "fonte": "https://it.wikipedia.org/wiki/Solanaceae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0070",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale è il parente più stretto dell'okapi?",
+    "risposte": [
+      "Giraffa",
+      "Zebra",
+      "Antilope",
+      "Cavallo"
+    ],
+    "curiosita": "Ha le zampe a strisce ma è un parente delle giraffe.",
+    "fatto": "parente okapi giraffa",
+    "fonte": "https://it.wikipedia.org/wiki/Okapia_johnstoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0071",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale uccello compie la migrazione più lunga, da polo a polo?",
+    "risposte": [
+      "Sterna artica",
+      "Rondine",
+      "Cicogna",
+      "Albatros"
+    ],
+    "curiosita": "Percorre decine di migliaia di chilometri ogni anno.",
+    "fatto": "migrazione piu lunga sterna artica",
+    "fonte": "https://it.wikipedia.org/wiki/Sterna_paradisaea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0072",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale marino ha una rete nervosa al posto del cervello?",
+    "risposte": [
+      "Medusa",
+      "Polpo",
+      "Aragosta",
+      "Squalo"
+    ],
+    "curiosita": "Ha solo una rete di nervi sparsa nel corpo.",
+    "fatto": "animale senza cervello medusa",
+    "fonte": "https://it.wikipedia.org/wiki/Medusozoa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0073",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale organismo nasce dall'unione tra un fungo e un'alga?",
+    "risposte": [
+      "Lichene",
+      "Muschio",
+      "Felce",
+      "Muffa"
+    ],
+    "curiosita": "Vive sulle rocce e sui tronchi anche in ambienti estremi.",
+    "fatto": "lichene fungo alga",
+    "fonte": "https://it.wikipedia.org/wiki/Lichene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0074",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Di che colore è la pelle dell'orso polare sotto il pelo?",
+    "risposte": [
+      "Nera",
+      "Bianca",
+      "Rosa",
+      "Grigia"
+    ],
+    "curiosita": "La pelle scura assorbe meglio il calore del sole.",
+    "fatto": "pelle orso polare nera",
+    "fonte": "https://it.wikipedia.org/wiki/Ursus_maritimus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0075",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale albero africano ha il tronco enorme e rigonfio?",
+    "risposte": [
+      "Baobab",
+      "Acacia",
+      "Palma",
+      "Mogano"
+    ],
+    "curiosita": "Può immagazzinare migliaia di litri d'acqua.",
+    "fatto": "albero tronco rigonfio baobab",
+    "fonte": "https://it.wikipedia.org/wiki/Adansonia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0076",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale albero con foglie a ventaglio è un fossile vivente?",
+    "risposte": [
+      "Ginkgo",
+      "Faggio",
+      "Olmo",
+      "Betulla"
+    ],
+    "curiosita": "Esiste quasi uguale da oltre 200 milioni di anni.",
+    "fatto": "ginkgo fossile vivente",
+    "fonte": "https://it.wikipedia.org/wiki/Ginkgo_biloba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0077",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale sudamericano si nutre di formiche con lunga lingua?",
+    "risposte": [
+      "Formichiere",
+      "Armadillo",
+      "Bradipo",
+      "Tapiro"
+    ],
+    "curiosita": "La sua lingua può uscire dal muso di quasi mezzo metro.",
+    "fatto": "formichiere sudamerica lingua",
+    "fonte": "https://it.wikipedia.org/wiki/Myrmecophagidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0078",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale terrestre ha la gestazione più lunga?",
+    "risposte": [
+      "Elefante",
+      "Rinoceronte",
+      "Giraffa",
+      "Ippopotamo"
+    ],
+    "curiosita": "Dura circa 22 mesi.",
+    "fatto": "gestazione piu lunga elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Elephantidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0079",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale balena è famosa per i suoi canti?",
+    "risposte": [
+      "Megattera",
+      "Balenottera azzurra",
+      "Capodoglio",
+      "Orca"
+    ],
+    "curiosita": "I maschi cantano per ore, e il canto cambia nel tempo.",
+    "fatto": "balena che canta megattera",
+    "fonte": "https://it.wikipedia.org/wiki/Megaptera_novaeangliae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0080",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale pesce produce scariche elettriche?",
+    "risposte": [
+      "Torpedine",
+      "Spigola",
+      "Orata",
+      "Sardina"
+    ],
+    "curiosita": "Anche gli antichi Romani la usavano per curare il mal di testa.",
+    "fatto": "pesce scariche elettriche torpedine",
+    "fonte": "https://it.wikipedia.org/wiki/Torpediniformes",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0081",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale insetto coltiva funghi sottoterra?",
+    "risposte": [
+      "Formica tagliafoglie",
+      "Cavalletta",
+      "Coccinella",
+      "Libellula"
+    ],
+    "curiosita": "Usa pezzi di foglie per nutrire il fungo.",
+    "fatto": "insetto coltiva funghi formica tagliafoglie",
+    "fonte": "https://it.wikipedia.org/wiki/Atta_(genere)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0082",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale pesce usa un'esca sulla testa per attirare le prede?",
+    "risposte": [
+      "Rana pescatrice",
+      "Spigola",
+      "Trota",
+      "Luccio"
+    ],
+    "curiosita": "L'esca è in realtà un filamento della pinna dorsale.",
+    "fatto": "pesce con esca rana pescatrice",
+    "fonte": "https://it.wikipedia.org/wiki/Lophius_piscatorius",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0083",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale uccello cova l'uovo sui piedi nell'inverno antartico?",
+    "risposte": [
+      "Pinguino imperatore",
+      "Albatros",
+      "Gabbiano",
+      "Cormorano"
+    ],
+    "curiosita": "Il maschio resiste senza mangiare per oltre due mesi.",
+    "fatto": "uccello cova uovo sui piedi pinguino",
+    "fonte": "https://it.wikipedia.org/wiki/Aptenodytes_forsteri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0084",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale parte del fiore produce il polline?",
+    "risposte": [
+      "Antera",
+      "Pistillo",
+      "Petalo",
+      "Sepalo"
+    ],
+    "curiosita": "Si trova in cima allo stame.",
+    "fatto": "polline antera",
+    "fonte": "https://it.wikipedia.org/wiki/Antera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0085",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'insieme dei petali di un fiore?",
+    "risposte": [
+      "Corolla",
+      "Calice",
+      "Pistillo",
+      "Stelo"
+    ],
+    "curiosita": "I petali attirano gli insetti impollinatori.",
+    "fatto": "insieme petali corolla",
+    "fonte": "https://it.wikipedia.org/wiki/Corolla_(botanica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0086",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale albero compare sulla bandiera del Libano?",
+    "risposte": [
+      "Cedro",
+      "Palma",
+      "Ulivo",
+      "Cipresso"
+    ],
+    "curiosita": "I cedri del Libano sono citati anche nella Bibbia.",
+    "fatto": "bandiera libano cedro",
+    "fonte": "https://it.wikipedia.org/wiki/Cedro_del_Libano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0087",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale albero fornisce il lattice per la gomma naturale?",
+    "risposte": [
+      "Albero della gomma",
+      "Palma da olio",
+      "Bambù",
+      "Canna da zucchero"
+    ],
+    "curiosita": "Il lattice si raccoglie incidendo la corteccia.",
+    "fatto": "gomma naturale albero della gomma",
+    "fonte": "https://it.wikipedia.org/wiki/Hevea_brasiliensis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0088",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale dinosauro aveva tre corna sul muso?",
+    "risposte": [
+      "Triceratopo",
+      "Stegosauro",
+      "Brontosauro",
+      "Velociraptor"
+    ],
+    "curiosita": "Il nome significa \"faccia con tre corna\".",
+    "fatto": "dinosauro tre corna triceratopo",
+    "fonte": "https://it.wikipedia.org/wiki/Triceratopo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0089",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale cetaceo dà il nome al romanzo \"Moby Dick\"?",
+    "risposte": [
+      "Capodoglio",
+      "Orca",
+      "Balenottera azzurra",
+      "Delfino"
+    ],
+    "curiosita": "Il vero Moby Dick si ispirò a un capodoglio bianco chiamato Mocha Dick.",
+    "fatto": "moby dick capodoglio",
+    "fonte": "https://it.wikipedia.org/wiki/Moby_Dick",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-nat-0090",
+    "tipo": "classica",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Che forma hanno le celle dell'alveare?",
+    "risposte": [
+      "Esagono",
+      "Cerchio",
+      "Quadrato",
+      "Triangolo"
+    ],
+    "curiosita": "La forma esagonale permette di risparmiare cera e spazio.",
+    "fatto": "celle alveare esagonali",
+    "fonte": "https://it.wikipedia.org/wiki/Alveare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-spo-0001",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Paesi ospitanti dei Mondiali, dal più antico",
+    "elementi": [
+      "Italia",
+      "Stati Uniti",
+      "Francia",
+      "Corea e Giappone"
+    ],
+    "valori": [
+      "1990",
+      "1994",
+      "1998",
+      "2002"
+    ],
+    "curiosita": "Nel 2002 per la prima volta il Mondiale ebbe due Paesi ospitanti.",
+    "fatto": "ordine paesi ospitanti mondiali calcio 1990 2002",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0002",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Gare di atletica, dalla più corta alla più lunga",
+    "elementi": [
+      "100 metri",
+      "800 metri",
+      "5000 metri",
+      "Maratona"
+    ],
+    "valori": [
+      "100 m",
+      "800 m",
+      "5000 m",
+      "42195 m"
+    ],
+    "curiosita": "Il record di velocità si decide in meno di dieci secondi.",
+    "fatto": "ordine gare atletica distanza 100 maratona",
+    "fonte": "https://it.wikipedia.org/wiki/Atletica_leggera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0003",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Giocatori in campo, dal minor numero al maggior",
+    "elementi": [
+      "Basket",
+      "Pallavolo",
+      "Pallamano",
+      "Calcio"
+    ],
+    "valori": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "curiosita": "Nel calcio il numero comprende anche il portiere.",
+    "fatto": "ordine giocatori in campo basket calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Pallamano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0004",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Città delle Olimpiadi estive, dalla più antica",
+    "elementi": [
+      "Atene",
+      "Pechino",
+      "Londra",
+      "Rio de Janeiro"
+    ],
+    "valori": [
+      "2004",
+      "2008",
+      "2012",
+      "2016"
+    ],
+    "curiosita": "Londra è stata la prima città a ospitare i Giochi tre volte.",
+    "fatto": "ordine citta olimpiadi estive 2004 2016",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0005",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Gare di nuoto a stile libero, dalla più breve",
+    "elementi": [
+      "100 metri",
+      "200 metri",
+      "400 metri",
+      "1500 metri"
+    ],
+    "valori": [
+      "100 m",
+      "200 m",
+      "400 m",
+      "1500 m"
+    ],
+    "curiosita": "La gara da 1500 metri richiede trenta vasche in piscina olimpionica.",
+    "fatto": "ordine gare nuoto stile libero distanza",
+    "fonte": "https://it.wikipedia.org/wiki/Nuoto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0006",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Olimpiadi in Italia, dalla più antica",
+    "elementi": [
+      "Cortina d'Ampezzo",
+      "Roma",
+      "Torino",
+      "Milano-Cortina"
+    ],
+    "valori": [
+      "1956",
+      "1960",
+      "2006",
+      "2026"
+    ],
+    "curiosita": "Cortina ha ospitato i Giochi invernali in due edizioni.",
+    "fatto": "ordine olimpiadi in italia 1956 2026",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0007",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Primo titolo mondiale di calcio, dal più antico",
+    "elementi": [
+      "Italia",
+      "Germania Ovest",
+      "Brasile",
+      "Inghilterra"
+    ],
+    "valori": [
+      "1934",
+      "1954",
+      "1958",
+      "1966"
+    ],
+    "curiosita": "Il Brasile vinse il primo titolo in Svezia nel 1958.",
+    "fatto": "ordine primo titolo mondiale calcio nazionali",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0008",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Squadre di calcio, dalla più antica per fondazione",
+    "elementi": [
+      "Genoa",
+      "Juventus",
+      "Milan",
+      "Inter"
+    ],
+    "valori": [
+      "1893",
+      "1897",
+      "1899",
+      "1908"
+    ],
+    "curiosita": "L'Inter nacque da una scissione di soci del Milan.",
+    "fatto": "ordine fondazione squadre calcio italiane",
+    "fonte": "https://it.wikipedia.org/wiki/Genoa_Cricket_and_Football_Club",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0009",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Olimpiadi invernali, dalla più antica",
+    "elementi": [
+      "Calgary",
+      "Albertville",
+      "Lillehammer",
+      "Nagano"
+    ],
+    "valori": [
+      "1988",
+      "1992",
+      "1994",
+      "1998"
+    ],
+    "curiosita": "Dal 1994 i Giochi invernali non cadono più nello stesso anno di quelli estivi.",
+    "fatto": "ordine olimpiadi invernali 1988 1998",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_invernali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0010",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Prima edizione delle corse, dalla più antica",
+    "elementi": [
+      "Tour de France",
+      "Milano-Sanremo",
+      "Giro d'Italia",
+      "Vuelta a España"
+    ],
+    "valori": [
+      "1903",
+      "1907",
+      "1909",
+      "1935"
+    ],
+    "curiosita": "Il Giro fu ideato dalla Gazzetta dello Sport per vendere più copie.",
+    "fatto": "ordine prima edizione corse ciclistiche",
+    "fonte": "https://it.wikipedia.org/wiki/Milano-Sanremo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0011",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Primo titolo mondiale di Formula 1, dal più antico",
+    "elementi": [
+      "Juan Manuel Fangio",
+      "Alberto Ascari",
+      "Jackie Stewart",
+      "Niki Lauda"
+    ],
+    "valori": [
+      "1951",
+      "1952",
+      "1969",
+      "1975"
+    ],
+    "curiosita": "Lauda vinse il primo titolo con la Ferrari.",
+    "fatto": "ordine primo titolo mondiale formula 1 piloti",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_Formula_1",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0012",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Olimpiadi estive, dalla più antica",
+    "elementi": [
+      "Parigi",
+      "St. Louis",
+      "Londra",
+      "Stoccolma"
+    ],
+    "valori": [
+      "1900",
+      "1904",
+      "1908",
+      "1912"
+    ],
+    "curiosita": "Parigi 1900 fu la prima edizione con donne in gara.",
+    "fatto": "ordine olimpiadi estive 1900 1912",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0013",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Fondazione dei club, dal più antico",
+    "elementi": [
+      "Barcellona",
+      "Bayern Monaco",
+      "Real Madrid",
+      "Paris Saint-Germain"
+    ],
+    "valori": [
+      "1899",
+      "1900",
+      "1902",
+      "1970"
+    ],
+    "curiosita": "Il Barcellona fu fondato dallo svizzero Joan Gamper.",
+    "fatto": "ordine fondazione club europei calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Futbol_Club_Barcelona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0014",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Primo Pallone d'oro vinto, dal più antico",
+    "elementi": [
+      "Michel Platini",
+      "Marco van Basten",
+      "George Weah",
+      "Ronaldo Nazário"
+    ],
+    "valori": [
+      "1983",
+      "1988",
+      "1995",
+      "1997"
+    ],
+    "curiosita": "Weah è stato il primo africano a vincere il Pallone d'oro.",
+    "fatto": "ordine primo pallone d oro platini ronaldo",
+    "fonte": "https://it.wikipedia.org/wiki/Pallone_d'oro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0015",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Primo Wimbledon vinto, dal più antico",
+    "elementi": [
+      "Björn Borg",
+      "John McEnroe",
+      "Boris Becker",
+      "Pete Sampras"
+    ],
+    "valori": [
+      "1976",
+      "1981",
+      "1985",
+      "1993"
+    ],
+    "curiosita": "Becker lo vinse a 17 anni, il più giovane di sempre.",
+    "fatto": "ordine primo wimbledon vinto borg sampras",
+    "fonte": "https://it.wikipedia.org/wiki/Torneo_di_Wimbledon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-cin-0001",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dal film più vecchio al più nuovo",
+    "elementi": [
+      "Il mago di Oz",
+      "Psycho",
+      "Lo squalo",
+      "Titanic"
+    ],
+    "valori": [
+      "1939",
+      "1960",
+      "1975",
+      "1997"
+    ],
+    "curiosita": "\"Il mago di Oz\" è tra i primi film a colori.",
+    "fatto": "film mago oz psycho squalo titanic",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0002",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dal film Disney più antico al più recente",
+    "elementi": [
+      "Biancaneve",
+      "Cenerentola",
+      "Il libro della giungla",
+      "Il re leone"
+    ],
+    "valori": [
+      "1937",
+      "1950",
+      "1967",
+      "1994"
+    ],
+    "curiosita": "Biancaneve è il primo lungometraggio d'animazione Disney.",
+    "fatto": "disney biancaneve cenerentola giungla re leone",
+    "fonte": "https://it.wikipedia.org/wiki/Walt_Disney_Animation_Studios",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0003",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dalla serie TV più antica alla più recente",
+    "elementi": [
+      "I Simpson",
+      "Friends",
+      "Breaking Bad",
+      "Stranger Things"
+    ],
+    "valori": [
+      "1989",
+      "1994",
+      "2008",
+      "2016"
+    ],
+    "curiosita": "I Simpson sono la sit-com animata più longeva.",
+    "fatto": "serie tv simpson friends breaking bad stranger things",
+    "fonte": "https://it.wikipedia.org/wiki/Serie_televisiva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0004",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dal primo all'ultimo uscito (Star Wars)",
+    "elementi": [
+      "Una nuova speranza",
+      "Impero colpisce ancora",
+      "Il ritorno dello Jedi",
+      "La minaccia fantasma"
+    ],
+    "valori": [
+      "1977",
+      "1980",
+      "1983",
+      "1999"
+    ],
+    "curiosita": "Il quarto episodio uscì per primo.",
+    "fatto": "uscita star wars 1977 1980 1983 1999",
+    "fonte": "https://it.wikipedia.org/wiki/Guerre_stellari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0005",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dal più antico al più recente, anni 90 e 2000",
+    "elementi": [
+      "Titanic",
+      "Matrix",
+      "Compagnia dell'Anello",
+      "Avatar"
+    ],
+    "valori": [
+      "1997",
+      "1999",
+      "2001",
+      "2009"
+    ],
+    "curiosita": "Avatar fu per anni il film con più incassi.",
+    "fatto": "film titanic matrix compagnia anello avatar",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0006",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal primo all'ultimo uscito (Harry Potter)",
+    "elementi": [
+      "La pietra filosofale",
+      "La camera dei segreti",
+      "Prigioniero di Azkaban",
+      "Il calice di fuoco"
+    ],
+    "valori": [
+      "2001",
+      "2002",
+      "2004",
+      "2005"
+    ],
+    "curiosita": "Il primo film dura circa due ore e trenta.",
+    "fatto": "harry potter film pietra camera prigioniero calice",
+    "fonte": "https://it.wikipedia.org/wiki/Harry_Potter_(serie_di_film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0007",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal primo all'ultimo uscito (Indiana Jones)",
+    "elementi": [
+      "I predatori dell'arca",
+      "Il tempio maledetto",
+      "L'ultima crociata",
+      "Teschio di cristallo"
+    ],
+    "valori": [
+      "1981",
+      "1984",
+      "1989",
+      "2008"
+    ],
+    "curiosita": "Il protagonista è interpretato da Harrison Ford.",
+    "fatto": "indiana jones film predatori tempio crociata teschio",
+    "fonte": "https://it.wikipedia.org/wiki/Indiana_Jones",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0008",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal regista nato prima al più giovane",
+    "elementi": [
+      "Alfred Hitchcock",
+      "Federico Fellini",
+      "Steven Spielberg",
+      "Quentin Tarantino"
+    ],
+    "valori": [
+      "1899",
+      "1920",
+      "1946",
+      "1963"
+    ],
+    "curiosita": "Hitchcock era nato a Londra.",
+    "fatto": "nascita registi hitchcock fellini spielberg tarantino",
+    "fonte": "https://it.wikipedia.org/wiki/Regista_cinematografico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0009",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal film italiano più vecchio al più nuovo",
+    "elementi": [
+      "La dolce vita",
+      "Il sorpasso",
+      "Nuovo Cinema Paradiso",
+      "La vita è bella"
+    ],
+    "valori": [
+      "1960",
+      "1962",
+      "1988",
+      "1997"
+    ],
+    "curiosita": "Due dei quattro film hanno vinto l'Oscar.",
+    "fatto": "film italiani dolce vita west paradiso vita e bella",
+    "fonte": "https://it.wikipedia.org/wiki/Cinema_italiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0010",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal film Pixar più antico al più recente",
+    "elementi": [
+      "Toy Story",
+      "Alla ricerca di Nemo",
+      "Up",
+      "Coco"
+    ],
+    "valori": [
+      "1995",
+      "2003",
+      "2009",
+      "2017"
+    ],
+    "curiosita": "Toy Story fu il primo.",
+    "fatto": "pixar toy story nemo up coco",
+    "fonte": "https://it.wikipedia.org/wiki/Pixar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0011",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal primo al più recente interprete di Bond",
+    "elementi": [
+      "Sean Connery",
+      "George Lazenby",
+      "Roger Moore",
+      "Timothy Dalton"
+    ],
+    "valori": [
+      "1962",
+      "1969",
+      "1973",
+      "1987"
+    ],
+    "curiosita": "Lazenby interpretò Bond una volta sola.",
+    "fatto": "esordio attori bond connery lazenby moore dalton",
+    "fonte": "https://it.wikipedia.org/wiki/James_Bond",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0012",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal film più antico al più recente, classici",
+    "elementi": [
+      "Metropolis",
+      "Via col vento",
+      "Casablanca",
+      "Ladri di biciclette"
+    ],
+    "valori": [
+      "1927",
+      "1939",
+      "1942",
+      "1948"
+    ],
+    "curiosita": "Metropolis è un film muto tedesco.",
+    "fatto": "film metropolis via col vento casablanca ladri biciclette",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0013",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal primo all'ultimo uscito (Hitchcock)",
+    "elementi": [
+      "Rebecca",
+      "Finestra sul cortile",
+      "Psycho",
+      "Gli uccelli"
+    ],
+    "valori": [
+      "1940",
+      "1954",
+      "1960",
+      "1963"
+    ],
+    "curiosita": "Rebecca valse a Hitchcock la sua unica statuetta come produttore.",
+    "fatto": "hitchcock rebecca finestra cortile psycho uccelli",
+    "fonte": "https://it.wikipedia.org/wiki/Alfred_Hitchcock",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0014",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal primo all'ultimo uscito (Kubrick)",
+    "elementi": [
+      "Lolita",
+      "Il dottor Stranamore",
+      "2001: Odissea",
+      "Arancia meccanica"
+    ],
+    "valori": [
+      "1962",
+      "1964",
+      "1968",
+      "1971"
+    ],
+    "curiosita": "Kubrick girò quasi tutti i suoi film in Inghilterra.",
+    "fatto": "kubrick lolita stranamore 2001 arancia meccanica",
+    "fonte": "https://it.wikipedia.org/wiki/Stanley_Kubrick",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0015",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal programma TV più antico al più recente",
+    "elementi": [
+      "Lascia o raddoppia?",
+      "Carosello",
+      "Rischiatutto",
+      "Striscia la notizia"
+    ],
+    "valori": [
+      "1955",
+      "1957",
+      "1970",
+      "1988"
+    ],
+    "curiosita": "Carosello andò in onda fino al 1977.",
+    "fatto": "programmi tv italiani lascia carosello rischiatutto striscia",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_televisione_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

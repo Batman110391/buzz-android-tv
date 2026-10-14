@@ -34,5 +34,1589 @@
     "fonte": "https://it.wikipedia.org/wiki/Augusto",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-sto-0003",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno Cristoforo Colombo sbarcò nelle Americhe?",
+    "risposte": [
+      "1492",
+      "1452",
+      "1592",
+      "1392"
+    ],
+    "curiosita": "Credeva di essere arrivato in Asia e chiamò indiani gli abitanti.",
+    "fatto": "anno sbarco colombo americhe 1492",
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0004",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi guidò la Spedizione dei Mille nel 1860?",
+    "risposte": [
+      "Giuseppe Garibaldi",
+      "Giuseppe Mazzini",
+      "Camillo Cavour",
+      "Vittorio Emanuele II"
+    ],
+    "curiosita": "I volontari partirono da Quarto, vicino a Genova, su due navi.",
+    "fatto": "guida spedizione dei mille garibaldi",
+    "fonte": "https://it.wikipedia.org/wiki/Spedizione_dei_Mille",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0005",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno scoppiò la Seconda guerra mondiale?",
+    "risposte": [
+      "1939",
+      "1914",
+      "1941",
+      "1935"
+    ],
+    "curiosita": "Iniziò con l'invasione tedesca della Polonia il 1° settembre.",
+    "fatto": "anno inizio seconda guerra mondiale 1939",
+    "fonte": "https://it.wikipedia.org/wiki/Seconda_guerra_mondiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0006",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale antico popolo costruì le piramidi di Giza?",
+    "risposte": [
+      "Egizi",
+      "Greci",
+      "Romani",
+      "Babilonesi"
+    ],
+    "curiosita": "Servirono decenni di lavoro e migliaia di operai per la sola Grande Piramide.",
+    "fatto": "popolo costruttore piramidi di giza egizi",
+    "fonte": "https://it.wikipedia.org/wiki/Piramidi_di_Giza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0007",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale città fu sepolta nel 79 d.C. dal Vesuvio insieme a Ercolano?",
+    "risposte": [
+      "Pompei",
+      "Capua",
+      "Paestum",
+      "Cuma"
+    ],
+    "curiosita": "Cenere e lapilli la conservarono quasi intatta per quasi 1.700 anni.",
+    "fatto": "citta sepolta vesuvio 79 pompei",
+    "fonte": "https://it.wikipedia.org/wiki/Eruzione_del_Vesuvio_del_79",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0008",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale regina d'Egitto fu legata a Giulio Cesare e Marco Antonio?",
+    "risposte": [
+      "Cleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Didone"
+    ],
+    "curiosita": "Era di origine greca: discendeva dalla dinastia dei Tolomei.",
+    "fatto": "regina egitto cesare antonio cleopatra",
+    "fonte": "https://it.wikipedia.org/wiki/Cleopatra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0009",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale imperatore francese fu sconfitto a Waterloo nel 1815?",
+    "risposte": [
+      "Napoleone",
+      "Luigi XIV",
+      "Carlo Magno",
+      "Robespierre"
+    ],
+    "curiosita": "Dopo la sconfitta fu esiliato a Sant'Elena, isola dell'Atlantico.",
+    "fatto": "sconfitto a waterloo napoleone",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Waterloo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0010",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno fu proclamato il Regno d'Italia?",
+    "risposte": [
+      "1861",
+      "1848",
+      "1870",
+      "1946"
+    ],
+    "curiosita": "Il primo Parlamento nazionale si riunì a Torino.",
+    "fatto": "anno proclamazione regno d italia 1861",
+    "fonte": "https://it.wikipedia.org/wiki/Unit%C3%A0_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0011",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno l'uomo mise per la prima volta piede sulla Luna?",
+    "risposte": [
+      "1969",
+      "1961",
+      "1972",
+      "1957"
+    ],
+    "curiosita": "Milioni di persone seguirono lo sbarco in diretta televisiva.",
+    "fatto": "anno primo sbarco sulla luna 1969",
+    "fonte": "https://it.wikipedia.org/wiki/Apollo_11",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0012",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fu il primo presidente degli Stati Uniti?",
+    "risposte": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "curiosita": "Fu eletto all'unanimità dai grandi elettori nel 1789.",
+    "fatto": "primo presidente stati uniti washington",
+    "fonte": "https://it.wikipedia.org/wiki/George_Washington",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0013",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "A quale condottiero romano è attribuita la frase Veni, vidi, vici?",
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Caligola"
+    ],
+    "curiosita": "Con tre parole annunciò una vittoria rapidissima in Asia Minore.",
+    "fatto": "frase veni vidi vici giulio cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0014",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno l'Italia divenne una Repubblica?",
+    "risposte": [
+      "1946",
+      "1861",
+      "1948",
+      "1922"
+    ],
+    "curiosita": "Il referendum istituzionale si tenne il 2 giugno e votarono per la prima volta le donne.",
+    "fatto": "anno italia repubblica 1946",
+    "fonte": "https://it.wikipedia.org/wiki/Referendum_istituzionale_del_1946",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0015",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale generale cartaginese attraversò le Alpi con gli elefanti?",
+    "risposte": [
+      "Annibale",
+      "Scipione",
+      "Giugurta",
+      "Attila"
+    ],
+    "curiosita": "Dalla Spagna a Italia marciò con circa 37 elefanti, secondo gli storici antichi.",
+    "fatto": "generale alpi elefanti annibale",
+    "fonte": "https://it.wikipedia.org/wiki/Annibale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0016",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale popolo antico diede origine ai Giochi olimpici?",
+    "risposte": [
+      "Greci",
+      "Romani",
+      "Egizi",
+      "Fenici"
+    ],
+    "curiosita": "Le prime Olimpiadi documentate si svolsero a Olimpia nel 776 a.C.",
+    "fatto": "popolo origine olimpiadi greci",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_antichi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0017",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale transatlantico affondò nel 1912 dopo aver urtato un iceberg?",
+    "risposte": [
+      "Titanic",
+      "Lusitania",
+      "Britannic",
+      "Queen Mary"
+    ],
+    "curiosita": "Era al primo viaggio, da Southampton a New York.",
+    "fatto": "nave affondata iceberg 1912 titanic",
+    "fonte": "https://it.wikipedia.org/wiki/RMS_Titanic",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0018",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fu il dittatore a capo della Germania nazista?",
+    "risposte": [
+      "Adolf Hitler",
+      "Benito Mussolini",
+      "Iosif Stalin",
+      "Francisco Franco"
+    ],
+    "curiosita": "Fu nominato cancelliere nel 1933 e la guerra scoppiò sei anni dopo.",
+    "fatto": "dittatore germania nazista hitler",
+    "fonte": "https://it.wikipedia.org/wiki/Adolf_Hitler",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0019",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fu il primo re d'Italia?",
+    "risposte": [
+      "Vittorio Emanuele II",
+      "Umberto I",
+      "Carlo Alberto",
+      "Vittorio Emanuele III"
+    ],
+    "curiosita": "Era già re di Sardegna e prese il titolo di re d'Italia nel 1861.",
+    "fatto": "primo re d italia vittorio emanuele ii",
+    "fonte": "https://it.wikipedia.org/wiki/Vittorio_Emanuele_II_di_Savoia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0020",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale imperatore romano è tradizionalmente legato all'incendio di Roma del 64 d.C.?",
+    "risposte": [
+      "Nerone",
+      "Augusto",
+      "Traiano",
+      "Caligola"
+    ],
+    "curiosita": "La tradizione lo vuole intento a suonare mentre la città bruciava.",
+    "fatto": "incendio roma 64 nerone",
+    "fonte": "https://it.wikipedia.org/wiki/Nerone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0021",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale fortezza di Parigi fu presa dal popolo il 14 luglio 1789?",
+    "risposte": [
+      "Bastiglia",
+      "Louvre",
+      "Versailles",
+      "Invalides"
+    ],
+    "curiosita": "La presa della prigione è il simbolo dell'inizio della Rivoluzione francese.",
+    "fatto": "fortezza presa 14 luglio 1789 bastiglia",
+    "fonte": "https://it.wikipedia.org/wiki/Presa_della_Bastiglia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0022",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi guidò l'India verso l'indipendenza con la resistenza pacifica?",
+    "risposte": [
+      "Mohandas Gandhi",
+      "Jawaharlal Nehru",
+      "Rabindranath Tagore",
+      "Muhammad Ali Jinnah"
+    ],
+    "curiosita": "Guidò la marcia del sale nel 1930, lunga circa 380 chilometri.",
+    "fatto": "guida indipendenza india non violenza gandhi",
+    "fonte": "https://it.wikipedia.org/wiki/Mahatma_Gandhi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0023",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale presidente degli Stati Uniti fu assassinato a Dallas nel 1963?",
+    "risposte": [
+      "John F. Kennedy",
+      "Abraham Lincoln",
+      "Richard Nixon",
+      "Franklin Roosevelt"
+    ],
+    "curiosita": "Eletto a 43 anni, fu il più giovane presidente scelto dalle urne.",
+    "fatto": "presidente assassinato dallas 1963 kennedy",
+    "fonte": "https://it.wikipedia.org/wiki/John_Fitzgerald_Kennedy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0024",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale condottiero macedone conquistò un immenso impero prima dei 33 anni?",
+    "risposte": [
+      "Alessandro Magno",
+      "Pericle",
+      "Leonida",
+      "Dario"
+    ],
+    "curiosita": "Il suo impero arrivava dalla Grecia fino all'India.",
+    "fatto": "conquistatore macedone alessandro magno",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Magno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0025",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'epidemia che uccise un terzo degli europei nel Trecento?",
+    "risposte": [
+      "Peste nera",
+      "Vaiolo",
+      "Colera",
+      "Febbre gialla"
+    ],
+    "curiosita": "Arrivò in Italia nel 1347 dalle navi genovesi provenienti dal Mar Nero.",
+    "fatto": "epidemia trecento peste nera",
+    "fonte": "https://it.wikipedia.org/wiki/Peste_nera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0026",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il periodo di rinascita culturale nato in Italia nel Quattrocento?",
+    "risposte": [
+      "Rinascimento",
+      "Barocco",
+      "Illuminismo",
+      "Romanticismo"
+    ],
+    "curiosita": "Il termine fu reso celebre dallo storico francese Jules Michelet nell'Ottocento.",
+    "fatto": "periodo rinascita quattrocento rinascimento",
+    "fonte": "https://it.wikipedia.org/wiki/Rinascimento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0027",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale impero era governato dagli zar?",
+    "risposte": [
+      "Impero russo",
+      "Impero ottomano",
+      "Impero britannico",
+      "Impero austriaco"
+    ],
+    "curiosita": "Il titolo di zar deriva da Cesare, come kaiser in tedesco.",
+    "fatto": "impero governato dagli zar russo",
+    "fonte": "https://it.wikipedia.org/wiki/Impero_russo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0028",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale popolo del Nord Europa navigava su drakkar?",
+    "risposte": [
+      "Vichinghi",
+      "Mongoli",
+      "Visigoti",
+      "Celti"
+    ],
+    "curiosita": "Raggiunsero l'America del Nord circa cinque secoli prima di Colombo.",
+    "fatto": "popolo drakkar vichinghi",
+    "fonte": "https://it.wikipedia.org/wiki/Vichinghi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0029",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Con quale nome è nota la guerra combattuta dal 1914 al 1918?",
+    "risposte": [
+      "Prima guerra mondiale",
+      "Guerra dei Cent'anni",
+      "Guerra fredda",
+      "Guerra di Crimea"
+    ],
+    "curiosita": "In Italia si chiama anche Grande Guerra.",
+    "fatto": "guerra 1914 1918 prima guerra mondiale",
+    "fonte": "https://it.wikipedia.org/wiki/Prima_guerra_mondiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0030",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno finì la Seconda guerra mondiale?",
+    "risposte": [
+      "1945",
+      "1943",
+      "1944",
+      "1946"
+    ],
+    "curiosita": "In Europa la resa della Germania fu firmata a maggio.",
+    "fatto": "anno fine seconda guerra mondiale 1945",
+    "fonte": "https://it.wikipedia.org/wiki/Seconda_guerra_mondiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0031",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale rivoluzione nata in Inghilterra portò le macchine a vapore nelle fabbriche?",
+    "risposte": [
+      "Rivoluzione industriale",
+      "Rivoluzione francese",
+      "Rivoluzione russa",
+      "Rivoluzione americana"
+    ],
+    "curiosita": "Iniziò nel Settecento e cambiò per sempre il lavoro e le città.",
+    "fatto": "rivoluzione macchina a vapore industriale",
+    "fonte": "https://it.wikipedia.org/wiki/Rivoluzione_industriale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0032",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale celebre lastra permise di decifrare i geroglifici egizi?",
+    "risposte": [
+      "Stele di Rosetta",
+      "Tavola di Hammurabi",
+      "Disco di Festo",
+      "Tavole di Eburna"
+    ],
+    "curiosita": "Riporta lo stesso testo in geroglifici, demotico e greco antico.",
+    "fatto": "lastra decifrazione geroglifici stele di rosetta",
+    "fonte": "https://it.wikipedia.org/wiki/Stele_di_Rosetta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0033",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Come si chiamava la nave ammiraglia di Cristoforo Colombo nel 1492?",
+    "risposte": [
+      "Santa Maria",
+      "Pinta",
+      "Niña",
+      "Mayflower"
+    ],
+    "curiosita": "Era una caracca, più grande delle due caravelle Pinta e Niña.",
+    "fatto": "nave ammiraglia colombo santa maria",
+    "fonte": "https://it.wikipedia.org/wiki/Santa_Maria_(caracca)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0034",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è patrona Giovanna d'Arco?",
+    "risposte": [
+      "Francia",
+      "Inghilterra",
+      "Italia",
+      "Spagna"
+    ],
+    "curiosita": "Fu condannata al rogo a soli 19 anni, nel 1431.",
+    "fatto": "giovanna d arco patrona francia",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanna_d'Arco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0035",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale secolo cadde l'Impero romano d'Occidente?",
+    "risposte": [
+      "V secolo",
+      "III secolo",
+      "VII secolo",
+      "IX secolo"
+    ],
+    "curiosita": "La data tradizionale è il 476 d.C.",
+    "fatto": "secolo caduta impero romano occidente quinto",
+    "fonte": "https://it.wikipedia.org/wiki/Caduta_dell'Impero_romano_d'Occidente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0036",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fu il primo ministro britannico durante gran parte della Seconda guerra mondiale?",
+    "risposte": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Harold Macmillan"
+    ],
+    "curiosita": "Nel 1953 vinse il premio Nobel per la letteratura.",
+    "fatto": "premier britannico seconda guerra churchill",
+    "fonte": "https://it.wikipedia.org/wiki/Winston_Churchill",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0037",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale capo dei barbari era chiamato il flagello di Dio?",
+    "risposte": [
+      "Attila",
+      "Alarico",
+      "Odoacre",
+      "Genserico"
+    ],
+    "curiosita": "Guidò gli Unni fino alle porte di Roma nel 452.",
+    "fatto": "flagello di dio attila",
+    "fonte": "https://it.wikipedia.org/wiki/Attila",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0038",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale nave portò i Padri Pellegrini in America nel 1620?",
+    "risposte": [
+      "Mayflower",
+      "Santa Maria",
+      "Beagle",
+      "Endeavour"
+    ],
+    "curiosita": "Salparono da Plymouth e fondarono la colonia di Plymouth in Massachusetts.",
+    "fatto": "nave padri pellegrini mayflower",
+    "fonte": "https://it.wikipedia.org/wiki/Mayflower",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0039",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale popolo aveva Tenochtitlan come capitale?",
+    "risposte": [
+      "Aztechi",
+      "Maya",
+      "Inca",
+      "Olmechi"
+    ],
+    "curiosita": "Sorgeva su un lago, dove oggi si trova Città del Messico.",
+    "fatto": "capitale tenochtitlan aztechi",
+    "fonte": "https://it.wikipedia.org/wiki/Tenochtitlan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0040",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale anno avanti Cristo, secondo la tradizione, fu fondata Roma?",
+    "risposte": [
+      "753",
+      "509",
+      "264",
+      "146"
+    ],
+    "curiosita": "La data fu fissata dallo studioso romano Marco Terenzio Varrone.",
+    "fatto": "anno fondazione roma 753 ac",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_di_Roma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0041",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fu il primo uomo a volare nello spazio?",
+    "risposte": [
+      "Jurij Gagarin",
+      "Neil Armstrong",
+      "John Glenn",
+      "Alan Shepard"
+    ],
+    "curiosita": "Nel 1961 compì un'orbita attorno alla Terra in meno di due ore.",
+    "fatto": "primo uomo nello spazio gagarin",
+    "fonte": "https://it.wikipedia.org/wiki/Jurij_Gagarin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0042",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale regina inglese regnò all'epoca della sconfitta dell'Invincibile Armata?",
+    "risposte": [
+      "Elisabetta I",
+      "Maria Stuarda",
+      "Vittoria",
+      "Anna"
+    ],
+    "curiosita": "La flotta spagnola fu battuta nel 1588 anche grazie a una tempesta.",
+    "fatto": "regina invincibile armata elisabetta i",
+    "fonte": "https://it.wikipedia.org/wiki/Elisabetta_I_d'Inghilterra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0043",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale re francese era chiamato il Re Sole?",
+    "risposte": [
+      "Luigi XIV",
+      "Luigi XVI",
+      "Napoleone III",
+      "Carlo Magno"
+    ],
+    "curiosita": "Il suo regno durò 72 anni, il più lungo in Europa.",
+    "fatto": "re sole luigi xiv",
+    "fonte": "https://it.wikipedia.org/wiki/Luigi_XIV_di_Francia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0044",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fondò il grande impero dei Mongoli nel XIII secolo?",
+    "risposte": [
+      "Gengis Khan",
+      "Attila",
+      "Tamerlano",
+      "Kublai Khan"
+    ],
+    "curiosita": "Dopo di lui l'impero arrivò dalla Corea all'Europa orientale.",
+    "fatto": "fondatore impero mongolo gengis khan",
+    "fonte": "https://it.wikipedia.org/wiki/Gengis_Khan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0045",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Come fu chiamata la divisione dell'Europa tra blocco occidentale e orientale dopo il 1945?",
+    "risposte": [
+      "Cortina di ferro",
+      "Linea Maginot",
+      "Muro Atlantico",
+      "Linea Gotica"
+    ],
+    "curiosita": "L'espressione fu resa celebre da Churchill in un discorso del 1946.",
+    "fatto": "divisione europa dopo il 1945 cortina di ferro",
+    "fonte": "https://it.wikipedia.org/wiki/Cortina_di_ferro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0046",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "A quale giorno del calendario romano è legato l'assassinio di Giulio Cesare?",
+    "risposte": [
+      "Idi di marzo",
+      "Calende di gennaio",
+      "Idi di maggio",
+      "Nonae di aprile"
+    ],
+    "curiosita": "Cesare fu pugnalato il 15 marzo del 44 a.C. in Senato.",
+    "fatto": "giorno assassinio cesare idi di marzo",
+    "fonte": "https://it.wikipedia.org/wiki/Idi_di_marzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0047",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città fu capitale dell'Impero romano d'Oriente?",
+    "risposte": [
+      "Costantinopoli",
+      "Alessandria",
+      "Antiochia",
+      "Atene"
+    ],
+    "curiosita": "Fu fondata sul sito di Bisanzio dall'imperatore Costantino.",
+    "fatto": "capitale impero romano d oriente costantinopoli",
+    "fonte": "https://it.wikipedia.org/wiki/Costantinopoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0048",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi guidò i bolscevichi nella Rivoluzione russa del 1917?",
+    "risposte": [
+      "Lenin",
+      "Trockij",
+      "Stalin",
+      "Kerenskij"
+    ],
+    "curiosita": "Rientrò in Russia dall'esilio su un treno sigillato attraverso la Germania.",
+    "fatto": "guida bolscevichi rivoluzione 1917 lenin",
+    "fonte": "https://it.wikipedia.org/wiki/Vladimir_Lenin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0049",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fu incoronato imperatore nella notte di Natale dell'anno 800?",
+    "risposte": [
+      "Carlo Magno",
+      "Ottone I",
+      "Federico Barbarossa",
+      "Napoleone"
+    ],
+    "curiosita": "L'incoronazione avvenne a Roma, per mano di papa Leone III.",
+    "fatto": "incoronato natale 800 carlo magno",
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_Magno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0050",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale re d'Inghilterra ebbe sei mogli?",
+    "risposte": [
+      "Enrico VIII",
+      "Riccardo III",
+      "Giorgio III",
+      "Edoardo VI"
+    ],
+    "curiosita": "Per divorziare dalla prima moglie ruppe con la Chiesa di Roma.",
+    "fatto": "re inglese sei mogli enrico viii",
+    "fonte": "https://it.wikipedia.org/wiki/Enrico_VIII_d'Inghilterra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0051",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi affisse le 95 tesi nel 1517, dando inizio alla Riforma protestante?",
+    "risposte": [
+      "Martin Lutero",
+      "Giovanni Calvino",
+      "Erasmo da Rotterdam",
+      "Ulrico Zwingli"
+    ],
+    "curiosita": "Le tesi criticavano la vendita delle indulgenze.",
+    "fatto": "95 tesi 1517 lutero",
+    "fonte": "https://it.wikipedia.org/wiki/Martin_Lutero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0052",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale statista guidò il Regno di Sardegna verso l'Unità d'Italia?",
+    "risposte": [
+      "Camillo Cavour",
+      "Giuseppe Mazzini",
+      "Francesco Crispi",
+      "Giovanni Giolitti"
+    ],
+    "curiosita": "Morì pochi mesi dopo la proclamazione del Regno, nel giugno 1861.",
+    "fatto": "statista regno di sardegna unita cavour",
+    "fonte": "https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0053",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale città si svolsero le prime Olimpiadi dell'era moderna nel 1896?",
+    "risposte": [
+      "Atene",
+      "Parigi",
+      "Londra",
+      "Roma"
+    ],
+    "curiosita": "Furono ideate dal barone Pierre de Coubertin.",
+    "fatto": "prime olimpiadi moderne 1896 atene",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_della_I_Olimpiade",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0054",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi guidò negli anni Sessanta il movimento per i diritti civili dei neri americani?",
+    "risposte": [
+      "Martin Luther King",
+      "Malcolm X",
+      "Rosa Parks",
+      "Muhammad Ali"
+    ],
+    "curiosita": "Nel 1963 pronunciò a Washington il discorso I have a dream.",
+    "fatto": "leader diritti civili anni sessanta martin luther king",
+    "fonte": "https://it.wikipedia.org/wiki/Martin_Luther_King",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0055",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città fu la prima capitale del Regno d'Italia?",
+    "risposte": [
+      "Torino",
+      "Milano",
+      "Firenze",
+      "Napoli"
+    ],
+    "curiosita": "Restò capitale fino al 1865, quando fu sostituita da Firenze.",
+    "fatto": "prima capitale regno d italia torino",
+    "fonte": "https://it.wikipedia.org/wiki/Torino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0056",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale faraone ha avuto la tomba scoperta intatta nel 1922?",
+    "risposte": [
+      "Tutankhamon",
+      "Ramses II",
+      "Cheope",
+      "Akhenaton"
+    ],
+    "curiosita": "Il ritrovamento fu opera dell'archeologo inglese Howard Carter.",
+    "fatto": "tomba scoperta 1922 tutankhamon",
+    "fonte": "https://it.wikipedia.org/wiki/Tutankhamon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0057",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale veneziano raccontò i suoi viaggi in Cina nel libro Il Milione?",
+    "risposte": [
+      "Marco Polo",
+      "Giovanni Caboto",
+      "Amerigo Vespucci",
+      "Antonio Pigafetta"
+    ],
+    "curiosita": "Dettò il libro in carcere a Genova a Rustichello da Pisa.",
+    "fatto": "autore il milione marco polo",
+    "fonte": "https://it.wikipedia.org/wiki/Marco_Polo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0058",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Come si chiamò la guerra combattuta tra Nord e Sud degli Stati Uniti dal 1861 al 1865?",
+    "risposte": [
+      "Guerra di secessione",
+      "Guerra d'indipendenza",
+      "Guerra dei Sette anni",
+      "Guerra di Corea"
+    ],
+    "curiosita": "Terminò con l'abolizione della schiavitù negli Stati Uniti.",
+    "fatto": "guerra nord sud stati uniti secessione",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_di_secessione_americana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0059",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale zar fondò la città di San Pietroburgo?",
+    "risposte": [
+      "Pietro il Grande",
+      "Ivan il Terribile",
+      "Alessandro I",
+      "Nicola II"
+    ],
+    "curiosita": "La fece costruire nel 1703 su un terreno paludoso, per aprire la Russia al mare.",
+    "fatto": "zar fondatore san pietroburgo pietro il grande",
+    "fonte": "https://it.wikipedia.org/wiki/Pietro_I_di_Russia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0060",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale guerra oppose Atene e Sparta nel V secolo a.C.?",
+    "risposte": [
+      "Guerra del Peloponneso",
+      "Guerra di Troia",
+      "Guerre persiane",
+      "Guerre puniche"
+    ],
+    "curiosita": "Il racconto più famoso è quello dello storico Tucidide.",
+    "fatto": "guerra atene sparta peloponneso",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_del_Peloponneso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0061",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu l'ultimo imperatore romano d'Occidente, deposto nel 476?",
+    "risposte": [
+      "Romolo Augustolo",
+      "Costantino",
+      "Teodosio",
+      "Giustiniano"
+    ],
+    "curiosita": "Aveva circa 16 anni quando fu deposto da Odoacre.",
+    "fatto": "ultimo imperatore romano d occidente romolo augustolo",
+    "fonte": "https://it.wikipedia.org/wiki/Romolo_Augustolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0062",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu il primo uomo a raggiungere il Polo Sud, nel 1911?",
+    "risposte": [
+      "Roald Amundsen",
+      "Robert Scott",
+      "Ernest Shackleton",
+      "Fridtjof Nansen"
+    ],
+    "curiosita": "Arrivò poche settimane prima di Scott, che morì sulla via del ritorno.",
+    "fatto": "primo polo sud amundsen",
+    "fonte": "https://it.wikipedia.org/wiki/Roald_Amundsen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0063",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu l'ultimo zar di Russia?",
+    "risposte": [
+      "Nicola II",
+      "Alessandro III",
+      "Pietro III",
+      "Ivan VI"
+    ],
+    "curiosita": "Abdicò nel 1917, poco prima della Rivoluzione d'ottobre.",
+    "fatto": "ultimo zar di russia nicola ii",
+    "fonte": "https://it.wikipedia.org/wiki/Nicola_II_di_Russia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0064",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale città fu capitale d'Italia dal 1865 al 1871?",
+    "risposte": [
+      "Firenze",
+      "Torino",
+      "Napoli",
+      "Milano"
+    ],
+    "curiosita": "Il Parlamento si riuniva a Palazzo Vecchio.",
+    "fatto": "capitale italia 1865 1871 firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Firenze_capitale_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0065",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In quale Paese fu firmata nel 1215 la Magna Carta?",
+    "risposte": [
+      "Inghilterra",
+      "Francia",
+      "Scozia",
+      "Spagna"
+    ],
+    "curiosita": "Limitò il potere del re Giovanni, detto Senzaterra.",
+    "fatto": "magna carta 1215 inghilterra",
+    "fonte": "https://it.wikipedia.org/wiki/Magna_Carta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0066",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale battaglia del 1066 portò Guglielmo il Conquistatore sul trono inglese?",
+    "risposte": [
+      "Hastings",
+      "Agincourt",
+      "Bosworth",
+      "Crécy"
+    ],
+    "curiosita": "La sua scena è ricamata sull'arazzo di Bayeux.",
+    "fatto": "battaglia 1066 guglielmo conquistatore hastings",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Hastings",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0067",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale ammiraglio inglese morì nella battaglia di Trafalgar del 1805?",
+    "risposte": [
+      "Horatio Nelson",
+      "Francis Drake",
+      "Walter Raleigh",
+      "James Cook"
+    ],
+    "curiosita": "La Royal Navy sconfisse le flotte francese e spagnola.",
+    "fatto": "ammiraglio morto a trafalgar nelson",
+    "fonte": "https://it.wikipedia.org/wiki/Horatio_Nelson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0068",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale popolo fondò Cartagine?",
+    "risposte": [
+      "Fenici",
+      "Greci",
+      "Etruschi",
+      "Egizi"
+    ],
+    "curiosita": "Secondo la tradizione, la fondò la principessa Didone.",
+    "fatto": "popolo fondatore di cartagine fenici",
+    "fonte": "https://it.wikipedia.org/wiki/Cartagine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0069",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore romano iniziò la costruzione del Colosseo?",
+    "risposte": [
+      "Vespasiano",
+      "Nerone",
+      "Traiano",
+      "Adriano"
+    ],
+    "curiosita": "Fu inaugurato nell'80 d.C. dal figlio Tito.",
+    "fatto": "imperatore avvio costruzione colosseo vespasiano",
+    "fonte": "https://it.wikipedia.org/wiki/Colosseo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0070",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale trattato del 1648 pose fine alla Guerra dei trent'anni?",
+    "risposte": [
+      "Pace di Vestfalia",
+      "Trattato di Utrecht",
+      "Pace di Augusta",
+      "Trattato dei Pirenei"
+    ],
+    "curiosita": "Da qui nacque l'idea moderna di Stati sovrani con confini definiti.",
+    "fatto": "trattato 1648 guerra dei trent anni vestfalia",
+    "fonte": "https://it.wikipedia.org/wiki/Pace_di_Vestfalia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0071",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale assemblea riordinò l'Europa dopo la caduta di Napoleone?",
+    "risposte": [
+      "Congresso di Vienna",
+      "Congresso di Berlino",
+      "Conferenza di Yalta",
+      "Congresso di Verona"
+    ],
+    "curiosita": "Si svolse tra il 1814 e il 1815.",
+    "fatto": "riordino europa dopo napoleone congresso di vienna",
+    "fonte": "https://it.wikipedia.org/wiki/Congresso_di_Vienna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0072",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore bizantino fece costruire la basilica di Santa Sofia?",
+    "risposte": [
+      "Giustiniano",
+      "Costantino",
+      "Teodosio",
+      "Eraclio"
+    ],
+    "curiosita": "La basilica fu inaugurata nel 537 dopo soli cinque anni di lavori.",
+    "fatto": "imperatore costruzione santa sofia giustiniano",
+    "fonte": "https://it.wikipedia.org/wiki/Giustiniano_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0073",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In che anno Costantinopoli cadde in mano ai Turchi ottomani?",
+    "risposte": [
+      "1453",
+      "1492",
+      "1204",
+      "1389"
+    ],
+    "curiosita": "Il sultano Maometto II aveva appena 21 anni.",
+    "fatto": "anno caduta costantinopoli 1453",
+    "fonte": "https://it.wikipedia.org/wiki/Caduta_di_Costantinopoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0074",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In che anno fu approvata la Dichiarazione d'indipendenza degli Stati Uniti?",
+    "risposte": [
+      "1776",
+      "1789",
+      "1783",
+      "1812"
+    ],
+    "curiosita": "Il testo fu scritto in gran parte da Thomas Jefferson.",
+    "fatto": "anno dichiarazione indipendenza stati uniti 1776",
+    "fonte": "https://it.wikipedia.org/wiki/Dichiarazione_d'indipendenza_degli_Stati_Uniti_d'America",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0075",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale conquistador spagnolo sconfisse l'impero azteco?",
+    "risposte": [
+      "Hernán Cortés",
+      "Francisco Pizarro",
+      "Vasco Núñez de Balboa",
+      "Francisco de Orellana"
+    ],
+    "curiosita": "Sbarcò in Messico nel 1519 con circa 500 uomini.",
+    "fatto": "conquistatore impero azteco cortes",
+    "fonte": "https://it.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0076",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale conquistador spagnolo sottomise l'impero inca?",
+    "risposte": [
+      "Francisco Pizarro",
+      "Hernán Cortés",
+      "Pedro de Alvarado",
+      "Diego de Almagro"
+    ],
+    "curiosita": "Catturò l'imperatore Atahualpa a Cajamarca, nel 1532.",
+    "fatto": "conquistatore impero inca pizarro",
+    "fonte": "https://it.wikipedia.org/wiki/Francisco_Pizarro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0077",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore romano divise il governo dell'impero in tetrarchia?",
+    "risposte": [
+      "Diocleziano",
+      "Costantino",
+      "Adriano",
+      "Traiano"
+    ],
+    "curiosita": "Il sistema affidava l'impero a quattro governanti, due augusti e due cesari.",
+    "fatto": "imperatore tetrarchia diocleziano",
+    "fonte": "https://it.wikipedia.org/wiki/Diocleziano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0078",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore romano emanò nel 313 l'Editto di Milano?",
+    "risposte": [
+      "Costantino",
+      "Teodosio",
+      "Nerone",
+      "Diocleziano"
+    ],
+    "curiosita": "Garantì libertà di culto ai cristiani.",
+    "fatto": "editto di milano 313 costantino",
+    "fonte": "https://it.wikipedia.org/wiki/Editto_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0079",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fondò nel 1540 l'ordine religioso dei Gesuiti?",
+    "risposte": [
+      "Ignazio di Loyola",
+      "Francesco Saverio",
+      "Filippo Neri",
+      "Domenico di Guzmán"
+    ],
+    "curiosita": "Era stato un soldato, ferito in battaglia nel 1521.",
+    "fatto": "fondatore gesuiti ignazio di loyola",
+    "fonte": "https://it.wikipedia.org/wiki/Ignazio_di_Loyola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0080",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi guidò la rivolta degli schiavi contro Roma nel 73 a.C.?",
+    "risposte": [
+      "Spartaco",
+      "Crasso",
+      "Spurio Cassio",
+      "Vercingetorige"
+    ],
+    "curiosita": "Il suo esercito arrivò a contare decine di migliaia di uomini.",
+    "fatto": "guida rivolta schiavi 73 ac spartaco",
+    "fonte": "https://it.wikipedia.org/wiki/Spartaco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0081",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale battaglia navale del 1571 vide la Lega Santa battere gli Ottomani?",
+    "risposte": [
+      "Lepanto",
+      "Azio",
+      "Salamina",
+      "Trafalgar"
+    ],
+    "curiosita": "Tra i combattenti ci fu anche lo scrittore Miguel de Cervantes.",
+    "fatto": "battaglia navale 1571 lepanto",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Lepanto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0082",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Presso quale passo trecento spartani resistettero ai Persiani nel 480 a.C.?",
+    "risposte": [
+      "Termopili",
+      "Maratona",
+      "Salamina",
+      "Platea"
+    ],
+    "curiosita": "Il re Leonida cadde con i suoi uomini.",
+    "fatto": "passo trecento spartani termopili",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_delle_Termopili",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0083",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale trattato del 1919 impose le condizioni di pace alla Germania?",
+    "risposte": [
+      "Trattato di Versailles",
+      "Trattato di Trianon",
+      "Trattato di Parigi",
+      "Trattato di Sèvres"
+    ],
+    "curiosita": "Fu firmato nella Galleria degli Specchi della reggia di Versailles.",
+    "fatto": "trattato 1919 germania versailles",
+    "fonte": "https://it.wikipedia.org/wiki/Trattato_di_Versailles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0084",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale dinastia regnò sull'Italia dal 1861 al 1946?",
+    "risposte": [
+      "Savoia",
+      "Borbone",
+      "Asburgo",
+      "Medici"
+    ],
+    "curiosita": "Era originaria della Savoia, regione oggi in Francia.",
+    "fatto": "dinastia regno d italia savoia",
+    "fonte": "https://it.wikipedia.org/wiki/Casa_Savoia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0085",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu l'ultimo re d'Italia?",
+    "risposte": [
+      "Umberto II",
+      "Vittorio Emanuele III",
+      "Umberto I",
+      "Amedeo"
+    ],
+    "curiosita": "Regnò per soli 34 giorni, nel 1946, e fu detto il re di maggio.",
+    "fatto": "ultimo re d italia umberto ii",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_II_di_Savoia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0086",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale famiglia di banchieri governò Firenze nel Rinascimento come grande mecenate?",
+    "risposte": [
+      "Medici",
+      "Sforza",
+      "Gonzaga",
+      "Este"
+    ],
+    "curiosita": "Lorenzo il Magnifico fu tra i più grandi protettori delle arti.",
+    "fatto": "famiglia mecenate firenze medici",
+    "fonte": "https://it.wikipedia.org/wiki/Medici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0087",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu assassinato a Sarajevo nel 1914, evento che scatenò la Prima guerra mondiale?",
+    "risposte": [
+      "Francesco Ferdinando",
+      "Francesco Giuseppe",
+      "Guglielmo II",
+      "Nicola II"
+    ],
+    "curiosita": "Era l'erede al trono dell'Impero austro-ungarico.",
+    "fatto": "assassinio sarajevo 1914 francesco ferdinando",
+    "fonte": "https://it.wikipedia.org/wiki/Attentato_di_Sarajevo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0088",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu il padre di Alessandro Magno?",
+    "risposte": [
+      "Filippo II di Macedonia",
+      "Dario III",
+      "Leonida",
+      "Pericle"
+    ],
+    "curiosita": "Fu ucciso nel 336 a.C. durante le nozze della figlia.",
+    "fatto": "padre di alessandro magno filippo ii",
+    "fonte": "https://it.wikipedia.org/wiki/Filippo_II_di_Macedonia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0089",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In quale battaglia del 216 a.C. Annibale sconfisse i Romani?",
+    "risposte": [
+      "Canne",
+      "Zama",
+      "Azio",
+      "Farsalo"
+    ],
+    "curiosita": "Fu una delle più grandi disfatte dell'esercito romano.",
+    "fatto": "battaglia 216 ac annibale canne",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Canne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0090",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore romano fece costruire un muro in Britannia nel 122 d.C.?",
+    "risposte": [
+      "Adriano",
+      "Traiano",
+      "Marco Aurelio",
+      "Claudio"
+    ],
+    "curiosita": "Il vallo di Adriano, lungo circa 117 chilometri, segnava il confine nord.",
+    "fatto": "imperatore muro britannia adriano",
+    "fonte": "https://it.wikipedia.org/wiki/Vallo_di_Adriano",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "cl-lin-0001",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il plurale corretto di «uovo»?",
+    "risposte": [
+      "Uova",
+      "Uovi",
+      "Uove",
+      "Ove"
+    ],
+    "curiosita": "Uovo fa uova: è un plurale femminile in -a, come «paio» e «miglio».",
+    "fatto": "plurale uovo uova",
+    "fonte": "https://it.wikipedia.org/wiki/Uovo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0002",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «avere le mani in pasta»?",
+    "risposte": [
+      "Essere coinvolto",
+      "Cucinare molto bene",
+      "Avere le mani sporche",
+      "Non saper fare niente"
+    ],
+    "curiosita": "Si dice di chi partecipa in prima persona a un affare o a un'attività.",
+    "fatto": "modo di dire mani in pasta",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0003",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «prendere due piccioni con una fava»?",
+    "risposte": [
+      "Ottenere due risultati",
+      "Fare un lavoro doppio",
+      "Sprecare un'occasione",
+      "Cacciare di frodo"
+    ],
+    "curiosita": "Un solo gesto per risolvere due problemi: la fava fa da esca.",
+    "fatto": "modo di dire due piccioni una fava",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0004",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa si risponde a chi dice «In bocca al lupo»?",
+    "risposte": [
+      "Crepi",
+      "Grazie",
+      "Evviva",
+      "Magari"
+    ],
+    "curiosita": "Risponderne «Grazie» porterebbe sfortuna, dicono i più scaramantici.",
+    "fatto": "risposta in bocca al lupo crepi",
+    "fonte": "https://it.wikipedia.org/wiki/In_bocca_al_lupo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0005",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quante lettere ha l'alfabeto italiano?",
+    "risposte": [
+      "21",
+      "26",
+      "22",
+      "24"
+    ],
+    "curiosita": "J, K, W, X e Y si trovano solo in parole straniere.",
+    "fatto": "lettere alfabeto italiano 21",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto_italiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0006",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si chiama il segno ’ in «l’amico»?",
+    "risposte": [
+      "Apostrofo",
+      "Accento",
+      "Virgoletta",
+      "Trattino"
+    ],
+    "curiosita": "Segnala che una vocale è stata tolta: è l'elisione.",
+    "fatto": "nome segno apostrofo",
+    "fonte": "https://it.wikipedia.org/wiki/Apostrofo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0007",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si chiama il segno di punteggiatura «;»?",
+    "risposte": [
+      "Punto e virgola",
+      "Due punti",
+      "Punto sospensivo",
+      "Virgola alta"
+    ],
+    "curiosita": "Fa una pausa più lunga della virgola e più corta del punto.",
+    "fatto": "nome segno punto e virgola",
+    "fonte": "https://it.wikipedia.org/wiki/Punto_e_virgola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0008",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quale di queste parole è un palindromo?",
+    "risposte": [
+      "Anna",
+      "Mamma",
+      "Nonna",
+      "Zio"
+    ],
+    "curiosita": "Si legge uguale da sinistra e da destra, come «otto» e «radar».",
+    "fatto": "palindromo anna",
+    "fonte": "https://it.wikipedia.org/wiki/Palindromo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0009",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il femminile di «attore»?",
+    "risposte": [
+      "Attrice",
+      "Attoressa",
+      "Attora",
+      "Attrica"
+    ],
+    "curiosita": "Come «imperatore» e «imperatrice», viene dal suffisso latino -trix.",
+    "fatto": "femminile attore attrice",
+    "fonte": "https://it.wikipedia.org/wiki/Attore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0010",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Completa il proverbio: «Meglio un uovo oggi che...»",
+    "risposte": [
+      "una gallina domani",
+      "un pollo ieri",
+      "un'oca stasera",
+      "un gallo domani"
+    ],
+    "curiosita": "Un vantaggio certo vale più di uno futuro, anche se maggiore.",
+    "fatto": "proverbio meglio un uovo oggi",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0011",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «fare orecchie da mercante»?",
+    "risposte": [
+      "Fingere di non sentire",
+      "Ascoltare con attenzione",
+      "Vendere a buon prezzo",
+      "Origliare di nascosto"
+    ],
+    "curiosita": "Il mercante sente benissimo, ma fa finta di niente.",
+    "fatto": "modo di dire orecchie da mercante",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0012",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si scrive: «Lui ___ fame»?",
+    "risposte": [
+      "ha",
+      "a",
+      "ah",
+      "ai"
+    ],
+    "curiosita": "La h lo distingue dalla preposizione «a».",
+    "fatto": "ha verbo avere h",
+    "fonte": "https://it.wikipedia.org/wiki/Avere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0013",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «costare un occhio della testa»?",
+    "risposte": [
+      "Costare moltissimo",
+      "Costare pochissimo",
+      "Essere un affare",
+      "Non avere prezzo"
+    ],
+    "curiosita": "Un occhio è qualcosa a cui nessuno vorrebbe rinunciare.",
+    "fatto": "modo di dire occhio della testa",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0014",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si chiamano le parole che imitano un suono, come «bum» o «din don»?",
+    "risposte": [
+      "Onomatopee",
+      "Sinonimi",
+      "Omonimi",
+      "Anagrammi"
+    ],
+    "curiosita": "Il nome viene dal greco e vuol dire «creazione di nomi».",
+    "fatto": "onomatopee suoni",
+    "fonte": "https://it.wikipedia.org/wiki/Onomatopea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0015",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «avere un chiodo fisso»?",
+    "risposte": [
+      "Avere un pensiero fisso",
+      "Essere poco paziente",
+      "Avere mal di testa",
+      "Essere molto distratto"
+    ],
+    "curiosita": "Il chiodo è piantato e non si muove: come l'idea.",
+    "fatto": "modo di dire chiodo fisso",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0016",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Da quale lingua deriva l'italiano?",
+    "risposte": [
+      "Latino",
+      "Greco",
+      "Etrusco",
+      "Francese"
+    ],
+    "curiosita": "Il latino volgare, parlato dal popolo, si trasformò nei secoli.",
+    "fatto": "origine lingua italiana latino",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0017",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi è considerato il padre della lingua italiana?",
+    "risposte": [
+      "Dante Alighieri",
+      "Petrarca",
+      "Boccaccio",
+      "Manzoni"
+    ],
+    "curiosita": "La Divina Commedia fu scritta in volgare fiorentino, non in latino.",
+    "fatto": "padre lingua italiana dante",
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0018",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Completa: «Se io ___ ricco, comprerei una barca»",
+    "risposte": [
+      "fossi",
+      "ero",
+      "sarei",
+      "sono"
+    ],
+    "curiosita": "Dopo «se» in un'ipotesi irreale si usa il congiuntivo imperfetto.",
+    "fatto": "congiuntivo imperfetto fossi",
+    "fonte": "https://it.wikipedia.org/wiki/Congiuntivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0019",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il plurale di «amico»?",
+    "risposte": [
+      "Amici",
+      "Amichi",
+      "Amice",
+      "Amicci"
+    ],
+    "curiosita": "I plurali in -co e -go sono tra i più insidiosi: amici, ma fichi.",
+    "fatto": "plurale amico amici",
+    "fonte": "https://it.wikipedia.org/wiki/Amico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0020",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quale accento si scrive su «perché»?",
+    "risposte": [
+      "Acuto",
+      "Grave",
+      "Circonflesso",
+      "Dieresi"
+    ],
+    "curiosita": "Finisce in é chiusa: accento acuto, come «né» e «sé».",
+    "fatto": "accento perche",
+    "fonte": "https://it.wikipedia.org/wiki/Accento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0021",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quante sillabe ha la parola «cioccolato»?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "Le doppie si dividono tra due sillabe: cioc-co-la-to.",
+    "fatto": "sillabe cioccolato",
+    "fonte": "https://it.wikipedia.org/wiki/Sillaba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0022",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «dolce far niente»?",
+    "risposte": [
+      "Il piacere dell'ozio",
+      "Il gusto di cucinare",
+      "Un dolce senza cottura",
+      "Lavorare con calma"
+    ],
+    "curiosita": "È un'espressione italiana nota in tutto il mondo.",
+    "fatto": "dolce far niente",
+    "fonte": "https://it.wikipedia.org/wiki/Dolce_far_niente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0023",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Completa il proverbio: «Rosso di sera, ...»",
+    "risposte": [
+      "bel tempo si spera",
+      "pioggia si spera",
+      "domani vien la nebbia",
+      "il pescatore spera"
+    ],
+    "curiosita": "È un proverbio meteo: il cielo rosso al tramonto annuncia sereno.",
+    "fatto": "proverbio rosso di sera",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0024",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa indica il prefisso «anti-» in «antifurto»?",
+    "risposte": [
+      "Contro",
+      "Prima",
+      "Dopo",
+      "Dentro"
+    ],
+    "curiosita": "Viene dal greco, e si ritrova in antibiotico e anticorpo.",
+    "fatto": "prefisso anti contro",
+    "fonte": "https://it.wikipedia.org/wiki/Prefisso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0025",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si chiama la parte del discorso che indica persone, animali o cose?",
+    "risposte": [
+      "Sostantivo",
+      "Verbo",
+      "Avverbio",
+      "Preposizione"
+    ],
+    "curiosita": "Si chiama anche «nome» e può essere comune o proprio.",
+    "fatto": "sostantivo nome parte discorso",
+    "fonte": "https://it.wikipedia.org/wiki/Sostantivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0026",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è l'articolo giusto: «___ zaino»?",
+    "risposte": [
+      "Lo",
+      "Il",
+      "Gli",
+      "La"
+    ],
+    "curiosita": "Lo si usa davanti a s impura, z, gn, ps: lo zaino, lo studente.",
+    "fatto": "articolo lo zaino",
+    "fonte": "https://it.wikipedia.org/wiki/Articolo_(grammatica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0027",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il plurale di «bacio»?",
+    "risposte": [
+      "Baci",
+      "Bacii",
+      "Bacie",
+      "Bacij"
+    ],
+    "curiosita": "Le parole in -io con i non accentata fanno il plurale in -i.",
+    "fatto": "plurale bacio baci",
+    "fonte": "https://it.wikipedia.org/wiki/Bacio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0028",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Completa: «Ho visto i ragazzi e ___ ho salutati»",
+    "risposte": [
+      "li",
+      "gli",
+      "le",
+      "lo"
+    ],
+    "curiosita": "«Li» è il pronome diretto plurale; «gli» vuol dire «a lui».",
+    "fatto": "pronome li ho salutati",
+    "fonte": "https://it.wikipedia.org/wiki/Pronome",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0029",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «avere la testa fra le nuvole»?",
+    "risposte": [
+      "Essere distratto",
+      "Avere le vertigini",
+      "Essere in aereo",
+      "Essere molto alto"
+    ],
+    "curiosita": "Chi guarda le nuvole non fa caso a ciò che ha intorno.",
+    "fatto": "modo di dire testa fra le nuvole",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0030",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Come si chiama una parola nuova, inventata o appena entrata nell'uso?",
+    "risposte": [
+      "Neologismo",
+      "Arcaismo",
+      "Dialetto",
+      "Acronimo"
+    ],
+    "curiosita": "Dal greco: «neos» (nuovo) e «logos» (parola).",
+    "fatto": "neologismo definizione",
+    "fonte": "https://it.wikipedia.org/wiki/Neologismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0031",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «essere al verde»?",
+    "risposte": [
+      "Non avere soldi",
+      "Essere gelosi",
+      "Stare per partire",
+      "Essere in forma"
+    ],
+    "curiosita": "Secondo una tradizione, il fondo delle candele delle aste era dipinto di verde.",
+    "fatto": "modo di dire essere al verde",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0032",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale espressione dialettale deriva «ciao»?",
+    "risposte": [
+      "Schiavo vostro",
+      "Siate felici",
+      "Chiaro e netto",
+      "Che ora è"
+    ],
+    "curiosita": "Nel veneto «s'ciào» voleva dire «sono vostro servo».",
+    "fatto": "origine ciao schiavo vostro",
+    "fonte": "https://it.wikipedia.org/wiki/Ciao",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0033",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «menare il can per l'aia»?",
+    "risposte": [
+      "Tirare in lungo",
+      "Portare a spasso",
+      "Fare le pulizie",
+      "Dare ordini"
+    ],
+    "curiosita": "L'aia è il piazzale dove si batte il grano.",
+    "fatto": "modo di dire menare il can per l aia",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0034",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «piantare in asso»?",
+    "risposte": [
+      "Abbandonare qualcuno",
+      "Vincere a carte",
+      "Seminare in primavera",
+      "Fare un colpo grosso"
+    ],
+    "curiosita": "Secondo una tesi diffusa, viene da Nasso, dove Teseo lasciò Arianna.",
+    "fatto": "modo di dire piantare in asso",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0035",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «cadere dalle nuvole»?",
+    "risposte": [
+      "Stupirsi di una novità",
+      "Avere un incidente",
+      "Svegliarsi tardi",
+      "Dire una bugia"
+    ],
+    "curiosita": "Si dice di chi finge, o davvero è, del tutto all'oscuro.",
+    "fatto": "modo di dire cadere dalle nuvole",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0036",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «mettere la pulce nell'orecchio»?",
+    "risposte": [
+      "Far nascere un sospetto",
+      "Dare fastidio",
+      "Raccontare una favola",
+      "Parlare troppo piano"
+    ],
+    "curiosita": "Come una pulce, il dubbio non lascia più in pace.",
+    "fatto": "modo di dire pulce nell orecchio",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0037",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «andare in brodo di giuggiole»?",
+    "risposte": [
+      "Essere al settimo cielo",
+      "Ammalarsi",
+      "Mangiare troppo",
+      "Perdere la pazienza"
+    ],
+    "curiosita": "Il brodo di giuggiole è un liquore dolce fatto con i frutti del giuggiolo.",
+    "fatto": "modo di dire brodo di giuggiole",
+    "fonte": "https://it.wikipedia.org/wiki/Brodo_di_giuggiole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0038",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «alzare i tacchi»?",
+    "risposte": [
+      "Andarsene in fretta",
+      "Mettersi in mostra",
+      "Ballare",
+      "Fare una scenata"
+    ],
+    "curiosita": "Si alzano i tacchi per mettersi a correre.",
+    "fatto": "modo di dire alzare i tacchi",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0039",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «prendere un granchio»?",
+    "risposte": [
+      "Fare un errore",
+      "Andare al mare",
+      "Mangiare pesce",
+      "Arrabbiarsi"
+    ],
+    "curiosita": "Il granchio cammina di traverso: così va chi sbaglia strada.",
+    "fatto": "modo di dire prendere un granchio",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0040",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama la figura retorica di «silenzio assordante»?",
+    "risposte": [
+      "Ossimoro",
+      "Metafora",
+      "Similitudine",
+      "Iperbole"
+    ],
+    "curiosita": "Unisce due termini opposti; dal greco: «acuto-ottuso».",
+    "fatto": "figura retorica ossimoro",
+    "fonte": "https://it.wikipedia.org/wiki/Ossimoro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0041",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'esagerazione retorica di «te l'ho detto mille volte»?",
+    "risposte": [
+      "Iperbole",
+      "Litote",
+      "Metonimia",
+      "Ellissi"
+    ],
+    "curiosita": "Dal greco «hyperbolé»: lanciare oltre.",
+    "fatto": "figura retorica iperbole",
+    "fonte": "https://it.wikipedia.org/wiki/Iperbole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0042",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama una parola formata dalle iniziali di più parole, come «NATO»?",
+    "risposte": [
+      "Acronimo",
+      "Anagramma",
+      "Neologismo",
+      "Arcaismo"
+    ],
+    "curiosita": "Se si legge come una parola vera è un acronimo; sillabe a parte, una sigla.",
+    "fatto": "acronimo definizione",
+    "fonte": "https://it.wikipedia.org/wiki/Acronimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0043",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama la caduta della parte finale di una parola, come «buon» da «buono»?",
+    "risposte": [
+      "Troncamento",
+      "Elisione",
+      "Contrazione",
+      "Sincope"
+    ],
+    "curiosita": "Di solito non vuole l'apostrofo: un buon amico.",
+    "fatto": "troncamento definizione",
+    "fonte": "https://it.wikipedia.org/wiki/Troncamento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0044",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si scrive «quale è» troncato?",
+    "risposte": [
+      "Qual è",
+      "Quall'è",
+      "Quale'",
+      "Quàl"
+    ],
+    "curiosita": "«Qual» è un troncamento, non un'elisione: non vuole l'apostrofo.",
+    "fatto": "qual e senza apostrofo",
+    "fonte": "https://it.wikipedia.org/wiki/Troncamento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0045",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale segno compare alla fine di «po'», troncamento di «poco»?",
+    "risposte": [
+      "Apostrofo",
+      "Accento grave",
+      "Accento acuto",
+      "Punto"
+    ],
+    "curiosita": "È un troncamento con l'apostrofo, non un accento.",
+    "fatto": "un po apostrofo",
+    "fonte": "https://it.wikipedia.org/wiki/Troncamento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0046",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale sostanza dà il nome a «salario»?",
+    "risposte": [
+      "Sale",
+      "Zucchero",
+      "Pepe",
+      "Olio"
+    ],
+    "curiosita": "Secondo la tradizione, i soldati romani ricevevano una razione di sale.",
+    "fatto": "origine salario sale",
+    "fonte": "https://it.wikipedia.org/wiki/Salario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0047",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa indica la parola «ostracismo»?",
+    "risposte": [
+      "Esclusione da un gruppo",
+      "Mania per le ostriche",
+      "Gara di oratoria",
+      "Potere assoluto"
+    ],
+    "curiosita": "Ad Atene si votava su cocci di terracotta, gli «ostraka».",
+    "fatto": "significato ostracismo",
+    "fonte": "https://it.wikipedia.org/wiki/Ostracismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0048",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale cognome deriva il verbo «boicottare»?",
+    "risposte": [
+      "Boycott",
+      "Bolt",
+      "Bowie",
+      "Boone"
+    ],
+    "curiosita": "Fu un amministratore irlandese isolato dai contadini nel 1880.",
+    "fatto": "origine boicottare",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_Boycott",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0049",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa la locuzione latina «carpe diem»?",
+    "risposte": [
+      "Cogli l'attimo",
+      "Pesca il carpione",
+      "Vivi in pace",
+      "Ricorda il giorno"
+    ],
+    "curiosita": "È un verso delle Odi del poeta latino Orazio.",
+    "fatto": "carpe diem significato",
+    "fonte": "https://it.wikipedia.org/wiki/Carpe_diem",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0050",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa la locuzione latina «ad hoc»?",
+    "risposte": [
+      "Fatto apposta",
+      "Fatto in fretta",
+      "Di grande valore",
+      "Senza fine"
+    ],
+    "curiosita": "Alla lettera «per questo».",
+    "fatto": "ad hoc significato",
+    "fonte": "https://it.wikipedia.org/wiki/Ad_hoc",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0051",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «effimero»?",
+    "risposte": [
+      "Di breve durata",
+      "Molto resistente",
+      "Di grande valore",
+      "Pieno di luce"
+    ],
+    "curiosita": "Dal greco, indicava ciò che dura un solo giorno.",
+    "fatto": "significato effimero",
+    "fonte": "https://it.wikipedia.org/wiki/Effimero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0052",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Completa: «Penso che lui ___ ragione»",
+    "risposte": [
+      "abbia",
+      "ha",
+      "avrebbe",
+      "aveva"
+    ],
+    "curiosita": "I verbi di opinione come «pensare» reggono il congiuntivo.",
+    "fatto": "congiuntivo abbia ragione",
+    "fonte": "https://it.wikipedia.org/wiki/Congiuntivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0053",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale lingua viene la parola «algebra»?",
+    "risposte": [
+      "Arabo",
+      "Greco",
+      "Latino",
+      "Persiano"
+    ],
+    "curiosita": "Deriva da «al-jabr», titolo di un'opera del matematico al-Khwarizmi.",
+    "fatto": "origine algebra arabo",
+    "fonte": "https://it.wikipedia.org/wiki/Algebra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0054",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "In quale città ha sede l'Accademia della Crusca?",
+    "risposte": [
+      "Firenze",
+      "Roma",
+      "Siena",
+      "Pisa"
+    ],
+    "curiosita": "Il suo simbolo è un frullone, lo strumento che setaccia la farina.",
+    "fatto": "sede accademia della crusca",
+    "fonte": "https://it.wikipedia.org/wiki/Accademia_della_Crusca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0055",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale parola, coniata da un bambino nel 2016, fu commentata dalla Crusca?",
+    "risposte": [
+      "Petaloso",
+      "Fiorito",
+      "Colorato",
+      "Profumoso"
+    ],
+    "curiosita": "La Crusca la definì ben formata, ma ne rimandò l'ingresso nei vocabolari.",
+    "fatto": "petaloso crusca",
+    "fonte": "https://it.wikipedia.org/wiki/Petaloso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0056",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa la locuzione latina «una tantum»?",
+    "risposte": [
+      "Una volta sola",
+      "Tutti insieme",
+      "Uno per volta",
+      "Molto tempo"
+    ],
+    "curiosita": "Si usa per pagamenti o tasse non ripetuti nel tempo.",
+    "fatto": "una tantum significato",
+    "fonte": "https://it.wikipedia.org/wiki/Una_tantum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0057",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «in extremis»?",
+    "risposte": [
+      "All'ultimo momento",
+      "In modo estremo",
+      "Fuori dal paese",
+      "Con grande forza"
+    ],
+    "curiosita": "Alla lettera «negli ultimi istanti».",
+    "fatto": "in extremis significato",
+    "fonte": "https://it.wikipedia.org/wiki/In_extremis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0058",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa insegna il proverbio «Tutti i nodi vengono al pettine»?",
+    "risposte": [
+      "I problemi vengono a galla",
+      "Ogni problema si risolve",
+      "Bisogna pettinarsi spesso",
+      "Il tempo guarisce tutto"
+    ],
+    "curiosita": "Prima o poi gli errori nascosti si scoprono.",
+    "fatto": "proverbio tutti i nodi vengono al pettine",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0059",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa insegna il proverbio sul cavallo regalato?",
+    "risposte": [
+      "Non criticare un regalo",
+      "Controllare i denti",
+      "Chiedere sempre il prezzo",
+      "Non accettare doni"
+    ],
+    "curiosita": "I denti rivelano l'età del cavallo: guardarli sarebbe scortese.",
+    "fatto": "proverbio caval donato",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0060",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale figura retorica è «sei una roccia»?",
+    "risposte": [
+      "Metafora",
+      "Similitudine",
+      "Ossimoro",
+      "Iperbole"
+    ],
+    "curiosita": "Con «come» sarebbe una similitudine: «sei forte come una roccia».",
+    "fatto": "figura retorica metafora",
+    "fonte": "https://it.wikipedia.org/wiki/Metafora",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0061",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale parola araba derivano «zero» e «cifra»?",
+    "risposte": [
+      "Sifr",
+      "Qamar",
+      "Safar",
+      "Naqs"
+    ],
+    "curiosita": "Vuol dire «vuoto»: lo introdusse in Europa Leonardo Fibonacci.",
+    "fatto": "origine zero cifra sifr",
+    "fonte": "https://it.wikipedia.org/wiki/Zero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0062",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa alla lettera il latino «habitat»?",
+    "risposte": [
+      "Egli abita",
+      "Egli vola",
+      "Egli cresce",
+      "Egli ritorna"
+    ],
+    "curiosita": "È la terza persona singolare del verbo «habitare».",
+    "fatto": "habitat significato latino",
+    "fonte": "https://it.wikipedia.org/wiki/Habitat",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0063",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Come si chiama la figura che afferma qualcosa negandone il contrario?",
+    "risposte": [
+      "Litote",
+      "Iperbole",
+      "Perifrasi",
+      "Antitesi"
+    ],
+    "curiosita": "Si afferma una cosa negando il suo contrario.",
+    "fatto": "figura retorica litote",
+    "fonte": "https://it.wikipedia.org/wiki/Litote",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0064",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "In «ho bevuto un bicchiere» il contenitore sta per il contenuto: che figura è?",
+    "risposte": [
+      "Metonimia",
+      "Sineddoche",
+      "Ironia",
+      "Allegoria"
+    ],
+    "curiosita": "Dal greco: «scambio di nome».",
+    "fatto": "figura retorica metonimia",
+    "fonte": "https://it.wikipedia.org/wiki/Metonimia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0065",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Come si chiamano «àncora» e «ancòra», scritte uguali ma accentate diversamente?",
+    "risposte": [
+      "Omografi",
+      "Omofoni",
+      "Sinonimi",
+      "Paronimi"
+    ],
+    "curiosita": "Cambia solo l'accento tonico, e con lui cambia tutto il significato.",
+    "fatto": "omografi ancora",
+    "fonte": "https://it.wikipedia.org/wiki/Omografia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0066",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «quisquilie»?",
+    "risposte": [
+      "Cose di poco conto",
+      "Dispute violente",
+      "Piccoli debiti",
+      "Antiche monete"
+    ],
+    "curiosita": "Totò le usava in coppia con «pinzillacchere».",
+    "fatto": "significato quisquilie",
+    "fonte": "https://it.wikipedia.org/wiki/Quisquilie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0067",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale lingua deriva la parola «tazza»?",
+    "risposte": [
+      "Arabo",
+      "Turco",
+      "Spagnolo",
+      "Greco"
+    ],
+    "curiosita": "Dall'arabo «tasa», che indicava una piccola coppa.",
+    "fatto": "origine tazza arabo",
+    "fonte": "https://it.wikipedia.org/wiki/Tazza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0068",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale maschera della commedia dell'arte prendono il nome i pantaloni?",
+    "risposte": [
+      "Pantalone",
+      "Arlecchino",
+      "Balanzone",
+      "Colombina"
+    ],
+    "curiosita": "Il nome passò per il francese «pantalon» e indicò il tipo di calzoni.",
+    "fatto": "origine pantaloni maschera",
+    "fonte": "https://it.wikipedia.org/wiki/Pantaloni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0069",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «idiosincrasia»?",
+    "risposte": [
+      "Forte avversione istintiva",
+      "Malattia della pelle",
+      "Vizio di parola",
+      "Passione sfrenata"
+    ],
+    "curiosita": "Dal greco: «temperamento particolare» di ciascuno.",
+    "fatto": "significato idiosincrasia",
+    "fonte": "https://it.wikipedia.org/wiki/Idiosincrasia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0070",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «vieppiù»?",
+    "risposte": [
+      "Sempre di più",
+      "Mai più",
+      "Quasi mai",
+      "Per niente"
+    ],
+    "curiosita": "Si scrive in una sola parola, mai «vie più».",
+    "fatto": "significato vieppiu",
+    "fonte": "https://it.wikipedia.org/wiki/Vieppiù",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0071",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa la locuzione latina «mutatis mutandis»?",
+    "risposte": [
+      "Cambiando il necessario",
+      "Con grande cambiamento",
+      "Sempre uguale",
+      "Per cambiare tutto"
+    ],
+    "curiosita": "Si usa quando un discorso vale in un altro caso, con le dovute modifiche.",
+    "fatto": "mutatis mutandis significato",
+    "fonte": "https://it.wikipedia.org/wiki/Mutatis_mutandis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0072",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa la locuzione latina «sine die»?",
+    "risposte": [
+      "Senza data stabilita",
+      "Senza alcun permesso",
+      "A porte chiuse",
+      "Con effetto immediato"
+    ],
+    "curiosita": "Alla lettera «senza giorno»: un rinvio sine die non ha scadenza.",
+    "fatto": "sine die significato",
+    "fonte": "https://it.wikipedia.org/wiki/Sine_die",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0073",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale lingua arriva la parola «yogurt»?",
+    "risposte": [
+      "Turco",
+      "Arabo",
+      "Greco",
+      "Persiano"
+    ],
+    "curiosita": "In turco «yoğurt» vuol dire «rappreso».",
+    "fatto": "origine yogurt turco",
+    "fonte": "https://it.wikipedia.org/wiki/Yogurt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0074",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa alla lettera «malaria»?",
+    "risposte": [
+      "Aria cattiva",
+      "Febbre estiva",
+      "Acqua stagnante",
+      "Morso nero"
+    ],
+    "curiosita": "Un tempo si credeva che la causa fossero i miasmi delle paludi.",
+    "fatto": "significato malaria",
+    "fonte": "https://it.wikipedia.org/wiki/Malaria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0075",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "A che cosa alludeva in origine la parola «influenza»?",
+    "risposte": [
+      "All'influsso degli astri",
+      "Al freddo",
+      "Ai venti",
+      "Agli spiriti"
+    ],
+    "curiosita": "Si pensava che le epidemie dipendessero dalle stelle.",
+    "fatto": "origine influenza astri",
+    "fonte": "https://it.wikipedia.org/wiki/Influenza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0076",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale parola latina deriva «calendario»?",
+    "risposte": [
+      "Calende",
+      "Calcolo",
+      "Caldo",
+      "Cardine"
+    ],
+    "curiosita": "Le Calende erano il primo giorno del mese romano.",
+    "fatto": "origine calendario calende",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0077",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Perché si chiama «candidato» chi si presenta a un'elezione?",
+    "risposte": [
+      "Vestiva una toga bianca",
+      "Portava una candela",
+      "Parlava in modo candido",
+      "Era di nobile cuore"
+    ],
+    "curiosita": "Nell'antica Roma chi si candidava indossava una toga candida.",
+    "fatto": "origine candidato toga bianca",
+    "fonte": "https://it.wikipedia.org/wiki/Candidato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0078",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «lapalissiano»?",
+    "risposte": [
+      "Ovvio, evidente",
+      "Molto antico",
+      "Pieno di sbagli",
+      "Estremamente raro"
+    ],
+    "curiosita": "Nasce da una canzone ironica sul maresciallo francese La Palice.",
+    "fatto": "significato lapalissiano",
+    "fonte": "https://it.wikipedia.org/wiki/Lapalissiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0079",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'uso di parole superflue, come in «salire su»?",
+    "risposte": [
+      "Pleonasmo",
+      "Ellissi",
+      "Eufemismo",
+      "Anafora"
+    ],
+    "curiosita": "Dal greco: «abbondanza».",
+    "fatto": "figura retorica pleonasmo",
+    "fonte": "https://it.wikipedia.org/wiki/Pleonasmo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0080",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa si intende per «refuso»?",
+    "risposte": [
+      "Errore di stampa",
+      "Parola straniera",
+      "Citazione latina",
+      "Firma d'autore"
+    ],
+    "curiosita": "Il termine viene dal latino «refundere», rifondere.",
+    "fatto": "significato refuso",
+    "fonte": "https://it.wikipedia.org/wiki/Refuso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0081",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa indica la parola «cacofonia»?",
+    "risposte": [
+      "Suono sgradevole",
+      "Grido di battaglia",
+      "Canto sacro",
+      "Errore grammaticale"
+    ],
+    "curiosita": "Dal greco: «cattivo suono».",
+    "fatto": "significato cacofonia",
+    "fonte": "https://it.wikipedia.org/wiki/Cacofonia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0082",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «ottemperare»?",
+    "risposte": [
+      "Obbedire",
+      "Ostacolare",
+      "Attenuare",
+      "Ottenere"
+    ],
+    "curiosita": "Si ottempera a un ordine, a una legge o a una richiesta.",
+    "fatto": "significato ottemperare",
+    "fonte": "https://it.wikipedia.org/wiki/Ottemperare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0083",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «ineffabile»?",
+    "risposte": [
+      "Che non si può esprimere",
+      "Che non ha fine",
+      "Che non conta",
+      "Che non si vede"
+    ],
+    "curiosita": "Dal latino: «che non si può dire a parole».",
+    "fatto": "significato ineffabile",
+    "fonte": "https://it.wikipedia.org/wiki/Ineffabile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0084",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «ancorché»?",
+    "risposte": [
+      "Benché",
+      "Poiché",
+      "Affinché",
+      "Perciò"
+    ],
+    "curiosita": "Introduce una concessiva: «ancorché stanco, partì».",
+    "fatto": "significato ancorche",
+    "fonte": "https://it.wikipedia.org/wiki/Congiunzione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0085",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa alla lettera in greco «pandemia»?",
+    "risposte": [
+      "Tutto il popolo",
+      "Grande malattia",
+      "Dal cielo",
+      "Morte lenta"
+    ],
+    "curiosita": "Dal greco «pan» (tutto) e «demos» (popolo).",
+    "fatto": "significato pandemia greco",
+    "fonte": "https://it.wikipedia.org/wiki/Pandemia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0086",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Come si chiama il tempo verbale di «avevo mangiato»?",
+    "risposte": [
+      "Trapassato prossimo",
+      "Passato remoto",
+      "Imperfetto",
+      "Futuro anteriore"
+    ],
+    "curiosita": "Esprime un'azione conclusa prima di un'altra nel passato.",
+    "fatto": "tempo verbale trapassato prossimo",
+    "fonte": "https://it.wikipedia.org/wiki/Trapassato_prossimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0087",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "A quale animale rimanda la parola «canicola», il periodo di gran caldo?",
+    "risposte": [
+      "Il cane",
+      "Il serpente",
+      "Il toro",
+      "Il gatto"
+    ],
+    "curiosita": "Viene da Sirio, stella del Cane Maggiore, visibile in piena estate.",
+    "fatto": "origine canicola cane",
+    "fonte": "https://it.wikipedia.org/wiki/Canicola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0088",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa alla lettera in greco «sarcasmo»?",
+    "risposte": [
+      "Strappare la carne",
+      "Ridere di gusto",
+      "Parlare con veleno",
+      "Mordere la lingua"
+    ],
+    "curiosita": "Dal verbo greco «sarkazein»: l'ironia che morde.",
+    "fatto": "origine sarcasmo greco",
+    "fonte": "https://it.wikipedia.org/wiki/Sarcasmo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0089",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa vuol dire alla lettera in greco «entusiasmo»?",
+    "risposte": [
+      "Avere un dio dentro",
+      "Essere senza pensieri",
+      "Cantare in coro",
+      "Correre veloce"
+    ],
+    "curiosita": "Indicava l'ispirazione di chi si sentiva posseduto da una divinità.",
+    "fatto": "origine entusiasmo greco",
+    "fonte": "https://it.wikipedia.org/wiki/Entusiasmo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0090",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significava in origine in greco «idiota»?",
+    "risposte": [
+      "Privato cittadino",
+      "Ragazzo",
+      "Straniero",
+      "Viandante"
+    ],
+    "curiosita": "Era chi non partecipava alla vita pubblica della città.",
+    "fatto": "origine idiota greco",
+    "fonte": "https://it.wikipedia.org/wiki/Idiota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

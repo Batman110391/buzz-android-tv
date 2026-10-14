@@ -16,5 +16,1607 @@
     "fonte": "https://it.wikipedia.org/wiki/Il_padrino_(film)",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-cin-0002",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpreta Jack Dawson in \"Titanic\"?",
+    "risposte": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Johnny Depp",
+      "Tom Cruise"
+    ],
+    "curiosita": "Il suo personaggio non è mai esistito: è inventato dal film.",
+    "fatto": "jack dawson titanic dicaprio",
+    "fonte": "https://it.wikipedia.org/wiki/Titanic_(film_1997)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0003",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il padre di Luke Skywalker?",
+    "risposte": [
+      "Darth Vader",
+      "Obi-Wan Kenobi",
+      "Yoda",
+      "Han Solo"
+    ],
+    "curiosita": "La rivelazione arriva ne \"L'impero colpisce ancora\".",
+    "fatto": "padre di luke skywalker darth vader",
+    "fonte": "https://it.wikipedia.org/wiki/Darth_Vader",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0004",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film Disney racconta di un leoncino di nome Simba?",
+    "risposte": [
+      "Il re leone",
+      "Bambi",
+      "Tarzan",
+      "Dumbo"
+    ],
+    "curiosita": "Uscì nel 1994 e ha anche una versione teatrale.",
+    "fatto": "disney simba re leone",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0005",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il maghetto con la cicatrice a forma di fulmine?",
+    "risposte": [
+      "Harry Potter",
+      "Merlino",
+      "Gandalf",
+      "Silente"
+    ],
+    "curiosita": "Frequenta la scuola di Hogwarts.",
+    "fatto": "maghetto cicatrice fulmine harry potter",
+    "fonte": "https://it.wikipedia.org/wiki/Harry_Potter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0006",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi ha creato Topolino?",
+    "risposte": [
+      "Walt Disney",
+      "Walter Lantz",
+      "Max Fleischer",
+      "Tex Avery"
+    ],
+    "curiosita": "Debuttò nel 1928 con \"Steamboat Willie\".",
+    "fatto": "creatore di topolino walt disney",
+    "fonte": "https://it.wikipedia.org/wiki/Topolino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0007",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Qual è il robot dorato di \"Guerre stellari\"?",
+    "risposte": [
+      "C-3PO",
+      "R2-D2",
+      "BB-8",
+      "WALL-E"
+    ],
+    "curiosita": "Parla correntemente più di sei milioni di forme di comunicazione.",
+    "fatto": "robot dorato guerre stellari c3po",
+    "fonte": "https://it.wikipedia.org/wiki/C-3PO",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0008",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpreta Forrest Gump?",
+    "risposte": [
+      "Tom Hanks",
+      "Tom Cruise",
+      "Kevin Costner",
+      "Robin Williams"
+    ],
+    "curiosita": "Il film vinse sei Oscar, tra cui quello come miglior film.",
+    "fatto": "forrest gump interprete tom hanks",
+    "fonte": "https://it.wikipedia.org/wiki/Forrest_Gump",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0009",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film di Spielberg del 1975 ha per protagonista uno squalo?",
+    "risposte": [
+      "Lo squalo",
+      "Deep Blue Sea",
+      "The Reef",
+      "Piranha"
+    ],
+    "curiosita": "Fu il primo grande blockbuster estivo della storia.",
+    "fatto": "film spielberg squalo 1975",
+    "fonte": "https://it.wikipedia.org/wiki/Lo_squalo_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0010",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpreta Terminator?",
+    "risposte": [
+      "Arnold Schwarzenegger",
+      "Sylvester Stallone",
+      "Bruce Willis",
+      "Jean-Claude Van Damme"
+    ],
+    "curiosita": "Nel primo film ha solo 17 battute.",
+    "fatto": "interprete terminator schwarzenegger",
+    "fonte": "https://it.wikipedia.org/wiki/Terminator_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0011",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il pirata interpretato da Johnny Depp?",
+    "risposte": [
+      "Jack Sparrow",
+      "Barbossa",
+      "Capitan Uncino",
+      "Long John Silver"
+    ],
+    "curiosita": "È il protagonista della saga \"Pirati dei Caraibi\".",
+    "fatto": "pirata johnny depp jack sparrow",
+    "fonte": "https://it.wikipedia.org/wiki/Pirati_dei_Caraibi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0012",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpreta Rocky Balboa?",
+    "risposte": [
+      "Sylvester Stallone",
+      "Arnold Schwarzenegger",
+      "Bruce Willis",
+      "Mel Gibson"
+    ],
+    "curiosita": "Stallone scrisse la sceneggiatura in pochi giorni.",
+    "fatto": "rocky balboa stallone",
+    "fonte": "https://it.wikipedia.org/wiki/Rocky_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0013",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'orsetto goloso di miele dei cartoni Disney?",
+    "risposte": [
+      "Winnie the Pooh",
+      "Baloo",
+      "Yoghi",
+      "Paddington"
+    ],
+    "curiosita": "Nasce dai racconti di A. A. Milne.",
+    "fatto": "orsetto miele winnie the pooh",
+    "fonte": "https://it.wikipedia.org/wiki/Winnie_the_Pooh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0014",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale principessa Disney perde una scarpetta di cristallo?",
+    "risposte": [
+      "Cenerentola",
+      "Biancaneve",
+      "Belle",
+      "Ariel"
+    ],
+    "curiosita": "Il film Disney è del 1950.",
+    "fatto": "principessa scarpetta cristallo cenerentola",
+    "fonte": "https://it.wikipedia.org/wiki/Cenerentola_(film_1950)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0015",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il regista de \"La vita è bella\"?",
+    "risposte": [
+      "Roberto Benigni",
+      "Carlo Verdone",
+      "Massimo Troisi",
+      "Nanni Moretti"
+    ],
+    "curiosita": "Benigni è anche il protagonista del film.",
+    "fatto": "regista la vita e bella benigni",
+    "fonte": "https://it.wikipedia.org/wiki/La_vita_è_bella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0016",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi ha interpretato il ragionier Fantozzi?",
+    "risposte": [
+      "Paolo Villaggio",
+      "Renato Pozzetto",
+      "Lino Banfi",
+      "Enrico Montesano"
+    ],
+    "curiosita": "Il personaggio nasce dai racconti dello stesso Villaggio.",
+    "fatto": "fantozzi interprete villaggio",
+    "fonte": "https://it.wikipedia.org/wiki/Ugo_Fantozzi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0017",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale famiglia gialla vive a Springfield?",
+    "risposte": [
+      "I Simpson",
+      "I Griffin",
+      "Gli Antenati",
+      "I Jefferson"
+    ],
+    "curiosita": "La serie va in onda dal 1989 ed è la più longeva del genere.",
+    "fatto": "famiglia gialla springfield simpson",
+    "fonte": "https://it.wikipedia.org/wiki/I_Simpson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0018",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film Pixar racconta di un pesce pagliaccio che si perde?",
+    "risposte": [
+      "Alla ricerca di Nemo",
+      "Shark Tale",
+      "Oceania",
+      "Il re leone"
+    ],
+    "curiosita": "Fu il primo film Pixar a vincere l'Oscar come miglior animazione.",
+    "fatto": "film pixar pesce pagliaccio nemo",
+    "fonte": "https://it.wikipedia.org/wiki/Alla_ricerca_di_Nemo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0019",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale saga fantasy racconta del viaggio di Frodo per distruggere l'Anello?",
+    "risposte": [
+      "Il Signore degli Anelli",
+      "Harry Potter",
+      "Le cronache di Narnia",
+      "Il Trono di Spade"
+    ],
+    "curiosita": "È tratta dai romanzi di J.R.R. Tolkien.",
+    "fatto": "saga frodo anello signore degli anelli",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Signore_degli_Anelli_(serie_di_film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0020",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il cowboy giocattolo di \"Toy Story\"?",
+    "risposte": [
+      "Woody",
+      "Buzz",
+      "Rex",
+      "Hamm"
+    ],
+    "curiosita": "Il suo rivale-amico è l'astronauta Buzz Lightyear.",
+    "fatto": "cowboy toy story woody",
+    "fonte": "https://it.wikipedia.org/wiki/Woody_(Toy_Story)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0021",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale serie TV ha per protagonisti Ross, Rachel e Monica?",
+    "risposte": [
+      "Friends",
+      "How I Met Your Mother",
+      "Seinfeld",
+      "Will & Grace"
+    ],
+    "curiosita": "Ha avuto dieci stagioni, dal 1994 al 2004.",
+    "fatto": "serie ross rachel monica friends",
+    "fonte": "https://it.wikipedia.org/wiki/Friends",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0022",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale conduttore era famoso per il saluto \"Allegria!\"?",
+    "risposte": [
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Corrado",
+      "Raimondo Vianello"
+    ],
+    "curiosita": "Condusse \"Lascia o raddoppia?\" e \"Rischiatutto\".",
+    "fatto": "allegria mike bongiorno",
+    "fonte": "https://it.wikipedia.org/wiki/Mike_Bongiorno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0023",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale pillola prende Neo in \"Matrix\" per scoprire la verità?",
+    "risposte": [
+      "Rossa",
+      "Blu",
+      "Verde",
+      "Gialla"
+    ],
+    "curiosita": "Se avesse preso quella blu, sarebbe rimasto nell'illusione.",
+    "fatto": "matrix pillola rossa neo",
+    "fonte": "https://it.wikipedia.org/wiki/Matrix",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0024",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film di Spielberg del 1993 è ambientato su un'isola di dinosauri?",
+    "risposte": [
+      "Jurassic Park",
+      "King Kong",
+      "Godzilla",
+      "Il pianeta del tesoro"
+    ],
+    "curiosita": "È tratto da un romanzo di Michael Crichton.",
+    "fatto": "film spielberg 1993 dinosauri jurassic park",
+    "fonte": "https://it.wikipedia.org/wiki/Jurassic_Park_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0025",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale eroe Marvel ha il martello Mjolnir?",
+    "risposte": [
+      "Thor",
+      "Iron Man",
+      "Hulk",
+      "Capitan America"
+    ],
+    "curiosita": "Nei fumetti è il dio del tuono della mitologia norrena.",
+    "fatto": "eroe marvel martello thor",
+    "fonte": "https://it.wikipedia.org/wiki/Thor_(Marvel_Comics)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0026",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpreta Iron Man nei film Marvel?",
+    "risposte": [
+      "Robert Downey Junior",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "curiosita": "Il primo \"Iron Man\" è del 2008.",
+    "fatto": "iron man interprete downey",
+    "fonte": "https://it.wikipedia.org/wiki/Iron_Man_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0027",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale serie TV ha per protagonista Sheldon Cooper?",
+    "risposte": [
+      "The Big Bang Theory",
+      "How I Met Your Mother",
+      "Friends",
+      "Modern Family"
+    ],
+    "curiosita": "Sheldon bussa sempre tre volte.",
+    "fatto": "serie sheldon cooper big bang theory",
+    "fonte": "https://it.wikipedia.org/wiki/The_Big_Bang_Theory",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0028",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale cartone mostra una famiglia dell'età della pietra?",
+    "risposte": [
+      "Gli Antenati",
+      "I Pronipoti",
+      "I Griffin",
+      "Futurama"
+    ],
+    "curiosita": "Fred e Barney vivono a Bedrock.",
+    "fatto": "cartone eta della pietra antenati",
+    "fonte": "https://it.wikipedia.org/wiki/Gli_Antenati",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0029",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il supereroe con identità segreta Peter Parker?",
+    "risposte": [
+      "Spider-Man",
+      "Batman",
+      "Superman",
+      "Daredevil"
+    ],
+    "curiosita": "Fu creato da Stan Lee e Steve Ditko nel 1962.",
+    "fatto": "peter parker spider man",
+    "fonte": "https://it.wikipedia.org/wiki/Spider-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0030",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Qual è l'identità segreta di Batman?",
+    "risposte": [
+      "Bruce Wayne",
+      "Clark Kent",
+      "Peter Parker",
+      "Tony Stark"
+    ],
+    "curiosita": "Vive a Gotham City, ed è miliardario.",
+    "fatto": "identita segreta batman bruce wayne",
+    "fonte": "https://it.wikipedia.org/wiki/Batman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0031",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Di che colore è l'orco Shrek?",
+    "risposte": [
+      "Verde",
+      "Blu",
+      "Giallo",
+      "Grigio"
+    ],
+    "curiosita": "Il film d'animazione è del 2001.",
+    "fatto": "colore shrek verde",
+    "fonte": "https://it.wikipedia.org/wiki/Shrek",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0032",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Titanic\"?",
+    "risposte": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "Christopher Nolan"
+    ],
+    "curiosita": "Con 11 Oscar eguagliò il record di \"Ben-Hur\".",
+    "fatto": "regista titanic cameron",
+    "fonte": "https://it.wikipedia.org/wiki/Titanic_(film_1997)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0033",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Pulp Fiction\"?",
+    "risposte": [
+      "Quentin Tarantino",
+      "Martin Scorsese",
+      "David Fincher",
+      "Guy Ritchie"
+    ],
+    "curiosita": "Vinse la Palma d'oro a Cannes nel 1994.",
+    "fatto": "regista pulp fiction tarantino",
+    "fonte": "https://it.wikipedia.org/wiki/Pulp_Fiction",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0034",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpretò Mario Ruoppolo ne \"Il postino\"?",
+    "risposte": [
+      "Massimo Troisi",
+      "Roberto Benigni",
+      "Carlo Verdone",
+      "Nino Manfredi"
+    ],
+    "curiosita": "Troisi morì il giorno dopo la fine delle riprese.",
+    "fatto": "il postino troisi",
+    "fonte": "https://it.wikipedia.org/wiki/Il_postino_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0035",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta il Dr. House nella serie TV?",
+    "risposte": [
+      "Hugh Laurie",
+      "Hugh Grant",
+      "Colin Firth",
+      "Rowan Atkinson"
+    ],
+    "curiosita": "Laurie è britannico e recitava con accento americano.",
+    "fatto": "dr house interprete hugh laurie",
+    "fonte": "https://it.wikipedia.org/wiki/Dr._House_-_Medical_Division",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0036",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpretò Batman nella trilogia di Christopher Nolan?",
+    "risposte": [
+      "Christian Bale",
+      "Ben Affleck",
+      "George Clooney",
+      "Michael Keaton"
+    ],
+    "curiosita": "La trilogia inizia con \"Batman Begins\" nel 2005.",
+    "fatto": "batman nolan christian bale",
+    "fonte": "https://it.wikipedia.org/wiki/Trilogia_del_Cavaliere_Oscuro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0037",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto il film \"Psycho\"?",
+    "risposte": [
+      "Alfred Hitchcock",
+      "Orson Welles",
+      "Stanley Kubrick",
+      "Billy Wilder"
+    ],
+    "curiosita": "La scena della doccia richiese una settimana di riprese.",
+    "fatto": "regista psycho hitchcock",
+    "fonte": "https://it.wikipedia.org/wiki/Psyco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0038",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "In quale anno uscì il primo film di \"Star Wars\"?",
+    "risposte": [
+      "1977",
+      "1980",
+      "1983",
+      "1975"
+    ],
+    "curiosita": "Fu poi intitolato \"Episodio IV - Una nuova speranza\".",
+    "fatto": "anno primo star wars 1977",
+    "fonte": "https://it.wikipedia.org/wiki/Guerre_stellari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0039",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"La dolce vita\"?",
+    "risposte": [
+      "Federico Fellini",
+      "Luchino Visconti",
+      "Vittorio De Sica",
+      "Pier Paolo Pasolini"
+    ],
+    "curiosita": "Vinse la Palma d'oro a Cannes nel 1960.",
+    "fatto": "regista la dolce vita fellini",
+    "fonte": "https://it.wikipedia.org/wiki/La_dolce_vita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0040",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Il buono, il brutto, il cattivo\"?",
+    "risposte": [
+      "Sergio Leone",
+      "Sergio Corbucci",
+      "Dario Argento",
+      "Mario Monicelli"
+    ],
+    "curiosita": "Fu girato in gran parte in Spagna.",
+    "fatto": "regista il buono il brutto il cattivo leone",
+    "fonte": "https://it.wikipedia.org/wiki/Il_buono,_il_brutto,_il_cattivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0041",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi compose le musiche de \"Il buono, il brutto, il cattivo\"?",
+    "risposte": [
+      "Ennio Morricone",
+      "Nino Rota",
+      "Piero Piccioni",
+      "Riz Ortolani"
+    ],
+    "curiosita": "Vinse l'Oscar alla carriera nel 2007.",
+    "fatto": "musiche buono brutto cattivo morricone",
+    "fonte": "https://it.wikipedia.org/wiki/Ennio_Morricone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0042",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta Massimo ne \"Il gladiatore\"?",
+    "risposte": [
+      "Russell Crowe",
+      "Mel Gibson",
+      "Brad Pitt",
+      "Joaquin Phoenix"
+    ],
+    "curiosita": "Per questo ruolo vinse l'Oscar come miglior attore.",
+    "fatto": "il gladiatore russell crowe",
+    "fonte": "https://it.wikipedia.org/wiki/Il_gladiatore_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0043",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attrice interpreta Rose in \"Titanic\"?",
+    "risposte": [
+      "Kate Winslet",
+      "Nicole Kidman",
+      "Julia Roberts",
+      "Cate Blanchett"
+    ],
+    "curiosita": "Vinse poi l'Oscar nel 2009 per \"The Reader\".",
+    "fatto": "rose titanic kate winslet",
+    "fonte": "https://it.wikipedia.org/wiki/Kate_Winslet",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0044",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Marty McFly in \"Ritorno al futuro\"?",
+    "risposte": [
+      "Michael J. Fox",
+      "Tom Cruise",
+      "Matthew Broderick",
+      "Charlie Sheen"
+    ],
+    "curiosita": "Inizialmente il ruolo fu dato a Eric Stoltz.",
+    "fatto": "marty mcfly michael j fox",
+    "fonte": "https://it.wikipedia.org/wiki/Ritorno_al_futuro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0045",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Su quale auto viaggia nel tempo Doc in \"Ritorno al futuro\"?",
+    "risposte": [
+      "DeLorean",
+      "Ford Mustang",
+      "Cadillac",
+      "Chevrolet Camaro"
+    ],
+    "curiosita": "Per il salto temporale deve raggiungere le 88 miglia orarie.",
+    "fatto": "auto ritorno al futuro delorean",
+    "fonte": "https://it.wikipedia.org/wiki/DeLorean_DMC-12",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0046",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto la trilogia de \"Il Signore degli Anelli\"?",
+    "risposte": [
+      "Peter Jackson",
+      "Ridley Scott",
+      "James Cameron",
+      "Tim Burton"
+    ],
+    "curiosita": "I tre film furono girati insieme in Nuova Zelanda.",
+    "fatto": "regista signore degli anelli jackson",
+    "fonte": "https://it.wikipedia.org/wiki/Peter_Jackson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0047",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Hannibal Lecter ne \"Il silenzio degli innocenti\"?",
+    "risposte": [
+      "Anthony Hopkins",
+      "Gary Oldman",
+      "Ralph Fiennes",
+      "Robert De Niro"
+    ],
+    "curiosita": "Appare sullo schermo per circa 16 minuti.",
+    "fatto": "hannibal lecter hopkins",
+    "fonte": "https://it.wikipedia.org/wiki/Il_silenzio_degli_innocenti_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0048",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale serie TV è ambientata a Westeros?",
+    "risposte": [
+      "Il Trono di Spade",
+      "The Witcher",
+      "Vikings",
+      "The Last Kingdom"
+    ],
+    "curiosita": "Si basa sui romanzi di George R. R. Martin.",
+    "fatto": "serie westeros trono di spade",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Trono_di_Spade_(serie_televisiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0049",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Walter White in \"Breaking Bad\"?",
+    "risposte": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Bob Odenkirk",
+      "Kevin Spacey"
+    ],
+    "curiosita": "Walter White è un professore di chimica.",
+    "fatto": "walter white cranston",
+    "fonte": "https://it.wikipedia.org/wiki/Breaking_Bad",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0050",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpretò Vito Corleone nel \"Padrino\"?",
+    "risposte": [
+      "Marlon Brando",
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall"
+    ],
+    "curiosita": "Rifiutò l'Oscar mandando al suo posto una donna nativa americana.",
+    "fatto": "vito corleone brando",
+    "fonte": "https://it.wikipedia.org/wiki/Marlon_Brando",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0051",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Neo in \"Matrix\"?",
+    "risposte": [
+      "Keanu Reeves",
+      "Brad Pitt",
+      "Tom Cruise",
+      "Johnny Depp"
+    ],
+    "curiosita": "Neo è chiamato \"l'Eletto\".",
+    "fatto": "neo matrix keanu reeves",
+    "fonte": "https://it.wikipedia.org/wiki/Keanu_Reeves",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0052",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Inception\"?",
+    "risposte": [
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Ridley Scott",
+      "David Fincher"
+    ],
+    "curiosita": "Il film vinse quattro Oscar tecnici.",
+    "fatto": "regista inception nolan",
+    "fonte": "https://it.wikipedia.org/wiki/Inception",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0053",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale studio ha prodotto \"Toy Story\"?",
+    "risposte": [
+      "Pixar",
+      "DreamWorks",
+      "Illumination",
+      "Blue Sky"
+    ],
+    "curiosita": "Nel 1995 fu il primo lungometraggio interamente in computer grafica.",
+    "fatto": "studio toy story pixar",
+    "fonte": "https://it.wikipedia.org/wiki/Toy_Story_-_Il_mondo_dei_giocattoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0054",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore fu il primo a interpretare James Bond al cinema?",
+    "risposte": [
+      "Sean Connery",
+      "Roger Moore",
+      "Pierce Brosnan",
+      "Timothy Dalton"
+    ],
+    "curiosita": "Esordì nel 1962 in \"Licenza di uccidere\".",
+    "fatto": "primo attore james bond connery",
+    "fonte": "https://it.wikipedia.org/wiki/Sean_Connery",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0055",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta il commissario Montalbano nella serie TV?",
+    "risposte": [
+      "Luca Zingaretti",
+      "Michele Placido",
+      "Alessandro Gassmann",
+      "Sergio Castellitto"
+    ],
+    "curiosita": "La serie è tratta dai romanzi di Andrea Camilleri.",
+    "fatto": "montalbano interprete zingaretti",
+    "fonte": "https://it.wikipedia.org/wiki/Il_commissario_Montalbano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0056",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha scritto i romanzi su Montalbano?",
+    "risposte": [
+      "Andrea Camilleri",
+      "Leonardo Sciascia",
+      "Umberto Eco",
+      "Gesualdo Bufalino"
+    ],
+    "curiosita": "Era nato a Porto Empedocle, in Sicilia.",
+    "fatto": "autore montalbano camilleri",
+    "fonte": "https://it.wikipedia.org/wiki/Andrea_Camilleri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0057",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film sudcoreano ha vinto l'Oscar come miglior film?",
+    "risposte": [
+      "Parasite",
+      "Oldboy",
+      "Train to Busan",
+      "Burning"
+    ],
+    "curiosita": "Fu il primo film non in lingua inglese a vincere quel premio.",
+    "fatto": "oscar miglior film sudcoreano parasite",
+    "fonte": "https://it.wikipedia.org/wiki/Parasite_(film_2019)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0058",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il personaggio con bombetta e bastone di Chaplin?",
+    "risposte": [
+      "Charlot",
+      "Stanlio",
+      "Buster",
+      "Fregoli"
+    ],
+    "curiosita": "Chaplin lo interpretò per la prima volta nel 1914.",
+    "fatto": "chaplin bombetta bastone charlot",
+    "fonte": "https://it.wikipedia.org/wiki/Charlot",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0059",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi presentò il cinematografo al pubblico nel 1895?",
+    "risposte": [
+      "Fratelli Lumière",
+      "Fratelli Marx",
+      "Fratelli Wright",
+      "Fratelli Grimm"
+    ],
+    "curiosita": "La prima proiezione a pagamento fu a Parigi il 28 dicembre 1895.",
+    "fatto": "cinematografo 1895 fratelli lumiere",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Lumière",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0060",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale premio si assegna alla Mostra del Cinema di Venezia?",
+    "risposte": [
+      "Leone d'oro",
+      "Orso d'oro",
+      "Palma d'oro",
+      "Pardo d'oro"
+    ],
+    "curiosita": "Il festival di Venezia, nato nel 1932, è il più antico del mondo.",
+    "fatto": "premio mostra cinema venezia leone d oro",
+    "fonte": "https://it.wikipedia.org/wiki/Mostra_internazionale_d'arte_cinematografica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0061",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Ladri di biciclette\"?",
+    "risposte": [
+      "Vittorio De Sica",
+      "Roberto Rossellini",
+      "Luchino Visconti",
+      "Federico Fellini"
+    ],
+    "curiosita": "Nel 1950 ricevette un Oscar onorario.",
+    "fatto": "regista ladri di biciclette de sica",
+    "fonte": "https://it.wikipedia.org/wiki/Ladri_di_biciclette",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0062",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi compose le musiche de \"Il Padrino\"?",
+    "risposte": [
+      "Nino Rota",
+      "Ennio Morricone",
+      "Piero Piccioni",
+      "Armando Trovajoli"
+    ],
+    "curiosita": "Rota scrisse anche le musiche di molti film di Fellini.",
+    "fatto": "musiche il padrino nino rota",
+    "fonte": "https://it.wikipedia.org/wiki/Nino_Rota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0063",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film di Miyazaki vinse l'Oscar come miglior film d'animazione?",
+    "risposte": [
+      "La città incantata",
+      "Il mio vicino Totoro",
+      "Principessa Mononoke",
+      "Ponyo sulla scogliera"
+    ],
+    "curiosita": "Il premio fu consegnato nel 2003.",
+    "fatto": "oscar animazione miyazaki citta incantata",
+    "fonte": "https://it.wikipedia.org/wiki/La_città_incantata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0064",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quanti Oscar vinse \"Titanic\"?",
+    "risposte": [
+      "11",
+      "9",
+      "7",
+      "13"
+    ],
+    "curiosita": "Eguagliò il record di \"Ben-Hur\".",
+    "fatto": "oscar vinti da titanic undici",
+    "fonte": "https://it.wikipedia.org/wiki/Titanic_(film_1997)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0065",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Via col vento\"?",
+    "risposte": [
+      "Victor Fleming",
+      "George Cukor",
+      "David Lean",
+      "John Ford"
+    ],
+    "curiosita": "George Cukor fu licenziato all'inizio delle riprese.",
+    "fatto": "regista via col vento fleming",
+    "fonte": "https://it.wikipedia.org/wiki/Via_col_vento_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0066",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attrice interpretò Rossella O'Hara in \"Via col vento\"?",
+    "risposte": [
+      "Vivien Leigh",
+      "Ingrid Bergman",
+      "Bette Davis",
+      "Katharine Hepburn"
+    ],
+    "curiosita": "Vinse l'Oscar come miglior attrice nel 1940.",
+    "fatto": "rossella o hara vivien leigh",
+    "fonte": "https://it.wikipedia.org/wiki/Vivien_Leigh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0067",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Qual è il primo film di James Bond, del 1962?",
+    "risposte": [
+      "Licenza di uccidere",
+      "Missione Goldfinger",
+      "Thunderball",
+      "Si vive solo due volte"
+    ],
+    "curiosita": "Era basato su un romanzo di Ian Fleming.",
+    "fatto": "primo film james bond licenza di uccidere",
+    "fonte": "https://it.wikipedia.org/wiki/Agente_007_-_Licenza_di_uccidere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0068",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Quarto potere\"?",
+    "risposte": [
+      "Orson Welles",
+      "Alfred Hitchcock",
+      "John Ford",
+      "Billy Wilder"
+    ],
+    "curiosita": "Welles lo diresse a soli 25 anni.",
+    "fatto": "regista quarto potere welles",
+    "fonte": "https://it.wikipedia.org/wiki/Quarto_potere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0069",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto il film muto \"Metropolis\"?",
+    "risposte": [
+      "Fritz Lang",
+      "Friedrich Murnau",
+      "Robert Wiene",
+      "G. W. Pabst"
+    ],
+    "curiosita": "Il film uscì nel 1927 ed è ambientato nel 2026.",
+    "fatto": "regista metropolis fritz lang",
+    "fonte": "https://it.wikipedia.org/wiki/Metropolis_(film_1927)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0070",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Il settimo sigillo\"?",
+    "risposte": [
+      "Ingmar Bergman",
+      "Federico Fellini",
+      "Akira Kurosawa",
+      "Carl Dreyer"
+    ],
+    "curiosita": "Vi compare una partita a scacchi con la Morte.",
+    "fatto": "regista il settimo sigillo bergman",
+    "fonte": "https://it.wikipedia.org/wiki/Il_settimo_sigillo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0071",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Il Gattopardo\"?",
+    "risposte": [
+      "Luchino Visconti",
+      "Federico Fellini",
+      "Sergio Leone",
+      "Michelangelo Antonioni"
+    ],
+    "curiosita": "Vinse la Palma d'oro a Cannes nel 1963.",
+    "fatto": "regista il gattopardo visconti",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Gattopardo_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0072",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film di Paolo Sorrentino vinse l'Oscar nel 2014?",
+    "risposte": [
+      "La grande bellezza",
+      "Youth",
+      "Il divo",
+      "Le conseguenze dell'amore"
+    ],
+    "curiosita": "Vinse come miglior film straniero.",
+    "fatto": "oscar 2014 sorrentino la grande bellezza",
+    "fonte": "https://it.wikipedia.org/wiki/La_grande_bellezza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0073",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film di Tornatore vinse l'Oscar nel 1990?",
+    "risposte": [
+      "Nuovo Cinema Paradiso",
+      "Il postino",
+      "La stanza del figlio",
+      "Malèna"
+    ],
+    "curiosita": "Ennio Morricone ne firmò la colonna sonora.",
+    "fatto": "oscar 1990 tornatore nuovo cinema paradiso",
+    "fonte": "https://it.wikipedia.org/wiki/Nuovo_Cinema_Paradiso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0074",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quanti Oscar vinse \"La vita è bella\"?",
+    "risposte": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "curiosita": "Premiati anche Benigni e il compositore Nicola Piovani.",
+    "fatto": "oscar vita e bella tre",
+    "fonte": "https://it.wikipedia.org/wiki/La_vita_è_bella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0075",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film di Bertolucci vinse nove Oscar?",
+    "risposte": [
+      "L'ultimo imperatore",
+      "Novecento",
+      "Ultimo tango a Parigi",
+      "Il tè nel deserto"
+    ],
+    "curiosita": "Fu girato nella Città Proibita di Pechino.",
+    "fatto": "bertolucci nove oscar ultimo imperatore",
+    "fonte": "https://it.wikipedia.org/wiki/L'ultimo_imperatore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0076",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'hotel in cui è ambientato \"Shining\"?",
+    "risposte": [
+      "Overlook Hotel",
+      "Bates Motel",
+      "Grand Budapest Hotel",
+      "Hotel California"
+    ],
+    "curiosita": "Kubrick lo girò in studio, in Inghilterra.",
+    "fatto": "hotel shining overlook",
+    "fonte": "https://it.wikipedia.org/wiki/Shining_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0077",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Qual è l'ultima parola pronunciata da Kane in \"Quarto potere\"?",
+    "risposte": [
+      "Rosebud",
+      "Xanadu",
+      "Eleanor",
+      "Susan"
+    ],
+    "curiosita": "Indica la slitta della sua infanzia.",
+    "fatto": "ultima parola kane rosebud",
+    "fonte": "https://it.wikipedia.org/wiki/Quarto_potere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0078",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretò Sandokan nella serie TV del 1976?",
+    "risposte": [
+      "Kabir Bedi",
+      "Franco Nero",
+      "Terence Hill",
+      "Giuliano Gemma"
+    ],
+    "curiosita": "La serie fu diretta da Sergio Sollima.",
+    "fatto": "sandokan 1976 kabir bedi",
+    "fonte": "https://it.wikipedia.org/wiki/Sandokan_(serie_televisiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0079",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretò Don Camillo nei film con Peppone?",
+    "risposte": [
+      "Fernandel",
+      "Totò",
+      "Alberto Sordi",
+      "Ugo Tognazzi"
+    ],
+    "curiosita": "Era un attore francese.",
+    "fatto": "don camillo interprete fernandel",
+    "fonte": "https://it.wikipedia.org/wiki/Fernandel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0080",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretò Peppone nei film di Don Camillo?",
+    "risposte": [
+      "Gino Cervi",
+      "Aldo Fabrizi",
+      "Ugo Tognazzi",
+      "Vittorio Gassman"
+    ],
+    "curiosita": "Il personaggio è il sindaco comunista di un paese emiliano.",
+    "fatto": "peppone interprete gino cervi",
+    "fonte": "https://it.wikipedia.org/wiki/Gino_Cervi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0081",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attrice vinse l'Oscar per \"La ciociara\"?",
+    "risposte": [
+      "Sophia Loren",
+      "Gina Lollobrigida",
+      "Anna Magnani",
+      "Claudia Cardinale"
+    ],
+    "curiosita": "Fu la prima a vincere con un film in lingua non inglese.",
+    "fatto": "oscar la ciociara sophia loren",
+    "fonte": "https://it.wikipedia.org/wiki/Sophia_Loren",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0082",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretò il vampiro in \"Nosferatu\" del 1922?",
+    "risposte": [
+      "Max Schreck",
+      "Bela Lugosi",
+      "Boris Karloff",
+      "Christopher Lee"
+    ],
+    "curiosita": "Il film era un adattamento non autorizzato di \"Dracula\".",
+    "fatto": "nosferatu 1922 max schreck",
+    "fonte": "https://it.wikipedia.org/wiki/Nosferatu_il_vampiro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0083",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Arancia meccanica\"?",
+    "risposte": [
+      "Stanley Kubrick",
+      "Ridley Scott",
+      "Sam Peckinpah",
+      "Ken Russell"
+    ],
+    "curiosita": "Uscì nel 1971, tratto da un romanzo di Anthony Burgess.",
+    "fatto": "regista arancia meccanica kubrick",
+    "fonte": "https://it.wikipedia.org/wiki/Arancia_meccanica_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0084",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Blade Runner\"?",
+    "risposte": [
+      "Ridley Scott",
+      "James Cameron",
+      "George Lucas",
+      "Stanley Kubrick"
+    ],
+    "curiosita": "È tratto da un romanzo di Philip K. Dick.",
+    "fatto": "regista blade runner ridley scott",
+    "fonte": "https://it.wikipedia.org/wiki/Blade_Runner",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0085",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Roma città aperta\"?",
+    "risposte": [
+      "Roberto Rossellini",
+      "Vittorio De Sica",
+      "Luchino Visconti",
+      "Pier Paolo Pasolini"
+    ],
+    "curiosita": "Fu girato nel 1945, subito dopo la liberazione di Roma.",
+    "fatto": "regista roma citta aperta rossellini",
+    "fonte": "https://it.wikipedia.org/wiki/Roma_città_aperta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0086",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Il sorpasso\"?",
+    "risposte": [
+      "Dino Risi",
+      "Mario Monicelli",
+      "Luigi Comencini",
+      "Ettore Scola"
+    ],
+    "curiosita": "I protagonisti sono Vittorio Gassman e Jean-Louis Trintignant.",
+    "fatto": "regista il sorpasso risi",
+    "fonte": "https://it.wikipedia.org/wiki/Il_sorpasso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0087",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Di quale razza è il cane Lassie?",
+    "risposte": [
+      "Collie",
+      "Pastore tedesco",
+      "Labrador",
+      "Golden retriever"
+    ],
+    "curiosita": "Nei film fu quasi sempre interpretato da un maschio.",
+    "fatto": "razza lassie collie",
+    "fonte": "https://it.wikipedia.org/wiki/Lassie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0088",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "In che anno iniziarono le trasmissioni regolari della TV italiana?",
+    "risposte": [
+      "1954",
+      "1948",
+      "1960",
+      "1951"
+    ],
+    "curiosita": "La RAI iniziò il 3 gennaio 1954.",
+    "fatto": "inizio tv italiana 1954",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_televisione_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0089",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film del 1927 è considerato il primo sonoro?",
+    "risposte": [
+      "Il cantante di jazz",
+      "Metropolis",
+      "Il monello",
+      "La febbre dell'oro"
+    ],
+    "curiosita": "Conteneva parti cantate e qualche battuta parlata.",
+    "fatto": "primo film sonoro 1927 cantante di jazz",
+    "fonte": "https://it.wikipedia.org/wiki/Il_cantante_di_jazz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0090",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'ispettore della Pantera Rosa?",
+    "risposte": [
+      "Clouseau",
+      "Colombo",
+      "Maigret",
+      "Derrick"
+    ],
+    "curiosita": "È interpretato da Peter Sellers.",
+    "fatto": "ispettore pantera rosa clouseau",
+    "fonte": "https://it.wikipedia.org/wiki/Jacques_Clouseau",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

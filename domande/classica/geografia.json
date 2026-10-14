@@ -34,5 +34,1589 @@
     "fonte": "https://it.wikipedia.org/wiki/Canberra",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-geo-0003",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale del Giappone?",
+    "risposte": [
+      "Tokyo",
+      "Kyoto",
+      "Osaka",
+      "Nagoya"
+    ],
+    "curiosita": "Fino al 1868 si chiamava Edo ed era la sede dello shogun.",
+    "fatto": "capitale giappone tokyo",
+    "fonte": "https://it.wikipedia.org/wiki/Tokyo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0004",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale città italiana si trova una celebre torre pendente?",
+    "risposte": [
+      "Pisa",
+      "Siena",
+      "Lucca",
+      "Bologna"
+    ],
+    "curiosita": "La torre pendeva già durante la costruzione, per il terreno cedevole.",
+    "fatto": "torre pendente citta pisa",
+    "fonte": "https://it.wikipedia.org/wiki/Torre_di_Pisa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0005",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale mare separa l'Italia dalla Croazia?",
+    "risposte": [
+      "Adriatico",
+      "Tirreno",
+      "Ionio",
+      "Ligure"
+    ],
+    "curiosita": "Prende il nome dall'antica città etrusca di Adria.",
+    "fatto": "mare tra italia e croazia adriatico",
+    "fonte": "https://it.wikipedia.org/wiki/Mare_Adriatico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0006",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la più grande isola del Mar Mediterraneo?",
+    "risposte": [
+      "Sicilia",
+      "Sardegna",
+      "Cipro",
+      "Creta"
+    ],
+    "curiosita": "La sua forma triangolare le valse in antico il nome di Trinacria.",
+    "fatto": "isola piu grande mediterraneo sicilia",
+    "fonte": "https://it.wikipedia.org/wiki/Sicilia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0007",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale oceano si trova tra l'Europa e le Americhe?",
+    "risposte": [
+      "Atlantico",
+      "Pacifico",
+      "Indiano",
+      "Artico"
+    ],
+    "curiosita": "Prende il nome dal titano Atlante della mitologia greca.",
+    "fatto": "oceano tra europa e americhe atlantico",
+    "fonte": "https://it.wikipedia.org/wiki/Oceano_Atlantico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0008",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il grande deserto che occupa il Nord dell'Africa?",
+    "risposte": [
+      "Sahara",
+      "Gobi",
+      "Kalahari",
+      "Namib"
+    ],
+    "curiosita": "In arabo il suo nome significa semplicemente deserto.",
+    "fatto": "grande deserto nord africa sahara",
+    "fonte": "https://it.wikipedia.org/wiki/Sahara",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0009",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale vulcano domina il golfo di Napoli?",
+    "risposte": [
+      "Vesuvio",
+      "Etna",
+      "Stromboli",
+      "Vulcano"
+    ],
+    "curiosita": "Nel 79 d.C. seppellì Pompei ed Ercolano.",
+    "fatto": "vulcano golfo di napoli vesuvio",
+    "fonte": "https://it.wikipedia.org/wiki/Vesuvio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0010",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il più grande lago italiano?",
+    "risposte": [
+      "Garda",
+      "Maggiore",
+      "Como",
+      "Trasimeno"
+    ],
+    "curiosita": "Si estende tra Lombardia, Veneto e Trentino-Alto Adige.",
+    "fatto": "lago piu grande italia garda",
+    "fonte": "https://it.wikipedia.org/wiki/Lago_di_Garda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0011",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Come si chiama la linea immaginaria che divide la Terra in due emisferi, nord e sud?",
+    "risposte": [
+      "Equatore",
+      "Tropico del Cancro",
+      "Meridiano di Greenwich",
+      "Circolo polare"
+    ],
+    "curiosita": "Lungo l'Equatore giorno e notte durano quasi sempre 12 ore ciascuno.",
+    "fatto": "linea immaginaria emisferi equatore",
+    "fonte": "https://it.wikipedia.org/wiki/Equatore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0012",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il continente con la superficie più estesa?",
+    "risposte": [
+      "Asia",
+      "Africa",
+      "America",
+      "Europa"
+    ],
+    "curiosita": "Da solo ospita circa il 60% della popolazione mondiale.",
+    "fatto": "continente piu esteso asia",
+    "fonte": "https://it.wikipedia.org/wiki/Asia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0013",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale continente è coperto quasi interamente dai ghiacci e senza abitanti stabili?",
+    "risposte": [
+      "Antartide",
+      "Oceania",
+      "Groenlandia",
+      "Artide"
+    ],
+    "curiosita": "Contiene circa il 70% dell'acqua dolce del pianeta, ghiacciata.",
+    "fatto": "continente ghiacciato antartide",
+    "fonte": "https://it.wikipedia.org/wiki/Antartide",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0014",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale fiume attraversa Parigi?",
+    "risposte": [
+      "Senna",
+      "Loira",
+      "Reno",
+      "Rodano"
+    ],
+    "curiosita": "Sulle sue rive sorgono Notre-Dame e la Torre Eiffel.",
+    "fatto": "fiume di parigi senna",
+    "fonte": "https://it.wikipedia.org/wiki/Senna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0015",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale fiume attraversa l'Egitto e sfocia nel Mediterraneo?",
+    "risposte": [
+      "Nilo",
+      "Congo",
+      "Niger",
+      "Zambesi"
+    ],
+    "curiosita": "Ogni anno le sue piene fertilizzavano i campi degli antichi Egizi.",
+    "fatto": "fiume egitto nilo",
+    "fonte": "https://it.wikipedia.org/wiki/Nilo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0016",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale città americana è soprannominata la Grande Mela?",
+    "risposte": [
+      "New York",
+      "Chicago",
+      "Los Angeles",
+      "Boston"
+    ],
+    "curiosita": "Il soprannome si diffuse negli anni Venti grazie a un giornalista sportivo.",
+    "fatto": "soprannome grande mela new york",
+    "fonte": "https://it.wikipedia.org/wiki/New_York",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0017",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Le cascate del Niagara si trovano al confine tra Stati Uniti e quale Paese?",
+    "risposte": [
+      "Canada",
+      "Messico",
+      "Cuba",
+      "Groenlandia"
+    ],
+    "curiosita": "Sono formate da tre salti d'acqua separati da isolotti.",
+    "fatto": "cascate niagara confine canada",
+    "fonte": "https://it.wikipedia.org/wiki/Cascate_del_Niagara",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0018",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale Paese si trova il Grand Canyon?",
+    "risposte": [
+      "Stati Uniti",
+      "Messico",
+      "Canada",
+      "Australia"
+    ],
+    "curiosita": "Il fiume Colorado lo scava da milioni di anni.",
+    "fatto": "grand canyon paese stati uniti",
+    "fonte": "https://it.wikipedia.org/wiki/Grand_Canyon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0019",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale Paese si trova la spiaggia di Copacabana?",
+    "risposte": [
+      "Brasile",
+      "Argentina",
+      "Portogallo",
+      "Uruguay"
+    ],
+    "curiosita": "È la spiaggia di Rio de Janeiro dove si festeggia il Capodanno.",
+    "fatto": "spiaggia copacabana brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Copacabana_(Rio_de_Janeiro)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0020",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la lingua ufficiale dell'Argentina?",
+    "risposte": [
+      "Spagnolo",
+      "Portoghese",
+      "Inglese",
+      "Italiano"
+    ],
+    "curiosita": "Nell'accento di Buenos Aires si sente spesso l'influenza dell'italiano.",
+    "fatto": "lingua ufficiale argentina spagnolo",
+    "fonte": "https://it.wikipedia.org/wiki/Argentina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0021",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la moneta ufficiale del Giappone?",
+    "risposte": [
+      "Yen",
+      "Won",
+      "Yuan",
+      "Rupia"
+    ],
+    "curiosita": "La parola yen significa in giapponese \"cerchio\" o \"rotondo\".",
+    "fatto": "moneta giappone yen",
+    "fonte": "https://it.wikipedia.org/wiki/Yen_giapponese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0022",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale Paese del Nord Europa è famoso per i suoi fiordi?",
+    "risposte": [
+      "Norvegia",
+      "Danimarca",
+      "Olanda",
+      "Ungheria"
+    ],
+    "curiosita": "Il Sognefjord è il più lungo del Paese, oltre 200 chilometri.",
+    "fatto": "paese dei fiordi norvegia",
+    "fonte": "https://it.wikipedia.org/wiki/Norvegia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0023",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale Paese europeo è noto come il Paese dei tulipani e dei mulini a vento?",
+    "risposte": [
+      "Paesi Bassi",
+      "Belgio",
+      "Danimarca",
+      "Svezia"
+    ],
+    "curiosita": "Le sue coltivazioni di tulipani si vedono dall'aereo ogni primavera.",
+    "fatto": "paese tulipani paesi bassi",
+    "fonte": "https://it.wikipedia.org/wiki/Paesi_Bassi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0024",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale città italiana è costruita sull'acqua ed è famosa per le gondole?",
+    "risposte": [
+      "Venezia",
+      "Bologna",
+      "Verona",
+      "Padova"
+    ],
+    "curiosita": "Sorge su 118 isolette collegate da oltre 400 ponti.",
+    "fatto": "citta delle gondole venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Venezia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0025",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il capoluogo della Toscana?",
+    "risposte": [
+      "Firenze",
+      "Pisa",
+      "Siena",
+      "Livorno"
+    ],
+    "curiosita": "Fu la culla del Rinascimento e la patria di Dante.",
+    "fatto": "capoluogo toscana firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Firenze",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0026",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale regione si trova la Costa Smeralda?",
+    "risposte": [
+      "Sardegna",
+      "Sicilia",
+      "Calabria",
+      "Puglia"
+    ],
+    "curiosita": "Il suo nome fu coniato negli anni Sessanta per il colore del mare.",
+    "fatto": "costa smeralda regione sardegna",
+    "fonte": "https://it.wikipedia.org/wiki/Costa_Smeralda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0027",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale città cinese si trova la Città Proibita?",
+    "risposte": [
+      "Pechino",
+      "Shanghai",
+      "Canton",
+      "Xi'an"
+    ],
+    "curiosita": "Fu per quasi cinquecento anni la residenza degli imperatori.",
+    "fatto": "citta proibita pechino",
+    "fonte": "https://it.wikipedia.org/wiki/Citt%C3%A0_Proibita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0028",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Dove si trova la Grande Barriera Corallina, la più grande struttura vivente del pianeta?",
+    "risposte": [
+      "Australia",
+      "Messico",
+      "Filippine",
+      "Egitto"
+    ],
+    "curiosita": "È visibile perfino dallo spazio.",
+    "fatto": "grande barriera corallina australia",
+    "fonte": "https://it.wikipedia.org/wiki/Grande_barriera_corallina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0029",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Quale Paese confina via terra con il Portogallo?",
+    "risposte": [
+      "Spagna",
+      "Francia",
+      "Marocco",
+      "Andorra"
+    ],
+    "curiosita": "È l'unico Paese con cui il Portogallo ha un confine terrestre.",
+    "fatto": "paese confinante portogallo spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Portogallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0030",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il Big Ben?",
+    "risposte": [
+      "Londra",
+      "Manchester",
+      "Edimburgo",
+      "Dublino"
+    ],
+    "curiosita": "Big Ben è in realtà il nome della campana, non della torre.",
+    "fatto": "big ben citta londra",
+    "fonte": "https://it.wikipedia.org/wiki/Big_Ben",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0031",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale Paese si trova il Taj Mahal?",
+    "risposte": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "curiosita": "Fu fatto costruire da un imperatore in memoria della moglie.",
+    "fatto": "taj mahal paese india",
+    "fonte": "https://it.wikipedia.org/wiki/Taj_Mahal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0032",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale del Canada?",
+    "risposte": [
+      "Ottawa",
+      "Toronto",
+      "Montréal",
+      "Vancouver"
+    ],
+    "curiosita": "Fu scelta nel 1857 dalla regina Vittoria come compromesso tra città rivali.",
+    "fatto": "capitale canada ottawa",
+    "fonte": "https://it.wikipedia.org/wiki/Ottawa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0033",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale catena montuosa si trova il monte Everest?",
+    "risposte": [
+      "Himalaya",
+      "Ande",
+      "Alpi",
+      "Caucaso"
+    ],
+    "curiosita": "Himalaya in sanscrito significa dimora delle nevi.",
+    "fatto": "everest catena himalaya",
+    "fonte": "https://it.wikipedia.org/wiki/Everest",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0034",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese africano si trova il Kilimangiaro?",
+    "risposte": [
+      "Tanzania",
+      "Kenya",
+      "Uganda",
+      "Etiopia"
+    ],
+    "curiosita": "È un vulcano isolato che sorge da una pianura.",
+    "fatto": "kilimangiaro paese tanzania",
+    "fonte": "https://it.wikipedia.org/wiki/Kilimangiaro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0035",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale stretto separa la Sicilia dalla Calabria?",
+    "risposte": [
+      "Stretto di Messina",
+      "Stretto di Bonifacio",
+      "Canale d'Otranto",
+      "Stretto di Gibilterra"
+    ],
+    "curiosita": "Nel punto più stretto misura circa tre chilometri.",
+    "fatto": "stretto sicilia calabria messina",
+    "fonte": "https://it.wikipedia.org/wiki/Stretto_di_Messina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0036",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale stretto collega il Mediterraneo all'Oceano Atlantico?",
+    "risposte": [
+      "Gibilterra",
+      "Bosforo",
+      "Dardanelli",
+      "Messina"
+    ],
+    "curiosita": "Nell'antichità le sue sponde erano chiamate Colonne d'Ercole.",
+    "fatto": "stretto mediterraneo atlantico gibilterra",
+    "fonte": "https://it.wikipedia.org/wiki/Stretto_di_Gibilterra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0037",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale mare, tra Israele e Giordania, è così salato che vi si galleggia senza sforzo?",
+    "risposte": [
+      "Mar Morto",
+      "Mar Rosso",
+      "Mar Nero",
+      "Mar Caspio"
+    ],
+    "curiosita": "Le sue rive sono tra i punti più bassi della Terra emersa.",
+    "fatto": "mare salato galleggiare mar morto",
+    "fonte": "https://it.wikipedia.org/wiki/Mar_Morto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0038",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale oceano si trova la Fossa delle Marianne?",
+    "risposte": [
+      "Pacifico",
+      "Atlantico",
+      "Indiano",
+      "Artico"
+    ],
+    "curiosita": "È il punto più profondo degli oceani, oltre 10.900 metri.",
+    "fatto": "fossa delle marianne oceano pacifico",
+    "fonte": "https://it.wikipedia.org/wiki/Fossa_delle_Marianne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0039",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "A quale arcipelago appartiene l'isola di Ibiza?",
+    "risposte": [
+      "Baleari",
+      "Canarie",
+      "Azzorre",
+      "Cicladi"
+    ],
+    "curiosita": "Maiorca, Minorca e Formentera sono le sue isole sorelle.",
+    "fatto": "ibiza arcipelago baleari",
+    "fonte": "https://it.wikipedia.org/wiki/Ibiza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0040",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la più grande isola del mondo?",
+    "risposte": [
+      "Groenlandia",
+      "Madagascar",
+      "Borneo",
+      "Nuova Guinea"
+    ],
+    "curiosita": "Quattro quinti del suo territorio sono coperti da una calotta di ghiaccio.",
+    "fatto": "isola piu grande del mondo groenlandia",
+    "fonte": "https://it.wikipedia.org/wiki/Groenlandia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0041",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la regione più piccola d'Italia?",
+    "risposte": [
+      "Valle d'Aosta",
+      "Molise",
+      "Liguria",
+      "Umbria"
+    ],
+    "curiosita": "Qui si parlano ufficialmente sia l'italiano sia il francese.",
+    "fatto": "regione piu piccola italia valle d aosta",
+    "fonte": "https://it.wikipedia.org/wiki/Valle_d'Aosta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0042",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è il capoluogo della Sicilia?",
+    "risposte": [
+      "Palermo",
+      "Catania",
+      "Messina",
+      "Siracusa"
+    ],
+    "curiosita": "Fu capitale del Regno di Sicilia sotto i Normanni.",
+    "fatto": "capoluogo sicilia palermo",
+    "fonte": "https://it.wikipedia.org/wiki/Palermo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0043",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale fiume europeo attraversa Vienna e Budapest?",
+    "risposte": [
+      "Danubio",
+      "Reno",
+      "Elba",
+      "Vistola"
+    ],
+    "curiosita": "Attraversa o costeggia dieci Paesi, più di ogni altro fiume.",
+    "fatto": "fiume vienna budapest danubio",
+    "fonte": "https://it.wikipedia.org/wiki/Danubio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0044",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova la città inca di Machu Picchu?",
+    "risposte": [
+      "Perù",
+      "Bolivia",
+      "Ecuador",
+      "Cile"
+    ],
+    "curiosita": "Sorge a circa 2.400 metri di quota tra le Ande.",
+    "fatto": "machu picchu paese peru",
+    "fonte": "https://it.wikipedia.org/wiki/Machu_Picchu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0045",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale città si trova la basilica della Sagrada Família?",
+    "risposte": [
+      "Barcellona",
+      "Madrid",
+      "Siviglia",
+      "Valencia"
+    ],
+    "curiosita": "Il cantiere, iniziato nel 1882, è ancora aperto.",
+    "fatto": "sagrada familia citta barcellona",
+    "fonte": "https://it.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0046",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale città australiana si trova il celebre teatro dell'Opera a forma di vele?",
+    "risposte": [
+      "Sydney",
+      "Melbourne",
+      "Perth",
+      "Brisbane"
+    ],
+    "curiosita": "Il progetto fu di un architetto danese, Jørn Utzon.",
+    "fatto": "opera house citta sydney",
+    "fonte": "https://it.wikipedia.org/wiki/Teatro_dell'Opera_di_Sydney",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0047",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale regione italiana si trovano le Cinque Terre?",
+    "risposte": [
+      "Liguria",
+      "Toscana",
+      "Campania",
+      "Sardegna"
+    ],
+    "curiosita": "I cinque borghi sono collegati da sentieri e da una ferrovia.",
+    "fatto": "cinque terre regione liguria",
+    "fonte": "https://it.wikipedia.org/wiki/Cinque_Terre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0048",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale regione italiana si trovano i trulli di Alberobello?",
+    "risposte": [
+      "Puglia",
+      "Basilicata",
+      "Calabria",
+      "Sicilia"
+    ],
+    "curiosita": "Sono case di pietra a secco con il tetto conico.",
+    "fatto": "trulli alberobello regione puglia",
+    "fonte": "https://it.wikipedia.org/wiki/Alberobello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0049",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "A quale regione appartiene l'isola d'Elba?",
+    "risposte": [
+      "Toscana",
+      "Sardegna",
+      "Liguria",
+      "Lazio"
+    ],
+    "curiosita": "Qui Napoleone trascorse il suo primo esilio, nel 1814.",
+    "fatto": "isola d elba regione toscana",
+    "fonte": "https://it.wikipedia.org/wiki/Isola_d'Elba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0050",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'arcipelago siciliano di cui fanno parte Lipari e Stromboli?",
+    "risposte": [
+      "Eolie",
+      "Egadi",
+      "Pelagie",
+      "Tremiti"
+    ],
+    "curiosita": "Il nome deriva da Eolo, il dio dei venti della mitologia.",
+    "fatto": "arcipelago lipari stromboli eolie",
+    "fonte": "https://it.wikipedia.org/wiki/Isole_Eolie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0051",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale città è divisa tra Europa e Asia dal Bosforo?",
+    "risposte": [
+      "Istanbul",
+      "Ankara",
+      "Smirne",
+      "Atene"
+    ],
+    "curiosita": "Si chiamava Bisanzio, poi Costantinopoli.",
+    "fatto": "citta tra europa e asia istanbul",
+    "fonte": "https://it.wikipedia.org/wiki/Istanbul",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0052",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova l'isola di Bali?",
+    "risposte": [
+      "Indonesia",
+      "Filippine",
+      "Thailandia",
+      "Malesia"
+    ],
+    "curiosita": "È chiamata l'isola degli dei per i suoi migliaia di templi.",
+    "fatto": "isola di bali paese indonesia",
+    "fonte": "https://it.wikipedia.org/wiki/Bali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0053",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese africano si trova la città di Marrakech?",
+    "risposte": [
+      "Marocco",
+      "Tunisia",
+      "Algeria",
+      "Egitto"
+    ],
+    "curiosita": "Per il colore delle sue mura è detta la città rossa.",
+    "fatto": "marrakech paese marocco",
+    "fonte": "https://it.wikipedia.org/wiki/Marrakech",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0054",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la moneta ufficiale della Svizzera?",
+    "risposte": [
+      "Franco svizzero",
+      "Euro",
+      "Corona",
+      "Marco"
+    ],
+    "curiosita": "La Svizzera non ha mai adottato l'euro.",
+    "fatto": "moneta svizzera franco",
+    "fonte": "https://it.wikipedia.org/wiki/Franco_svizzero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0055",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale Paese ha come uccello simbolo il kiwi?",
+    "risposte": [
+      "Nuova Zelanda",
+      "Australia",
+      "Fiji",
+      "Tonga"
+    ],
+    "curiosita": "I neozelandesi sono chiamati affettuosamente kiwi.",
+    "fatto": "simbolo kiwi nuova zelanda",
+    "fonte": "https://it.wikipedia.org/wiki/Nuova_Zelanda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0056",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale città americana si trova il ponte Golden Gate?",
+    "risposte": [
+      "San Francisco",
+      "Seattle",
+      "Los Angeles",
+      "San Diego"
+    ],
+    "curiosita": "Il suo colore rosso arancio si chiama International Orange.",
+    "fatto": "golden gate citta san francisco",
+    "fonte": "https://it.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0057",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale oceano si trova l'isola del Madagascar?",
+    "risposte": [
+      "Indiano",
+      "Atlantico",
+      "Pacifico",
+      "Artico"
+    ],
+    "curiosita": "Gran parte delle sue specie, come i lemuri, non vive altrove.",
+    "fatto": "madagascar oceano indiano",
+    "fonte": "https://it.wikipedia.org/wiki/Madagascar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0058",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale regione italiana si trovano i Sassi di Matera?",
+    "risposte": [
+      "Basilicata",
+      "Calabria",
+      "Puglia",
+      "Campania"
+    ],
+    "curiosita": "Matera è stata Capitale europea della cultura nel 2019.",
+    "fatto": "sassi di matera regione basilicata",
+    "fonte": "https://it.wikipedia.org/wiki/Sassi_di_Matera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0059",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova Città del Capo?",
+    "risposte": [
+      "Sudafrica",
+      "Namibia",
+      "Kenya",
+      "Nigeria"
+    ],
+    "curiosita": "Sovrasta la città la Table Mountain, con la cima piatta.",
+    "fatto": "citta del capo paese sudafrica",
+    "fonte": "https://it.wikipedia.org/wiki/Citt%C3%A0_del_Capo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0060",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Quale canale collega l'Oceano Atlantico all'Oceano Pacifico?",
+    "risposte": [
+      "Canale di Panama",
+      "Canale di Suez",
+      "Canale di Kiel",
+      "Canale di Corinto"
+    ],
+    "curiosita": "Fu inaugurato nel 1914 e usa un sistema di chiuse.",
+    "fatto": "canale atlantico pacifico panama",
+    "fonte": "https://it.wikipedia.org/wiki/Canale_di_Panama",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0061",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale della Turchia?",
+    "risposte": [
+      "Ankara",
+      "Istanbul",
+      "Smirne",
+      "Bursa"
+    ],
+    "curiosita": "Fu scelta come capitale nel 1923, quando nacque la Repubblica.",
+    "fatto": "capitale turchia ankara",
+    "fonte": "https://it.wikipedia.org/wiki/Ankara",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0062",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è il capoluogo del Friuli-Venezia Giulia?",
+    "risposte": [
+      "Trieste",
+      "Udine",
+      "Gorizia",
+      "Pordenone"
+    ],
+    "curiosita": "Sul suo mare Adriatico si affaccia il porto più settentrionale del Mediterraneo.",
+    "fatto": "capoluogo friuli venezia giulia trieste",
+    "fonte": "https://it.wikipedia.org/wiki/Trieste",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0063",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale fiume attraversa Baghdad?",
+    "risposte": [
+      "Tigri",
+      "Eufrate",
+      "Giordano",
+      "Nilo"
+    ],
+    "curiosita": "Insieme all'Eufrate delimitava l'antica Mesopotamia.",
+    "fatto": "fiume baghdad tigri",
+    "fonte": "https://it.wikipedia.org/wiki/Tigri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0064",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è il più alto vulcano attivo d'Europa?",
+    "risposte": [
+      "Etna",
+      "Vesuvio",
+      "Stromboli",
+      "Teide"
+    ],
+    "curiosita": "Con oltre 3.300 metri, la sua altezza cambia a ogni eruzione.",
+    "fatto": "vulcano attivo piu alto europa etna",
+    "fonte": "https://it.wikipedia.org/wiki/Etna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0065",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Su quale lago, tra Perù e Bolivia, vivono gli Uros su isole di canne?",
+    "risposte": [
+      "Titicaca",
+      "Maracaibo",
+      "Atitlán",
+      "Poopó"
+    ],
+    "curiosita": "È uno dei laghi navigabili più alti del mondo, a 3.800 metri.",
+    "fatto": "lago titicaca uros",
+    "fonte": "https://it.wikipedia.org/wiki/Lago_Titicaca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0066",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale lago siberiano è il più profondo del mondo?",
+    "risposte": [
+      "Bajkal",
+      "Ladoga",
+      "Onega",
+      "Balkaš"
+    ],
+    "curiosita": "Contiene circa un quinto dell'acqua dolce non ghiacciata della Terra.",
+    "fatto": "lago piu profondo bajkal",
+    "fonte": "https://it.wikipedia.org/wiki/Bajkal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0067",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Come si chiama lo stretto che separa l'Asia dal Nord America?",
+    "risposte": [
+      "Bering",
+      "Hudson",
+      "Magellano",
+      "Drake"
+    ],
+    "curiosita": "Prende il nome dall'esploratore danese Vitus Bering.",
+    "fatto": "stretto asia nord america bering",
+    "fonte": "https://it.wikipedia.org/wiki/Stretto_di_Bering",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0068",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova il deserto di Atacama, tra i più aridi della Terra?",
+    "risposte": [
+      "Cile",
+      "Perù",
+      "Argentina",
+      "Bolivia"
+    ],
+    "curiosita": "In alcune zone non piove da decenni.",
+    "fatto": "deserto atacama paese cile",
+    "fonte": "https://it.wikipedia.org/wiki/Deserto_di_Atacama",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0069",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "A quale gruppo di isole greche appartiene Santorini?",
+    "risposte": [
+      "Cicladi",
+      "Sporadi",
+      "Ioniche",
+      "Dodecaneso"
+    ],
+    "curiosita": "La sua forma a mezzaluna è ciò che resta di una gigantesca eruzione.",
+    "fatto": "santorini arcipelago cicladi",
+    "fonte": "https://it.wikipedia.org/wiki/Santorini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0070",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova l'antica città rosa di Petra?",
+    "risposte": [
+      "Giordania",
+      "Siria",
+      "Egitto",
+      "Libano"
+    ],
+    "curiosita": "Fu scavata nella roccia dai Nabatei più di duemila anni fa.",
+    "fatto": "petra paese giordania",
+    "fonte": "https://it.wikipedia.org/wiki/Petra_(Giordania)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0071",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trovano i templi di Angkor Wat?",
+    "risposte": [
+      "Cambogia",
+      "Thailandia",
+      "Vietnam",
+      "Laos"
+    ],
+    "curiosita": "È il più grande complesso religioso del mondo e compare sulla bandiera.",
+    "fatto": "angkor wat paese cambogia",
+    "fonte": "https://it.wikipedia.org/wiki/Angkor_Wat",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0072",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale regione italiana si trova la Reggia di Caserta?",
+    "risposte": [
+      "Campania",
+      "Lazio",
+      "Puglia",
+      "Molise"
+    ],
+    "curiosita": "Fu voluta da Carlo di Borbone nel Settecento.",
+    "fatto": "reggia di caserta regione campania",
+    "fonte": "https://it.wikipedia.org/wiki/Reggia_di_Caserta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0073",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale località inglese dà il nome al meridiano di riferimento a longitudine zero?",
+    "risposte": [
+      "Greenwich",
+      "Oxford",
+      "Windsor",
+      "Kensington"
+    ],
+    "curiosita": "Dal 1884 il suo meridiano è lo zero convenzionale per misurare la longitudine.",
+    "fatto": "meridiano zero greenwich",
+    "fonte": "https://it.wikipedia.org/wiki/Meridiano_di_Greenwich",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0074",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale stretto separa la Danimarca dalla Svezia?",
+    "risposte": [
+      "Øresund",
+      "Skagerrak",
+      "Stretto di Dover",
+      "Kattegat"
+    ],
+    "curiosita": "Oggi lo attraversa un ponte-tunnel lungo circa sedici chilometri.",
+    "fatto": "stretto danimarca svezia oresund",
+    "fonte": "https://it.wikipedia.org/wiki/%C3%98resund",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0075",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Di quale Paese asiatico è parte la maggior parte dell'isola di Borneo?",
+    "risposte": [
+      "Indonesia",
+      "Malesia",
+      "Brunei",
+      "Filippine"
+    ],
+    "curiosita": "L'isola è divisa tra Indonesia, Malesia e Brunei.",
+    "fatto": "borneo maggior parte indonesia",
+    "fonte": "https://it.wikipedia.org/wiki/Borneo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0076",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale oceano si trovano le isole Maldive?",
+    "risposte": [
+      "Indiano",
+      "Pacifico",
+      "Atlantico",
+      "Artico"
+    ],
+    "curiosita": "Sono lo Stato più basso del mondo: la quota media è poco più di un metro.",
+    "fatto": "maldive oceano indiano",
+    "fonte": "https://it.wikipedia.org/wiki/Maldive",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0077",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale città americana è soprannominata la Windy City?",
+    "risposte": [
+      "Chicago",
+      "Boston",
+      "Seattle",
+      "Detroit"
+    ],
+    "curiosita": "Nel 1871 un incendio ne distrusse gran parte, ma fu presto ricostruita.",
+    "fatto": "windy city chicago",
+    "fonte": "https://it.wikipedia.org/wiki/Chicago",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0078",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova il sito maya di Chichén Itzá?",
+    "risposte": [
+      "Messico",
+      "Perù",
+      "Guatemala",
+      "Honduras"
+    ],
+    "curiosita": "La piramide di Kukulkan segna l'equinozio con un gioco di ombre.",
+    "fatto": "chichen itza paese messico",
+    "fonte": "https://it.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0079",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova Salisburgo, città natale di Mozart?",
+    "risposte": [
+      "Austria",
+      "Svizzera",
+      "Germania",
+      "Slovenia"
+    ],
+    "curiosita": "Wolfgang Amadeus Mozart nacque qui nel 1756.",
+    "fatto": "salisburgo paese austria",
+    "fonte": "https://it.wikipedia.org/wiki/Salisburgo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0080",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova la città di Cracovia?",
+    "risposte": [
+      "Polonia",
+      "Repubblica Ceca",
+      "Slovacchia",
+      "Ungheria"
+    ],
+    "curiosita": "Il suo centro storico fu tra i primi siti inseriti nella lista Unesco.",
+    "fatto": "cracovia paese polonia",
+    "fonte": "https://it.wikipedia.org/wiki/Cracovia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0081",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova la città fortificata di Dubrovnik?",
+    "risposte": [
+      "Croazia",
+      "Montenegro",
+      "Slovenia",
+      "Grecia"
+    ],
+    "curiosita": "Fu chiamata Ragusa e per secoli fu una repubblica marinara.",
+    "fatto": "dubrovnik paese croazia",
+    "fonte": "https://it.wikipedia.org/wiki/Dubrovnik",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0082",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale città spagnola si trova il palazzo dell'Alhambra?",
+    "risposte": [
+      "Granada",
+      "Siviglia",
+      "Cordova",
+      "Toledo"
+    ],
+    "curiosita": "Fu l'ultima roccaforte araba in Spagna, caduta nel 1492.",
+    "fatto": "alhambra citta granada",
+    "fonte": "https://it.wikipedia.org/wiki/Alhambra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0083",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale fiume attraversa Praga?",
+    "risposte": [
+      "Moldava",
+      "Elba",
+      "Oder",
+      "Danubio"
+    ],
+    "curiosita": "Il celebre Ponte Carlo la scavalca dal Trecento.",
+    "fatto": "fiume praga moldava",
+    "fonte": "https://it.wikipedia.org/wiki/Moldava",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0084",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale Paese sudamericano prende il nome dalla linea che lo attraversa?",
+    "risposte": [
+      "Ecuador",
+      "Perù",
+      "Cile",
+      "Argentina"
+    ],
+    "curiosita": "In spagnolo ecuador significa proprio equatore.",
+    "fatto": "paese equatore ecuador",
+    "fonte": "https://it.wikipedia.org/wiki/Ecuador",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0085",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale piccolo regno è completamente circondato dal territorio del Sudafrica?",
+    "risposte": [
+      "Lesotho",
+      "Eswatini",
+      "Botswana",
+      "Namibia"
+    ],
+    "curiosita": "È noto come il regno nel cielo perché si trova tutto oltre i mille metri.",
+    "fatto": "stato circondato dal sudafrica lesotho",
+    "fonte": "https://it.wikipedia.org/wiki/Lesotho",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0086",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "In quale Paese africano si trova la leggendaria città di Timbuctù?",
+    "risposte": [
+      "Mali",
+      "Niger",
+      "Senegal",
+      "Mauritania"
+    ],
+    "curiosita": "Fu per secoli un centro di commercio e di studi islamici.",
+    "fatto": "timbuctu paese mali",
+    "fonte": "https://it.wikipedia.org/wiki/Timbuct%C3%B9",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0087",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale grande lago bagna Kenya, Uganda e Tanzania ed è il più esteso dell'Africa?",
+    "risposte": [
+      "Vittoria",
+      "Tanganica",
+      "Malawi",
+      "Ciad"
+    ],
+    "curiosita": "Dal lago ha origine il Nilo Bianco.",
+    "fatto": "lago piu grande africa vittoria",
+    "fonte": "https://it.wikipedia.org/wiki/Lago_Vittoria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0088",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Quale deserto si estende tra Mongolia e Cina?",
+    "risposte": [
+      "Gobi",
+      "Sahara",
+      "Namib",
+      "Kalahari"
+    ],
+    "curiosita": "Lo attraversava la Via della Seta e Marco Polo lo conosceva.",
+    "fatto": "deserto mongolia cina gobi",
+    "fonte": "https://it.wikipedia.org/wiki/Deserto_del_Gobi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0089",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "A quale arcipelago appartiene l'isola di Tenerife?",
+    "risposte": [
+      "Canarie",
+      "Baleari",
+      "Azzorre",
+      "Madeira"
+    ],
+    "curiosita": "Sulla sua isola sorge il Teide, la montagna più alta della Spagna.",
+    "fatto": "tenerife arcipelago canarie",
+    "fonte": "https://it.wikipedia.org/wiki/Tenerife",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-geo-0090",
+    "tipo": "classica",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale dell'Islanda?",
+    "risposte": [
+      "Reykjavik",
+      "Akureyri",
+      "Tórshavn",
+      "Nuuk"
+    ],
+    "curiosita": "È la capitale più a nord del mondo tra gli Stati sovrani.",
+    "fatto": "capitale islanda reykjavik",
+    "fonte": "https://it.wikipedia.org/wiki/Reykjav%C3%ADk",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

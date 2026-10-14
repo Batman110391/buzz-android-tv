@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-cuc-0001",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Con il latte di quale animale si fa il pecorino?",
+    "risposte": [
+      "Pecora",
+      "Mucca",
+      "Capra",
+      "Bufala"
+    ],
+    "curiosita": "Il nome deriva da pecora, l'animale da cui si munge il latte.",
+    "fatto": "animale latte pecorino pecora",
+    "fonte": "https://it.wikipedia.org/wiki/Pecorino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0002",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale agrume è giallo e molto aspro?",
+    "risposte": [
+      "Limone",
+      "Arancia",
+      "Mandarino",
+      "Cedro"
+    ],
+    "curiosita": "Contiene molta vitamina C.",
+    "fatto": "agrume giallo aspro limone",
+    "fonte": "https://it.wikipedia.org/wiki/Limone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0003",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale alimento si ottiene dal latte fermentato?",
+    "risposte": [
+      "Yogurt",
+      "Burro",
+      "Panna",
+      "Ricotta"
+    ],
+    "curiosita": "Il nome viene dal turco e indica un latte reso denso.",
+    "fatto": "alimento latte fermentato yogurt",
+    "fonte": "https://it.wikipedia.org/wiki/Yogurt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0004",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pasta corta ha le estremità tagliate in obliquo?",
+    "risposte": [
+      "Penne",
+      "Fusilli",
+      "Farfalle",
+      "Conchiglie"
+    ],
+    "curiosita": "Il nome richiama la penna d'oca con cui si scriveva.",
+    "fatto": "pasta corta estremita oblique penne",
+    "fonte": "https://it.wikipedia.org/wiki/Penne_(pasta)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0005",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Da che cosa si ottiene il caffè?",
+    "risposte": [
+      "Semi tostati",
+      "Foglie secche",
+      "Radici",
+      "Fiori secchi"
+    ],
+    "curiosita": "I chicchi sono semi dei frutti della pianta.",
+    "fatto": "parte pianta caffe semi tostati",
+    "fonte": "https://it.wikipedia.org/wiki/Caff%C3%A8",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0006",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Da quale parte della pianta si ottiene il tè?",
+    "risposte": [
+      "Foglie",
+      "Radici",
+      "Semi",
+      "Fiori"
+    ],
+    "curiosita": "Il tè verde e il tè nero vengono dalla stessa pianta.",
+    "fatto": "parte pianta te foglie",
+    "fonte": "https://it.wikipedia.org/wiki/T%C3%A8",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0007",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di quale Paese sono tipici i tacos?",
+    "risposte": [
+      "Messico",
+      "Spagna",
+      "Cuba",
+      "Argentina"
+    ],
+    "curiosita": "Sono tortillas di mais o grano farcite.",
+    "fatto": "paese tacos messico",
+    "fonte": "https://it.wikipedia.org/wiki/Taco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0008",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di quale Paese è tipico il formaggio feta?",
+    "risposte": [
+      "Grecia",
+      "Turchia",
+      "Bulgaria",
+      "Italia"
+    ],
+    "curiosita": "È un formaggio di latte di pecora o di capra.",
+    "fatto": "paese formaggio feta grecia",
+    "fonte": "https://it.wikipedia.org/wiki/Feta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0009",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Come si chiama la salsa di carne e pomodoro?",
+    "risposte": [
+      "Ragù",
+      "Pesto",
+      "Besciamella",
+      "Carbonara"
+    ],
+    "curiosita": "Il nome viene dal francese ragoût.",
+    "fatto": "salsa carne pomodoro ragu",
+    "fonte": "https://it.wikipedia.org/wiki/Rag%C3%B9",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0010",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Con quale cereale si prepara il risotto?",
+    "risposte": [
+      "Riso",
+      "Orzo",
+      "Mais",
+      "Farro"
+    ],
+    "curiosita": "Il risotto si cuoce aggiungendo brodo poco alla volta.",
+    "fatto": "cereale risotto riso",
+    "fonte": "https://it.wikipedia.org/wiki/Risotto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0011",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale animale ci dà le uova che mangiamo di solito?",
+    "risposte": [
+      "Gallina",
+      "Anatra",
+      "Oca",
+      "Quaglia"
+    ],
+    "curiosita": "Una gallina può deporre fino a circa 300 uova l'anno.",
+    "fatto": "animale uova comuni gallina",
+    "fonte": "https://it.wikipedia.org/wiki/Uovo_(alimento)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0012",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale ortaggio si intaglia per Halloween?",
+    "risposte": [
+      "Zucca",
+      "Melone",
+      "Anguria",
+      "Cavolo"
+    ],
+    "curiosita": "In origine in Irlanda si intagliavano le rape.",
+    "fatto": "ortaggio intaglio halloween zucca",
+    "fonte": "https://it.wikipedia.org/wiki/Zucca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0013",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale salsa gialla accompagna spesso l'hot dog?",
+    "risposte": [
+      "Senape",
+      "Maionese",
+      "Ketchup",
+      "Barbecue"
+    ],
+    "curiosita": "Si ricava dai semi della pianta omonima.",
+    "fatto": "salsa gialla hot dog senape",
+    "fonte": "https://it.wikipedia.org/wiki/Senape",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0014",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Che cosa si essicca per ottenere l'uvetta?",
+    "risposte": [
+      "Uva",
+      "Prugna",
+      "Fico",
+      "Albicocca"
+    ],
+    "curiosita": "In molte regioni è l'ingrediente tipico dei dolci natalizi.",
+    "fatto": "essiccare uvetta uva",
+    "fonte": "https://it.wikipedia.org/wiki/Uva_passa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0015",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale ortaggio arancione è ricco di betacarotene?",
+    "risposte": [
+      "Carota",
+      "Zucchina",
+      "Sedano",
+      "Finocchio"
+    ],
+    "curiosita": "Il betacarotene dà il colore e si trasforma in vitamina A.",
+    "fatto": "ortaggio arancione betacarotene carota",
+    "fonte": "https://it.wikipedia.org/wiki/Carota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0016",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale spezia si ricava dal peperone essiccato?",
+    "risposte": [
+      "Paprika",
+      "Curcuma",
+      "Zenzero",
+      "Cumino"
+    ],
+    "curiosita": "È tipica della cucina ungherese.",
+    "fatto": "spezia peperone essiccato paprika",
+    "fonte": "https://it.wikipedia.org/wiki/Paprika",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0017",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Da quale parte del latte si ricava la ricotta?",
+    "risposte": [
+      "Siero",
+      "Panna",
+      "Burro",
+      "Caglio"
+    ],
+    "curiosita": "Il nome indica che il siero viene cotto una seconda volta.",
+    "fatto": "ricotta siero latte",
+    "fonte": "https://it.wikipedia.org/wiki/Ricotta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0018",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiama il pesce crudo a fette dei giapponesi?",
+    "risposte": [
+      "Sashimi",
+      "Nigiri",
+      "Tempura",
+      "Maki"
+    ],
+    "curiosita": "Si mangia senza riso, con salsa di soia e wasabi.",
+    "fatto": "pesce crudo fette giapponese sashimi",
+    "fonte": "https://it.wikipedia.org/wiki/Sashimi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0019",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale spezia gialla colora il curry?",
+    "risposte": [
+      "Curcuma",
+      "Zafferano",
+      "Paprika",
+      "Zenzero"
+    ],
+    "curiosita": "È una radice della stessa famiglia dello zenzero.",
+    "fatto": "spezia gialla curry curcuma",
+    "fonte": "https://it.wikipedia.org/wiki/Curcuma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0020",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale città ligure è la focaccia al formaggio?",
+    "risposte": [
+      "Recco",
+      "Genova",
+      "Savona",
+      "La Spezia"
+    ],
+    "curiosita": "Ha un marchio europeo di indicazione geografica protetta.",
+    "fatto": "citta focaccia al formaggio recco",
+    "fonte": "https://it.wikipedia.org/wiki/Focaccia_di_Recco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0021",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale carne è la bistecca alla fiorentina?",
+    "risposte": [
+      "Manzo",
+      "Maiale",
+      "Agnello",
+      "Cavallo"
+    ],
+    "curiosita": "Si cuoce alla griglia e si serve al sangue.",
+    "fatto": "carne bistecca fiorentina manzo",
+    "fonte": "https://it.wikipedia.org/wiki/Bistecca_alla_fiorentina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0022",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale pasta corta ha la forma di spirale?",
+    "risposte": [
+      "Fusilli",
+      "Penne",
+      "Rigatoni",
+      "Farfalle"
+    ],
+    "curiosita": "Il nome ricorda il fuso usato per filare.",
+    "fatto": "pasta corta spirale fusilli",
+    "fonte": "https://it.wikipedia.org/wiki/Fusilli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0023",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale bevanda torinese ha caffè, cioccolato e latte?",
+    "risposte": [
+      "Bicerin",
+      "Marocchino",
+      "Cappuccino",
+      "Ginseng"
+    ],
+    "curiosita": "Si serve in un piccolo bicchiere di vetro.",
+    "fatto": "bevanda torinese caffe cioccolato bicerin",
+    "fonte": "https://it.wikipedia.org/wiki/Bicerin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0024",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale carne è la vera cotoletta alla milanese?",
+    "risposte": [
+      "Vitello",
+      "Maiale",
+      "Pollo",
+      "Tacchino"
+    ],
+    "curiosita": "Si cuoce nel burro e resta con l'osso.",
+    "fatto": "carne cotoletta milanese vitello",
+    "fonte": "https://it.wikipedia.org/wiki/Cotoletta_alla_milanese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0025",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale ortaggio si prepara alla giudia a Roma?",
+    "risposte": [
+      "Carciofo",
+      "Zucchina",
+      "Melanzana",
+      "Peperone"
+    ],
+    "curiosita": "Si frigge fino a farlo diventare croccante come un fiore.",
+    "fatto": "ortaggio alla giudia roma carciofo",
+    "fonte": "https://it.wikipedia.org/wiki/Carciofo_alla_giudia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0026",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Con quale cereale si produce il whisky scozzese?",
+    "risposte": [
+      "Orzo",
+      "Mais",
+      "Riso",
+      "Segale"
+    ],
+    "curiosita": "L'orzo viene fatto germogliare e trasformato in malto.",
+    "fatto": "cereale whisky scozzese orzo",
+    "fonte": "https://it.wikipedia.org/wiki/Whisky",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0027",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale pianta si ricava la tequila?",
+    "risposte": [
+      "Agave",
+      "Cactus",
+      "Aloe",
+      "Yucca"
+    ],
+    "curiosita": "Si ottiene dal cuore della pianta, detto piña.",
+    "fatto": "pianta tequila agave",
+    "fonte": "https://it.wikipedia.org/wiki/Tequila",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0028",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale caratteristica ha il pane toscano tradizionale?",
+    "risposte": [
+      "Senza sale",
+      "Senza lievito",
+      "Ripieno",
+      "Cotto a vapore"
+    ],
+    "curiosita": "Si racconta che nacque quando il sale era molto tassato.",
+    "fatto": "pane toscano tradizionale senza sale",
+    "fonte": "https://it.wikipedia.org/wiki/Pane_toscano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0029",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale pesce giapponese è velenoso se cucinato male?",
+    "risposte": [
+      "Fugu",
+      "Tonno",
+      "Anguilla",
+      "Sgombro"
+    ],
+    "curiosita": "Solo cuochi con una licenza speciale possono prepararlo.",
+    "fatto": "pesce giapponese velenoso fugu",
+    "fonte": "https://it.wikipedia.org/wiki/Fugu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0030",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale spezia è il seme di un albero tropicale?",
+    "risposte": [
+      "Noce moscata",
+      "Cannella",
+      "Cumino",
+      "Paprika"
+    ],
+    "curiosita": "Il seme è avvolto da un rivestimento rosso, il macis.",
+    "fatto": "spezia seme albero tropicale noce moscata",
+    "fonte": "https://it.wikipedia.org/wiki/Noce_moscata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

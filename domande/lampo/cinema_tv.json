@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-cin-0001",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Che animale è Dumbo?",
+    "risposte": [
+      "Elefante",
+      "Cavallo",
+      "Leone",
+      "Orso"
+    ],
+    "curiosita": "Ha orecchie così grandi da permettergli di volare.",
+    "fatto": "dumbo elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Dumbo_-_L'elefante_volante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0002",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Di che colore è Hulk?",
+    "risposte": [
+      "Verde",
+      "Rosso",
+      "Blu",
+      "Grigio"
+    ],
+    "curiosita": "Nei primi fumetti era grigio.",
+    "fatto": "colore hulk verde",
+    "fonte": "https://it.wikipedia.org/wiki/Hulk",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0003",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale supereroe è nato su Krypton?",
+    "risposte": [
+      "Superman",
+      "Batman",
+      "Thor",
+      "Flash"
+    ],
+    "curiosita": "Il suo nome kryptoniano è Kal-El.",
+    "fatto": "superman krypton",
+    "fonte": "https://it.wikipedia.org/wiki/Superman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0004",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi vive in un ananas sotto il mare?",
+    "risposte": [
+      "SpongeBob",
+      "Nemo",
+      "Dory",
+      "Flounder"
+    ],
+    "curiosita": "Vive a Bikini Bottom.",
+    "fatto": "ananas sotto il mare spongebob",
+    "fonte": "https://it.wikipedia.org/wiki/SpongeBob",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0005",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale principessa vive con sette nani?",
+    "risposte": [
+      "Biancaneve",
+      "Cenerentola",
+      "Aurora",
+      "Belle"
+    ],
+    "curiosita": "Il film del 1937 è il primo lungometraggio Disney.",
+    "fatto": "principessa sette nani biancaneve",
+    "fonte": "https://it.wikipedia.org/wiki/Biancaneve_e_i_sette_nani_(film_1937)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0006",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'amica smemorata di Nemo?",
+    "risposte": [
+      "Dory",
+      "Marlin",
+      "Bruce",
+      "Gill"
+    ],
+    "curiosita": "Nel 2016 ebbe un film tutto per sé.",
+    "fatto": "amica smemorata nemo dory",
+    "fonte": "https://it.wikipedia.org/wiki/Dory_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0007",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il cane di Topolino?",
+    "risposte": [
+      "Pluto",
+      "Pippo",
+      "Snoopy",
+      "Scooby"
+    ],
+    "curiosita": "Debuttò nel 1930.",
+    "fatto": "cane di topolino pluto",
+    "fonte": "https://it.wikipedia.org/wiki/Pluto_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0008",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama lo zio ricco di Paperino?",
+    "risposte": [
+      "Paperone",
+      "Gastone",
+      "Archimede",
+      "Pippo"
+    ],
+    "curiosita": "Nuota nei suoi dollari nel deposito.",
+    "fatto": "zio ricco paperino paperone",
+    "fonte": "https://it.wikipedia.org/wiki/Paperon_de'_Paperoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0009",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Di che colore sono i Puffi?",
+    "risposte": [
+      "Blu",
+      "Verde",
+      "Rosso",
+      "Giallo"
+    ],
+    "curiosita": "Alti \"tre mele\" circa.",
+    "fatto": "colore puffi blu",
+    "fonte": "https://it.wikipedia.org/wiki/Puffi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0010",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è l'amico asino di Shrek?",
+    "risposte": [
+      "Ciuchino",
+      "Pinocchio",
+      "Ronzinante",
+      "Pippo"
+    ],
+    "curiosita": "Nella versione originale si chiama Donkey.",
+    "fatto": "asino di shrek ciuchino",
+    "fonte": "https://it.wikipedia.org/wiki/Shrek",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0011",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il burattino dal naso lungo?",
+    "risposte": [
+      "Pinocchio",
+      "Geppetto",
+      "Lucignolo",
+      "Mangiafuoco"
+    ],
+    "curiosita": "Il naso cresce quando dice bugie.",
+    "fatto": "burattino naso lungo pinocchio",
+    "fonte": "https://it.wikipedia.org/wiki/Pinocchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0012",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il nemico di Batman con la risata?",
+    "risposte": [
+      "Joker",
+      "Pinguino",
+      "Enigmista",
+      "Bane"
+    ],
+    "curiosita": "Il suo volto è sbiancato dai prodotti chimici.",
+    "fatto": "nemico batman risata joker",
+    "fonte": "https://it.wikipedia.org/wiki/Joker_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0013",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale robot netturbino è protagonista Pixar?",
+    "risposte": [
+      "WALL-E",
+      "R2-D2",
+      "C-3PO",
+      "Baymax"
+    ],
+    "curiosita": "Il film è del 2008.",
+    "fatto": "robot netturbino pixar wall e",
+    "fonte": "https://it.wikipedia.org/wiki/WALL•E",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0014",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la Sirenetta della Disney?",
+    "risposte": [
+      "Ariel",
+      "Aurora",
+      "Jasmine",
+      "Belle"
+    ],
+    "curiosita": "Il film uscì nel 1989.",
+    "fatto": "sirenetta disney ariel",
+    "fonte": "https://it.wikipedia.org/wiki/La_sirenetta_(film_1989)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0015",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale gatto insegue sempre il topo Jerry?",
+    "risposte": [
+      "Tom",
+      "Garfield",
+      "Felix",
+      "Silvestro"
+    ],
+    "curiosita": "Hanna e Barbera crearono la coppia nel 1940.",
+    "fatto": "gatto che insegue jerry tom",
+    "fonte": "https://it.wikipedia.org/wiki/Tom_e_Jerry",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0016",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha ideato \"Star Wars\"?",
+    "risposte": [
+      "George Lucas",
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "curiosita": "Fondò anche la Lucasfilm.",
+    "fatto": "ideatore star wars lucas",
+    "fonte": "https://it.wikipedia.org/wiki/George_Lucas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0017",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"E.T. l'extra-terrestre\"?",
+    "risposte": [
+      "Steven Spielberg",
+      "George Lucas",
+      "Tim Burton",
+      "Robert Zemeckis"
+    ],
+    "curiosita": "Uscì nel 1982.",
+    "fatto": "regista et spielberg",
+    "fonte": "https://it.wikipedia.org/wiki/E.T._l'extra-terrestre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0018",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta Mr. Bean?",
+    "risposte": [
+      "Rowan Atkinson",
+      "Hugh Laurie",
+      "Hugh Grant",
+      "Colin Firth"
+    ],
+    "curiosita": "Il personaggio parla pochissimo.",
+    "fatto": "mr bean rowan atkinson",
+    "fonte": "https://it.wikipedia.org/wiki/Mr._Bean",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0019",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il maggiordomo di Batman?",
+    "risposte": [
+      "Alfred",
+      "Jarvis",
+      "Geeves",
+      "Lurch"
+    ],
+    "curiosita": "Il cognome è Pennyworth.",
+    "fatto": "maggiordomo batman alfred",
+    "fonte": "https://it.wikipedia.org/wiki/Alfred_Pennyworth",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0020",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Con quale comico formava coppia Franco Franchi?",
+    "risposte": [
+      "Ciccio Ingrassia",
+      "Aldo Fabrizi",
+      "Walter Chiari",
+      "Totò"
+    ],
+    "curiosita": "Girarono insieme oltre cento film.",
+    "fatto": "franco franchi ciccio ingrassia",
+    "fonte": "https://it.wikipedia.org/wiki/Franco_e_Ciccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0021",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film Pixar ha come protagonista un topo cuoco?",
+    "risposte": [
+      "Ratatouille",
+      "Cars",
+      "Up",
+      "Coco"
+    ],
+    "curiosita": "Il topo si chiama Remy.",
+    "fatto": "film pixar topo cuoco ratatouille",
+    "fonte": "https://it.wikipedia.org/wiki/Ratatouille_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0022",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film Pixar ha una casa trasportata da palloncini?",
+    "risposte": [
+      "Up",
+      "Coco",
+      "Ribelle",
+      "Soul"
+    ],
+    "curiosita": "Il protagonista è l'anziano Carl.",
+    "fatto": "film pixar casa palloncini up",
+    "fonte": "https://it.wikipedia.org/wiki/Up_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0023",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attrice interpreta Hermione Granger?",
+    "risposte": [
+      "Emma Watson",
+      "Emma Stone",
+      "Keira Knightley",
+      "Natalie Portman"
+    ],
+    "curiosita": "Aveva 11 anni nel primo film.",
+    "fatto": "hermione granger emma watson",
+    "fonte": "https://it.wikipedia.org/wiki/Emma_Watson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0024",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale regista ha diretto \"Edward mani di forbice\"?",
+    "risposte": [
+      "Tim Burton",
+      "Wes Anderson",
+      "David Lynch",
+      "David Cronenberg"
+    ],
+    "curiosita": "Il protagonista è Johnny Depp.",
+    "fatto": "regista edward mani di forbice burton",
+    "fonte": "https://it.wikipedia.org/wiki/Tim_Burton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0025",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta Wolverine al cinema?",
+    "risposte": [
+      "Hugh Jackman",
+      "Hugh Laurie",
+      "Ryan Reynolds",
+      "Chris Pratt"
+    ],
+    "curiosita": "Ha interpretato il ruolo per quasi vent'anni.",
+    "fatto": "wolverine hugh jackman",
+    "fonte": "https://it.wikipedia.org/wiki/Hugh_Jackman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0026",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretò Dorothy ne \"Il mago di Oz\"?",
+    "risposte": [
+      "Judy Garland",
+      "Shirley Temple",
+      "Liza Minnelli",
+      "Doris Day"
+    ],
+    "curiosita": "Aveva 16 anni durante le riprese.",
+    "fatto": "dorothy mago di oz judy garland",
+    "fonte": "https://it.wikipedia.org/wiki/Judy_Garland",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0027",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Mediterraneo\"?",
+    "risposte": [
+      "Salvatores",
+      "Tornatore",
+      "Moretti",
+      "Sorrentino"
+    ],
+    "curiosita": "Vinse l'Oscar come miglior film straniero nel 1992.",
+    "fatto": "regista mediterraneo salvatores",
+    "fonte": "https://it.wikipedia.org/wiki/Mediterraneo_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0028",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"L'armata Brancaleone\"?",
+    "risposte": [
+      "Mario Monicelli",
+      "Dino Risi",
+      "Luigi Comencini",
+      "Pietro Germi"
+    ],
+    "curiosita": "Il protagonista è Vittorio Gassman.",
+    "fatto": "regista armata brancaleone monicelli",
+    "fonte": "https://it.wikipedia.org/wiki/L'armata_Brancaleone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0029",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpretava il conte Mascetti in \"Amici miei\"?",
+    "risposte": [
+      "Ugo Tognazzi",
+      "Philippe Noiret",
+      "Gastone Moschin",
+      "Duilio Del Prete"
+    ],
+    "curiosita": "È il celebre autore delle zingarate.",
+    "fatto": "conte mascetti tognazzi",
+    "fonte": "https://it.wikipedia.org/wiki/Amici_miei_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0030",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Cinema Paradiso\"?",
+    "risposte": [
+      "Tornatore",
+      "Salvatores",
+      "Moretti",
+      "Sorrentino"
+    ],
+    "curiosita": "È ambientato in un paese della Sicilia.",
+    "fatto": "regista cinema paradiso tornatore",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Tornatore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

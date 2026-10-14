@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-nat-0001",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dall'animale più leggero al più pesante",
+    "elementi": [
+      "Ape",
+      "Gatto",
+      "Cavallo",
+      "Elefante"
+    ],
+    "valori": [
+      "0,1 g",
+      "4 kg",
+      "500 kg",
+      "5.000 kg"
+    ],
+    "curiosita": "Un elefante adulto pesa quanto 50 milioni di api.",
+    "fatto": "peso ape gatto cavallo elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Elefante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0002",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dal più lento al più veloce",
+    "elementi": [
+      "Tartaruga",
+      "Elefante",
+      "Cavallo",
+      "Ghepardo"
+    ],
+    "valori": [
+      "0,3 km/h",
+      "40 km/h",
+      "70 km/h",
+      "110 km/h"
+    ],
+    "curiosita": "Il ghepardo può raggiungere quasi 110 km/h in pochi secondi.",
+    "fatto": "velocita tartaruga elefante cavallo ghepardo",
+    "fonte": "https://it.wikipedia.org/wiki/Ghepardo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0003",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dal numero minore al maggiore di zampe",
+    "elementi": [
+      "Uccello",
+      "Gatto",
+      "Formica",
+      "Ragno"
+    ],
+    "valori": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "curiosita": "I ragni non sono insetti: ne hanno due in più.",
+    "fatto": "zampe uccello gatto formica ragno",
+    "fonte": "https://it.wikipedia.org/wiki/Araneae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0004",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dal più piccolo al più grande per peso",
+    "elementi": [
+      "Topo",
+      "Gatto",
+      "Lupo",
+      "Orso polare"
+    ],
+    "valori": [
+      "20 g",
+      "4 kg",
+      "40 kg",
+      "450 kg"
+    ],
+    "curiosita": "L'orso polare è il più grande carnivoro terrestre.",
+    "fatto": "peso topo gatto lupo orso polare",
+    "fonte": "https://it.wikipedia.org/wiki/Ursus_maritimus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0005",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Le fasi di vita di una farfalla",
+    "elementi": [
+      "Uovo",
+      "Bruco",
+      "Crisalide",
+      "Farfalla"
+    ],
+    "valori": [
+      "1° fase",
+      "2° fase",
+      "3° fase",
+      "4° fase"
+    ],
+    "curiosita": "La trasformazione si chiama metamorfosi.",
+    "fatto": "ciclo vita farfalla fasi",
+    "fonte": "https://it.wikipedia.org/wiki/Metamorfosi_(zoologia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0006",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dalla gestazione più breve alla più lunga",
+    "elementi": [
+      "Topo",
+      "Coniglio",
+      "Cane",
+      "Mucca"
+    ],
+    "valori": [
+      "20 giorni",
+      "31 giorni",
+      "63 giorni",
+      "285 giorni"
+    ],
+    "curiosita": "La mucca porta avanti la gravidanza quanto una donna.",
+    "fatto": "gestazione topo coniglio cane mucca",
+    "fonte": "https://it.wikipedia.org/wiki/Gestazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0007",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dall'animale più corto al più lungo",
+    "elementi": [
+      "Ape",
+      "Topo",
+      "Gatto",
+      "Coccodrillo marino"
+    ],
+    "valori": [
+      "1,5 cm",
+      "8 cm",
+      "45 cm",
+      "5 m"
+    ],
+    "curiosita": "Il coccodrillo marino può superare i sei metri.",
+    "fatto": "lunghezza ape topo gatto coccodrillo",
+    "fonte": "https://it.wikipedia.org/wiki/Crocodylus_porosus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0008",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dal cuore più lento al più veloce",
+    "elementi": [
+      "Elefante",
+      "Uomo",
+      "Gatto",
+      "Topo"
+    ],
+    "valori": [
+      "30 bpm",
+      "70 bpm",
+      "150 bpm",
+      "600 bpm"
+    ],
+    "curiosita": "Più l'animale è piccolo, più il cuore batte in fretta.",
+    "fatto": "battiti cuore elefante uomo gatto topo",
+    "fonte": "https://it.wikipedia.org/wiki/Frequenza_cardiaca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0009",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dall'apertura alare più piccola alla più grande",
+    "elementi": [
+      "Passero",
+      "Piccione",
+      "Aquila reale",
+      "Albatros"
+    ],
+    "valori": [
+      "22 cm",
+      "65 cm",
+      "2 m",
+      "3,5 m"
+    ],
+    "curiosita": "L'albatros vola per ore senza battere le ali.",
+    "fatto": "apertura alare passero piccione aquila albatros",
+    "fonte": "https://it.wikipedia.org/wiki/Apertura_alare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0010",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dal primo ad apparire sulla Terra all'ultimo",
+    "elementi": [
+      "Trilobite",
+      "Dinosauro",
+      "Mammut lanoso",
+      "Homo sapiens"
+    ],
+    "valori": [
+      "520 mln anni",
+      "230 mln anni",
+      "700.000 anni",
+      "300.000 anni"
+    ],
+    "curiosita": "I trilobiti vissero ben prima dei dinosauri.",
+    "fatto": "comparsa trilobite dinosauro mammut homo sapiens",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_evolutiva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0011",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dalla vita più breve alla più lunga",
+    "elementi": [
+      "Topo",
+      "Cane",
+      "Elefante",
+      "Tartaruga gigante"
+    ],
+    "valori": [
+      "3 anni",
+      "15 anni",
+      "70 anni",
+      "150 anni"
+    ],
+    "curiosita": "Alcune tartarughe giganti superano i 150 anni.",
+    "fatto": "vita media topo cane elefante tartaruga",
+    "fonte": "https://it.wikipedia.org/wiki/Longevita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0012",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dal numero minore al maggiore di denti",
+    "elementi": [
+      "Uccello",
+      "Gatto",
+      "Uomo",
+      "Cane"
+    ],
+    "valori": [
+      "0",
+      "30",
+      "32",
+      "42"
+    ],
+    "curiosita": "Gli uccelli non hanno denti ma un becco.",
+    "fatto": "denti uccello gatto uomo cane",
+    "fonte": "https://it.wikipedia.org/wiki/Dentatura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0013",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dall'estinzione più antica alla più recente",
+    "elementi": [
+      "Alca impenne",
+      "Quagga",
+      "Piccione migratore",
+      "Tilacino"
+    ],
+    "valori": [
+      "1844",
+      "1883",
+      "1914",
+      "1936"
+    ],
+    "curiosita": "L'ultimo piccione migratore, Martha, morì nello zoo di Cincinnati.",
+    "fatto": "estinzione alca quagga piccione tilacino",
+    "fonte": "https://it.wikipedia.org/wiki/Estinzione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0014",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dall'attesa più breve alla più lunga per nascere",
+    "elementi": [
+      "Criceto",
+      "Cane",
+      "Cavallo",
+      "Elefante"
+    ],
+    "valori": [
+      "16 giorni",
+      "63 giorni",
+      "340 giorni",
+      "660 giorni"
+    ],
+    "curiosita": "Il piccolo di elefante nasce dopo quasi due anni.",
+    "fatto": "gestazione criceto cane cavallo elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Gestazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0015",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dal cervello più leggero al più pesante",
+    "elementi": [
+      "Gatto",
+      "Uomo",
+      "Delfino",
+      "Elefante"
+    ],
+    "valori": [
+      "30 g",
+      "1.400 g",
+      "1.600 g",
+      "5.000 g"
+    ],
+    "curiosita": "Il cervello del delfino è più pesante di quello umano.",
+    "fatto": "cervello gatto uomo delfino elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Encefalo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-sto-0001",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 1,
+    "criterio": "Eventi, dal più antico al più recente",
+    "elementi": [
+      "Fondazione di Roma",
+      "Scoperta dell'America",
+      "Rivoluzione francese",
+      "Caduta del Muro"
+    ],
+    "valori": [
+      "753 a.C.",
+      "1492",
+      "1789",
+      "1989"
+    ],
+    "curiosita": "Dalla fondazione di Roma sono passati più di 2.700 anni.",
+    "fatto": "ordine eventi roma america rivoluzione muro",
+    "fonte": "https://it.wikipedia.org/wiki/Storia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0002",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 1,
+    "criterio": "Costruzioni, dalla più antica alla più recente",
+    "elementi": [
+      "Piramidi di Giza",
+      "Partenone",
+      "Colosseo",
+      "Torre Eiffel"
+    ],
+    "valori": [
+      "~2560 a.C.",
+      "447 a.C.",
+      "80 d.C.",
+      "1889"
+    ],
+    "curiosita": "La Grande Piramide ha circa 4.500 anni.",
+    "fatto": "ordine costruzioni piramidi partenone colosseo eiffel",
+    "fonte": "https://it.wikipedia.org/wiki/Piramidi_di_Giza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0003",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 1,
+    "criterio": "Dal più antico al più recente per nascita",
+    "elementi": [
+      "Giulio Cesare",
+      "Leonardo da Vinci",
+      "Napoleone",
+      "Albert Einstein"
+    ],
+    "valori": [
+      "100 a.C.",
+      "1452",
+      "1769",
+      "1879"
+    ],
+    "curiosita": "Napoleone nacque 317 anni dopo Leonardo.",
+    "fatto": "ordine nascita cesare leonardo napoleone einstein",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0004",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 1,
+    "criterio": "Guerre, dalla più antica alla più recente",
+    "elementi": [
+      "Guerre puniche",
+      "Guerra dei Cent'anni",
+      "1ª guerra mondiale",
+      "2ª guerra mondiale"
+    ],
+    "valori": [
+      "264 a.C.",
+      "1337",
+      "1914",
+      "1939"
+    ],
+    "curiosita": "Le guerre puniche opposero Roma e Cartagine.",
+    "fatto": "ordine guerre puniche cent anni mondiali",
+    "fonte": "https://it.wikipedia.org/wiki/Guerre_puniche",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0005",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 1,
+    "criterio": "Presidenti USA, dal primo al più recente",
+    "elementi": [
+      "George Washington",
+      "Abraham Lincoln",
+      "F. D. Roosevelt",
+      "J. F. Kennedy"
+    ],
+    "valori": [
+      "1789",
+      "1861",
+      "1933",
+      "1961"
+    ],
+    "curiosita": "Roosevelt fu eletto quattro volte, un record unico.",
+    "fatto": "ordine presidenti usa washington lincoln roosevelt kennedy",
+    "fonte": "https://it.wikipedia.org/wiki/Presidenti_degli_Stati_Uniti_d'America",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0006",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Imperatori romani, dal più antico al più recente",
+    "elementi": [
+      "Augusto",
+      "Nerone",
+      "Traiano",
+      "Costantino"
+    ],
+    "valori": [
+      "27 a.C.",
+      "54 d.C.",
+      "98 d.C.",
+      "306 d.C."
+    ],
+    "curiosita": "Sotto Traiano l'impero raggiunse la massima estensione.",
+    "fatto": "ordine imperatori romani augusto nerone traiano costantino",
+    "fonte": "https://it.wikipedia.org/wiki/Imperatori_romani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0007",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Esploratori, in ordine di partenza",
+    "elementi": [
+      "Marco Polo",
+      "Cristoforo Colombo",
+      "Vasco da Gama",
+      "Ferdinando Magellano"
+    ],
+    "valori": [
+      "1271",
+      "1492",
+      "1497",
+      "1519"
+    ],
+    "curiosita": "Magellano partì dalla Spagna con cinque navi.",
+    "fatto": "ordine esploratori marco polo colombo gama magellano",
+    "fonte": "https://it.wikipedia.org/wiki/Et%C3%A0_delle_scoperte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0008",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Sovrani inglesi, per inizio del regno",
+    "elementi": [
+      "Enrico VIII",
+      "Elisabetta I",
+      "Vittoria",
+      "Elisabetta II"
+    ],
+    "valori": [
+      "1509",
+      "1558",
+      "1837",
+      "1952"
+    ],
+    "curiosita": "Elisabetta II regnò più a lungo di Vittoria.",
+    "fatto": "ordine sovrani inglesi enrico elisabetta vittoria",
+    "fonte": "https://it.wikipedia.org/wiki/Sovrani_inglesi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0009",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Rivoluzioni, dalla più antica alla più recente",
+    "elementi": [
+      "Indipendenza americana",
+      "Rivoluzione francese",
+      "Moti del 1848",
+      "Rivoluzione russa"
+    ],
+    "valori": [
+      "1776",
+      "1789",
+      "1848",
+      "1917"
+    ],
+    "curiosita": "Il 1848 è noto come la primavera dei popoli.",
+    "fatto": "ordine rivoluzioni americana francese 1848 russa",
+    "fonte": "https://it.wikipedia.org/wiki/Rivoluzioni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0010",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Tappe dell'Unità d'Italia, in ordine cronologico",
+    "elementi": [
+      "Spedizione dei Mille",
+      "Regno d'Italia",
+      "Terza guerra d'indip.",
+      "Presa di Roma"
+    ],
+    "valori": [
+      "1860",
+      "1861",
+      "1866",
+      "1870"
+    ],
+    "curiosita": "Con la Terza guerra d'indipendenza il Veneto fu annesso all'Italia.",
+    "fatto": "ordine tappe unita d italia",
+    "fonte": "https://it.wikipedia.org/wiki/Risorgimento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0011",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Battaglie, dalla più antica alla più recente",
+    "elementi": [
+      "Maratona",
+      "Hastings",
+      "Lepanto",
+      "Waterloo"
+    ],
+    "valori": [
+      "490 a.C.",
+      "1066",
+      "1571",
+      "1815"
+    ],
+    "curiosita": "Il corridore che portò la notizia di Maratona dà il nome alla gara.",
+    "fatto": "ordine battaglie maratona hastings lepanto waterloo",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Maratona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0012",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Eventi del Medioevo, in ordine cronologico",
+    "elementi": [
+      "Fine Roma d'Occidente",
+      "Carlo Magno imperatore",
+      "Prima crociata",
+      "Peste nera"
+    ],
+    "valori": [
+      "476",
+      "800",
+      "1096",
+      "1347"
+    ],
+    "curiosita": "Tra la prima crociata e la peste nera passarono oltre 250 anni.",
+    "fatto": "ordine eventi medioevo 476 800 1096 1347",
+    "fonte": "https://it.wikipedia.org/wiki/Medioevo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0013",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Eventi antichi, dal più antico al più recente",
+    "elementi": [
+      "Prime Olimpiadi",
+      "Termopili",
+      "Morte di Alessandro",
+      "Fine di Cartagine"
+    ],
+    "valori": [
+      "776 a.C.",
+      "480 a.C.",
+      "323 a.C.",
+      "146 a.C."
+    ],
+    "curiosita": "Alessandro Magno morì a Babilonia a 32 anni.",
+    "fatto": "ordine eventi antichita olimpiadi termopili alessandro cartagine",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_antica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0014",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Eventi del Novecento, in ordine cronologico",
+    "elementi": [
+      "Rivoluzione russa",
+      "Crollo di Wall Street",
+      "Sbarco in Normandia",
+      "Trattati di Roma"
+    ],
+    "valori": [
+      "1917",
+      "1929",
+      "1944",
+      "1957"
+    ],
+    "curiosita": "I Trattati di Roma fondarono la Comunità economica europea.",
+    "fatto": "ordine eventi novecento russa wall street normandia roma",
+    "fonte": "https://it.wikipedia.org/wiki/Novecento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0015",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Invenzioni, dalla più antica alla più recente",
+    "elementi": [
+      "Bibbia di Gutenberg",
+      "Telescopio di Galileo",
+      "Pila di Volta",
+      "Telefono di Bell"
+    ],
+    "valori": [
+      "1455",
+      "1609",
+      "1800",
+      "1876"
+    ],
+    "curiosita": "La pila di Volta fu la prima batteria elettrica della storia.",
+    "fatto": "ordine invenzioni gutenberg galileo volta bell",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_delle_invenzioni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

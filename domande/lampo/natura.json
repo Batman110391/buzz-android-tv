@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-nat-0001",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il piccolo del cavallo?",
+    "risposte": [
+      "Puledro",
+      "Vitello",
+      "Agnello",
+      "Capretto"
+    ],
+    "curiosita": "Si regge in piedi poche ore dopo la nascita.",
+    "fatto": "piccolo del cavallo puledro",
+    "fonte": "https://it.wikipedia.org/wiki/Cavallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0002",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il piccolo della pecora?",
+    "risposte": [
+      "Agnello",
+      "Puledro",
+      "Vitello",
+      "Capretto"
+    ],
+    "curiosita": "È anche simbolo pasquale.",
+    "fatto": "piccolo della pecora agnello",
+    "fonte": "https://it.wikipedia.org/wiki/Pecora",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0003",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il piccolo della mucca?",
+    "risposte": [
+      "Vitello",
+      "Agnello",
+      "Puledro",
+      "Capretto"
+    ],
+    "curiosita": "Beve il latte materno per alcuni mesi.",
+    "fatto": "piccolo della mucca vitello",
+    "fonte": "https://it.wikipedia.org/wiki/Bos_taurus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0004",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale ha la proboscide?",
+    "risposte": [
+      "Elefante",
+      "Giraffa",
+      "Rinoceronte",
+      "Ippopotamo"
+    ],
+    "curiosita": "La proboscide ha oltre 40.000 muscoli.",
+    "fatto": "animale con proboscide elefante",
+    "fonte": "https://it.wikipedia.org/wiki/Proboscide",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0005",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale ha il collo più lungo?",
+    "risposte": [
+      "Giraffa",
+      "Cavallo",
+      "Struzzo",
+      "Cammello"
+    ],
+    "curiosita": "Il suo collo può misurare circa due metri.",
+    "fatto": "animale collo piu lungo giraffa",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0006",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale ci dà la lana?",
+    "risposte": [
+      "Pecora",
+      "Mucca",
+      "Maiale",
+      "Cavallo"
+    ],
+    "curiosita": "Viene tosata almeno una volta all'anno.",
+    "fatto": "lana pecora",
+    "fonte": "https://it.wikipedia.org/wiki/Lana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0007",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale insetto frinisce d'estate?",
+    "risposte": [
+      "Cicala",
+      "Farfalla",
+      "Formica",
+      "Coccinella"
+    ],
+    "curiosita": "Fa il verso con speciali membrane sull'addome.",
+    "fatto": "insetto frinisce cicala",
+    "fonte": "https://it.wikipedia.org/wiki/Cicadidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0008",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Di che colore è il papavero comune?",
+    "risposte": [
+      "Rosso",
+      "Blu",
+      "Giallo",
+      "Viola"
+    ],
+    "curiosita": "Fiorisce nei campi di grano a primavera.",
+    "fatto": "colore papavero rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Papaver_rhoeas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0009",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Su quale albero crescono le mele?",
+    "risposte": [
+      "Melo",
+      "Pero",
+      "Ciliegio",
+      "Pesco"
+    ],
+    "curiosita": "Appartiene alla famiglia delle rosacee.",
+    "fatto": "albero delle mele melo",
+    "fonte": "https://it.wikipedia.org/wiki/Malus_domestica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0010",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale lascia una scia di bava?",
+    "risposte": [
+      "Lumaca",
+      "Formica",
+      "Ragno",
+      "Coccinella"
+    ],
+    "curiosita": "La bava la protegge e la aiuta a scivolare.",
+    "fatto": "scia di bava lumaca",
+    "fonte": "https://it.wikipedia.org/wiki/Gastropoda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0011",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale uccello fa il verso \"chicchirichì\"?",
+    "risposte": [
+      "Gallo",
+      "Gufo",
+      "Piccione",
+      "Corvo"
+    ],
+    "curiosita": "Canta all'alba per segnare il territorio.",
+    "fatto": "chicchirichi gallo",
+    "fonte": "https://it.wikipedia.org/wiki/Gallo_domestico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0012",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale africano maschio ha la criniera?",
+    "risposte": [
+      "Leone",
+      "Ghepardo",
+      "Ippopotamo",
+      "Giraffa"
+    ],
+    "curiosita": "La criniera scura indica salute e forza.",
+    "fatto": "criniera leone maschio",
+    "fonte": "https://it.wikipedia.org/wiki/Panthera_leo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0013",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale è coperto di aculei?",
+    "risposte": [
+      "Riccio",
+      "Volpe",
+      "Scoiattolo",
+      "Lepre"
+    ],
+    "curiosita": "Si appallottola per difendersi.",
+    "fatto": "animale con aculei riccio",
+    "fonte": "https://it.wikipedia.org/wiki/Erinaceus_europaeus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0014",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "In quale stagione cadono le foglie degli alberi?",
+    "risposte": [
+      "Autunno",
+      "Primavera",
+      "Estate",
+      "Inverno"
+    ],
+    "curiosita": "Le foglie cadono quando la clorofilla si degrada.",
+    "fatto": "stagione cadono foglie autunno",
+    "fonte": "https://it.wikipedia.org/wiki/Autunno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0015",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale albero produce le noci?",
+    "risposte": [
+      "Noce",
+      "Quercia",
+      "Pino",
+      "Pioppo"
+    ],
+    "curiosita": "Le noci sono frutti secchi ricchi di grassi.",
+    "fatto": "albero delle noci noce",
+    "fonte": "https://it.wikipedia.org/wiki/Juglans_regia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0016",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale uccello ha un grande sacco sotto il becco?",
+    "risposte": [
+      "Pellicano",
+      "Cigno",
+      "Airone",
+      "Gru"
+    ],
+    "curiosita": "Il sacco serve a catturare i pesci.",
+    "fatto": "uccello sacco sotto il becco pellicano",
+    "fonte": "https://it.wikipedia.org/wiki/Pelecanidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0017",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale uccello batte il becco sui tronchi?",
+    "risposte": [
+      "Picchio",
+      "Cuculo",
+      "Merlo",
+      "Passero"
+    ],
+    "curiosita": "Cerca insetti sotto la corteccia.",
+    "fatto": "uccello batte il becco picchio",
+    "fonte": "https://it.wikipedia.org/wiki/Picidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0018",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale pesce vive tra gli anemoni di mare?",
+    "risposte": [
+      "Pesce pagliaccio",
+      "Tonno",
+      "Merluzzo",
+      "Spigola"
+    ],
+    "curiosita": "L'anemone lo protegge e lui ripulisce l'anemone.",
+    "fatto": "pesce pagliaccio anemone",
+    "fonte": "https://it.wikipedia.org/wiki/Amphiprioninae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0019",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il verso del cervo in amore?",
+    "risposte": [
+      "Bramito",
+      "Raglio",
+      "Barrito",
+      "Ruggito"
+    ],
+    "curiosita": "Si sente in autunno nei boschi.",
+    "fatto": "verso del cervo bramito",
+    "fonte": "https://it.wikipedia.org/wiki/Cervus_elaphus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0020",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il verso dell'elefante?",
+    "risposte": [
+      "Barrito",
+      "Bramito",
+      "Muggito",
+      "Ruggito"
+    ],
+    "curiosita": "Gli elefanti comunicano anche con suoni a bassissima frequenza.",
+    "fatto": "verso elefante barrito",
+    "fonte": "https://it.wikipedia.org/wiki/Elefante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0021",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale animale marino ha forma di stella?",
+    "risposte": [
+      "Stella marina",
+      "Polpo",
+      "Medusa",
+      "Riccio di mare"
+    ],
+    "curiosita": "Può rigenerare un braccio perduto.",
+    "fatto": "animale marino a stella stella marina",
+    "fonte": "https://it.wikipedia.org/wiki/Asteroidea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0022",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quante gobbe ha il cammello battriano?",
+    "risposte": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "curiosita": "Il dromedario invece ne ha una sola.",
+    "fatto": "gobbe cammello battriano due",
+    "fonte": "https://it.wikipedia.org/wiki/Camelus_bactrianus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0023",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale roditore alpino fischia per avvisare gli altri?",
+    "risposte": [
+      "Marmotta",
+      "Scoiattolo",
+      "Castoro",
+      "Criceto"
+    ],
+    "curiosita": "Passa l'inverno in letargo nella tana.",
+    "fatto": "marmotta fischia alpi",
+    "fonte": "https://it.wikipedia.org/wiki/Marmota_marmota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0024",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale roditore costruisce dighe?",
+    "risposte": [
+      "Castoro",
+      "Topo",
+      "Scoiattolo",
+      "Marmotta"
+    ],
+    "curiosita": "Le sue dighe creano piccoli stagni.",
+    "fatto": "roditore costruisce dighe castoro",
+    "fonte": "https://it.wikipedia.org/wiki/Castor_fiber",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0025",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale uccello fa la ruota con la coda?",
+    "risposte": [
+      "Pavone",
+      "Gufo",
+      "Cigno",
+      "Pellicano"
+    ],
+    "curiosita": "Solo il maschio ha la coda vistosa.",
+    "fatto": "uccello ruota coda pavone",
+    "fonte": "https://it.wikipedia.org/wiki/Pavo_cristatus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0026",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale era sacro ad Atena?",
+    "risposte": [
+      "Civetta",
+      "Aquila",
+      "Colomba",
+      "Pavone"
+    ],
+    "curiosita": "Per questo è simbolo di saggezza.",
+    "fatto": "animale sacro atena civetta",
+    "fonte": "https://it.wikipedia.org/wiki/Atena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0027",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale uccello è famoso per il volo stazionario?",
+    "risposte": [
+      "Colibrì",
+      "Passero",
+      "Rondine",
+      "Gabbiano"
+    ],
+    "curiosita": "Resta fermo in aria davanti ai fiori.",
+    "fatto": "volo stazionario colibri",
+    "fonte": "https://it.wikipedia.org/wiki/Trochilidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0028",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale cetaceo produce l'ambra grigia?",
+    "risposte": [
+      "Capodoglio",
+      "Delfino",
+      "Orca",
+      "Megattera"
+    ],
+    "curiosita": "Si usava in profumeria.",
+    "fatto": "ambra grigia capodoglio",
+    "fonte": "https://it.wikipedia.org/wiki/Ambra_grigia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0029",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale animale ha la pupilla orizzontale?",
+    "risposte": [
+      "Capra",
+      "Gatto",
+      "Serpente",
+      "Gufo"
+    ],
+    "curiosita": "Gli permette di avere un ampio campo visivo.",
+    "fatto": "pupilla orizzontale capra",
+    "fonte": "https://it.wikipedia.org/wiki/Capra_hircus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0030",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Cosa significa \"ippopotamo\" in greco?",
+    "risposte": [
+      "Cavallo di fiume",
+      "Bue d'acqua",
+      "Maiale di fiume",
+      "Asino di fiume"
+    ],
+    "curiosita": "Il nome viene da hippos e potamos.",
+    "fatto": "significato ippopotamo cavallo di fiume",
+    "fonte": "https://it.wikipedia.org/wiki/Ippopotamo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

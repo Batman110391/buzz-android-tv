@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-lin-0001",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Dal più corto al più lungo (lettere)",
+    "elementi": [
+      "Sì",
+      "Ciao",
+      "Grazie",
+      "Arrivederci"
+    ],
+    "valori": [
+      "2 lettere",
+      "4 lettere",
+      "6 lettere",
+      "11 lettere"
+    ],
+    "curiosita": "«Arrivederci» è una delle formule di saluto più lunghe.",
+    "fatto": "lunghezza saluti lettere",
+    "fonte": "https://it.wikipedia.org/wiki/Saluto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0002",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "In ordine alfabetico",
+    "elementi": [
+      "Albero",
+      "Libro",
+      "Nave",
+      "Zaino"
+    ],
+    "valori": [
+      "A",
+      "L",
+      "N",
+      "Z"
+    ],
+    "curiosita": "L'ordine alfabetico si basa sull'ordine delle lettere.",
+    "fatto": "ordine alfabetico albero zaino",
+    "fonte": "https://it.wikipedia.org/wiki/Ordine_alfabetico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0003",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Dal valore più piccolo al più grande",
+    "elementi": [
+      "IX",
+      "XL",
+      "L",
+      "XC"
+    ],
+    "valori": [
+      "9",
+      "40",
+      "50",
+      "90"
+    ],
+    "curiosita": "I numeri romani usano lettere: V, X, L, C, D, M.",
+    "fatto": "numeri romani valore ix xl",
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_romani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0004",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Dal meno al più numero di sillabe",
+    "elementi": [
+      "Re",
+      "Casa",
+      "Tavolo",
+      "Telefono"
+    ],
+    "valori": [
+      "1 sillaba",
+      "2 sillabe",
+      "3 sillabe",
+      "4 sillabe"
+    ],
+    "curiosita": "Le parole monosillabiche non portano accento, tranne alcune.",
+    "fatto": "sillabe re casa tavolo telefono",
+    "fonte": "https://it.wikipedia.org/wiki/Sillaba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0005",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Dal meno al più numero di locali",
+    "elementi": [
+      "Monolocale",
+      "Bilocale",
+      "Trilocale",
+      "Quadrilocale"
+    ],
+    "valori": [
+      "1 locale",
+      "2 locali",
+      "3 locali",
+      "4 locali"
+    ],
+    "curiosita": "I prefissi mono-, bi-, tri-, quadri- indicano un numero.",
+    "fatto": "prefissi locali mono bi tri quadri",
+    "fonte": "https://it.wikipedia.org/wiki/Prefisso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0006",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dall'opera più antica alla più recente",
+    "elementi": [
+      "Orlando furioso",
+      "I promessi sposi",
+      "Pinocchio",
+      "Cuore"
+    ],
+    "valori": [
+      "1516",
+      "1827",
+      "1883",
+      "1886"
+    ],
+    "curiosita": "Cuore di De Amicis uscì tre anni dopo Pinocchio in volume.",
+    "fatto": "opere letterarie anno pubblicazione",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0007",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dall'alfabeto greco: dalla posizione più bassa",
+    "elementi": [
+      "Beta",
+      "Delta",
+      "Lambda",
+      "Omega"
+    ],
+    "valori": [
+      "2ª lettera",
+      "4ª lettera",
+      "11ª lettera",
+      "24ª lettera"
+    ],
+    "curiosita": "Alfa e omega sono la prima e l'ultima lettera greca.",
+    "fatto": "alfabeto greco posizione lettere",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto_greco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0008",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dall'alfabeto con meno lettere",
+    "elementi": [
+      "Alfabeto italiano",
+      "Alfabeto greco",
+      "Alfabeto inglese",
+      "Alfabeto russo"
+    ],
+    "valori": [
+      "21 lettere",
+      "24 lettere",
+      "26 lettere",
+      "33 lettere"
+    ],
+    "curiosita": "Il russo usa l'alfabeto cirillico.",
+    "fatto": "alfabeti numero lettere italiano russo",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0009",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dalla parola più breve alla più lunga",
+    "elementi": [
+      "Pace",
+      "Amicizia",
+      "Fraternità",
+      "Solidarietà"
+    ],
+    "valori": [
+      "4 lettere",
+      "8 lettere",
+      "10 lettere",
+      "11 lettere"
+    ],
+    "curiosita": "Sono parole che indicano valori universali.",
+    "fatto": "lunghezza parole valori lettere",
+    "fonte": "https://it.wikipedia.org/wiki/Valore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0010",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dal numero latino più piccolo",
+    "elementi": [
+      "Quinque",
+      "Decem",
+      "Centum",
+      "Mille"
+    ],
+    "valori": [
+      "5",
+      "10",
+      "100",
+      "1000"
+    ],
+    "curiosita": "«Mille» ha dato il nome ai millenni e a «millimetro».",
+    "fatto": "numeri latini quinque decem",
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_latini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0011",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dalla più antica alla più recente (fondazione)",
+    "elementi": [
+      "Accademia della Crusca",
+      "Accademia dei Lincei",
+      "Accademia dell'Arcadia",
+      "Accademia di Brera"
+    ],
+    "valori": [
+      "1583",
+      "1603",
+      "1690",
+      "1776"
+    ],
+    "curiosita": "Galileo fu socio dei Lincei, nata nel 1603 a Roma.",
+    "fatto": "fondazione accademie italiane",
+    "fonte": "https://it.wikipedia.org/wiki/Accademia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0012",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal secolo più antico",
+    "elementi": [
+      "Placito capuano",
+      "Cantico delle creature",
+      "Divina Commedia",
+      "Orlando furioso"
+    ],
+    "valori": [
+      "X secolo",
+      "XIII secolo",
+      "XIV secolo",
+      "XVI secolo"
+    ],
+    "curiosita": "Il Placito capuano, del 960, è tra i primi testi in volgare italiano.",
+    "fatto": "testi volgare italiano secoli",
+    "fonte": "https://it.wikipedia.org/wiki/Placito_capuano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0013",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal più antico per anno di nascita",
+    "elementi": [
+      "Virgilio",
+      "Orazio",
+      "Ovidio",
+      "Plinio il Vecchio"
+    ],
+    "valori": [
+      "70 a.C.",
+      "65 a.C.",
+      "43 a.C.",
+      "23 d.C."
+    ],
+    "curiosita": "Plinio morì nel 79 d.C. durante l'eruzione del Vesuvio.",
+    "fatto": "poeti latini anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_latina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0014",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal meno al più numeroso (lettere)",
+    "elementi": [
+      "Alfabeto ebraico",
+      "Alfabeto greco",
+      "Alfabeto arabo",
+      "Alfabeto russo"
+    ],
+    "valori": [
+      "22 lettere",
+      "24 lettere",
+      "28 lettere",
+      "33 lettere"
+    ],
+    "curiosita": "L'ebraico si scrive da destra a sinistra, come l'arabo.",
+    "fatto": "alfabeti lettere ebraico arabo",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0015",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal premio Nobel più antico",
+    "elementi": [
+      "Giosuè Carducci",
+      "Grazia Deledda",
+      "Luigi Pirandello",
+      "Salvatore Quasimodo"
+    ],
+    "valori": [
+      "1906",
+      "1926",
+      "1934",
+      "1959"
+    ],
+    "curiosita": "Carducci fu il primo italiano a vincere il Nobel per la letteratura.",
+    "fatto": "nobel letteratura italiani anno",
+    "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_letteratura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

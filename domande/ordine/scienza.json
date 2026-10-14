@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-sci-0001",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Pianeti, dal più vicino al più lontano dal Sole",
+    "elementi": [
+      "Mercurio",
+      "Terra",
+      "Giove",
+      "Nettuno"
+    ],
+    "valori": [
+      "58 mln km",
+      "150 mln km",
+      "778 mln km",
+      "4.495 mln km"
+    ],
+    "curiosita": "La luce del Sole impiega oltre quattro ore per arrivare a Nettuno.",
+    "fatto": "ordine pianeti distanza dal sole",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0002",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Corpi celesti, dal più piccolo al più grande",
+    "elementi": [
+      "Luna",
+      "Terra",
+      "Giove",
+      "Sole"
+    ],
+    "valori": [
+      "3.475 km",
+      "12.742 km",
+      "139.820 km",
+      "1.392.700 km"
+    ],
+    "curiosita": "Nel Sole starebbero oltre un milione di Terre.",
+    "fatto": "ordine corpi celesti diametro",
+    "fonte": "https://it.wikipedia.org/wiki/Sole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0003",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Unità di tempo, dalla più breve alla più lunga",
+    "elementi": [
+      "Secondo",
+      "Minuto",
+      "Ora",
+      "Giorno"
+    ],
+    "valori": [
+      "1 s",
+      "60 s",
+      "3.600 s",
+      "86.400 s"
+    ],
+    "curiosita": "Un giorno è composto da 86.400 secondi.",
+    "fatto": "ordine unita di tempo secondi",
+    "fonte": "https://it.wikipedia.org/wiki/Unit%C3%A0_di_tempo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0004",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Temperature, dalla più bassa alla più alta",
+    "elementi": [
+      "Zero assoluto",
+      "Acqua che gela",
+      "Corpo umano",
+      "Acqua che bolle"
+    ],
+    "valori": [
+      "-273 °C",
+      "0 °C",
+      "37 °C",
+      "100 °C"
+    ],
+    "curiosita": "Lo zero assoluto è il limite minimo che la natura permette.",
+    "fatto": "ordine temperature zero assoluto gelo corpo ebollizione",
+    "fonte": "https://it.wikipedia.org/wiki/Temperatura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0005",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Lunghezze, dalla più piccola alla più grande",
+    "elementi": [
+      "Millimetro",
+      "Centimetro",
+      "Metro",
+      "Chilometro"
+    ],
+    "valori": [
+      "1 mm",
+      "10 mm",
+      "1.000 mm",
+      "1.000.000 mm"
+    ],
+    "curiosita": "Un chilometro contiene un milione di millimetri.",
+    "fatto": "ordine unita di lunghezza",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_metrico_decimale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0006",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Gas dell'aria, dal meno al più abbondante",
+    "elementi": [
+      "Anidride carbonica",
+      "Argon",
+      "Ossigeno",
+      "Azoto"
+    ],
+    "valori": [
+      "0,04%",
+      "0,93%",
+      "21%",
+      "78%"
+    ],
+    "curiosita": "L'anidride carbonica è poca, ma essenziale per le piante.",
+    "fatto": "ordine gas atmosfera percentuali",
+    "fonte": "https://it.wikipedia.org/wiki/Atmosfera_terrestre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0007",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Scienziati, dal più antico al più recente",
+    "elementi": [
+      "Archimede",
+      "Galileo",
+      "Newton",
+      "Einstein"
+    ],
+    "valori": [
+      "287 a.C.",
+      "1564",
+      "1643",
+      "1879"
+    ],
+    "curiosita": "Newton nacque nel 1643 (calendario gregoriano), un anno dopo la morte di Galileo.",
+    "fatto": "ordine scienziati nascita archimede galileo newton einstein",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_scienza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0008",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Elementi, per numero atomico crescente",
+    "elementi": [
+      "Idrogeno",
+      "Elio",
+      "Carbonio",
+      "Oro"
+    ],
+    "valori": [
+      "Z = 1",
+      "Z = 2",
+      "Z = 6",
+      "Z = 79"
+    ],
+    "curiosita": "Il numero atomico indica quanti protoni ha l'atomo.",
+    "fatto": "ordine elementi numero atomico",
+    "fonte": "https://it.wikipedia.org/wiki/Numero_atomico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0009",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Scoperte scientifiche, in ordine cronologico",
+    "elementi": [
+      "Gravitazione di Newton",
+      "Penicillina",
+      "Doppia elica del DNA",
+      "Pecora Dolly"
+    ],
+    "valori": [
+      "1687",
+      "1928",
+      "1953",
+      "1996"
+    ],
+    "curiosita": "Dolly fu il primo mammifero clonato da una cellula adulta.",
+    "fatto": "ordine scoperte gravitazione penicillina dna dolly",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_scienza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0010",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Costanti, dalla più piccola alla più grande",
+    "elementi": [
+      "Radice di 2",
+      "Sezione aurea",
+      "Numero di Nepero",
+      "Pi greco"
+    ],
+    "valori": [
+      "1,41",
+      "1,62",
+      "2,72",
+      "3,14"
+    ],
+    "curiosita": "Pi greco è il rapporto tra circonferenza e diametro.",
+    "fatto": "ordine costanti matematiche",
+    "fonte": "https://it.wikipedia.org/wiki/Costante_matematica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0011",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Strati della Terra, dalla superficie al centro",
+    "elementi": [
+      "Crosta",
+      "Mantello",
+      "Nucleo esterno",
+      "Nucleo interno"
+    ],
+    "valori": [
+      "0 km",
+      "~30 km",
+      "~2.900 km",
+      "~5.150 km"
+    ],
+    "curiosita": "Il nucleo interno è solido nonostante sia caldissimo.",
+    "fatto": "ordine strati della terra profondita",
+    "fonte": "https://it.wikipedia.org/wiki/Struttura_interna_della_Terra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0012",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Strati dell'atmosfera, dal suolo verso lo spazio",
+    "elementi": [
+      "Troposfera",
+      "Stratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "valori": [
+      "0–12 km",
+      "12–50 km",
+      "50–85 km",
+      "85–600 km"
+    ],
+    "curiosita": "Tutto il tempo meteorologico accade nella troposfera.",
+    "fatto": "ordine strati atmosfera",
+    "fonte": "https://it.wikipedia.org/wiki/Atmosfera_terrestre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0013",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Onde, dalla lunghezza d'onda maggiore alla minore",
+    "elementi": [
+      "Onde radio",
+      "Microonde",
+      "Luce visibile",
+      "Raggi X"
+    ],
+    "valori": [
+      "oltre 1 m",
+      "1 mm–1 m",
+      "380–750 nm",
+      "0,01–10 nm"
+    ],
+    "curiosita": "La luce visibile è una piccolissima parte dello spettro.",
+    "fatto": "ordine spettro elettromagnetico",
+    "fonte": "https://it.wikipedia.org/wiki/Spettro_elettromagnetico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0014",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Dal più piccolo al più grande",
+    "elementi": [
+      "Atomo",
+      "Virus",
+      "Batterio",
+      "Globulo rosso"
+    ],
+    "valori": [
+      "~0,1 nm",
+      "~100 nm",
+      "~2 µm",
+      "~7 µm"
+    ],
+    "curiosita": "Un atomo è circa un milione di volte più piccolo di un globulo rosso.",
+    "fatto": "ordine scala microscopica atomo virus batterio globulo",
+    "fonte": "https://it.wikipedia.org/wiki/Ordini_di_grandezza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0015",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Scienziati, per anno di nascita",
+    "elementi": [
+      "Copernico",
+      "Darwin",
+      "Marie Curie",
+      "Stephen Hawking"
+    ],
+    "valori": [
+      "1473",
+      "1809",
+      "1867",
+      "1942"
+    ],
+    "curiosita": "Darwin nacque lo stesso giorno di Abraham Lincoln, il 12 febbraio 1809.",
+    "fatto": "ordine scienziati nascita copernico darwin curie hawking",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_scienza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

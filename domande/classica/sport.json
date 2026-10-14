@@ -16,5 +16,1607 @@
     "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-spo-0002",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Ogni quanti anni si disputano le Olimpiadi estive?",
+    "risposte": [
+      "Quattro",
+      "Due",
+      "Tre",
+      "Cinque"
+    ],
+    "curiosita": "Il periodo di quattro anni tra due edizioni si chiama olimpiade.",
+    "fatto": "olimpiadi estive ogni quattro anni",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0003",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "In quale sport si gioca il torneo di Wimbledon?",
+    "risposte": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Rugby"
+    ],
+    "curiosita": "Si gioca sull'erba e per tradizione i giocatori vestono di bianco.",
+    "fatto": "torneo wimbledon sport tennis",
+    "fonte": "https://it.wikipedia.org/wiki/Torneo_di_Wimbledon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0004",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti anelli compongono il simbolo olimpico?",
+    "risposte": [
+      "Cinque",
+      "Quattro",
+      "Sei",
+      "Sette"
+    ],
+    "curiosita": "Rappresentano i cinque continenti uniti dallo sport.",
+    "fatto": "anelli simbolo olimpico cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Anelli_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0005",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori ha in campo una squadra di pallavolo?",
+    "risposte": [
+      "Sei",
+      "Cinque",
+      "Sette",
+      "Nove"
+    ],
+    "curiosita": "Sono tre in prima linea vicino alla rete e tre in seconda linea.",
+    "fatto": "giocatori in campo pallavolo sei",
+    "fonte": "https://it.wikipedia.org/wiki/Pallavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0006",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori per squadra stanno in campo nel basket?",
+    "risposte": [
+      "Cinque",
+      "Sei",
+      "Quattro",
+      "Sette"
+    ],
+    "curiosita": "Il gioco fu ideato nel 1891 usando due cesti per le pesche.",
+    "fatto": "giocatori in campo basket cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Pallacanestro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0007",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di che colore è la maglia del leader del Giro d'Italia?",
+    "risposte": [
+      "Rosa",
+      "Gialla",
+      "Azzurra",
+      "Verde"
+    ],
+    "curiosita": "Il rosa richiama il colore della carta della Gazzetta dello Sport.",
+    "fatto": "maglia leader giro italia rosa",
+    "fonte": "https://it.wikipedia.org/wiki/Giro_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0008",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di che colore è la maglia del leader del Tour de France?",
+    "risposte": [
+      "Gialla",
+      "Rosa",
+      "Verde",
+      "Rossa"
+    ],
+    "curiosita": "È gialla dal 1919, come la carta del giornale che organizzava la corsa.",
+    "fatto": "maglia leader tour de france gialla",
+    "fonte": "https://it.wikipedia.org/wiki/Tour_de_France",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0009",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanto dura una partita di calcio nei tempi regolamentari?",
+    "risposte": [
+      "90 minuti",
+      "80 minuti",
+      "100 minuti",
+      "70 minuti"
+    ],
+    "curiosita": "Ai 90 minuti si aggiungono l'intervallo e il recupero deciso dall'arbitro.",
+    "fatto": "durata partita calcio novanta minuti",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0010",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport ha reso famoso Valentino Rossi?",
+    "risposte": [
+      "Motociclismo",
+      "Automobilismo",
+      "Ciclismo",
+      "Sci alpino"
+    ],
+    "curiosita": "Ha vinto nove titoli mondiali, il primo nel 1997 nella classe 125.",
+    "fatto": "valentino rossi sport motociclismo",
+    "fonte": "https://it.wikipedia.org/wiki/Valentino_Rossi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0011",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale animale corre nel Palio di Siena?",
+    "risposte": [
+      "Cavallo",
+      "Asino",
+      "Bue",
+      "Mulo"
+    ],
+    "curiosita": "Si corre due volte l'anno, il 2 luglio e il 16 agosto, in piazza del Campo.",
+    "fatto": "animale palio di siena cavallo",
+    "fonte": "https://it.wikipedia.org/wiki/Palio_di_Siena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0012",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale squadra di calcio è detta la Vecchia Signora?",
+    "risposte": [
+      "Juventus",
+      "Inter",
+      "Milan",
+      "Torino"
+    ],
+    "curiosita": "I suoi colori sociali sono il bianco e il nero.",
+    "fatto": "vecchia signora squadra juventus",
+    "fonte": "https://it.wikipedia.org/wiki/Juventus_Football_Club",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0013",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale squadra rossonera gioca a San Siro?",
+    "risposte": [
+      "Milan",
+      "Torino",
+      "Atalanta",
+      "Genoa"
+    ],
+    "curiosita": "Lo stadio si chiama ufficialmente Giuseppe Meazza.",
+    "fatto": "squadra rossonera san siro milan",
+    "fonte": "https://it.wikipedia.org/wiki/Associazione_Calcio_Milan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0014",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si gioca sul ghiaccio con mazze e un disco chiamato puck?",
+    "risposte": [
+      "Hockey su ghiaccio",
+      "Curling",
+      "Pattinaggio artistico",
+      "Biathlon"
+    ],
+    "curiosita": "Il puck è un disco di gomma vulcanizzata spesso circa 2,5 centimetri.",
+    "fatto": "sport puck disco hockey ghiaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Hockey_su_ghiaccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0015",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale calciatore argentino guidò l'Argentina al Mondiale del 1986?",
+    "risposte": [
+      "Diego Maradona",
+      "Gabriel Batistuta",
+      "Hernán Crespo",
+      "Mario Kempes"
+    ],
+    "curiosita": "Nei quarti segnò il celebre gol con la mano de Dios.",
+    "fatto": "maradona mondiale 1986 argentina",
+    "fonte": "https://it.wikipedia.org/wiki/Diego_Armando_Maradona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0016",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale nazionale vinse il Mondiale di calcio del 2006?",
+    "risposte": [
+      "Italia",
+      "Francia",
+      "Germania",
+      "Brasile"
+    ],
+    "curiosita": "La finale di Berlino contro la Francia si decise ai calci di rigore.",
+    "fatto": "mondiale calcio 2006 vincitore italia",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio_2006",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0017",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Come si chiama il quadrato su cui si combatte nel pugilato?",
+    "risposte": [
+      "Ring",
+      "Tatami",
+      "Pedana",
+      "Arena"
+    ],
+    "curiosita": "In inglese significa anello, anche se la forma è quadrata.",
+    "fatto": "pugilato quadrato combattimento ring",
+    "fonte": "https://it.wikipedia.org/wiki/Ring_(pugilato)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0018",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si pratica in piscina con una palla e due porte?",
+    "risposte": [
+      "Pallanuoto",
+      "Tuffi",
+      "Nuoto sincronizzato",
+      "Canottaggio"
+    ],
+    "curiosita": "I giocatori non possono toccare il fondo della piscina.",
+    "fatto": "sport piscina palla porte pallanuoto",
+    "fonte": "https://it.wikipedia.org/wiki/Pallanuoto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0019",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale calciatore è conosciuto con la sigla CR7?",
+    "risposte": [
+      "Cristiano Ronaldo",
+      "Ronaldo Nazário",
+      "Ricardo Kaká",
+      "Roberto Carlos"
+    ],
+    "curiosita": "Le iniziali si uniscono al numero di maglia che indossa da sempre.",
+    "fatto": "cr7 cristiano ronaldo sigla",
+    "fonte": "https://it.wikipedia.org/wiki/Cristiano_Ronaldo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0020",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "In quale gara Marcell Jacobs ha vinto l'oro olimpico a Tokyo?",
+    "risposte": [
+      "100 metri",
+      "200 metri",
+      "Salto in lungo",
+      "110 ostacoli"
+    ],
+    "curiosita": "Fu il primo italiano a vincere l'oro olimpico nei 100 metri.",
+    "fatto": "marcell jacobs oro tokyo 100 metri",
+    "fonte": "https://it.wikipedia.org/wiki/Marcell_Jacobs",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0021",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Come si chiama il massimo campionato italiano di calcio?",
+    "risposte": [
+      "Serie A",
+      "Serie B",
+      "Serie C",
+      "Serie D"
+    ],
+    "curiosita": "Il girone unico nacque nella stagione 1929-1930.",
+    "fatto": "massimo campionato italiano calcio serie a",
+    "fonte": "https://it.wikipedia.org/wiki/Serie_A",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0022",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport praticava Muhammad Ali?",
+    "risposte": [
+      "Pugilato",
+      "Judo",
+      "Lotta",
+      "Kickboxing"
+    ],
+    "curiosita": "Nato Cassius Clay, cambiò nome dopo la conversione all'Islam.",
+    "fatto": "muhammad ali sport pugilato",
+    "fonte": "https://it.wikipedia.org/wiki/Muhammad_Ali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0023",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Federica Pellegrini?",
+    "risposte": [
+      "Nuoto",
+      "Tuffi",
+      "Canottaggio",
+      "Pallanuoto"
+    ],
+    "curiosita": "Ha vinto l'oro olimpico nei 200 stile libero a Pechino 2008.",
+    "fatto": "federica pellegrini sport nuoto",
+    "fonte": "https://it.wikipedia.org/wiki/Federica_Pellegrini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0024",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti chilometri misura circa una maratona?",
+    "risposte": [
+      "42",
+      "36",
+      "50",
+      "30"
+    ],
+    "curiosita": "Per la precisione sono 42,195 chilometri.",
+    "fatto": "distanza maratona chilometri",
+    "fonte": "https://it.wikipedia.org/wiki/Maratona_(atletica_leggera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0025",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quante buche ha un percorso di golf completo?",
+    "risposte": [
+      "18",
+      "12",
+      "9",
+      "24"
+    ],
+    "curiosita": "Esistono anche percorsi da 9 buche, da giocare due volte.",
+    "fatto": "buche percorso golf diciotto",
+    "fonte": "https://it.wikipedia.org/wiki/Golf",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0026",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di che colore è il cartellino che fa espellere un calciatore?",
+    "risposte": [
+      "Rosso",
+      "Giallo",
+      "Blu",
+      "Verde"
+    ],
+    "curiosita": "I cartellini furono introdotti ai Mondiali del 1970.",
+    "fatto": "colore cartellino espulsione calcio rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0027",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si pratica con fioretto, spada e sciabola?",
+    "risposte": [
+      "Scherma",
+      "Tiro con l'arco",
+      "Tiro a segno",
+      "Judo"
+    ],
+    "curiosita": "Sono le tre armi ammesse nelle gare olimpiche.",
+    "fatto": "armi fioretto spada sciabola scherma",
+    "fonte": "https://it.wikipedia.org/wiki/Scherma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0028",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "In quale città italiana si svolsero le Olimpiadi estive del 1960?",
+    "risposte": [
+      "Roma",
+      "Milano",
+      "Torino",
+      "Napoli"
+    ],
+    "curiosita": "Le gare di ginnastica si tennero alle Terme di Caracalla.",
+    "fatto": "olimpiadi estive 1960 roma",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_della_XVII_Olimpiade",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0029",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si gioca con una palla ovale?",
+    "risposte": [
+      "Rugby",
+      "Pallavolo",
+      "Pallamano",
+      "Pallanuoto"
+    ],
+    "curiosita": "La forma ovale permette di afferrarla e passarla con le mani.",
+    "fatto": "sport palla ovale rugby",
+    "fonte": "https://it.wikipedia.org/wiki/Rugby_a_15",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0030",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale squadra di calcio gioca a Torino con la maglia granata?",
+    "risposte": [
+      "Torino",
+      "Juventus",
+      "Genoa",
+      "Cagliari"
+    ],
+    "curiosita": "Il toro è il simbolo della città e della squadra.",
+    "fatto": "squadra granata torino",
+    "fonte": "https://it.wikipedia.org/wiki/Torino_Football_Club",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0031",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti set servono per vincere una partita di pallavolo al meglio dei cinque?",
+    "risposte": [
+      "Tre",
+      "Quattro",
+      "Cinque",
+      "Due"
+    ],
+    "curiosita": "L'eventuale quinto set si gioca solo ai 15 punti.",
+    "fatto": "set per vincere partita pallavolo tre",
+    "fonte": "https://it.wikipedia.org/wiki/Pallavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0032",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Su quale superficie si gioca il Roland Garros?",
+    "risposte": [
+      "Terra rossa",
+      "Erba",
+      "Cemento",
+      "Moquette"
+    ],
+    "curiosita": "Si gioca a Parigi, in uno stadio intitolato a un aviatore.",
+    "fatto": "superficie roland garros terra rossa",
+    "fonte": "https://it.wikipedia.org/wiki/Open_di_Francia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0033",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti punti vale una meta nel rugby a 15?",
+    "risposte": [
+      "Cinque",
+      "Tre",
+      "Sei",
+      "Quattro"
+    ],
+    "curiosita": "La trasformazione aggiunge altri due punti.",
+    "fatto": "punti meta rugby cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Rugby_a_15",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0034",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale Paese nacque il judo?",
+    "risposte": [
+      "Giappone",
+      "Cina",
+      "Corea",
+      "Thailandia"
+    ],
+    "curiosita": "Lo fondò Jigoro Kano nel 1882.",
+    "fatto": "paese nascita judo giappone",
+    "fonte": "https://it.wikipedia.org/wiki/Judo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0035",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale Paese si corre la 24 Ore di Le Mans?",
+    "risposte": [
+      "Francia",
+      "Belgio",
+      "Germania",
+      "Regno Unito"
+    ],
+    "curiosita": "È una corsa di durata: vince chi percorre più chilometri in un giorno.",
+    "fatto": "paese 24 ore le mans francia",
+    "fonte": "https://it.wikipedia.org/wiki/24_Ore_di_Le_Mans",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0036",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale tennista italiana vinse il Roland Garros nel 2010?",
+    "risposte": [
+      "Francesca Schiavone",
+      "Flavia Pennetta",
+      "Sara Errani",
+      "Roberta Vinci"
+    ],
+    "curiosita": "Fu la prima italiana a vincere un torneo del Grande Slam in singolare.",
+    "fatto": "schiavone roland garros 2010",
+    "fonte": "https://it.wikipedia.org/wiki/Francesca_Schiavone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0037",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale sport si pratica con la stecca?",
+    "risposte": [
+      "Biliardo",
+      "Golf",
+      "Curling",
+      "Hockey su prato"
+    ],
+    "curiosita": "Il biliardo all'italiana si gioca con cinque birilli.",
+    "fatto": "sport stecca biliardo",
+    "fonte": "https://it.wikipedia.org/wiki/Biliardo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0038",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti secondi dura al massimo un'azione d'attacco nel basket NBA?",
+    "risposte": [
+      "24",
+      "30",
+      "20",
+      "35"
+    ],
+    "curiosita": "Il limite fu introdotto nel 1954 per rendere il gioco più veloce.",
+    "fatto": "secondi azione attacco nba ventiquattro",
+    "fonte": "https://it.wikipedia.org/wiki/Pallacanestro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0039",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Come si chiama il derby di calcio tra Inter e Milan?",
+    "risposte": [
+      "Derby della Madonnina",
+      "Derby della Mole",
+      "Derby d'Italia",
+      "Derby del Sole"
+    ],
+    "curiosita": "Il nome richiama la statua dorata sulla guglia del Duomo di Milano.",
+    "fatto": "derby inter milan madonnina",
+    "fonte": "https://it.wikipedia.org/wiki/Derby_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0040",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale anno l'Italia ospitò i Mondiali delle notti magiche?",
+    "risposte": [
+      "1990",
+      "1986",
+      "1994",
+      "1982"
+    ],
+    "curiosita": "La canzone ufficiale fu Un'estate italiana di Bennato e Nannini.",
+    "fatto": "mondiali italia notti magiche 1990",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio_1990",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0041",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanto è lunga una piscina olimpionica?",
+    "risposte": [
+      "50 metri",
+      "25 metri",
+      "100 metri",
+      "33 metri"
+    ],
+    "curiosita": "Le gare in vasca corta si nuotano invece su 25 metri.",
+    "fatto": "lunghezza piscina olimpionica cinquanta metri",
+    "fonte": "https://it.wikipedia.org/wiki/Nuoto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0042",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale pugile italiano vinse l'oro olimpico a Roma nel 1960?",
+    "risposte": [
+      "Nino Benvenuti",
+      "Primo Carnera",
+      "Rocky Marciano",
+      "Francesco Damiani"
+    ],
+    "curiosita": "Fu premiato come miglior pugile dell'intera Olimpiade.",
+    "fatto": "nino benvenuti oro olimpico 1960",
+    "fonte": "https://it.wikipedia.org/wiki/Nino_Benvenuti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0043",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale sport vinse tre ori olimpici Alberto Tomba?",
+    "risposte": [
+      "Sci alpino",
+      "Sci di fondo",
+      "Salto con gli sci",
+      "Snowboard"
+    ],
+    "curiosita": "Era soprannominato Tomba la Bomba.",
+    "fatto": "alberto tomba tre ori sci alpino",
+    "fonte": "https://it.wikipedia.org/wiki/Alberto_Tomba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0044",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale sport pratica Tania Cagnotto?",
+    "risposte": [
+      "Tuffi",
+      "Nuoto sincronizzato",
+      "Pallanuoto",
+      "Ginnastica artistica"
+    ],
+    "curiosita": "Gareggia nel trampolino da uno e da tre metri.",
+    "fatto": "tania cagnotto sport tuffi",
+    "fonte": "https://it.wikipedia.org/wiki/Tania_Cagnotto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0045",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale grande giro ciclistico si corre in Spagna?",
+    "risposte": [
+      "Vuelta a España",
+      "Tour de Suisse",
+      "Giro dei Paesi Baschi",
+      "Volta a Catalunya"
+    ],
+    "curiosita": "Insieme a Giro e Tour forma i tre grandi giri a tappe.",
+    "fatto": "grande giro ciclistico spagna vuelta",
+    "fonte": "https://it.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0046",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Con quale scuderia Schumacher vinse cinque titoli mondiali di fila dal 2000?",
+    "risposte": [
+      "Ferrari",
+      "McLaren",
+      "Benetton",
+      "Williams"
+    ],
+    "curiosita": "Con la Ferrari conquistò i titoli dal 2000 al 2004.",
+    "fatto": "schumacher cinque titoli ferrari",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Schumacher",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0047",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale sport si usano i termini par e birdie?",
+    "risposte": [
+      "Golf",
+      "Tennis",
+      "Badminton",
+      "Baseball"
+    ],
+    "curiosita": "Il par è il numero di colpi previsto per completare una buca.",
+    "fatto": "termini par birdie golf",
+    "fonte": "https://it.wikipedia.org/wiki/Golf",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0048",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale di queste nazionali gioca il Sei Nazioni di rugby?",
+    "risposte": [
+      "Galles",
+      "Argentina",
+      "Australia",
+      "Sudafrica"
+    ],
+    "curiosita": "Dal 2000 l'Italia affianca le storiche nazionali britanniche e la Francia.",
+    "fatto": "nazionale sei nazioni rugby galles",
+    "fonte": "https://it.wikipedia.org/wiki/Torneo_delle_Sei_Nazioni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0049",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale specialità Pietro Mennea vinse l'oro olimpico a Mosca 1980?",
+    "risposte": [
+      "200 metri",
+      "100 metri",
+      "400 metri",
+      "110 ostacoli"
+    ],
+    "curiosita": "Il suo record mondiale dei 200 metri durò dal 1979 al 1996.",
+    "fatto": "pietro mennea oro mosca 200 metri",
+    "fonte": "https://it.wikipedia.org/wiki/Pietro_Mennea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0050",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Per quale squadra NBA giocò Kobe Bryant per tutta la carriera?",
+    "risposte": [
+      "Los Angeles Lakers",
+      "Chicago Bulls",
+      "Boston Celtics",
+      "Houston Rockets"
+    ],
+    "curiosita": "Giocò 20 stagioni con la stessa maglia, il numero 8 e poi il 24.",
+    "fatto": "kobe bryant squadra lakers",
+    "fonte": "https://it.wikipedia.org/wiki/Kobe_Bryant",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0051",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Come si chiama il proiettile con le piume del badminton?",
+    "risposte": [
+      "Volano",
+      "Pallina",
+      "Disco",
+      "Birillo"
+    ],
+    "curiosita": "Rallenta molto più di una pallina grazie alle piume.",
+    "fatto": "proiettile piume badminton volano",
+    "fonte": "https://it.wikipedia.org/wiki/Badminton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0052",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Su quale pista si corre il Gran Premio d'Italia di Formula 1?",
+    "risposte": [
+      "Monza",
+      "Imola",
+      "Mugello",
+      "Misano"
+    ],
+    "curiosita": "Ospita il Gran Premio d'Italia quasi ininterrottamente dal 1950.",
+    "fatto": "pista gran premio italia monza",
+    "fonte": "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0053",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Con quale squadra Totti giocò tutta la carriera da professionista?",
+    "risposte": [
+      "Roma",
+      "Lazio",
+      "Fiorentina",
+      "Napoli"
+    ],
+    "curiosita": "Ha vestito la maglia giallorossa per 25 stagioni.",
+    "fatto": "totti squadra carriera roma",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_Totti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0054",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale specialità Sofia Goggia vinse l'oro olimpico nel 2018?",
+    "risposte": [
+      "Discesa libera",
+      "Slalom speciale",
+      "Slalom gigante",
+      "Supergigante"
+    ],
+    "curiosita": "Vinse a PyeongChang, in Corea del Sud.",
+    "fatto": "sofia goggia oro 2018 discesa libera",
+    "fonte": "https://it.wikipedia.org/wiki/Sofia_Goggia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0055",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quante prove compongono il decathlon?",
+    "risposte": [
+      "Dieci",
+      "Otto",
+      "Sette",
+      "Dodici"
+    ],
+    "curiosita": "Si svolgono in due giorni: cinque prove al giorno.",
+    "fatto": "prove decathlon dieci",
+    "fonte": "https://it.wikipedia.org/wiki/Decathlon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0056",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è Usain Bolt?",
+    "risposte": [
+      "Giamaica",
+      "Stati Uniti",
+      "Kenya",
+      "Nigeria"
+    ],
+    "curiosita": "Ha vinto l'oro olimpico nei 100 metri a Pechino, Londra e Rio.",
+    "fatto": "usain bolt paese giamaica",
+    "fonte": "https://it.wikipedia.org/wiki/Usain_Bolt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0057",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale sport si assegna la Coppa America?",
+    "risposte": [
+      "Vela",
+      "Canottaggio",
+      "Motonautica",
+      "Surf"
+    ],
+    "curiosita": "È il trofeo sportivo internazionale più antico ancora in palio.",
+    "fatto": "coppa america sport vela",
+    "fonte": "https://it.wikipedia.org/wiki/Coppa_America_(vela)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0058",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "In quale località della Grecia antica si tenevano i giochi olimpici?",
+    "risposte": [
+      "Olimpia",
+      "Delfi",
+      "Corinto",
+      "Atene"
+    ],
+    "curiosita": "Si svolgevano ogni quattro anni in onore di Zeus.",
+    "fatto": "giochi olimpici antichi sede olimpia",
+    "fonte": "https://it.wikipedia.org/wiki/Olimpia_(Grecia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0059",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale club inglese è detto i Red Devils?",
+    "risposte": [
+      "Manchester United",
+      "Liverpool",
+      "Arsenal",
+      "Nottingham Forest"
+    ],
+    "curiosita": "Il soprannome nasce dal colore rosso delle maglie.",
+    "fatto": "club inglese red devils manchester united",
+    "fonte": "https://it.wikipedia.org/wiki/Manchester_United_Football_Club",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0060",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti giocatori per squadra stanno in campo a pallamano, portiere compreso?",
+    "risposte": [
+      "Sette",
+      "Cinque",
+      "Sei",
+      "Nove"
+    ],
+    "curiosita": "La palla si lancia con le mani verso una porta simile a quella del calcetto.",
+    "fatto": "giocatori in campo pallamano sette",
+    "fonte": "https://it.wikipedia.org/wiki/Pallamano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0061",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Chi vinse i Mondiali di Formula 1 del 1952 e del 1953 con la Ferrari?",
+    "risposte": [
+      "Alberto Ascari",
+      "Nino Farina",
+      "Juan Manuel Fangio",
+      "Piero Taruffi"
+    ],
+    "curiosita": "Suo padre Antonio fu a sua volta un pilota di Grand Prix.",
+    "fatto": "alberto ascari mondiali 1952 1953",
+    "fonte": "https://it.wikipedia.org/wiki/Alberto_Ascari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0062",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale anno si svolsero le prime Olimpiadi moderne ad Atene?",
+    "risposte": [
+      "1896",
+      "1900",
+      "1892",
+      "1904"
+    ],
+    "curiosita": "Le promosse il barone Pierre de Coubertin.",
+    "fatto": "prime olimpiadi moderne atene 1896",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_della_I_Olimpiade",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0063",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale nazionale vinse il primo Mondiale di calcio nel 1930?",
+    "risposte": [
+      "Uruguay",
+      "Argentina",
+      "Brasile",
+      "Italia"
+    ],
+    "curiosita": "Si giocò a Montevideo e vi parteciparono solo 13 squadre.",
+    "fatto": "primo mondiale calcio 1930 uruguay",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio_1930",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0064",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale Paese l'Italia vinse il Mondiale di calcio del 1982?",
+    "risposte": [
+      "Spagna",
+      "Messico",
+      "Argentina",
+      "Germania Ovest"
+    ],
+    "curiosita": "In finale batté la Germania Ovest per 3 a 1 a Madrid.",
+    "fatto": "mondiale 1982 paese ospitante spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio_1982",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0065",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale difensore alzò la Coppa del Mondo come capitano dell'Italia nel 2006?",
+    "risposte": [
+      "Fabio Cannavaro",
+      "Paolo Maldini",
+      "Alessandro Nesta",
+      "Gianluca Zambrotta"
+    ],
+    "curiosita": "Nello stesso anno vinse il Pallone d'oro.",
+    "fatto": "capitano italia mondiale 2006 cannavaro",
+    "fonte": "https://it.wikipedia.org/wiki/Fabio_Cannavaro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0066",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale ciclista detto il Pirata vinse Giro e Tour nel 1998?",
+    "risposte": [
+      "Marco Pantani",
+      "Gianni Bugno",
+      "Claudio Chiappucci",
+      "Ivan Basso"
+    ],
+    "curiosita": "Il soprannome nasce dalla bandana che portava in gara.",
+    "fatto": "marco pantani pirata giro tour 1998",
+    "fonte": "https://it.wikipedia.org/wiki/Marco_Pantani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0067",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale fiorettista vinse l'oro olimpico individuale nel 2000, 2004 e 2008?",
+    "risposte": [
+      "Valentina Vezzali",
+      "Elisa Di Francisca",
+      "Giovanna Trillini",
+      "Margherita Granbassi"
+    ],
+    "curiosita": "Con sei ori olimpici complessivi è tra le italiane più medagliate.",
+    "fatto": "valentina vezzali tre ori individuali fioretto",
+    "fonte": "https://it.wikipedia.org/wiki/Valentina_Vezzali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0068",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale sport si disputa la Ryder Cup?",
+    "risposte": [
+      "Golf",
+      "Tennis",
+      "Vela",
+      "Rugby"
+    ],
+    "curiosita": "Sfida Europa e Stati Uniti a squadre, ogni due anni.",
+    "fatto": "ryder cup sport golf",
+    "fonte": "https://it.wikipedia.org/wiki/Ryder_Cup",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0069",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale numero di maglia fu ritirato dai Bulls per Michael Jordan?",
+    "risposte": [
+      "23",
+      "32",
+      "33",
+      "45"
+    ],
+    "curiosita": "Per un breve periodo Jordan indossò anche il numero 45.",
+    "fatto": "numero maglia ritirato jordan bulls ventitre",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Jordan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0070",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale maratoneta etiope vinse a Roma 1960 correndo a piedi nudi?",
+    "risposte": [
+      "Abebe Bikila",
+      "Haile Gebrselassie",
+      "Kenenisa Bekele",
+      "Emil Zátopek"
+    ],
+    "curiosita": "Quattro anni dopo vinse di nuovo a Tokyo, stavolta con le scarpe.",
+    "fatto": "abebe bikila maratona roma scalzo",
+    "fonte": "https://it.wikipedia.org/wiki/Abebe_Bikila",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0071",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale fu la prima squadra italiana a vincere la Coppa dei Campioni?",
+    "risposte": [
+      "Milan",
+      "Inter",
+      "Juventus",
+      "Torino"
+    ],
+    "curiosita": "Nel 1963 a Wembley batté il Benfica per 2 a 1.",
+    "fatto": "prima squadra italiana coppa dei campioni milan 1963",
+    "fonte": "https://it.wikipedia.org/wiki/Associazione_Calcio_Milan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0072",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale ginnasta rumena ottenne il primo 10 olimpico a Montréal 1976?",
+    "risposte": [
+      "Nadia Comăneci",
+      "Olga Korbut",
+      "Simone Biles",
+      "Vera Čáslavská"
+    ],
+    "curiosita": "Il tabellone mostrò 1,00 perché non era previsto il punteggio 10.",
+    "fatto": "nadia comaneci primo dieci montreal 1976",
+    "fonte": "https://it.wikipedia.org/wiki/Nadia_Com%C4%83neci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0073",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale Paese fu inventata la pallacanestro nel 1891?",
+    "risposte": [
+      "Stati Uniti",
+      "Canada",
+      "Regno Unito",
+      "Francia"
+    ],
+    "curiosita": "L'inventore James Naismith usò all'inizio dei cesti per le pesche.",
+    "fatto": "invenzione pallacanestro 1891 stati uniti",
+    "fonte": "https://it.wikipedia.org/wiki/James_Naismith",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0074",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "A quale Paese appartiene Johan Cruijff, simbolo del calcio totale?",
+    "risposte": [
+      "Paesi Bassi",
+      "Belgio",
+      "Germania",
+      "Danimarca"
+    ],
+    "curiosita": "Una sua celebre finta porta ancora oggi il suo nome.",
+    "fatto": "johan cruijff paese paesi bassi",
+    "fonte": "https://it.wikipedia.org/wiki/Johan_Cruijff",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0075",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale tecnica di salto in alto rese celebre Dick Fosbury nel 1968?",
+    "risposte": [
+      "Fosbury flop",
+      "Rullo ventrale",
+      "Forbice",
+      "Straddle"
+    ],
+    "curiosita": "Scavalcava l'asticella di schiena, tra lo stupore del pubblico.",
+    "fatto": "dick fosbury tecnica salto in alto 1968",
+    "fonte": "https://it.wikipedia.org/wiki/Dick_Fosbury",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0076",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale sport un ippon vale la vittoria immediata?",
+    "risposte": [
+      "Judo",
+      "Karate",
+      "Sumo",
+      "Taekwondo"
+    ],
+    "curiosita": "La parola giapponese significa un punto pieno.",
+    "fatto": "ippon vittoria immediata judo",
+    "fonte": "https://it.wikipedia.org/wiki/Judo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0077",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Per quale sport si assegna la Stanley Cup?",
+    "risposte": [
+      "Hockey su ghiaccio",
+      "Baseball",
+      "Basket",
+      "Football americano"
+    ],
+    "curiosita": "Il trofeo fu donato nel 1892 da Lord Stanley, governatore del Canada.",
+    "fatto": "stanley cup sport hockey ghiaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Stanley_Cup",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0078",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Con quale squadra brasiliana Pelé vinse due Coppe Intercontinentali?",
+    "risposte": [
+      "Santos",
+      "Flamengo",
+      "Palmeiras",
+      "Corinthians"
+    ],
+    "curiosita": "Con il Brasile vinse tre Mondiali: 1958, 1962 e 1970.",
+    "fatto": "pele coppe intercontinentali santos",
+    "fonte": "https://it.wikipedia.org/wiki/Pel%C3%A9",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0079",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale nuotatore vinse otto ori olimpici a Pechino 2008?",
+    "risposte": [
+      "Michael Phelps",
+      "Mark Spitz",
+      "Ian Thorpe",
+      "Ryan Lochte"
+    ],
+    "curiosita": "Superò i sette ori di Mark Spitz a Monaco 1972.",
+    "fatto": "michael phelps otto ori pechino 2008",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Phelps",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0080",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti giocatori schiera in campo in difesa una squadra di baseball?",
+    "risposte": [
+      "Nove",
+      "Dieci",
+      "Otto",
+      "Undici"
+    ],
+    "curiosita": "Una partita di solito è divisa in nove riprese.",
+    "fatto": "giocatori difesa baseball nove",
+    "fonte": "https://it.wikipedia.org/wiki/Baseball",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0081",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale pilota italiano vinse 15 titoli mondiali tra il 1966 e il 1975?",
+    "risposte": [
+      "Giacomo Agostini",
+      "Valentino Rossi",
+      "Max Biaggi",
+      "Franco Uncini"
+    ],
+    "curiosita": "Ha vinto 122 gran premi, soprattutto con la MV Agusta.",
+    "fatto": "giacomo agostini quindici titoli mondiali",
+    "fonte": "https://it.wikipedia.org/wiki/Giacomo_Agostini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0082",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale anno fu fondata la FIFA a Parigi?",
+    "risposte": [
+      "1904",
+      "1894",
+      "1914",
+      "1924"
+    ],
+    "curiosita": "Alla nascita aderirono sette federazioni europee.",
+    "fatto": "fondazione fifa parigi 1904",
+    "fonte": "https://it.wikipedia.org/wiki/FIFA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0083",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale località francese ospitò i primi Giochi olimpici invernali del 1924?",
+    "risposte": [
+      "Chamonix",
+      "Sankt Moritz",
+      "Innsbruck",
+      "Oslo"
+    ],
+    "curiosita": "Furono chiamati inizialmente Settimana internazionale degli sport invernali.",
+    "fatto": "primi giochi invernali 1924 chamonix",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_invernali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0084",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti titoli mondiali di Formula 1 vinse Michael Schumacher?",
+    "risposte": [
+      "Sette",
+      "Cinque",
+      "Sei",
+      "Otto"
+    ],
+    "curiosita": "Ne vinse due con la Benetton e cinque con la Ferrari.",
+    "fatto": "schumacher numero titoli mondiali sette",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Schumacher",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0085",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale nazionale vinse il Mondiale di calcio del 1966 in casa?",
+    "risposte": [
+      "Inghilterra",
+      "Germania Ovest",
+      "Brasile",
+      "Portogallo"
+    ],
+    "curiosita": "In finale batté la Germania Ovest ai tempi supplementari.",
+    "fatto": "mondiale calcio 1966 vincitore inghilterra",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio_1966",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0086",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Da quale località greca prende il nome la gara della maratona?",
+    "risposte": [
+      "Maratona",
+      "Salamina",
+      "Termopili",
+      "Sparta"
+    ],
+    "curiosita": "Secondo la leggenda un messaggero corse fino ad Atene per annunciare la vittoria.",
+    "fatto": "origine nome maratona localita grecia",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Maratona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0087",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale arte marziale giapponese si pratica con spade di bambù?",
+    "risposte": [
+      "Kendo",
+      "Aikido",
+      "Karate",
+      "Judo"
+    ],
+    "curiosita": "Gli atleti indossano un'armatura protettiva e una maschera.",
+    "fatto": "arte marziale spade di bambu kendo",
+    "fonte": "https://it.wikipedia.org/wiki/Kendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0088",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale circuito di Formula 1 si trova la curva Eau Rouge?",
+    "risposte": [
+      "Spa-Francorchamps",
+      "Monza",
+      "Suzuka",
+      "Silverstone"
+    ],
+    "curiosita": "Si trova in Belgio, tra le Ardenne.",
+    "fatto": "curva eau rouge circuito spa",
+    "fonte": "https://it.wikipedia.org/wiki/Circuito_di_Spa-Francorchamps",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0089",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale attaccante italiano fu capocannoniere e Pallone d'oro nel 1982?",
+    "risposte": [
+      "Paolo Rossi",
+      "Bruno Conti",
+      "Roberto Bettega",
+      "Alessandro Altobelli"
+    ],
+    "curiosita": "Segnò sei gol al Mondiale spagnolo, tre solo al Brasile.",
+    "fatto": "paolo rossi pallone d oro 1982",
+    "fonte": "https://it.wikipedia.org/wiki/Paolo_Rossi_(calciatore)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-spo-0090",
+    "tipo": "classica",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale sport si usa il cavallo con maniglie?",
+    "risposte": [
+      "Ginnastica artistica",
+      "Equitazione",
+      "Pentathlon moderno",
+      "Salto ostacoli"
+    ],
+    "curiosita": "È uno degli attrezzi della gara maschile, insieme agli anelli.",
+    "fatto": "cavallo con maniglie ginnastica artistica",
+    "fonte": "https://it.wikipedia.org/wiki/Ginnastica_artistica",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

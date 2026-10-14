@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-lin-0001",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Contrario di «caldo»?",
+    "risposte": [
+      "Freddo",
+      "Tiepido",
+      "Umido",
+      "Secco"
+    ],
+    "curiosita": "In italiano si dice «caldo» sia per il tempo sia per il cibo.",
+    "fatto": "contrario caldo freddo",
+    "fonte": "https://it.wikipedia.org/wiki/Antonimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0002",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Plurale di «amica»?",
+    "risposte": [
+      "Amiche",
+      "Amice",
+      "Amici",
+      "Amicie"
+    ],
+    "curiosita": "I femminili in -ca fanno il plurale in -che.",
+    "fatto": "plurale amica amiche",
+    "fonte": "https://it.wikipedia.org/wiki/Amico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0003",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Femminile di «gatto»?",
+    "risposte": [
+      "Gatta",
+      "Gattessa",
+      "Gattice",
+      "Gattrice"
+    ],
+    "curiosita": "Il maschile e il femminile cambiano solo la vocale finale.",
+    "fatto": "femminile gatto gatta",
+    "fonte": "https://it.wikipedia.org/wiki/Gatto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0004",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Si dice «Salute!» quando qualcuno...",
+    "risposte": [
+      "Starnutisce",
+      "Sbadiglia",
+      "Russa",
+      "Tossisce"
+    ],
+    "curiosita": "È un augurio di buona salute, usato da secoli.",
+    "fatto": "salute starnuto augurio",
+    "fonte": "https://it.wikipedia.org/wiki/Starnuto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0005",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Sinonimo di «felice»?",
+    "risposte": [
+      "Contento",
+      "Triste",
+      "Stanco",
+      "Arrabbiato"
+    ],
+    "curiosita": "Viene dal latino «felix», fertile e fortunato.",
+    "fatto": "sinonimo felice contento",
+    "fonte": "https://it.wikipedia.org/wiki/Sinonimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0006",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quante lettere ha la parola «ciao»?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "È una sola sillaba: «ciao» è un monosillabo.",
+    "fatto": "lettere parola ciao",
+    "fonte": "https://it.wikipedia.org/wiki/Ciao",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0007",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Sinonimo di «auto»?",
+    "risposte": [
+      "Macchina",
+      "Treno",
+      "Barca",
+      "Bici"
+    ],
+    "curiosita": "«Auto» è l'abbreviazione di automobile.",
+    "fatto": "sinonimo auto macchina",
+    "fonte": "https://it.wikipedia.org/wiki/Automobile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0008",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Io sono, tu sei, lui è»: di quale verbo?",
+    "risposte": [
+      "Essere",
+      "Avere",
+      "Stare",
+      "Fare"
+    ],
+    "curiosita": "È il verbo più irregolare dell'italiano.",
+    "fatto": "verbo io sono tu sei",
+    "fonte": "https://it.wikipedia.org/wiki/Essere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0009",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Articolo giusto: «___ amica»",
+    "risposte": [
+      "L'",
+      "Il",
+      "Lo",
+      "Gli"
+    ],
+    "curiosita": "Davanti a vocale l'articolo si elide.",
+    "fatto": "articolo l amica elisione",
+    "fonte": "https://it.wikipedia.org/wiki/Elisione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0010",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Il segno «?» è il punto...",
+    "risposte": [
+      "Interrogativo",
+      "Esclamativo",
+      "Sospensivo",
+      "Fermo"
+    ],
+    "curiosita": "In spagnolo si scrive anche capovolto all'inizio della frase.",
+    "fatto": "segno punto interrogativo",
+    "fonte": "https://it.wikipedia.org/wiki/Punto_interrogativo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0011",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quale segno separa gli elementi di un elenco?",
+    "risposte": [
+      "Virgola",
+      "Trattino",
+      "Asterisco",
+      "Barra"
+    ],
+    "curiosita": "Dal latino «virgula»: piccola verga.",
+    "fatto": "segno virgola",
+    "fonte": "https://it.wikipedia.org/wiki/Virgola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0012",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Plurale di «città»?",
+    "risposte": [
+      "Città",
+      "Citti",
+      "Cittadi",
+      "Cittè"
+    ],
+    "curiosita": "Le parole che finiscono con vocale accentata non cambiano.",
+    "fatto": "plurale citta invariabile",
+    "fonte": "https://it.wikipedia.org/wiki/Città",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0013",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Plurale di «re»?",
+    "risposte": [
+      "Re",
+      "Rei",
+      "Ri",
+      "Ree"
+    ],
+    "curiosita": "Anche «caffè» e «tè» restano invariati.",
+    "fatto": "plurale re invariabile",
+    "fonte": "https://it.wikipedia.org/wiki/Re",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0014",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Contrario di «bagnato»?",
+    "risposte": [
+      "Asciutto",
+      "Umido",
+      "Sporco",
+      "Fresco"
+    ],
+    "curiosita": "Si dice anche «all'asciutto» per dire «senza soldi».",
+    "fatto": "contrario bagnato asciutto",
+    "fonte": "https://it.wikipedia.org/wiki/Antonimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0015",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi scrive versi è un...",
+    "risposte": [
+      "Poeta",
+      "Pittore",
+      "Scultore",
+      "Regista"
+    ],
+    "curiosita": "Dal greco «poietes»: colui che crea.",
+    "fatto": "chi scrive versi poeta",
+    "fonte": "https://it.wikipedia.org/wiki/Poeta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0016",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Plurale di «paio»?",
+    "risposte": [
+      "Paia",
+      "Pai",
+      "Paii",
+      "Paie"
+    ],
+    "curiosita": "Come «uovo»→«uova», cambia genere: il paio, le paia.",
+    "fatto": "plurale paio paia",
+    "fonte": "https://it.wikipedia.org/wiki/Paio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0017",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Sinonimo di «onesto»?",
+    "risposte": [
+      "Retto",
+      "Furbo",
+      "Ricco",
+      "Debole"
+    ],
+    "curiosita": "Dal latino «honestus»: degno di onore.",
+    "fatto": "sinonimo onesto retto",
+    "fonte": "https://it.wikipedia.org/wiki/Onestà",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0018",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Contrario di «ottimista»?",
+    "risposte": [
+      "Pessimista",
+      "Realista",
+      "Egoista",
+      "Pacifista"
+    ],
+    "curiosita": "Entrambe le parole vengono dal latino: «optimus» e «pessimus».",
+    "fatto": "contrario ottimista pessimista",
+    "fonte": "https://it.wikipedia.org/wiki/Ottimismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0019",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Sinonimo di «ardito»?",
+    "risposte": [
+      "Coraggioso",
+      "Timido",
+      "Lento",
+      "Povero"
+    ],
+    "curiosita": "Viene dal verbo «ardire», osare.",
+    "fatto": "sinonimo ardito coraggioso",
+    "fonte": "https://it.wikipedia.org/wiki/Ardito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0020",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Plurale di «medico»?",
+    "risposte": [
+      "Medici",
+      "Medichi",
+      "Medice",
+      "Medicchi"
+    ],
+    "curiosita": "Le parole in -ico piane (come amico) fanno -ici; quelle sdrucciole, come medico, ancora -ici.",
+    "fatto": "plurale medico medici",
+    "fonte": "https://it.wikipedia.org/wiki/Medico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0021",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Plurale di «luogo»?",
+    "risposte": [
+      "Luoghi",
+      "Luogi",
+      "Luoghe",
+      "Luoge"
+    ],
+    "curiosita": "Le parole in -go mantengono il suono duro: luoghi, laghi.",
+    "fatto": "plurale luogo luoghi",
+    "fonte": "https://it.wikipedia.org/wiki/Luogo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0022",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Plurale di «farmacia»?",
+    "risposte": [
+      "Farmacie",
+      "Farmaci",
+      "Farmacii",
+      "Farmacee"
+    ],
+    "curiosita": "Se la i è accentata (farmacìa) il plurale è in -cie.",
+    "fatto": "plurale farmacia farmacie",
+    "fonte": "https://it.wikipedia.org/wiki/Farmacia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0023",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama chi parla due lingue?",
+    "risposte": [
+      "Bilingue",
+      "Bifronte",
+      "Binario",
+      "Bipede"
+    ],
+    "curiosita": "Dal latino: «bis» (due) e «lingua».",
+    "fatto": "bilingue due lingue",
+    "fonte": "https://it.wikipedia.org/wiki/Bilinguismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0024",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quante sono le consonanti nell'alfabeto italiano?",
+    "risposte": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "curiosita": "Le lettere sono 21: 5 vocali e 16 consonanti.",
+    "fatto": "consonanti alfabeto italiano 16",
+    "fonte": "https://it.wikipedia.org/wiki/Consonante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0025",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Contrario di «lodare»?",
+    "risposte": [
+      "Biasimare",
+      "Ammirare",
+      "Premiare",
+      "Perdonare"
+    ],
+    "curiosita": "«Biasimo» e «lode» sono contrari anche in «lode e biasimo».",
+    "fatto": "contrario lodare biasimare",
+    "fonte": "https://it.wikipedia.org/wiki/Lode",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0026",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Plurale di «migliaio»?",
+    "risposte": [
+      "Migliaia",
+      "Migliai",
+      "Migliaie",
+      "Migliaii"
+    ],
+    "curiosita": "Il migliaio fa le migliaia, come il centinaio fa le centinaia.",
+    "fatto": "plurale migliaio migliaia",
+    "fonte": "https://it.wikipedia.org/wiki/Migliaio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0027",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Plurale di «centinaio»?",
+    "risposte": [
+      "Centinaia",
+      "Centinai",
+      "Centinaie",
+      "Centinaii"
+    ],
+    "curiosita": "Come «migliaio», fa il plurale femminile in -a.",
+    "fatto": "plurale centinaio centinaia",
+    "fonte": "https://it.wikipedia.org/wiki/Centinaio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0028",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Sinonimo di «solerte»?",
+    "risposte": [
+      "Diligente",
+      "Pigro",
+      "Cupo",
+      "Goloso"
+    ],
+    "curiosita": "Dal latino «sollers»: abile e pronto.",
+    "fatto": "sinonimo solerte diligente",
+    "fonte": "https://it.wikipedia.org/wiki/Solerzia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0029",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «tergiversare»?",
+    "risposte": [
+      "Temporeggiare",
+      "Rifiutare",
+      "Insistere",
+      "Accelerare"
+    ],
+    "curiosita": "Dal latino «tergiversari»: voltare le spalle.",
+    "fatto": "significato tergiversare",
+    "fonte": "https://it.wikipedia.org/wiki/Tergiversare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0030",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Sinonimo di «tedio»?",
+    "risposte": [
+      "Noia",
+      "Gioia",
+      "Sdegno",
+      "Calma"
+    ],
+    "curiosita": "Dal latino «taedium»: fastidio, disgusto.",
+    "fatto": "sinonimo tedio noia",
+    "fonte": "https://it.wikipedia.org/wiki/Noia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]
