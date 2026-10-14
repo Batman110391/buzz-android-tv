@@ -410,7 +410,7 @@ func _prossimo_round() -> void:
 	for i in _n:
 		_s.podio(i).set_punti(_punti[i])
 	_s.visible = true
-	Sfx.music("question")
+	Sfx.music(gi["id"])  # ogni gioco la sua musica
 	_ult_commento = -9
 	_ult_buzz = -9
 	_ult_hurry = -9
@@ -440,7 +440,7 @@ func _categorie_per(gi: Dictionary) -> Array:
 ## bot o tempo scaduto -> a caso).
 func _intermezzo(gi: Dictionary) -> void:
 	_fase = "intermezzo"
-	Sfx.music("scores")
+	Sfx.music("intermezzo")
 	_classifica_ui.visible = true
 	_classifica_ui.mostra(_righe(_punti_prima), _righe(_punti))
 	await _commenta(_pesca("classifica"), "annuncio", FUMETTO_BASSO)
@@ -799,7 +799,7 @@ func _fine(classifica: Array) -> void:
 	for r: Dictionary in classifica:
 		var d: Dictionary = _g[r["id"]]
 		c.append({"nome": d["nome"], "colore": d["colore"], "personaggio": d["id"], "punti": r["score"]})
-	Sfx.music("final")
+	Sfx.music("finale")
 	Sfx.play("fanfare")
 	_finale.mostra(c)
 	_server.invia_stato({"fase": "finale"})

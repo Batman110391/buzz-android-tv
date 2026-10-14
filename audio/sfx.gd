@@ -3,7 +3,7 @@ extends Node
 
 const SFX := ["buzz", "correct", "wrong", "tick", "tick_fast", "whoosh", "pop", "applause", "aww", "drumroll", "fanfare", "explosion", "cash", "boing", "lock", "rise"]
 const VARIANTI := {"applause": 2, "aww": 2}  # effetti con più versioni (nome.ogg, nome_2.ogg…): si alternano
-const MUSIC := ["menu", "question", "scores", "final"]
+const MUSIC := ["menu", "accumula", "dito", "bomba", "ruba", "torta", "ordine", "conto", "intermezzo", "finale"]
 const POOL := 8
 const SILENT := -60.0
 

@@ -7,7 +7,7 @@
 | design/quizzone/** (design system, personaggi SVG) | Claude Design per il progetto | fornito dal supervisore | proprio |
 | assets/voice/*.mp3 | ElevenLabs (voce creata con Voice Design, piano Free) | https://elevenlabs.io | piano Free: attribuzione a ElevenLabs, solo uso non commerciale |
 | assets/audio/sfx/{correct,pop}.ogg | Kenney (Interface Sounds) | https://kenney.nl/assets/interface-sounds | CC0 |
-| assets/audio/sfx/{buzz,whoosh}.ogg, assets/audio/music/*.ogg | sintetizzati da zero (script Node, nessun campione esterno) | generati nel progetto | CC0 (dedica del progetto) |
+| assets/audio/sfx/{buzz,whoosh}.ogg | sintetizzati da zero (script Node, nessun campione esterno) | generati nel progetto | CC0 (dedica del progetto) |
 | assets/audio/sfx/wrong.ogg | KevinVG207 (Freesound: "Wrong Buzzer") | https://freesound.org/people/KevinVG207/sounds/331912/ | CC0 |
 | assets/audio/sfx/tick.ogg | timgormly (Freesound: "Ticking.aif") | https://freesound.org/people/timgormly/sounds/142593/ | CC0 |
 | assets/audio/sfx/tick_fast.ogg | Izkhanilov (Freesound: "Ticking Clock.wav") | https://freesound.org/people/Izkhanilov/sounds/54848/ | CC0 |
@@ -23,3 +23,5 @@
 | assets/audio/sfx/lock.ogg | SignatureSoundsOrg (Freesound: "19_UI_Game_Error_SFX") | https://freesound.org/people/SignatureSoundsOrg/sounds/869284/ | CC0 |
 | assets/audio/sfx/rise.ogg | AudioPapkin (Freesound: "Riser Hit sfx 025.wav") | https://freesound.org/people/AudioPapkin/sounds/511872/ | CC0 |
 | ui/qr.gd | encoder QR scritto da zero nel progetto (nessun codice esterno) | generato nel progetto | proprio |
+
+| assets/audio/music/{menu,accumula,ruba,dito,bomba,torta,ordine,conto,intermezzo,finale}.ogg | composti nel progetto (tools/musica_midi.mjs), resi con FluidSynth 2.6.1 (LGPL) + soundfont GeneralUser GS 2.0.3 (S. Christian Collins, uso libero anche commerciale, licenza v2.0) | https://github.com/mrbumpy409/GeneralUser-GS | proprio (composizione) + licenza GeneralUser GS |
