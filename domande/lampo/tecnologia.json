@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Bit",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0031",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il motore di ricerca di Microsoft?",
+    "risposte": [
+      "Bing",
+      "Yahoo",
+      "Ask",
+      "Alexa"
+    ],
+    "curiosita": "È stato lanciato nel 2009 e ha sostituito Live Search.",
+    "fatto": "motore di ricerca microsoft bing",
+    "fonte": "https://it.wikipedia.org/wiki/Bing",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0032",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale social è nato per condividere foto quadrate?",
+    "risposte": [
+      "Instagram",
+      "Twitter",
+      "LinkedIn",
+      "Skype"
+    ],
+    "curiosita": "Nel 2010 aveva solo i filtri e le foto quadrate, in stile Polaroid.",
+    "fatto": "social foto quadrate instagram",
+    "fonte": "https://it.wikipedia.org/wiki/Instagram",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0033",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda produce l'e-reader Kindle?",
+    "risposte": [
+      "Amazon",
+      "Apple",
+      "Sony",
+      "Google"
+    ],
+    "curiosita": "Il primo Kindle uscì nel 2007.",
+    "fatto": "ereader kindle amazon",
+    "fonte": "https://it.wikipedia.org/wiki/Amazon_Kindle",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0034",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Cosa significa «offline»?",
+    "risposte": [
+      "Non connesso",
+      "Spento",
+      "Molto lento",
+      "Gratuito"
+    ],
+    "curiosita": "Letteralmente: «fuori dalla linea».",
+    "fatto": "significato offline",
+    "fonte": "https://it.wikipedia.org/wiki/Online_e_offline",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0035",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quali raggi permettono di vedere le ossa senza operare?",
+    "risposte": [
+      "Raggi X",
+      "Raggi UV",
+      "Raggi gamma",
+      "Infrarossi"
+    ],
+    "curiosita": "Li scoprì Röntgen nel 1895 e li chiamò «X» perché ignoti.",
+    "fatto": "raggi x radiografia",
+    "fonte": "https://it.wikipedia.org/wiki/Raggi_X",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0036",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Cosa significa «cloud»?",
+    "risposte": [
+      "Nuvola",
+      "Cavo",
+      "Rete",
+      "Cassaforte"
+    ],
+    "curiosita": "Il simbolo della nuvola indica Internet nei disegni tecnici.",
+    "fatto": "significato cloud nuvola",
+    "fonte": "https://it.wikipedia.org/wiki/Cloud_computing",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0037",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Cosa fa la scorciatoia Ctrl+Z?",
+    "risposte": [
+      "Annulla",
+      "Salva",
+      "Incolla",
+      "Stampa"
+    ],
+    "curiosita": "Funziona in quasi tutti i programmi: l'ultima azione sparisce.",
+    "fatto": "scorciatoia ctrl z annulla",
+    "fonte": "https://it.wikipedia.org/wiki/Scorciatoia_da_tastiera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0038",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale tasto serve per scrivere le lettere maiuscole?",
+    "risposte": [
+      "Shift",
+      "Alt",
+      "Tab",
+      "Esc"
+    ],
+    "curiosita": "Caps Lock le blocca, Shift le attiva solo mentre lo premi.",
+    "fatto": "tasto shift maiuscole",
+    "fonte": "https://it.wikipedia.org/wiki/Tastiera_(informatica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0039",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «e-book»?",
+    "risposte": [
+      "Libro digitale",
+      "Libro economico",
+      "Libro audio",
+      "Libro stampato"
+    ],
+    "curiosita": "La «e» sta per «electronic»: lo stesso vale per e-mail.",
+    "fatto": "significato ebook",
+    "fonte": "https://it.wikipedia.org/wiki/Libro_elettronico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0040",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Cosa significa il pulsante REC di una videocamera?",
+    "risposte": [
+      "Registra",
+      "Riavvolgi",
+      "Ripeti",
+      "Ricarica"
+    ],
+    "curiosita": "REC è l'abbreviazione di «recording».",
+    "fatto": "pulsante rec registrare",
+    "fonte": "https://it.wikipedia.org/wiki/Registrazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0041",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Chi fondò Microsoft insieme a Bill Gates?",
+    "risposte": [
+      "Paul Allen",
+      "Steve Jobs",
+      "Larry Ellison",
+      "Steve Wozniak"
+    ],
+    "curiosita": "I due amici si conobbero a scuola, a Seattle.",
+    "fatto": "cofondatore microsoft paul allen",
+    "fonte": "https://it.wikipedia.org/wiki/Paul_Allen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0042",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale linguaggio ha come logo una tazza di caffè?",
+    "risposte": [
+      "Java",
+      "Python",
+      "Ruby",
+      "Swift"
+    ],
+    "curiosita": "Prende il nome da un tipo di caffè indonesiano.",
+    "fatto": "logo java tazza caffe",
+    "fonte": "https://it.wikipedia.org/wiki/Java",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0043",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "La «P» di PIN sta per...",
+    "risposte": [
+      "Personal",
+      "Public",
+      "Private",
+      "Postal"
+    ],
+    "curiosita": "PIN significa «Personal Identification Number».",
+    "fatto": "sigla pin personal",
+    "fonte": "https://it.wikipedia.org/wiki/Personal_identification_number",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0044",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In SSD, la «S» iniziale sta per...",
+    "risposte": [
+      "Solid",
+      "Super",
+      "Speed",
+      "Smart"
+    ],
+    "curiosita": "SSD è «Solid State Drive»: non ha parti in movimento.",
+    "fatto": "sigla ssd solid state",
+    "fonte": "https://it.wikipedia.org/wiki/Unità_a_stato_solido",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0045",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "La «V» di VPN sta per...",
+    "risposte": [
+      "Virtual",
+      "Visual",
+      "Vocal",
+      "Vector"
+    ],
+    "curiosita": "VPN è «Virtual Private Network»: una rete privata virtuale.",
+    "fatto": "sigla vpn virtual",
+    "fonte": "https://it.wikipedia.org/wiki/Virtual_private_network",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0046",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "La «O» di OLED sta per...",
+    "risposte": [
+      "Organic",
+      "Optical",
+      "Online",
+      "Ordinary"
+    ],
+    "curiosita": "Gli OLED sono diodi organici: ogni pixel produce luce.",
+    "fatto": "sigla oled organic",
+    "fonte": "https://it.wikipedia.org/wiki/OLED",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0047",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In inglese «chip» significa anche...",
+    "risposte": [
+      "Patatina",
+      "Cavo",
+      "Torre",
+      "Banco"
+    ],
+    "curiosita": "Il nome è nato dall'aspetto del pezzettino di silicio, una «scheggia».",
+    "fatto": "chip significa patatina",
+    "fonte": "https://it.wikipedia.org/wiki/Circuito_integrato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0048",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Il clock di un processore si misura in...",
+    "risposte": [
+      "Gigahertz",
+      "Gigabyte",
+      "Gigawatt",
+      "Giga-ohm"
+    ],
+    "curiosita": "I processori moderni lavorano a diversi miliardi di cicli al secondo.",
+    "fatto": "clock processore gigahertz",
+    "fonte": "https://it.wikipedia.org/wiki/Frequenza_di_clock",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0049",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Il «bit» è l'abbreviazione di...",
+    "risposte": [
+      "Binary digit",
+      "Big digit",
+      "Basic unit",
+      "Byte item"
+    ],
+    "curiosita": "È la cifra binaria: 0 oppure 1.",
+    "fatto": "bit binary digit",
+    "fonte": "https://it.wikipedia.org/wiki/Bit",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0050",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Cosa misura il «kWh» nella bolletta?",
+    "risposte": [
+      "Energia",
+      "Potenza",
+      "Tensione",
+      "Tempo"
+    ],
+    "curiosita": "Un chilowattora è l'energia di 1.000 watt per un'ora.",
+    "fatto": "kwh bolletta energia",
+    "fonte": "https://it.wikipedia.org/wiki/Chilowattora",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0051",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Come si chiamava all'inizio Google?",
+    "risposte": [
+      "BackRub",
+      "SearchNet",
+      "WebLoop",
+      "Googol"
+    ],
+    "curiosita": "Il nome nasce dall'analisi dei «backlink», i link di ritorno.",
+    "fatto": "google backrub",
+    "fonte": "https://it.wikipedia.org/wiki/Google",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0052",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Il «bug del millennio» riguardava anni scritti con...",
+    "risposte": [
+      "Due cifre",
+      "Tre cifre",
+      "Lettere",
+      "Numeri romani"
+    ],
+    "curiosita": "Si temeva che «00» fosse letto come 1900.",
+    "fatto": "millennium bug due cifre",
+    "fonte": "https://it.wikipedia.org/wiki/Effetto_2000",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0053",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Dennis Ritchie creò il linguaggio...",
+    "risposte": [
+      "C",
+      "B",
+      "D",
+      "R"
+    ],
+    "curiosita": "Nacque nei Bell Labs, nei primi anni Settanta, per riscrivere Unix.",
+    "fatto": "linguaggio c dennis ritchie",
+    "fonte": "https://it.wikipedia.org/wiki/C_(linguaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0054",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quanti gruppi di numeri ha un indirizzo IPv4?",
+    "risposte": [
+      "Quattro",
+      "Tre",
+      "Sei",
+      "Otto"
+    ],
+    "curiosita": "Es.: 192.168.1.1, ogni gruppo va da 0 a 255.",
+    "fatto": "indirizzo ipv4 quattro gruppi",
+    "fonte": "https://it.wikipedia.org/wiki/Indirizzo_IP",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0055",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Il simbolo Ω nei circuiti misura...",
+    "risposte": [
+      "Resistenza",
+      "Corrente",
+      "Potenza",
+      "Tensione"
+    ],
+    "curiosita": "L'ohm prende il nome da Georg Ohm.",
+    "fatto": "omega ohm resistenza",
+    "fonte": "https://it.wikipedia.org/wiki/Ohm",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0056",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Un «baud» misura...",
+    "risposte": [
+      "Velocità segnale",
+      "Dimensione",
+      "Potenza",
+      "Memoria"
+    ],
+    "curiosita": "Prende il nome da Émile Baudot, inventore di un telegrafo.",
+    "fatto": "baud velocita segnale",
+    "fonte": "https://it.wikipedia.org/wiki/Baud",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0057",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale browser anni '90 portò il web al pubblico?",
+    "risposte": [
+      "Mosaic",
+      "Chrome",
+      "Opera",
+      "Safari"
+    ],
+    "curiosita": "Fu il primo browser grafico molto diffuso, antenato di Netscape.",
+    "fatto": "browser mosaic 1993",
+    "fonte": "https://it.wikipedia.org/wiki/Mosaic_(browser)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0058",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In che anno uscì il Commodore 64?",
+    "risposte": [
+      "1982",
+      "1975",
+      "1990",
+      "1969"
+    ],
+    "curiosita": "È tra i computer più venduti di tutti i tempi.",
+    "fatto": "anno commodore 64 1982",
+    "fonte": "https://it.wikipedia.org/wiki/Commodore_64",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0059",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In francese «cache» significa...",
+    "risposte": [
+      "Nascondiglio",
+      "Veloce",
+      "Archivio",
+      "Memoria"
+    ],
+    "curiosita": "La cache del browser è un deposito dove tenere a portata di mano i dati.",
+    "fatto": "cache nascondiglio francese",
+    "fonte": "https://it.wikipedia.org/wiki/Cache",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0060",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Il kernel di un sistema operativo è il suo...",
+    "risposte": [
+      "Nucleo",
+      "Guscio",
+      "Menu",
+      "Cavo"
+    ],
+    "curiosita": "In inglese «kernel» è il nocciolo, il seme dentro il frutto.",
+    "fatto": "kernel nucleo",
+    "fonte": "https://it.wikipedia.org/wiki/Kernel",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

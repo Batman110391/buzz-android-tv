@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Idiota",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0091",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «avere un diavolo per capello»?",
+    "risposte": [
+      "Essere furiosi",
+      "Avere i capelli ricci",
+      "Essere molto vanitosi",
+      "Avere tanta fortuna"
+    ],
+    "curiosita": "Un diavolo per ogni capello: tanta rabbia quanti sono i capelli.",
+    "fatto": "modo di dire diavolo per capello",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0092",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «fare il portoghese»?",
+    "risposte": [
+      "Entrare senza pagare",
+      "Parlare in modo confuso",
+      "Copiare a scuola",
+      "Fare il galante"
+    ],
+    "curiosita": "Pare nasca nella Roma del '700: l'ambasciata portoghese regalava biglietti per il teatro.",
+    "fatto": "modo di dire fare il portoghese",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0093",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «gettare la spugna»?",
+    "risposte": [
+      "Arrendersi",
+      "Pulire a fondo",
+      "Sprecare risorse",
+      "Litigare"
+    ],
+    "curiosita": "Viene dalla boxe: l'angolo lancia la spugna sul ring per fermare l'incontro.",
+    "fatto": "modo di dire gettare la spugna",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0094",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «tagliare la corda»?",
+    "risposte": [
+      "Scappare via",
+      "Finire un lavoro",
+      "Rompere un'amicizia",
+      "Risparmiare"
+    ],
+    "curiosita": "Si dice di chi se la fila senza farsi notare.",
+    "fatto": "modo di dire tagliare la corda",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0095",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «sputare il rospo»?",
+    "risposte": [
+      "Confessare finalmente",
+      "Sentirsi male",
+      "Insultare qualcuno",
+      "Fare uno scherzo"
+    ],
+    "curiosita": "Il rospo è il peso sullo stomaco: liberarsene è dire ciò che si taceva.",
+    "fatto": "modo di dire sputare il rospo",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0096",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi ha «la coda di paglia»?",
+    "risposte": [
+      "Chi ha la coscienza sporca",
+      "Chi è molto fortunato",
+      "Chi è molto pigro",
+      "Chi teme il fuoco"
+    ],
+    "curiosita": "La paglia brucia subito: chi si sente in colpa teme sempre di essere scoperto.",
+    "fatto": "modo di dire coda di paglia",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0097",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «salvare capra e cavoli»?",
+    "risposte": [
+      "Nessuna perdita",
+      "Fare la spesa in fretta",
+      "Essere molto ingenui",
+      "Scegliere il male minore"
+    ],
+    "curiosita": "Viene dal rompicapo del traghettatore con lupo, capra e cavoli da portare oltre il fiume.",
+    "fatto": "modo di dire salvare capra e cavoli",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0098",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «rompere il ghiaccio»?",
+    "risposte": [
+      "Superare l'imbarazzo",
+      "Litigare duramente",
+      "Dare una brutta notizia",
+      "Avere molto freddo"
+    ],
+    "curiosita": "Si dice quando si avvia una conversazione tra persone che non si conoscono.",
+    "fatto": "modo di dire rompere il ghiaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0099",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Se un lavoro è «in alto mare», com'è messo?",
+    "risposte": [
+      "Lontano dalla fine",
+      "Quasi concluso",
+      "Molto rischioso",
+      "Abbandonato"
+    ],
+    "curiosita": "Come una nave lontana dal porto: la meta è ancora distante.",
+    "fatto": "modo di dire in alto mare",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0100",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «essere al settimo cielo»?",
+    "risposte": [
+      "Essere felicissimi",
+      "Essere distratti",
+      "Essere molto ricchi",
+      "Dormire profondamente"
+    ],
+    "curiosita": "Nell'astronomia antica i cieli erano sette: l'ultimo era il più alto.",
+    "fatto": "modo di dire settimo cielo",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0101",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «prendere il toro per le corna»?",
+    "risposte": [
+      "Affrontare il problema",
+      "Fare il torero",
+      "Scappare dal pericolo",
+      "Rimandare tutto"
+    ],
+    "curiosita": "Si affronta la difficoltà direttamente invece di girarci intorno.",
+    "fatto": "modo di dire toro per le corna",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0102",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «mettere il carro davanti ai buoi»?",
+    "risposte": [
+      "Fare le cose al contrario",
+      "Lavorare troppo",
+      "Sprecare soldi",
+      "Essere testardi"
+    ],
+    "curiosita": "I buoi tirano il carro: se lo metti davanti, non si muove.",
+    "fatto": "modo di dire carro davanti ai buoi",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0103",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Una persona «con la testa sulle spalle» è...",
+    "risposte": [
+      "Sensata e responsabile",
+      "Distratta",
+      "Molto alta",
+      "Un po' pazza"
+    ],
+    "curiosita": "È l'opposto di chi ha la testa tra le nuvole.",
+    "fatto": "modo di dire testa sulle spalle",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0104",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «mangiare la foglia»?",
+    "risposte": [
+      "Capire l'inganno",
+      "Mangiare poco",
+      "Fare la dieta",
+      "Essere ingenui"
+    ],
+    "curiosita": "Si usa quando ci si accorge di un trucco o di un sottinteso.",
+    "fatto": "modo di dire mangiare la foglia",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0105",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «dare i numeri»?",
+    "risposte": [
+      "Dire cose senza senso",
+      "Giocare al lotto",
+      "Fare i conti",
+      "Fare l'appello"
+    ],
+    "curiosita": "Si dice di chi è confuso e parla a vanvera.",
+    "fatto": "modo di dire dare i numeri",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0106",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa insegna il proverbio sulla rondine e la primavera?",
+    "risposte": [
+      "Un caso non basta",
+      "Bisogna aspettare marzo",
+      "Le rondini portano bene",
+      "La primavera è vicina"
+    ],
+    "curiosita": "Una rondine può arrivare in anticipo: da sola non annuncia la bella stagione.",
+    "fatto": "proverbio una rondine non fa primavera",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0107",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa insegna il proverbio sul lupo che perde il pelo?",
+    "risposte": [
+      "I difetti di fondo restano",
+      "I lupi sono pericolosi",
+      "L'inverno dura poco",
+      "Con l'età si cambia"
+    ],
+    "curiosita": "Cambia l'aspetto con gli anni, ma il carattere resta quello.",
+    "fatto": "proverbio lupo perde il pelo",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0108",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa insegna il proverbio su chi dorme e i pesci?",
+    "risposte": [
+      "Il pigro perde occasioni",
+      "Dormire fa bene",
+      "Si pesca meglio di notte",
+      "I pesci dormono"
+    ],
+    "curiosita": "Chi si dà da fare ottiene qualcosa; chi poltrisce resta a mani vuote.",
+    "fatto": "proverbio chi dorme non piglia pesci",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0109",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa consiglia il proverbio su moglie, marito e dito?",
+    "risposte": [
+      "Stare fuori dai litigi",
+      "Non toccare le fedi",
+      "Sposarsi è rischioso",
+      "Fidarsi del coniuge"
+    ],
+    "curiosita": "Meglio restare fuori dai litigi di coppia: si rischia di prenderle da entrambi.",
+    "fatto": "proverbio tra moglie e marito",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0110",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa raccomanda il proverbio sul gatto nel sacco?",
+    "risposte": [
+      "Aspettare a vantarsi",
+      "Non rubare i gatti",
+      "Non dire bugie",
+      "Non fare promesse"
+    ],
+    "curiosita": "Non vantarti di un successo finché non è davvero tuo.",
+    "fatto": "proverbio gatto nel sacco",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0111",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il plurale di «braccio» riferito al corpo?",
+    "risposte": [
+      "Le braccia",
+      "I braccia",
+      "Le bracci",
+      "I braccie"
+    ],
+    "curiosita": "Braccio ha due plurali: le braccia del corpo, i bracci di una lampada o di un fiume.",
+    "fatto": "plurale braccio braccia",
+    "fonte": "https://it.wikipedia.org/wiki/Plurale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0112",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «mettere i puntini sulle i»?",
+    "risposte": [
+      "Precisare ogni dettaglio",
+      "Fare il maestro",
+      "Correggere un compito",
+      "Scrivere in fretta"
+    ],
+    "curiosita": "Si dice di chi chiarisce tutto fino all'ultimo particolare.",
+    "fatto": "modo di dire puntini sulle i",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0113",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Una mano lava l'altra»: cosa vuol dire?",
+    "risposte": [
+      "Ci si aiuta a vicenda",
+      "Bisogna lavarsi spesso",
+      "Meglio lavorare da soli",
+      "Conviene pulire bene"
+    ],
+    "curiosita": "Spesso si usa per scambi di favori poco limpidi.",
+    "fatto": "proverbio una mano lava l altra",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0114",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa avverte il proverbio sull'oro che luccica?",
+    "risposte": [
+      "Le apparenze ingannano",
+      "L'oro costa troppo",
+      "I gioielli sono falsi",
+      "Bisogna risparmiare"
+    ],
+    "curiosita": "L'apparenza può nascondere una realtà ben diversa.",
+    "fatto": "proverbio non e tutto oro",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0115",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa dice il proverbio sul cane che abbaia?",
+    "risposte": [
+      "Chi minaccia molto fa poco",
+      "I cani vanno sgridati",
+      "Il silenzio è pericoloso",
+      "Meglio evitare i cani"
+    ],
+    "curiosita": "Chi urla tanto raramente passa ai fatti.",
+    "fatto": "proverbio can che abbaia non morde",
+    "fonte": "https://it.wikipedia.org/wiki/Proverbio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0116",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa significa «fare man bassa»?",
+    "risposte": [
+      "Saccheggiare",
+      "Salutare con la mano",
+      "Abbassare i prezzi",
+      "Giocare a carte"
+    ],
+    "curiosita": "Si usa per razzie e furti, ma anche per un buffet preso d'assalto.",
+    "fatto": "modo di dire fare man bassa",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0117",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Se fai qualcosa «alla chetichella», come lo fai?",
+    "risposte": [
+      "Di nascosto",
+      "Molto in fretta",
+      "Con grande rumore",
+      "Con allegria"
+    ],
+    "curiosita": "Si usa per chi esce da una festa senza salutare nessuno.",
+    "fatto": "modo di dire alla chetichella",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0118",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa vuol dire «cadere in piedi»?",
+    "risposte": [
+      "Uscire bene da un guaio",
+      "Perdere l'equilibrio",
+      "Svenire",
+      "Fare ginnastica"
+    ],
+    "curiosita": "Come i gatti, che cadendo atterrano sulle zampe.",
+    "fatto": "modo di dire cadere in piedi",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0119",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Da quale astro prende il nome «lunedì»?",
+    "risposte": [
+      "Dalla Luna",
+      "Dal Sole",
+      "Da Marte",
+      "Da Giove"
+    ],
+    "curiosita": "In latino era «dies Lunae»: il giorno della Luna.",
+    "fatto": "origine lunedi luna",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_della_settimana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0120",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «sbarcare il lunario»?",
+    "risposte": [
+      "Campare con fatica",
+      "Viaggiare per mare",
+      "Studiare le stelle",
+      "Fare una gita"
+    ],
+    "curiosita": "Il lunario era il calendario: bisognava arrivare alla fine dei mesi.",
+    "fatto": "modo di dire sbarcare il lunario",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0121",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi umiliò i Romani alle Forche Caudine nel 321 a.C.?",
+    "risposte": [
+      "I Sanniti",
+      "I Galli",
+      "I Cartaginesi",
+      "Gli Etruschi"
+    ],
+    "curiosita": "Li fecero passare sotto un giogo di lance: oggi vuol dire subire un'umiliazione.",
+    "fatto": "forche caudine sanniti",
+    "fonte": "https://it.wikipedia.org/wiki/Sanniti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0122",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «attraversò il Rubicone» nel 49 a.C.?",
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Pompeo",
+      "Annibale"
+    ],
+    "curiosita": "Il passo senza ritorno: oggi indica una decisione irrevocabile.",
+    "fatto": "rubicone giulio cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Rubicone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0123",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «fare la cresta»?",
+    "risposte": [
+      "Rubare un po' sulla spesa",
+      "Fare il galletto",
+      "Pettinarsi",
+      "Vincere facile"
+    ],
+    "curiosita": "Si dice di chi trattiene una piccola parte dei soldi che gli sono affidati.",
+    "fatto": "modo di dire fare la cresta",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0124",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quanti giorni prende il nome la «quarantena»?",
+    "risposte": [
+      "Quaranta",
+      "Trenta",
+      "Quattordici",
+      "Sessanta"
+    ],
+    "curiosita": "Venezia teneva al largo le navi sospette per quaranta giorni.",
+    "fatto": "origine quarantena quaranta giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Quarantena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0125",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale lingua deriva «arsenale»?",
+    "risposte": [
+      "Arabo",
+      "Greco",
+      "Turco",
+      "Francese"
+    ],
+    "curiosita": "Significava «casa dell'industria»: a Venezia l'Arsenale costruiva le navi.",
+    "fatto": "origine arsenale arabo",
+    "fonte": "https://it.wikipedia.org/wiki/Arsenale_di_Venezia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0126",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quali parole inglesi nasce «bistecca»?",
+    "risposte": [
+      "Beef steak",
+      "Best stick",
+      "Big steak",
+      "Beast cake"
+    ],
+    "curiosita": "Letteralmente «fetta di manzo».",
+    "fatto": "origine bistecca beef steak",
+    "fonte": "https://it.wikipedia.org/wiki/Bistecca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0127",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "«Compagno» significa letteralmente chi...",
+    "risposte": [
+      "Mangia il pane con te",
+      "Cammina con te",
+      "Lavora con te",
+      "Gioca con te"
+    ],
+    "curiosita": "Dal latino «cum panis»: chi condivide il pane.",
+    "fatto": "origine compagno cum panis",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0128",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale parola latina viene «pecunia» (denaro)?",
+    "risposte": [
+      "Pecus, il bestiame",
+      "Pes, il piede",
+      "Pax, la pace",
+      "Pecten, il pettine"
+    ],
+    "curiosita": "Il bestiame era la ricchezza degli antichi Romani.",
+    "fatto": "origine pecunia pecus",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0129",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "A chi deve il nome la parola «panico»?",
+    "risposte": [
+      "Al dio Pan",
+      "Al dio Marte",
+      "Al dio Bacco",
+      "Al dio Apollo"
+    ],
+    "curiosita": "Pan, dio dei boschi, terrorizzava i viandanti con grida improvvise.",
+    "fatto": "origine panico dio pan",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0130",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da chi prende il nome la parola «mausoleo»?",
+    "risposte": [
+      "Mausolo, re della Caria",
+      "Un faraone egizio",
+      "Un imperatore romano",
+      "Un poeta greco"
+    ],
+    "curiosita": "La tomba di Mausolo ad Alicarnasso era una delle sette meraviglie.",
+    "fatto": "origine mausoleo mausolo",
+    "fonte": "https://it.wikipedia.org/wiki/Mausoleo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0131",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Che c'entra il medico Guillotin con la ghigliottina?",
+    "risposte": [
+      "Ne propose l'uso",
+      "La inventò",
+      "La costruì",
+      "Fu il primo giustiziato"
+    ],
+    "curiosita": "Voleva solo una morte meno crudele: la macchina non la inventò lui.",
+    "fatto": "origine ghigliottina guillotin",
+    "fonte": "https://it.wikipedia.org/wiki/Ghigliottina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0132",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Qual è l'articolo giusto davanti a «gnocchi»?",
+    "risposte": [
+      "Gli",
+      "I",
+      "Lo",
+      "Le"
+    ],
+    "curiosita": "Come per «s impura», z, ps e x, anche con gn si usa «gli» al plurale.",
+    "fatto": "articolo gli gnocchi",
+    "fonte": "https://it.wikipedia.org/wiki/Articolo_(linguistica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0133",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale parola ha tutte e cinque le vocali, una volta sola?",
+    "risposte": [
+      "Sequoia",
+      "Girasole",
+      "Cioccolato",
+      "Margherita"
+    ],
+    "curiosita": "Sequoia: e, u, o, i, a, ognuna esattamente una volta.",
+    "fatto": "parola con tutte le vocali sequoia",
+    "fonte": "https://it.wikipedia.org/wiki/Vocale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0134",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale parola si legge uguale al contrario?",
+    "risposte": [
+      "Ingegni",
+      "Intagli",
+      "Ingresso",
+      "Inganni"
+    ],
+    "curiosita": "Ingegni si legge uguale da sinistra a destra e viceversa.",
+    "fatto": "palindromo ingegni",
+    "fonte": "https://it.wikipedia.org/wiki/Palindromo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0135",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Come si chiama la ripetizione di una parola all'inizio di frasi vicine?",
+    "risposte": [
+      "Anafora",
+      "Epifora",
+      "Sinestesia",
+      "Antitesi"
+    ],
+    "curiosita": "Dante la usa in «Per me si va ne la città dolente, per me si va ne l'etterno dolore».",
+    "fatto": "figura retorica anafora",
+    "fonte": "https://it.wikipedia.org/wiki/Figura_retorica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0136",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire l'espressione latina «deus ex machina»?",
+    "risposte": [
+      "Soluzione improvvisa",
+      "Dio della guerra",
+      "Macchina del tempo",
+      "Grande inventore"
+    ],
+    "curiosita": "Nel teatro greco un dio calato da una gru scioglieva la trama.",
+    "fatto": "deus ex machina significato",
+    "fonte": "https://it.wikipedia.org/wiki/Deus_ex_machina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0137",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «ex aequo»?",
+    "risposte": [
+      "Alla pari",
+      "In ritardo",
+      "Per sempre",
+      "Con onore"
+    ],
+    "curiosita": "Si usa quando due concorrenti chiudono a pari merito.",
+    "fatto": "ex aequo significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0138",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire una laurea «honoris causa»?",
+    "risposte": [
+      "Conferita per onore",
+      "Con lode",
+      "A distanza",
+      "Alla memoria"
+    ],
+    "curiosita": "Si dà a chi ha meriti eccezionali, senza dover sostenere esami.",
+    "fatto": "honoris causa significato",
+    "fonte": "https://it.wikipedia.org/wiki/Laurea_honoris_causa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0139",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da quale lingua viene «tsunami»?",
+    "risposte": [
+      "Giapponese",
+      "Cinese",
+      "Hawaiano",
+      "Indonesiano"
+    ],
+    "curiosita": "Significa «onda nel porto».",
+    "fatto": "origine tsunami giapponese",
+    "fonte": "https://it.wikipedia.org/wiki/Tsunami",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0140",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa letteralmente «karaoke» in giapponese?",
+    "risposte": [
+      "Orchestra vuota",
+      "Canto in coro",
+      "Voce libera",
+      "Serata di musica"
+    ],
+    "curiosita": "Kara vuol dire «vuoto», oke è l'abbreviazione di «orchestra».",
+    "fatto": "origine karaoke orchestra vuota",
+    "fonte": "https://it.wikipedia.org/wiki/Karaoke",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0141",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "In inglese, cosa vuol dire la parola italiana «fiasco»?",
+    "risposte": [
+      "Un clamoroso insuccesso",
+      "Una bottiglia",
+      "Una festa",
+      "Un inganno"
+    ],
+    "curiosita": "Pure in italiano «fare fiasco» è fallire: la parola ha viaggiato con il suo significato.",
+    "fatto": "fiasco inglese insuccesso",
+    "fonte": "https://it.wikipedia.org/wiki/Prestito_linguistico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0142",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Quale frase è corretta?",
+    "risposte": [
+      "Se avessi tempo, verrei",
+      "Se avrei tempo, verrei",
+      "Se avevo tempo, verrei",
+      "Se avessi tempo, verrò"
+    ],
+    "curiosita": "Dopo «se» ipotetico irreale il verbo va al congiuntivo imperfetto.",
+    "fatto": "periodo ipotetico se avessi tempo",
+    "fonte": "https://it.wikipedia.org/wiki/Congiuntivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0143",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «menare il torrone»?",
+    "risposte": [
+      "Tirare per le lunghe",
+      "Cucinare dolci",
+      "Litigare",
+      "Lavorare duro"
+    ],
+    "curiosita": "Il torrone si rimescola a lungo mentre cuoce: l'espressione indica l'indugiare.",
+    "fatto": "modo di dire menare il torrone",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0144",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «avere un asso nella manica»?",
+    "risposte": [
+      "Un vantaggio nascosto",
+      "Essere bravo a carte",
+      "Vestirsi bene",
+      "Essere un tipo losco"
+    ],
+    "curiosita": "Viene dai bari che nascondevano una carta nella manica.",
+    "fatto": "modo di dire asso nella manica",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0145",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «fare un buco nell'acqua»?",
+    "risposte": [
+      "Fallire senza risultato",
+      "Nuotare bene",
+      "Perdere un oggetto",
+      "Scavare un pozzo"
+    ],
+    "curiosita": "Un buco nell'acqua si richiude subito: il tentativo non lascia traccia.",
+    "fatto": "modo di dire buco nell acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0146",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «cadere dalla padella nella brace»?",
+    "risposte": [
+      "Peggiorare la situazione",
+      "Cucinare male",
+      "Salvarsi per poco",
+      "Bruciarsi un dito"
+    ],
+    "curiosita": "Si finisce dal male al peggio.",
+    "fatto": "modo di dire padella nella brace",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0147",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Cosa fa chi «alza il gomito»?",
+    "risposte": [
+      "Beve troppo",
+      "Fa ginnastica",
+      "Saluta",
+      "Si lamenta"
+    ],
+    "curiosita": "Il gomito si alza per portare il bicchiere alla bocca.",
+    "fatto": "modo di dire alzare il gomito",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0148",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa significa «lavarsene le mani»?",
+    "risposte": [
+      "Disinteressarsene",
+      "Pulire a fondo",
+      "Essere maniaci dell'igiene",
+      "Chiedere scusa"
+    ],
+    "curiosita": "Come Ponzio Pilato, che si lavò le mani davanti alla folla.",
+    "fatto": "modo di dire lavarsene le mani",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0149",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Quale popolo ha dato il nome alla cravatta?",
+    "risposte": [
+      "I Croati",
+      "I Serbi",
+      "Gli Ungheresi",
+      "Gli Slovacchi"
+    ],
+    "curiosita": "Nel Seicento i soldati croati portavano al collo una sciarpa: i francesi la chiamarono «cravate».",
+    "fatto": "origine cravatta croati",
+    "fonte": "https://it.wikipedia.org/wiki/Cravatta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0150",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Da cosa prende il nome il bikini?",
+    "risposte": [
+      "Un atollo del Pacifico",
+      "Una dea greca",
+      "Una stilista francese",
+      "Un'isola caraibica"
+    ],
+    "curiosita": "Fu lanciato nel 1946, pochi giorni dopo i test atomici sull'atollo di Bikini.",
+    "fatto": "origine bikini atollo",
+    "fonte": "https://it.wikipedia.org/wiki/Bikini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0151",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi dà il nome al mese di luglio?",
+    "risposte": [
+      "Giulio Cesare",
+      "Giove",
+      "Giuliano l'Apostata",
+      "Papa Giulio II"
+    ],
+    "curiosita": "Prima si chiamava «Quintilis», il quinto mese: Cesare nacque in quel mese.",
+    "fatto": "origine luglio giulio cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario_romano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0152",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Cosa vuol dire «procrastinare»?",
+    "risposte": [
+      "Rimandare a domani",
+      "Anticipare",
+      "Evitare",
+      "Ripetere"
+    ],
+    "curiosita": "Dal latino «cras»: domani.",
+    "fatto": "significato procrastinare",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0153",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale oggetto prende il nome il «sabotaggio»?",
+    "risposte": [
+      "Lo zoccolo di legno",
+      "Il sabato",
+      "La sabbia",
+      "La sciabola"
+    ],
+    "curiosita": "Dal francese «sabot», lo zoccolo degli operai.",
+    "fatto": "origine sabotaggio sabot",
+    "fonte": "https://it.wikipedia.org/wiki/Sabotaggio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0154",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significava in latino «rivale»?",
+    "risposte": [
+      "Chi usa lo stesso ruscello",
+      "Chi vince sempre",
+      "Chi gioca contro",
+      "Chi canta meglio"
+    ],
+    "curiosita": "«Rivalis» era chi sfruttava la stessa acqua del vicino, e per questo litigava.",
+    "fatto": "origine rivale rivus",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0155",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Che gesto nasconde la parola «stipendio»?",
+    "risposte": [
+      "Pesare le monete",
+      "Contare i giorni",
+      "Dare il pane",
+      "Tenere da parte"
+    ],
+    "curiosita": "Dal latino «stips» e «pendere»: pagare pesando le monete.",
+    "fatto": "origine stipendio pendere",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0156",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cos'era in latino il «calculus», da cui «calcolo»?",
+    "risposte": [
+      "Un sassolino",
+      "Un bastone",
+      "Una tavola",
+      "Una corda"
+    ],
+    "curiosita": "Si contava con piccoli sassi: da lì anche il «calcolo renale».",
+    "fatto": "origine calcolo calculus sassolino",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0157",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Cinquanta vele all'orizzonte»: che figura retorica è?",
+    "risposte": [
+      "Sineddoche",
+      "Metafora",
+      "Iperbole",
+      "Ossimoro"
+    ],
+    "curiosita": "La parte (vela) sta per il tutto (nave).",
+    "fatto": "figura retorica sineddoche vele",
+    "fonte": "https://it.wikipedia.org/wiki/Figura_retorica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0158",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Come si chiama la caduta di una sillaba iniziale, come in «'sto» per «questo»?",
+    "risposte": [
+      "Aferesi",
+      "Apocope",
+      "Sincope",
+      "Epentesi"
+    ],
+    "curiosita": "Il contrario dell'apocope, che toglie la parte finale.",
+    "fatto": "aferesi definizione",
+    "fonte": "https://it.wikipedia.org/wiki/Figura_retorica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0159",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «prosaico»?",
+    "risposte": [
+      "Banale, privo di poesia",
+      "Scritto in versi",
+      "Molto elegante",
+      "Molto rapido"
+    ],
+    "curiosita": "Viene da «prosa», in opposizione ai versi.",
+    "fatto": "significato prosaico",
+    "fonte": "https://it.wikipedia.org/wiki/Prosa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0160",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa vuol dire «dirimere» una controversia?",
+    "risposte": [
+      "Risolverla con decisione",
+      "Prolungarla",
+      "Iniziarla",
+      "Ignorarla"
+    ],
+    "curiosita": "Dal latino «dirimere»: spezzare, tagliare.",
+    "fatto": "significato dirimere",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0161",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Quale documento ha la prima frase in volgare italiano databile al 960?",
+    "risposte": [
+      "Placito capuano",
+      "Divina Commedia",
+      "Cantico delle creature",
+      "Decameron"
+    ],
+    "curiosita": "È una testimonianza in tribunale: «Sao ko kelle terre...».",
+    "fatto": "placito capuano 960",
+    "fonte": "https://it.wikipedia.org/wiki/Placito_capuano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0162",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa vuol dire «cui prodest»?",
+    "risposte": [
+      "A chi giova",
+      "A chi spetta",
+      "Chi ha pagato",
+      "Chi lo sa"
+    ],
+    "curiosita": "La domanda dei detective: cerca il colpevole dove c'è un vantaggio.",
+    "fatto": "cui prodest significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0163",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa vuol dire «apoteosi»?",
+    "risposte": [
+      "Trionfo glorioso",
+      "Fine tragica",
+      "Grande confusione",
+      "Attesa lunga"
+    ],
+    "curiosita": "Dal greco: «diventare dio».",
+    "fatto": "significato apoteosi",
+    "fonte": "https://it.wikipedia.org/wiki/Apoteosi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0164",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Un'imitazione «pedissequa» è...",
+    "risposte": [
+      "Servile, poco originale",
+      "Rapida",
+      "Elegante",
+      "Ironica"
+    ],
+    "curiosita": "Dal latino «pedisequus»: lo schiavo che seguiva il padrone passo passo.",
+    "fatto": "significato pedissequo",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0165",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «esiziale»?",
+    "risposte": [
+      "Che porta rovina",
+      "Che è molto raro",
+      "Che dura poco",
+      "Che è inutile"
+    ],
+    "curiosita": "Viene dal latino «exitium»: rovina, morte.",
+    "fatto": "significato esiziale",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0166",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Chi ha un tono «mellifluo»?",
+    "risposte": [
+      "Dolce in modo untuoso",
+      "Dolce e sincero",
+      "Aspro",
+      "Debole"
+    ],
+    "curiosita": "Dal latino «mel», miele: dolcezza troppo studiata per essere vera.",
+    "fatto": "significato mellifluo",
+    "fonte": "https://it.wikipedia.org/wiki/Etimologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0167",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa davvero «obliterare» un biglietto?",
+    "risposte": [
+      "Annullarlo con un timbro",
+      "Comprarlo",
+      "Piegarlo",
+      "Controllarlo"
+    ],
+    "curiosita": "Dal latino: cancellare, far dimenticare (oblio).",
+    "fatto": "significato obliterare",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0168",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Chi è un «cireneo»?",
+    "risposte": [
+      "Chi aiuta in una fatica",
+      "Chi parte per mare",
+      "Un abitante di Cipro",
+      "Un traditore"
+    ],
+    "curiosita": "Simone di Cirene aiutò Gesù a portare la croce.",
+    "fatto": "significato cireneo",
+    "fonte": "https://it.wikipedia.org/wiki/Simone_di_Cirene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0169",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Chi è un «maramaldo»?",
+    "risposte": [
+      "Chi infierisce sui deboli",
+      "Un pasticcere",
+      "Un furbo",
+      "Un fannullone"
+    ],
+    "curiosita": "Fabrizio Maramaldo uccise nel 1530 Francesco Ferruccio, già ferito e disarmato.",
+    "fatto": "origine maramaldo",
+    "fonte": "https://it.wikipedia.org/wiki/Fabrizio_Maramaldo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0170",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Qual è il passato remoto di «cuocere» (io)?",
+    "risposte": [
+      "Cossi",
+      "Cuocetti",
+      "Cuocqui",
+      "Cuocei"
+    ],
+    "curiosita": "È un verbo forte: come «scrissi» e «misi», cambia la radice.",
+    "fatto": "passato remoto cuocere cossi",
+    "fonte": "https://it.wikipedia.org/wiki/Passato_remoto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0171",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "In «giudice a latere», cosa vuol dire «a latere»?",
+    "risposte": [
+      "Al fianco",
+      "Alle spalle",
+      "Sopra",
+      "Sotto"
+    ],
+    "curiosita": "Il giudice a latere siede accanto al presidente del collegio.",
+    "fatto": "a latere significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0172",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «fatuo»?",
+    "risposte": [
+      "Vano, superficiale",
+      "Pieno di fatica",
+      "Che brucia",
+      "Misterioso"
+    ],
+    "curiosita": "Nei «fuochi fatui» le fiamme sono effimere come un pensiero vuoto.",
+    "fatto": "significato fatuo",
+    "fonte": "https://it.wikipedia.org/wiki/Fuoco_fatuo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0173",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale dea romana prende il nome la «moneta»?",
+    "risposte": [
+      "Giunone",
+      "Venere",
+      "Minerva",
+      "Cerere"
+    ],
+    "curiosita": "Il tempio di Giunone Moneta, sul Campidoglio, ospitava la zecca.",
+    "fatto": "origine moneta giunone",
+    "fonte": "https://it.wikipedia.org/wiki/Moneta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0174",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Perché «settembre» richiama il numero sette?",
+    "risposte": [
+      "L'anno iniziava a marzo",
+      "Ha sette lettere",
+      "Ha sette settimane",
+      "Era dedicato a sette dèi"
+    ],
+    "curiosita": "Era il settimo mese: poi arrivarono gennaio e febbraio e gli altri slittarono.",
+    "fatto": "origine settembre settimo mese",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario_romano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0175",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cosa significa «casus belli»?",
+    "risposte": [
+      "Pretesto per una guerra",
+      "Fine di una guerra",
+      "Arte della guerra",
+      "Soldato semplice"
+    ],
+    "curiosita": "È l'episodio usato come pretesto per dichiarare guerra.",
+    "fatto": "casus belli significato",
+    "fonte": "https://it.wikipedia.org/wiki/Casus_belli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0176",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale città italiana prende il nome il «jeans»?",
+    "risposte": [
+      "Genova",
+      "Napoli",
+      "Torino",
+      "Livorno"
+    ],
+    "curiosita": "Dal francese «Gênes», Genova: da lì partiva la tela blu.",
+    "fatto": "origine jeans genova",
+    "fonte": "https://it.wikipedia.org/wiki/Jeans",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0177",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale tessuto prende il nome la «burocrazia»?",
+    "risposte": [
+      "Un panno sulle scrivanie",
+      "Un velo da cerimonia",
+      "Un sacco di iuta",
+      "Un'uniforme"
+    ],
+    "curiosita": "Il «bureau» era la stoffa che copriva i tavoli degli uffici.",
+    "fatto": "origine burocrazia bureau",
+    "fonte": "https://it.wikipedia.org/wiki/Burocrazia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0178",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Chi erano i «nepoti» che danno il nome al nepotismo?",
+    "risposte": [
+      "I nipoti dei papi",
+      "I figli dei re",
+      "I cugini degli imperatori",
+      "I fratelli dei vescovi"
+    ],
+    "curiosita": "Nel Medioevo i papi davano cariche ai parenti, spesso ai nipoti.",
+    "fatto": "origine nepotismo",
+    "fonte": "https://it.wikipedia.org/wiki/Nepotismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0179",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Cos'è una «sinecura»?",
+    "risposte": [
+      "Posto pagato senza lavoro",
+      "Una cura medica",
+      "Una pianta",
+      "Una dieta"
+    ],
+    "curiosita": "Dal latino «sine cura»: senza pensieri, senza fatica.",
+    "fatto": "significato sinecura",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-lin-0180",
+    "tipo": "classica",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Da quale rito antico viene il «capro espiatorio»?",
+    "risposte": [
+      "Ebraico, Yom Kippur",
+      "Greco, culto di Dioniso",
+      "Egizio",
+      "Celtico"
+    ],
+    "curiosita": "Nel Levitico un capro veniva caricato dei peccati del popolo e mandato nel deserto.",
+    "fatto": "origine capro espiatorio",
+    "fonte": "https://it.wikipedia.org/wiki/Capro_espiatorio",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

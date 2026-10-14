@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Noia",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0031",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Piove a catinelle» vuol dire che...",
+    "risposte": [
+      "Piove forte",
+      "Piove poco",
+      "Smette",
+      "Piove di sera"
+    ],
+    "curiosita": "Una catinella è un grande catino: l'acqua scende a secchiate.",
+    "fatto": "modo di dire piove a catinelle",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0032",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Tirare le cuoia» vuol dire...",
+    "risposte": [
+      "Morire",
+      "Cucinare",
+      "Arrendersi",
+      "Pulire"
+    ],
+    "curiosita": "Cuoia significa «pelli»: è un modo scherzoso per dire morire.",
+    "fatto": "modo di dire tirare le cuoia",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0033",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi «rimane di stucco» è...",
+    "risposte": [
+      "Sbalordito",
+      "Annoiato",
+      "Arrabbiato",
+      "Stanco"
+    ],
+    "curiosita": "Resta immobile e senza parole, come ingessato.",
+    "fatto": "modo di dire rimanere di stucco",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0034",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi ha «sale in zucca» è...",
+    "risposte": [
+      "Saggio",
+      "Pazzo",
+      "Calvo",
+      "Goloso"
+    ],
+    "curiosita": "La zucca è la testa: il sale è il buon senso.",
+    "fatto": "modo di dire sale in zucca",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0035",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Chi ha «la luna storta» è...",
+    "risposte": [
+      "Di cattivo umore",
+      "Innamorato",
+      "Assonnato",
+      "Ubriaco"
+    ],
+    "curiosita": "Dalle fasi lunari che, secondo l'idea antica, influenzavano l'umore.",
+    "fatto": "modo di dire luna storta",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0036",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Andare a gonfie vele» vuol dire...",
+    "risposte": [
+      "Andare benissimo",
+      "Naufragare",
+      "Andare piano",
+      "Partire"
+    ],
+    "curiosita": "Con le vele gonfie di vento la nave corre veloce.",
+    "fatto": "modo di dire a gonfie vele",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0037",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Darsela a gambe» vuol dire...",
+    "risposte": [
+      "Scappare",
+      "Camminare",
+      "Ballare",
+      "Cadere"
+    ],
+    "curiosita": "Si affida alle gambe il compito di portarci lontano.",
+    "fatto": "modo di dire darsela a gambe",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0038",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Quale parola è fatta di sole vocali?",
+    "risposte": [
+      "Io",
+      "Ci",
+      "Lo",
+      "Ma"
+    ],
+    "curiosita": "«Io» è il pronome più corto dell'italiano fatto solo di vocali.",
+    "fatto": "parola di sole vocali io",
+    "fonte": "https://it.wikipedia.org/wiki/Vocale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0039",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "«Veni, vidi, vici» è una frase di...",
+    "risposte": [
+      "Giulio Cesare",
+      "Nerone",
+      "Seneca",
+      "Catone"
+    ],
+    "curiosita": "Scrisse così al Senato dopo la vittoria di Zela, nel 47 a.C.",
+    "fatto": "veni vidi vici cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0040",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "domanda": "Qual è il femminile di «re»?",
+    "risposte": [
+      "Regina",
+      "Rea",
+      "Rena",
+      "Rege"
+    ],
+    "curiosita": "Il femminile non si ricava aggiungendo un suffisso: cambia la parola.",
+    "fatto": "femminile re regina",
+    "fonte": "https://it.wikipedia.org/wiki/Regina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0041",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "«A bizzeffe» vuol dire...",
+    "risposte": [
+      "In abbondanza",
+      "A rate",
+      "A caso",
+      "In ritardo"
+    ],
+    "curiosita": "Parola di probabile origine araba.",
+    "fatto": "modo di dire a bizzeffe",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0042",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "«Di punto in bianco» vuol dire...",
+    "risposte": [
+      "All'improvviso",
+      "Con calma",
+      "Per caso",
+      "A poco a poco"
+    ],
+    "curiosita": "Si dice di qualcosa che accade senza preavviso.",
+    "fatto": "modo di dire di punto in bianco",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0043",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "«Per filo e per segno» vuol dire...",
+    "risposte": [
+      "Nei dettagli",
+      "In fretta",
+      "A caso",
+      "Di nascosto"
+    ],
+    "curiosita": "Si racconta tutto con precisione, senza saltare nulla.",
+    "fatto": "modo di dire per filo e per segno",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0044",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «fa l'indiano» finge di...",
+    "risposte": [
+      "Non capire",
+      "Dormire",
+      "Avere freddo",
+      "Essere ricco"
+    ],
+    "curiosita": "Si dice di chi si finge distratto per evitare un impegno.",
+    "fatto": "modo di dire fare l indiano",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0045",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «prende cappello» si...",
+    "risposte": [
+      "Offende",
+      "Veste bene",
+      "Spaventa",
+      "Vanta"
+    ],
+    "curiosita": "Si offende e se ne va, come chi afferra il cappello per uscire.",
+    "fatto": "modo di dire prendere cappello",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0046",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «tiene il piede in due staffe»...",
+    "risposte": [
+      "Doppiogiochista",
+      "Cavalca bene",
+      "È molto agile",
+      "Teme di cadere"
+    ],
+    "curiosita": "Sta in equilibrio tra due parti per non rischiare.",
+    "fatto": "modo di dire piede in due staffe",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0047",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «bussa a quattrini» vuole...",
+    "risposte": [
+      "Soldi",
+      "Entrare",
+      "Un favore",
+      "Silenzio"
+    ],
+    "curiosita": "Letteralmente: chiede denaro.",
+    "fatto": "modo di dire bussare a quattrini",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0048",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Chi «fa il filo» a qualcuno lo...",
+    "risposte": [
+      "Corteggia",
+      "Segue",
+      "Imita",
+      "Ricatta"
+    ],
+    "curiosita": "Si usa per un corteggiamento insistente.",
+    "fatto": "modo di dire fare il filo",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0049",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "Plurale di «bar»?",
+    "risposte": [
+      "Bar",
+      "Bari",
+      "Bars",
+      "Barre"
+    ],
+    "curiosita": "Le parole straniere che finiscono in consonante restano invariate.",
+    "fatto": "plurale bar invariabile",
+    "fonte": "https://it.wikipedia.org/wiki/Plurale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0050",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "domanda": "«Errare humanum est» vuol dire...",
+    "risposte": [
+      "Errare è umano",
+      "Pregare è umano",
+      "Amare è umano",
+      "Vivere è facile"
+    ],
+    "curiosita": "Il proverbio continua: «perseverare autem diabolicum».",
+    "fatto": "errare humanum est",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0051",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«A iosa» vuol dire...",
+    "risposte": [
+      "In gran quantità",
+      "A bassa voce",
+      "Di sera",
+      "Con ira"
+    ],
+    "curiosita": "Si dice di cose che abbondano: piovere a iosa.",
+    "fatto": "modo di dire a iosa",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0052",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Di sana pianta» vuol dire...",
+    "risposte": [
+      "Del tutto",
+      "Con cura",
+      "A metà",
+      "Di recente"
+    ],
+    "curiosita": "Si usa in «inventato di sana pianta»: dalle radici, senza basi vere.",
+    "fatto": "modo di dire di sana pianta",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0053",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Alla carlona» vuol dire...",
+    "risposte": [
+      "Alla buona",
+      "Con rigore",
+      "In ritardo",
+      "Di corsa"
+    ],
+    "curiosita": "Pare derivi da Carlo Magno, raccontato come re semplice e alla mano.",
+    "fatto": "modo di dire alla carlona",
+    "fonte": "https://it.wikipedia.org/wiki/Modo_di_dire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0054",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Volente o nolente» vuol dire...",
+    "risposte": [
+      "Volere o no",
+      "Con gioia",
+      "Molto piano",
+      "A voce alta"
+    ],
+    "curiosita": "In latino «nolle» è il contrario di «velle»: volere.",
+    "fatto": "volente o nolente significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0055",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Obtorto collo» vuol dire...",
+    "risposte": [
+      "Controvoglia",
+      "Con orgoglio",
+      "A testa alta",
+      "Con calma"
+    ],
+    "curiosita": "Letteralmente «con il collo storto»: chi lo fa china la testa.",
+    "fatto": "obtorto collo significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0056",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Placebo» in latino vuol dire...",
+    "risposte": [
+      "Piacerò",
+      "Guarirò",
+      "Dormirò",
+      "Spererò"
+    ],
+    "curiosita": "Il farmaco finto «piace» al paziente: spesso basta a fargli stare meglio.",
+    "fatto": "placebo significato latino",
+    "fonte": "https://it.wikipedia.org/wiki/Placebo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0057",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Cum grano salis» vuol dire...",
+    "risposte": [
+      "Con buon senso",
+      "Con molto sale",
+      "Per pochi",
+      "Con ironia"
+    ],
+    "curiosita": "Un granello di sale: da prendere con giudizio.",
+    "fatto": "cum grano salis significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0058",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«In medias res» vuol dire...",
+    "risposte": [
+      "In piena azione",
+      "Alla fine",
+      "Per via di mezzo",
+      "Tra le cose"
+    ],
+    "curiosita": "Orazio lodava Omero perché iniziava l'Iliade nel pieno dell'azione.",
+    "fatto": "in medias res significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0059",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "«Pro tempore» vuol dire...",
+    "risposte": [
+      "Per il momento",
+      "Per sempre",
+      "A tempo pieno",
+      "In ritardo"
+    ],
+    "curiosita": "Si usa per incarichi temporanei: il presidente pro tempore.",
+    "fatto": "pro tempore significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-lin-0060",
+    "tipo": "lampo",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "domanda": "Una «rara avis» è...",
+    "risposte": [
+      "Cosa rarissima",
+      "Uccello veloce",
+      "Una pettegola",
+      "Un poeta"
+    ],
+    "curiosita": "Giovenale la paragonava a un cigno nero.",
+    "fatto": "rara avis significato",
+    "fonte": "https://it.wikipedia.org/wiki/Latino",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

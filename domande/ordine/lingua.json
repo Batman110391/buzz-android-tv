@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_letteratura",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0016",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Giorni della settimana in ordine alfabetico",
+    "elementi": [
+      "Giovedì",
+      "Lunedì",
+      "Martedì",
+      "Venerdì"
+    ],
+    "valori": [
+      "G",
+      "L",
+      "M",
+      "V"
+    ],
+    "curiosita": "I nomi dei giorni derivano da astri e dèi: Giove, Luna, Marte, Venere.",
+    "fatto": "ordine alfabetico giorni giovedi lunedi",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_della_settimana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0017",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "criterio": "Come si compitano le lettere, in ordine alfabetico",
+    "elementi": [
+      "Ancona",
+      "Domodossola",
+      "Imola",
+      "Otranto"
+    ],
+    "valori": [
+      "A",
+      "D",
+      "I",
+      "O"
+    ],
+    "curiosita": "Al telefono si compita con città: D come Domodossola, I come Imola.",
+    "fatto": "ordine alfabeto telefonico citta",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto_italiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0018",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dal numero più piccolo al più grande",
+    "elementi": [
+      "Mille",
+      "Milione",
+      "Miliardo",
+      "Bilione"
+    ],
+    "valori": [
+      "10^3",
+      "10^6",
+      "10^9",
+      "10^12"
+    ],
+    "curiosita": "In italiano «bilione» è mille miliardi, mentre in inglese «billion» è un miliardo.",
+    "fatto": "ordine numeri mille milione miliardo bilione",
+    "fonte": "https://it.wikipedia.org/wiki/Miliardo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0019",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dal più antico al più recente (nascita)",
+    "elementi": [
+      "Dante",
+      "Petrarca",
+      "Boccaccio",
+      "Machiavelli"
+    ],
+    "valori": [
+      "1265",
+      "1304",
+      "1313",
+      "1469"
+    ],
+    "curiosita": "Le «tre corone» della letteratura italiana nacquero a meno di cinquant'anni l'una dall'altra.",
+    "fatto": "ordine nascita dante petrarca boccaccio machiavelli",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0020",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dalla forma con meno versi a quella con più versi",
+    "elementi": [
+      "Distico",
+      "Quartina",
+      "Ottava",
+      "Sonetto"
+    ],
+    "valori": [
+      "2 versi",
+      "4 versi",
+      "8 versi",
+      "14 versi"
+    ],
+    "curiosita": "Il sonetto, 14 versi, nacque alla corte di Federico II in Sicilia.",
+    "fatto": "ordine forme poetiche versi",
+    "fonte": "https://it.wikipedia.org/wiki/Sonetto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0021",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Scrittori dell'Ottocento, dal più anziano",
+    "elementi": [
+      "Manzoni",
+      "Leopardi",
+      "Carducci",
+      "Pascoli"
+    ],
+    "valori": [
+      "1785",
+      "1798",
+      "1835",
+      "1855"
+    ],
+    "curiosita": "Carducci vinse il Nobel nel 1906, Pascoli fu suo allievo a Bologna.",
+    "fatto": "ordine nascita manzoni leopardi carducci pascoli",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0022",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "criterio": "Dal movimento più antico al più recente",
+    "elementi": [
+      "Dolce stil novo",
+      "Umanesimo",
+      "Barocco",
+      "Romanticismo"
+    ],
+    "valori": [
+      "XIII sec.",
+      "XV sec.",
+      "XVII sec.",
+      "XIX sec."
+    ],
+    "curiosita": "Il Dolce stil novo è la scuola di Dante e di Guido Cavalcanti.",
+    "fatto": "ordine movimenti letterari secoli",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0023",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal dizionario più antico al più recente",
+    "elementi": [
+      "Vocabolario Crusca",
+      "Tommaseo-Bellini",
+      "Zingarelli",
+      "Devoto-Oli"
+    ],
+    "valori": [
+      "1612",
+      "1861",
+      "1917",
+      "1967"
+    ],
+    "curiosita": "Il Vocabolario della Crusca del 1612 fu il primo grande dizionario europeo.",
+    "fatto": "ordine dizionari italiani anno",
+    "fonte": "https://it.wikipedia.org/wiki/Dizionario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0024",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dal verso più corto al più lungo (sillabe)",
+    "elementi": [
+      "Quinario",
+      "Settenario",
+      "Endecasillabo",
+      "Alessandrino"
+    ],
+    "valori": [
+      "5 sillabe",
+      "7 sillabe",
+      "11 sillabe",
+      "14 sillabe"
+    ],
+    "curiosita": "L'endecasillabo è il verso di Dante, Petrarca e Ariosto.",
+    "fatto": "ordine versi italiani sillabe",
+    "fonte": "https://it.wikipedia.org/wiki/Endecasillabo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-lin-0025",
+    "tipo": "ordine",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "criterio": "Dall'alfabeto più antico al più recente (data)",
+    "elementi": [
+      "Alfabeto fenicio",
+      "Alfabeto greco",
+      "Alfabeto latino",
+      "Alfabeto cirillico"
+    ],
+    "valori": [
+      "XI sec. a.C.",
+      "VIII sec. a.C.",
+      "VII sec. a.C.",
+      "IX sec. d.C."
+    ],
+    "curiosita": "Date approssimative: l'alfabeto greco nacque dal fenicio.",
+    "fatto": "ordine alfabeti nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

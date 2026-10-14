@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Televisione_in_Italia",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0016",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Banconote euro, dalla meno alla più preziosa",
+    "elementi": [
+      "Grigia",
+      "Rossa",
+      "Blu",
+      "Arancione"
+    ],
+    "valori": [
+      "5 euro",
+      "10 euro",
+      "20 euro",
+      "50 euro"
+    ],
+    "curiosita": "Ogni taglio ha un colore dominante: sopra i 50 euro c'è il verde, da 100.",
+    "fatto": "ordine banconote euro colori",
+    "fonte": "https://it.wikipedia.org/wiki/Euro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0017",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Le vincite a tombola, dalla più piccola",
+    "elementi": [
+      "Ambo",
+      "Terno",
+      "Quaterna",
+      "Cinquina"
+    ],
+    "valori": [
+      "2 numeri",
+      "3 numeri",
+      "4 numeri",
+      "5 numeri"
+    ],
+    "curiosita": "La tombola vera e propria si fa con tutti e 15 i numeri della cartella.",
+    "fatto": "ordine vincite tombola",
+    "fonte": "https://it.wikipedia.org/wiki/Tombola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0018",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Briscola: carte dal valore più basso al più alto",
+    "elementi": [
+      "Fante",
+      "Re",
+      "Tre",
+      "Asso"
+    ],
+    "valori": [
+      "2 punti",
+      "4 punti",
+      "10 punti",
+      "11 punti"
+    ],
+    "curiosita": "Le carte lisce, che non danno punti, sono 2, 4, 5, 6 e 7.",
+    "fatto": "ordine carte briscola punti",
+    "fonte": "https://it.wikipedia.org/wiki/Briscola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0019",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Pezzi degli scacchi, dal valore più basso",
+    "elementi": [
+      "Pedone",
+      "Cavallo",
+      "Torre",
+      "Regina"
+    ],
+    "valori": [
+      "1 punto",
+      "3 punti",
+      "5 punti",
+      "9 punti"
+    ],
+    "curiosita": "Il re non ha valore: se viene catturato, la partita è finita.",
+    "fatto": "ordine valore pezzi scacchi",
+    "fonte": "https://it.wikipedia.org/wiki/Scacchi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0020",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Mani di poker, dalla più debole alla più forte",
+    "elementi": [
+      "Coppia",
+      "Tris",
+      "Full",
+      "Poker"
+    ],
+    "valori": [
+      "2 su 9",
+      "4 su 9",
+      "7 su 9",
+      "8 su 9"
+    ],
+    "curiosita": "La più forte in assoluto è la scala reale.",
+    "fatto": "ordine mani di poker",
+    "fonte": "https://it.wikipedia.org/wiki/Poker",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0021",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "I dadi dei giochi di ruolo, da meno a più facce",
+    "elementi": [
+      "Tetraedro",
+      "Cubo",
+      "Ottaedro",
+      "Icosaedro"
+    ],
+    "valori": [
+      "4 facce",
+      "6 facce",
+      "8 facce",
+      "20 facce"
+    ],
+    "curiosita": "Il dado a 20 facce è il simbolo di Dungeons & Dragons.",
+    "fatto": "ordine dadi facce poliedri",
+    "fonte": "https://it.wikipedia.org/wiki/Dado",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0022",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Formati di carta, dal più piccolo al più grande",
+    "elementi": [
+      "A5",
+      "A4",
+      "A3",
+      "A2"
+    ],
+    "valori": [
+      "148x210 mm",
+      "210x297 mm",
+      "297x420 mm",
+      "420x594 mm"
+    ],
+    "curiosita": "Ogni formato A ha una superficie metà del precedente.",
+    "fatto": "ordine formati carta a4",
+    "fonte": "https://it.wikipedia.org/wiki/ISO_216",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0023",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Giochi, dal più antico al più recente",
+    "elementi": [
+      "Senet",
+      "Scacchi",
+      "Carte da gioco",
+      "Monopoly"
+    ],
+    "valori": [
+      "ca. 3100 a.C.",
+      "VI sec. d.C.",
+      "IX sec. d.C.",
+      "1935"
+    ],
+    "curiosita": "Date approssimative: l'origine esatta di molti giochi è incerta.",
+    "fatto": "ordine giochi antichi recenti",
+    "fonte": "https://it.wikipedia.org/wiki/Gioco_da_tavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0024",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Bottiglie di champagne, dalla più piccola",
+    "elementi": [
+      "Bottiglia standard",
+      "Magnum",
+      "Jéroboam",
+      "Mathusalem"
+    ],
+    "valori": [
+      "0,75 litri",
+      "1,5 litri",
+      "3 litri",
+      "6 litri"
+    ],
+    "curiosita": "Un Mathusalem contiene otto bottiglie normali.",
+    "fatto": "ordine bottiglie champagne litri",
+    "fonte": "https://it.wikipedia.org/wiki/Champagne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0025",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Arcani dei tarocchi, per numero crescente",
+    "elementi": [
+      "Il Mago",
+      "La Ruota",
+      "La Morte",
+      "Il Mondo"
+    ],
+    "valori": [
+      "1",
+      "10",
+      "13",
+      "21"
+    ],
+    "curiosita": "Il Matto, lo zero, non ha un posto fisso nella sequenza.",
+    "fatto": "ordine arcani maggiori tarocchi",
+    "fonte": "https://it.wikipedia.org/wiki/Tarocchi",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Roulette",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0031",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti sono i Re Magi?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Quattro",
+      "Dodici"
+    ],
+    "curiosita": "La tradizione li fa tre per i tre doni: oro, incenso e mirra.",
+    "fatto": "re magi tre",
+    "fonte": "https://it.wikipedia.org/wiki/Re_Magi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0032",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Secondo la favola, chi porta i bambini?",
+    "risposte": [
+      "La cicogna",
+      "L'aquila",
+      "Il gufo",
+      "Il cigno"
+    ],
+    "curiosita": "La leggenda nasce perché le cicogne tornano ogni primavera nello stesso nido.",
+    "fatto": "favola cicogna bambini",
+    "fonte": "https://it.wikipedia.org/wiki/Cicogna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0033",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Cosa si mette sotto il cuscino per la fatina dei denti?",
+    "risposte": [
+      "Un dentino",
+      "Una moneta",
+      "Una lettera",
+      "Una caramella"
+    ],
+    "curiosita": "La fatina lo ritira e lascia una moneta o un regalino.",
+    "fatto": "fatina dei denti dentino",
+    "fonte": "https://it.wikipedia.org/wiki/Fatina_dei_denti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0034",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Nel Memory, cosa bisogna trovare?",
+    "risposte": [
+      "Coppie uguali",
+      "Tris di carte",
+      "Numeri in fila",
+      "Carte nere"
+    ],
+    "curiosita": "Vince chi ne trova di più, ricordando dove sono.",
+    "fatto": "memory coppie uguali",
+    "fonte": "https://it.wikipedia.org/wiki/Memory_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0035",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti birilli ci sono nel bowling?",
+    "risposte": [
+      "10",
+      "9",
+      "12",
+      "8"
+    ],
+    "curiosita": "Un colpo che li abbatte tutti si chiama «strike».",
+    "fatto": "bowling dieci birilli",
+    "fonte": "https://it.wikipedia.org/wiki/Bowling",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0036",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti colori hanno le facce del Cubo di Rubik?",
+    "risposte": [
+      "6",
+      "4",
+      "9",
+      "3"
+    ],
+    "curiosita": "Bianco, giallo, rosso, arancio, verde e blu.",
+    "fatto": "colori cubo di rubik sei",
+    "fonte": "https://it.wikipedia.org/wiki/Cubo_di_Rubik",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0037",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Cosa fa il tasto «snooze» della sveglia?",
+    "risposte": [
+      "Rinvia il suono",
+      "La spegne",
+      "Accende la luce",
+      "Cambia l'ora"
+    ],
+    "curiosita": "Dall'inglese: «sonnecchiare».",
+    "fatto": "snooze sveglia rinvia",
+    "fonte": "https://it.wikipedia.org/wiki/Sveglia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0038",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Da dove entra Babbo Natale nelle case?",
+    "risposte": [
+      "Dal camino",
+      "Dalla finestra",
+      "Dal tetto",
+      "Dalla porta"
+    ],
+    "curiosita": "Per questo si lasciano calze e biscotti vicino al camino.",
+    "fatto": "babbo natale camino",
+    "fonte": "https://it.wikipedia.org/wiki/Babbo_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0039",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Come si chiama la casella di partenza del Monopoli?",
+    "risposte": [
+      "Via",
+      "Start",
+      "Partenza",
+      "Inizio"
+    ],
+    "curiosita": "Passandoci si ricevono 200 euro, per la versione italiana.",
+    "fatto": "monopoli casella via",
+    "fonte": "https://it.wikipedia.org/wiki/Monopoly",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0040",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori servono per una partita a tris?",
+    "risposte": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "curiosita": "Uno gioca con la X e l'altro con il cerchio.",
+    "fatto": "tris due giocatori",
+    "fonte": "https://it.wikipedia.org/wiki/Tris_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0041",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Cosa si rompe a colpi di bastone a una festa messicana?",
+    "risposte": [
+      "Una piñata",
+      "Un vaso",
+      "Un tamburo",
+      "Un cesto"
+    ],
+    "curiosita": "Dentro ci sono dolci e giocattoli.",
+    "fatto": "pinata festa messicana",
+    "fonte": "https://it.wikipedia.org/wiki/Piñata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0042",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quanti dadi si usano a Yahtzee?",
+    "risposte": [
+      "5",
+      "4",
+      "6",
+      "2"
+    ],
+    "curiosita": "Il punto massimo si ottiene con cinque dadi uguali.",
+    "fatto": "yahtzee cinque dadi",
+    "fonte": "https://it.wikipedia.org/wiki/Yahtzee",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0043",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiama il giovedì prima di Carnevale?",
+    "risposte": [
+      "Giovedì grasso",
+      "Giovedì santo",
+      "Giovedì lungo",
+      "Giovedì magro"
+    ],
+    "curiosita": "Dà il via agli ultimi giorni di festeggiamenti.",
+    "fatto": "giovedi grasso carnevale",
+    "fonte": "https://it.wikipedia.org/wiki/Giovedì_grasso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0044",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Qual è il numero più fortunato in Cina?",
+    "risposte": [
+      "8",
+      "4",
+      "7",
+      "13"
+    ],
+    "curiosita": "In cinese «otto» suona come «prosperità».",
+    "fatto": "numero fortunato cina otto",
+    "fonte": "https://it.wikipedia.org/wiki/Cina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0045",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiamano le bocce francesi di metallo?",
+    "risposte": [
+      "Pétanque",
+      "Pelota",
+      "Curling",
+      "Bowls"
+    ],
+    "curiosita": "Si giocano su terreno battuto e piacciono moltissimo in Provenza.",
+    "fatto": "petanque bocce francesi",
+    "fonte": "https://it.wikipedia.org/wiki/Pétanque",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0046",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco da bar ha palla d'acciaio e leve?",
+    "risposte": [
+      "Flipper",
+      "Biliardo",
+      "Calciobalilla",
+      "Slot"
+    ],
+    "curiosita": "Il nome viene dall'inglese «to flip», lanciare con un colpo.",
+    "fatto": "flipper gioco da bar",
+    "fonte": "https://it.wikipedia.org/wiki/Flipper",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0047",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiamano i calzoni di cuoio bavaresi?",
+    "risposte": [
+      "Lederhosen",
+      "Dirndl",
+      "Kilt",
+      "Sarong"
+    ],
+    "curiosita": "Si indossano all'Oktoberfest.",
+    "fatto": "lederhosen calzoni bavaresi",
+    "fonte": "https://it.wikipedia.org/wiki/Lederhosen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0048",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Il sari è l'abito tradizionale di quale Paese?",
+    "risposte": [
+      "India",
+      "Pakistan",
+      "Egitto",
+      "Turchia"
+    ],
+    "curiosita": "È un lungo tessuto che si avvolge attorno al corpo, fino a sei metri.",
+    "fatto": "sari abito india",
+    "fonte": "https://it.wikipedia.org/wiki/Sari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0049",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Da quale città marocchina prende il nome il fez?",
+    "risposte": [
+      "Fez",
+      "Marrakech",
+      "Casablanca",
+      "Rabat"
+    ],
+    "curiosita": "Il cappello rosso a tronco di cono è un simbolo del mondo islamico.",
+    "fatto": "fez cappello marocco",
+    "fonte": "https://it.wikipedia.org/wiki/Fez_(copricapo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0050",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quanti sono gli animali dello zodiaco cinese?",
+    "risposte": [
+      "12",
+      "7",
+      "10",
+      "9"
+    ],
+    "curiosita": "Il ciclo ricomincia ogni dodici anni.",
+    "fatto": "zodiaco cinese dodici animali",
+    "fonte": "https://it.wikipedia.org/wiki/Zodiaco_cinese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0051",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Le nozze di porcellana sono a...",
+    "risposte": [
+      "20 anni",
+      "10 anni",
+      "15 anni",
+      "30 anni"
+    ],
+    "curiosita": "Dopo le nozze di porcellana arrivano quelle d'argento, a 25 anni.",
+    "fatto": "nozze di porcellana venti",
+    "fonte": "https://it.wikipedia.org/wiki/Anniversario_di_matrimonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0052",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Le kokeshi giapponesi sono bambole...",
+    "risposte": [
+      "Di legno",
+      "Di carta",
+      "Di stoffa",
+      "Di ceramica"
+    ],
+    "curiosita": "Hanno il corpo cilindrico e nessun braccio.",
+    "fatto": "kokeshi bambole legno",
+    "fonte": "https://it.wikipedia.org/wiki/Kokeshi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0053",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Il Mah-jong si gioca con...",
+    "risposte": [
+      "Tessere",
+      "Carte",
+      "Dadi",
+      "Pedine"
+    ],
+    "curiosita": "Ne servono 144 e il gioco è di origine cinese.",
+    "fatto": "mahjong tessere",
+    "fonte": "https://it.wikipedia.org/wiki/Mahjong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0054",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Il kendama è un giocattolo...",
+    "risposte": [
+      "Giapponese",
+      "Cinese",
+      "Coreano",
+      "Indiano"
+    ],
+    "curiosita": "Una palla legata a un bastone con coppette: bisogna infilarla o farla restare.",
+    "fatto": "kendama giocattolo giapponese",
+    "fonte": "https://it.wikipedia.org/wiki/Kendama",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0055",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale carta dei tarocchi è lo zero?",
+    "risposte": [
+      "Il Matto",
+      "Il Mago",
+      "La Morte",
+      "Il Sole"
+    ],
+    "curiosita": "È l'unica carta degli arcani maggiori senza posto fisso.",
+    "fatto": "tarocchi zero il matto",
+    "fonte": "https://it.wikipedia.org/wiki/Tarocchi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0056",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale gioco con tessere numerate nacque in Israele?",
+    "risposte": [
+      "Rummikub",
+      "Scarabeo",
+      "Domino",
+      "Mahjong"
+    ],
+    "curiosita": "Lo inventò Ephraim Hertzano negli anni Quaranta.",
+    "fatto": "rummikub israele",
+    "fonte": "https://it.wikipedia.org/wiki/Rummikub",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0057",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Qual è il vero nome di Barbie?",
+    "risposte": [
+      "Barbara Roberts",
+      "Barbara Miller",
+      "Barbara Hudson",
+      "Barbara Davis"
+    ],
+    "curiosita": "Nei libri la sua è la famiglia di Willows, nel Wisconsin.",
+    "fatto": "nome barbie barbara roberts",
+    "fonte": "https://it.wikipedia.org/wiki/Barbie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0058",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Cosa vuol dire «Leg godt», da cui «Lego»?",
+    "risposte": [
+      "Gioca bene",
+      "Costruisci",
+      "Piccolo mattone",
+      "Impilare"
+    ],
+    "curiosita": "È danese: «leg» è giocare, «godt» è bene.",
+    "fatto": "lego leg godt gioca bene",
+    "fonte": "https://it.wikipedia.org/wiki/Lego",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0059",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Cosa si usa nel pachinko giapponese?",
+    "risposte": [
+      "Biglie d'acciaio",
+      "Carte",
+      "Dadi",
+      "Tessere"
+    ],
+    "curiosita": "È una slot-machine verticale, molto diffusa nelle sale giochi.",
+    "fatto": "pachinko biglie acciaio",
+    "fonte": "https://it.wikipedia.org/wiki/Pachinko",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0060",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Da quale gioco di carte derivò il bridge?",
+    "risposte": [
+      "Whist",
+      "Poker",
+      "Scopa",
+      "Tresette"
+    ],
+    "curiosita": "Il bridge sostituì il whist alla fine dell'Ottocento.",
+    "fatto": "bridge deriva dal whist",
+    "fonte": "https://it.wikipedia.org/wiki/Whist",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

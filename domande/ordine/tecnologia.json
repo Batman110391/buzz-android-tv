@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Storia_della_fotografia",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0016",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Comunicazioni, dalla più antica alla più recente",
+    "elementi": [
+      "Telegrafo",
+      "Telefono",
+      "Radio",
+      "Televisione"
+    ],
+    "valori": [
+      "1837",
+      "1876",
+      "1895",
+      "1926"
+    ],
+    "curiosita": "Il telegrafo precedette il telefono di quasi quarant'anni.",
+    "fatto": "ordine comunicazione telegrafo telefono radio televisione",
+    "fonte": "https://it.wikipedia.org/wiki/Telecomunicazioni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0017",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Le reti mobili, dalla più vecchia alla più recente",
+    "elementi": [
+      "2G",
+      "3G",
+      "4G",
+      "5G"
+    ],
+    "valori": [
+      "1991",
+      "2001",
+      "2009",
+      "2019"
+    ],
+    "curiosita": "2G, 3G, 4G e 5G sono le generazioni di reti per il telefono cellulare.",
+    "fatto": "ordine reti mobili generazioni",
+    "fonte": "https://it.wikipedia.org/wiki/Telefonia_mobile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0018",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Dal prefisso più piccolo al più grande",
+    "elementi": [
+      "Nano",
+      "Milli",
+      "Kilo",
+      "Giga"
+    ],
+    "valori": [
+      "10^-9",
+      "10^-3",
+      "10^3",
+      "10^9"
+    ],
+    "curiosita": "«Nano» viene dal greco «nano», cioè piccolissimo.",
+    "fatto": "ordine prefissi si nano milli kilo giga",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_internazionale_di_unità_di_misura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0019",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Dal più lento al più veloce (velocità massima)",
+    "elementi": [
+      "Limite autostrada",
+      "Locomotiva Mallard",
+      "Aereo di linea",
+      "Concorde"
+    ],
+    "valori": [
+      "130 km/h",
+      "202 km/h",
+      "ca. 900 km/h",
+      "2.179 km/h"
+    ],
+    "curiosita": "La locomotiva a vapore Mallard detiene dal 1938 il record della sua categoria.",
+    "fatto": "ordine velocita mezzi mallard concorde",
+    "fonte": "https://it.wikipedia.org/wiki/Mallard_(locomotiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0020",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Dal supporto meno capiente al più capiente",
+    "elementi": [
+      "Floppy disk",
+      "CD-ROM",
+      "DVD",
+      "Blu-ray"
+    ],
+    "valori": [
+      "1,44 MB",
+      "700 MB",
+      "4,7 GB",
+      "25 GB"
+    ],
+    "curiosita": "Un Blu-ray contiene oltre 17.000 floppy.",
+    "fatto": "ordine capacita supporti floppy cd dvd bluray",
+    "fonte": "https://it.wikipedia.org/wiki/Disco_ottico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0021",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Dal sistema operativo più antico al più recente",
+    "elementi": [
+      "Unix",
+      "MS-DOS",
+      "Linux",
+      "Android"
+    ],
+    "valori": [
+      "1969",
+      "1981",
+      "1991",
+      "2008"
+    ],
+    "curiosita": "Linux fu scritto da uno studente finlandese, Linus Torvalds.",
+    "fatto": "ordine sistemi operativi anno unix linux android",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_operativo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0022",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "I numeri binari, dal valore minore al maggiore",
+    "elementi": [
+      "101",
+      "1001",
+      "1100",
+      "10000"
+    ],
+    "valori": [
+      "5",
+      "9",
+      "12",
+      "16"
+    ],
+    "curiosita": "10000 in binario vale 16, cioè 2 alla quarta.",
+    "fatto": "ordine numeri binari valore",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_numerico_binario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0023",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Numeri esadecimali, dal valore minore al maggiore",
+    "elementi": [
+      "A",
+      "F",
+      "10",
+      "FF"
+    ],
+    "valori": [
+      "10",
+      "15",
+      "16",
+      "255"
+    ],
+    "curiosita": "In esadecimale si contano 16 cifre: dallo 0 a F.",
+    "fatto": "ordine numeri esadecimali valore",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_numerico_esadecimale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0024",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Android: dalla versione più vecchia alla recente",
+    "elementi": [
+      "Cupcake",
+      "Donut",
+      "Froyo",
+      "Gingerbread"
+    ],
+    "valori": [
+      "1.5",
+      "1.6",
+      "2.2",
+      "2.3"
+    ],
+    "curiosita": "Fino alla versione 9 ogni release aveva il nome di un dolce, in ordine alfabetico.",
+    "fatto": "ordine versioni android dolci",
+    "fonte": "https://it.wikipedia.org/wiki/Android",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0025",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Dalla lunghezza d'onda più grande alla più piccola",
+    "elementi": [
+      "Onde radio",
+      "Microonde",
+      "Infrarossi",
+      "Raggi X"
+    ],
+    "valori": [
+      "10^3 m",
+      "10^-2 m",
+      "10^-5 m",
+      "10^-10 m"
+    ],
+    "curiosita": "Il Wi-Fi e il forno a microonde usano frequenze molto vicine.",
+    "fatto": "ordine lunghezza d onda spettro",
+    "fonte": "https://it.wikipedia.org/wiki/Spettro_elettromagnetico",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]
