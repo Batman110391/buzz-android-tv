@@ -1,7 +1,8 @@
 extends Node
 ## Autoload "Sfx": effetti (pool), musica con dissolvenza, ducking.
 
-const SFX := ["buzz", "correct", "wrong", "tick", "tick_fast", "whoosh", "pop", "applause", "aww", "drumroll", "fanfare", "explosion", "cash", "boing"]
+const SFX := ["buzz", "correct", "wrong", "tick", "tick_fast", "whoosh", "pop", "applause", "aww", "drumroll", "fanfare", "explosion", "cash", "boing", "lock", "rise"]
+const VARIANTI := {"applause": 2, "aww": 2}  # effetti con più versioni (nome.ogg, nome_2.ogg…): si alternano
 const MUSIC := ["menu", "question", "scores", "final"]
 const POOL := 8
 const SILENT := -60.0
@@ -10,6 +11,7 @@ var _pool: Array[AudioStreamPlayer] = []
 var _mus: Array[AudioStreamPlayer] = []
 var _cur := -1  # indice del player musicale attivo
 var _duck_db := 0.0
+var _volta := {}  # effetto -> prossima versione da suonare
 
 
 func _ready() -> void:
@@ -31,7 +33,13 @@ func play(sound: String, vol_db := 0.0) -> void:
 	if not SFX.has(sound):
 		push_warning("Sfx.play: effetto sconosciuto '%s'" % sound)
 		return
-	var s := load("res://assets/audio/sfx/%s.ogg" % sound) as AudioStream
+	var f := sound
+	if VARIANTI.has(sound):
+		var i: int = _volta.get(sound, 0)
+		_volta[sound] = (i + 1) % VARIANTI[sound]
+		if i > 0:
+			f = "%s_%d" % [sound, i + 1]
+	var s := load("res://assets/audio/sfx/%s.ogg" % f) as AudioStream
 	if s == null:
 		return
 	var p: AudioStreamPlayer = _pool[0]

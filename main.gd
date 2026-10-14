@@ -39,6 +39,7 @@ var _parla := false  # un conduttore sta parlando
 var _quando: Array[float] = []
 var _scelte := {}  # pid -> risposta
 var _hurry := false
+var _ult_sec := 0  # ultimo secondo del timer che ha fatto tic
 # battute di Tony e Gilda: ogni situazione è un mazzo (nessuna frase torna finché non sono uscite tutte) + pause tra i commenti
 var _mazzi := {}  # prefisso -> chiavi ancora da pescare
 var _ultima := {}  # prefisso -> ultima chiave uscita
@@ -254,6 +255,7 @@ func _risponde(pid: int, scelta: int) -> void:
 		_dici(_pesca("firstbuzz"), "sorpresa")
 	_scelte[pid] = scelta
 	_s.risposto(pid)
+	Sfx.play("lock")
 
 
 func _process(dt: float) -> void:
@@ -272,6 +274,10 @@ func _process(dt: float) -> void:
 			# bot: indovina poco più di una volta su due
 			_risponde(pid, _q["correct"] if randf() < 0.55 else randi() % 4)
 	_s.set_tempo(_game.time_left(), Game.QUESTION_TIME)
+	var sec := ceili(_game.time_left())
+	if sec != _ult_sec and sec <= 5 and sec >= 3 and _scelte.size() < _n:  # tic a 5 e 4, da 3 il ticchettio veloce (dura 2 s)
+		Sfx.play("tick_fast" if sec == 3 else "tick")
+	_ult_sec = sec
 	if _game.time_left() <= 5.0 and not _hurry and _scelte.size() < _n:
 		_hurry = true
 		if not _parla and _i - _ult_hurry >= 3:
@@ -288,8 +294,15 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		punti.append(Game.POINTS_CORRECT)
 		if risultati[pid]:
 			giusti.append(pid)
+	if _i == DOMANDE - 1:  # ultima domanda: rullo di tamburi prima della rivelazione
+		Sfx.play("drumroll")
+		await get_tree().create_timer(2.0).timeout
 	_s.rivela(corretta, _scelte, punti)
 	Sfx.play("correct" if not giusti.is_empty() else "wrong")
+	if giusti.is_empty():
+		Sfx.play("aww")
+	elif giusti.size() == _n:
+		Sfx.play("applause")
 	await get_tree().create_timer(1.8).timeout
 	while _parla:  # una battuta (o un duetto) della domanda non è ancora finita
 		await get_tree().process_frame
@@ -355,6 +368,7 @@ func _fine(classifica: Array) -> void:
 	Sfx.music("final")
 	Sfx.play("fanfare")
 	_finale.mostra(c)
+	Sfx.play("rise")
 	await get_tree().create_timer(2.5).timeout
 	Sfx.play("applause")
 	await _commenta(_pesca("final"), "annuncio", FUMETTO_FINALE, false)
@@ -467,6 +481,7 @@ func _entra(c: int) -> void:
 		return
 	p.position = Vector2([-500.0, 2000.0][c], 520)
 	p.scale = Vector2.ONE * 1.8
+	Sfx.play("whoosh")
 	create_tween().tween_property(p, "position:x", DENTRO[c], 0.45).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 
