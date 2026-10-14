@@ -26,6 +26,8 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 | Voce | ElevenLabs v3, battute pre-generate (`tools/gen_voice.mjs`, testi in `assets/voice/lines.json`); lip-sync dal volume | Già funzionante |
 | **Co-conduttrice** | **Gilda Lampo** (approvata 2026-10-14): alla pari con Tony, lucida e ironica; tiene il ritmo, presenta round e classifica, smonta Tony con battute secche. Le situazioni pescano battute di entrambi + duetti (Tony → Gilda). Voce Voice Design sul 2° account ElevenLabs (`ELEVENLABS_API_KEY2`), Tony resta sul 1° | Meno ripetizioni, più "show", inclusività; raddoppia i crediti voce |
 | Sottotitoli | Fumetto con il testo di Tony, attivabile/disattivabile dal titolo (salvato in `user://impostazioni.cfg`) | Accessibilità |
+| **Minigiochi** (2026-10-14) | Ogni minigioco è un round. Prima della partita chi ha il telecomando sceglie quali giocare (tutti selezionati di default, minimo 4): così decide la durata. Primo rilascio, 8 selezionabili: Accumula Punti, Dito Veloce, Passa la Bomba, Ruba Punti, Torta in Faccia, Metti in Ordine, Foto Misteriosa, La risposta più vicina. **Conto alla Rovescia** chiude sempre la partita (non si toglie). **Duello degli indizi** parte da solo (recupero, sotto). Nuovi minigiochi arrivano con gli aggiornamenti dell'APK | Durata scelta senza menu complicati |
+| **Duello degli indizi** | A metà partita, se tra primo e ultimo ci sono ≥ 3 risposte giuste di distanza (1.500 punti; soglia da tarare col playtest). Due squadre dalla classifica (3: 1°+3° / 2° · 4: 1°+4° / 2°+3° · 5: 1°+5° / 2°+3°+4° · 6: 1°+6°+5° / 2°+3°+4°; con 2 giocatori non c'è). Indizi uno alla volta, poi 4 risposte: il premio parte alto e **scende a ogni indizio sbloccato** (nessuno perde punti già fatti) | Dà una possibilità a chi è indietro senza annullare la partita |
 | Controller | Pagina web sul telefono (WebSocket verso la TV); tastiera/telecomando + bot per i test | Nessuna app da installare |
 | Lingua | Italiano | — |
 | **Domande** | Servite da un **Cloudflare Worker + D1** (piano gratuito); la TV le scarica all'avvio e le tiene in cache; aggiornate da un cron del Worker che genera con **Gemini** e verifica con un modello **OpenRouter** diverso (§4 "Domande") | Domande nuove senza aggiornare l'app, costo zero |
@@ -85,6 +87,8 @@ BUZZ/
 | `lampo` | Dito Veloce, Passa la Bomba | come `classica`, ma si capisce in 2 s | domanda 55, risposta 16 |
 | `ordine` | Metti in Ordine | `criterio` ("Dal più antico al più recente"), `elementi[4]` **nell'ordine giusto**, `valori[4]` (1492, 1789…: si mostrano alla rivelazione e rendono l'ordine verificabile) | criterio 50, elemento 22, valore 14 |
 | `foto` | Foto Misteriosa | `immagine` (URL Pixabay), `autore`, `pagina`, `risposte[4]` | (G3) |
+| `stima` | La risposta più vicina | `valore` (numero esatto), `unita` ("km", "abitanti"); la stima si scrive sul telefono | (G3) |
+| `indizi` | Duello degli indizi | `categoria_indizi` ("Personaggio storico"), `indizi[3]` dal più vago al più chiaro, `risposte[4]` | (G3) |
 
 Le lunghezze vengono dal design: pannello domanda 1540 px a 60 px = 2 righe; carta risposta 848 px a 48 px. Contano i caratteri dopo il trim.
 
@@ -204,6 +208,9 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o)
 - [ ] Torta in Faccia · Metti in Ordine · Foto Misteriosa (immagini Pixabay via API, scelte dal Worker; autore e pagina mostrati)
 - [ ] Conto alla Rovescia come finale
+- [ ] Schermata di scelta dei minigiochi prima della partita (telecomando; tutti accesi, minimo 4)
+- [ ] La risposta più vicina (stima dal telefono, vince chi si avvicina di più)
+- [ ] Duello degli indizi (recupero automatico a metà partita, squadre dalla classifica)
 
 ### G4 — Contenuti e rifinitura
 - [ ] 200+ domande in categorie, riviste dal supervisore
@@ -224,5 +231,5 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 
 ## 7. Decisioni aperte
 - Numero di round e domande per partita (dopo il playtest).
-- Ordine e scelta dei mini-giochi in una partita (fissa o casuale).
+- Ordine dei minigiochi scelti (fisso o casuale). Punti del premio del Duello e soglia esatta (playtest).
 - Licenza del repo pubblico (codice) e note per gli asset: voci ElevenLabs piano Free = attribuzione e uso non commerciale.
