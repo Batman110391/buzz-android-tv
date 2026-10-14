@@ -1,0 +1,212 @@
+{
+  "classica/natura/2": [
+    {
+      "tipo": "classica",
+      "categoria": "natura",
+      "difficolta": 2,
+      "domanda": "Come si chiama un gruppo di lupi?",
+      "risposte": [
+        "Branco",
+        "Stormo",
+        "Mandria",
+        "Gregge"
+      ],
+      "curiosita": "Di solito è una famiglia guidata da una coppia.",
+      "fatto": "gruppo di lupi branco",
+      "fonte": "https://it.wikipedia.org/wiki/Canis_lupus"
+    },
+    {
+      "tipo": "classica",
+      "categoria": "natura",
+      "difficolta": 2,
+      "domanda": "Quale animale costruisce dighe nei fiumi?",
+      "risposte": [
+        "Castoro",
+        "Lontra",
+        "Nutria",
+        "Marmotta"
+      ],
+      "curiosita": "I suoi incisivi crescono per tutta la vita.",
+      "fatto": "animale costruttore dighe castoro",
+      "fonte": "https://it.wikipedia.org/wiki/Castor_(genere)"
+    },
+    {
+      "tipo": "classica",
+      "categoria": "natura",
+      "difficolta": 2,
+      "domanda": "Quale pianta carnivora chiude le foglie a scatto sulle prede?",
+      "risposte": [
+        "Venere acchiappamosche",
+        "Drosera",
+        "Nepenthes",
+        "Sarracenia"
+      ],
+      "curiosita": "Si chiude solo se un insetto tocca due volte i peli sensibili.",
+      "fatto": "pianta carnivora scatto venere acchiappamosche",
+      "fonte": "https://it.wikipedia.org/wiki/Dionaea_muscipula"
+    },
+    {
+      "tipo": "classica",
+      "categoria": "natura",
+      "difficolta": 2,
+      "domanda": "Quale mammifero è l'unico capace di volare davvero?",
+      "risposte": [
+        "Pipistrello",
+        "Scoiattolo volante",
+        "Colugo",
+        "Petauro"
+      ],
+      "curiosita": "Gli altri mammiferi cosiddetti volanti in realtà planano.",
+      "fatto": "unico mammifero volo pipistrello",
+      "fonte": "https://it.wikipedia.org/wiki/Chiroptera"
+    }
+  ],
+  "lampo/cucina/1": [
+    {
+      "tipo": "lampo",
+      "categoria": "cucina",
+      "difficolta": 1,
+      "domanda": "Da cosa si ricava il burro?",
+      "risposte": [
+        "Latte",
+        "Uova",
+        "Olive",
+        "Soia"
+      ],
+      "curiosita": "Si ottiene dalla panna agitata a lungo.",
+      "fatto": "burro ricavato da latte",
+      "fonte": "https://it.wikipedia.org/wiki/Burro"
+    },
+    {
+      "tipo": "lampo",
+      "categoria": "cucina",
+      "difficolta": 1,
+      "domanda": "Qual è l'ingrediente principale del guacamole?",
+      "risposte": [
+        "Avocado",
+        "Pomodoro",
+        "Peperone",
+        "Cetriolo"
+      ],
+      "curiosita": "Il nome viene dalla parola azteca per salsa di avocado.",
+      "fatto": "guacamole ingrediente avocado",
+      "fonte": "https://it.wikipedia.org/wiki/Guacamole"
+    },
+    {
+      "tipo": "lampo",
+      "categoria": "cucina",
+      "difficolta": 1,
+      "domanda": "Con quale frutto si fa il vino?",
+      "risposte": [
+        "Uva",
+        "Mela",
+        "Pera",
+        "Pesca"
+      ],
+      "curiosita": "Il vino si fa da migliaia di anni.",
+      "fatto": "vino fatto con uva",
+      "fonte": "https://it.wikipedia.org/wiki/Vino"
+    },
+    {
+      "tipo": "lampo",
+      "categoria": "cucina",
+      "difficolta": 1,
+      "domanda": "Quale ingrediente base ha la marmellata?",
+      "risposte": [
+        "Frutta",
+        "Carne",
+        "Pesce",
+        "Verdura"
+      ],
+      "curiosita": "Si cuoce con lo zucchero per conservarla a lungo.",
+      "fatto": "marmellata ingrediente frutta",
+      "fonte": "https://it.wikipedia.org/wiki/Marmellata"
+    }
+  ],
+  "ordine/scienza/2": [
+    {
+      "tipo": "ordine",
+      "categoria": "scienza",
+      "difficolta": 2,
+      "criterio": "Densità, dalla più bassa alla più alta",
+      "elementi": [
+        "Alluminio",
+        "Ferro",
+        "Piombo",
+        "Oro"
+      ],
+      "valori": [
+        "2,7 g/cm³",
+        "7,9 g/cm³",
+        "11,3 g/cm³",
+        "19,3 g/cm³"
+      ],
+      "curiosita": "Un lingotto d'oro pesa quasi sette volte uno di alluminio.",
+      "fatto": "ordine densita alluminio ferro piombo oro",
+      "fonte": "https://it.wikipedia.org/wiki/Densit%C3%A0"
+    },
+    {
+      "tipo": "ordine",
+      "categoria": "scienza",
+      "difficolta": 2,
+      "criterio": "Temperatura di fusione, dalla più bassa",
+      "elementi": [
+        "Mercurio",
+        "Acqua",
+        "Piombo",
+        "Ferro"
+      ],
+      "valori": [
+        "-39 °C",
+        "0 °C",
+        "327 °C",
+        "1.538 °C"
+      ],
+      "curiosita": "Il mercurio è l'unico metallo liquido a temperatura ambiente.",
+      "fatto": "ordine fusione mercurio acqua piombo ferro",
+      "fonte": "https://it.wikipedia.org/wiki/Punto_di_fusione"
+    },
+    {
+      "tipo": "ordine",
+      "categoria": "scienza",
+      "difficolta": 2,
+      "criterio": "Diametro, dal più piccolo al più grande",
+      "elementi": [
+        "Luna",
+        "Terra",
+        "Giove",
+        "Sole"
+      ],
+      "valori": [
+        "3.474 km",
+        "12.742 km",
+        "139.820 km",
+        "1.392.000 km"
+      ],
+      "curiosita": "Nel Sole starebbero oltre un milione di Terre.",
+      "fatto": "ordine diametro luna terra giove sole",
+      "fonte": "https://it.wikipedia.org/wiki/Sole"
+    },
+    {
+      "tipo": "ordine",
+      "categoria": "scienza",
+      "difficolta": 2,
+      "criterio": "Velocità, dalla più lenta alla più veloce",
+      "elementi": [
+        "Pedone",
+        "Bicicletta",
+        "Treno regionale",
+        "Aereo di linea"
+      ],
+      "valori": [
+        "5 km/h",
+        "20 km/h",
+        "100 km/h",
+        "900 km/h"
+      ],
+      "curiosita": "Un aereo di linea viaggia a quasi un chilometro al secondo.",
+      "fatto": "ordine velocita pedone bici treno aereo",
+      "fonte": "https://it.wikipedia.org/wiki/Velocit%C3%A0"
+    }
+  ]
+}

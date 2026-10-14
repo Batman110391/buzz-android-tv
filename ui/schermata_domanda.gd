@@ -14,6 +14,8 @@ var _tab_lbl: Label
 var _domanda: Label
 var _timer: Control
 var _frazione := 1.0
+var _contatore := -1  # >= 0: il timer mostra i punti del Dito Veloce
+var _ruba: Panel
 var _numero := 0
 var _ultimo_sec := -1
 var _carte: Array[Risposta] = []
@@ -86,7 +88,10 @@ func podio(i: int) -> Podio:
 
 func mostra_domanda(n: int, tot: int, titolo_round: String, testo: String, risposte: Array) -> void:
 	_numero = n
-	_tab_lbl.text = "DOMANDA %d/%d · %s" % [n, tot, titolo_round]
+	_contatore = -1
+	nascondi_ruba()
+	_timer.queue_redraw()
+	_tab_lbl.text = ("DOMANDA %d/%d · %s" % [n, tot, titolo_round]) if tot > 0 else ("DOMANDA %d · %s" % [n, titolo_round])  # tot 0 = senza fine (Bomba)
 	var w := Risposta.font_display().get_string_size(_tab_lbl.text, HORIZONTAL_ALIGNMENT_LEFT, -1, 32).x + 56.0 + 12.0
 	_tab.size = Vector2(w, 60)
 	_tab_lbl.size.x = w - 12.0
@@ -117,6 +122,11 @@ func set_tempo(left: float, total: float) -> void:
 func _disegna_timer() -> void:
 	var c := Vector2(80, 80)
 	_timer.draw_circle(c, 80, INK)
+	if _contatore >= 0:
+		_timer.draw_circle(c, 72, GOLD)
+		_timer.draw_string(Risposta.font_display(), Vector2(0, 82), str(_contatore), HORIZONTAL_ALIGNMENT_CENTER, 160, 60, INK)
+		_timer.draw_string(Risposta.font_display(), Vector2(0, 118), "PUNTI", HORIZONTAL_ALIGNMENT_CENTER, 160, 32, INK)
+		return
 	_timer.draw_circle(c, 72, DIM_BG)
 	if _frazione > 0.0:
 		_timer.draw_arc(c, 64, -PI / 2, -PI / 2 + TAU * _frazione, 96, GOLD, 16.0, true)
@@ -146,3 +156,40 @@ func rivela(corretta: int, scelte: Dictionary, punti: Array) -> void:
 			_podi[pid].set_punti(_podi[pid].punti + punti[pid])
 		else:
 			_podi[pid].set_stato("ko")
+
+
+## Dito Veloce: il timer diventa il contatore dei punti.
+func set_contatore(punti: int) -> void:
+	_contatore = punti
+	_timer.queue_redraw()
+
+
+## Ruba Punti: carta centrale "300 punti da rubare".
+func mostra_ruba(punti: int) -> void:
+	nascondi_ruba()
+	_ruba = Panel.new()
+	_ruba.position = Vector2(560, 340)
+	_ruba.size = Vector2(800, 270)
+	_ruba.pivot_offset = Vector2(400, 135)
+	_ruba.rotation_degrees = -2
+	_ruba.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_ruba.add_theme_stylebox_override("panel", Risposta.box(GOLD, INK, 8, 20, 36))
+	add_child(_ruba)
+	_ruba.add_child(Risposta.etichetta(str(punti), Risposta.font_display(), 170, INK, 340, 242))
+	var t := Risposta.etichetta("punti\nda rubare", Risposta.font_testo(), 44, INK, 330, 242, HORIZONTAL_ALIGNMENT_LEFT)
+	t.position = Vector2(370, 0)
+	t.add_theme_constant_override("line_spacing", -8)
+	_ruba.add_child(t)
+	_ruba.scale = Vector2.ZERO
+	create_tween().tween_property(_ruba, "scale", Vector2.ONE, 0.35).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+
+
+func nascondi_ruba() -> void:
+	if _ruba != null:
+		_ruba.queue_free()
+		_ruba = null
+
+
+## Passa la Bomba: al posto del timer c'è la bomba (main).
+func mostra_timer(on: bool) -> void:
+	_timer.visible = on

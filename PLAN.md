@@ -27,6 +27,7 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 | **Co-conduttrice** | **Gilda Lampo** (approvata 2026-10-14): alla pari con Tony, lucida e ironica; tiene il ritmo, presenta round e classifica, smonta Tony con battute secche. Le situazioni pescano battute di entrambi + duetti (Tony → Gilda). Voce Voice Design sul 2° account ElevenLabs (`ELEVENLABS_API_KEY2`), Tony resta sul 1° | Meno ripetizioni, più "show", inclusività; raddoppia i crediti voce |
 | Sottotitoli | Fumetto con il testo di Tony, attivabile/disattivabile dal titolo (salvato in `user://impostazioni.cfg`) | Accessibilità |
 | **Minigiochi** (2026-10-14) | Ogni minigioco è un round. Prima della partita chi ha il telecomando sceglie quali giocare (tutti selezionati di default, minimo 4): così decide la durata. Primo rilascio, 7 selezionabili: Accumula Punti, Dito Veloce, Passa la Bomba, Ruba Punti, Torta in Faccia, Metti in Ordine, La risposta più vicina (Foto Misteriosa tolta il 2026-10-14: forse in un aggiornamento). **Conto alla Rovescia** chiude sempre la partita (non si toglie). **Duello degli indizi** parte da solo (recupero, sotto). Nuovi minigiochi arrivano con gli aggiornamenti dell'APK | Durata scelta senza menu complicati |
+| **Regole dei round** (G3, proposta P 2026-10-14, numeri da tarare col playtest) | Ordine fisso dei round scelti, punti che si sommano tra i round. **Accumula Punti** 5 `classica`, 15 s, +500. **Dito Veloce** 5 `lampo`, 10 s: un contatore scende da 1000 a 0, chi risponde giusto prende il valore del momento (arrotondato a 10), sbagliata 0. **Passa la Bomba** `lampo`, 3 bombe con miccia nascosta casuale 20–40 s; la prima parte dall'ultimo in classifica; risponde solo chi ha la bomba: giusta → passa al giocatore dopo, sbagliata → nuova domanda e la tiene; se esplode −500 (non sotto zero) e la bomba dopo riparte da lui. **Ruba Punti** 5 `classica`, 15 s: chi risponde giusto sceglie una vittima (10 s; bot e chi non sceglie → il primo in classifica tra gli altri) e le ruba 300 punti (al massimo quelli che ha), niente +500 | Ritmo vario senza regole difficili |
 | **Duello degli indizi** | A metà partita, se tra primo e ultimo ci sono ≥ 3 risposte giuste di distanza (1.500 punti; soglia da tarare col playtest). Due squadre dalla classifica (3: 1°+3° / 2° · 4: 1°+4° / 2°+3° · 5: 1°+5° / 2°+3°+4° · 6: 1°+6°+5° / 2°+3°+4°; con 2 giocatori non c'è). Indizi uno alla volta, poi 4 risposte: il premio parte alto e **scende a ogni indizio sbloccato** (nessuno perde punti già fatti) | Dà una possibilità a chi è indietro senza annullare la partita |
 | Controller | Pagina web sul telefono (WebSocket verso la TV); tastiera/telecomando + bot per i test | Nessuna app da installare |
 | Lingua | Italiano | — |
@@ -159,8 +160,11 @@ Messaggi JSON con il campo `t`:
 | TV → tutti | `lobby` | `presi` (personaggi occupati, bot compresi) — anche a chi non è ancora entrato |
 | TV → tutti | `state` | `fase`: `lobby` · `domanda` · `rivela` · `attesa` · `finale`; con `domanda`: `q`, `tot`, `domanda`, `risposte[4]` (nell'ordine mostrato in TV) e, per ciascun telefono, `scelta` (-1 se non ha risposto) |
 | TV → tel | `result` | `giusta` (bool), `punti` (guadagnati), `totale`, `posizione` |
+| tel → TV | `steal` (G3) | `q` (indice della domanda appena rivelata), `victim` (slot) |
+| TV → tutti | `state` minigiochi (G3) | con `domanda` anche `gioco` (`accumula` `dito` `bomba` `ruba`); con `bomba` anche `bomba` (slot che ce l'ha: solo lui ha i tasti) e `bomba_nome` (gli altri vedono "<nome> ha la bomba!"), senza `tempo` (miccia nascosta). Fase `ruba`: `q`, `punti` (300), `tempo` (10), `vittime` [{`slot`,`name`,`color`,`avatar`,`punti`}] e, per ciascun telefono, `puo` (bool: ha indovinato e non ha ancora rubato) |
+| TV → tel | `result` (G3) | campo facoltativo `testo` ("Hai rubato 300 punti a Ugo!", "BOOM! −500"), mostrato nell'esito |
 
-**Validazione sul lato TV** (la TV è l'unica autorità; tutto il resto si ignora in silenzio): JSON valido e oggetto, tipi esatti; `join` una sola volta per connessione, codice giusto, personaggio esistente e libero; `answer` solo da connessione entrata, fase `domanda`, `q` = domanda attiva, `choice` intero 0–3; "non ha già risposto" e "tempo non scaduto" li controlla `Game.submit_answer` (tempo misurato sulla TV).
+**Validazione sul lato TV** (la TV è l'unica autorità; tutto il resto si ignora in silenzio): JSON valido e oggetto, tipi esatti; `join` una sola volta per connessione, codice giusto, personaggio esistente e libero; `answer` solo da connessione entrata, fase `domanda`, `q` = domanda attiva, `choice` intero 0–3; `steal` solo da connessione entrata, fase `ruba`, `q` = domanda attiva, `victim` tra le `vittime` e diverso dal proprio slot, una volta per domanda (il resto lo controlla `Game.ruba`); "non ha già risposto" e "tempo non scaduto" li controlla `Game.submit_answer` (tempo misurato sulla TV).
 
 **Riconnessione.** Il telefono salva `token` nel `localStorage` e lo rimanda nel `join`: riprende il suo slot (anche a partita in corso) e riceve subito l'ultimo `state`. Nella lobby uno slot disconnesso si libera dopo 15 s; in partita resta suo fino al ritorno al titolo.
 
@@ -202,7 +206,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] 2–6 giocatori reali, riconnessione, input non validi ignorati
 
 ### G3 — Mini-giochi
-- [ ] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o)
+- [x] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o) — da provare sulla TV
 - [ ] Torta in Faccia · Metti in Ordine
 - [ ] Conto alla Rovescia come finale
 - [ ] Schermata di scelta dei minigiochi prima della partita (telecomando; tutti accesi, minimo 4)

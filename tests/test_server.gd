@@ -8,6 +8,7 @@ var clients: Array[Dictionary] = []
 var joined_log: Array = []
 var answered_log: Array = []
 var left_log: Array = []
+var stole_log: Array = []
 
 
 func _check(nome: String, cond: bool) -> void:
@@ -49,6 +50,10 @@ func _take(c: Dictionary, t: String) -> Dictionary:
 	return {}
 
 
+func _vuota(c: Dictionary) -> void:
+	c.box = c.box.filter(func(m): return not (m is Dictionary and m.get("t") == "state"))
+
+
 func _tx(c: Dictionary, d) -> void:
 	c.ws.send_text(d if d is String else JSON.stringify(d))
 
@@ -83,6 +88,7 @@ func _initialize() -> void:
 	server.joined.connect(func(s: int, n: String, a: String): joined_log.append([s, n, a]))
 	server.left.connect(func(s: int): left_log.append(s))
 	server.answered.connect(func(s: int, q: int, ch: int): answered_log.append([s, q, ch]))
+	server.stole.connect(func(s: int, q: int, v: int): stole_log.append([s, q, v]))
 	server.apri_lobby()
 	var code: String = server.codice
 
@@ -161,6 +167,33 @@ func _initialize() -> void:
 	_check("rientro col token -> stesso slot", _take(a2, "welcome").get("slot") == 0)
 	_check("rientro -> ultimo state con scelta", _take(a2, "state").get("scelta") == 2)
 	_check("rientro non rimette joined", joined_log.size() == 2)
+
+	_tx(a2, {"t": "steal", "q": 5, "victim": 2})
+	await _pump()
+	_check("steal fuori fase ignorata", stole_log.is_empty())
+	_vuota(a2)
+	_vuota(b)
+	server.invia_stato({"fase": "ruba", "q": 5, "punti": 300, "tempo": 10, "puo": [0],
+			"vittime": [{"slot": 0}, {"slot": 1}, {"slot": 2}]})
+	await _pump()
+	_check("puo per telefono (true/false)", _take(a2, "state").get("puo") == true and _take(b, "state").get("puo") == false)
+	for m in [{"t": "steal", "q": 4, "victim": 2}, {"t": "steal", "q": 5, "victim": 4}, {"t": "steal", "q": 5, "victim": 0},
+			{"t": "steal", "q": "5", "victim": 2}, {"t": "steal", "q": 5, "victim": "2"}, '{"t":"steal","q":5,"victim":1.5}', {"t": "steal"}]:
+		_tx(a2, m)
+	_tx(c, {"t": "steal", "q": 5, "victim": 2})
+	await _pump()
+	_check("steal q sbagliata/vittima fuori lista/se stesso/tipi/non entrato ignorate", stole_log.is_empty())
+	_tx(a2, {"t": "steal", "q": 5, "victim": 2})
+	await _pump()
+	_check("steal valida -> stole", stole_log == [[0, 5, 2]])
+	_tx(a2, {"t": "steal", "q": 5, "victim": 1})
+	await _pump()
+	_check("doppio steal ignorato", stole_log.size() == 1)
+	_vuota(a2)
+	server.invia_stato({"fase": "ruba", "q": 5, "punti": 300, "tempo": 10, "puo": [0, 2], "vittime": [{"slot": 0}, {"slot": 2}]})
+	await _pump()
+	_check("dopo aver rubato puo false", _take(a2, "state").get("puo") == false)
+
 
 	var d := _nuovo()
 	await _apri(d)

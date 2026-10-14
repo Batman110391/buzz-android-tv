@@ -1,9 +1,20 @@
 extends Node2D
-## Flusso della partita (G1): Titolo -> Lobby (←/→ numero di giocatori, OK) -> Round -> 10 domande (Game) -> Finale -> Titolo.
-## Giocatore 1 da telecomando/tastiera, gli altri sono bot. `-- --demo`: tutto automatico, anche il giocatore 1.
+## Flusso della partita: Titolo -> Lobby (←/→ numero di giocatori, OK) -> Scelta dei giochi -> un round per gioco
+## (Game, o Bomba per Passa la Bomba) -> Finale -> Titolo. Regole dei round: PLAN.md §2.
+## Telefoni + bot; senza telefoni il giocatore 1 è il telecomando. `-- --demo`: tutto automatico.
 
-const DOMANDE := 10
-const ROUND := "ACCUMULA PUNTI"
+const DOMANDE := 5  # per round
+const GIOCHI := [  # solo quelli già fatti (G3f aggiunge gli altri e Conto alla Rovescia)
+	{"id": "accumula", "titolo": "Accumula Punti", "icona": "💰", "tipo": "classica", "breve": "Più rispondi, più incassi.",
+		"regola": "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!"},
+	{"id": "dito", "titolo": "Dito Veloce", "icona": "⚡", "tipo": "lampo", "breve": "Il più rapido incassa di più.",
+		"regola": "I punti scendono da 1000 a zero: rispondi giusto e prendi quelli che restano!"},
+	{"id": "bomba", "titolo": "Passa la Bomba", "icona": "💣", "tipo": "lampo", "breve": "Non farla esplodere in mano.",
+		"regola": "Rispondi giusto per passare la bomba. Se ti esplode in mano perdi 500 punti!"},
+	{"id": "ruba", "titolo": "Ruba Punti", "icona": "🦝", "tipo": "classica", "breve": "Sfila i punti agli altri.",
+		"regola": "Chi risponde giusto ruba 300 punti a un avversario a scelta!"},
+]
+const RUBA_TEMPO := 10.0
 const INK := Color("1B0B3A")
 const CREAM := Color("FFF4DC")
 const GIOCATORI := [
@@ -23,7 +34,16 @@ var _fase := ""  # titolo | lobby | round | domanda | rivela | finale | (transiz
 var _titolo: SchermataTitolo
 var _lobby: SchermataLobby
 var _round: SchermataRound
+var _scelta: SchermataScelta
 var _s: SchermataDomanda
+var _bomba_ui: BombaUI
+var _bomba: Bomba
+var _giochi: Array[String] = []  # id dei giochi scelti, nell'ordine di GIOCHI
+var _r := 0  # round in corso (indice in _giochi)
+var _punti := {}  # pid -> punti totali della partita
+var _ruba_da: Array = []  # Ruba Punti: chi ha indovinato e non ha ancora rubato
+var _t := 0.0  # Bomba: secondi dall'inizio della domanda
+var _quando_b := INF  # Bomba: quando risponde il bot che ce l'ha
 var _finale: SchermataFinale
 var _cond: Array[Personaggio] = []  # 0 = Tony (entra da sinistra), 1 = Gilda (entra da destra)
 var _fumetti: Array[PanelContainer] = []  # uno per conduttore
@@ -64,11 +84,17 @@ func _ready() -> void:
 	_titolo = SchermataTitolo.new()
 	_lobby = SchermataLobby.new()
 	_round = SchermataRound.new()
+	_scelta = SchermataScelta.new()
 	_s = SchermataDomanda.new()
 	_finale = SchermataFinale.new()
-	for sc: CanvasItem in [_titolo, _lobby, _round, _s, _finale]:
+	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _s, _finale]:
 		sc.visible = false
 		add_child(sc)
+	_scelta.confermato.connect(_scelti)
+	_bomba_ui = BombaUI.new()
+	_bomba_ui.position = Vector2(1664, 88)  # al posto del timer
+	_bomba_ui.visible = false
+	_s.add_child(_bomba_ui)
 	_round.position.y = -70.0  # lascia spazio al fumetto di Tony sotto la carta
 	_server = preload("res://net/server.gd").new()
 	add_child(_server)
@@ -77,6 +103,11 @@ func _ready() -> void:
 	_server.answered.connect(func(slot: int, q: int, scelta: int) -> void:
 		if _pid_di.has(slot) and q == _i:
 			_risponde(_pid_di[slot], scelta))
+	_server.stole.connect(func(slot: int, q: int, vittima: int) -> void:
+		if _fase == "ruba" and _pid_di.has(slot) and q == _i:
+			for pid in _n:
+				if _g[pid]["slot"] == vittima:
+					_furto(_pid_di[slot], pid))
 	_lobby.setup(_server.url(), _server.codice)
 	for id: String in ["host", "gilda"]:
 		var c := Personaggio.new()
@@ -141,7 +172,7 @@ func _vai_lobby() -> void:
 			await get_tree().create_timer(0.5).timeout
 			_cambia_giocatori(1)
 		await get_tree().create_timer(1.0).timeout
-		_vai_round()
+		_vai_scelta()
 
 
 func _dati(id: String) -> Array:
@@ -192,10 +223,41 @@ func _cambia_giocatori(d: int) -> void:
 		_server.set_bot(_bot)
 
 
+# ---------------------------------------------------------------- scelta dei giochi
+## Chi ha il telecomando sceglie i giochi (la lobby resta aperta: i telefoni possono ancora entrare).
+func _vai_scelta() -> void:
+	if _server.giocatori().size() + _bot.size() < 2:
+		return
+	_fase = "scelta"
+	_lobby.visible = false
+	var g: Array = []
+	for d: Dictionary in GIOCHI:
+		g.append({"id": d["id"], "titolo": d["titolo"], "icona": d["icona"], "regola": d["breve"], "fisso": false})
+	_scelta.visible = true
+	_scelta.mostra(g)
+	if _demo:
+		await get_tree().create_timer(1.5).timeout
+		var tutti: Array[String] = []
+		for d: Dictionary in GIOCHI:
+			tutti.append(d["id"])
+		_scelti(tutti)
+
+
+func _scelti(ids: Array[String]) -> void:
+	if _fase != "scelta":
+		return
+	_giochi = ids
+	_scelta.nascondi()
+	_vai_round()
+
+
 # ---------------------------------------------------------------- presentazioni + round + domande
 func _vai_round() -> void:
 	var tel: Dictionary = _server.giocatori()
-	if tel.size() + _bot.size() < 2:
+	if tel.size() + _bot.size() < 2:  # i telefoni sono usciti durante la scelta
+		_fase = "lobby"
+		_scelta.visible = false
+		_lobby.visible = true
 		return
 	_server.chiudi_lobby()
 	_g.clear()
@@ -214,12 +276,9 @@ func _vai_round() -> void:
 	_lobby.visible = false
 	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
 	await _presenta_giocatori()
-	_fase = "round"
-	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
-	await get_tree().create_timer(0.6).timeout
-	await _commenta(["round_1", "gilda_round_1"].pick_random(), "annuncio", FUMETTO_BASSO)
-	_round.nascondi()
 	_inizia_partita()
+	_r = 0
+	_prossimo_round()
 
 
 ## Primo piano di ogni giocatore non ancora presentato in questa sessione, con la battuta di Tony; OK salta tutto.
@@ -275,12 +334,13 @@ func _primo_piano(i: int) -> Node2D:
 	return n
 
 
+## Podi e punti della partita (una volta sola: i round li riusano).
 func _inizia_partita() -> void:
 	var g: Array = []
-	var nomi: Array[String] = []
+	_punti.clear()
 	for i in _n:
 		g.append({"nome": _g[i]["nome"], "colore": _g[i]["colore"], "punti": 0})
-		nomi.append(_g[i]["nome"])
+		_punti[i] = 0
 	_s.setup_podi(g)
 	_pers.clear()
 	for i in _n:
@@ -288,19 +348,136 @@ func _inizia_partita() -> void:
 		p.setup(_g[i]["id"])
 		_s.podio(i).metti_personaggio(p)
 		_pers.append(p)
+	_capo = -1
+
+
+func _gioco() -> Dictionary:
+	for d: Dictionary in GIOCHI:
+		if d["id"] == _giochi[_r]:
+			return d
+	return GIOCHI[0]
+
+
+func _nomi() -> Array[String]:
+	var nomi: Array[String] = []
+	for p in _g:
+		nomi.append(p["nome"])
+	return nomi
+
+
+## Carta del round + battuta, poi il gioco; dopo l'ultimo round il finale.
+func _prossimo_round() -> void:
+	if _r >= _giochi.size():
+		_fine(_classifica())
+		return
+	var gi := _gioco()
+	_fase = "round"
+	_s.visible = false
+	_server.invia_stato({"fase": "attesa"})
+	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"], gi["icona"])
+	await get_tree().create_timer(0.6).timeout
+	var k: String = ["round_1", "gilda_round_1"].pick_random() if _r == 0 and gi["id"] == "accumula" \
+			else ["round_2", "gilda_round_2", "gilda_round_3"][_r % 3]  # le battute generiche, a turno
+	await _commenta(k, "annuncio", FUMETTO_BASSO)
+	_round.nascondi()
+	for i in _n:
+		_s.podio(i).set_punti(_punti[i])
 	_s.visible = true
 	Sfx.music("question")
-	_game = Game.new()
-	_game.question_started.connect(_domanda)
-	_game.question_resolved.connect(_rivela)
-	_game.game_over.connect(_fine)
-	_capo = -1
 	_ult_commento = -9
 	_ult_buzz = -9
 	_ult_hurry = -9
-	_game.setup(nomi, _domande.pesca("classica", DOMANDE), DOMANDE)
+	if gi["id"] == "bomba":
+		_inizia_bomba()
+		return
+	_game = Game.new()
+	_game.question_started.connect(_domanda)
+	_game.question_resolved.connect(_rivela)
+	_game.game_over.connect(_fine_round)
+	_game.setup(_nomi(), _domande.pesca(gi["tipo"], DOMANDE), DOMANDE, gi["id"], _punti)
 	_game.start()
 	_game.advance()
+
+
+func _fine_round(classifica: Array) -> void:
+	for r: Dictionary in classifica:
+		_punti[r["id"]] = r["score"]
+	_s.mostra_timer(true)
+	_bomba_ui.visible = false
+	_r += 1
+	_prossimo_round()
+
+
+## Stesso formato di Game._ranking().
+func _classifica() -> Array:
+	var r: Array = []
+	for i in _n:
+		r.append({"id": i, "name": _g[i]["nome"], "score": _punti[i]})
+	r.sort_custom(func(a: Dictionary, b: Dictionary) -> bool:
+		return a["score"] > b["score"] or (a["score"] == b["score"] and a["id"] < b["id"]))
+	return r
+
+
+# ---------------------------------------------------------------- Passa la Bomba
+func _inizia_bomba() -> void:
+	_bomba = Bomba.new()
+	_bomba.question_started.connect(_b_domanda)
+	_bomba.passata.connect(func(_da: int, _a: int) -> void: Sfx.play("correct"))
+	_bomba.sbagliata.connect(func(_pid: int) -> void: Sfx.play("wrong"))
+	_bomba.esplosa.connect(_b_esplosa)
+	_bomba.round_finito.connect(_fine_round)
+	_bomba.setup(_nomi(), _domande.pesca("lampo", 40), _punti)
+	_i = -1
+	_s.mostra_timer(false)
+	_bomba_ui.visible = true
+	_bomba_ui.nuova()
+	_bomba_ui.dondola()
+	_bomba.start()
+
+
+func _b_domanda(q: Dictionary, chi: int) -> void:
+	_fase = "bomba"
+	_q = q
+	_i += 1
+	_t = 0.0
+	_scelte.clear()
+	var umano: bool = not _demo and (not _g[chi]["bot"] or (chi == 0 and not _telefoni))
+	_quando_b = INF if umano else randf_range(1.5, 4.5)
+	_s.mostra_domanda(_i + 1, 0, _gioco()["titolo"].to_upper(), q["domanda"], q["risposte"])
+	for pid in _n:
+		_pers[pid].stato("attesa")
+	_s.podio(chi).set_stato("bomba")
+	_s.podio(chi).badge("Tocca a te!")
+	_server.invia_stato({"fase": "domanda", "gioco": "bomba", "q": _i, "tot": 0, "domanda": q["domanda"], "risposte": q["risposte"],
+			"bomba": _g[chi]["slot"], "bomba_nome": _g[chi]["nome"]})
+
+
+func _b_esplosa(pid: int, punti: Dictionary) -> void:
+	_fase = "esplosione"
+	var persi: int = _punti[pid] - punti[pid]
+	_punti = punti
+	_bomba_ui.esplodi()
+	Sfx.play("explosion")
+	_s.podio(pid).set_stato("ko")
+	_s.podio(pid).badge("−%d" % persi)
+	_s.podio(pid).set_punti(punti[pid])
+	_server.invia_stato({"fase": "rivela"})
+	for slot in _pid_di:
+		if _pid_di[slot] == pid:
+			_server.invia_esito(slot, {"giusta": false, "punti": -persi, "totale": punti[pid], "posizione": _posizione(pid), "testo": "BOOM! −%d" % persi})
+	await get_tree().create_timer(3.0).timeout
+	_bomba.advance()  # bomba successiva (-> _b_domanda) oppure fine round (-> _fine_round)
+	if _fase == "bomba":
+		_bomba_ui.nuova()
+		_bomba_ui.dondola()
+
+
+func _posizione(pid: int) -> int:
+	var pos := 1
+	for altro in _n:
+		if _punti[altro] > _punti[pid]:
+			pos += 1
+	return pos
 
 
 func _domanda(i: int, tot: int, q: Dictionary) -> void:
@@ -312,20 +489,24 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 	_quando.clear()
 	for pid in _n:
 		var umano: bool = not _demo and (not _g[pid]["bot"] or (pid == 0 and not _telefoni))  # senza telefoni il pid 0 è il telecomando
-		_quando.append(INF if umano else randf_range(2.0, 11.0))
+		_quando.append(INF if umano else randf_range(2.0, _game.tempo_domanda() * 0.75))
 		_pers[pid].stato("pensa")
-	_s.mostra_domanda(i + 1, tot, ROUND, q["domanda"], q["risposte"])
-	_server.invia_stato({"fase": "domanda", "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"], "tempo": Game.QUESTION_TIME})
-	_s.set_tempo(Game.QUESTION_TIME, Game.QUESTION_TIME)
-	if i == 0:
+	var gi := _gioco()
+	_s.mostra_domanda(i + 1, tot, gi["titolo"].to_upper(), q["domanda"], q["risposte"])
+	_server.invia_stato({"fase": "domanda", "gioco": gi["id"], "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"], "tempo": _game.tempo_domanda()})
+	_s.set_tempo(_game.tempo_domanda(), _game.tempo_domanda())
+	if i == 0 and _r == 0:
 		_dici(_pesca("qfirst"), "annuncio")
-	elif i == tot - 1:
+	elif i == tot - 1 and _r == _giochi.size() - 1:
 		_dici(_pesca("qlast"), "annuncio")
 	elif _ult_commento < i - 1 and randf() < 0.5:  # se dopo l'ultima domanda è stato zitto
 		_dici(_pesca("qnext"), "annuncio")
 
 
 func _risponde(pid: int, scelta: int) -> void:
+	if _fase == "bomba":
+		_bomba.submit_answer(pid, scelta)  # giusta o sbagliata, parte subito la domanda dopo (_b_domanda)
+		return
 	if _fase != "domanda" or not _game.submit_answer(pid, scelta):
 		return
 	if _scelte.is_empty() and _i - _ult_buzz >= 3 and randf() < 0.5 and not _parla:
@@ -344,14 +525,26 @@ func _process(dt: float) -> void:
 			print("PERF fps=", snappedf(_pn / _pt, 0.1), " phase=", _fase)
 			_pt = 0.0
 			_pn = 0
+	if _fase == "bomba":
+		_t += dt
+		if _t >= _quando_b:  # bot con la bomba: le lampo le indovina più spesso
+			_risponde(_bomba.chi_ha_bomba(), _q["correct"] if randf() < 0.7 else randi() % 4)
+		_bomba.tick(dt)  # può emettere esplosa -> _b_esplosa
+		return
+	if _fase == "ruba":
+		_t += dt
+		return
 	if _fase != "domanda":
 		return
-	var trascorso := Game.QUESTION_TIME - _game.time_left()
+	var trascorso := _game.tempo_domanda() - _game.time_left()
 	for pid in _n:
 		if not _scelte.has(pid) and trascorso >= _quando[pid]:
 			# bot: indovina poco più di una volta su due
 			_risponde(pid, _q["correct"] if randf() < 0.55 else randi() % 4)
-	_s.set_tempo(_game.time_left(), Game.QUESTION_TIME)
+	if _gioco()["id"] == "dito":
+		_s.set_contatore(_game.punti_ora())
+	else:
+		_s.set_tempo(_game.time_left(), _game.tempo_domanda())
 	var sec := ceili(_game.time_left())
 	if sec != _ult_sec and sec <= 5 and sec >= 3 and _scelte.size() < _n:  # tic a 5 e 4, da 3 il ticchettio veloce (dura 2 s)
 		Sfx.play("tick_fast" if sec == 3 else "tick")
@@ -368,28 +561,39 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	_fase = "rivela"
 	var punti: Array = []
 	var giusti: Array = []
+	var presi := _game.punti_presi()
+	_punti = punteggi.duplicate()
 	for pid in _n:
-		punti.append(Game.POINTS_CORRECT)
+		punti.append(presi.get(pid, 0))
 		if risultati[pid]:
 			giusti.append(pid)
-	if _i == DOMANDE - 1:  # ultima domanda: rullo di tamburi prima della rivelazione
+	var ultimo_round := _r == _giochi.size() - 1
+	if _i == DOMANDE - 1 and ultimo_round:  # ultima domanda della partita: rullo di tamburi prima della rivelazione
 		Sfx.play("drumroll")
 		await get_tree().create_timer(2.0).timeout
 	_s.rivela(corretta, _scelte, punti)
+	var gioco: String = _gioco()["id"]
+	if gioco == "dito":  # al posto di "+740": ordine di arrivo e tempo
+		var n := 1
+		for d: Dictionary in _game.ordine_giusti():
+			_s.podio(d["pid"]).badge("%d° %s s" % [n, str(snappedf(d["secondi"], 0.1)).replace(".", ",")])
+			n += 1
+	elif gioco == "ruba":
+		for pid in _n:
+			_s.podio(pid).badge("")
 	_server.invia_stato({"fase": "rivela"})
 	for slot in _pid_di:
 		var pid: int = _pid_di[slot]
-		var pos := 1
-		for altro in _n:
-			if punteggi[altro] > punteggi[pid]:
-				pos += 1
-		_server.invia_esito(slot, {"giusta": risultati[pid], "punti": Game.POINTS_CORRECT if risultati[pid] else 0, "totale": punteggi[pid], "posizione": pos})
+		_server.invia_esito(slot, {"giusta": risultati[pid], "punti": punti[pid], "totale": punteggi[pid], "posizione": _posizione(pid)})
 	Sfx.play("correct" if not giusti.is_empty() else "wrong")
 	if giusti.is_empty():
 		Sfx.play("aww")
 	elif giusti.size() == _n:
 		Sfx.play("applause")
 	await get_tree().create_timer(1.8).timeout
+	if gioco == "ruba" and not giusti.is_empty():
+		await _fase_ruba(giusti)
+		punteggi = _punti.duplicate()
 	while _parla:  # una battuta (o un duetto) della domanda non è ancora finita
 		await get_tree().process_frame
 	var capo := _primo(punteggi)
@@ -398,7 +602,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	# i conduttori commentano solo se c'è qualcosa da dire, e mai due domande di fila (salvo metà partita)
 	var k := ""
 	var g := "esulta"
-	if _i == DOMANDE / 2 - 1:  # a metà partita punzecchia l'ultimo
+	if _i == DOMANDE - 1 and _r == (_giochi.size() - 1) / 2:  # a metà partita punzecchia l'ultimo
 		k = _pesca("last_" + _g[_ultimo(punteggi)]["id"])
 		g = "delusione"
 	elif _i - _ult_commento >= 2:
@@ -419,7 +623,62 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		_ult_commento = _i
 		await _commenta(k, g, FUMETTO_DOMANDA)
 	_game.advance()  # REVEAL -> SCOREBOARD
-	_game.advance()  # -> domanda successiva oppure FINAL (game_over)
+	_game.advance()  # -> domanda successiva oppure FINAL (game_over -> _fine_round)
+
+
+## Ruba Punti: chi ha indovinato sceglie una vittima (telefono); bot, telecomando e chi non sceglie in tempo
+## rubano al primo in classifica tra gli altri.
+## ponytail: il telecomando non sceglie la vittima, aggiungere ←/→ se serve giocare Ruba senza telefoni.
+func _fase_ruba(giusti: Array) -> void:
+	_fase = "ruba"
+	_t = 0.0
+	_ruba_da = giusti.duplicate()
+	_s.mostra_ruba(Game.RUBA_PUNTI)
+	var vittime: Array = []
+	var puo: Array[int] = []
+	for pid in _n:
+		if not giusti.has(pid):
+			_s.podio(pid).set_stato("mira")
+		vittime.append({"slot": _g[pid]["slot"], "name": _g[pid]["nome"], "color": "#" + (_g[pid]["colore"] as Color).to_html(false),
+				"avatar": _g[pid]["id"], "punti": _punti[pid]})
+	for slot in _pid_di:
+		if giusti.has(_pid_di[slot]):
+			puo.append(slot)
+	_server.invia_stato({"fase": "ruba", "q": _i, "punti": Game.RUBA_PUNTI, "tempo": RUBA_TEMPO, "vittime": vittime, "puo": puo})
+	await get_tree().create_timer(1.5).timeout
+	for pid in giusti:  # i bot rubano subito
+		if _g[pid]["bot"] or _demo or not _pid_di.values().has(pid):
+			_furto(pid, _game.vittima_predefinita(pid))
+	while not _ruba_da.is_empty() and _t < RUBA_TEMPO:
+		await get_tree().process_frame
+	for pid in _ruba_da.duplicate():
+		_furto(pid, _game.vittima_predefinita(pid))
+	await get_tree().create_timer(1.5).timeout
+	_s.nascondi_ruba()
+	_server.invia_stato({"fase": "rivela"})
+	_fase = "rivela"
+
+
+func _furto(ladro: int, vittima: int) -> void:
+	var n := _game.ruba(ladro, vittima)
+	if n < 0:
+		return
+	_ruba_da.erase(ladro)
+	_punti[ladro] += n
+	_punti[vittima] -= n
+	_s.podio(ladro).badge("+%d" % n)
+	_s.podio(ladro).set_punti(_punti[ladro])
+	_s.podio(vittima).badge("−%d" % n)
+	_s.podio(vittima).set_punti(_punti[vittima])
+	Sfx.play("cash")
+	for slot in _pid_di:
+		var pid: int = _pid_di[slot]
+		if pid == ladro:
+			_server.invia_esito(slot, {"giusta": true, "punti": n, "totale": _punti[pid], "posizione": _posizione(pid),
+					"testo": "Hai rubato %d punti a %s!" % [n, _g[vittima]["nome"]]})
+		elif pid == vittima:
+			_server.invia_esito(slot, {"giusta": false, "punti": -n, "totale": _punti[pid], "posizione": _posizione(pid),
+					"testo": "%s ti ha rubato %d punti!" % [_g[ladro]["nome"], n]})
 
 
 ## Chi è primo da solo (-1 se a pari merito in testa).
@@ -494,7 +753,7 @@ func _input(e: InputEvent) -> void:
 					f.visible = _sottotitoli and f.visible
 		"lobby":
 			if ok:
-				_vai_round()
+				_vai_scelta()
 			elif e.is_action_pressed("ui_right"):
 				_cambia_giocatori(1)
 			elif e.is_action_pressed("ui_left"):
@@ -504,7 +763,14 @@ func _input(e: InputEvent) -> void:
 				_salta = true
 				for c in _cond:
 					c.zitto()
-		"domanda":
+		"scelta":
+			if ok:
+				_scelta.premi()
+			else:
+				for d: Array in [["ui_up", Vector2i.UP], ["ui_down", Vector2i.DOWN], ["ui_left", Vector2i.LEFT], ["ui_right", Vector2i.RIGHT]]:
+					if e.is_action_pressed(d[0]):
+						_scelta.muovi(d[1])
+		"domanda", "bomba":
 			if _demo or _telefoni:
 				return
 			for i in 4:

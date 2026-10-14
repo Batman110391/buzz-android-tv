@@ -52,6 +52,13 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .ok{background:#fff}.ko{background:#5B4A93;color:var(--dimt)}
 .tm{margin-left:auto;flex:none;width:60px;height:60px;border-radius:50%;background:var(--ink);border:5px solid var(--gold);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:30px}
 .tm.hurry{border-color:var(--mag);color:var(--gold)}
+.bb{margin:10px 0 0;text-align:center;background:var(--mag);color:var(--cream);border:4px solid var(--ink);border-radius:24px;font-size:24px;padding:2px 10px;display:none}
+.vl{flex:1;display:flex;flex-direction:column;gap:8px;margin-top:10px;overflow:auto}
+.v{display:flex;align-items:center;gap:10px;background:var(--cream);color:var(--ink);border:4px solid var(--ink);border-bottom-width:8px;border-radius:18px;padding:0 12px 0 0;font:inherit;font-size:22px;min-height:62px;cursor:pointer;text-align:left;overflow:hidden}
+.v:active{transform:translateY(3px);border-bottom-width:5px}
+.v .a{flex:none;width:58px;height:58px;background:var(--c);border-right:4px solid var(--ink);position:relative}
+.v .a svg{position:absolute;inset:0;width:100%;height:100%}
+.v b{flex:1;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
 </style>
 </head>
@@ -75,14 +82,26 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 
 <section class="scr" id="s-q">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div><span class="tm d" id="tm"></span></div>
+ <div class="bb d" id="bb">Tocca a te! 💣</div>
  <div class="q" id="qt"></div>
  <div class="tasti" id="tasti"></div>
+</section>
+
+<section class="scr" id="s-ruba">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Ruba Punti</small></div><span class="tm d"></span></div>
+ <div class="big d" style="font-size:36px;text-align:center;margin-top:12px">Ruba 300 punti!</div>
+ <div class="vl" id="vl"></div>
+</section>
+
+<section class="scr" id="s-w">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="wq"></small></div><span class="tm d"></span></div>
+ <div class="mid"><div class="big d" id="w1"></div><div class="sub" id="w2"></div></div>
 </section>
 
 <section class="scr" id="s-esito">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
  <div class="mid"><div class="badge d" id="eb"></div><div class="pt d" id="ep"></div>
- <div class="sub" id="et"></div><div class="big d" id="epos"></div></div>
+ <div class="sub" id="et"></div><div class="sub d" id="etx" style="color:var(--cream);font-size:24px"></div><div class="big d" id="epos"></div></div>
 </section>
 
 <section class="scr" id="s-fin">
@@ -112,6 +131,7 @@ var P = new URLSearchParams(location.search), demo = P.get("demo");
 var urlCode = (P.get("c")||"").toUpperCase();
 var code = urlCode || ls.get("qz_code");
 var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
+var rub = -1;  // q in cui ho già scelto la vittima
 var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
 
 function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
@@ -148,13 +168,31 @@ function render(){
   var done = st.scelta>=0; id = "s-q";
   $("qt").textContent = st.domanda||"";
   document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+" di "+st.tot;
-  $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
+  var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot;
+  $("bb").style.display = mia?"block":"none";
+  if(bomba && !mia){
+   id = "s-w"; $("w1").textContent = (st.bomba_nome||"Qualcuno")+" ha la bomba!"; $("w2").textContent = "💣 Guarda la TV";
+   document.querySelector("#s-w .wq").textContent = "Domanda "+(st.q+1)+" di "+st.tot;
+  }
+  if(id==="s-q") $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
    return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'><span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span><span>'+esc(r)+'</span></button>';
   }).join("");
+ } else if(f==="ruba"){
+  if(st.puo && rub!==st.q){
+   id = "s-ruba";
+   $("vl").innerHTML = (st.vittime||[]).filter(function(v){return v.slot!==me.slot}).map(function(v){
+    return '<button class="v" data-s="'+v.slot+'"><span class="a" style="--c:'+esc(v.color||"#fff")+'">'+(SVG[v.avatar]||"")+'</span><b class="d">'+esc(v.name)+'</b><span class="d">'+esc(v.punti)+'</span></button>';
+   }).join("");
+  } else {
+   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Ruba Punti";
+   if(st.puo){ $("w1").textContent = "Bersaglio scelto!"; $("w2").textContent = "Guarda la TV" }
+   else { $("w1").textContent = "Qualcuno sta rubando…"; $("w2").textContent = "Guarda la TV" }
+  }
  } else if(f==="rivela" && res){
   id = "s-esito";
   $("eb").textContent = res.giusta?"GIUSTA!":"SBAGLIATA"; $("eb").className = "badge d "+(res.giusta?"ok":"ko");
   $("ep").textContent = (res.punti>=0?"+":"")+res.punti;
+  $("etx").textContent = res.testo||"";
   $("et").textContent = "Totale: "+res.totale+" punti"; $("epos").textContent = res.posizione+"° posto";
  } else if(f==="finale"){
   id = "s-fin";
@@ -163,9 +201,9 @@ function render(){
  head($(id)); show(id); tick();
 }
 function tick(){
- if(!st||st.fase!=="domanda") return;
- var s = Math.max(0, Math.ceil((fine-Date.now())/1000));
- $("tm").textContent = s; $("tm").classList.toggle("hurry", s<=5);
+ if(!st||(st.fase!=="domanda"&&st.fase!=="ruba")) return;
+ var s = Math.max(0, Math.ceil((fine-Date.now())/1000)), l = document.querySelectorAll(".tm");
+ for(var i=0;i<l.length;i++){ l[i].textContent = s; l[i].classList.toggle("hurry", s<=5) }
 }
 setInterval(tick, 200);
 $("tasti").onclick = function(e){
@@ -173,6 +211,11 @@ $("tasti").onclick = function(e){
  var i = +b.dataset.i;
  st.scelta = i; if(navigator.vibrate) navigator.vibrate(50);
  send({t:"answer",q:st.q,choice:i}); render();
+};
+$("vl").onclick = function(e){
+ var b = e.target.closest(".v"); if(!b||!st||rub===st.q) return;
+ rub = st.q; if(navigator.vibrate) navigator.vibrate(50);
+ send({t:"steal",q:st.q,victim:+b.dataset.s}); render();
 };
 $("go").onclick = function(){
  var c = urlCode || $("code").value.trim().toUpperCase();
@@ -188,7 +231,7 @@ function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
  else if(m.t==="lobby"){ presi = m.presi||[] }
- else if(m.t==="state"){ if(m.fase==="domanda"&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
   ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
@@ -213,6 +256,13 @@ if(demo){
  else if(demo==="attesa"){ me = D; st = {t:"state",fase:"lobby"} }
  else if(demo==="1m"){ me = D; st = Q }
  else if(demo==="1n"){ me = D; st = Object.assign({},Q,{scelta:1}) }
+ else if(demo==="bomba_mia"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:0}) }
+ else if(demo==="bomba_altro"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:2,bomba_nome:"Ugo"}) }
+ else if(demo==="ruba"||demo==="ruba_attesa"){ me = D; fine = Date.now()+8000;
+  st = {t:"state",fase:"ruba",q:2,punti:300,tempo:8,puo:demo==="ruba",vittime:[
+   {slot:0,name:"Gastone",color:"#F2384A",avatar:"chef",punti:2350},{slot:1,name:"Nonna Pina",color:"#2F7BFF",avatar:"nonna",punti:3100},
+   {slot:2,name:"Ugo",color:"#33C759",avatar:"zombi",punti:1800},{slot:3,name:"Brioche",color:"#FFD43B",avatar:"gatto",punti:900}]} }
+ else if(demo==="esito_testo"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2,testo:"Hai rubato 300 punti a Ugo!"} }
  else if(demo==="esito"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
  else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }
  else if(demo==="reject"){ rej = REJ.pieno }

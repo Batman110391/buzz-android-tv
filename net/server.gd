@@ -5,6 +5,7 @@ extends Node
 signal joined(slot: int, nome: String, avatar: String)
 signal left(slot: int)
 signal answered(slot: int, q: int, choice: int)
+signal stole(slot: int, q: int, victim: int)
 
 const HTTP_PORT := 8080
 const WS_PORT := 8081
@@ -35,6 +36,7 @@ var _aperta := false
 var _state := {}
 var _t_stato := 0  # ms di quando è arrivato _state: "tempo" si accorcia per chi lo riceve dopo
 var _risposte := {}  # slot -> {q, choice}
+var _rubato := {}  # slot -> q in cui ha già rubato
 
 
 func _init() -> void:
@@ -90,6 +92,7 @@ func reset() -> void:
 			_send(c, {"t": "state", "fase": "lobby"})
 	_players.clear()
 	_risposte.clear()
+	_rubato.clear()
 	_state = {}
 	_tutti(_msg_lobby())
 
@@ -197,6 +200,8 @@ func _ricevi(c: Dictionary, txt: String) -> void:
 			_join(c, m)
 		"answer":
 			_answer(c, m)
+		"steal":
+			_steal(c, m)
 
 
 func _join(c: Dictionary, m: Dictionary) -> void:
@@ -273,6 +278,27 @@ func _answer(c: Dictionary, m: Dictionary) -> void:
 	answered.emit(c.slot, int(q), int(ch))
 
 
+func _steal(c: Dictionary, m: Dictionary) -> void:
+	if c.slot < 0 or _state.get("fase") != "ruba":
+		return
+	var q = m.get("q")
+	var v = m.get("victim")
+	if not (_es_int(q) and _es_int(v)) or not _es_int(_state.get("q")) or int(q) != int(_state.get("q")):
+		return
+	if int(v) == c.slot or _rubato.get(c.slot, -1) == int(q):
+		return
+	var ok := false
+	var vit = _state.get("vittime")
+	if vit is Array:
+		for x in vit:
+			if x is Dictionary and _es_int(x.get("slot")) and int(x.get("slot")) == int(v):
+				ok = true
+	if not ok:
+		return
+	_rubato[c.slot] = int(q)
+	stole.emit(c.slot, int(q), int(v))
+
+
 func _es_int(v) -> bool:
 	return v is int or (v is float and absf(v) < 1e9 and v == floorf(v))
 
@@ -304,6 +330,9 @@ func _msg_state(slot: int) -> Dictionary:
 	if d.get("fase") == "domanda":
 		var r = _risposte.get(slot)
 		d["scelta"] = r.choice if r != null and r.q == int(d.get("q", -1)) else -1
+	if d.get("fase") == "ruba":
+		var puo = d.get("puo", [])
+		d["puo"] = puo is Array and slot in puo and _rubato.get(slot, -1) != int(d.get("q", -1))
 	return d
 
 

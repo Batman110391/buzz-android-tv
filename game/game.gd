@@ -2,6 +2,8 @@ class_name Game extends RefCounted
 
 const QUESTION_TIME := 15.0
 const POINTS_CORRECT := 500
+const DITO_MAX := 1000
+const RUBA_PUNTI := 300
 enum Phase { MENU, INTRO, QUESTION, REVEAL, SCOREBOARD, FINAL }
 
 signal phase_changed(phase: Phase)
@@ -19,8 +21,16 @@ var _phase: Phase = Phase.MENU
 var _timer: float = 0.0
 var _answers: Dictionary = {}
 var _scores: Dictionary = {}
+var _modo: String = "accumula"
+var _iniziali: Dictionary = {}
+var _tempi: Dictionary = {}  # pid -> secondi impiegati
+var _presi: Dictionary = {}
+var _giusti: Dictionary = {}
+var _rubato: Dictionary = {}
 
-func setup(player_names: Array[String], questions: Array, num_questions: int) -> void:
+func setup(player_names: Array[String], questions: Array, num_questions: int, modo: String = "accumula", punti_iniziali: Dictionary = {}) -> void:
+	_modo = modo
+	_iniziali = punti_iniziali
 	_names = player_names.duplicate()
 	_pool = questions
 	_num = num_questions
@@ -31,7 +41,7 @@ func start() -> void:
 		return
 	_scores.clear()
 	for i in _names.size():
-		_scores[i] = 0
+		_scores[i] = int(_iniziali.get(i, 0))
 	var shuffled: Array = _pool.duplicate()
 	shuffled.shuffle()
 	_selected.clear()
@@ -68,8 +78,12 @@ func advance() -> void:
 
 func _next_question() -> void:
 	_index += 1
-	_timer = QUESTION_TIME
+	_timer = tempo_domanda()
 	_answers.clear()
+	_tempi.clear()
+	_presi.clear()
+	_giusti.clear()
+	_rubato.clear()
 	_set_phase(Phase.QUESTION)
 	question_started.emit(_index, _selected.size(), _selected[_index])
 
@@ -79,6 +93,8 @@ func submit_answer(player_id: int, choice: int) -> bool:
 	if _answers.has(player_id) or time_left() <= 0.0 or choice < 0 or choice > 3:
 		return false
 	_answers[player_id] = choice
+	_tempi[player_id] = tempo_domanda() - _timer
+	_presi[player_id] = punti_ora()
 	answer_received.emit(player_id)
 	return true
 
@@ -93,10 +109,51 @@ func tick(delta: float) -> void:
 	for i in _names.size():
 		var ok: bool = _answers.get(i, -1) == correct
 		results[i] = ok
+		var p := 0
 		if ok:
-			_scores[i] += POINTS_CORRECT
+			_giusti[i] = true
+			match _modo:
+				"accumula": p = POINTS_CORRECT
+				"dito": p = int(_presi.get(i, 0))
+		_presi[i] = p
+		_scores[i] += p
 	_set_phase(Phase.REVEAL)
 	question_resolved.emit(correct, results, _scores.duplicate())
+
+func tempo_domanda() -> float:
+	return 10.0 if _modo == "dito" else QUESTION_TIME
+
+## valore attuale del contatore del Dito Veloce (1000 -> 0, a passi di 10)
+func punti_ora() -> int:
+	return int(roundf(DITO_MAX * clampf(_timer / tempo_domanda(), 0.0, 1.0) / 10.0)) * 10
+
+func punti_presi() -> Dictionary:
+	return _presi.duplicate()
+
+## [{pid, secondi}] dei giusti, dal più veloce
+func ordine_giusti() -> Array:
+	var r: Array = []
+	for pid in _giusti:
+		r.append({"pid": pid, "secondi": _tempi.get(pid, tempo_domanda())})
+	r.sort_custom(func(a: Dictionary, b: Dictionary) -> bool: return a["secondi"] < b["secondi"])
+	return r
+
+func vittima_predefinita(ladro: int) -> int:
+	for e: Dictionary in _ranking():
+		if e["id"] != ladro:
+			return e["id"]
+	return -1
+
+func ruba(ladro: int, vittima: int) -> int:
+	if _phase != Phase.REVEAL or not _giusti.has(ladro) or _rubato.has(ladro):
+		return -1
+	if vittima == ladro or vittima < 0 or vittima >= _names.size():
+		return -1
+	_rubato[ladro] = true
+	var n := mini(RUBA_PUNTI, _scores[vittima])
+	_scores[vittima] -= n
+	_scores[ladro] += n
+	return n
 
 func time_left() -> float:
 	return _timer if _phase == Phase.QUESTION else 0.0

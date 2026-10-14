@@ -1,0 +1,877 @@
+[
+ {
+  "id": "rt-01",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 2,
+  "vera": 1,
+  "domanda": "Qual è la capitale dell'Australia?",
+  "risposte": [
+   "Sydney",
+   "Canberra",
+   "Melbourne",
+   "Perth"
+  ]
+ },
+ {
+  "id": "rt-02",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "storia",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "In che anno è caduto il Muro di Berlino?",
+  "risposte": [
+   "1991",
+   "1989",
+   "1985",
+   "1987"
+  ]
+ },
+ {
+  "id": "rt-03",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Quale pianeta è chiamato il pianeta rosso?",
+  "risposte": [
+   "Venere",
+   "Marte",
+   "Mercurio",
+   "Giove"
+  ]
+ },
+ {
+  "id": "rt-04",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "arte_letteratura",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Chi dipinse la Gioconda?",
+  "risposte": [
+   "Michelangelo",
+   "Leonardo da Vinci",
+   "Raffaello",
+   "Caravaggio"
+  ]
+ },
+ {
+  "id": "rt-05",
+  "difetto": "errata",
+  "tipo": "lampo",
+  "categoria": "scienza",
+  "difficolta": 2,
+  "vera": 1,
+  "domanda": "Qual è il simbolo chimico dell'oro?",
+  "risposte": [
+   "Ag",
+   "Au",
+   "Fe",
+   "Pb"
+  ]
+ },
+ {
+  "id": "rt-06",
+  "difetto": "errata",
+  "tipo": "lampo",
+  "categoria": "sport",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Quanti giocatori di una squadra di calcio sono in campo?",
+  "risposte": [
+   "Dieci",
+   "Undici",
+   "Dodici",
+   "Nove"
+  ]
+ },
+ {
+  "id": "rt-07",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Qual è il fiume più lungo d'Italia?",
+  "risposte": [
+   "Tevere",
+   "Po",
+   "Adige",
+   "Arno"
+  ]
+ },
+ {
+  "id": "rt-08",
+  "difetto": "errata",
+  "tipo": "lampo",
+  "categoria": "sport",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Di che colore è la maglia della nazionale di calcio italiana?",
+  "risposte": [
+   "Rossa",
+   "Azzurra",
+   "Bianca",
+   "Verde"
+  ]
+ },
+ {
+  "id": "rt-09",
+  "difetto": "errata",
+  "tipo": "classica",
+  "categoria": "cucina",
+  "difficolta": 1,
+  "vera": 1,
+  "domanda": "Quale ingrediente caratterizza il pesto alla genovese?",
+  "risposte": [
+   "Rucola",
+   "Basilico",
+   "Prezzemolo",
+   "Menta"
+  ]
+ },
+ {
+  "id": "rt-10",
+  "difetto": "errata",
+  "tipo": "ordine",
+  "categoria": "storia",
+  "difficolta": 1,
+  "criterio": "Eventi, dal più antico al più recente",
+  "elementi": [
+   "Caduta del Muro",
+   "Scoperta dell'America",
+   "Rivoluzione francese",
+   "Fondazione di Roma"
+  ],
+  "valori": [
+   "1989",
+   "1492",
+   "1789",
+   "753 a.C."
+  ]
+ },
+ {
+  "id": "rt-11",
+  "difetto": "piu_giuste",
+  "tipo": "classica",
+  "categoria": "natura",
+  "difficolta": 1,
+  "domanda": "Quale di questi è un animale che vola?",
+  "risposte": [
+   "Aquila",
+   "Pipistrello",
+   "Farfalla",
+   "Gabbiano"
+  ]
+ },
+ {
+  "id": "rt-12",
+  "difetto": "piu_giuste",
+  "tipo": "classica",
+  "categoria": "natura",
+  "difficolta": 1,
+  "domanda": "Quale di questi è un frutto rosso?",
+  "risposte": [
+   "Fragola",
+   "Ciliegia",
+   "Lampone",
+   "Mela"
+  ]
+ },
+ {
+  "id": "rt-13",
+  "difetto": "piu_giuste",
+  "tipo": "lampo",
+  "categoria": "sport",
+  "difficolta": 1,
+  "domanda": "Quale sport si gioca con una palla?",
+  "risposte": [
+   "Calcio",
+   "Basket",
+   "Pallavolo",
+   "Rugby"
+  ]
+ },
+ {
+  "id": "rt-14",
+  "difetto": "piu_giuste",
+  "tipo": "classica",
+  "categoria": "arte_letteratura",
+  "difficolta": 2,
+  "domanda": "Chi è un famoso pittore italiano?",
+  "risposte": [
+   "Raffaello",
+   "Caravaggio",
+   "Tiziano",
+   "Giotto"
+  ]
+ },
+ {
+  "id": "rt-15",
+  "difetto": "piu_giuste",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Quale città italiana si affaccia sul mare?",
+  "risposte": [
+   "Genova",
+   "Napoli",
+   "Bari",
+   "Palermo"
+  ]
+ },
+ {
+  "id": "rt-16",
+  "difetto": "piu_giuste",
+  "tipo": "lampo",
+  "categoria": "cucina",
+  "difficolta": 1,
+  "domanda": "Quale di questi è un formaggio italiano?",
+  "risposte": [
+   "Parmigiano",
+   "Gorgonzola",
+   "Pecorino",
+   "Asiago"
+  ]
+ },
+ {
+  "id": "rt-17",
+  "difetto": "piu_giuste",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 2,
+  "domanda": "Quale pianeta ha almeno una luna?",
+  "risposte": [
+   "Marte",
+   "Terra",
+   "Giove",
+   "Saturno"
+  ]
+ },
+ {
+  "id": "rt-18",
+  "difetto": "piu_giuste",
+  "tipo": "lampo",
+  "categoria": "musica",
+  "difficolta": 1,
+  "domanda": "Quale strumento ha le corde?",
+  "risposte": [
+   "Chitarra",
+   "Violino",
+   "Arpa",
+   "Violoncello"
+  ]
+ },
+ {
+  "id": "rt-19",
+  "difetto": "piu_giuste",
+  "tipo": "lampo",
+  "categoria": "sport",
+  "difficolta": 2,
+  "domanda": "Chi ha vinto un Mondiale di calcio?",
+  "risposte": [
+   "Italia",
+   "Brasile",
+   "Germania",
+   "Argentina"
+  ]
+ },
+ {
+  "id": "rt-20",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "storia",
+  "difficolta": 1,
+  "domanda": "Chi è l'attuale presidente degli Stati Uniti?",
+  "risposte": [
+   "Joe Biden",
+   "Donald Trump",
+   "Barack Obama",
+   "George Bush"
+  ]
+ },
+ {
+  "id": "rt-21",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "sport",
+  "difficolta": 2,
+  "domanda": "Qual è il record mondiale dei 100 metri piani?",
+  "risposte": [
+   "9,58 secondi",
+   "9,69 secondi",
+   "9,72 secondi",
+   "9,63 secondi"
+  ]
+ },
+ {
+  "id": "rt-22",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "sport",
+  "difficolta": 2,
+  "domanda": "Chi è l'attuale allenatore della nazionale di calcio italiana?",
+  "risposte": [
+   "Luciano Spalletti",
+   "Roberto Mancini",
+   "Antonio Conte",
+   "Carlo Ancelotti"
+  ]
+ },
+ {
+  "id": "rt-23",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "tecnologia",
+  "difficolta": 2,
+  "domanda": "Qual è lo smartphone più venduto del momento?",
+  "risposte": [
+   "iPhone",
+   "Galaxy S",
+   "Pixel",
+   "Xiaomi"
+  ]
+ },
+ {
+  "id": "rt-24",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 3,
+  "domanda": "Qual è la città più popolosa del mondo?",
+  "risposte": [
+   "Tokyo",
+   "Delhi",
+   "Shanghai",
+   "Giacarta"
+  ]
+ },
+ {
+  "id": "rt-25",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "sport",
+  "difficolta": 2,
+  "domanda": "Chi è oggi il numero uno del ranking mondiale di tennis?",
+  "risposte": [
+   "Jannik Sinner",
+   "Carlos Alcaraz",
+   "Novak Djokovic",
+   "Daniil Medvedev"
+  ]
+ },
+ {
+  "id": "rt-26",
+  "difetto": "superata",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 2,
+  "domanda": "Quanti abitanti ha il mondo oggi?",
+  "risposte": [
+   "8 miliardi",
+   "7 miliardi",
+   "9 miliardi",
+   "6 miliardi"
+  ]
+ },
+ {
+  "id": "rt-27",
+  "difetto": "superata",
+  "tipo": "lampo",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "domanda": "Qual è il nono pianeta del sistema solare?",
+  "risposte": [
+   "Plutone",
+   "Nettuno",
+   "Urano",
+   "Cerere"
+  ]
+ },
+ {
+  "id": "rt-28",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "domanda": "Quale di questi NON è un pianeta?",
+  "risposte": [
+   "Luna",
+   "Marte",
+   "Venere",
+   "Giove"
+  ]
+ },
+ {
+  "id": "rt-29",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Quale città non si trova in Italia?",
+  "risposte": [
+   "Lione",
+   "Torino",
+   "Bari",
+   "Parma"
+  ]
+ },
+ {
+  "id": "rt-30",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "natura",
+  "difficolta": 2,
+  "domanda": "Quale animale non è un mammifero?",
+  "risposte": [
+   "Rana",
+   "Delfino",
+   "Pipistrello",
+   "Balena"
+  ]
+ },
+ {
+  "id": "rt-31",
+  "difetto": "negazione",
+  "tipo": "lampo",
+  "categoria": "arte_letteratura",
+  "difficolta": 1,
+  "domanda": "Quale di questi non è un colore primario?",
+  "risposte": [
+   "Verde",
+   "Rosso",
+   "Blu",
+   "Giallo"
+  ]
+ },
+ {
+  "id": "rt-32",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "sport",
+  "difficolta": 2,
+  "domanda": "Quale squadra non gioca in Serie A?",
+  "risposte": [
+   "Betis",
+   "Inter",
+   "Milan",
+   "Roma"
+  ]
+ },
+ {
+  "id": "rt-33",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "arte_letteratura",
+  "difficolta": 2,
+  "domanda": "Quale autore non ha scritto la Divina Commedia?",
+  "risposte": [
+   "Petrarca",
+   "Dante",
+   "Boccaccio",
+   "Ariosto"
+  ]
+ },
+ {
+  "id": "rt-34",
+  "difetto": "negazione",
+  "tipo": "classica",
+  "categoria": "cucina",
+  "difficolta": 2,
+  "domanda": "Quale ingrediente non c'è nella carbonara?",
+  "risposte": [
+   "Panna",
+   "Guanciale",
+   "Uova",
+   "Pecorino"
+  ]
+ },
+ {
+  "id": "rt-35",
+  "difetto": "indizio",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Qual è la capitale della Francia, la città con la Torre Eiffel, Parigi?",
+  "risposte": [
+   "Parigi",
+   "Lione",
+   "Nizza",
+   "Tolosa"
+  ]
+ },
+ {
+  "id": "rt-36",
+  "difetto": "indizio",
+  "tipo": "lampo",
+  "categoria": "musica",
+  "difficolta": 1,
+  "domanda": "Quale strumento a tasti bianchi e neri è il pianoforte?",
+  "risposte": [
+   "Pianoforte",
+   "Flauto",
+   "Tromba",
+   "Violino"
+  ]
+ },
+ {
+  "id": "rt-37",
+  "difetto": "indizio",
+  "tipo": "classica",
+  "categoria": "cucina",
+  "difficolta": 1,
+  "domanda": "Quale piatto napoletano con la mozzarella è la pizza?",
+  "risposte": [
+   "Pizza",
+   "Lasagna",
+   "Risotto",
+   "Polenta"
+  ]
+ },
+ {
+  "id": "rt-38",
+  "difetto": "indizio",
+  "tipo": "lampo",
+  "categoria": "sport",
+  "difficolta": 1,
+  "domanda": "Quale sport usa una racchetta e si chiama tennis?",
+  "risposte": [
+   "Tennis",
+   "Nuoto",
+   "Rugby",
+   "Judo"
+  ]
+ },
+ {
+  "id": "rt-39",
+  "difetto": "indizio",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Qual è la capitale della Spagna?",
+  "risposte": [
+   "Madrid",
+   "Topolino",
+   "Banana",
+   "Luna"
+  ]
+ },
+ {
+  "id": "rt-40",
+  "difetto": "indizio",
+  "tipo": "classica",
+  "categoria": "arte_letteratura",
+  "difficolta": 1,
+  "domanda": "Chi scrisse I promessi sposi?",
+  "risposte": [
+   "Alessandro Manzoni",
+   "Il gatto",
+   "Pippo",
+   "Una sedia"
+  ]
+ },
+ {
+  "id": "rt-41",
+  "difetto": "indizio",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "domanda": "Qual è il pianeta più grande del sistema solare?",
+  "risposte": [
+   "Giove",
+   "Pizza",
+   "Lunedì",
+   "Frigorifero"
+  ]
+ },
+ {
+  "id": "rt-42",
+  "difetto": "indizio",
+  "tipo": "lampo",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Quale mare bagna Napoli?",
+  "risposte": [
+   "Tirreno",
+   "Cappuccino",
+   "Sahara",
+   "Everest"
+  ]
+ },
+ {
+  "id": "rt-43",
+  "difetto": "troppo_lunga",
+  "tipo": "classica",
+  "categoria": "storia",
+  "difficolta": 1,
+  "domanda": "Quale celebre navigatore genovese, partito dalla Spagna nel 1492 con tre caravelle, scoprì per primo le Americhe?",
+  "risposte": [
+   "Cristoforo Colombo",
+   "Vasco da Gama",
+   "Amerigo Vespucci",
+   "Marco Polo"
+  ]
+ },
+ {
+  "id": "rt-44",
+  "difetto": "troppo_lunga",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Qual è il più grande oceano?",
+  "risposte": [
+   "Oceano Pacifico, il più esteso del pianeta",
+   "Oceano Atlantico",
+   "Oceano Indiano",
+   "Oceano Artico"
+  ]
+ },
+ {
+  "id": "rt-45",
+  "difetto": "troppo_lunga",
+  "tipo": "lampo",
+  "categoria": "geografia",
+  "difficolta": 1,
+  "domanda": "Quale città italiana è famosa per i canali, le gondole e il Carnevale?",
+  "risposte": [
+   "Venezia",
+   "Roma",
+   "Torino",
+   "Bologna"
+  ]
+ },
+ {
+  "id": "rt-46",
+  "difetto": "troppo_lunga",
+  "tipo": "lampo",
+  "categoria": "arte_letteratura",
+  "difficolta": 1,
+  "domanda": "Chi dipinse la Cappella Sistina?",
+  "risposte": [
+   "Michelangelo Buonarroti",
+   "Raffaello",
+   "Leonardo",
+   "Giotto"
+  ]
+ },
+ {
+  "id": "rt-47",
+  "difetto": "troppo_lunga",
+  "tipo": "ordine",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "criterio": "Pianeti del sistema solare, ordinati dal più vicino al più lontano dal Sole",
+  "elementi": [
+   "Mercurio",
+   "Venere",
+   "Terra",
+   "Marte"
+  ],
+  "valori": [
+   "58",
+   "108",
+   "150",
+   "228"
+  ]
+ },
+ {
+  "id": "rt-48",
+  "difetto": "troppo_lunga",
+  "tipo": "ordine",
+  "categoria": "storia",
+  "difficolta": 2,
+  "criterio": "Battaglie, dalla più antica",
+  "elementi": [
+   "Battaglia di Maratona",
+   "Battaglia di Canne",
+   "Battaglia di Waterloo nel 1815",
+   "Battaglia di Lepanto"
+  ],
+  "valori": [
+   "490 a.C.",
+   "216 a.C.",
+   "1815",
+   "1571"
+  ]
+ },
+ {
+  "id": "rt-49",
+  "difetto": "troppo_lunga",
+  "tipo": "ordine",
+  "categoria": "scienza",
+  "difficolta": 2,
+  "criterio": "Distanze dal Sole, dalla minore",
+  "elementi": [
+   "Mercurio",
+   "Terra",
+   "Giove",
+   "Nettuno"
+  ],
+  "valori": [
+   "circa 58 milioni di km",
+   "150 milioni di km",
+   "778 milioni di km",
+   "4.500 milioni di km"
+  ]
+ },
+ {
+  "id": "rt-50",
+  "difetto": "troppo_lunga",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "domanda": "Quale scienziato tedesco, nato a Ulm nel 1879 e Nobel per la fisica nel 1921, formulò la teoria della relatività?",
+  "risposte": [
+   "Albert Einstein",
+   "Max Planck",
+   "Niels Bohr",
+   "Isaac Newton"
+  ]
+ },
+ {
+  "id": "rt-51",
+  "difetto": "ambigua",
+  "tipo": "classica",
+  "categoria": "geografia",
+  "difficolta": 2,
+  "domanda": "Qual è la montagna più alta?",
+  "risposte": [
+   "Everest",
+   "K2",
+   "Monte Bianco",
+   "Kilimangiaro"
+  ]
+ },
+ {
+  "id": "rt-52",
+  "difetto": "ambigua",
+  "tipo": "classica",
+  "categoria": "storia",
+  "difficolta": 1,
+  "domanda": "In che anno è finita la guerra?",
+  "risposte": [
+   "1945",
+   "1918",
+   "1815",
+   "1865"
+  ]
+ },
+ {
+  "id": "rt-53",
+  "difetto": "ambigua",
+  "tipo": "classica",
+  "categoria": "sport",
+  "difficolta": 1,
+  "domanda": "Chi è il miglior calciatore di sempre?",
+  "risposte": [
+   "Pelé",
+   "Maradona",
+   "Messi",
+   "Cruyff"
+  ]
+ },
+ {
+  "id": "rt-54",
+  "difetto": "ambigua",
+  "tipo": "classica",
+  "categoria": "lingua",
+  "difficolta": 2,
+  "sfugge": true,
+  "domanda": "Qual è la lingua più parlata?",
+  "risposte": [
+   "Inglese",
+   "Cinese mandarino",
+   "Spagnolo",
+   "Hindi"
+  ]
+ },
+ {
+  "id": "rt-55",
+  "difetto": "offensiva",
+  "tipo": "classica",
+  "categoria": "costume",
+  "difficolta": 1,
+  "domanda": "Quale popolo è noto per essere avaro?",
+  "risposte": [
+   "Scozzesi",
+   "Italiani",
+   "Francesi",
+   "Tedeschi"
+  ]
+ },
+ {
+  "id": "rt-56",
+  "difetto": "offensiva",
+  "tipo": "classica",
+  "categoria": "costume",
+  "difficolta": 1,
+  "domanda": "Chi è più portato alla cucina?",
+  "risposte": [
+   "Le donne",
+   "Gli uomini",
+   "I bambini",
+   "Gli anziani"
+  ]
+ },
+ {
+  "id": "rt-57",
+  "difetto": "offensiva",
+  "tipo": "classica",
+  "categoria": "costume",
+  "difficolta": 2,
+  "domanda": "Quale partito politico ha governato peggio l'Italia?",
+  "risposte": [
+   "Democrazia Cristiana",
+   "Partito Comunista",
+   "Lega",
+   "Forza Italia"
+  ]
+ },
+ {
+  "id": "rt-58",
+  "difetto": "noiosa",
+  "tipo": "classica",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "domanda": "Di che colore è il cielo in una giornata serena?",
+  "risposte": [
+   "Azzurro",
+   "Rosa",
+   "Verde",
+   "Nero"
+  ]
+ },
+ {
+  "id": "rt-59",
+  "difetto": "noiosa",
+  "tipo": "lampo",
+  "categoria": "scienza",
+  "difficolta": 1,
+  "sfugge": true,
+  "domanda": "Quanto fa 2 più 2?",
+  "risposte": [
+   "Quattro",
+   "Cinque",
+   "Tre",
+   "Sei"
+  ]
+ },
+ {
+  "id": "rt-60",
+  "difetto": "noiosa",
+  "tipo": "lampo",
+  "categoria": "lingua",
+  "difficolta": 1,
+  "domanda": "Quale giorno viene dopo il lunedì?",
+  "risposte": [
+   "Martedì",
+   "Mercoledì",
+   "Giovedì",
+   "Venerdì"
+  ]
+ }
+]

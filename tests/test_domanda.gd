@@ -1,7 +1,7 @@
 extends Node2D
-## Prova schermata domanda: 15 s, i 6 rispondono a caso tra 2 e 10 s, poi rivelazione e riparte.
+## Prova schermata domanda (accumula, dito, ruba a rotazione): 6 s, i 6 rispondono a caso, poi rivelazione e riparte.
 
-const TOT := 15.0
+const TOT := 6.0
 const GIOCATORI := [
 	["Gastone", "F2384A"], ["Nonna Pina", "2F7BFF"], ["Ugo", "33C759"],
 	["Brioche", "FFD43B"], ["Don Ciccio", "A855F7"], ["Vanessa", "FF8A1F"],
@@ -20,6 +20,7 @@ class Segnaposto extends Node2D:
 var _s: SchermataDomanda
 var _t := 0.0
 var _fase := 0  # 0 domanda, 1 rivelazione
+var _giro := 0  # 0 accumula, 1 dito, 2 ruba
 var _quando: Array[float] = []
 var _scelta: Array[int] = []
 var _fatto: Array[bool] = []
@@ -43,15 +44,16 @@ func _ready() -> void:
 
 func _inizia() -> void:
 	_fase = 0
+	_giro = (_giro + 1) % 3
 	_t = TOT
 	_quando.clear()
 	_scelta.clear()
 	_fatto.clear()
 	for i in 6:
-		_quando.append(randf_range(2.0, 10.0))
+		_quando.append(randf_range(1.0, TOT - 1.0))
 		_scelta.append(randi() % 4)
 		_fatto.append(false)
-	_s.mostra_domanda(3, 10, "ACCUMULA PUNTI", "Quale di questi formaggi si fa con il latte di bufala?",
+	_s.mostra_domanda(3, 10, ["ACCUMULA PUNTI", "DITO VELOCE", "RUBA PUNTI"][_giro], "Quale di questi formaggi si fa con il latte di bufala?",
 		["Parmigiano", "Mozzarella campana", "Gorgonzola", "Asiago"])
 	_s.set_tempo(TOT, TOT)
 
@@ -64,6 +66,8 @@ func _process(dt: float) -> void:
 				_fatto[i] = true
 				_s.risposto(i)
 		_s.set_tempo(maxf(_t, 0.0), TOT)
+		if _giro == 1:
+			_s.set_contatore(int(1000 * maxf(_t, 0.0) / TOT / 10.0) * 10)
 		if _t <= 0.0:
 			_fase = 1
 			var scelte := {}
@@ -72,6 +76,15 @@ func _process(dt: float) -> void:
 				scelte[i] = _scelta[i]
 				punti.append(500)
 			_s.rivela(1, scelte, punti)
+			if _giro == 1:
+				for i in 6:
+					if scelte[i] == 1:
+						_s.podio(i).badge("%d° %s s" % [i + 1, str(snappedf(_quando[i] / 10.0, 0.1)).replace(".", ",")])
+			if _giro == 2:
+				_s.mostra_ruba(300)
+				for i in 6:
+					if i != 1:
+						_s.podio(i).set_stato("mira")
 			_t = 5.0
 	else:
 		_t -= dt

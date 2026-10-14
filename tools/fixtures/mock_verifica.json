@@ -1,0 +1,18 @@
+{
+  "_nota": "Risposte finte del verificatore (QUIZZONE_MOCK=1). Le rotte seguono 'per_difetto' (salvo quelle con sfugge:true, che passano); le buone passano tranne 1 su 'ogni_n' (falso allarme); 'respinte_gen' = fatti generati che il verificatore scarta.",
+  "pulita": { "sicurezza": 93, "problemi": [] },
+  "dubbia": { "sicurezza": 62, "problemi": ["ambigua"] },
+  "ogni_n": 25,
+  "per_difetto": {
+    "errata": { "sicurezza": 88, "problemi": ["errata"], "scelta_vera": true },
+    "piu_giuste": { "sicurezza": 60, "problemi": ["piu_giuste"] },
+    "superata": { "sicurezza": 75, "problemi": ["superata"] },
+    "negazione": { "sicurezza": 85, "problemi": [] },
+    "indizio": { "sicurezza": 90, "problemi": ["indizio"] },
+    "troppo_lunga": { "sicurezza": 90, "problemi": ["troppo_lunga"] },
+    "ambigua": { "sicurezza": 55, "problemi": ["ambigua"] },
+    "offensiva": { "sicurezza": 90, "problemi": ["offensiva"] },
+    "noiosa": { "sicurezza": 95, "problemi": ["noiosa"] }
+  },
+  "respinte_gen": ["ordine diametro luna terra giove sole"]
+}
