@@ -31,7 +31,12 @@ var _testi: Dictionary
 var _sottotitoli := true  # fumetti con le battute dei conduttori; si cambia dal titolo, salvato in user://
 var _domande := Domande.new()
 var _game: Game
-var _n := 4  # giocatori scelti nella lobby
+var _n := 0  # giocatori in partita (= _g.size())
+var _g: Array[Dictionary] = []  # giocatori in partita, per pid: {nome, id, colore, slot, bot}
+var _bot := {}  # slot della lobby -> personaggio dei bot (restano tra una partita e l'altra)
+var _pid_di := {}  # slot -> pid dei telefoni in partita
+var _telefoni := false  # in partita c'è almeno un telefono (allora il telecomando non gioca)
+var _server: Node
 var _pers: Array[Personaggio] = []
 var _q: Dictionary
 var _i := 0  # indice della domanda in corso
@@ -65,7 +70,14 @@ func _ready() -> void:
 		sc.visible = false
 		add_child(sc)
 	_round.position.y = -70.0  # lascia spazio al fumetto di Tony sotto la carta
-	_lobby.setup("quizzone.tv", "KR7Q")  # ponytail: codice fisso finché non ci sono i telefoni (G2)
+	_server = preload("res://net/server.gd").new()
+	add_child(_server)
+	_server.joined.connect(_tel_entra)
+	_server.left.connect(_tel_esce)
+	_server.answered.connect(func(slot: int, q: int, scelta: int) -> void:
+		if _pid_di.has(slot) and q == _i:
+			_risponde(_pid_di[slot], scelta))
+	_lobby.setup(_server.url(), _server.codice)
 	for id: String in ["host", "gilda"]:
 		var c := Personaggio.new()
 		c.setup(id)
@@ -113,33 +125,91 @@ func _vai_lobby() -> void:
 	_nascondi_fumetti()
 	await _esci()
 	_fase = "lobby"
+	_pid_di.clear()
+	var tel: Dictionary = _server.giocatori()
 	for i in 6:
 		_lobby.togli(i)
-	for i in _n:
-		_lobby.aggiungi(i, GIOCATORI[i][2], GIOCATORI[i][0], Color(GIOCATORI[i][1]))
+		if tel.has(i):
+			_lobby.aggiungi(i, tel[i]["avatar"], tel[i]["nome"], _colore(tel[i]["avatar"]))
+		elif _bot.has(i):
+			_lobby.aggiungi(i, _bot[i], _dati(_bot[i])[0], _colore(_bot[i]))
 	_lobby.visible = true
+	_server.apri_lobby()
+	_server.invia_stato({"fase": "lobby"})
 	if _demo:
-		await get_tree().create_timer(1.5).timeout
-		_cambia_giocatori(1)
+		for _k in 5:
+			await get_tree().create_timer(0.5).timeout
+			_cambia_giocatori(1)
 		await get_tree().create_timer(1.0).timeout
 		_vai_round()
 
 
-## ←/→ nella lobby: aggiunge o toglie l'ultimo giocatore (minimo 2). Niente voce: si presentano a inizio partita.
-func _cambia_giocatori(d: int) -> void:
-	var n := clampi(_n + d, 2, 6)
-	if n == _n:
-		return
-	if d > 0:
-		_lobby.aggiungi(_n, GIOCATORI[_n][2], GIOCATORI[_n][0], Color(GIOCATORI[_n][1]))
+func _dati(id: String) -> Array:
+	for d: Array in GIOCATORI:
+		if d[2] == id:
+			return d
+	return GIOCATORI[0]
+
+
+func _colore(id: String) -> Color:
+	return Color(_dati(id)[1])
+
+
+## Telefono entrato nella lobby (il server ha già controllato posto e personaggio liberi).
+func _tel_entra(slot: int, nome: String, avatar: String) -> void:
+	if _fase == "lobby":
+		_lobby.aggiungi(slot, avatar, nome, _colore(avatar))
 		Sfx.play("pop")
-	else:
-		_lobby.togli(n)
-	_n = n
+
+
+func _tel_esce(slot: int) -> void:
+	if _fase == "lobby":
+		_lobby.togli(slot)
+
+
+## ←/→ nella lobby: aggiunge un bot (primo posto e primo personaggio liberi) o toglie l'ultimo. Niente voce: si presentano a inizio partita.
+func _cambia_giocatori(d: int) -> void:
+	var tel: Dictionary = _server.giocatori()
+	if d > 0:
+		var presi: Array = _bot.values()
+		for s in tel:
+			presi.append(tel[s]["avatar"])
+		for slot in 6:
+			if tel.has(slot) or _bot.has(slot):
+				continue
+			for g: Array in GIOCATORI:
+				if not g[2] in presi:
+					_bot[slot] = g[2]
+					_lobby.aggiungi(slot, g[2], g[0], Color(g[1]))
+					Sfx.play("pop")
+					_server.set_bot(_bot)
+					return
+			return
+	elif not _bot.is_empty():
+		var slot: int = _bot.keys().max()
+		_bot.erase(slot)
+		_lobby.togli(slot)
+		_server.set_bot(_bot)
 
 
 # ---------------------------------------------------------------- presentazioni + round + domande
 func _vai_round() -> void:
+	var tel: Dictionary = _server.giocatori()
+	if tel.size() + _bot.size() < 2:
+		return
+	_server.chiudi_lobby()
+	_g.clear()
+	for slot in 6:  # pid in ordine di posto nella lobby
+		if tel.has(slot):
+			_pid_di[slot] = _g.size()
+			_g.append({"nome": tel[slot]["nome"], "id": tel[slot]["avatar"], "slot": slot, "bot": false})
+		elif _bot.has(slot):
+			_g.append({"nome": _dati(_bot[slot])[0], "id": _bot[slot], "slot": slot, "bot": true})
+	for p in _g:
+		p["colore"] = _colore(p["id"])
+	_n = _g.size()
+	_telefoni = not tel.is_empty()
+	_server.invia_stato({"fase": "attesa"})
 	_fase = "round"
 	_lobby.visible = false
 	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
@@ -158,7 +228,7 @@ func _presenta_giocatori() -> void:
 	_fase = "presentazioni"
 	_salta = false
 	for i in _n:
-		var id: String = GIOCATORI[i][2]
+		var id: String = _g[i]["id"]
 		if _salta:
 			break
 		if _presentati.has(id):
@@ -175,22 +245,22 @@ func _primo_piano(i: int) -> Node2D:
 	add_child(n)
 	move_child(n, _cond[0].get_index())  # sotto i conduttori e i fumetti
 	var p := Personaggio.new()
-	p.setup(GIOCATORI[i][2])
+	p.setup(_g[i]["id"])
 	p.scale = Vector2.ONE * 3.6
 	p.position = Vector2(328, 1100)
 	n.add_child(p)
 	var piedistallo := Panel.new()  # copre il taglio del busto (coordinate della tela, scalate con il personaggio)
-	piedistallo.add_theme_stylebox_override("panel", Risposta.box(Color(GIOCATORI[i][1]), INK, 2, 4, 6))
+	piedistallo.add_theme_stylebox_override("panel", Risposta.box(_g[i]["colore"], INK, 2, 4, 6))
 	piedistallo.position = Vector2(28, 168)
 	piedistallo.size = Vector2(184, 60)
 	p.add_child(piedistallo)
 	p.stato("esulta")
 	var striscia := Panel.new()
-	striscia.add_theme_stylebox_override("panel", Risposta.box(Color(GIOCATORI[i][1]), INK, 8, 16, 40))
+	striscia.add_theme_stylebox_override("panel", Risposta.box(_g[i]["colore"], INK, 8, 16, 40))
 	striscia.size = Vector2(700, 150)
 	striscia.position = Vector2(1920, 220)
 	striscia.rotation_degrees = -3
-	striscia.add_child(Risposta.etichetta(GIOCATORI[i][0], Risposta.font_display(), 96, INK, 700, 140))
+	striscia.add_child(Risposta.etichetta(_g[i]["nome"], Risposta.font_display(), 96, INK, 700, 140))
 	n.add_child(striscia)
 	var tw := create_tween().set_parallel().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 	tw.tween_property(p, "position:y", 120.0, 0.45)
@@ -203,13 +273,13 @@ func _inizia_partita() -> void:
 	var g: Array = []
 	var nomi: Array[String] = []
 	for i in _n:
-		g.append({"nome": GIOCATORI[i][0], "colore": Color(GIOCATORI[i][1]), "punti": 0})
-		nomi.append(GIOCATORI[i][0])
+		g.append({"nome": _g[i]["nome"], "colore": _g[i]["colore"], "punti": 0})
+		nomi.append(_g[i]["nome"])
 	_s.setup_podi(g)
 	_pers.clear()
 	for i in _n:
 		var p := Personaggio.new()
-		p.setup(GIOCATORI[i][2])
+		p.setup(_g[i]["id"])
 		_s.podio(i).metti_personaggio(p)
 		_pers.append(p)
 	_s.visible = true
@@ -235,9 +305,11 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 	_scelte.clear()
 	_quando.clear()
 	for pid in _n:
-		_quando.append(randf_range(2.0, 11.0) if pid > 0 or _demo else INF)
+		var umano: bool = not _demo and (not _g[pid]["bot"] or (pid == 0 and not _telefoni))  # senza telefoni il pid 0 è il telecomando
+		_quando.append(INF if umano else randf_range(2.0, 11.0))
 		_pers[pid].stato("pensa")
 	_s.mostra_domanda(i + 1, tot, ROUND, q["domanda"], q["risposte"])
+	_server.invia_stato({"fase": "domanda", "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"]})
 	_s.set_tempo(Game.QUESTION_TIME, Game.QUESTION_TIME)
 	if i == 0:
 		_dici(_pesca("qfirst"), "annuncio")
@@ -298,6 +370,14 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		Sfx.play("drumroll")
 		await get_tree().create_timer(2.0).timeout
 	_s.rivela(corretta, _scelte, punti)
+	_server.invia_stato({"fase": "rivela"})
+	for slot in _pid_di:
+		var pid: int = _pid_di[slot]
+		var pos := 1
+		for altro in _n:
+			if punteggi[altro] > punteggi[pid]:
+				pos += 1
+		_server.invia_esito(slot, {"giusta": risultati[pid], "punti": Game.POINTS_CORRECT if risultati[pid] else 0, "totale": punteggi[pid], "posizione": pos})
 	Sfx.play("correct" if not giusti.is_empty() else "wrong")
 	if giusti.is_empty():
 		Sfx.play("aww")
@@ -313,11 +393,11 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	var k := ""
 	var g := "esulta"
 	if _i == DOMANDE / 2 - 1:  # a metà partita punzecchia l'ultimo
-		k = _pesca("last_" + GIOCATORI[_ultimo(punteggi)][2])
+		k = _pesca("last_" + _g[_ultimo(punteggi)]["id"])
 		g = "delusione"
 	elif _i - _ult_commento >= 2:
 		if giusti.size() == 1 and _n >= 3:
-			k = _pesca("solo_" + GIOCATORI[giusti[0]][2])
+			k = _pesca("solo_" + _g[giusti[0]]["id"])
 		elif giusti.is_empty():
 			k = _pesca("noneright")
 			g = "delusione"
@@ -363,17 +443,18 @@ func _fine(classifica: Array) -> void:
 	_s.visible = false
 	var c: Array = []
 	for r: Dictionary in classifica:
-		var d: Array = GIOCATORI[r["id"]]
-		c.append({"nome": d[0], "colore": Color(d[1]), "personaggio": d[2], "punti": r["score"]})
+		var d: Dictionary = _g[r["id"]]
+		c.append({"nome": d["nome"], "colore": d["colore"], "personaggio": d["id"], "punti": r["score"]})
 	Sfx.music("final")
 	Sfx.play("fanfare")
 	_finale.mostra(c)
+	_server.invia_stato({"fase": "finale"})
 	Sfx.play("rise")
 	await get_tree().create_timer(2.5).timeout
 	Sfx.play("applause")
 	await _commenta(_pesca("final"), "annuncio", FUMETTO_FINALE, false)
 	var pari: bool = classifica.size() > 1 and classifica[0]["score"] == classifica[1]["score"]
-	await _commenta(_pesca("tie" if pari else "win_" + GIOCATORI[classifica[0]["id"]][2]), "esulta", FUMETTO_FINALE, false)
+	await _commenta(_pesca("tie" if pari else "win_" + _g[classifica[0]["id"]]["id"]), "esulta", FUMETTO_FINALE, false)
 	await _commenta(_pesca("outro"), "saluto", FUMETTO_FINALE)
 	if _demo:
 		await get_tree().create_timer(2.0).timeout
@@ -418,7 +499,7 @@ func _input(e: InputEvent) -> void:
 				for c in _cond:
 					c.zitto()
 		"domanda":
-			if _demo:
+			if _demo or _telefoni:
 				return
 			for i in 4:
 				if e.is_action_pressed(DIRS[i]) or _tasto(e, KEY_1 + i):
