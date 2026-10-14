@@ -146,6 +146,16 @@ func _layout_testo() -> void:
 	if not _gettoni.is_empty():
 		w -= _gettoni.size() * 68.0 - 8.0 + 22.0
 	_testo.size.x = w
+	# rimpicciolisce finché il testo sta nell'etichetta (i gettoni gli tolgono spazio)
+	var f := font_testo()
+	var max_h := _testo.size.y
+	var dim := 48
+	while dim > 26:
+		var righe := roundi(f.get_multiline_string_size(_testo.text, HORIZONTAL_ALIGNMENT_LEFT, w, dim).y / f.get_height(dim))
+		if righe * f.get_height(dim) - 8.0 * (righe - 1) <= max_h:
+			break
+		dim -= 2
+	_testo.add_theme_font_size_override("font_size", dim)
 	var x := 852.0 - 28.0
 	for i in range(_gettoni.size() - 1, -1, -1):
 		x -= 60.0
@@ -172,16 +182,6 @@ func set_gettoni(lista: Array) -> void:
 		add_child(g)
 		_gettoni.append(g)
 	_layout_testo()
-
-
-## Aggiunge un gettone con pop-in.
-func aggiungi_gettone(colore: Color, num: int) -> void:
-	var g := _crea_gettone(colore, num)
-	add_child(g)
-	_gettoni.append(g)
-	_layout_testo()
-	g.scale = Vector2.ZERO
-	create_tween().tween_property(g, "scale", Vector2.ONE, 0.25).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 
 
 ## Entrata: scale 0 -> 1 (con rimbalzo) dopo `ritardo`.

@@ -95,6 +95,7 @@ func mostra_domanda(n: int, tot: int, titolo_round: String, testo: String, rispo
 	for i in 4:
 		_carte[i].reset()
 		_carte[i]._testo.text = risposte[i]
+		_carte[i]._layout_testo()
 		_carte[i].entra(0.2 + 0.08 * i)
 	for p in _podi:
 		p.set_stato("")
@@ -123,9 +124,9 @@ func _disegna_timer() -> void:
 	_timer.draw_string(Risposta.font_display(), Vector2(0, 80 + 22), str(maxi(_ultimo_sec, 0)), HORIZONTAL_ALIGNMENT_CENTER, 160, 64, CREAM)
 
 
-func risposto(pid: int, scelta: int) -> void:
+## Si accende solo il podio: quale risposta ha dato si vede alla rivelazione (niente copiature).
+func risposto(pid: int) -> void:
 	_podi[pid].set_stato("risposto")
-	_carte[scelta].aggiungi_gettone(_podi[pid].colore, pid + 1)
 
 
 ## scelte: {pid: indice risposta}; punti: punti guadagnati per pid.

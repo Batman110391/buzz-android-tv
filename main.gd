@@ -208,7 +208,7 @@ func _risponde(pid: int, scelta: int) -> void:
 		_ult_buzz = _i
 		_dici(_pesca("firstbuzz"), "sorpresa")
 	_scelte[pid] = scelta
-	_s.risposto(pid, scelta)
+	_s.risposto(pid)
 
 
 func _process(dt: float) -> void:

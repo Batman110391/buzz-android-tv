@@ -62,7 +62,7 @@ func _process(dt: float) -> void:
 		for i in 6:
 			if not _fatto[i] and TOT - _t >= _quando[i]:
 				_fatto[i] = true
-				_s.risposto(i, _scelta[i])
+				_s.risposto(i)
 		_s.set_tempo(maxf(_t, 0.0), TOT)
 		if _t <= 0.0:
 			_fase = 1

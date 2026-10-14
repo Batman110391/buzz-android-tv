@@ -74,6 +74,7 @@ var _y := 0.0
 var _vy := 0.0
 var _salto_fase := 0  # 0 a terra, 1 anticipazione, 2 in aria
 var _salto_h := 30.0
+var _salto_base := 30.0
 var _salto_ant := 0.0
 var _salta_fino := 0.0
 # gesto
@@ -306,6 +307,7 @@ func _salta(h: float) -> void:
 	if _salto_fase != 0:
 		return
 	_salto_h = h
+	_salto_base = h
 	_salto_fase = 1
 	_salto_ant = 0.11
 
@@ -341,7 +343,7 @@ func _passo_salto(dt: float) -> void:
 				if _t < _salta_fino:
 					_salto_fase = 1
 					_salto_ant = 0.06
-					_salto_h = _rng.randf_range(0.85, 1.1) * _salto_h
+					_salto_h = _rng.randf_range(0.85, 1.1) * _salto_base  # attorno alla base: moltiplicando l'ultima tendeva a 0
 
 
 # ---------- ciclo ----------
