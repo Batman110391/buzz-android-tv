@@ -17,7 +17,7 @@ Riferimento di codice già funzionante: `tests/quizzone_test.gd` (titolo, fumett
 | G1e | `game.gd`: +500 punti; `game/domande.gd` versione base (solo riserva `res://domande/`, ricorda le uscite, pesca per tipo/difficoltà, giusta mescolata) secondo PLAN.md §4 "Client nel gioco"; convertire le 12 domande di `game/questions.json` nel nuovo formato in `domande/classica/*.json` e cancellare questions.json; aggiungere `*.json` di `domande/` al filtro di export | P | D1 | `game/*`, `domande/**`, `tests/test_game.gd`, `export_presets.cfg` | test PASS + `domande_check` verde | done |
 | G1f | `main.tscn/main.gd`: Titolo → Lobby (telecomando: ←/→ numero giocatori, OK) → round → 10 domande (Game) → finale → Titolo; Tony entra/esce e commenta come in quizzone_test; giocatore 1 da telecomando/tastiera, altri bot; `-- --demo` tutto automatico. Poi eliminare `tests/quizzone_test.*` e rimettere `run/main_scene` | P | G1a–e | `main.*`, `project.godot` | `-- --demo` partita intera senza errori | done |
 | G1g | App nel launcher della Fire TV: icona (Tony su fondo #25095E, 192/432 px + banner TV 320×180), categoria leanback (build Gradle se serve) | W | — | `export_presets.cfg`, `assets/icona/*`, `android/**` | l'icona compare nel launcher (S) | review |
-| G1h | Prova sulla TV + approvazione | S | G1f, G1g | — | ok S | todo |
+| G1h | Prova sulla TV + approvazione | S | G1f, G1g | — | ok S | done |
 
 **Parallelo:** G1a ∥ G1b ∥ G1c ∥ D1 (worker) mentre il padre fa G1d (testi); poi G1e, G1g, G1f.
 
@@ -29,7 +29,7 @@ Lucida e ironica, alla pari con Tony. Voce sul 2° account ElevenLabs (`ELEVENLA
 | C1 | Voce: Voice Design (API `text-to-voice`) sul 2° account, 3 anteprime → S sceglie → voce salvata; `tools/gen_voice.mjs` gestisce due voci/chiavi (battute di Gilda in `assets/voice/gilda.json`) | P + S | — | `tools/gen_voice.mjs`, `assets/voice/gilda.json` | S approva la voce | done |
 | C2 | Personaggio `gilda`: SVG a pezzi nello stile di `design/quizzone/assets/personaggi/` (host come riferimento: stesse parti, bocche, espressioni), PNG con `tools/svg_to_png.gd`, `pezzi.json`; `Personaggio.setup("gilda")` funziona con gesti come host | W (medium) | — | `design/quizzone/assets/personaggi/gilda/**`, `assets/personaggi/gilda/**`, `ui/personaggio.gd` (solo se serve per il tipo host) | cattura ≈ stile di Tony, S approva | done |
 | C3 | Testi: ~40 battute di Gilda (round, classifica, punzecchiate a Tony, situazioni) + ~10 duetti; S approva; generazione | P + S | C1 | `assets/voice/*` | file presenti, ascolto S | done |
-| C4 | `main`: due conduttori (Gilda entra da destra, fumetto suo), mazzi misti, duetti | P | C2, C3 | `main.*` | `-- --demo` + cattura | review |
+| C4 | `main`: due conduttori (Gilda entra da destra, fumetto suo), mazzi misti, duetti | P | C2, C3 | `main.*` | `-- --demo` + cattura | done |
 
 ## D — Domande dal server (PLAN.md §4 "Domande": leggere SOLO quella sezione)
 Variabili in `.env` (da `.env.example`); script Node lanciati con `node --env-file=.env ...`. Finché `QUIZZONE_MOCK=1` nessuna chiamata alle IA.
@@ -65,3 +65,4 @@ Variabili in `.env` (da `.env.example`); script Node lanciati con `node --env-fi
 
 - 2026-10-14 — Foto Misteriosa tolta dal piano. Accumula Punti resta a +500 fissi con risposte nascoste fino alla rivelazione (S: la velocità conta solo in Dito Veloce; i punti per velocità provati e tolti). Chiave Freesound provata (ricerca CC0 + anteprime mp3 ok; il client id non serve). **Prossimo:** effetti sonori da Freesound.
 - 2026-10-14 — Effetti sonori scelti da S (anteprime di `tools/sfx_cerca.mjs`): nuovi da Freesound CC0 wrong, tick, tick_fast, applause (+_2), aww (+_2), drumroll (tagliato a 2,2 s), fanfare, explosion, cash, boing, lock, rise; restano buzz, correct, whoosh, pop. Normalizzati a -16 LUFS, silenzio iniziale tolto, fonti in LICENSES.md. `Sfx`: VARIANTI si alternano. In main: lock a ogni risposta, tic a 5-4 s e tick_fast da 3, rullo prima della rivelazione dell'ultima domanda, aww se nessuno indovina, applausi se tutti, whoosh all'entrata dei conduttori, rise col podio. Da sentire sulla TV.
+- 2026-10-14 — Seconda prova TV ok (S: "ci stiamo avvicinando a un risultato decente"): **G1h e C4 done**. G1g resta in review (icona nel launcher da confermare). **Prossimo: /clear →** (1) il padre scrive i task di **G2** (telefoni: PLAN.md §4 "Protocollo con i telefoni" + §5 G2, schermate 1l/1m/1n del design) e li lancia ai worker; (2) in parallelo **D2** (dotazione domande, 4 worker × 3 categorie). Poi G3: schermata di scelta minigiochi, Dito Veloce, ecc. (PLAN §2 "Minigiochi").
