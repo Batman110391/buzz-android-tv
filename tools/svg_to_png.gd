@@ -13,7 +13,7 @@ func _init() -> void:
 	f.close()
 	var tot := 0
 	for id: String in rig:
-		var s: int = 3 if id == "host" else 2
+		var s: int = 3 if id in ["host", "gilda"] else 2
 		var tela: Array = rig[id]["tela"]
 		DirAccess.make_dir_recursive_absolute(DST + id)
 		var pezzi := {}

@@ -5,6 +5,7 @@ extends Node2D
 
 signal finito_parlare
 
+const CONDUTTORI: Array[String] = ["host", "gilda"]
 const BASE := "res://assets/personaggi/"
 const ESPR: Array[String] = ["neutro", "felice", "triste", "sorpreso", "arrabbiato"]
 const BOCCHE: Array[String] = ["socchiusa", "A", "E", "O"]
@@ -104,7 +105,7 @@ func setup(p_id: String) -> void:
 	_ptesta = _v2(perni["testa"])
 	_per = _rng.randf_range(1.6, 1.8)
 	_fase = _rng.randf() * TAU
-	_ampl_respiro = 0.018 if id == "host" else 0.03
+	_ampl_respiro = 0.018 if id in CONDUTTORI else 0.03
 	_look_t = _rng.randf_range(0.5, 3.0)
 	_blink_t = _rng.randf_range(0.5, 3.0)
 	for k: String in MOLLE:

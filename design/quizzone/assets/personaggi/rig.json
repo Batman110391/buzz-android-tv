@@ -229,5 +229,50 @@
       "baffi",
       "capelli"
     ]
+  },
+  "gilda": {
+    "nome": "Gilda Lampo",
+    "colore": "#22E1FF",
+    "tela": [
+      240,
+      300
+    ],
+    "scala_import": 4,
+    "livelli": [
+      "corpo",
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "baffi",
+      "capelli",
+      "braccio"
+    ],
+    "perni": {
+      "testa": [
+        120,
+        195
+      ],
+      "capelli": [
+        120,
+        112
+      ],
+      "braccio": [
+        186,
+        300
+      ],
+      "occhi": [
+        123,
+        134
+      ]
+    },
+    "figli_di_testa": [
+      "testa",
+      "occhi",
+      "sopracciglia",
+      "bocca",
+      "baffi",
+      "capelli"
+    ]
   }
 }
