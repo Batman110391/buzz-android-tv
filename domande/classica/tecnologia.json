@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "cl-tec-0001",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale scienziato italiano inventò la pila elettrica nel 1800?",
+    "risposte": [
+      "Alessandro Volta",
+      "Luigi Galvani",
+      "Galileo Galilei",
+      "Antonio Pacinotti"
+    ],
+    "curiosita": "La dimostrò a Napoleone, che lo coprì di onori.",
+    "fatto": "pila elettrica inventata da volta",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Volta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0002",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale invenzione di Gutenberg rivoluzionò la diffusione dei libri?",
+    "risposte": [
+      "Stampa a caratteri mobili",
+      "Macchina da scrivere",
+      "Telescopio",
+      "Bussola magnetica"
+    ],
+    "curiosita": "La sua Bibbia, stampata a Magonza verso il 1455, è il primo grande libro a stampa europeo.",
+    "fatto": "invenzione gutenberg stampa caratteri mobili",
+    "fonte": "https://it.wikipedia.org/wiki/Johannes_Gutenberg",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0003",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda fondarono Steve Jobs e Steve Wozniak nel 1976?",
+    "risposte": [
+      "Apple",
+      "Microsoft",
+      "Atari",
+      "IBM"
+    ],
+    "curiosita": "Il primo prodotto, l'Apple I, fu venduto in poche centinaia di esemplari.",
+    "fatto": "fondazione apple 1976 jobs wozniak",
+    "fonte": "https://it.wikipedia.org/wiki/Apple",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0004",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Chi fondò Microsoft insieme a Paul Allen nel 1975?",
+    "risposte": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Larry Page",
+      "Elon Musk"
+    ],
+    "curiosita": "Il primo nome scelto fu «Micro-Soft», da microcomputer e software.",
+    "fatto": "fondatore microsoft bill gates",
+    "fonte": "https://it.wikipedia.org/wiki/Bill_Gates",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0005",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Chi creò Facebook nel 2004 dal dormitorio di Harvard?",
+    "risposte": [
+      "Mark Zuckerberg",
+      "Jack Dorsey",
+      "Jeff Bezos",
+      "Larry Page"
+    ],
+    "curiosita": "All'inizio era riservato agli studenti dell'università di Harvard.",
+    "fatto": "fondatore facebook zuckerberg",
+    "fonte": "https://it.wikipedia.org/wiki/Mark_Zuckerberg",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0006",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale mezzo fecero volare per la prima volta i fratelli Wright nel 1903?",
+    "risposte": [
+      "Aeroplano a motore",
+      "Dirigibile",
+      "Elicottero",
+      "Mongolfiera"
+    ],
+    "curiosita": "Il primo volo durò 12 secondi e coprì circa 37 metri.",
+    "fatto": "primo volo fratelli wright 1903",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Wright",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0007",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Chi fondò Google nel 1998 all'università di Stanford?",
+    "risposte": [
+      "Larry Page e Sergey Brin",
+      "Bill Gates e Paul Allen",
+      "Steve Jobs e Wozniak",
+      "Jerry Yang e David Filo"
+    ],
+    "curiosita": "Il nome deriva da «googol», il numero 1 seguito da cento zeri.",
+    "fatto": "fondatori google page brin",
+    "fonte": "https://it.wikipedia.org/wiki/Google",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0008",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale inventore americano perfezionò la lampadina e creò il fonografo?",
+    "risposte": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Henry Ford",
+      "Samuel Morse"
+    ],
+    "curiosita": "Registrò oltre mille brevetti nel corso della vita.",
+    "fatto": "edison lampadina e fonografo",
+    "fonte": "https://it.wikipedia.org/wiki/Thomas_Edison",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0009",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa significa la sigla PC?",
+    "risposte": [
+      "Personal Computer",
+      "Portable Circuit",
+      "Power Controller",
+      "Primary Console"
+    ],
+    "curiosita": "La sigla si diffuse dopo il lancio dell'IBM PC nel 1981.",
+    "fatto": "significato sigla pc",
+    "fonte": "https://it.wikipedia.org/wiki/Personal_computer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0010",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale dispositivo trasforma la luce del Sole in energia elettrica?",
+    "risposte": [
+      "Pannello fotovoltaico",
+      "Turbina eolica",
+      "Caldaia a gas",
+      "Dinamo"
+    ],
+    "curiosita": "Funziona grazie all'effetto fotovoltaico, scoperto da Becquerel nel 1839.",
+    "fatto": "pannello fotovoltaico luce in elettricita",
+    "fonte": "https://it.wikipedia.org/wiki/Pannello_fotovoltaico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0011",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa significa la sigla AI in informatica?",
+    "risposte": [
+      "Intelligenza artificiale",
+      "Interfaccia avanzata",
+      "Internet aziendale",
+      "Input analogico"
+    ],
+    "curiosita": "Il termine fu coniato nel 1956 a una conferenza al Dartmouth College.",
+    "fatto": "significato sigla ai",
+    "fonte": "https://it.wikipedia.org/wiki/Intelligenza_artificiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0012",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda ha creato la console di videogiochi Xbox?",
+    "risposte": [
+      "Microsoft",
+      "Nintendo",
+      "Sega",
+      "Atari"
+    ],
+    "curiosita": "La prima Xbox uscì nel 2001.",
+    "fatto": "azienda console xbox microsoft",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0013",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il sistema operativo di Google per smartphone?",
+    "risposte": [
+      "Android",
+      "iOS",
+      "Symbian",
+      "Windows Phone"
+    ],
+    "curiosita": "Il suo logo è un piccolo robot verde chiamato Bugdroid.",
+    "fatto": "sistema operativo google smartphone android",
+    "fonte": "https://it.wikipedia.org/wiki/Android",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0014",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda produce lo smartphone iPhone?",
+    "risposte": [
+      "Apple",
+      "Samsung",
+      "Nokia",
+      "Motorola"
+    ],
+    "curiosita": "Il primo iPhone fu presentato da Steve Jobs il 9 gennaio 2007.",
+    "fatto": "azienda produttrice iphone",
+    "fonte": "https://it.wikipedia.org/wiki/IPhone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0015",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Di quale Paese è l'azienda Samsung?",
+    "risposte": [
+      "Corea del Sud",
+      "Giappone",
+      "Cina",
+      "Taiwan"
+    ],
+    "curiosita": "Fondata nel 1938, all'inizio vendeva pesce secco, frutta e noodles.",
+    "fatto": "paese azienda samsung",
+    "fonte": "https://it.wikipedia.org/wiki/Samsung",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0016",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale sistema numerico usano i computer, fatto solo di 0 e 1?",
+    "risposte": [
+      "Binario",
+      "Decimale",
+      "Esadecimale",
+      "Ottale"
+    ],
+    "curiosita": "Ogni cifra binaria si chiama bit, da «binary digit».",
+    "fatto": "sistema numerico binario computer",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_numerico_binario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0017",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale di questi programmi serve a navigare su Internet?",
+    "risposte": [
+      "Firefox",
+      "Excel",
+      "Photoshop",
+      "Word"
+    ],
+    "curiosita": "Il nome «Firefox» indica il panda rosso, non una volpe.",
+    "fatto": "programma per navigare firefox",
+    "fonte": "https://it.wikipedia.org/wiki/Mozilla_Firefox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0018",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "A che cosa serve il router che si ha in casa?",
+    "risposte": [
+      "Distribuisce Internet",
+      "Registra i programmi",
+      "Raffredda il computer",
+      "Stampa i documenti"
+    ],
+    "curiosita": "Collega la rete di casa a Internet e smista i dati ai dispositivi.",
+    "fatto": "funzione del router",
+    "fonte": "https://it.wikipedia.org/wiki/Router",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0019",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale componente è detto il «cervello» del computer?",
+    "risposte": [
+      "Processore",
+      "Alimentatore",
+      "Ventola",
+      "Hard disk"
+    ],
+    "curiosita": "Esegue miliardi di istruzioni al secondo.",
+    "fatto": "cervello del computer processore",
+    "fonte": "https://it.wikipedia.org/wiki/Central_processing_unit",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0020",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale fonte naturale sfrutta una turbina eolica?",
+    "risposte": [
+      "Il vento",
+      "Le onde",
+      "Il Sole",
+      "L'acqua dei fiumi"
+    ],
+    "curiosita": "Le pale girano e un generatore trasforma il moto in elettricità.",
+    "fatto": "turbina eolica sfrutta il vento",
+    "fonte": "https://it.wikipedia.org/wiki/Energia_eolica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0021",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale forza sfrutta una centrale idroelettrica?",
+    "risposte": [
+      "La caduta dell'acqua",
+      "Il vento",
+      "Il calore del carbone",
+      "La luce solare"
+    ],
+    "curiosita": "Le grandi dighe alpine producono parte dell'elettricità italiana.",
+    "fatto": "centrale idroelettrica sfrutta acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Centrale_idroelettrica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0022",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale velivolo decolla in verticale grazie al rotore sopra la cabina?",
+    "risposte": [
+      "Elicottero",
+      "Aliante",
+      "Dirigibile",
+      "Idrovolante"
+    ],
+    "curiosita": "Il primo volo di un elicottero con pilota risale al 1907, in Francia.",
+    "fatto": "velivolo decollo verticale elicottero",
+    "fonte": "https://it.wikipedia.org/wiki/Elicottero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0023",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale piattaforma per i video fu fondata nel 2005?",
+    "risposte": [
+      "YouTube",
+      "Netflix",
+      "Twitch",
+      "Vimeo"
+    ],
+    "curiosita": "Il primo video caricato, «Me at the zoo», dura 19 secondi.",
+    "fatto": "piattaforma video fondata 2005 youtube",
+    "fonte": "https://it.wikipedia.org/wiki/YouTube",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0024",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale simbolo separa il nome dal dominio in un indirizzo e-mail?",
+    "risposte": [
+      "Chiocciola",
+      "Cancelletto",
+      "Asterisco",
+      "Tilde"
+    ],
+    "curiosita": "Fu scelto nel 1971 da Ray Tomlinson per i primi messaggi in rete.",
+    "fatto": "simbolo chiocciola indirizzo email",
+    "fonte": "https://it.wikipedia.org/wiki/Posta_elettronica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0025",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Chi brevettò nel 1892 il motore a combustione che usa il gasolio?",
+    "risposte": [
+      "Rudolf Diesel",
+      "Karl Benz",
+      "Nikolaus Otto",
+      "Felix Wankel"
+    ],
+    "curiosita": "Morì nel 1913 in circostanze misteriose durante una traversata della Manica.",
+    "fatto": "brevetto motore diesel rudolf diesel",
+    "fonte": "https://it.wikipedia.org/wiki/Rudolf_Diesel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0026",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa significa la sigla GPS?",
+    "risposte": [
+      "Global Positioning System",
+      "General Position Signal",
+      "Global Planetary Sensor",
+      "Ground Pilot System"
+    ],
+    "curiosita": "Nacque come sistema militare degli Stati Uniti.",
+    "fatto": "significato sigla gps",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_di_posizionamento_globale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0027",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale italiano vinse il Nobel per la fisica nel 1909 per la telegrafia senza fili?",
+    "risposte": [
+      "Guglielmo Marconi",
+      "Alessandro Volta",
+      "Enrico Fermi",
+      "Galileo Galilei"
+    ],
+    "curiosita": "Nel 1901 trasmise un segnale radio attraverso l'Atlantico.",
+    "fatto": "nobel fisica 1909 marconi",
+    "fonte": "https://it.wikipedia.org/wiki/Guglielmo_Marconi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0028",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda italiana produce lo scooter Vespa?",
+    "risposte": [
+      "Piaggio",
+      "Innocenti",
+      "Ducati",
+      "Aprilia"
+    ],
+    "curiosita": "Il primo modello è del 1946; il nome fu ispirato dal ronzio e dalla forma.",
+    "fatto": "azienda produttrice vespa piaggio",
+    "fonte": "https://it.wikipedia.org/wiki/Vespa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0029",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa indica la lettera «e» in «e-mail»?",
+    "risposte": [
+      "Electronic",
+      "Express",
+      "External",
+      "Extended"
+    ],
+    "curiosita": "La versione estesa è «electronic mail»; ogni giorno se ne scambiano miliardi.",
+    "fatto": "significato e di email",
+    "fonte": "https://it.wikipedia.org/wiki/Posta_elettronica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0030",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale di questi è un linguaggio di programmazione?",
+    "risposte": [
+      "Python",
+      "Windows",
+      "Photoshop",
+      "Firefox"
+    ],
+    "curiosita": "Il nome omaggia i Monty Python, non il serpente.",
+    "fatto": "linguaggio di programmazione python",
+    "fonte": "https://it.wikipedia.org/wiki/Python",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0031",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla USB?",
+    "risposte": [
+      "Universal Serial Bus",
+      "Universal Storage Block",
+      "Unified System Backup",
+      "Ultra Speed Broadband"
+    ],
+    "curiosita": "È stata introdotta nel 1996 per sostituire molte porte diverse.",
+    "fatto": "significato sigla usb",
+    "fonte": "https://it.wikipedia.org/wiki/Universal_Serial_Bus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0032",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale ingegnere scozzese perfezionò la macchina a vapore nel Settecento?",
+    "risposte": [
+      "James Watt",
+      "George Stephenson",
+      "Isaac Newton",
+      "Robert Fulton"
+    ],
+    "curiosita": "L'unità di misura della potenza, il watt, porta il suo nome.",
+    "fatto": "perfezionamento macchina a vapore watt",
+    "fonte": "https://it.wikipedia.org/wiki/James_Watt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0033",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In quale città italiana nacque Guglielmo Marconi?",
+    "risposte": [
+      "Bologna",
+      "Roma",
+      "Torino",
+      "Genova"
+    ],
+    "curiosita": "Compì i primi esperimenti radio nella tenuta di famiglia a Pontecchio.",
+    "fatto": "luogo di nascita di marconi",
+    "fonte": "https://it.wikipedia.org/wiki/Guglielmo_Marconi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0034",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale animale è la mascotte del sistema operativo Linux?",
+    "risposte": [
+      "Pinguino",
+      "Delfino",
+      "Gufo",
+      "Foca"
+    ],
+    "curiosita": "Si chiama Tux e fu scelto da Linus Torvalds, che amava i pinguini.",
+    "fatto": "mascotte linux pinguino",
+    "fonte": "https://it.wikipedia.org/wiki/Linux",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0035",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Chi fece volare in pubblico la prima mongolfiera nel 1783?",
+    "risposte": [
+      "Fratelli Montgolfier",
+      "Fratelli Wright",
+      "Fratelli Lumière",
+      "Conte Zeppelin"
+    ],
+    "curiosita": "Il primo equipaggio fu una pecora, un gallo e un'anatra.",
+    "fatto": "prima mongolfiera 1783 montgolfier",
+    "fonte": "https://it.wikipedia.org/wiki/Mongolfiera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0036",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In quale Paese fu inventata la polvere da sparo?",
+    "risposte": [
+      "Cina",
+      "India",
+      "Egitto",
+      "Persia"
+    ],
+    "curiosita": "Fu usata prima per i fuochi d'artificio e solo dopo per le armi.",
+    "fatto": "invenzione polvere da sparo cina",
+    "fonte": "https://it.wikipedia.org/wiki/Polvere_da_sparo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0037",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Chi inventò il World Wide Web nel 1989?",
+    "risposte": [
+      "Tim Berners-Lee",
+      "Vint Cerf",
+      "Bill Gates",
+      "Steve Jobs"
+    ],
+    "curiosita": "Non lo brevettò: lo rese libero e gratuito per tutti.",
+    "fatto": "inventore del world wide web",
+    "fonte": "https://it.wikipedia.org/wiki/Tim_Berners-Lee",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0038",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale automobile Ford, lanciata nel 1908, fu tra le prime prodotte in grande serie?",
+    "risposte": [
+      "Ford Model T",
+      "Maggiolino",
+      "Fiat Topolino",
+      "Mini Cooper"
+    ],
+    "curiosita": "Per anni fu disponibile solo di colore nero.",
+    "fatto": "automobile ford 1908 model t",
+    "fonte": "https://it.wikipedia.org/wiki/Ford_Model_T",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0039",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Chi introdusse la catena di montaggio nella produzione di automobili?",
+    "risposte": [
+      "Henry Ford",
+      "Karl Benz",
+      "Enzo Ferrari",
+      "Ferdinand Porsche"
+    ],
+    "curiosita": "Ridusse da dodici ore a circa novanta minuti il montaggio di una Model T.",
+    "fatto": "catena di montaggio henry ford",
+    "fonte": "https://it.wikipedia.org/wiki/Henry_Ford",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0040",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Come si chiamava il primo satellite artificiale, lanciato nel 1957?",
+    "risposte": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Vostok 1",
+      "Apollo 1"
+    ],
+    "curiosita": "Trasmetteva un «bip bip» radio che si poteva captare dalla Terra.",
+    "fatto": "primo satellite artificiale sputnik",
+    "fonte": "https://it.wikipedia.org/wiki/Sputnik_1",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0041",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla LED?",
+    "risposte": [
+      "Diodo a emissione di luce",
+      "Lampada elettrica digitale",
+      "Luce a energia diffusa",
+      "Lente a effetto diretto"
+    ],
+    "curiosita": "Consuma molto meno di una lampadina a incandescenza.",
+    "fatto": "significato sigla led",
+    "fonte": "https://it.wikipedia.org/wiki/Diodo_a_emissione_di_luce",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0042",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla PDF?",
+    "risposte": [
+      "Portable Document Format",
+      "Printable Digital File",
+      "Personal Data Folder",
+      "Public Document Frame"
+    ],
+    "curiosita": "Fu creato da Adobe nel 1993.",
+    "fatto": "significato sigla pdf",
+    "fonte": "https://it.wikipedia.org/wiki/Portable_Document_Format",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0043",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla SMS?",
+    "risposte": [
+      "Short Message Service",
+      "Simple Mobile Signal",
+      "Sound Message System",
+      "Speed Messaging Standard"
+    ],
+    "curiosita": "Il primo SMS della storia, nel 1992, diceva «Merry Christmas».",
+    "fatto": "significato sigla sms",
+    "fonte": "https://it.wikipedia.org/wiki/Short_Message_Service",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0044",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla URL?",
+    "risposte": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "Unique Resource Line",
+      "United Router Location"
+    ],
+    "curiosita": "È l'indirizzo che si digita nella barra del browser.",
+    "fatto": "significato sigla url",
+    "fonte": "https://it.wikipedia.org/wiki/Uniform_Resource_Locator",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0045",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale disposizione dei tasti hanno le tastiere italiane?",
+    "risposte": [
+      "QWERTY",
+      "AZERTY",
+      "QWERTZ",
+      "Dvorak"
+    ],
+    "curiosita": "Prende il nome dalle prime sei lettere della riga in alto.",
+    "fatto": "disposizione tastiera italiana qwerty",
+    "fonte": "https://it.wikipedia.org/wiki/QWERTY",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0046",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale elemento chimico è alla base dei chip dei computer?",
+    "risposte": [
+      "Silicio",
+      "Rame",
+      "Ferro",
+      "Alluminio"
+    ],
+    "curiosita": "La Silicon Valley deve il nome proprio al silicio.",
+    "fatto": "elemento base dei chip silicio",
+    "fonte": "https://it.wikipedia.org/wiki/Silicio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0047",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale azienda di Ivrea è famosa per le macchine da scrivere?",
+    "risposte": [
+      "Olivetti",
+      "Necchi",
+      "Borletti",
+      "Zanussi"
+    ],
+    "curiosita": "Fondata nel 1908, produsse la celebre macchina da scrivere Lettera 22.",
+    "fatto": "azienda ivrea macchine da scrivere olivetti",
+    "fonte": "https://it.wikipedia.org/wiki/Olivetti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0048",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Come si chiama la memoria veloce che il computer usa temporaneamente mentre lavora?",
+    "risposte": [
+      "RAM",
+      "ROM",
+      "Hard disk",
+      "Scheda video"
+    ],
+    "curiosita": "Quando si spegne il computer, i dati nella RAM spariscono.",
+    "fatto": "memoria temporanea del computer ram",
+    "fonte": "https://it.wikipedia.org/wiki/Random_access_memory",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0049",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale aereo supersonico di linea collegava Londra e Parigi a New York?",
+    "risposte": [
+      "Concorde",
+      "Boeing 747",
+      "Airbus A380",
+      "McDonnell DC-10"
+    ],
+    "curiosita": "Volò fino al 2003 a circa Mach 2, il doppio della velocità del suono.",
+    "fatto": "aereo supersonico di linea concorde",
+    "fonte": "https://it.wikipedia.org/wiki/Concorde",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0050",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Come si chiama il celebre treno ad alta velocità del Giappone?",
+    "risposte": [
+      "Shinkansen",
+      "TGV",
+      "ICE",
+      "Frecciarossa"
+    ],
+    "curiosita": "Fu inaugurato nel 1964, in tempo per le Olimpiadi di Tokyo.",
+    "fatto": "treno alta velocita giapponese shinkansen",
+    "fonte": "https://it.wikipedia.org/wiki/Shinkansen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0051",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale elemento è il combustibile più usato nelle centrali nucleari?",
+    "risposte": [
+      "Uranio",
+      "Litio",
+      "Zolfo",
+      "Cobalto"
+    ],
+    "curiosita": "Un grammo di uranio-235 libera quanto circa tre tonnellate di carbone.",
+    "fatto": "combustibile centrali nucleari uranio",
+    "fonte": "https://it.wikipedia.org/wiki/Uranio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0052",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa viaggia dentro un cavo in fibra ottica?",
+    "risposte": [
+      "Impulsi di luce",
+      "Corrente elettrica",
+      "Onde sonore",
+      "Gas compresso"
+    ],
+    "curiosita": "I cavi in fibra sul fondo degli oceani portano la maggior parte del traffico Internet.",
+    "fatto": "cosa viaggia nella fibra ottica",
+    "fonte": "https://it.wikipedia.org/wiki/Fibra_ottica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0053",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale inventore serbo-americano ideò il motore a corrente alternata?",
+    "risposte": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Guglielmo Marconi",
+      "Alexander Bell"
+    ],
+    "curiosita": "L'unità di misura del campo magnetico, il tesla, porta il suo nome.",
+    "fatto": "motore corrente alternata tesla",
+    "fonte": "https://it.wikipedia.org/wiki/Nikola_Tesla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0054",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale chimico svedese inventò la dinamite nel 1867?",
+    "risposte": [
+      "Alfred Nobel",
+      "Anders Celsius",
+      "Carl Linneo",
+      "Svante Arrhenius"
+    ],
+    "curiosita": "Con il suo patrimonio istituì i premi che portano il suo nome.",
+    "fatto": "inventore della dinamite nobel",
+    "fonte": "https://it.wikipedia.org/wiki/Alfred_Nobel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0055",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale azienda fondò Jeff Bezos nel 1994 vendendo libri online?",
+    "risposte": [
+      "Amazon",
+      "eBay",
+      "Alibaba",
+      "Zalando"
+    ],
+    "curiosita": "Il nome ricorda il Rio delle Amazzoni, il fiume più grande del mondo.",
+    "fatto": "azienda fondata da bezos amazon",
+    "fonte": "https://it.wikipedia.org/wiki/Amazon_(azienda)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0056",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è l'azienda Nokia?",
+    "risposte": [
+      "Finlandia",
+      "Svezia",
+      "Danimarca",
+      "Norvegia"
+    ],
+    "curiosita": "Nata nel 1865 come cartiera, prese il nome da una cittadina e dal suo fiume.",
+    "fatto": "paese azienda nokia",
+    "fonte": "https://it.wikipedia.org/wiki/Nokia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0057",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale matematico britannico contribuì a decifrare i messaggi della macchina Enigma?",
+    "risposte": [
+      "Alan Turing",
+      "Charles Babbage",
+      "Stephen Hawking",
+      "John von Neumann"
+    ],
+    "curiosita": "Il suo volto compare sulla banconota da 50 sterline.",
+    "fatto": "turing decifrazione enigma",
+    "fonte": "https://it.wikipedia.org/wiki/Alan_Turing",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0058",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale linguaggio descrive la struttura delle pagine web?",
+    "risposte": [
+      "HTML",
+      "JPEG",
+      "MP3",
+      "USB"
+    ],
+    "curiosita": "Fu ideato da Tim Berners-Lee ai primi anni Novanta, al CERN.",
+    "fatto": "linguaggio struttura pagine web html",
+    "fonte": "https://it.wikipedia.org/wiki/HTML",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0059",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale strumento usa gli ultrasuoni per individuare oggetti sott'acqua?",
+    "risposte": [
+      "Sonar",
+      "Radar",
+      "Laser",
+      "Bussola"
+    ],
+    "curiosita": "Anche delfini e pipistrelli usano un principio simile: l'ecolocalizzazione.",
+    "fatto": "strumento ultrasuoni sott acqua sonar",
+    "fonte": "https://it.wikipedia.org/wiki/Sonar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0060",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa indica la «G» nella sigla 5G?",
+    "risposte": [
+      "Generazione",
+      "Giga",
+      "Gamma",
+      "Grado"
+    ],
+    "curiosita": "Ogni generazione di reti mobili ha aumentato la velocità dei dati.",
+    "fatto": "significato g in 5g",
+    "fonte": "https://it.wikipedia.org/wiki/5G",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0061",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Che cosa inventò Martin Cooper alla Motorola nel 1973?",
+    "risposte": [
+      "Telefono cellulare",
+      "Cercapersone",
+      "Walkie-talkie",
+      "Radio CB"
+    ],
+    "curiosita": "Fece la prima chiamata da una strada di New York, telefonando a un rivale.",
+    "fatto": "martin cooper primo telefono cellulare",
+    "fonte": "https://it.wikipedia.org/wiki/Martin_Cooper",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0062",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi inventò il pianoforte a Firenze intorno al 1700?",
+    "risposte": [
+      "Bartolomeo Cristofori",
+      "Antonio Stradivari",
+      "Andrea Amati",
+      "Claudio Monteverdi"
+    ],
+    "curiosita": "Lo chiamò «gravicembalo col piano e forte» per la dinamica del suono.",
+    "fatto": "inventore del pianoforte cristofori",
+    "fonte": "https://it.wikipedia.org/wiki/Bartolomeo_Cristofori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0063",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In quale Paese nacquero gli occhiali da vista, alla fine del Duecento?",
+    "risposte": [
+      "Italia",
+      "Paesi Bassi",
+      "Germania",
+      "Francia"
+    ],
+    "curiosita": "Le prime testimonianze si trovano tra Pisa e Venezia.",
+    "fatto": "paese nascita occhiali da vista",
+    "fonte": "https://it.wikipedia.org/wiki/Occhiali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0064",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi realizzò il primo orologio a pendolo funzionante nel 1656?",
+    "risposte": [
+      "Christiaan Huygens",
+      "Isaac Newton",
+      "Johannes Keplero",
+      "René Descartes"
+    ],
+    "curiosita": "Ridusse l'errore degli orologi da circa 15 minuti a meno di uno al giorno.",
+    "fatto": "primo orologio a pendolo huygens",
+    "fonte": "https://it.wikipedia.org/wiki/Christiaan_Huygens",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0065",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale pianta ispirò l'invenzione del velcro?",
+    "risposte": [
+      "Bardana",
+      "Ortica",
+      "Rovo",
+      "Edera"
+    ],
+    "curiosita": "L'ingegnere svizzero Georges de Mestral osservò i semi attaccati al pelo del suo cane.",
+    "fatto": "pianta ispirazione velcro bardana",
+    "fonte": "https://it.wikipedia.org/wiki/Velcro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0066",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale azienda inventò i foglietti adesivi Post-it?",
+    "risposte": [
+      "3M",
+      "Kodak",
+      "Xerox",
+      "IBM"
+    ],
+    "curiosita": "Nacquero da una colla debole, creata per sbaglio da Spencer Silver.",
+    "fatto": "azienda inventrice post it 3m",
+    "fonte": "https://it.wikipedia.org/wiki/Post-it",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0067",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale tecnologia militare portò all'invenzione del forno a microonde?",
+    "risposte": [
+      "Radar",
+      "Sonar",
+      "Telegrafo",
+      "Laser"
+    ],
+    "curiosita": "Si racconta che Percy Spencer se ne accorse quando un dolce gli si sciolse in tasca.",
+    "fatto": "forno a microonde origine radar",
+    "fonte": "https://it.wikipedia.org/wiki/Forno_a_microonde",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0068",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Qual è stata la prima materia plastica interamente sintetica?",
+    "risposte": [
+      "Bachelite",
+      "Nylon",
+      "Celluloide",
+      "Polietilene"
+    ],
+    "curiosita": "Fu brevettata nel 1907 dal chimico belga Leo Baekeland.",
+    "fatto": "prima plastica sintetica bachelite",
+    "fonte": "https://it.wikipedia.org/wiki/Bachelite",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0069",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale chimico italiano vinse il Nobel nel 1963 per i suoi studi sui polimeri?",
+    "risposte": [
+      "Giulio Natta",
+      "Enrico Fermi",
+      "Carlo Rubbia",
+      "Camillo Golgi"
+    ],
+    "curiosita": "Dalle sue ricerche nacque il polipropilene, venduto in Italia come Moplen.",
+    "fatto": "nobel 1963 natta polimeri",
+    "fonte": "https://it.wikipedia.org/wiki/Giulio_Natta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0070",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi è considerata la prima programmatrice della storia?",
+    "risposte": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Marie Curie",
+      "Hedy Lamarr"
+    ],
+    "curiosita": "Nell'Ottocento scrisse un algoritmo per la macchina analitica di Babbage.",
+    "fatto": "prima programmatrice ada lovelace",
+    "fonte": "https://it.wikipedia.org/wiki/Ada_Lovelace",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0071",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale scienziato italiano guidò la costruzione del primo reattore nucleare nel 1942?",
+    "risposte": [
+      "Enrico Fermi",
+      "Ettore Majorana",
+      "Emilio Segrè",
+      "Bruno Pontecorvo"
+    ],
+    "curiosita": "Il reattore, Chicago Pile-1, fu costruito sotto le tribune di uno stadio.",
+    "fatto": "primo reattore nucleare fermi 1942",
+    "fonte": "https://it.wikipedia.org/wiki/Enrico_Fermi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0072",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale fu la prima ferrovia italiana, inaugurata nel 1839?",
+    "risposte": [
+      "Napoli-Portici",
+      "Milano-Monza",
+      "Torino-Moncalieri",
+      "Livorno-Pisa"
+    ],
+    "curiosita": "Fu voluta da Ferdinando II di Borbone ed era lunga circa sette chilometri.",
+    "fatto": "prima ferrovia italiana napoli portici",
+    "fonte": "https://it.wikipedia.org/wiki/Ferrovia_Napoli-Portici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0073",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale inventore ungherese brevettò la penna a sfera nel 1938?",
+    "risposte": [
+      "László Bíró",
+      "Ernő Rubik",
+      "Tivadar Puskás",
+      "János Bolyai"
+    ],
+    "curiosita": "In Argentina, dove si trasferì, la penna a sfera si chiama ancora «birome».",
+    "fatto": "inventore penna a sfera biro",
+    "fonte": "https://it.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0074",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale servizio di streaming nacque nel 1997 noleggiando DVD per posta?",
+    "risposte": [
+      "Netflix",
+      "Hulu",
+      "Spotify",
+      "Twitch"
+    ],
+    "curiosita": "Il suo servizio di streaming è arrivato solo nel 2007.",
+    "fatto": "servizio nato 1997 noleggio dvd netflix",
+    "fonte": "https://it.wikipedia.org/wiki/Netflix",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0075",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale azienda olandese lanciò la musicassetta nel 1963?",
+    "risposte": [
+      "Philips",
+      "Siemens",
+      "Bosch",
+      "Nokia"
+    ],
+    "curiosita": "Insieme a Sony sviluppò anche il Compact Disc, nel 1982.",
+    "fatto": "azienda olandese musicassetta philips",
+    "fonte": "https://it.wikipedia.org/wiki/Philips",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0076",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Come si chiamava la rete, nata nel 1969 negli Stati Uniti, antenata di Internet?",
+    "risposte": [
+      "ARPANET",
+      "Usenet",
+      "Bitnet",
+      "Telnet"
+    ],
+    "curiosita": "Il primo messaggio, «LO», si interruppe perché il sistema andò in crash.",
+    "fatto": "rete antenata di internet arpanet",
+    "fonte": "https://it.wikipedia.org/wiki/ARPANET",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0077",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In quale anno fu presentato il primo iPhone?",
+    "risposte": [
+      "2007",
+      "2004",
+      "2009",
+      "2010"
+    ],
+    "curiosita": "Costava 499 dollari nella versione da 4 GB.",
+    "fatto": "anno presentazione primo iphone",
+    "fonte": "https://it.wikipedia.org/wiki/IPhone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0078",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale ingegnere americano realizzò il primo moderno condizionatore nel 1902?",
+    "risposte": [
+      "Willis Carrier",
+      "Thomas Edison",
+      "Henry Ford",
+      "Elisha Otis"
+    ],
+    "curiosita": "Lo progettò per controllare l'umidità in una tipografia di Brooklyn.",
+    "fatto": "inventore condizionatore carrier",
+    "fonte": "https://it.wikipedia.org/wiki/Willis_Carrier",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0079",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale invenzione di Elisha Otis, mostrata nel 1854, rese sicuri gli ascensori?",
+    "risposte": [
+      "Freno di sicurezza",
+      "Contrappeso",
+      "Motore elettrico",
+      "Cabina d'acciaio"
+    ],
+    "curiosita": "Tagliò davanti al pubblico la fune della cabina, che restò ferma.",
+    "fatto": "otis freno di sicurezza ascensore",
+    "fonte": "https://it.wikipedia.org/wiki/Elisha_Otis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0080",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In quale istituto lavorava Tim Berners-Lee quando propose il Web?",
+    "risposte": [
+      "CERN",
+      "IBM",
+      "NASA",
+      "MIT"
+    ],
+    "curiosita": "Il CERN si trova a Ginevra, al confine tra Svizzera e Francia.",
+    "fatto": "berners lee lavorava al cern",
+    "fonte": "https://it.wikipedia.org/wiki/CERN",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0081",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale significato ha la parola ceca «robota», da cui deriva «robot»?",
+    "risposte": [
+      "Lavoro forzato",
+      "Uomo di metallo",
+      "Macchina pensante",
+      "Aiuto domestico"
+    ],
+    "curiosita": "Fu usata nel 1920 nel dramma «R.U.R.» di Karel Čapek.",
+    "fatto": "origine parola robot robota",
+    "fonte": "https://it.wikipedia.org/wiki/Robot",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0082",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi brevettò a Torino nel 1884 la prima macchina per il caffè espresso?",
+    "risposte": [
+      "Angelo Moriondo",
+      "Luigi Bezzera",
+      "Desiderio Pavoni",
+      "Achille Gaggia"
+    ],
+    "curiosita": "Il suo brevetto cadde presto nell'oblio, mentre Bezzera e Pavoni diffusero l'espresso.",
+    "fatto": "brevetto macchina espresso moriondo",
+    "fonte": "https://it.wikipedia.org/wiki/Angelo_Moriondo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0083",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale azienda lanciò nel 1888 la fotocamera portatile per tutti?",
+    "risposte": [
+      "Kodak",
+      "Polaroid",
+      "Leica",
+      "Canon"
+    ],
+    "curiosita": "Lo slogan era «You press the button, we do the rest».",
+    "fatto": "fotocamera portatile 1888 kodak",
+    "fonte": "https://it.wikipedia.org/wiki/Kodak",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0084",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi inventò il grammofono con disco piatto nel 1887?",
+    "risposte": [
+      "Emile Berliner",
+      "Thomas Edison",
+      "Alexander Bell",
+      "Guglielmo Marconi"
+    ],
+    "curiosita": "Prima di lui Edison registrava su cilindri, non su dischi piatti.",
+    "fatto": "inventore grammofono disco berliner",
+    "fonte": "https://it.wikipedia.org/wiki/Emile_Berliner",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0085",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Che cosa sostiene sospesi sui binari i treni Maglev?",
+    "risposte": [
+      "Campi magnetici",
+      "Cuscini d'aria",
+      "Getti d'acqua",
+      "Spinta a razzo"
+    ],
+    "curiosita": "Senza attrito con le rotaie, alcuni modelli superano i 600 km/h.",
+    "fatto": "treno maglev campi magnetici",
+    "fonte": "https://it.wikipedia.org/wiki/Treno_a_levitazione_magnetica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0086",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Quale componente, inventato ai Bell Labs nel 1947, sostituì le valvole termoioniche?",
+    "risposte": [
+      "Transistor",
+      "Diodo",
+      "Resistenza",
+      "Condensatore"
+    ],
+    "curiosita": "Oggi un singolo chip può contenerne miliardi.",
+    "fatto": "transistor bell labs 1947",
+    "fonte": "https://it.wikipedia.org/wiki/Transistor",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0087",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi dimostrò sperimentalmente l'esistenza delle onde elettromagnetiche nel 1886-1888?",
+    "risposte": [
+      "Heinrich Hertz",
+      "James Maxwell",
+      "Michael Faraday",
+      "André-Marie Ampère"
+    ],
+    "curiosita": "La frequenza si misura in hertz, l'unità che porta il suo nome.",
+    "fatto": "dimostrazione onde elettromagnetiche hertz",
+    "fonte": "https://it.wikipedia.org/wiki/Heinrich_Hertz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0088",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi organizzò a Parigi nel 1895 la prima proiezione pubblica a pagamento di un film?",
+    "risposte": [
+      "Fratelli Lumière",
+      "Thomas Edison",
+      "Georges Méliès",
+      "Charlie Chaplin"
+    ],
+    "curiosita": "Il loro film più famoso mostrava gli operai che uscivano da una fabbrica.",
+    "fatto": "prima proiezione pubblica film lumiere",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Lumi%C3%A8re",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0089",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi inventò il parafulmine a metà del Settecento?",
+    "risposte": [
+      "Benjamin Franklin",
+      "Alessandro Volta",
+      "Isaac Newton",
+      "Thomas Jefferson"
+    ],
+    "curiosita": "Il celebre esperimento con l'aquilone nel temporale è del 1752.",
+    "fatto": "inventore del parafulmine franklin",
+    "fonte": "https://it.wikipedia.org/wiki/Parafulmine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-tec-0090",
+    "tipo": "classica",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Da quale re vichingo prende il nome la tecnologia Bluetooth?",
+    "risposte": [
+      "Harald Dente Azzurro",
+      "Erik il Rosso",
+      "Canuto il Grande",
+      "Olaf Tryggvason"
+    ],
+    "curiosita": "Il logo unisce le rune corrispondenti alle sue iniziali.",
+    "fatto": "nome bluetooth re harald",
+    "fonte": "https://it.wikipedia.org/wiki/Bluetooth",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

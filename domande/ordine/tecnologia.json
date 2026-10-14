@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-tec-0001",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Grandi invenzioni, dalla più antica",
+    "elementi": [
+      "Pila di Volta",
+      "Telefono",
+      "Aeroplano",
+      "World Wide Web"
+    ],
+    "valori": [
+      "1800",
+      "1876",
+      "1903",
+      "1989"
+    ],
+    "curiosita": "Dalla pila al Web passano meno di due secoli.",
+    "fatto": "ordine invenzioni pila telefono aereo web",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_tecnologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0002",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Unità di memoria, dalla più piccola",
+    "elementi": [
+      "Byte",
+      "Kilobyte",
+      "Megabyte",
+      "Gigabyte"
+    ],
+    "valori": [
+      "1 byte",
+      "10³ byte",
+      "10⁶ byte",
+      "10⁹ byte"
+    ],
+    "curiosita": "Ogni gradino moltiplica la capacità per mille.",
+    "fatto": "ordine unita di memoria byte gigabyte",
+    "fonte": "https://it.wikipedia.org/wiki/Byte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0003",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Inventori, dal primo a nascere",
+    "elementi": [
+      "Gutenberg",
+      "Volta",
+      "Edison",
+      "Marconi"
+    ],
+    "valori": [
+      "1400 circa",
+      "1745",
+      "1847",
+      "1874"
+    ],
+    "curiosita": "Marconi nacque quando Edison era già un inventore affermato.",
+    "fatto": "ordine inventori per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Inventore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0004",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Social network, dal più vecchio",
+    "elementi": [
+      "Facebook",
+      "YouTube",
+      "Twitter",
+      "Instagram"
+    ],
+    "valori": [
+      "2004",
+      "2005",
+      "2006",
+      "2010"
+    ],
+    "curiosita": "Instagram fu venduto a Facebook nel 2012 per circa un miliardo di dollari.",
+    "fatto": "ordine social network per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Social_network",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0005",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "criterio": "Versioni di Windows, dalla più vecchia",
+    "elementi": [
+      "Windows 95",
+      "Windows 98",
+      "Windows XP",
+      "Windows 7"
+    ],
+    "valori": [
+      "1995",
+      "1998",
+      "2001",
+      "2009"
+    ],
+    "curiosita": "Il nome XP viene da «experience», esperienza.",
+    "fatto": "ordine versioni windows",
+    "fonte": "https://it.wikipedia.org/wiki/Microsoft_Windows",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0006",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Dispositivi Apple, dal più vecchio",
+    "elementi": [
+      "iPod",
+      "iPhone",
+      "iPad",
+      "Apple Watch"
+    ],
+    "valori": [
+      "2001",
+      "2007",
+      "2010",
+      "2015"
+    ],
+    "curiosita": "L'iPod arrivò sei anni prima dell'iPhone.",
+    "fatto": "ordine dispositivi apple",
+    "fonte": "https://it.wikipedia.org/wiki/Apple",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0007",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Console PlayStation, dalla prima",
+    "elementi": [
+      "PlayStation",
+      "PlayStation 2",
+      "PlayStation 3",
+      "PlayStation 4"
+    ],
+    "valori": [
+      "1994",
+      "2000",
+      "2006",
+      "2013"
+    ],
+    "curiosita": "La PlayStation 2 è tra le console più vendute di sempre.",
+    "fatto": "ordine console playstation",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0008",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Supporti di memoria, dal più vecchio",
+    "elementi": [
+      "Floppy disk",
+      "Compact Disc",
+      "DVD",
+      "Chiavetta USB"
+    ],
+    "valori": [
+      "1971",
+      "1982",
+      "1996",
+      "2000"
+    ],
+    "curiosita": "Il floppy originale era largo circa venti centimetri.",
+    "fatto": "ordine supporti di memoria",
+    "fonte": "https://it.wikipedia.org/wiki/Memoria_di_massa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0009",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Imprese spaziali, dalla più antica",
+    "elementi": [
+      "Sputnik 1",
+      "Vostok 1",
+      "Apollo 11",
+      "Voyager 1"
+    ],
+    "valori": [
+      "1957",
+      "1961",
+      "1969",
+      "1977"
+    ],
+    "curiosita": "Voyager 1 è l'oggetto costruito dall'uomo più lontano dalla Terra.",
+    "fatto": "ordine imprese spaziali",
+    "fonte": "https://it.wikipedia.org/wiki/Esplorazione_dello_spazio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0010",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "criterio": "Aziende del web, dalla fondazione più antica",
+    "elementi": [
+      "Amazon",
+      "Google",
+      "Wikipedia",
+      "Skype"
+    ],
+    "valori": [
+      "1994",
+      "1998",
+      "2001",
+      "2003"
+    ],
+    "curiosita": "Google nacque da un progetto di ricerca a Stanford.",
+    "fatto": "ordine aziende web fondazione",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_di_Internet",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0011",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Linguaggi di programmazione, dal più antico",
+    "elementi": [
+      "FORTRAN",
+      "C",
+      "Python",
+      "Java"
+    ],
+    "valori": [
+      "1957",
+      "1972",
+      "1991",
+      "1995"
+    ],
+    "curiosita": "Python deve il nome ai Monty Python.",
+    "fatto": "ordine linguaggi di programmazione",
+    "fonte": "https://it.wikipedia.org/wiki/Linguaggio_di_programmazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0012",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Voli storici, dal più antico",
+    "elementi": [
+      "Mongolfiera",
+      "Fratelli Wright",
+      "Lindbergh",
+      "Concorde"
+    ],
+    "valori": [
+      "1783",
+      "1903",
+      "1927",
+      "1969"
+    ],
+    "curiosita": "Lindbergh attraversò l'Atlantico in solitaria in circa 33 ore.",
+    "fatto": "ordine voli storici",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'aviazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0013",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Veicoli, dal più antico",
+    "elementi": [
+      "Rocket (Stephenson)",
+      "Benz Motorwagen",
+      "Ford Model T",
+      "Vespa"
+    ],
+    "valori": [
+      "1829",
+      "1886",
+      "1908",
+      "1946"
+    ],
+    "curiosita": "La Rocket vinse il concorso ferroviario di Rainhill.",
+    "fatto": "ordine veicoli storici",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'automobile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0014",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Computer, dal più antico",
+    "elementi": [
+      "Pascalina",
+      "Macchina analitica",
+      "ENIAC",
+      "IBM PC"
+    ],
+    "valori": [
+      "1642",
+      "1837",
+      "1945",
+      "1981"
+    ],
+    "curiosita": "La Pascalina fu costruita da Blaise Pascal a 19 anni.",
+    "fatto": "ordine storia del computer",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_computer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-tec-0015",
+    "tipo": "ordine",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "criterio": "Fotografia e cinema, dal più antico",
+    "elementi": [
+      "Dagherrotipo",
+      "Fotocamera Kodak",
+      "Cinematografo",
+      "Polaroid"
+    ],
+    "valori": [
+      "1839",
+      "1888",
+      "1895",
+      "1948"
+    ],
+    "curiosita": "La Polaroid sviluppava la foto in pochi minuti.",
+    "fatto": "ordine storia fotografia e cinema",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_fotografia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

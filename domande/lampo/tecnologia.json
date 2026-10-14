@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-tec-0001",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'assistente vocale di Apple?",
+    "risposte": [
+      "Siri",
+      "Alexa",
+      "Cortana",
+      "Bixby"
+    ],
+    "curiosita": "Debuttò sull'iPhone 4S nel 2011.",
+    "fatto": "assistente vocale apple siri",
+    "fonte": "https://it.wikipedia.org/wiki/Siri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0002",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale app di messaggi ha l'icona verde con la cornetta?",
+    "risposte": [
+      "WhatsApp",
+      "Telegram",
+      "Messenger",
+      "Signal"
+    ],
+    "curiosita": "Fu fondata nel 2009 da due ex dipendenti di Yahoo.",
+    "fatto": "app messaggi icona verde whatsapp",
+    "fonte": "https://it.wikipedia.org/wiki/WhatsApp",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0003",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale tasto si usa per andare a capo?",
+    "risposte": [
+      "Invio",
+      "Tab",
+      "Esc",
+      "Maiusc"
+    ],
+    "curiosita": "In inglese si chiama Enter o Return.",
+    "fatto": "tasto per andare a capo invio",
+    "fonte": "https://it.wikipedia.org/wiki/Tastiera_(informatica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0004",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda produce il sistema Windows?",
+    "risposte": [
+      "Microsoft",
+      "Apple",
+      "Google",
+      "IBM"
+    ],
+    "curiosita": "La prima versione uscì nel 1985.",
+    "fatto": "azienda produttrice windows",
+    "fonte": "https://it.wikipedia.org/wiki/Microsoft_Windows",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0005",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale azienda produce i computer Mac?",
+    "risposte": [
+      "Apple",
+      "Dell",
+      "Asus",
+      "HP"
+    ],
+    "curiosita": "Il primo Macintosh fu presentato nel 1984.",
+    "fatto": "azienda produttrice computer mac",
+    "fonte": "https://it.wikipedia.org/wiki/Macintosh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0006",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa significa «smart» in smartphone?",
+    "risposte": [
+      "Intelligente",
+      "Veloce",
+      "Piccolo",
+      "Leggero"
+    ],
+    "curiosita": "Si dice «telefono intelligente» perché fa molto più che telefonare.",
+    "fatto": "significato smart smartphone",
+    "fonte": "https://it.wikipedia.org/wiki/Smartphone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0007",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Come si chiama un programma nato per danneggiare il PC?",
+    "risposte": [
+      "Virus",
+      "Driver",
+      "Backup",
+      "Router"
+    ],
+    "curiosita": "Il primo virus per PC, Brain, apparve nel 1986.",
+    "fatto": "programma dannoso virus informatico",
+    "fonte": "https://it.wikipedia.org/wiki/Virus_(informatica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0008",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale parola inglese indica un computer portatile?",
+    "risposte": [
+      "Laptop",
+      "Desktop",
+      "Server",
+      "Monitor"
+    ],
+    "curiosita": "Letteralmente significa «sulle ginocchia».",
+    "fatto": "parola inglese computer portatile laptop",
+    "fonte": "https://it.wikipedia.org/wiki/Computer_portatile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0009",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale periferica si usa per muovere il cursore?",
+    "risposte": [
+      "Mouse",
+      "Monitor",
+      "Casse",
+      "Webcam"
+    ],
+    "curiosita": "Il primo mouse era di legno e fu ideato da Douglas Engelbart.",
+    "fatto": "periferica cursore mouse",
+    "fonte": "https://it.wikipedia.org/wiki/Mouse",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0010",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale periferica stampa i documenti su carta?",
+    "risposte": [
+      "Stampante",
+      "Scanner",
+      "Monitor",
+      "Router"
+    ],
+    "curiosita": "La stampa laser usa un fascio di luce e una polvere, il toner.",
+    "fatto": "periferica stampa su carta stampante",
+    "fonte": "https://it.wikipedia.org/wiki/Stampante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0011",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Come si chiama la memoria da inserire nella porta USB?",
+    "risposte": [
+      "Chiavetta USB",
+      "Floppy disk",
+      "Router",
+      "Webcam"
+    ],
+    "curiosita": "Le prime chiavette del 2000 contenevano appena 8 MB.",
+    "fatto": "memoria portatile porta usb chiavetta",
+    "fonte": "https://it.wikipedia.org/wiki/Chiavetta_USB",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0012",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale carburante usano le auto «diesel»?",
+    "risposte": [
+      "Gasolio",
+      "Benzina",
+      "Metano",
+      "Idrogeno"
+    ],
+    "curiosita": "Il motore diesel non ha candele: l'accensione avviene per compressione.",
+    "fatto": "carburante auto diesel gasolio",
+    "fonte": "https://it.wikipedia.org/wiki/Motore_diesel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0013",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Quale velivolo senza motore plana nell'aria?",
+    "risposte": [
+      "Aliante",
+      "Elicottero",
+      "Dirigibile",
+      "Idrovolante"
+    ],
+    "curiosita": "Sfrutta le correnti d'aria calda per salire di quota.",
+    "fatto": "velivolo senza motore aliante",
+    "fonte": "https://it.wikipedia.org/wiki/Aliante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0014",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "Che cosa significa «download» in italiano?",
+    "risposte": [
+      "Scaricare",
+      "Caricare",
+      "Cancellare",
+      "Copiare"
+    ],
+    "curiosita": "L'azione opposta si chiama upload.",
+    "fatto": "significato download scaricare",
+    "fonte": "https://it.wikipedia.org/wiki/Download",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0015",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "domanda": "A che cosa serve un hard disk?",
+    "risposte": [
+      "Salvare i dati",
+      "Stampare",
+      "Raffreddare",
+      "Scattare foto"
+    ],
+    "curiosita": "Il primo hard disk, di IBM nel 1956, pesava oltre una tonnellata.",
+    "fatto": "funzione hard disk",
+    "fonte": "https://it.wikipedia.org/wiki/Hard_disk",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0016",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla «www»?",
+    "risposte": [
+      "World Wide Web",
+      "World Web Wire",
+      "Wide Web World",
+      "World Web Window"
+    ],
+    "curiosita": "È il nome del sistema di pagine collegate ideato nel 1989.",
+    "fatto": "significato sigla www",
+    "fonte": "https://it.wikipedia.org/wiki/World_Wide_Web",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0017",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa «HD» riferito a un televisore?",
+    "risposte": [
+      "Alta definizione",
+      "Alta distanza",
+      "Doppio display",
+      "Dati digitali"
+    ],
+    "curiosita": "Il Full HD ha 1920 per 1080 pixel.",
+    "fatto": "significato hd televisore",
+    "fonte": "https://it.wikipedia.org/wiki/Alta_definizione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0018",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In quale unità si misura la frequenza?",
+    "risposte": [
+      "Hertz",
+      "Watt",
+      "Volt",
+      "Ohm"
+    ],
+    "curiosita": "Un hertz è un'oscillazione al secondo.",
+    "fatto": "unita di misura frequenza hertz",
+    "fonte": "https://it.wikipedia.org/wiki/Hertz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0019",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale sigla indica la comunicazione a pochi centimetri?",
+    "risposte": [
+      "NFC",
+      "GPS",
+      "VPN",
+      "SMS"
+    ],
+    "curiosita": "Si usa anche nei pagamenti con lo smartphone.",
+    "fatto": "sigla comunicazione corto raggio nfc",
+    "fonte": "https://it.wikipedia.org/wiki/Near_field_communication",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0020",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa fa la combinazione Ctrl + C?",
+    "risposte": [
+      "Copia",
+      "Taglia",
+      "Incolla",
+      "Stampa"
+    ],
+    "curiosita": "Per incollare si usa Ctrl + V.",
+    "fatto": "scorciatoia ctrl c copia",
+    "fonte": "https://it.wikipedia.org/wiki/Copia_e_incolla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0021",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "In informatica, che cos'è un «bug»?",
+    "risposte": [
+      "Un errore",
+      "Un virus",
+      "Una password",
+      "Un cavo"
+    ],
+    "curiosita": "Il termine ricorda una falena trovata in un computer nel 1947.",
+    "fatto": "significato bug informatica",
+    "fonte": "https://it.wikipedia.org/wiki/Bug_(informatica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0022",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Quale azienda ha creato il browser Chrome?",
+    "risposte": [
+      "Google",
+      "Microsoft",
+      "Apple",
+      "Mozilla"
+    ],
+    "curiosita": "È stato lanciato nel 2008.",
+    "fatto": "azienda sviluppatrice browser chrome",
+    "fonte": "https://it.wikipedia.org/wiki/Google_Chrome",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0023",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Di che colore è la «scatola nera» di un aereo?",
+    "risposte": [
+      "Arancione",
+      "Nera",
+      "Rossa",
+      "Gialla"
+    ],
+    "curiosita": "Il colore vivace serve a ritrovarla più facilmente dopo un incidente.",
+    "fatto": "colore scatola nera aereo",
+    "fonte": "https://it.wikipedia.org/wiki/Registratore_di_volo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0024",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Che cosa significa «CD» nella parola CD-ROM?",
+    "risposte": [
+      "Compact Disc",
+      "Computer Disk",
+      "Central Data",
+      "Copy Disc"
+    ],
+    "curiosita": "Un CD contiene fino a circa 700 MB di dati.",
+    "fatto": "significato cd in cd rom",
+    "fonte": "https://it.wikipedia.org/wiki/Compact_disc",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0025",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "domanda": "Come si chiama il browser di Apple?",
+    "risposte": [
+      "Safari",
+      "Edge",
+      "Opera",
+      "Brave"
+    ],
+    "curiosita": "È il browser predefinito di iPhone e Mac.",
+    "fatto": "browser di apple safari",
+    "fonte": "https://it.wikipedia.org/wiki/Safari_(browser)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0026",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "In quale città californiana ha sede Apple?",
+    "risposte": [
+      "Cupertino",
+      "Seattle",
+      "Austin",
+      "San Diego"
+    ],
+    "curiosita": "Il campus circolare Apple Park ha aperto nel 2017.",
+    "fatto": "sede di apple cupertino",
+    "fonte": "https://it.wikipedia.org/wiki/Apple_Park",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0027",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Chi creò il sistema operativo Linux nel 1991?",
+    "risposte": [
+      "Linus Torvalds",
+      "Richard Stallman",
+      "Dennis Ritchie",
+      "Bill Joy"
+    ],
+    "curiosita": "Annunciò il progetto su Usenet, definendolo un semplice hobby.",
+    "fatto": "creatore di linux torvalds",
+    "fonte": "https://it.wikipedia.org/wiki/Linus_Torvalds",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0028",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Come si chiama il sistema satellitare europeo?",
+    "risposte": [
+      "Galileo",
+      "GPS",
+      "Glonass",
+      "BeiDou"
+    ],
+    "curiosita": "Porta il nome dell'astronomo italiano Galileo Galilei.",
+    "fatto": "sistema satellitare europeo galileo",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_di_posizionamento_Galileo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0029",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Che sigla indica la memoria a sola lettura?",
+    "risposte": [
+      "ROM",
+      "RAM",
+      "SSD",
+      "CPU"
+    ],
+    "curiosita": "Conserva le istruzioni di base anche a computer spento.",
+    "fatto": "sigla memoria sola lettura rom",
+    "fonte": "https://it.wikipedia.org/wiki/Read-only_memory",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-tec-0030",
+    "tipo": "lampo",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "domanda": "Il bit è l'unità minima di che cosa?",
+    "risposte": [
+      "Informazione",
+      "Energia",
+      "Frequenza",
+      "Lunghezza"
+    ],
+    "curiosita": "Può assumere solo due valori: 0 oppure 1.",
+    "fatto": "bit unita minima di informazione",
+    "fonte": "https://it.wikipedia.org/wiki/Bit",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

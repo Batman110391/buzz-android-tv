@@ -34,5 +34,1589 @@
     "fonte": "https://it.wikipedia.org/wiki/Le_quattro_stagioni",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-mus-0003",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi compose \"La traviata\"?",
+    "risposte": [
+      "Verdi",
+      "Puccini",
+      "Rossini",
+      "Donizetti"
+    ],
+    "curiosita": "È tratta da \"La signora delle camelie\" di Dumas figlio.",
+    "fatto": "traviata verdi",
+    "fonte": "https://it.wikipedia.org/wiki/La_traviata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0004",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Da quale città inglese provengono i Beatles?",
+    "risposte": [
+      "Liverpool",
+      "Londra",
+      "Manchester",
+      "Dublino"
+    ],
+    "curiosita": "Il gruppo si formò a Liverpool nel 1960.",
+    "fatto": "beatles citta liverpool",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0005",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi compose la Nona sinfonia con l'\"Inno alla gioia\"?",
+    "risposte": [
+      "Beethoven",
+      "Mozart",
+      "Brahms",
+      "Schubert"
+    ],
+    "curiosita": "Quando la compose era quasi completamente sordo.",
+    "fatto": "nona sinfonia beethoven",
+    "fonte": "https://it.wikipedia.org/wiki/Sinfonia_n._9_(Beethoven)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0006",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quante corde ha una chitarra classica?",
+    "risposte": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "curiosita": "Le corde sono accordate Mi, La, Re, Sol, Si, Mi.",
+    "fatto": "corde chitarra classica sei",
+    "fonte": "https://it.wikipedia.org/wiki/Chitarra_classica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0007",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi era il cantante dei Queen?",
+    "risposte": [
+      "Freddie Mercury",
+      "David Bowie",
+      "Elton John",
+      "Mick Jagger"
+    ],
+    "curiosita": "Il suo vero nome era Farrokh Bulsara.",
+    "fatto": "cantante queen mercury",
+    "fonte": "https://it.wikipedia.org/wiki/Freddie_Mercury",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0008",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "In quale opera di Puccini si canta \"Nessun dorma\"?",
+    "risposte": [
+      "Turandot",
+      "Tosca",
+      "La bohème",
+      "Madama Butterfly"
+    ],
+    "curiosita": "Puccini morì prima di finirla: la completò Franco Alfano.",
+    "fatto": "nessun dorma turandot",
+    "fonte": "https://it.wikipedia.org/wiki/Turandot",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0009",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il Teatro alla Scala?",
+    "risposte": [
+      "Milano",
+      "Roma",
+      "Torino",
+      "Venezia"
+    ],
+    "curiosita": "Fu inaugurato nel 1778.",
+    "fatto": "teatro alla scala milano",
+    "fonte": "https://it.wikipedia.org/wiki/Teatro_alla_Scala",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0010",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "In quale città si svolge il Festival della canzone italiana?",
+    "risposte": [
+      "Sanremo",
+      "Viareggio",
+      "Rimini",
+      "Napoli"
+    ],
+    "curiosita": "La prima edizione si tenne nel 1951.",
+    "fatto": "festival canzone italiana sanremo",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_di_Sanremo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0011",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "In quale città austriaca nacque Mozart?",
+    "risposte": [
+      "Salisburgo",
+      "Vienna",
+      "Innsbruck",
+      "Graz"
+    ],
+    "curiosita": "Nacque nel 1756 e morì a Vienna nel 1791.",
+    "fatto": "mozart nato a salisburgo",
+    "fonte": "https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0012",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento suonava Niccolò Paganini?",
+    "risposte": [
+      "Violino",
+      "Flauto",
+      "Pianoforte",
+      "Violoncello"
+    ],
+    "curiosita": "Per la sua bravura circolava la leggenda di un patto col diavolo.",
+    "fatto": "paganini violino",
+    "fonte": "https://it.wikipedia.org/wiki/Niccol%C3%B2_Paganini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0013",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale gruppo incise \"Bohemian Rhapsody\"?",
+    "risposte": [
+      "Queen",
+      "Beatles",
+      "Rolling Stones",
+      "Pink Floyd"
+    ],
+    "curiosita": "Il brano dura circa sei minuti.",
+    "fatto": "bohemian rhapsody queen",
+    "fonte": "https://it.wikipedia.org/wiki/Bohemian_Rhapsody",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0014",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi compose \"Il barbiere di Siviglia\", opera comica?",
+    "risposte": [
+      "Rossini",
+      "Verdi",
+      "Puccini",
+      "Bellini"
+    ],
+    "curiosita": "Alla prima, nel 1816, fu un fiasco.",
+    "fatto": "barbiere di siviglia rossini",
+    "fonte": "https://it.wikipedia.org/wiki/Il_barbiere_di_Siviglia_(Rossini)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0015",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante italiano è detto \"il Molleggiato\"?",
+    "risposte": [
+      "Adriano Celentano",
+      "Gianni Morandi",
+      "Lucio Battisti",
+      "Claudio Baglioni"
+    ],
+    "curiosita": "Il soprannome deriva dal suo modo di ballare.",
+    "fatto": "molleggiato celentano",
+    "fonte": "https://it.wikipedia.org/wiki/Adriano_Celentano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0016",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò per primo \"Nel blu dipinto di blu\"?",
+    "risposte": [
+      "Domenico Modugno",
+      "Claudio Villa",
+      "Mina",
+      "Tony Renis"
+    ],
+    "curiosita": "Vinse Sanremo nel 1958 ed è nota anche come \"Volare\".",
+    "fatto": "nel blu dipinto di blu modugno",
+    "fonte": "https://it.wikipedia.org/wiki/Nel_blu_dipinto_di_blu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0017",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "A quale famiglia di strumenti appartiene la tromba?",
+    "risposte": [
+      "Ottoni",
+      "Legni",
+      "Archi",
+      "Percussioni"
+    ],
+    "curiosita": "Il suono nasce dalla vibrazione delle labbra nel bocchino.",
+    "fatto": "tromba famiglia ottoni",
+    "fonte": "https://it.wikipedia.org/wiki/Ottoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0018",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quante sono le note musicali di base (do, re, mi…)?",
+    "risposte": [
+      "7",
+      "5",
+      "8",
+      "12"
+    ],
+    "curiosita": "I loro nomi derivano da un inno latino a San Giovanni.",
+    "fatto": "note musicali sette",
+    "fonte": "https://it.wikipedia.org/wiki/Nota_musicale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0019",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante americano è detto \"il Boss\"?",
+    "risposte": [
+      "Bruce Springsteen",
+      "Bob Dylan",
+      "Billy Joel",
+      "Bon Jovi"
+    ],
+    "curiosita": "Il suo album più celebre è \"Born to Run\" (1975).",
+    "fatto": "boss springsteen",
+    "fonte": "https://it.wikipedia.org/wiki/Bruce_Springsteen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0020",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale gruppo era cantante Mick Jagger?",
+    "risposte": [
+      "Rolling Stones",
+      "Beatles",
+      "The Who",
+      "Led Zeppelin"
+    ],
+    "curiosita": "Il nome viene da una canzone di Muddy Waters.",
+    "fatto": "jagger rolling stones",
+    "fonte": "https://it.wikipedia.org/wiki/The_Rolling_Stones",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0021",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi era il celebre tenore italiano nato a Modena?",
+    "risposte": [
+      "Pavarotti",
+      "Bocelli",
+      "Carreras",
+      "Gigli"
+    ],
+    "curiosita": "Con Domingo e Carreras formò il trio dei Tre Tenori.",
+    "fatto": "tenore modena pavarotti",
+    "fonte": "https://it.wikipedia.org/wiki/Luciano_Pavarotti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0022",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Like a Virgin\" nel 1984?",
+    "risposte": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Tina Turner"
+    ],
+    "curiosita": "È il titolo del suo secondo album.",
+    "fatto": "like a virgin madonna",
+    "fonte": "https://it.wikipedia.org/wiki/Madonna_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0023",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento suonava Jimi Hendrix?",
+    "risposte": [
+      "Chitarra elettrica",
+      "Basso",
+      "Batteria",
+      "Tastiera"
+    ],
+    "curiosita": "Suonava la chitarra da mancino.",
+    "fatto": "hendrix chitarra",
+    "fonte": "https://it.wikipedia.org/wiki/Jimi_Hendrix",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0024",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò la canzone \"Imagine\"?",
+    "risposte": [
+      "John Lennon",
+      "Paul McCartney",
+      "George Harrison",
+      "Ringo Starr"
+    ],
+    "curiosita": "Fu pubblicata nel 1971.",
+    "fatto": "imagine john lennon",
+    "fonte": "https://it.wikipedia.org/wiki/John_Lennon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0025",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi compose \"Il flauto magico\"?",
+    "risposte": [
+      "Mozart",
+      "Haydn",
+      "Salieri",
+      "Gluck"
+    ],
+    "curiosita": "Debuttò a Vienna nel 1791, pochi mesi prima della sua morte.",
+    "fatto": "flauto magico mozart",
+    "fonte": "https://it.wikipedia.org/wiki/Il_flauto_magico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0026",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantautore genovese scrisse \"La canzone di Marinella\"?",
+    "risposte": [
+      "Fabrizio De André",
+      "Luigi Tenco",
+      "Gino Paoli",
+      "Bruno Lauzi"
+    ],
+    "curiosita": "Fu portata al successo da Mina.",
+    "fatto": "marinella de andre",
+    "fonte": "https://it.wikipedia.org/wiki/La_canzone_di_Marinella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0027",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale gruppo cantava \"Another Brick in the Wall\"?",
+    "risposte": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "Genesis",
+      "Queen"
+    ],
+    "curiosita": "La seconda parte ha un coro di bambini.",
+    "fatto": "another brick in the wall pink floyd",
+    "fonte": "https://it.wikipedia.org/wiki/Another_Brick_in_the_Wall",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0028",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale canto è l'inno nazionale italiano?",
+    "risposte": [
+      "Inno di Mameli",
+      "Va, pensiero",
+      "'O sole mio",
+      "Bella ciao"
+    ],
+    "curiosita": "Il testo fu scritto da Goffredo Mameli nel 1847.",
+    "fatto": "inno nazionale italiano mameli",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Canto_degli_Italiani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0029",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale paese era il gruppo degli ABBA?",
+    "risposte": [
+      "Svezia",
+      "Norvegia",
+      "Danimarca",
+      "Finlandia"
+    ],
+    "curiosita": "Il nome è formato dalle iniziali dei quattro membri.",
+    "fatto": "abba svezia",
+    "fonte": "https://it.wikipedia.org/wiki/ABBA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0030",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante era detto \"il Re del pop\"?",
+    "risposte": [
+      "Michael Jackson",
+      "Prince",
+      "Elvis Presley",
+      "Madonna"
+    ],
+    "curiosita": "\"Thriller\" (1982) è tra gli album più venduti di sempre.",
+    "fatto": "re del pop michael jackson",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Jackson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0031",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Come si chiama il bastoncino del direttore d'orchestra?",
+    "risposte": [
+      "Bacchetta",
+      "Archetto",
+      "Plettro",
+      "Diapason"
+    ],
+    "curiosita": "Con la bacchetta il direttore scandisce il tempo.",
+    "fatto": "bacchetta direttore orchestra",
+    "fonte": "https://it.wikipedia.org/wiki/Direttore_d'orchestra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0032",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale opera di Verdi si canta \"Va, pensiero\"?",
+    "risposte": [
+      "Nabucco",
+      "Aida",
+      "Rigoletto",
+      "Otello"
+    ],
+    "curiosita": "Il coro è cantato dagli ebrei schiavi a Babilonia.",
+    "fatto": "va pensiero nabucco",
+    "fonte": "https://it.wikipedia.org/wiki/Nabucco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0033",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi compose \"Cavalleria rusticana\"?",
+    "risposte": [
+      "Mascagni",
+      "Leoncavallo",
+      "Puccini",
+      "Giordano"
+    ],
+    "curiosita": "Con \"Pagliacci\" forma un celebre dittico d'opera.",
+    "fatto": "cavalleria rusticana mascagni",
+    "fonte": "https://it.wikipedia.org/wiki/Cavalleria_rusticana_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0034",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi compose il balletto \"Il lago dei cigni\"?",
+    "risposte": [
+      "Čajkovskij",
+      "Stravinskij",
+      "Prokof'ev",
+      "Rachmaninov"
+    ],
+    "curiosita": "La prima, nel 1877, non ebbe successo.",
+    "fatto": "lago dei cigni cajkovskij",
+    "fonte": "https://it.wikipedia.org/wiki/Il_lago_dei_cigni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0035",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi compose il \"Boléro\"?",
+    "risposte": [
+      "Ravel",
+      "Debussy",
+      "Satie",
+      "Bizet"
+    ],
+    "curiosita": "Lo stesso tema si ripete per tutto il brano, in crescendo.",
+    "fatto": "bolero ravel",
+    "fonte": "https://it.wikipedia.org/wiki/Bol%C3%A9ro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0036",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi compose l'opera \"Carmen\"?",
+    "risposte": [
+      "Bizet",
+      "Gounod",
+      "Massenet",
+      "Offenbach"
+    ],
+    "curiosita": "Bizet morì tre mesi dopo la prima, senza vederne il successo.",
+    "fatto": "carmen bizet",
+    "fonte": "https://it.wikipedia.org/wiki/Carmen_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0037",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo rock scrisse \"Stairway to Heaven\"?",
+    "risposte": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "The Doors"
+    ],
+    "curiosita": "Uscì nel 1971 nel quarto album, senza titolo.",
+    "fatto": "stairway to heaven led zeppelin",
+    "fonte": "https://it.wikipedia.org/wiki/Stairway_to_Heaven",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0038",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Albachiara\"?",
+    "risposte": [
+      "Vasco Rossi",
+      "Ligabue",
+      "Zucchero",
+      "Jovanotti"
+    ],
+    "curiosita": "Il brano è del 1979.",
+    "fatto": "albachiara vasco rossi",
+    "fonte": "https://it.wikipedia.org/wiki/Albachiara",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0039",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Con quale cantante Sarah Brightman incise \"Time to Say Goodbye\"?",
+    "risposte": [
+      "Andrea Bocelli",
+      "Luciano Pavarotti",
+      "Il Volo",
+      "Eros Ramazzotti"
+    ],
+    "curiosita": "La versione italiana si intitola \"Con te partirò\".",
+    "fatto": "time to say goodbye bocelli",
+    "fonte": "https://it.wikipedia.org/wiki/Con_te_partir%C3%B2",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0040",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Qual è lo strumento più piccolo e acuto della famiglia dei flauti?",
+    "risposte": [
+      "Ottavino",
+      "Oboe",
+      "Clarinetto",
+      "Fagotto"
+    ],
+    "curiosita": "Suona un'ottava sopra il flauto traverso.",
+    "fatto": "ottavino strumento piu acuto",
+    "fonte": "https://it.wikipedia.org/wiki/Ottavino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0041",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantava \"Questo piccolo grande amore\"?",
+    "risposte": [
+      "Claudio Baglioni",
+      "Lucio Dalla",
+      "Francesco De Gregori",
+      "Antonello Venditti"
+    ],
+    "curiosita": "Uscì nel 1972 nell'album omonimo.",
+    "fatto": "questo piccolo grande amore baglioni",
+    "fonte": "https://it.wikipedia.org/wiki/Questo_piccolo_grande_amore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0042",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Caruso\" nel 1986?",
+    "risposte": [
+      "Lucio Dalla",
+      "Francesco Guccini",
+      "Ron",
+      "Vasco Rossi"
+    ],
+    "curiosita": "Ricorda il grande tenore Enrico Caruso.",
+    "fatto": "caruso lucio dalla",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Dalla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0043",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quante sinfonie scrisse Beethoven?",
+    "risposte": [
+      "9",
+      "7",
+      "10",
+      "12"
+    ],
+    "curiosita": "L'ultima introduce un coro nel finale.",
+    "fatto": "sinfonie beethoven nove",
+    "fonte": "https://it.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0044",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale città nacque Giacomo Puccini?",
+    "risposte": [
+      "Lucca",
+      "Pisa",
+      "Livorno",
+      "Firenze"
+    ],
+    "curiosita": "La sua famiglia di musicisti viveva a Lucca da generazioni.",
+    "fatto": "puccini nato a lucca",
+    "fonte": "https://it.wikipedia.org/wiki/Giacomo_Puccini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0045",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo italiano vinse l'Eurovision nel 2021?",
+    "risposte": [
+      "Måneskin",
+      "Il Volo",
+      "Negramaro",
+      "Pooh"
+    ],
+    "curiosita": "Vinse a Rotterdam con \"Zitti e buoni\".",
+    "fatto": "eurovision 2021 maneskin",
+    "fonte": "https://it.wikipedia.org/wiki/M%C3%A5neskin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0046",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Qual è la voce maschile più grave?",
+    "risposte": [
+      "Basso",
+      "Baritono",
+      "Tenore",
+      "Controtenore"
+    ],
+    "curiosita": "Il basso canta le note più profonde del coro.",
+    "fatto": "voce maschile piu grave basso",
+    "fonte": "https://it.wikipedia.org/wiki/Basso_(voce)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0047",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantante è detta \"la Tigre di Cremona\"?",
+    "risposte": [
+      "Mina",
+      "Ornella Vanoni",
+      "Patty Pravo",
+      "Milva"
+    ],
+    "curiosita": "Dal 1978 non si esibisce più in pubblico.",
+    "fatto": "tigre di cremona mina",
+    "fonte": "https://it.wikipedia.org/wiki/Mina_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0048",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale anno si tenne il festival di Woodstock?",
+    "risposte": [
+      "1969",
+      "1967",
+      "1971",
+      "1973"
+    ],
+    "curiosita": "Durò tre giorni nell'agosto del 1969.",
+    "fatto": "woodstock 1969",
+    "fonte": "https://it.wikipedia.org/wiki/Woodstock_(festival)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0049",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale chiave musicale si usa di solito per le note acute?",
+    "risposte": [
+      "Chiave di violino",
+      "Chiave di basso",
+      "Chiave di Do",
+      "Chiave di tenore"
+    ],
+    "curiosita": "Il suo simbolo deriva dalla lettera G.",
+    "fatto": "chiave di violino note acute",
+    "fonte": "https://it.wikipedia.org/wiki/Chiave_(musica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0050",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Space Oddity\"?",
+    "risposte": [
+      "David Bowie",
+      "Elton John",
+      "Rod Stewart",
+      "Marc Bolan"
+    ],
+    "curiosita": "Uscì pochi giorni prima del lancio dell'Apollo 11.",
+    "fatto": "space oddity bowie",
+    "fonte": "https://it.wikipedia.org/wiki/Space_Oddity",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0051",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Hotel California\"?",
+    "risposte": [
+      "Eagles",
+      "Fleetwood Mac",
+      "Toto",
+      "Doobie Brothers"
+    ],
+    "curiosita": "Il brano è del 1976 ed è il titolo dell'album.",
+    "fatto": "hotel california eagles",
+    "fonte": "https://it.wikipedia.org/wiki/Hotel_California",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0052",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantante americano era detto \"The Voice\"?",
+    "risposte": [
+      "Frank Sinatra",
+      "Dean Martin",
+      "Bing Crosby",
+      "Tony Bennett"
+    ],
+    "curiosita": "Era chiamato anche \"Occhi azzurri\".",
+    "fatto": "the voice sinatra",
+    "fonte": "https://it.wikipedia.org/wiki/Frank_Sinatra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0053",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Blowin' in the Wind\"?",
+    "risposte": [
+      "Bob Dylan",
+      "Joan Baez",
+      "Neil Young",
+      "Paul Simon"
+    ],
+    "curiosita": "Dylan ha ricevuto il Nobel per la letteratura nel 2016.",
+    "fatto": "blowin in the wind dylan",
+    "fonte": "https://it.wikipedia.org/wiki/Blowin'_in_the_Wind",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0054",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale strumento suonava Louis Armstrong?",
+    "risposte": [
+      "Tromba",
+      "Sassofono",
+      "Clarinetto",
+      "Trombone"
+    ],
+    "curiosita": "Era soprannominato Satchmo.",
+    "fatto": "louis armstrong tromba",
+    "fonte": "https://it.wikipedia.org/wiki/Louis_Armstrong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0055",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi compose l'opera \"Norma\"?",
+    "risposte": [
+      "Bellini",
+      "Donizetti",
+      "Rossini",
+      "Verdi"
+    ],
+    "curiosita": "L'aria \"Casta diva\" è tra le più celebri.",
+    "fatto": "norma bellini",
+    "fonte": "https://it.wikipedia.org/wiki/Norma_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0056",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale coppia cantò \"Felicità\" nel 1982?",
+    "risposte": [
+      "Al Bano e Romina Power",
+      "Wess e Dori Ghezzi",
+      "Righeira",
+      "Ricchi e Poveri"
+    ],
+    "curiosita": "Vinsero Sanremo 1984 con \"Ci sarà\".",
+    "fatto": "felicita al bano romina",
+    "fonte": "https://it.wikipedia.org/wiki/Al_Bano_e_Romina_Power",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0057",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Di quale gruppo è cantante Bono?",
+    "risposte": [
+      "U2",
+      "Coldplay",
+      "Blur",
+      "Oasis"
+    ],
+    "curiosita": "Il gruppo si formò a Dublino nel 1976.",
+    "fatto": "bono u2",
+    "fonte": "https://it.wikipedia.org/wiki/U2",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0058",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale strumento a fiato è tipico della tradizione scozzese?",
+    "risposte": [
+      "Cornamusa",
+      "Oboe",
+      "Clarinetto",
+      "Tromba"
+    ],
+    "curiosita": "Il suono continuo è prodotto da un sacco d'aria.",
+    "fatto": "cornamusa scozzese",
+    "fonte": "https://it.wikipedia.org/wiki/Cornamusa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0059",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi scrisse i \"Concerti brandeburghesi\"?",
+    "risposte": [
+      "Bach",
+      "Haendel",
+      "Telemann",
+      "Corelli"
+    ],
+    "curiosita": "Li dedicò al margravio di Brandeburgo.",
+    "fatto": "concerti brandeburghesi bach",
+    "fonte": "https://it.wikipedia.org/wiki/Concerti_brandeburghesi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0060",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"La donna cannone\"?",
+    "risposte": [
+      "Francesco De Gregori",
+      "Lucio Dalla",
+      "Antonello Venditti",
+      "Claudio Baglioni"
+    ],
+    "curiosita": "Il brano è del 1983.",
+    "fatto": "donna cannone de gregori",
+    "fonte": "https://it.wikipedia.org/wiki/La_donna_cannone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0061",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose la musica dell'inno italiano?",
+    "risposte": [
+      "Michele Novaro",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Goffredo Mameli"
+    ],
+    "curiosita": "Mameli scrisse solo il testo.",
+    "fatto": "musica inno italiano novaro",
+    "fonte": "https://it.wikipedia.org/wiki/Michele_Novaro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0062",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale città debuttò l'Aida nel 1871?",
+    "risposte": [
+      "Il Cairo",
+      "Milano",
+      "Parigi",
+      "Venezia"
+    ],
+    "curiosita": "Andò in scena al Teatro dell'Opera del Cairo.",
+    "fatto": "aida debutto il cairo",
+    "fonte": "https://it.wikipedia.org/wiki/Aida_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0063",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi fu la moglie di Robert Schumann, pianista e compositrice?",
+    "risposte": [
+      "Clara Wieck",
+      "Fanny Mendelssohn",
+      "Alma Mahler",
+      "Cosima Wagner"
+    ],
+    "curiosita": "Fu una delle pianiste più celebri dell'Ottocento.",
+    "fatto": "moglie schumann clara",
+    "fonte": "https://it.wikipedia.org/wiki/Clara_Schumann",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0064",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"L'Orfeo\" nel 1607?",
+    "risposte": [
+      "Claudio Monteverdi",
+      "Jacopo Peri",
+      "Francesco Cavalli",
+      "Giulio Caccini"
+    ],
+    "curiosita": "È tra le prime grandi opere liriche della storia.",
+    "fatto": "orfeo monteverdi 1607",
+    "fonte": "https://it.wikipedia.org/wiki/Claudio_Monteverdi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0065",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"La sagra della primavera\"?",
+    "risposte": [
+      "Stravinskij",
+      "Čajkovskij",
+      "Prokof'ev",
+      "Šostakovič"
+    ],
+    "curiosita": "La prima a Parigi, nel 1913, scatenò un tumulto.",
+    "fatto": "sagra della primavera stravinskij",
+    "fonte": "https://it.wikipedia.org/wiki/La_sagra_della_primavera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0066",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose l'opera \"La Gioconda\", con la \"Danza delle ore\"?",
+    "risposte": [
+      "Ponchielli",
+      "Boito",
+      "Catalani",
+      "Cilea"
+    ],
+    "curiosita": "La \"Danza delle ore\" appare anche in \"Fantasia\" di Disney.",
+    "fatto": "gioconda ponchielli danza delle ore",
+    "fonte": "https://it.wikipedia.org/wiki/La_Gioconda_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0067",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"I pini di Roma\"?",
+    "risposte": [
+      "Respighi",
+      "Mascagni",
+      "Casella",
+      "Busoni"
+    ],
+    "curiosita": "Include il canto di un usignolo registrato su disco.",
+    "fatto": "pini di roma respighi",
+    "fonte": "https://it.wikipedia.org/wiki/I_pini_di_Roma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0068",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"Pierino e il lupo\"?",
+    "risposte": [
+      "Prokof'ev",
+      "Stravinskij",
+      "Šostakovič",
+      "Musorgskij"
+    ],
+    "curiosita": "Ogni personaggio è associato a uno strumento.",
+    "fatto": "pierino e il lupo prokofiev",
+    "fonte": "https://it.wikipedia.org/wiki/Pierino_e_il_lupo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0069",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"Quadri di un'esposizione\"?",
+    "risposte": [
+      "Musorgskij",
+      "Rimskij-Korsakov",
+      "Borodin",
+      "Glinka"
+    ],
+    "curiosita": "Si ispira a dipinti dell'amico Viktor Hartmann.",
+    "fatto": "quadri di un esposizione musorgskij",
+    "fonte": "https://it.wikipedia.org/wiki/Quadri_di_un'esposizione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0070",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"Rapsodia in blu\"?",
+    "risposte": [
+      "George Gershwin",
+      "Leonard Bernstein",
+      "Aaron Copland",
+      "Cole Porter"
+    ],
+    "curiosita": "Fu presentata nel 1924 con Gershwin al pianoforte.",
+    "fatto": "rapsodia in blu gershwin",
+    "fonte": "https://it.wikipedia.org/wiki/Rapsodia_in_blu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0071",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi era il cantante dei Doors?",
+    "risposte": [
+      "Jim Morrison",
+      "Roger Daltrey",
+      "Robert Plant",
+      "Eddie Vedder"
+    ],
+    "curiosita": "Il nome del gruppo viene da un libro di Aldous Huxley.",
+    "fatto": "cantante doors morrison",
+    "fonte": "https://it.wikipedia.org/wiki/The_Doors",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0072",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale cantante ha il vero nome Reginald Dwight?",
+    "risposte": [
+      "Elton John",
+      "David Bowie",
+      "Rod Stewart",
+      "Sting"
+    ],
+    "curiosita": "Il nome d'arte unisce quelli di due colleghi musicisti.",
+    "fatto": "reginald dwight elton john",
+    "fonte": "https://it.wikipedia.org/wiki/Elton_John",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0073",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo cantava \"Smoke on the Water\"?",
+    "risposte": [
+      "Deep Purple",
+      "Led Zeppelin",
+      "Black Sabbath",
+      "Uriah Heep"
+    ],
+    "curiosita": "Parla di un incendio al casinò di Montreux, in Svizzera.",
+    "fatto": "smoke on the water deep purple",
+    "fonte": "https://it.wikipedia.org/wiki/Smoke_on_the_Water",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0074",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale compositore è detto \"il Cigno di Pesaro\"?",
+    "risposte": [
+      "Gioachino Rossini",
+      "Gaetano Donizetti",
+      "Vincenzo Bellini",
+      "Giuseppe Verdi"
+    ],
+    "curiosita": "Smise di scrivere opere a 37 anni e visse altri 39.",
+    "fatto": "cigno di pesaro rossini",
+    "fonte": "https://it.wikipedia.org/wiki/Gioachino_Rossini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0075",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale città si trova il Teatro La Fenice?",
+    "risposte": [
+      "Venezia",
+      "Trieste",
+      "Verona",
+      "Genova"
+    ],
+    "curiosita": "Fu ricostruito dopo gli incendi del 1836 e del 1996.",
+    "fatto": "teatro la fenice venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Teatro_La_Fenice",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0076",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale cantante vinse Sanremo nel 1964, a soli sedici anni?",
+    "risposte": [
+      "Gigliola Cinquetti",
+      "Mina",
+      "Rita Pavone",
+      "Caterina Caselli"
+    ],
+    "curiosita": "La canzone era \"Non ho l'età\"; vinse anche l'Eurovision.",
+    "fatto": "non ho l eta cinquetti",
+    "fonte": "https://it.wikipedia.org/wiki/Gigliola_Cinquetti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0077",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale canzone napoletana inizia con \"Che bella cosa na jurnata 'e sole\"?",
+    "risposte": [
+      "'O sole mio",
+      "Funiculì funiculà",
+      "Torna a Surriento",
+      "Santa Lucia"
+    ],
+    "curiosita": "Fu composta nel 1898 da Di Capua, su testo di Capurro.",
+    "fatto": "o sole mio napoletana",
+    "fonte": "https://it.wikipedia.org/wiki/'O_sole_mio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0078",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo italiano cantava \"Piccola Katy\"?",
+    "risposte": [
+      "Pooh",
+      "Nomadi",
+      "Equipe 84",
+      "Dik Dik"
+    ],
+    "curiosita": "Il gruppo si formò a Bologna nel 1966.",
+    "fatto": "piccola katy pooh",
+    "fonte": "https://it.wikipedia.org/wiki/Pooh_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0079",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale strumento inventò Bartolomeo Cristofori?",
+    "risposte": [
+      "Pianoforte",
+      "Clavicembalo",
+      "Organo",
+      "Violino"
+    ],
+    "curiosita": "Lo costruì a Firenze intorno al 1700, per i Medici.",
+    "fatto": "cristofori inventore pianoforte",
+    "fonte": "https://it.wikipedia.org/wiki/Bartolomeo_Cristofori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0080",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi inventò il sassofono?",
+    "risposte": [
+      "Adolphe Sax",
+      "Theobald Boehm",
+      "Antoine Courtois",
+      "Hector Berlioz"
+    ],
+    "curiosita": "Lo brevettò a Parigi nel 1846.",
+    "fatto": "inventore sassofono sax",
+    "fonte": "https://it.wikipedia.org/wiki/Sassofono",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0081",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi scrisse le \"Variazioni Goldberg\"?",
+    "risposte": [
+      "Bach",
+      "Haendel",
+      "Scarlatti",
+      "Couperin"
+    ],
+    "curiosita": "Il nome viene da un clavicembalista, secondo la tradizione.",
+    "fatto": "variazioni goldberg bach",
+    "fonte": "https://it.wikipedia.org/wiki/Variazioni_Goldberg",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0082",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"La cavalcata delle Valchirie\"?",
+    "risposte": [
+      "Wagner",
+      "Brahms",
+      "Strauss",
+      "Liszt"
+    ],
+    "curiosita": "Fa parte della tetralogia \"L'anello del Nibelungo\".",
+    "fatto": "cavalcata valchirie wagner",
+    "fonte": "https://it.wikipedia.org/wiki/La_Valchiria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0083",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose le \"Danze ungheresi\"?",
+    "risposte": [
+      "Brahms",
+      "Liszt",
+      "Bartók",
+      "Kodály"
+    ],
+    "curiosita": "Brahms era tedesco e si ispirò a melodie zigane.",
+    "fatto": "danze ungheresi brahms",
+    "fonte": "https://it.wikipedia.org/wiki/Danze_ungheresi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0084",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale album ha in copertina un prisma di luce?",
+    "risposte": [
+      "The Dark Side of the Moon",
+      "Wish You Were Here",
+      "Animals",
+      "The Wall"
+    ],
+    "curiosita": "Restò in classifica negli USA per oltre 700 settimane.",
+    "fatto": "album prisma dark side of the moon",
+    "fonte": "https://it.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0085",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Purple Rain\"?",
+    "risposte": [
+      "Prince",
+      "Michael Jackson",
+      "Lenny Kravitz",
+      "Stevie Wonder"
+    ],
+    "curiosita": "Il film omonimo del 1984 lo ebbe come protagonista.",
+    "fatto": "purple rain prince",
+    "fonte": "https://it.wikipedia.org/wiki/Prince_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0086",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi ideò il metodo dodecafonico?",
+    "risposte": [
+      "Arnold Schönberg",
+      "Igor Stravinskij",
+      "Anton Webern",
+      "Alban Berg"
+    ],
+    "curiosita": "Usa tutte le dodici note prima di ripetere la stessa.",
+    "fatto": "dodecafonia schonberg",
+    "fonte": "https://it.wikipedia.org/wiki/Dodecafonia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0087",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale musicista era detto \"il Re del Blues\"?",
+    "risposte": [
+      "B.B. King",
+      "Muddy Waters",
+      "Eric Clapton",
+      "Robert Johnson"
+    ],
+    "curiosita": "Chiamava la sua chitarra Lucille.",
+    "fatto": "re del blues bb king",
+    "fonte": "https://it.wikipedia.org/wiki/B.B._King",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0088",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi scrisse le musiche di scena per il \"Peer Gynt\"?",
+    "risposte": [
+      "Edvard Grieg",
+      "Jean Sibelius",
+      "Carl Nielsen",
+      "Antonín Dvořák"
+    ],
+    "curiosita": "Il dramma è di Henrik Ibsen.",
+    "fatto": "peer gynt grieg",
+    "fonte": "https://it.wikipedia.org/wiki/Edvard_Grieg",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0089",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose la sinfonia \"Dal Nuovo Mondo\"?",
+    "risposte": [
+      "Dvořák",
+      "Smetana",
+      "Janáček",
+      "Mahler"
+    ],
+    "curiosita": "La scrisse durante il soggiorno negli Stati Uniti.",
+    "fatto": "dal nuovo mondo dvorak",
+    "fonte": "https://it.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0090",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il cielo in una stanza\"?",
+    "risposte": [
+      "Gino Paoli",
+      "Luigi Tenco",
+      "Sergio Endrigo",
+      "Umberto Bindi"
+    ],
+    "curiosita": "La cantò Mina nel 1960 ed è un classico.",
+    "fatto": "il cielo in una stanza paoli",
+    "fonte": "https://it.wikipedia.org/wiki/Il_cielo_in_una_stanza",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

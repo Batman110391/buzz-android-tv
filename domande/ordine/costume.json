@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-cos-0001",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Festività italiane, dalla prima dell'anno",
+    "elementi": [
+      "Capodanno",
+      "Epifania",
+      "Ferragosto",
+      "Natale"
+    ],
+    "valori": [
+      "1 gennaio",
+      "6 gennaio",
+      "15 agosto",
+      "25 dicembre"
+    ],
+    "curiosita": "L'Epifania chiude le feste natalizie.",
+    "fatto": "ordine festivita italiane nell anno",
+    "fonte": "https://it.wikipedia.org/wiki/Festivit%C3%A0_in_Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0002",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Misure di tempo, dalla più breve alla più lunga",
+    "elementi": [
+      "Minuto",
+      "Ora",
+      "Giorno",
+      "Settimana"
+    ],
+    "valori": [
+      "60 secondi",
+      "60 minuti",
+      "24 ore",
+      "7 giorni"
+    ],
+    "curiosita": "Il sistema a base sessanta arriva dagli antichi Babilonesi.",
+    "fatto": "ordine unita di tempo",
+    "fonte": "https://it.wikipedia.org/wiki/Tempo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0003",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Giorni della settimana, dal primo all'ultimo",
+    "elementi": [
+      "Lunedì",
+      "Mercoledì",
+      "Venerdì",
+      "Domenica"
+    ],
+    "valori": [
+      "1°",
+      "3°",
+      "5°",
+      "7°"
+    ],
+    "curiosita": "In Italia la settimana inizia il lunedì.",
+    "fatto": "ordine giorni della settimana",
+    "fonte": "https://it.wikipedia.org/wiki/Settimana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0004",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Numeri romani, dal più piccolo al più grande",
+    "elementi": [
+      "V",
+      "X",
+      "L",
+      "C"
+    ],
+    "valori": [
+      "5",
+      "10",
+      "50",
+      "100"
+    ],
+    "curiosita": "La M, che vale mille, è il numero più grande dei più usati.",
+    "fatto": "ordine numeri romani",
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_romani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0005",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 1,
+    "criterio": "Segni zodiacali, dal primo del calendario",
+    "elementi": [
+      "Ariete",
+      "Gemelli",
+      "Leone",
+      "Bilancia"
+    ],
+    "valori": [
+      "21 marzo",
+      "21 maggio",
+      "23 luglio",
+      "23 settembre"
+    ],
+    "curiosita": "L'anno zodiacale inizia con l'equinozio di primavera.",
+    "fatto": "ordine segni zodiacali",
+    "fonte": "https://it.wikipedia.org/wiki/Zodiaco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0006",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Anniversari di nozze, dal più breve al più lungo",
+    "elementi": [
+      "Nozze d'argento",
+      "Nozze di perla",
+      "Nozze d'oro",
+      "Nozze di diamante"
+    ],
+    "valori": [
+      "25 anni",
+      "30 anni",
+      "50 anni",
+      "60 anni"
+    ],
+    "curiosita": "Dopo i 70 anni si celebrano le nozze di platino.",
+    "fatto": "ordine anniversari di nozze",
+    "fonte": "https://it.wikipedia.org/wiki/Anniversario_di_matrimonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0007",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Videogiochi, dal più antico al più recente",
+    "elementi": [
+      "Pong",
+      "Space Invaders",
+      "Pac-Man",
+      "Super Mario Bros."
+    ],
+    "valori": [
+      "1972",
+      "1978",
+      "1980",
+      "1985"
+    ],
+    "curiosita": "Pong è stato tra i primi videogiochi di successo.",
+    "fatto": "ordine videogiochi classici",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dei_videogiochi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0008",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Giocattoli, dal più antico al più recente",
+    "elementi": [
+      "Mattoncino Lego",
+      "Barbie",
+      "Cubo di Rubik",
+      "Tamagotchi"
+    ],
+    "valori": [
+      "1958",
+      "1959",
+      "1974",
+      "1996"
+    ],
+    "curiosita": "Lego e Barbie nacquero a un solo anno di distanza.",
+    "fatto": "ordine giocattoli famosi",
+    "fonte": "https://it.wikipedia.org/wiki/Giocattolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0009",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Ricorrenze d'autunno, dalla prima",
+    "elementi": [
+      "Halloween",
+      "Ognissanti",
+      "Commemorazione defunti",
+      "San Martino"
+    ],
+    "valori": [
+      "31 ottobre",
+      "1 novembre",
+      "2 novembre",
+      "11 novembre"
+    ],
+    "curiosita": "In molte regioni a San Martino si assaggia il vino nuovo.",
+    "fatto": "ordine ricorrenze autunno",
+    "fonte": "https://it.wikipedia.org/wiki/Ognissanti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0010",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 2,
+    "criterio": "Console Nintendo, dalla più vecchia",
+    "elementi": [
+      "NES",
+      "Game Boy",
+      "Nintendo 64",
+      "Wii"
+    ],
+    "valori": [
+      "1983",
+      "1989",
+      "1996",
+      "2006"
+    ],
+    "curiosita": "Il NES in Giappone si chiamava Famicom.",
+    "fatto": "ordine console nintendo",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0011",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Giochi da tavolo, dal più antico",
+    "elementi": [
+      "Monopoli",
+      "Cluedo",
+      "Risiko",
+      "Catan"
+    ],
+    "valori": [
+      "1935",
+      "1949",
+      "1957",
+      "1995"
+    ],
+    "curiosita": "Catan nacque in Germania e vinse numerosi premi.",
+    "fatto": "ordine giochi da tavolo",
+    "fonte": "https://it.wikipedia.org/wiki/Gioco_da_tavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0012",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Personaggi dei fumetti, dal più antico",
+    "elementi": [
+      "Superman",
+      "Tex",
+      "Asterix",
+      "Dylan Dog"
+    ],
+    "valori": [
+      "1938",
+      "1948",
+      "1959",
+      "1986"
+    ],
+    "curiosita": "Tex è uno dei fumetti italiani più longevi.",
+    "fatto": "ordine personaggi fumetti",
+    "fonte": "https://it.wikipedia.org/wiki/Fumetto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0013",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Oggetti di uso quotidiano, dal più antico",
+    "elementi": [
+      "Matita moderna",
+      "Cerniera lampo",
+      "Penna a sfera",
+      "Post-it"
+    ],
+    "valori": [
+      "1795",
+      "1913",
+      "1938",
+      "1980"
+    ],
+    "curiosita": "La matita moderna fu inventata da Nicolas-Jacques Conté.",
+    "fatto": "ordine oggetti quotidiani invenzione",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_tecnologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0014",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Marchi italiani, dalla fondazione più antica",
+    "elementi": [
+      "Barilla",
+      "Piaggio",
+      "Lavazza",
+      "Fiat"
+    ],
+    "valori": [
+      "1877",
+      "1884",
+      "1895",
+      "1899"
+    ],
+    "curiosita": "Barilla nacque a Parma come bottega di pane e pasta.",
+    "fatto": "ordine marchi italiani fondazione",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'industria_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cos-0015",
+    "tipo": "ordine",
+    "categoria": "costume",
+    "difficolta": 3,
+    "criterio": "Programmi tv italiani, dal più antico",
+    "elementi": [
+      "Festival di Sanremo",
+      "Carosello",
+      "Rischiatutto",
+      "Drive In"
+    ],
+    "valori": [
+      "1951",
+      "1957",
+      "1970",
+      "1983"
+    ],
+    "curiosita": "Carosello andò in onda fino al 1977.",
+    "fatto": "ordine programmi tv italiani",
+    "fonte": "https://it.wikipedia.org/wiki/Televisione_in_Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

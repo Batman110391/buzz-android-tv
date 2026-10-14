@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-mus-0001",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Compositori, dal più antico per nascita",
+    "elementi": [
+      "Vivaldi",
+      "Mozart",
+      "Beethoven",
+      "Verdi"
+    ],
+    "valori": [
+      "1678",
+      "1756",
+      "1770",
+      "1813"
+    ],
+    "curiosita": "Mozart e Beethoven nacquero a 14 anni di distanza.",
+    "fatto": "compositori per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_musica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0002",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Cantanti, dal più anziano per nascita",
+    "elementi": [
+      "Frank Sinatra",
+      "Elvis Presley",
+      "David Bowie",
+      "Lady Gaga"
+    ],
+    "valori": [
+      "1915",
+      "1935",
+      "1947",
+      "1986"
+    ],
+    "curiosita": "Elvis e Bowie nacquero entrambi l'8 gennaio.",
+    "fatto": "cantanti per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Elvis_Presley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0003",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Opere di Verdi, dalla più antica",
+    "elementi": [
+      "Nabucco",
+      "Rigoletto",
+      "La traviata",
+      "Aida"
+    ],
+    "valori": [
+      "1842",
+      "1851",
+      "1853",
+      "1871"
+    ],
+    "curiosita": "Rigoletto e Traviata debuttarono entrambe a Venezia.",
+    "fatto": "opere di verdi per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Verdi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0004",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Cantanti italiani, dal più anziano per nascita",
+    "elementi": [
+      "Domenico Modugno",
+      "Mina",
+      "Lucio Battisti",
+      "Vasco Rossi"
+    ],
+    "valori": [
+      "1928",
+      "1940",
+      "1943",
+      "1952"
+    ],
+    "curiosita": "Battisti nacque a Poggio Bustone, in provincia di Rieti.",
+    "fatto": "cantanti italiani per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Battisti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0005",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Album dei Beatles, dal più antico",
+    "elementi": [
+      "Please Please Me",
+      "Help!",
+      "Sgt. Pepper",
+      "Abbey Road"
+    ],
+    "valori": [
+      "1963",
+      "1965",
+      "1967",
+      "1969"
+    ],
+    "curiosita": "Abbey Road fu l'ultimo album registrato dal gruppo.",
+    "fatto": "album beatles per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Discografia_dei_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0006",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Strumenti, da meno a più corde",
+    "elementi": [
+      "Violino",
+      "Chitarra",
+      "Mandolino",
+      "Arpa da concerto"
+    ],
+    "valori": [
+      "4 corde",
+      "6 corde",
+      "8 corde",
+      "47 corde"
+    ],
+    "curiosita": "Nelle arpe le corde Do sono rosse.",
+    "fatto": "strumenti per numero di corde",
+    "fonte": "https://it.wikipedia.org/wiki/Arpa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0007",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Vincitori di Sanremo, dal più antico",
+    "elementi": [
+      "Nel blu dipinto di blu",
+      "Non ho l'età",
+      "Ci sarà",
+      "Zitti e buoni"
+    ],
+    "valori": [
+      "1958",
+      "1964",
+      "1984",
+      "2021"
+    ],
+    "curiosita": "\"Zitti e buoni\" vinse poi anche l'Eurovision.",
+    "fatto": "vincitori sanremo per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_di_Sanremo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0008",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Compositori, dal più antico al più recente",
+    "elementi": [
+      "Monteverdi",
+      "Bach",
+      "Haydn",
+      "Chopin"
+    ],
+    "valori": [
+      "1567",
+      "1685",
+      "1732",
+      "1810"
+    ],
+    "curiosita": "Bach e Haendel nacquero nello stesso anno, il 1685.",
+    "fatto": "compositori barocco romantico per nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_musica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0009",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Opere di Puccini, dalla più antica",
+    "elementi": [
+      "Manon Lescaut",
+      "La bohème",
+      "Tosca",
+      "Madama Butterfly"
+    ],
+    "valori": [
+      "1893",
+      "1896",
+      "1900",
+      "1904"
+    ],
+    "curiosita": "Turandot debuttò nel 1926, dopo la morte dell'autore.",
+    "fatto": "opere di puccini per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Giacomo_Puccini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0010",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Album di Michael Jackson, dal più antico",
+    "elementi": [
+      "Off the Wall",
+      "Thriller",
+      "Bad",
+      "Dangerous"
+    ],
+    "valori": [
+      "1979",
+      "1982",
+      "1987",
+      "1991"
+    ],
+    "curiosita": "Da \"Thriller\" uscirono sette singoli nella top 10 USA.",
+    "fatto": "album michael jackson per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Jackson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0011",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Compositori russi, dal più antico per nascita",
+    "elementi": [
+      "Glinka",
+      "Musorgskij",
+      "Čajkovskij",
+      "Rachmaninov"
+    ],
+    "valori": [
+      "1804",
+      "1839",
+      "1840",
+      "1873"
+    ],
+    "curiosita": "Musorgskij e Čajkovskij nacquero a un anno di distanza.",
+    "fatto": "compositori russi per nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_musica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0012",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Opere liriche, dalla più antica",
+    "elementi": [
+      "L'Orfeo",
+      "Barbiere di Siviglia",
+      "Norma",
+      "Carmen"
+    ],
+    "valori": [
+      "1607",
+      "1816",
+      "1831",
+      "1875"
+    ],
+    "curiosita": "\"Norma\" debuttò alla Scala di Milano.",
+    "fatto": "opere liriche per anno di debutto",
+    "fonte": "https://it.wikipedia.org/wiki/Opera_lirica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0013",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Eventi musicali, dal più antico",
+    "elementi": [
+      "Monterey Pop",
+      "Woodstock",
+      "Live Aid",
+      "Live 8"
+    ],
+    "valori": [
+      "1967",
+      "1969",
+      "1985",
+      "2005"
+    ],
+    "curiosita": "Live Aid si tenne in contemporanea a Londra e Filadelfia.",
+    "fatto": "festival concerti per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Live_Aid",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0014",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Album di Bowie, dal più antico",
+    "elementi": [
+      "Space Oddity",
+      "Ziggy Stardust",
+      "\"Heroes\"",
+      "Let's Dance"
+    ],
+    "valori": [
+      "1969",
+      "1972",
+      "1977",
+      "1983"
+    ],
+    "curiosita": "\"Heroes\" fu registrato a Berlino, vicino al Muro.",
+    "fatto": "album bowie per anno",
+    "fonte": "https://it.wikipedia.org/wiki/David_Bowie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0015",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Cantanti lirici, dal più anziano per nascita",
+    "elementi": [
+      "Enrico Caruso",
+      "Beniamino Gigli",
+      "Maria Callas",
+      "Luciano Pavarotti"
+    ],
+    "valori": [
+      "1873",
+      "1890",
+      "1923",
+      "1935"
+    ],
+    "curiosita": "Caruso fu tra i primi grandi cantanti a incidere dischi.",
+    "fatto": "cantanti lirici per nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Enrico_Caruso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

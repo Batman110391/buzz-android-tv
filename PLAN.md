@@ -184,7 +184,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 
 ### D — Domande dal server (§4 "Domande"; può procedere in parallelo a G1)
 - [x] D1 schema + `tools/domande_check.mjs` + `tools/mock_api.mjs`
-- [ ] D2 dotazione iniziale ~1.620 domande (12 categorie), check verde
+- [x] D2 dotazione iniziale ~1.620 domande (12 categorie), check verde
 - [ ] D3 prompt `genera.md`/`verifica.md` + `prompt_test.mjs`: soglie passate prima in mock, poi con le chiavi vere
 - [ ] D4 Worker + D1 + cron + endpoint, dotazione caricata, URL pubblico
 - [ ] D5 `game/domande.gd`: cache, validazione, riserva, uscite, esiti; prova sulla TV senza rete e con rete
@@ -197,8 +197,8 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] Dopo il 2026-11-10 le battute di Tony che diventano duetti
 
 ### G2 — Telefoni come controller
-- [ ] Lobby con QR + indirizzo + codice; il telefono sceglie personaggio e nome (1l)
-- [ ] 4 tasti con forma e testo (1m), risposta bloccata (1n), esito sul telefono
+- [x] Lobby con QR + indirizzo + codice; il telefono sceglie personaggio e nome (1l)
+- [x] 4 tasti con forma e testo (1m), risposta bloccata (1n), esito sul telefono
 - [ ] 2–6 giocatori reali, riconnessione, input non validi ignorati
 
 ### G3 — Mini-giochi

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-cos-0001",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quante facce ha un dado normale?",
+    "risposte": [
+      "6",
+      "4",
+      "8",
+      "12"
+    ],
+    "curiosita": "Esistono dadi anche a 4, 8, 10, 12 e 20 facce.",
+    "fatto": "facce dado normale",
+    "fonte": "https://it.wikipedia.org/wiki/Dado",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0002",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Di che colore è il vestito di Babbo Natale?",
+    "risposte": [
+      "Rosso",
+      "Verde",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Il rosso ricorda l'abito del vescovo San Nicola.",
+    "fatto": "colore vestito babbo natale",
+    "fonte": "https://it.wikipedia.org/wiki/Babbo_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0003",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale mese cade il Natale?",
+    "risposte": [
+      "Dicembre",
+      "Novembre",
+      "Gennaio",
+      "Ottobre"
+    ],
+    "curiosita": "Si festeggia il 25 dicembre; la vigilia è il 24.",
+    "fatto": "mese del natale",
+    "fonte": "https://it.wikipedia.org/wiki/Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0004",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che cosa si calza per pattinare sul ghiaccio?",
+    "risposte": [
+      "Pattini",
+      "Sandali",
+      "Stivali",
+      "Ciabatte"
+    ],
+    "curiosita": "Le prime lame erano ricavate da ossa di animali.",
+    "fatto": "calzatura pattinaggio ghiaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Pattinaggio_su_ghiaccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0005",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti giorni ha una settimana?",
+    "risposte": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "curiosita": "Il numero sette deriva da antiche tradizioni babilonesi e bibliche.",
+    "fatto": "giorni della settimana",
+    "fonte": "https://it.wikipedia.org/wiki/Settimana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0006",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che animale è Topolino?",
+    "risposte": [
+      "Topo",
+      "Gatto",
+      "Cane",
+      "Coniglio"
+    ],
+    "curiosita": "Nacque nel 1928 con il cortometraggio «Steamboat Willie».",
+    "fatto": "animale topolino",
+    "fonte": "https://it.wikipedia.org/wiki/Topolino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0007",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che cosa si stappa a Capodanno per brindare?",
+    "risposte": [
+      "Lo spumante",
+      "Il latte",
+      "Il tè",
+      "Il succo"
+    ],
+    "curiosita": "Il tappo è tenuto fermo da una gabbietta metallica, la «museruola».",
+    "fatto": "bevanda brindisi capodanno spumante",
+    "fonte": "https://it.wikipedia.org/wiki/Spumante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0008",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Come si chiama la festa mascherata di febbraio?",
+    "risposte": [
+      "Carnevale",
+      "Ferragosto",
+      "Epifania",
+      "Pasqua"
+    ],
+    "curiosita": "Finisce il martedì grasso, prima del Mercoledì delle Ceneri.",
+    "fatto": "festa mascherata febbraio carnevale",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0009",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale gioco di carte ha il nome di un utensile?",
+    "risposte": [
+      "Scopa",
+      "Briscola",
+      "Tresette",
+      "Burraco"
+    ],
+    "curiosita": "Si vince raccogliendo le carte dal tavolo, «facendo scopa».",
+    "fatto": "gioco di carte scopa",
+    "fonte": "https://it.wikipedia.org/wiki/Scopa_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0010",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale gioco si conta e gli altri si nascondono?",
+    "risposte": [
+      "Nascondino",
+      "Campana",
+      "Girotondo",
+      "Elastico"
+    ],
+    "curiosita": "In inglese si dice «hide and seek».",
+    "fatto": "gioco contare nascondersi nascondino",
+    "fonte": "https://it.wikipedia.org/wiki/Nascondino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0011",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale numero si chiama per la Polizia di Stato?",
+    "risposte": [
+      "113",
+      "115",
+      "118",
+      "116"
+    ],
+    "curiosita": "Il 112 è invece il numero dei Carabinieri e quello europeo.",
+    "fatto": "numero emergenza polizia di stato",
+    "fonte": "https://it.wikipedia.org/wiki/Polizia_di_Stato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0012",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quante stagioni ci sono in un anno?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "Le stagioni dipendono dall'inclinazione dell'asse terrestre.",
+    "fatto": "numero stagioni anno",
+    "fonte": "https://it.wikipedia.org/wiki/Stagione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0013",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti colori ha un semaforo stradale?",
+    "risposte": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "curiosita": "Il primo semaforo elettrico fu installato a Cleveland nel 1914.",
+    "fatto": "colori del semaforo",
+    "fonte": "https://it.wikipedia.org/wiki/Semaforo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0014",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che cosa si intaglia a Halloween?",
+    "risposte": [
+      "La zucca",
+      "L'anguria",
+      "Il melone",
+      "Il cavolo"
+    ],
+    "curiosita": "La lanterna si chiama «Jack-o'-lantern».",
+    "fatto": "intaglio zucca halloween",
+    "fonte": "https://it.wikipedia.org/wiki/Halloween",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0015",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Come si chiama la sera prima del Natale?",
+    "risposte": [
+      "Vigilia",
+      "Epifania",
+      "Avvento",
+      "Pasquetta"
+    ],
+    "curiosita": "Per tradizione in Italia si cena di magro.",
+    "fatto": "sera prima di natale vigilia",
+    "fonte": "https://it.wikipedia.org/wiki/Vigilia_di_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0016",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco ha pedine che si «mangiano» saltando?",
+    "risposte": [
+      "Dama",
+      "Scacchi",
+      "Go",
+      "Backgammon"
+    ],
+    "curiosita": "Esistono varianti internazionali con tavoliere da dieci per dieci.",
+    "fatto": "gioco pedine mangiano saltando dama",
+    "fonte": "https://it.wikipedia.org/wiki/Dama_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0017",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco si vince allineando quattro dischi?",
+    "risposte": [
+      "Forza 4",
+      "Tris",
+      "Dama",
+      "Othello"
+    ],
+    "curiosita": "La griglia verticale ha sette colonne e sei righe.",
+    "fatto": "gioco allineare quattro dischi forza 4",
+    "fonte": "https://it.wikipedia.org/wiki/Forza_quattro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0018",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco si fa con X e O su nove caselle?",
+    "risposte": [
+      "Tris",
+      "Forza 4",
+      "Dama",
+      "Battaglia navale"
+    ],
+    "curiosita": "Giocando bene da entrambe le parti finisce sempre in parità.",
+    "fatto": "gioco x e o nove caselle tris",
+    "fonte": "https://it.wikipedia.org/wiki/Tris_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0019",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco consiste nell'affondare navi sulla griglia?",
+    "risposte": [
+      "Battaglia navale",
+      "Risiko",
+      "Forza 4",
+      "Tris"
+    ],
+    "curiosita": "Si gioca anche con carta e penna, senza tavoliere.",
+    "fatto": "gioco affondare navi battaglia navale",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_navale_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0020",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quanti giorni dura la Quaresima?",
+    "risposte": [
+      "40",
+      "30",
+      "50",
+      "60"
+    ],
+    "curiosita": "Il numero richiama i quaranta giorni di digiuno di Gesù nel deserto.",
+    "fatto": "giorni di quaresima",
+    "fonte": "https://it.wikipedia.org/wiki/Quaresima",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0021",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco si fa roteando un cerchio sui fianchi?",
+    "risposte": [
+      "Hula hoop",
+      "Frisbee",
+      "Yo-yo",
+      "Bocce"
+    ],
+    "curiosita": "Negli anni Cinquanta ne furono vendute milioni in pochi mesi.",
+    "fatto": "gioco cerchio fianchi hula hoop",
+    "fonte": "https://it.wikipedia.org/wiki/Hula_hoop",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0022",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco di carte ha il «full» e la «scala reale»?",
+    "risposte": [
+      "Poker",
+      "Scopa",
+      "Briscola",
+      "Tresette"
+    ],
+    "curiosita": "Il punteggio più alto è la scala reale.",
+    "fatto": "gioco carte full scala reale poker",
+    "fonte": "https://it.wikipedia.org/wiki/Poker",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0023",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Nel Blackjack, a quale punteggio bisogna avvicinarsi?",
+    "risposte": [
+      "21",
+      "18",
+      "20",
+      "25"
+    ],
+    "curiosita": "In italiano il gioco si chiama anche ventuno.",
+    "fatto": "punteggio da raggiungere blackjack",
+    "fonte": "https://it.wikipedia.org/wiki/Blackjack",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0024",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Qual è il giorno di Pasquetta?",
+    "risposte": [
+      "Lunedì",
+      "Martedì",
+      "Sabato",
+      "Giovedì"
+    ],
+    "curiosita": "Segue la domenica di Pasqua ed è festivo in Italia.",
+    "fatto": "giorno della settimana pasquetta",
+    "fonte": "https://it.wikipedia.org/wiki/Pasquetta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0025",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Di quale città è la maschera di Gianduja?",
+    "risposte": [
+      "Torino",
+      "Venezia",
+      "Bologna",
+      "Napoli"
+    ],
+    "curiosita": "Il cioccolato gianduia prende il nome proprio da lui.",
+    "fatto": "maschera gianduja citta torino",
+    "fonte": "https://it.wikipedia.org/wiki/Gianduja",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0026",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante candele ha il candelabro di Hanukkah?",
+    "risposte": [
+      "9",
+      "7",
+      "8",
+      "12"
+    ],
+    "curiosita": "Otto ricordano i giorni della festa, la nona serve ad accendere le altre.",
+    "fatto": "candele candelabro hanukkah",
+    "fonte": "https://it.wikipedia.org/wiki/Hanukkah",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0027",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante carte ha un mazzo di UNO?",
+    "risposte": [
+      "108",
+      "96",
+      "100",
+      "120"
+    ],
+    "curiosita": "Fu inventato nel 1971 da Merle Robbins, un barbiere dell'Ohio.",
+    "fatto": "carte mazzo uno",
+    "fonte": "https://it.wikipedia.org/wiki/UNO_(gioco_di_carte)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0028",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti tipi di tetramino esistono in Tetris?",
+    "risposte": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "curiosita": "Ogni tetramino è formato da quattro quadratini.",
+    "fatto": "tipi di tetramino in tetris",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0029",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante sono le ruote del Lotto, con la Nazionale?",
+    "risposte": [
+      "11",
+      "8",
+      "10",
+      "12"
+    ],
+    "curiosita": "Prendono il nome da città come Bari, Cagliari, Firenze e Genova.",
+    "fatto": "ruote del lotto con nazionale",
+    "fonte": "https://it.wikipedia.org/wiki/Lotto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cos-0030",
+    "tipo": "lampo",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Di che colore è lo zero alla roulette?",
+    "risposte": [
+      "Verde",
+      "Rosso",
+      "Nero",
+      "Giallo"
+    ],
+    "curiosita": "Lo zero dà un vantaggio al banco, che vince le puntate sui colori.",
+    "fatto": "colore zero roulette",
+    "fonte": "https://it.wikipedia.org/wiki/Roulette",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

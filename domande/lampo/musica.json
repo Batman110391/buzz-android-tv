@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-mus-0001",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quante corde ha un violino?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "Sono accordate Sol, Re, La, Mi.",
+    "fatto": "corde violino quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Violino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0002",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantava \"Jailhouse Rock\"?",
+    "risposte": [
+      "Elvis Presley",
+      "Johnny Cash",
+      "Buddy Holly",
+      "Roy Orbison"
+    ],
+    "curiosita": "Elvis viveva a Graceland, a Memphis.",
+    "fatto": "jailhouse rock elvis",
+    "fonte": "https://it.wikipedia.org/wiki/Elvis_Presley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0003",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Rolling in the Deep\"?",
+    "risposte": [
+      "Adele",
+      "Rihanna",
+      "Beyoncé",
+      "Shakira"
+    ],
+    "curiosita": "Il suo nome completo è Adele Adkins.",
+    "fatto": "rolling in the deep adele",
+    "fonte": "https://it.wikipedia.org/wiki/Adele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0004",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante lirica era detta \"la Divina\"?",
+    "risposte": [
+      "Maria Callas",
+      "Mina",
+      "Renata Tebaldi",
+      "Joan Sutherland"
+    ],
+    "curiosita": "Nacque a New York da genitori greci.",
+    "fatto": "divina maria callas",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Callas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0005",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Lose Yourself\"?",
+    "risposte": [
+      "Eminem",
+      "Jay-Z",
+      "Drake",
+      "Snoop Dogg"
+    ],
+    "curiosita": "Il brano è del film \"8 Mile\" (2002).",
+    "fatto": "lose yourself eminem",
+    "fonte": "https://it.wikipedia.org/wiki/Eminem",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0006",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento ha le canne e si suona in chiesa?",
+    "risposte": [
+      "Organo",
+      "Arpa",
+      "Violino",
+      "Fisarmonica"
+    ],
+    "curiosita": "Alcuni organi hanno migliaia di canne.",
+    "fatto": "organo canne chiesa",
+    "fonte": "https://it.wikipedia.org/wiki/Organo_(strumento_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0007",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento si suona con le bacchette?",
+    "risposte": [
+      "Tamburo",
+      "Violino",
+      "Flauto",
+      "Arpa"
+    ],
+    "curiosita": "È uno degli strumenti più antichi del mondo.",
+    "fatto": "tamburo bacchette",
+    "fonte": "https://it.wikipedia.org/wiki/Tamburo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0008",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Hips Don't Lie\"?",
+    "risposte": [
+      "Shakira",
+      "Jennifer Lopez",
+      "Beyoncé",
+      "Rihanna"
+    ],
+    "curiosita": "Nacque a Barranquilla, in Colombia.",
+    "fatto": "hips dont lie shakira",
+    "fonte": "https://it.wikipedia.org/wiki/Shakira",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0009",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi era il cantante dei Police?",
+    "risposte": [
+      "Sting",
+      "Bono",
+      "Phil Collins",
+      "Peter Gabriel"
+    ],
+    "curiosita": "Il suo vero nome è Gordon Sumner.",
+    "fatto": "cantante police sting",
+    "fonte": "https://it.wikipedia.org/wiki/Sting",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0010",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Livin' la vida loca\"?",
+    "risposte": [
+      "Ricky Martin",
+      "Enrique Iglesias",
+      "Marc Anthony",
+      "Julio Iglesias"
+    ],
+    "curiosita": "Il brano del 1999 lo rese famoso nel mondo.",
+    "fatto": "livin la vida loca ricky martin",
+    "fonte": "https://it.wikipedia.org/wiki/Livin'_la_vida_loca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0011",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Qual è il cognome di Lady Gaga?",
+    "risposte": [
+      "Germanotta",
+      "Hudson",
+      "Moore",
+      "Fenty"
+    ],
+    "curiosita": "Ha origini italiane da parte di padre.",
+    "fatto": "vero nome lady gaga germanotta",
+    "fonte": "https://it.wikipedia.org/wiki/Lady_Gaga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0012",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quanti erano i membri dei Beatles?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "John, Paul, George e Ringo.",
+    "fatto": "membri beatles quattro",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0013",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quante erano le Spice Girls?",
+    "risposte": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "curiosita": "Avevano soprannomi come Scary e Posh.",
+    "fatto": "spice girls cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Spice_Girls",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0014",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Come si chiama la danza viennese in tre quarti?",
+    "risposte": [
+      "Valzer",
+      "Tango",
+      "Samba",
+      "Polka"
+    ],
+    "curiosita": "Il suo ritmo è in tre quarti.",
+    "fatto": "valzer danza viennese",
+    "fonte": "https://it.wikipedia.org/wiki/Valzer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0015",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Da quale paese sudamericano viene il tango?",
+    "risposte": [
+      "Argentina",
+      "Brasile",
+      "Cile",
+      "Perù"
+    ],
+    "curiosita": "Nacque nella zona del Río de la Plata.",
+    "fatto": "tango argentina",
+    "fonte": "https://it.wikipedia.org/wiki/Tango",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0016",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Qual è il vero nome di Jovanotti?",
+    "risposte": [
+      "Lorenzo",
+      "Luca",
+      "Lucio",
+      "Loris"
+    ],
+    "curiosita": "Il suo cognome è Cherubini.",
+    "fatto": "vero nome jovanotti lorenzo",
+    "fonte": "https://it.wikipedia.org/wiki/Jovanotti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0017",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Come si fa chiamare Adelmo Fornaciari?",
+    "risposte": [
+      "Zucchero",
+      "Ligabue",
+      "Vasco Rossi",
+      "Jovanotti"
+    ],
+    "curiosita": "Il soprannome gli fu dato da un'insegnante.",
+    "fatto": "adelmo fornaciari zucchero",
+    "fonte": "https://it.wikipedia.org/wiki/Zucchero_Fornaciari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0018",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale città americana nacque il jazz?",
+    "risposte": [
+      "New Orleans",
+      "New York",
+      "Chicago",
+      "Memphis"
+    ],
+    "curiosita": "Nacque tra la comunità afroamericana a fine Ottocento.",
+    "fatto": "jazz new orleans",
+    "fonte": "https://it.wikipedia.org/wiki/Jazz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0019",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi è il cantante dei Coldplay?",
+    "risposte": [
+      "Chris Martin",
+      "Bono",
+      "Thom Yorke",
+      "Damon Albarn"
+    ],
+    "curiosita": "Il gruppo si formò a Londra nel 1996.",
+    "fatto": "cantante coldplay chris martin",
+    "fonte": "https://it.wikipedia.org/wiki/Coldplay",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0020",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Wonderwall\"?",
+    "risposte": [
+      "Oasis",
+      "Blur",
+      "Radiohead",
+      "Pulp"
+    ],
+    "curiosita": "Il gruppo era guidato dai fratelli Gallagher.",
+    "fatto": "wonderwall oasis",
+    "fonte": "https://it.wikipedia.org/wiki/Wonderwall",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0021",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Di quale paese era Chopin?",
+    "risposte": [
+      "Polonia",
+      "Francia",
+      "Austria",
+      "Russia"
+    ],
+    "curiosita": "Nacque vicino a Varsavia e visse a Parigi.",
+    "fatto": "chopin polonia",
+    "fonte": "https://it.wikipedia.org/wiki/Fryderyk_Chopin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0022",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Di quale paese era Johann Strauss, re del valzer?",
+    "risposte": [
+      "Austria",
+      "Germania",
+      "Ungheria",
+      "Svizzera"
+    ],
+    "curiosita": "Il figlio e il padre portavano lo stesso nome.",
+    "fatto": "johann strauss austria",
+    "fonte": "https://it.wikipedia.org/wiki/Johann_Strauss_(figlio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0023",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Da quale arcipelago viene l'ukulele?",
+    "risposte": [
+      "Hawaii",
+      "Tahiti",
+      "Fiji",
+      "Samoa"
+    ],
+    "curiosita": "Il nome significa \"pulce che salta\" in hawaiano.",
+    "fatto": "ukulele hawaii",
+    "fonte": "https://it.wikipedia.org/wiki/Ukulele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0024",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale città nasce lo Zecchino d'Oro?",
+    "risposte": [
+      "Bologna",
+      "Milano",
+      "Roma",
+      "Torino"
+    ],
+    "curiosita": "La prima edizione si tenne nel 1959.",
+    "fatto": "zecchino d oro bologna",
+    "fonte": "https://it.wikipedia.org/wiki/Zecchino_d'Oro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0025",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "In quale città c'è l'Arena delle opere liriche?",
+    "risposte": [
+      "Verona",
+      "Mantova",
+      "Padova",
+      "Vicenza"
+    ],
+    "curiosita": "È un anfiteatro romano del I secolo.",
+    "fatto": "arena opera lirica verona",
+    "fonte": "https://it.wikipedia.org/wiki/Arena_di_Verona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0026",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"L'arte della fuga\"?",
+    "risposte": [
+      "Bach",
+      "Vivaldi",
+      "Haendel",
+      "Telemann"
+    ],
+    "curiosita": "Rimase incompiuta alla morte dell'autore.",
+    "fatto": "arte della fuga bach",
+    "fonte": "https://it.wikipedia.org/wiki/L'arte_della_fuga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0027",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Di quale paese era Sibelius?",
+    "risposte": [
+      "Finlandia",
+      "Norvegia",
+      "Svezia",
+      "Danimarca"
+    ],
+    "curiosita": "Compose \"Finlandia\", simbolo di indipendenza.",
+    "fatto": "sibelius finlandia",
+    "fonte": "https://it.wikipedia.org/wiki/Jean_Sibelius",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0028",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"La Moldava\"?",
+    "risposte": [
+      "Smetana",
+      "Dvořák",
+      "Janáček",
+      "Liszt"
+    ],
+    "curiosita": "Fa parte del ciclo \"La mia patria\".",
+    "fatto": "moldava smetana",
+    "fonte": "https://it.wikipedia.org/wiki/Bed%C5%99ich_Smetana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0029",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"Il Messia\"?",
+    "risposte": [
+      "Haendel",
+      "Bach",
+      "Purcell",
+      "Vivaldi"
+    ],
+    "curiosita": "Il coro \"Alleluia\" è tra i più celebri.",
+    "fatto": "messia haendel",
+    "fonte": "https://it.wikipedia.org/wiki/Georg_Friedrich_H%C3%A4ndel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0030",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose \"Il carnevale degli animali\"?",
+    "risposte": [
+      "Saint-Saëns",
+      "Ravel",
+      "Debussy",
+      "Satie"
+    ],
+    "curiosita": "Include il celebre brano \"Il cigno\".",
+    "fatto": "carnevale degli animali saint saens",
+    "fonte": "https://it.wikipedia.org/wiki/Il_carnevale_degli_animali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

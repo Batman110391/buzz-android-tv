@@ -34,5 +34,1589 @@
     "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
     "origine": "claude",
     "creata": "2026-10-13"
+  },
+  {
+    "id": "cl-art-0003",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scolpì il David conservato a Firenze, alto oltre cinque metri?",
+    "risposte": [
+      "Michelangelo",
+      "Donatello",
+      "Bernini",
+      "Canova"
+    ],
+    "curiosita": "Il blocco di marmo era stato scartato da altri scultori.",
+    "fatto": "david firenze michelangelo",
+    "fonte": "https://it.wikipedia.org/wiki/David_(Michelangelo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0004",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse la volta della Cappella Sistina?",
+    "risposte": [
+      "Michelangelo",
+      "Raffaello",
+      "Leonardo",
+      "Botticelli"
+    ],
+    "curiosita": "Lavorò per circa quattro anni, dal 1508 al 1512.",
+    "fatto": "volta cappella sistina michelangelo",
+    "fonte": "https://it.wikipedia.org/wiki/Cappella_Sistina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0005",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"La notte stellata\"?",
+    "risposte": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Paul Gauguin",
+      "Edvard Munch"
+    ],
+    "curiosita": "La dipinse nel 1889, ricoverato a Saint-Rémy.",
+    "fatto": "notte stellata van gogh",
+    "fonte": "https://it.wikipedia.org/wiki/Notte_stellata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0006",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"Guernica\"?",
+    "risposte": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "Juan Gris"
+    ],
+    "curiosita": "Rappresenta il bombardamento della città basca nel 1937.",
+    "fatto": "guernica picasso",
+    "fonte": "https://it.wikipedia.org/wiki/Guernica_(dipinto)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0007",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"I promessi sposi\"?",
+    "risposte": [
+      "Alessandro Manzoni",
+      "Ugo Foscolo",
+      "Giacomo Leopardi",
+      "Giovanni Verga"
+    ],
+    "curiosita": "La versione definitiva del romanzo è del 1840.",
+    "fatto": "promessi sposi manzoni",
+    "fonte": "https://it.wikipedia.org/wiki/I_promessi_sposi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0008",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Pinocchio\"?",
+    "risposte": [
+      "Carlo Collodi",
+      "Edmondo De Amicis",
+      "Italo Calvino",
+      "Gianni Rodari"
+    ],
+    "curiosita": "Collodi è lo pseudonimo di Carlo Lorenzini.",
+    "fatto": "pinocchio collodi",
+    "fonte": "https://it.wikipedia.org/wiki/Le_avventure_di_Pinocchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0009",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Romeo e Giulietta\"?",
+    "risposte": [
+      "Shakespeare",
+      "Dickens",
+      "Marlowe",
+      "Byron"
+    ],
+    "curiosita": "La vicenda è ambientata a Verona.",
+    "fatto": "romeo e giulietta shakespeare",
+    "fonte": "https://it.wikipedia.org/wiki/Romeo_e_Giulietta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0010",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova la Galleria degli Uffizi?",
+    "risposte": [
+      "Firenze",
+      "Roma",
+      "Venezia",
+      "Milano"
+    ],
+    "curiosita": "Fu costruita nel Cinquecento per ospitare gli uffici dei magistrati.",
+    "fatto": "galleria uffizi firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Galleria_degli_Uffizi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0011",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il nome della rosa\"?",
+    "risposte": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Alberto Moravia",
+      "Primo Levi"
+    ],
+    "curiosita": "Il romanzo uscì nel 1980.",
+    "fatto": "nome della rosa eco",
+    "fonte": "https://it.wikipedia.org/wiki/Il_nome_della_rosa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0012",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse la saga di \"Harry Potter\"?",
+    "risposte": [
+      "J.K. Rowling",
+      "Roald Dahl",
+      "C.S. Lewis",
+      "J.R.R. Tolkien"
+    ],
+    "curiosita": "Il primo libro uscì nel 1997.",
+    "fatto": "harry potter rowling",
+    "fonte": "https://it.wikipedia.org/wiki/Harry_Potter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0013",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il Signore degli Anelli\"?",
+    "risposte": [
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "Lewis Carroll",
+      "Terry Pratchett"
+    ],
+    "curiosita": "Tolkien e Lewis erano amici e colleghi a Oxford.",
+    "fatto": "signore degli anelli tolkien",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Signore_degli_Anelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0014",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"La nascita di Venere\"?",
+    "risposte": [
+      "Botticelli",
+      "Raffaello",
+      "Tiziano",
+      "Giotto"
+    ],
+    "curiosita": "Fu dipinta intorno al 1485 con tempera su tela.",
+    "fatto": "nascita di venere botticelli",
+    "fonte": "https://it.wikipedia.org/wiki/La_nascita_di_Venere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0015",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il piccolo principe\"?",
+    "risposte": [
+      "Antoine de Saint-Exupéry",
+      "Jules Verne",
+      "Victor Hugo",
+      "Albert Camus"
+    ],
+    "curiosita": "Fu pubblicato nel 1943, scritto in esilio a New York.",
+    "fatto": "piccolo principe saint exupery",
+    "fonte": "https://it.wikipedia.org/wiki/Il_piccolo_principe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0016",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse il \"Decameron\"?",
+    "risposte": [
+      "Giovanni Boccaccio",
+      "Francesco Petrarca",
+      "Dante Alighieri",
+      "Niccolò Machiavelli"
+    ],
+    "curiosita": "Dieci giovani raccontano cento novelle durante la peste.",
+    "fatto": "decameron boccaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Decameron",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0017",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"L'urlo\"?",
+    "risposte": [
+      "Edvard Munch",
+      "Gustav Klimt",
+      "Egon Schiele",
+      "Paul Klee"
+    ],
+    "curiosita": "Ne esistono diverse versioni.",
+    "fatto": "urlo munch",
+    "fonte": "https://it.wikipedia.org/wiki/L'urlo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0018",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse la serie delle \"Ninfee\"?",
+    "risposte": [
+      "Claude Monet",
+      "Edgar Degas",
+      "Pierre Renoir",
+      "Paul Cézanne"
+    ],
+    "curiosita": "Le dipinse nel giardino della sua casa di Giverny.",
+    "fatto": "ninfee monet",
+    "fonte": "https://it.wikipedia.org/wiki/Claude_Monet",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0019",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scrittore creò l'investigatore Sherlock Holmes?",
+    "risposte": [
+      "Arthur Conan Doyle",
+      "Agatha Christie",
+      "Edgar Allan Poe",
+      "Charles Dickens"
+    ],
+    "curiosita": "Abitava al numero 221B di Baker Street.",
+    "fatto": "sherlock holmes conan doyle",
+    "fonte": "https://it.wikipedia.org/wiki/Sherlock_Holmes",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0020",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Le avventure di Tom Sawyer\"?",
+    "risposte": [
+      "Mark Twain",
+      "Jack London",
+      "Herman Melville",
+      "Edgar Allan Poe"
+    ],
+    "curiosita": "Mark Twain è lo pseudonimo di Samuel Clemens.",
+    "fatto": "tom sawyer mark twain",
+    "fonte": "https://it.wikipedia.org/wiki/Le_avventure_di_Tom_Sawyer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0021",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il giro del mondo in 80 giorni\"?",
+    "risposte": [
+      "Jules Verne",
+      "Alexandre Dumas",
+      "H.G. Wells",
+      "Victor Hugo"
+    ],
+    "curiosita": "Il protagonista è l'inglese Phileas Fogg.",
+    "fatto": "giro del mondo in 80 giorni verne",
+    "fonte": "https://it.wikipedia.org/wiki/Il_giro_del_mondo_in_ottanta_giorni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0022",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Don Chisciotte della Mancia\"?",
+    "risposte": [
+      "Miguel de Cervantes",
+      "Lope de Vega",
+      "García Márquez",
+      "García Lorca"
+    ],
+    "curiosita": "È spesso considerato il primo romanzo moderno.",
+    "fatto": "don chisciotte cervantes",
+    "fonte": "https://it.wikipedia.org/wiki/Don_Chisciotte_della_Mancia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0023",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi costruì la cupola di Santa Maria del Fiore a Firenze?",
+    "risposte": [
+      "Brunelleschi",
+      "Michelangelo",
+      "Bramante",
+      "Alberti"
+    ],
+    "curiosita": "La costruì senza una grande armatura di sostegno.",
+    "fatto": "cupola santa maria del fiore brunelleschi",
+    "fonte": "https://it.wikipedia.org/wiki/Filippo_Brunelleschi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0024",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Peter Pan\"?",
+    "risposte": [
+      "J.M. Barrie",
+      "Roald Dahl",
+      "Lewis Carroll",
+      "Kenneth Grahame"
+    ],
+    "curiosita": "Il protagonista è un ragazzo che non vuole crescere.",
+    "fatto": "peter pan barrie",
+    "fonte": "https://it.wikipedia.org/wiki/Peter_Pan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0025",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"L'ultima cena\" a Milano?",
+    "risposte": [
+      "Leonardo da Vinci",
+      "Raffaello",
+      "Giotto",
+      "Tiziano"
+    ],
+    "curiosita": "Si trova nel refettorio di Santa Maria delle Grazie.",
+    "fatto": "ultima cena leonardo",
+    "fonte": "https://it.wikipedia.org/wiki/Ultima_Cena_(Leonardo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0026",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi è l'autore dell'\"Odissea\"?",
+    "risposte": [
+      "Omero",
+      "Virgilio",
+      "Esiodo",
+      "Ovidio"
+    ],
+    "curiosita": "Racconta il ritorno di Ulisse a Itaca.",
+    "fatto": "odissea omero",
+    "fonte": "https://it.wikipedia.org/wiki/Odissea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0027",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse l'\"Eneide\"?",
+    "risposte": [
+      "Virgilio",
+      "Omero",
+      "Ovidio",
+      "Orazio"
+    ],
+    "curiosita": "Racconta la fuga di Enea da Troia in fiamme.",
+    "fatto": "eneide virgilio",
+    "fonte": "https://it.wikipedia.org/wiki/Eneide",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0028",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Orgoglio e pregiudizio\"?",
+    "risposte": [
+      "Jane Austen",
+      "Charlotte Brontë",
+      "Emily Brontë",
+      "George Eliot"
+    ],
+    "curiosita": "Fu pubblicato nel 1813.",
+    "fatto": "orgoglio e pregiudizio austen",
+    "fonte": "https://it.wikipedia.org/wiki/Orgoglio_e_pregiudizio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0029",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"1984\"?",
+    "risposte": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "H.G. Wells"
+    ],
+    "curiosita": "Orwell è lo pseudonimo di Eric Blair.",
+    "fatto": "1984 orwell",
+    "fonte": "https://it.wikipedia.org/wiki/1984_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0030",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il vecchio e il mare\"?",
+    "risposte": [
+      "Ernest Hemingway",
+      "John Steinbeck",
+      "William Faulkner",
+      "F. Scott Fitzgerald"
+    ],
+    "curiosita": "Gli valse il premio Pulitzer nel 1953.",
+    "fatto": "vecchio e il mare hemingway",
+    "fonte": "https://it.wikipedia.org/wiki/Il_vecchio_e_il_mare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0031",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scolpì \"Il pensatore\"?",
+    "risposte": [
+      "Rodin",
+      "Brancusi",
+      "Canova",
+      "Bernini"
+    ],
+    "curiosita": "In origine faceva parte della \"Porta dell'Inferno\".",
+    "fatto": "pensatore rodin",
+    "fonte": "https://it.wikipedia.org/wiki/Il_pensatore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0032",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scolpì \"Apollo e Dafne\"?",
+    "risposte": [
+      "Bernini",
+      "Canova",
+      "Michelangelo",
+      "Cellini"
+    ],
+    "curiosita": "Si trova a Roma, nella Galleria Borghese.",
+    "fatto": "apollo e dafne bernini",
+    "fonte": "https://it.wikipedia.org/wiki/Apollo_e_Dafne_(Bernini)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0033",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse gli orologi molli de \"La persistenza della memoria\"?",
+    "risposte": [
+      "Salvador Dalí",
+      "René Magritte",
+      "Joan Miró",
+      "Max Ernst"
+    ],
+    "curiosita": "Fu dipinto nel 1931.",
+    "fatto": "persistenza della memoria dali",
+    "fonte": "https://it.wikipedia.org/wiki/La_persistenza_della_memoria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0034",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"Il bacio\", con lo sfondo in foglia d'oro?",
+    "risposte": [
+      "Gustav Klimt",
+      "Egon Schiele",
+      "Edvard Munch",
+      "Oskar Kokoschka"
+    ],
+    "curiosita": "Appartiene al cosiddetto periodo aureo dell'artista.",
+    "fatto": "bacio klimt",
+    "fonte": "https://it.wikipedia.org/wiki/Il_bacio_(Klimt)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0035",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale corrente artistica ebbe tra i protagonisti Monet e Renoir?",
+    "risposte": [
+      "Impressionismo",
+      "Cubismo",
+      "Dadaismo",
+      "Futurismo"
+    ],
+    "curiosita": "Il nome nasce da un quadro di Monet del 1872.",
+    "fatto": "corrente impressionismo monet renoir",
+    "fonte": "https://it.wikipedia.org/wiki/Impressionismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0036",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"La ragazza con l'orecchino di perla\"?",
+    "risposte": [
+      "Vermeer",
+      "Rembrandt",
+      "Hals",
+      "Rubens"
+    ],
+    "curiosita": "È conservato al Mauritshuis, a L'Aia.",
+    "fatto": "ragazza orecchino di perla vermeer",
+    "fonte": "https://it.wikipedia.org/wiki/La_ragazza_con_l'orecchino_di_perla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0037",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"La ronda di notte\"?",
+    "risposte": [
+      "Rembrandt",
+      "Vermeer",
+      "Rubens",
+      "Velázquez"
+    ],
+    "curiosita": "Il titolo originale è \"La compagnia del capitano Cocq\".",
+    "fatto": "ronda di notte rembrandt",
+    "fonte": "https://it.wikipedia.org/wiki/La_ronda_di_notte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0038",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"Las Meninas\"?",
+    "risposte": [
+      "Velázquez",
+      "Goya",
+      "El Greco",
+      "Murillo"
+    ],
+    "curiosita": "Il pittore stesso compare nel dipinto.",
+    "fatto": "las meninas velazquez",
+    "fonte": "https://it.wikipedia.org/wiki/Las_Meninas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0039",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"La scuola di Atene\" nelle Stanze Vaticane?",
+    "risposte": [
+      "Raffaello",
+      "Michelangelo",
+      "Leonardo",
+      "Tiziano"
+    ],
+    "curiosita": "Raffigura i grandi filosofi dell'antichità.",
+    "fatto": "scuola di atene raffaello",
+    "fonte": "https://it.wikipedia.org/wiki/La_scuola_di_Atene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0040",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"Il bacio\", simbolo del Romanticismo italiano?",
+    "risposte": [
+      "Francesco Hayez",
+      "Giovanni Fattori",
+      "Giorgio de Chirico",
+      "Amedeo Modigliani"
+    ],
+    "curiosita": "È conservato alla Pinacoteca di Brera, a Milano.",
+    "fatto": "bacio hayez",
+    "fonte": "https://it.wikipedia.org/wiki/Il_bacio_(Hayez)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0041",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"Il quarto stato\"?",
+    "risposte": [
+      "Pellizza da Volpedo",
+      "Umberto Boccioni",
+      "Giovanni Fattori",
+      "Giovanni Segantini"
+    ],
+    "curiosita": "Raffigura una marcia di lavoratori in sciopero.",
+    "fatto": "quarto stato pellizza da volpedo",
+    "fonte": "https://it.wikipedia.org/wiki/Il_quarto_stato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0042",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi firmò \"Fontana\", un orinatoio esposto come opera d'arte?",
+    "risposte": [
+      "Marcel Duchamp",
+      "Man Ray",
+      "Francis Picabia",
+      "Max Ernst"
+    ],
+    "curiosita": "L'oggetto era firmato \"R. Mutt\".",
+    "fatto": "fontana orinatoio duchamp",
+    "fonte": "https://it.wikipedia.org/wiki/Fontana_(Duchamp)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0043",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale artista pop dipinse le lattine di zuppa Campbell?",
+    "risposte": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Jasper Johns",
+      "Keith Haring"
+    ],
+    "curiosita": "Le \"Campbell's Soup Cans\" sono del 1962.",
+    "fatto": "zuppa campbell warhol",
+    "fonte": "https://it.wikipedia.org/wiki/Andy_Warhol",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0044",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse \"Il giardino delle delizie\"?",
+    "risposte": [
+      "Hieronymus Bosch",
+      "Pieter Bruegel",
+      "Jan van Eyck",
+      "Albrecht Dürer"
+    ],
+    "curiosita": "È un trittico conservato al Prado di Madrid.",
+    "fatto": "giardino delle delizie bosch",
+    "fonte": "https://it.wikipedia.org/wiki/Il_giardino_delle_delizie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0045",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale architetto progettò il Guggenheim di Bilbao?",
+    "risposte": [
+      "Frank Gehry",
+      "Renzo Piano",
+      "Norman Foster",
+      "Zaha Hadid"
+    ],
+    "curiosita": "Fu inaugurato nel 1997.",
+    "fatto": "guggenheim bilbao gehry",
+    "fonte": "https://it.wikipedia.org/wiki/Museo_Guggenheim_Bilbao",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0046",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale architetto italiano progettò con Rogers il Centre Pompidou?",
+    "risposte": [
+      "Renzo Piano",
+      "Aldo Rossi",
+      "Gio Ponti",
+      "Carlo Scarpa"
+    ],
+    "curiosita": "Ha progettato anche lo Shard di Londra.",
+    "fatto": "centre pompidou renzo piano",
+    "fonte": "https://it.wikipedia.org/wiki/Renzo_Piano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0047",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale stile architettonico ha archi a sesto acuto e guglie?",
+    "risposte": [
+      "Gotico",
+      "Romanico",
+      "Barocco",
+      "Neoclassico"
+    ],
+    "curiosita": "Il Duomo di Milano ne è un celebre esempio.",
+    "fatto": "stile gotico archi a sesto acuto",
+    "fonte": "https://it.wikipedia.org/wiki/Architettura_gotica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0048",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"I Malavoglia\"?",
+    "risposte": [
+      "Giovanni Verga",
+      "Luigi Pirandello",
+      "Italo Svevo",
+      "Grazia Deledda"
+    ],
+    "curiosita": "Racconta una famiglia di pescatori di Aci Trezza.",
+    "fatto": "malavoglia verga",
+    "fonte": "https://it.wikipedia.org/wiki/I_Malavoglia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0049",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il fu Mattia Pascal\"?",
+    "risposte": [
+      "Luigi Pirandello",
+      "Italo Svevo",
+      "Giovanni Verga",
+      "Alberto Moravia"
+    ],
+    "curiosita": "Pirandello vinse il Nobel per la letteratura nel 1934.",
+    "fatto": "fu mattia pascal pirandello",
+    "fonte": "https://it.wikipedia.org/wiki/Il_fu_Mattia_Pascal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0050",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Se questo è un uomo\"?",
+    "risposte": [
+      "Primo Levi",
+      "Giorgio Bassani",
+      "Elio Vittorini",
+      "Cesare Pavese"
+    ],
+    "curiosita": "Racconta la prigionia dell'autore ad Auschwitz.",
+    "fatto": "se questo e un uomo levi",
+    "fonte": "https://it.wikipedia.org/wiki/Se_questo_%C3%A8_un_uomo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0051",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il Gattopardo\"?",
+    "risposte": [
+      "Tomasi di Lampedusa",
+      "Leonardo Sciascia",
+      "Elio Vittorini",
+      "Vitaliano Brancati"
+    ],
+    "curiosita": "Fu pubblicato dopo la morte dell'autore, nel 1958.",
+    "fatto": "gattopardo tomasi di lampedusa",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Gattopardo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0052",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il barone rampante\"?",
+    "risposte": [
+      "Italo Calvino",
+      "Cesare Pavese",
+      "Beppe Fenoglio",
+      "Dino Buzzati"
+    ],
+    "curiosita": "Il protagonista Cosimo decide di vivere sugli alberi.",
+    "fatto": "barone rampante calvino",
+    "fonte": "https://it.wikipedia.org/wiki/Il_barone_rampante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0053",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Moby Dick\"?",
+    "risposte": [
+      "Herman Melville",
+      "Mark Twain",
+      "Jack London",
+      "Nathaniel Hawthorne"
+    ],
+    "curiosita": "Racconta la caccia del capitano Achab a una balena bianca.",
+    "fatto": "moby dick melville",
+    "fonte": "https://it.wikipedia.org/wiki/Moby_Dick",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0054",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Delitto e castigo\"?",
+    "risposte": [
+      "Dostoevskij",
+      "Tolstoj",
+      "Čechov",
+      "Gogol'"
+    ],
+    "curiosita": "Il protagonista è lo studente Raskol'nikov.",
+    "fatto": "delitto e castigo dostoevskij",
+    "fonte": "https://it.wikipedia.org/wiki/Delitto_e_castigo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0055",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Guerra e pace\"?",
+    "risposte": [
+      "Lev Tolstoj",
+      "Fëdor Dostoevskij",
+      "Anton Čechov",
+      "Ivan Turgenev"
+    ],
+    "curiosita": "Racconta l'invasione napoleonica della Russia.",
+    "fatto": "guerra e pace tolstoj",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_e_pace",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0056",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il rosso e il nero\"?",
+    "risposte": [
+      "Stendhal",
+      "Balzac",
+      "Flaubert",
+      "Zola"
+    ],
+    "curiosita": "Stendhal è lo pseudonimo di Henri Beyle.",
+    "fatto": "rosso e il nero stendhal",
+    "fonte": "https://it.wikipedia.org/wiki/Il_rosso_e_il_nero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0057",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Madame Bovary\"?",
+    "risposte": [
+      "Gustave Flaubert",
+      "Émile Zola",
+      "Honoré de Balzac",
+      "Victor Hugo"
+    ],
+    "curiosita": "Il romanzo gli costò un processo per immoralità.",
+    "fatto": "madame bovary flaubert",
+    "fonte": "https://it.wikipedia.org/wiki/Madame_Bovary",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0058",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il conte di Montecristo\"?",
+    "risposte": [
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Jules Verne",
+      "Honoré de Balzac"
+    ],
+    "curiosita": "Il protagonista, Edmond Dantès, è rinchiuso nel castello d'If.",
+    "fatto": "conte di montecristo dumas",
+    "fonte": "https://it.wikipedia.org/wiki/Il_conte_di_Montecristo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0059",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse la poesia \"L'infinito\"?",
+    "risposte": [
+      "Giacomo Leopardi",
+      "Ugo Foscolo",
+      "Giovanni Pascoli",
+      "Giosuè Carducci"
+    ],
+    "curiosita": "È composta di soli 15 versi.",
+    "fatto": "infinito leopardi",
+    "fonte": "https://it.wikipedia.org/wiki/L'infinito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0060",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse la poesia \"Ed è subito sera\"?",
+    "risposte": [
+      "Salvatore Quasimodo",
+      "Eugenio Montale",
+      "Giuseppe Ungaretti",
+      "Umberto Saba"
+    ],
+    "curiosita": "Quasimodo vinse il Nobel per la letteratura nel 1959.",
+    "fatto": "ed e subito sera quasimodo",
+    "fonte": "https://it.wikipedia.org/wiki/Ed_%C3%A8_subito_sera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0061",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"La tempesta\", conservata a Venezia?",
+    "risposte": [
+      "Giorgione",
+      "Tiziano",
+      "Tintoretto",
+      "Giovanni Bellini"
+    ],
+    "curiosita": "Il significato del dipinto è ancora discusso.",
+    "fatto": "tempesta giorgione",
+    "fonte": "https://it.wikipedia.org/wiki/La_tempesta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0062",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scolpì il \"Perseo con la testa di Medusa\"?",
+    "risposte": [
+      "Benvenuto Cellini",
+      "Donatello",
+      "Giambologna",
+      "Michelangelo"
+    ],
+    "curiosita": "Si trova nella Loggia dei Lanzi, a Firenze.",
+    "fatto": "perseo medusa cellini",
+    "fonte": "https://it.wikipedia.org/wiki/Perseo_con_la_testa_di_Medusa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0063",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scolpì \"Amore e Psiche\"?",
+    "risposte": [
+      "Antonio Canova",
+      "Gian Lorenzo Bernini",
+      "Bertel Thorvaldsen",
+      "Donatello"
+    ],
+    "curiosita": "Una versione è esposta al Louvre di Parigi.",
+    "fatto": "amore e psiche canova",
+    "fonte": "https://it.wikipedia.org/wiki/Amore_e_Psiche_(Canova)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0064",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi realizzò il David in bronzo del Quattrocento?",
+    "risposte": [
+      "Donatello",
+      "Verrocchio",
+      "Ghiberti",
+      "Brunelleschi"
+    ],
+    "curiosita": "Si trova al Museo del Bargello, a Firenze.",
+    "fatto": "david bronzo donatello",
+    "fonte": "https://it.wikipedia.org/wiki/David_(Donatello)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0065",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi affrescò la Cappella degli Scrovegni a Padova?",
+    "risposte": [
+      "Giotto",
+      "Cimabue",
+      "Masaccio",
+      "Beato Angelico"
+    ],
+    "curiosita": "Il suo cielo azzurro stellato è celebre.",
+    "fatto": "cappella scrovegni giotto",
+    "fonte": "https://it.wikipedia.org/wiki/Cappella_degli_Scrovegni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0066",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"La Trinità\" in Santa Maria Novella?",
+    "risposte": [
+      "Masaccio",
+      "Beato Angelico",
+      "Paolo Uccello",
+      "Piero della Francesca"
+    ],
+    "curiosita": "È tra i primi usi della prospettiva lineare in pittura.",
+    "fatto": "trinita masaccio",
+    "fonte": "https://it.wikipedia.org/wiki/Trinit%C3%A0_(Masaccio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0067",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"La vocazione di San Matteo\"?",
+    "risposte": [
+      "Caravaggio",
+      "Tiziano",
+      "Guido Reni",
+      "Artemisia Gentileschi"
+    ],
+    "curiosita": "Si trova a Roma, in San Luigi dei Francesi.",
+    "fatto": "vocazione san matteo caravaggio",
+    "fonte": "https://it.wikipedia.org/wiki/Vocazione_di_san_Matteo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0068",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scolpì \"L'estasi di Santa Teresa\"?",
+    "risposte": [
+      "Bernini",
+      "Canova",
+      "Borromini",
+      "Algardi"
+    ],
+    "curiosita": "Si trova a Roma, in Santa Maria della Vittoria.",
+    "fatto": "estasi santa teresa bernini",
+    "fonte": "https://it.wikipedia.org/wiki/Estasi_di_santa_Teresa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0069",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale architetto progettò San Carlo alle Quattro Fontane?",
+    "risposte": [
+      "Borromini",
+      "Bernini",
+      "Bramante",
+      "Palladio"
+    ],
+    "curiosita": "Fu il grande rivale di Bernini.",
+    "fatto": "san carlo quattro fontane borromini",
+    "fonte": "https://it.wikipedia.org/wiki/San_Carlo_alle_Quattro_Fontane",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0070",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò Villa Capra, detta \"La Rotonda\"?",
+    "risposte": [
+      "Andrea Palladio",
+      "Jacopo Sansovino",
+      "Vincenzo Scamozzi",
+      "Baldassarre Longhena"
+    ],
+    "curiosita": "Da lui deriva lo stile detto palladiano.",
+    "fatto": "villa rotonda palladio",
+    "fonte": "https://it.wikipedia.org/wiki/Andrea_Palladio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0071",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò il Tempietto di San Pietro in Montorio?",
+    "risposte": [
+      "Bramante",
+      "Brunelleschi",
+      "Alberti",
+      "Vignola"
+    ],
+    "curiosita": "Si trova a Roma, sul Gianicolo.",
+    "fatto": "tempietto san pietro in montorio bramante",
+    "fonte": "https://it.wikipedia.org/wiki/Tempietto_del_Bramante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0072",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò Fallingwater, la casa sulla cascata?",
+    "risposte": [
+      "Frank Lloyd Wright",
+      "Le Corbusier",
+      "Mies van der Rohe",
+      "Walter Gropius"
+    ],
+    "curiosita": "La casa sorge sopra un torrente in Pennsylvania.",
+    "fatto": "fallingwater wright",
+    "fonte": "https://it.wikipedia.org/wiki/Fallingwater",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0073",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò il Pirellone di Milano?",
+    "risposte": [
+      "Gio Ponti",
+      "Renzo Piano",
+      "Aldo Rossi",
+      "Carlo Scarpa"
+    ],
+    "curiosita": "Il grattacielo è sede della Regione Lombardia.",
+    "fatto": "pirellone gio ponti",
+    "fonte": "https://it.wikipedia.org/wiki/Grattacielo_Pirelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0074",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il deserto dei Tartari\"?",
+    "risposte": [
+      "Dino Buzzati",
+      "Italo Calvino",
+      "Cesare Pavese",
+      "Mario Rigoni Stern"
+    ],
+    "curiosita": "Il tenente Drogo attende un attacco nemico che non arriva.",
+    "fatto": "deserto dei tartari buzzati",
+    "fonte": "https://it.wikipedia.org/wiki/Il_deserto_dei_Tartari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0075",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La coscienza di Zeno\"?",
+    "risposte": [
+      "Italo Svevo",
+      "Luigi Pirandello",
+      "Carlo Emilio Gadda",
+      "Federigo Tozzi"
+    ],
+    "curiosita": "Svevo era lo pseudonimo del triestino Ettore Schmitz.",
+    "fatto": "coscienza di zeno svevo",
+    "fonte": "https://it.wikipedia.org/wiki/La_coscienza_di_Zeno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0076",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Gli indifferenti\"?",
+    "risposte": [
+      "Alberto Moravia",
+      "Cesare Pavese",
+      "Elio Vittorini",
+      "Giorgio Bassani"
+    ],
+    "curiosita": "Lo pubblicò da giovanissimo, nel 1929.",
+    "fatto": "indifferenti moravia",
+    "fonte": "https://it.wikipedia.org/wiki/Gli_indifferenti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0077",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La luna e i falò\"?",
+    "risposte": [
+      "Cesare Pavese",
+      "Beppe Fenoglio",
+      "Mario Rigoni Stern",
+      "Carlo Levi"
+    ],
+    "curiosita": "Fu l'ultimo romanzo pubblicato da Pavese, nel 1950.",
+    "fatto": "luna e i falo pavese",
+    "fonte": "https://it.wikipedia.org/wiki/La_luna_e_i_fal%C3%B2",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0078",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Cristo si è fermato a Eboli\"?",
+    "risposte": [
+      "Carlo Levi",
+      "Ignazio Silone",
+      "Cesare Pavese",
+      "Elio Vittorini"
+    ],
+    "curiosita": "Descrive l'esilio dell'autore in Lucania.",
+    "fatto": "cristo si e fermato a eboli levi",
+    "fonte": "https://it.wikipedia.org/wiki/Cristo_si_%C3%A8_fermato_a_Eboli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0079",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il giorno della civetta\"?",
+    "risposte": [
+      "Leonardo Sciascia",
+      "Andrea Camilleri",
+      "Gesualdo Bufalino",
+      "Luigi Pirandello"
+    ],
+    "curiosita": "È ambientato in Sicilia e parla di mafia.",
+    "fatto": "giorno della civetta sciascia",
+    "fonte": "https://it.wikipedia.org/wiki/Il_giorno_della_civetta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0080",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Cent'anni di solitudine\"?",
+    "risposte": [
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa",
+      "Jorge Luis Borges",
+      "Julio Cortázar"
+    ],
+    "curiosita": "Racconta la saga dei Buendía nel villaggio di Macondo.",
+    "fatto": "cent anni di solitudine garcia marquez",
+    "fonte": "https://it.wikipedia.org/wiki/Cent'anni_di_solitudine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0081",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il processo\"?",
+    "risposte": [
+      "Franz Kafka",
+      "Thomas Mann",
+      "Hermann Hesse",
+      "Robert Musil"
+    ],
+    "curiosita": "Fu pubblicato dopo la morte dell'autore, nel 1925.",
+    "fatto": "processo kafka",
+    "fonte": "https://it.wikipedia.org/wiki/Il_processo_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0082",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Ulisse\", ambientato in un solo giorno a Dublino?",
+    "risposte": [
+      "James Joyce",
+      "Samuel Beckett",
+      "Virginia Woolf",
+      "Oscar Wilde"
+    ],
+    "curiosita": "Il romanzo uscì nel 1922.",
+    "fatto": "ulisse joyce",
+    "fonte": "https://it.wikipedia.org/wiki/Ulisse_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0083",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il ritratto di Dorian Gray\"?",
+    "risposte": [
+      "Oscar Wilde",
+      "Thomas Hardy",
+      "Bram Stoker",
+      "Robert Louis Stevenson"
+    ],
+    "curiosita": "È l'unico romanzo scritto da Wilde.",
+    "fatto": "ritratto di dorian gray wilde",
+    "fonte": "https://it.wikipedia.org/wiki/Il_ritratto_di_Dorian_Gray",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0084",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Cime tempestose\"?",
+    "risposte": [
+      "Emily Brontë",
+      "Charlotte Brontë",
+      "Anne Brontë",
+      "Jane Austen"
+    ],
+    "curiosita": "Uscì nel 1847 con lo pseudonimo Ellis Bell.",
+    "fatto": "cime tempestose emily bronte",
+    "fonte": "https://it.wikipedia.org/wiki/Cime_tempestose",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0085",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Alla ricerca del tempo perduto\"?",
+    "risposte": [
+      "Marcel Proust",
+      "André Gide",
+      "Albert Camus",
+      "Marcel Pagnol"
+    ],
+    "curiosita": "L'opera è composta da sette volumi.",
+    "fatto": "alla ricerca del tempo perduto proust",
+    "fonte": "https://it.wikipedia.org/wiki/Alla_ricerca_del_tempo_perduto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0086",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse il carme \"Dei sepolcri\"?",
+    "risposte": [
+      "Ugo Foscolo",
+      "Giacomo Leopardi",
+      "Alessandro Manzoni",
+      "Giuseppe Parini"
+    ],
+    "curiosita": "Nasce da un editto napoleonico sulle sepolture.",
+    "fatto": "sepolcri foscolo",
+    "fonte": "https://it.wikipedia.org/wiki/Dei_Sepolcri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0087",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Meriggiare pallido e assorto\"?",
+    "risposte": [
+      "Eugenio Montale",
+      "Giuseppe Ungaretti",
+      "Salvatore Quasimodo",
+      "Umberto Saba"
+    ],
+    "curiosita": "Montale ricevette il Nobel per la letteratura nel 1975.",
+    "fatto": "meriggiare pallido e assorto montale",
+    "fonte": "https://it.wikipedia.org/wiki/Meriggiare_pallido_e_assorto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0088",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse la poesia \"M'illumino d'immenso\"?",
+    "risposte": [
+      "Giuseppe Ungaretti",
+      "Eugenio Montale",
+      "Umberto Saba",
+      "Giovanni Pascoli"
+    ],
+    "curiosita": "La poesia si intitola \"Mattina\" e ha solo due versi.",
+    "fatto": "milumino dimmenso ungaretti",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Ungaretti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0089",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse la raccolta di poesie \"Myricae\"?",
+    "risposte": [
+      "Giovanni Pascoli",
+      "Gabriele D'Annunzio",
+      "Giosuè Carducci",
+      "Guido Gozzano"
+    ],
+    "curiosita": "Il titolo allude alle umili tamerici.",
+    "fatto": "myricae pascoli",
+    "fonte": "https://it.wikipedia.org/wiki/Myricae",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0090",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse il \"Canzoniere\"?",
+    "risposte": [
+      "Francesco Petrarca",
+      "Dante Alighieri",
+      "Giovanni Boccaccio",
+      "Ludovico Ariosto"
+    ],
+    "curiosita": "Contiene 366 componimenti, dedicati soprattutto a Laura.",
+    "fatto": "canzoniere petrarca",
+    "fonte": "https://it.wikipedia.org/wiki/Canzoniere_(Petrarca)",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

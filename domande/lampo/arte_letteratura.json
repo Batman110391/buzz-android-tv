@@ -1,0 +1,542 @@
+[
+  {
+    "id": "la-art-0001",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Dracula\"?",
+    "risposte": [
+      "Bram Stoker",
+      "Mary Shelley",
+      "Edgar Allan Poe",
+      "H.P. Lovecraft"
+    ],
+    "curiosita": "Il romanzo è del 1897.",
+    "fatto": "dracula stoker",
+    "fonte": "https://it.wikipedia.org/wiki/Dracula_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0002",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Frankenstein\"?",
+    "risposte": [
+      "Mary Shelley",
+      "Bram Stoker",
+      "Jane Austen",
+      "Emily Brontë"
+    ],
+    "curiosita": "L'idea nacque durante una vacanza sul lago di Ginevra.",
+    "fatto": "frankenstein shelley",
+    "fonte": "https://it.wikipedia.org/wiki/Frankenstein",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0003",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Cuore\"?",
+    "risposte": [
+      "De Amicis",
+      "Collodi",
+      "Calvino",
+      "Rodari"
+    ],
+    "curiosita": "È scritto in forma di diario di uno scolaro.",
+    "fatto": "cuore de amicis",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0004",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Alice nel Paese delle Meraviglie\"?",
+    "risposte": [
+      "Lewis Carroll",
+      "Roald Dahl",
+      "J.M. Barrie",
+      "C.S. Lewis"
+    ],
+    "curiosita": "Carroll è lo pseudonimo di Charles Dodgson.",
+    "fatto": "alice nel paese delle meraviglie carroll",
+    "fonte": "https://it.wikipedia.org/wiki/Le_avventure_di_Alice_nel_Paese_delle_Meraviglie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0005",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il museo del Louvre?",
+    "risposte": [
+      "Parigi",
+      "Londra",
+      "Madrid",
+      "Roma"
+    ],
+    "curiosita": "Prima di essere un museo fu una residenza reale.",
+    "fatto": "louvre parigi",
+    "fonte": "https://it.wikipedia.org/wiki/Museo_del_Louvre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0006",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dipinse \"I girasoli\"?",
+    "risposte": [
+      "Van Gogh",
+      "Monet",
+      "Gauguin",
+      "Cézanne"
+    ],
+    "curiosita": "Ne dipinse diverse versioni.",
+    "fatto": "girasoli van gogh",
+    "fonte": "https://it.wikipedia.org/wiki/Vincent_van_Gogh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0007",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Il Principe\"?",
+    "risposte": [
+      "Machiavelli",
+      "Dante",
+      "Guicciardini",
+      "Petrarca"
+    ],
+    "curiosita": "Fu scritto nel 1513 ma pubblicato dopo la morte dell'autore.",
+    "fatto": "il principe machiavelli",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Principe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0008",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Canto di Natale\"?",
+    "risposte": [
+      "Charles Dickens",
+      "Mark Twain",
+      "Oscar Wilde",
+      "Thomas Hardy"
+    ],
+    "curiosita": "Il protagonista è l'avaro Ebenezer Scrooge.",
+    "fatto": "canto di natale dickens",
+    "fonte": "https://it.wikipedia.org/wiki/Canto_di_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0009",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Pippi Calzelunghe\"?",
+    "risposte": [
+      "Astrid Lindgren",
+      "Roald Dahl",
+      "Gianni Rodari",
+      "Enid Blyton"
+    ],
+    "curiosita": "Nacque come storia della buonanotte per la figlia.",
+    "fatto": "pippi calzelunghe lindgren",
+    "fonte": "https://it.wikipedia.org/wiki/Pippi_Calzelunghe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0010",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"La fabbrica di cioccolato\"?",
+    "risposte": [
+      "Roald Dahl",
+      "J.K. Rowling",
+      "Enid Blyton",
+      "C.S. Lewis"
+    ],
+    "curiosita": "Dahl era di origine norvegese.",
+    "fatto": "fabbrica di cioccolato dahl",
+    "fonte": "https://it.wikipedia.org/wiki/La_fabbrica_di_cioccolato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0011",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"I tre moschettieri\"?",
+    "risposte": [
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Jules Verne",
+      "Honoré de Balzac"
+    ],
+    "curiosita": "D'Artagnan arriva a Parigi dalla Guascogna.",
+    "fatto": "tre moschettieri dumas",
+    "fonte": "https://it.wikipedia.org/wiki/I_tre_moschettieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0012",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"L'isola del tesoro\"?",
+    "risposte": [
+      "R.L. Stevenson",
+      "Daniel Defoe",
+      "Jonathan Swift",
+      "Jules Verne"
+    ],
+    "curiosita": "Contiene il pirata Long John Silver.",
+    "fatto": "isola del tesoro stevenson",
+    "fonte": "https://it.wikipedia.org/wiki/L'isola_del_tesoro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0013",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Robinson Crusoe\"?",
+    "risposte": [
+      "Daniel Defoe",
+      "Jonathan Swift",
+      "Henry Fielding",
+      "Walter Scott"
+    ],
+    "curiosita": "Uscì nel 1719.",
+    "fatto": "robinson crusoe defoe",
+    "fonte": "https://it.wikipedia.org/wiki/Robinson_Crusoe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0014",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"I viaggi di Gulliver\"?",
+    "risposte": [
+      "Jonathan Swift",
+      "Daniel Defoe",
+      "Charles Dickens",
+      "Walter Scott"
+    ],
+    "curiosita": "Il romanzo è una satira dei costumi del tempo.",
+    "fatto": "viaggi di gulliver swift",
+    "fonte": "https://it.wikipedia.org/wiki/I_viaggi_di_Gulliver",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0015",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Di quale nazionalità era il pittore Van Gogh?",
+    "risposte": [
+      "Olandese",
+      "Belga",
+      "Francese",
+      "Tedesco"
+    ],
+    "curiosita": "Nacque a Zundert, nei Paesi Bassi.",
+    "fatto": "van gogh nazionalita olandese",
+    "fonte": "https://it.wikipedia.org/wiki/Vincent_van_Gogh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0016",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"La Gerusalemme liberata\"?",
+    "risposte": [
+      "Torquato Tasso",
+      "Ludovico Ariosto",
+      "Matteo Boiardo",
+      "Luigi Pulci"
+    ],
+    "curiosita": "Racconta la prima crociata.",
+    "fatto": "gerusalemme liberata tasso",
+    "fonte": "https://it.wikipedia.org/wiki/Gerusalemme_liberata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0017",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"La locandiera\"?",
+    "risposte": [
+      "Carlo Goldoni",
+      "Dario Fo",
+      "Ugo Foscolo",
+      "Carlo Gozzi"
+    ],
+    "curiosita": "La protagonista è la locandiera Mirandolina.",
+    "fatto": "locandiera goldoni",
+    "fonte": "https://it.wikipedia.org/wiki/La_locandiera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0018",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale pittore francese è celebre per le ballerine?",
+    "risposte": [
+      "Edgar Degas",
+      "Claude Monet",
+      "Paul Cézanne",
+      "Pierre Renoir"
+    ],
+    "curiosita": "Dipinse e scolpì ballerine dell'Opéra di Parigi.",
+    "fatto": "degas ballerine",
+    "fonte": "https://it.wikipedia.org/wiki/Edgar_Degas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0019",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il giovane Holden\"?",
+    "risposte": [
+      "J.D. Salinger",
+      "Jack Kerouac",
+      "John Steinbeck",
+      "Truman Capote"
+    ],
+    "curiosita": "Il protagonista è Holden Caulfield.",
+    "fatto": "giovane holden salinger",
+    "fonte": "https://it.wikipedia.org/wiki/Il_giovane_Holden",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0020",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il grande Gatsby\"?",
+    "risposte": [
+      "Fitzgerald",
+      "Hemingway",
+      "Faulkner",
+      "Steinbeck"
+    ],
+    "curiosita": "È ambientato nella New York degli anni Venti.",
+    "fatto": "grande gatsby fitzgerald",
+    "fonte": "https://it.wikipedia.org/wiki/Il_grande_Gatsby",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0021",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Lolita\"?",
+    "risposte": [
+      "Nabokov",
+      "Tolstoj",
+      "Gor'kij",
+      "Bulgakov"
+    ],
+    "curiosita": "Nabokov scrisse prima in russo, poi in inglese.",
+    "fatto": "lolita nabokov",
+    "fonte": "https://it.wikipedia.org/wiki/Lolita_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0022",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il libro della giungla\"?",
+    "risposte": [
+      "Rudyard Kipling",
+      "R.L. Stevenson",
+      "Lewis Carroll",
+      "J.M. Barrie"
+    ],
+    "curiosita": "Kipling nacque a Bombay.",
+    "fatto": "libro della giungla kipling",
+    "fonte": "https://it.wikipedia.org/wiki/Il_libro_della_giungla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0023",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi dipinse la \"Venere di Urbino\"?",
+    "risposte": [
+      "Tiziano",
+      "Giorgione",
+      "Tintoretto",
+      "Veronese"
+    ],
+    "curiosita": "Si trova agli Uffizi di Firenze.",
+    "fatto": "venere di urbino tiziano",
+    "fonte": "https://it.wikipedia.org/wiki/Venere_di_Urbino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0024",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "In quale città si trova il Museo del Prado?",
+    "risposte": [
+      "Madrid",
+      "Barcellona",
+      "Siviglia",
+      "Lisbona"
+    ],
+    "curiosita": "Ospita opere di Velázquez, Goya e El Greco.",
+    "fatto": "museo del prado madrid",
+    "fonte": "https://it.wikipedia.org/wiki/Museo_del_Prado",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0025",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "In quale città si trova il museo dell'Ermitage?",
+    "risposte": [
+      "San Pietroburgo",
+      "Mosca",
+      "Kiev",
+      "Varsavia"
+    ],
+    "curiosita": "Occupa l'ex Palazzo d'Inverno degli zar.",
+    "fatto": "ermitage san pietroburgo",
+    "fonte": "https://it.wikipedia.org/wiki/Ermitage",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0026",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"La zattera della Medusa\"?",
+    "risposte": [
+      "Géricault",
+      "Delacroix",
+      "Courbet",
+      "Ingres"
+    ],
+    "curiosita": "Il dipinto ricorda un naufragio del 1816.",
+    "fatto": "zattera della medusa gericault",
+    "fonte": "https://it.wikipedia.org/wiki/La_zattera_della_Medusa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0027",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Sostiene Pereira\"?",
+    "risposte": [
+      "Antonio Tabucchi",
+      "Claudio Magris",
+      "Alberto Moravia",
+      "Italo Calvino"
+    ],
+    "curiosita": "È ambientato a Lisbona nel 1938.",
+    "fatto": "sostiene pereira tabucchi",
+    "fonte": "https://it.wikipedia.org/wiki/Sostiene_Pereira",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0028",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il maestro e Margherita\"?",
+    "risposte": [
+      "Bulgakov",
+      "Nabokov",
+      "Gor'kij",
+      "Pasternak"
+    ],
+    "curiosita": "Il diavolo arriva a Mosca nelle vesti di Woland.",
+    "fatto": "maestro e margherita bulgakov",
+    "fonte": "https://it.wikipedia.org/wiki/Il_maestro_e_Margherita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0029",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"La Libertà che guida il popolo\"?",
+    "risposte": [
+      "Delacroix",
+      "Géricault",
+      "Ingres",
+      "David"
+    ],
+    "curiosita": "Celebra la rivoluzione di luglio del 1830.",
+    "fatto": "liberta che guida il popolo delacroix",
+    "fonte": "https://it.wikipedia.org/wiki/La_Libert%C3%A0_che_guida_il_popolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0030",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale opera di Dante è dedicata all'amore per Beatrice?",
+    "risposte": [
+      "Vita nova",
+      "Convivio",
+      "Monarchia",
+      "Rime"
+    ],
+    "curiosita": "Mescola versi e prosa.",
+    "fatto": "vita nova dante beatrice",
+    "fonte": "https://it.wikipedia.org/wiki/Vita_nova",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "cl-cos-0001",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti giorni ci sono in un anno bisestile?",
+    "risposte": [
+      "366",
+      "365",
+      "364",
+      "367"
+    ],
+    "curiosita": "Il giorno in più è il 29 febbraio e arriva, di norma, ogni quattro anni.",
+    "fatto": "giorni anno bisestile",
+    "fonte": "https://it.wikipedia.org/wiki/Anno_bisestile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0002",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quante caselle ha una scacchiera?",
+    "risposte": [
+      "64",
+      "36",
+      "81",
+      "100"
+    ],
+    "curiosita": "Sono otto file per otto colonne, alternate chiare e scure.",
+    "fatto": "caselle scacchiera",
+    "fonte": "https://it.wikipedia.org/wiki/Scacchiera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0003",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale gioco da tavolo ha le carte «Imprevisti» e «Probabilità»?",
+    "risposte": [
+      "Monopoli",
+      "Risiko",
+      "Cluedo",
+      "Taboo"
+    ],
+    "curiosita": "Nella versione italiana Vicolo Corto è la casella più economica.",
+    "fatto": "monopoli carte imprevisti probabilita",
+    "fonte": "https://it.wikipedia.org/wiki/Monopoly",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0004",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti numeri ci sono nel sacchetto della tombola?",
+    "risposte": [
+      "90",
+      "75",
+      "100",
+      "60"
+    ],
+    "curiosita": "Il gioco è legato alla tradizione natalizia, soprattutto a Napoli.",
+    "fatto": "numeri sacchetto tombola",
+    "fonte": "https://it.wikipedia.org/wiki/Tombola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0005",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale pezzo degli scacchi si muove ad «L»?",
+    "risposte": [
+      "Cavallo",
+      "Alfiere",
+      "Torre",
+      "Pedone"
+    ],
+    "curiosita": "È l'unico pezzo che può saltare sopra gli altri.",
+    "fatto": "pezzo scacchi movimento a elle cavallo",
+    "fonte": "https://it.wikipedia.org/wiki/Cavallo_(scacchi)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0006",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che cosa si soffia sulla torta di compleanno?",
+    "risposte": [
+      "Le candeline",
+      "Le girandole",
+      "I coriandoli",
+      "Le stelline"
+    ],
+    "curiosita": "Secondo la tradizione, si esprime un desiderio prima di spegnerle.",
+    "fatto": "candeline torta compleanno",
+    "fonte": "https://it.wikipedia.org/wiki/Compleanno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0007",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale data si festeggia San Valentino?",
+    "risposte": [
+      "14 febbraio",
+      "14 marzo",
+      "24 febbraio",
+      "4 aprile"
+    ],
+    "curiosita": "È la festa degli innamorati e ricorda un santo martire.",
+    "fatto": "data san valentino",
+    "fonte": "https://it.wikipedia.org/wiki/San_Valentino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0008",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale fiore si regala tradizionalmente l'8 marzo in Italia?",
+    "risposte": [
+      "Mimosa",
+      "Tulipano",
+      "Margherita",
+      "Orchidea"
+    ],
+    "curiosita": "La tradizione nacque a Roma nel 1946, dopo la Seconda guerra mondiale.",
+    "fatto": "fiore 8 marzo mimosa",
+    "fonte": "https://it.wikipedia.org/wiki/Giornata_internazionale_della_donna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0009",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Chi porta i doni ai bambini nella notte tra il 5 e il 6 gennaio?",
+    "risposte": [
+      "La Befana",
+      "Babbo Natale",
+      "Santa Lucia",
+      "Gesù Bambino"
+    ],
+    "curiosita": "Il suo nome deriva da «Epifania».",
+    "fatto": "befana doni notte epifania",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0010",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale giorno si festeggia Halloween?",
+    "risposte": [
+      "31 ottobre",
+      "1 novembre",
+      "21 ottobre",
+      "30 novembre"
+    ],
+    "curiosita": "Ha origini celtiche: nasce dalla festa di Samhain.",
+    "fatto": "data halloween",
+    "fonte": "https://it.wikipedia.org/wiki/Halloween",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0011",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti giorni ha febbraio nella maggior parte degli anni?",
+    "risposte": [
+      "28",
+      "29",
+      "30",
+      "27"
+    ],
+    "curiosita": "Il suo nome deriva da «februa», i riti di purificazione dei Romani.",
+    "fatto": "giorni di febbraio",
+    "fonte": "https://it.wikipedia.org/wiki/Febbraio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0012",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale gioco si disegna una parola per farla indovinare ai compagni?",
+    "risposte": [
+      "Pictionary",
+      "Taboo",
+      "Cluedo",
+      "Jenga"
+    ],
+    "curiosita": "Il nome unisce le parole inglesi «picture» e «dictionary».",
+    "fatto": "gioco disegnare parola pictionary",
+    "fonte": "https://it.wikipedia.org/wiki/Pictionary",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0013",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale gioco da tavolo si basa sulla conquista dei territori con le armate?",
+    "risposte": [
+      "Risiko",
+      "Monopoli",
+      "Cluedo",
+      "Scarabeo"
+    ],
+    "curiosita": "In origine il gioco era francese e si chiamava «La Conquête du Monde».",
+    "fatto": "gioco conquista territori risiko",
+    "fonte": "https://it.wikipedia.org/wiki/Risiko",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0014",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale gioco si cerca l'assassino tra le stanze di una villa?",
+    "risposte": [
+      "Cluedo",
+      "Risiko",
+      "Taboo",
+      "Forza 4"
+    ],
+    "curiosita": "Le armi includono il candelabro, il pugnale e la corda.",
+    "fatto": "gioco assassino stanze villa cluedo",
+    "fonte": "https://it.wikipedia.org/wiki/Cluedo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0015",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale numero si compone in Italia per i Vigili del Fuoco?",
+    "risposte": [
+      "115",
+      "113",
+      "118",
+      "112"
+    ],
+    "curiosita": "Il 115 è il numero dedicato al soccorso tecnico urgente.",
+    "fatto": "numero emergenza vigili del fuoco",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_nazionale_dei_vigili_del_fuoco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0016",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale giorno si celebra Ferragosto?",
+    "risposte": [
+      "15 agosto",
+      "1 agosto",
+      "25 agosto",
+      "31 luglio"
+    ],
+    "curiosita": "Il nome deriva dal latino «feriae Augusti», le ferie di Augusto.",
+    "fatto": "data ferragosto",
+    "fonte": "https://it.wikipedia.org/wiki/Ferragosto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0017",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Come si chiama il gioco in cui si salta su una gamba sulle caselle numerate?",
+    "risposte": [
+      "Campana",
+      "Nascondino",
+      "Girotondo",
+      "Elastico"
+    ],
+    "curiosita": "In inglese si chiama «hopscotch».",
+    "fatto": "gioco gamba sola caselle numerate campana",
+    "fonte": "https://it.wikipedia.org/wiki/Campana_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0018",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Di quale città è la maschera tradizionale di Pulcinella?",
+    "risposte": [
+      "Napoli",
+      "Venezia",
+      "Milano",
+      "Firenze"
+    ],
+    "curiosita": "Veste di bianco, con camicione, cappello a punta e mezza maschera nera.",
+    "fatto": "maschera pulcinella citta napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Pulcinella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0019",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Che cosa si dice di solito a chi starnutisce?",
+    "risposte": [
+      "Salute",
+      "Auguri",
+      "Grazie",
+      "Prego"
+    ],
+    "curiosita": "In inglese si dice «bless you».",
+    "fatto": "augurio a chi starnutisce salute",
+    "fonte": "https://it.wikipedia.org/wiki/Starnuto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0020",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale gesto è il saluto tradizionale giapponese?",
+    "risposte": [
+      "L'inchino",
+      "La stretta di mano",
+      "Il bacio",
+      "L'abbraccio"
+    ],
+    "curiosita": "Più è profondo l'inchino, più rispetto si dimostra.",
+    "fatto": "saluto tradizionale giapponese inchino",
+    "fonte": "https://it.wikipedia.org/wiki/Inchino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0021",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale azienda danese produce i mattoncini componibili?",
+    "risposte": [
+      "Lego",
+      "Playmobil",
+      "Meccano",
+      "Geomag"
+    ],
+    "curiosita": "Il nome viene dal danese «leg godt», cioè «gioca bene».",
+    "fatto": "azienda danese mattoncini lego",
+    "fonte": "https://it.wikipedia.org/wiki/Lego",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0022",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Come si chiama il fidanzato della bambola Barbie?",
+    "risposte": [
+      "Ken",
+      "Ben",
+      "Tom",
+      "Dan"
+    ],
+    "curiosita": "Prende il nome dal figlio dei creatori di Barbie, Ruth ed Elliot Handler.",
+    "fatto": "fidanzato di barbie ken",
+    "fonte": "https://it.wikipedia.org/wiki/Barbie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0023",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale festa si celebra il 1° maggio?",
+    "risposte": [
+      "Festa dei lavoratori",
+      "Festa della mamma",
+      "Festa del papà",
+      "Festa della donna"
+    ],
+    "curiosita": "Ogni anno a Roma si tiene il Concertone in piazza San Giovanni.",
+    "fatto": "festa primo maggio lavoratori",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_dei_lavoratori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0024",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "In quale gioco si pronuncia la frase «scacco matto»?",
+    "risposte": [
+      "Scacchi",
+      "Dama",
+      "Backgammon",
+      "Mah-jong"
+    ],
+    "curiosita": "Viene dal persiano «shah mat», cioè «il re è morto».",
+    "fatto": "scacco matto gioco scacchi",
+    "fonte": "https://it.wikipedia.org/wiki/Scacco_matto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0025",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale colore si indossa tradizionalmente per il lutto in Italia?",
+    "risposte": [
+      "Nero",
+      "Viola",
+      "Grigio",
+      "Marrone"
+    ],
+    "curiosita": "In alcune culture orientali il colore del lutto è invece il bianco.",
+    "fatto": "colore lutto italia nero",
+    "fonte": "https://it.wikipedia.org/wiki/Lutto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0026",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Di che colore è tradizionalmente l'abito da sposa in Occidente?",
+    "risposte": [
+      "Bianco",
+      "Rosso",
+      "Azzurro",
+      "Rosa"
+    ],
+    "curiosita": "L'usanza fu lanciata dalla regina Vittoria, sposatasi in bianco nel 1840.",
+    "fatto": "colore abito da sposa bianco",
+    "fonte": "https://it.wikipedia.org/wiki/Abito_da_sposa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0027",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale oggetto a forma di U è considerato un portafortuna?",
+    "risposte": [
+      "Ferro di cavallo",
+      "Cornetto rosso",
+      "Coccinella",
+      "Elefantino"
+    ],
+    "curiosita": "Si appende con le punte in alto, per «raccogliere» la fortuna.",
+    "fatto": "portafortuna ferro di cavallo",
+    "fonte": "https://it.wikipedia.org/wiki/Ferro_di_cavallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0028",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale pianta con quattro foglioline è considerata portafortuna?",
+    "risposte": [
+      "Quadrifoglio",
+      "Edera",
+      "Ortica",
+      "Cactus"
+    ],
+    "curiosita": "Un quadrifoglio compare circa una volta ogni diecimila trifogli.",
+    "fatto": "pianta portafortuna quadrifoglio",
+    "fonte": "https://it.wikipedia.org/wiki/Quadrifoglio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0029",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quanti sono i colori tradizionali dell'arcobaleno?",
+    "risposte": [
+      "7",
+      "5",
+      "6",
+      "9"
+    ],
+    "curiosita": "Il numero sette fu fissato da Isaac Newton.",
+    "fatto": "colori dell arcobaleno",
+    "fonte": "https://it.wikipedia.org/wiki/Arcobaleno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0030",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 1,
+    "domanda": "Quale numero rappresenta la cifra romana X?",
+    "risposte": [
+      "10",
+      "5",
+      "50",
+      "100"
+    ],
+    "curiosita": "Nell'antica Roma «XX» indicava 20, cioè due volte dieci.",
+    "fatto": "valore cifra romana x",
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_romani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0031",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale celebre rompicapo creò l'ungherese Ernő Rubik nel 1974?",
+    "risposte": [
+      "Cubo di Rubik",
+      "Tangram",
+      "Torre di Hanoi",
+      "Cubo Soma"
+    ],
+    "curiosita": "Lo chiamò all'inizio «Cubo magico» ed è ancora tra i giocattoli più venduti.",
+    "fatto": "rompicapo creato da rubik",
+    "fonte": "https://it.wikipedia.org/wiki/Cubo_di_Rubik",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0032",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quanti puntini ci sono in totale sulle sei facce di un dado?",
+    "risposte": [
+      "21",
+      "18",
+      "24",
+      "36"
+    ],
+    "curiosita": "Su un dado classico le facce opposte sommano sempre sette.",
+    "fatto": "punti totali sulle facce di un dado",
+    "fonte": "https://it.wikipedia.org/wiki/Dado",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0033",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Da quale città proviene la maschera di Arlecchino?",
+    "risposte": [
+      "Bergamo",
+      "Napoli",
+      "Torino",
+      "Bologna"
+    ],
+    "curiosita": "Il suo costume a losanghe colorate nasce da toppe di stoffa cucite insieme.",
+    "fatto": "maschera arlecchino citta bergamo",
+    "fonte": "https://it.wikipedia.org/wiki/Arlecchino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0034",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale numero è il numero unico di emergenza europeo?",
+    "risposte": [
+      "112",
+      "113",
+      "115",
+      "118"
+    ],
+    "curiosita": "Funziona in tutti i Paesi dell'Unione europea.",
+    "fatto": "numero unico emergenza europeo",
+    "fonte": "https://it.wikipedia.org/wiki/112_(numero_di_emergenza)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0035",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quante carte ha un mazzo francese senza jolly?",
+    "risposte": [
+      "52",
+      "48",
+      "54",
+      "56"
+    ],
+    "curiosita": "Si divide in quattro semi: cuori, quadri, fiori e picche.",
+    "fatto": "carte mazzo francese",
+    "fonte": "https://it.wikipedia.org/wiki/Carte_da_gioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0036",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quanti mesi dell'anno hanno 31 giorni?",
+    "risposte": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "curiosita": "Sono gennaio, marzo, maggio, luglio, agosto, ottobre e dicembre.",
+    "fatto": "mesi con 31 giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario_gregoriano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0037",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Che cosa si lancia tradizionalmente agli sposi all'uscita dalla chiesa?",
+    "risposte": [
+      "Riso",
+      "Coriandoli",
+      "Palloncini",
+      "Monete"
+    ],
+    "curiosita": "Il riso è un augurio di abbondanza e fertilità.",
+    "fatto": "lancio riso agli sposi",
+    "fonte": "https://it.wikipedia.org/wiki/Matrimonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0038",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale ricorrenza si celebra in Italia il 19 marzo?",
+    "risposte": [
+      "Festa del papà",
+      "Festa della mamma",
+      "Festa dei nonni",
+      "Festa della donna"
+    ],
+    "curiosita": "È legata a San Giuseppe, padre di Gesù.",
+    "fatto": "festa 19 marzo papa",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_del_pap%C3%A0",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0039",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale fu il primo videogioco di grande successo commerciale, uscito nel 1972?",
+    "risposte": [
+      "Pong",
+      "Pac-Man",
+      "Tetris",
+      "Asteroids"
+    ],
+    "curiosita": "Simulava il tennis da tavolo con due barre e un puntino.",
+    "fatto": "primo videogioco successo pong 1972",
+    "fonte": "https://it.wikipedia.org/wiki/Pong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0040",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale personaggio giallo mangia puntini in un labirinto?",
+    "risposte": [
+      "Pac-Man",
+      "Sonic",
+      "Kirby",
+      "Crash"
+    ],
+    "curiosita": "Il nome viene dal giapponese «paku paku», il verso di chi mangia.",
+    "fatto": "personaggio giallo labirinto pac man",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0041",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale videogioco ideato in Russia ha blocchi che cadono e si incastrano?",
+    "risposte": [
+      "Tetris",
+      "Pong",
+      "Arkanoid",
+      "Columns"
+    ],
+    "curiosita": "Fu creato da Aleksej Pažitnov nel 1984 a Mosca.",
+    "fatto": "videogioco russo blocchi tetris",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0042",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale console portatile Nintendo del 1989 aveva Tetris incluso?",
+    "risposte": [
+      "Game Boy",
+      "Game Gear",
+      "Lynx",
+      "PSP"
+    ],
+    "curiosita": "Aveva uno schermo monocromatico verdastro e usava quattro pile stilo.",
+    "fatto": "console portatile nintendo 1989 game boy",
+    "fonte": "https://it.wikipedia.org/wiki/Game_Boy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0043",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco si fa formando parole con tessere a lettere su un tabellone?",
+    "risposte": [
+      "Scarabeo",
+      "Taboo",
+      "Cluedo",
+      "Pictionary"
+    ],
+    "curiosita": "In inglese si chiama Scrabble ed è nato negli Stati Uniti.",
+    "fatto": "gioco parole tessere scarabeo",
+    "fonte": "https://it.wikipedia.org/wiki/Scarabeo_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0044",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale gioco di abilità prevede di togliere blocchetti da una torre di legno?",
+    "risposte": [
+      "Jenga",
+      "Shangai",
+      "Forza 4",
+      "Twister"
+    ],
+    "curiosita": "Il nome deriva da una parola swahili che significa «costruire».",
+    "fatto": "gioco torre di legno jenga",
+    "fonte": "https://it.wikipedia.org/wiki/Jenga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0045",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale santo ha ispirato la figura di Babbo Natale?",
+    "risposte": [
+      "San Nicola",
+      "San Martino",
+      "San Francesco",
+      "San Giorgio"
+    ],
+    "curiosita": "Era vescovo di Myra, nell'attuale Turchia, ed è venerato a Bari.",
+    "fatto": "santo ispirazione babbo natale",
+    "fonte": "https://it.wikipedia.org/wiki/Babbo_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0046",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "In quale giorno si fanno gli scherzi del «pesce d'aprile»?",
+    "risposte": [
+      "1° aprile",
+      "1° marzo",
+      "1° maggio",
+      "31 marzo"
+    ],
+    "curiosita": "In Francia si chiama «poisson d'avril» e i bambini attaccano pesci di carta.",
+    "fatto": "data pesce d aprile",
+    "fonte": "https://it.wikipedia.org/wiki/Pesce_d'aprile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0047",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale celebre bambola russa contiene altre bambole più piccole?",
+    "risposte": [
+      "Matrioska",
+      "Kokeshi",
+      "Pinocchio",
+      "Barbie"
+    ],
+    "curiosita": "La prima fu realizzata verso il 1890, ispirandosi a una bambola giapponese.",
+    "fatto": "bambola russa matrioska",
+    "fonte": "https://it.wikipedia.org/wiki/Matrioska",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0048",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'arte giapponese di piegare la carta?",
+    "risposte": [
+      "Origami",
+      "Ikebana",
+      "Bonsai",
+      "Haiku"
+    ],
+    "curiosita": "Il nome significa «piegare la carta» in giapponese.",
+    "fatto": "arte giapponese piegare carta origami",
+    "fonte": "https://it.wikipedia.org/wiki/Origami",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0049",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale ricorrenza cade il 2 novembre?",
+    "risposte": [
+      "Commemorazione dei defunti",
+      "Ognissanti",
+      "San Martino",
+      "Immacolata"
+    ],
+    "curiosita": "Il giorno prima si festeggia Ognissanti, il 1° novembre.",
+    "fatto": "ricorrenza 2 novembre defunti",
+    "fonte": "https://it.wikipedia.org/wiki/Commemorazione_dei_defunti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0050",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale festa americana si celebra con il tacchino a novembre?",
+    "risposte": [
+      "Giorno del Ringraziamento",
+      "Independence Day",
+      "Labor Day",
+      "Memorial Day"
+    ],
+    "curiosita": "Cade il quarto giovedì di novembre.",
+    "fatto": "festa americana tacchino ringraziamento",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_del_Ringraziamento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0051",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale animale «prevede» la fine dell'inverno negli Stati Uniti il 2 febbraio?",
+    "risposte": [
+      "Marmotta",
+      "Orso",
+      "Scoiattolo",
+      "Riccio"
+    ],
+    "curiosita": "Se vede la sua ombra, secondo la tradizione, l'inverno durerà altre sei settimane.",
+    "fatto": "animale previsione inverno marmotta",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_della_marmotta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0052",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiama la gonna a quadri tipica degli uomini scozzesi?",
+    "risposte": [
+      "Kilt",
+      "Sarong",
+      "Poncho",
+      "Caftano"
+    ],
+    "curiosita": "Il disegno a quadri si chiama tartan e varia da clan a clan.",
+    "fatto": "gonna scozzese kilt",
+    "fonte": "https://it.wikipedia.org/wiki/Kilt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0053",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale pianta si appende a Natale per baciarsi sotto di essa?",
+    "risposte": [
+      "Vischio",
+      "Agrifoglio",
+      "Pungitopo",
+      "Stella di Natale"
+    ],
+    "curiosita": "L'usanza arriva dai Paesi anglosassoni.",
+    "fatto": "pianta bacio natale vischio",
+    "fonte": "https://it.wikipedia.org/wiki/Vischio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0054",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quante pedine ha ciascun giocatore a dama?",
+    "risposte": [
+      "12",
+      "10",
+      "16",
+      "20"
+    ],
+    "curiosita": "Una pedina che arriva in fondo diventa dama e può muoversi anche all'indietro.",
+    "fatto": "pedine per giocatore a dama",
+    "fonte": "https://it.wikipedia.org/wiki/Dama_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0055",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale tradizione giapponese celebra la fioritura dei ciliegi?",
+    "risposte": [
+      "Hanami",
+      "Obon",
+      "Tanabata",
+      "Setsubun"
+    ],
+    "curiosita": "Si organizzano picnic sotto gli alberi in fiore.",
+    "fatto": "tradizione giapponese ciliegi hanami",
+    "fonte": "https://it.wikipedia.org/wiki/Hanami",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0056",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale festa messicana onora i defunti con teschi di zucchero?",
+    "risposte": [
+      "Día de Muertos",
+      "Cinco de Mayo",
+      "Diwali",
+      "Carnevale"
+    ],
+    "curiosita": "È patrimonio culturale immateriale dell'umanità secondo l'UNESCO.",
+    "fatto": "festa messicana defunti dia de muertos",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_dei_morti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0057",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale animaletto virtuale giapponese del 1996 si accudisce su un piccolo schermo?",
+    "risposte": [
+      "Tamagotchi",
+      "Furby",
+      "Digimon",
+      "Pokémon"
+    ],
+    "curiosita": "Il nome unisce «tamago», uovo, e «watch», orologio.",
+    "fatto": "animaletto virtuale tamagotchi",
+    "fonte": "https://it.wikipedia.org/wiki/Tamagotchi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0058",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Come si chiama il protagonista di «The Legend of Zelda»?",
+    "risposte": [
+      "Link",
+      "Zelda",
+      "Ganon",
+      "Epona"
+    ],
+    "curiosita": "Zelda è la principessa da salvare, non l'eroe.",
+    "fatto": "protagonista the legend of zelda link",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0059",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Quale videogioco del 1978 ha file di alieni che scendono verso un cannone?",
+    "risposte": [
+      "Space Invaders",
+      "Asteroids",
+      "Galaga",
+      "Defender"
+    ],
+    "curiosita": "Fu creato dal giapponese Tomohiro Nishikado per la Taito.",
+    "fatto": "videogioco alieni cannone space invaders",
+    "fonte": "https://it.wikipedia.org/wiki/Space_Invaders",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0060",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 2,
+    "domanda": "Di quante caselle per lato è la griglia classica del sudoku?",
+    "risposte": [
+      "9",
+      "6",
+      "8",
+      "10"
+    ],
+    "curiosita": "Le cifre da 1 a 9 non devono ripetersi in righe, colonne e riquadri.",
+    "fatto": "griglia classica sudoku lato",
+    "fonte": "https://it.wikipedia.org/wiki/Sudoku",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0061",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Come si chiama il primo francobollo della storia, emesso nel 1840?",
+    "risposte": [
+      "Penny Black",
+      "Blue Mauritius",
+      "Gronchi rosa",
+      "Cape Triangular"
+    ],
+    "curiosita": "Portava il profilo della regina Vittoria e costava un penny.",
+    "fatto": "primo francobollo penny black",
+    "fonte": "https://it.wikipedia.org/wiki/Penny_Black",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0062",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante caselle ha il tabellone del classico gioco dell'oca?",
+    "risposte": [
+      "63",
+      "60",
+      "72",
+      "100"
+    ],
+    "curiosita": "La casella 63 è il traguardo, da raggiungere con il tiro esatto.",
+    "fatto": "caselle gioco dell oca",
+    "fonte": "https://it.wikipedia.org/wiki/Gioco_dell'oca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0063",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Che cosa chiede la sigla RSVP in fondo a un invito?",
+    "risposte": [
+      "Di rispondere",
+      "Di portare un dono",
+      "Di arrivare presto",
+      "Di vestire elegante"
+    ],
+    "curiosita": "Viene dal francese «répondez s'il vous plaît».",
+    "fatto": "significato rsvp invito",
+    "fonte": "https://it.wikipedia.org/wiki/RSVP",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0064",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale gioco da tavolo cinese si fa con pietre bianche e nere su una griglia 19 per 19?",
+    "risposte": [
+      "Go",
+      "Shogi",
+      "Mah-jong",
+      "Dama cinese"
+    ],
+    "curiosita": "Ha più di 2.500 anni ed è tra i giochi da tavolo più antichi ancora praticati.",
+    "fatto": "gioco pietre bianche nere go",
+    "fonte": "https://it.wikipedia.org/wiki/Go_(gioco)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0065",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale Paese fu inventato il gioco Cluedo?",
+    "risposte": [
+      "Regno Unito",
+      "Stati Uniti",
+      "Francia",
+      "Germania"
+    ],
+    "curiosita": "Fu ideato da un impiegato di Birmingham durante la Seconda guerra mondiale.",
+    "fatto": "paese invenzione cluedo",
+    "fonte": "https://it.wikipedia.org/wiki/Cluedo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0066",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale anno uscì il videogioco Pac-Man?",
+    "risposte": [
+      "1980",
+      "1978",
+      "1982",
+      "1985"
+    ],
+    "curiosita": "Fu pubblicato prima in Giappone, il 22 maggio 1980.",
+    "fatto": "anno uscita pac man 1980",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0067",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale anno uscì Super Mario Bros. in Giappone?",
+    "risposte": [
+      "1985",
+      "1981",
+      "1989",
+      "1991"
+    ],
+    "curiosita": "Con oltre 40 milioni di copie fu per decenni il videogioco più venduto.",
+    "fatto": "anno uscita super mario bros 1985",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario_Bros.",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0068",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti numeri ha la roulette europea, compreso lo zero?",
+    "risposte": [
+      "37",
+      "36",
+      "38",
+      "40"
+    ],
+    "curiosita": "La roulette americana ne ha 38, perché c'è anche il doppio zero.",
+    "fatto": "numeri roulette europea 37",
+    "fonte": "https://it.wikipedia.org/wiki/Roulette",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0069",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante tessere ha un domino «doppio sei»?",
+    "risposte": [
+      "28",
+      "21",
+      "36",
+      "32"
+    ],
+    "curiosita": "Ogni tessera è divisa in due metà con da zero a sei punti.",
+    "fatto": "tessere domino doppio sei",
+    "fonte": "https://it.wikipedia.org/wiki/Domino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0070",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale colore sta di fronte al bianco in un cubo di Rubik classico?",
+    "risposte": [
+      "Giallo",
+      "Rosso",
+      "Blu",
+      "Verde"
+    ],
+    "curiosita": "Le facce opposte sono: bianco-giallo, rosso-arancione e verde-blu.",
+    "fatto": "colore opposto al bianco cubo di rubik",
+    "fonte": "https://it.wikipedia.org/wiki/Cubo_di_Rubik",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0071",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante contrade corrono a ogni Palio di Siena?",
+    "risposte": [
+      "10",
+      "17",
+      "12",
+      "8"
+    ],
+    "curiosita": "Le contrade sono 17: corrono sette a rotazione più tre sorteggiate.",
+    "fatto": "contrade che corrono al palio di siena",
+    "fonte": "https://it.wikipedia.org/wiki/Palio_di_Siena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0072",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale città si svolge la storica battaglia delle arance?",
+    "risposte": [
+      "Ivrea",
+      "Viareggio",
+      "Cento",
+      "Putignano"
+    ],
+    "curiosita": "Ricorda la ribellione popolare contro un tiranno medievale.",
+    "fatto": "citta battaglia delle arance ivrea",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Ivrea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0073",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale città umbra si corre la Festa dei Ceri il 15 maggio?",
+    "risposte": [
+      "Gubbio",
+      "Assisi",
+      "Spoleto",
+      "Orvieto"
+    ],
+    "curiosita": "Tre grandi macchine di legno vengono portate di corsa a spalla.",
+    "fatto": "citta festa dei ceri gubbio",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_dei_Ceri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0074",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale città ospita la Giostra del Saracino?",
+    "risposte": [
+      "Arezzo",
+      "Siena",
+      "Foligno",
+      "Ascoli Piceno"
+    ],
+    "curiosita": "I cavalieri colpiscono con la lancia un fantoccio che rappresenta il Saracino.",
+    "fatto": "citta giostra del saracino arezzo",
+    "fonte": "https://it.wikipedia.org/wiki/Giostra_del_Saracino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0075",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti giocatori ha ogni squadra del calcio storico fiorentino?",
+    "risposte": [
+      "27",
+      "22",
+      "11",
+      "30"
+    ],
+    "curiosita": "Si gioca in piazza Santa Croce, su un campo di sabbia.",
+    "fatto": "giocatori squadra calcio storico fiorentino",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_storico_fiorentino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0076",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Come si chiama anche il Capodanno cinese?",
+    "risposte": [
+      "Festa di Primavera",
+      "Festa delle Lanterne",
+      "Festa di metà autunno",
+      "Festa del Drago"
+    ],
+    "curiosita": "Ogni anno è associato a un animale dello zodiaco cinese.",
+    "fatto": "altro nome capodanno cinese",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno_cinese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0077",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale festa indiana si celebra lanciandosi polveri colorate?",
+    "risposte": [
+      "Holi",
+      "Diwali",
+      "Onam",
+      "Pongal"
+    ],
+    "curiosita": "Segna l'arrivo della primavera.",
+    "fatto": "festa indiana polveri colorate holi",
+    "fonte": "https://it.wikipedia.org/wiki/Holi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0078",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quali nozze si festeggiano dopo 60 anni di matrimonio?",
+    "risposte": [
+      "Nozze di diamante",
+      "Nozze d'oro",
+      "Nozze di platino",
+      "Nozze di smeraldo"
+    ],
+    "curiosita": "Le nozze d'argento sono a 25 anni e quelle d'oro a 50.",
+    "fatto": "nozze dopo 60 anni diamante",
+    "fonte": "https://it.wikipedia.org/wiki/Anniversario_di_matrimonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0079",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale anno fu presentata la bambola Barbie?",
+    "risposte": [
+      "1959",
+      "1949",
+      "1969",
+      "1975"
+    ],
+    "curiosita": "Debuttò alla fiera del giocattolo di New York il 9 marzo 1959.",
+    "fatto": "anno presentazione barbie 1959",
+    "fonte": "https://it.wikipedia.org/wiki/Barbie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0080",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale anno fu brevettato il mattoncino Lego moderno?",
+    "risposte": [
+      "1958",
+      "1948",
+      "1968",
+      "1978"
+    ],
+    "curiosita": "Il brevetto del sistema a incastro è del 28 gennaio 1958.",
+    "fatto": "anno brevetto mattoncino lego 1958",
+    "fonte": "https://it.wikipedia.org/wiki/Lego",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0081",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale anno la Parker Brothers pubblicò il Monopoly?",
+    "risposte": [
+      "1935",
+      "1925",
+      "1945",
+      "1955"
+    ],
+    "curiosita": "Il gioco derivava da «The Landlord's Game», ideato da Elizabeth Magie.",
+    "fatto": "anno pubblicazione monopoly 1935",
+    "fonte": "https://it.wikipedia.org/wiki/Monopoly",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0082",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale celebre gioco di carte collezionabili fu creato da Richard Garfield nel 1993?",
+    "risposte": [
+      "Magic: L'Adunanza",
+      "Yu-Gi-Oh",
+      "Pokémon",
+      "Hearthstone"
+    ],
+    "curiosita": "È considerato il capostipite dei giochi di carte collezionabili.",
+    "fatto": "gioco carte collezionabili garfield magic",
+    "fonte": "https://it.wikipedia.org/wiki/Magic:_l'Adunanza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0083",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "In quale Paese nacque la tradizione dell'albero di Natale addobbato?",
+    "risposte": [
+      "Germania",
+      "Svezia",
+      "Stati Uniti",
+      "Regno Unito"
+    ],
+    "curiosita": "Nell'Ottocento si diffuse anche grazie alla regina Vittoria e al principe Alberto.",
+    "fatto": "paese origine albero di natale",
+    "fonte": "https://it.wikipedia.org/wiki/Albero_di_Natale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0084",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti dadi può tirare al massimo chi attacca a Risiko?",
+    "risposte": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "curiosita": "Chi difende ne tira al massimo tre e vince in caso di parità.",
+    "fatto": "dadi attaccante risiko",
+    "fonte": "https://it.wikipedia.org/wiki/Risiko",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0085",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quante carte si hanno in mano a briscola?",
+    "risposte": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "curiosita": "Dopo ogni mano si pesca una carta dal mazzo.",
+    "fatto": "carte in mano a briscola",
+    "fonte": "https://it.wikipedia.org/wiki/Briscola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0086",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti punti vale il fante a briscola?",
+    "risposte": [
+      "2",
+      "3",
+      "4",
+      "10"
+    ],
+    "curiosita": "L'asso vale 11 punti e il tre 10.",
+    "fatto": "punti fante briscola",
+    "fonte": "https://it.wikipedia.org/wiki/Briscola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0087",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quanti numeri contiene una cartella della tombola?",
+    "risposte": [
+      "15",
+      "10",
+      "18",
+      "25"
+    ],
+    "curiosita": "Sono distribuiti in tre righe da cinque numeri.",
+    "fatto": "numeri cartella tombola",
+    "fonte": "https://it.wikipedia.org/wiki/Tombola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0088",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Di quanti caratteri è composto un IBAN italiano?",
+    "risposte": [
+      "27",
+      "22",
+      "24",
+      "31"
+    ],
+    "curiosita": "Inizia con le lettere IT seguite da due cifre di controllo.",
+    "fatto": "caratteri iban italiano",
+    "fonte": "https://it.wikipedia.org/wiki/IBAN",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0089",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Di quante cifre è composta la partita IVA italiana?",
+    "risposte": [
+      "11",
+      "9",
+      "13",
+      "16"
+    ],
+    "curiosita": "Il codice fiscale delle persone fisiche ha invece 16 caratteri.",
+    "fatto": "cifre partita iva",
+    "fonte": "https://it.wikipedia.org/wiki/Partita_IVA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cos-0090",
+    "tipo": "classica",
+    "categoria": "costume",
+    "difficolta": 3,
+    "domanda": "Quale azienda di videogiochi nacque nel 1889 producendo carte da gioco hanafuda?",
+    "risposte": [
+      "Nintendo",
+      "Sega",
+      "Namco",
+      "Capcom"
+    ],
+    "curiosita": "Il nome si interpreta come «affidare la fortuna al cielo».",
+    "fatto": "azienda nata 1889 carte hanafuda nintendo",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

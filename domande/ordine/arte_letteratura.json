@@ -1,0 +1,362 @@
+[
+  {
+    "id": "or-art-0001",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Pittori, dal più antico per nascita",
+    "elementi": [
+      "Giotto",
+      "Leonardo da Vinci",
+      "Raffaello",
+      "Caravaggio"
+    ],
+    "valori": [
+      "c. 1267",
+      "1452",
+      "1483",
+      "1571"
+    ],
+    "curiosita": "Raffaello morì a 37 anni, nel 1520.",
+    "fatto": "pittori italiani per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'arte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0002",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Scrittori italiani, dal più antico",
+    "elementi": [
+      "Dante Alighieri",
+      "Francesco Petrarca",
+      "Giovanni Boccaccio",
+      "Alessandro Manzoni"
+    ],
+    "valori": [
+      "1265",
+      "1304",
+      "1313",
+      "1785"
+    ],
+    "curiosita": "Petrarca e Boccaccio furono amici.",
+    "fatto": "scrittori italiani per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0003",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Libri italiani, dal più antico",
+    "elementi": [
+      "Divina Commedia",
+      "Decameron",
+      "Orlando furioso",
+      "I promessi sposi"
+    ],
+    "valori": [
+      "c. 1320",
+      "c. 1350",
+      "1516",
+      "1827"
+    ],
+    "curiosita": "Il Decameron nacque dopo la peste del 1348.",
+    "fatto": "libri italiani classici per data",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0004",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Romanzi, dal più antico",
+    "elementi": [
+      "Don Chisciotte",
+      "Robinson Crusoe",
+      "Orgoglio e pregiudizio",
+      "Il vecchio e il mare"
+    ],
+    "valori": [
+      "1605",
+      "1719",
+      "1813",
+      "1952"
+    ],
+    "curiosita": "Don Chisciotte uscì in due parti, nel 1605 e nel 1615.",
+    "fatto": "romanzi celebri per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Romanzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0005",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Pittori moderni, dal più antico per nascita",
+    "elementi": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "valori": [
+      "1840",
+      "1853",
+      "1881",
+      "1904"
+    ],
+    "curiosita": "Picasso nacque a Malaga.",
+    "fatto": "pittori moderni per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'arte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0006",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Poeti italiani, dal più antico per nascita",
+    "elementi": [
+      "Giacomo Leopardi",
+      "Giosuè Carducci",
+      "Giovanni Pascoli",
+      "Giuseppe Ungaretti"
+    ],
+    "valori": [
+      "1798",
+      "1835",
+      "1855",
+      "1888"
+    ],
+    "curiosita": "Leopardi nacque a Recanati.",
+    "fatto": "poeti italiani per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0007",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Monumenti, dal più antico",
+    "elementi": [
+      "Colosseo",
+      "Torre di Pisa",
+      "Duomo di Milano",
+      "Sagrada Família"
+    ],
+    "valori": [
+      "80 d.C.",
+      "1173",
+      "1386",
+      "1882"
+    ],
+    "curiosita": "La costruzione del Duomo di Milano durò secoli.",
+    "fatto": "monumenti per anno di inizio",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'architettura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0008",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Nobel per la letteratura italiani, dal più antico",
+    "elementi": [
+      "Grazia Deledda",
+      "Luigi Pirandello",
+      "Salvatore Quasimodo",
+      "Eugenio Montale"
+    ],
+    "valori": [
+      "1926",
+      "1934",
+      "1959",
+      "1975"
+    ],
+    "curiosita": "Grazia Deledda fu la prima italiana a vincerlo.",
+    "fatto": "nobel letteratura italiani per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_letteratura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0009",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Opere di Michelangelo, dalla più antica",
+    "elementi": [
+      "Pietà vaticana",
+      "David",
+      "Volta della Sistina",
+      "Giudizio Universale"
+    ],
+    "valori": [
+      "1499",
+      "1504",
+      "1512",
+      "1541"
+    ],
+    "curiosita": "Scolpì la Pietà intorno ai 24 anni.",
+    "fatto": "opere di michelangelo per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0010",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Romanzi russi, dal più antico",
+    "elementi": [
+      "Delitto e castigo",
+      "Guerra e pace",
+      "Anna Karenina",
+      "I fratelli Karamazov"
+    ],
+    "valori": [
+      "1866",
+      "1869",
+      "1878",
+      "1880"
+    ],
+    "curiosita": "Dostoevskij morì pochi mesi dopo i Karamazov.",
+    "fatto": "romanzi russi per anno",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_russa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0011",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Architetti italiani, dal più antico per nascita",
+    "elementi": [
+      "Brunelleschi",
+      "Alberti",
+      "Bramante",
+      "Palladio"
+    ],
+    "valori": [
+      "1377",
+      "1404",
+      "1444",
+      "1508"
+    ],
+    "curiosita": "Brunelleschi si formò come orafo.",
+    "fatto": "architetti italiani per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Architettura_del_Rinascimento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0012",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Scrittori inglesi, dal più antico per nascita",
+    "elementi": [
+      "Shakespeare",
+      "Daniel Defoe",
+      "Jane Austen",
+      "Charles Dickens"
+    ],
+    "valori": [
+      "1564",
+      "c. 1660",
+      "1775",
+      "1812"
+    ],
+    "curiosita": "Dickens nacque a Portsmouth.",
+    "fatto": "scrittori inglesi per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_inglese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0013",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Pittori olandesi, dal più antico per nascita",
+    "elementi": [
+      "Jan van Eyck",
+      "Bosch",
+      "Rembrandt",
+      "Vermeer"
+    ],
+    "valori": [
+      "c. 1390",
+      "c. 1450",
+      "1606",
+      "1632"
+    ],
+    "curiosita": "Rembrandt nacque a Leida.",
+    "fatto": "pittori olandesi fiamminghi per nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Pittura_fiamminga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0014",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Scrittori francesi, dal più antico per nascita",
+    "elementi": [
+      "Victor Hugo",
+      "Gustave Flaubert",
+      "Émile Zola",
+      "Marcel Proust"
+    ],
+    "valori": [
+      "1802",
+      "1821",
+      "1840",
+      "1871"
+    ],
+    "curiosita": "Proust scrisse gran parte dell'opera chiuso in camera.",
+    "fatto": "scrittori francesi per anno di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_francese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0015",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Pittori del primo Novecento, dal più antico",
+    "elementi": [
+      "Gustav Klimt",
+      "Edvard Munch",
+      "Vasilij Kandinskij",
+      "Piet Mondrian"
+    ],
+    "valori": [
+      "1862",
+      "1863",
+      "1866",
+      "1872"
+    ],
+    "curiosita": "Kandinskij è tra i pionieri dell'arte astratta.",
+    "fatto": "pittori primo novecento per nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'arte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]
