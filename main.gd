@@ -261,6 +261,12 @@ func _primo_piano(i: int) -> Node2D:
 	striscia.position = Vector2(1920, 220)
 	striscia.rotation_degrees = -3
 	striscia.add_child(Risposta.etichetta(_g[i]["nome"], Risposta.font_display(), 96, INK, 700, 140))
+	var pers: String = _dati(_g[i]["id"])[0]
+	if pers != _g[i]["nome"]:  # nome scelto sul telefono: sotto, in piccolo, il nome del personaggio
+		striscia.size.y = 200
+		var sotto := Risposta.etichetta(pers, Risposta.font_display(), 48, INK, 700, 60)
+		sotto.position.y = 122
+		striscia.add_child(sotto)
 	n.add_child(striscia)
 	var tw := create_tween().set_parallel().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 	tw.tween_property(p, "position:y", 120.0, 0.45)
@@ -309,7 +315,7 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 		_quando.append(INF if umano else randf_range(2.0, 11.0))
 		_pers[pid].stato("pensa")
 	_s.mostra_domanda(i + 1, tot, ROUND, q["domanda"], q["risposte"])
-	_server.invia_stato({"fase": "domanda", "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"]})
+	_server.invia_stato({"fase": "domanda", "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"], "tempo": Game.QUESTION_TIME})
 	_s.set_tempo(Game.QUESTION_TIME, Game.QUESTION_TIME)
 	if i == 0:
 		_dici(_pesca("qfirst"), "annuncio")

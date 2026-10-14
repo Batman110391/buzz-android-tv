@@ -50,6 +50,8 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .k:disabled:not(.sc){opacity:.45}
 .badge{display:inline-block;padding:2px 22px;border:5px solid var(--ink);border-radius:40px;font-size:40px;color:var(--ink)}
 .ok{background:#fff}.ko{background:#5B4A93;color:var(--dimt)}
+.tm{margin-left:auto;flex:none;width:60px;height:60px;border-radius:50%;background:var(--ink);border:5px solid var(--gold);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:30px}
+.tm.hurry{border-color:var(--mag);color:var(--gold)}
 .pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
 </style>
 </head>
@@ -72,7 +74,7 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 </section>
 
 <section class="scr" id="s-q">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div><span class="tm d" id="tm"></span></div>
  <div class="q" id="qt"></div>
  <div class="tasti" id="tasti"></div>
 </section>
@@ -109,6 +111,7 @@ var ls = {get:function(k){try{return localStorage.getItem(k)||""}catch(e){return
 var P = new URLSearchParams(location.search), demo = P.get("demo");
 var urlCode = (P.get("c")||"").toUpperCase();
 var code = urlCode || ls.get("qz_code");
+var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
 var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
 
 function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
@@ -157,8 +160,14 @@ function render(){
   id = "s-fin";
   $("fpos").textContent = res ? res.posizione+"° posto" : "in classifica";
  } else id = "s-att";
- head($(id)); show(id);
+ head($(id)); show(id); tick();
 }
+function tick(){
+ if(!st||st.fase!=="domanda") return;
+ var s = Math.max(0, Math.ceil((fine-Date.now())/1000));
+ $("tm").textContent = s; $("tm").classList.toggle("hurry", s<=5);
+}
+setInterval(tick, 200);
 $("tasti").onclick = function(e){
  var b = e.target.closest(".k"); if(!b||b.disabled||!st) return;
  var i = +b.dataset.i;
@@ -179,7 +188,7 @@ function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
  else if(m.t==="lobby"){ presi = m.presi||[] }
- else if(m.t==="state"){ if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="state"){ if(m.fase==="domanda"&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
   ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
@@ -198,7 +207,7 @@ function connect(){
 
 if(demo){
  var D = {name:"Gastone",avatar:"chef",color:"#F2384A",slot:0};
- var Q = {t:"state",fase:"domanda",q:2,tot:10,domanda:"Qual è la capitale d'Australia?",risposte:["Sydney","Canberra","Melbourne","Perth"],scelta:-1};
+ var Q = {t:"state",fase:"domanda",q:2,tot:10,domanda:"Qual è la capitale d'Australia?",risposte:["Sydney","Canberra","Melbourne","Perth"],scelta:-1,tempo:12}; fine = Date.now()+12000;
  presi = ["nonna","gatto"]; sel = "chef";
  if(demo==="codice"){ urlCode = ""; }
  else if(demo==="attesa"){ me = D; st = {t:"state",fase:"lobby"} }

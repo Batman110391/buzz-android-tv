@@ -201,7 +201,7 @@ func set_stato(s: String, anima := true) -> void:
 	_anello.visible = s == "giusta"
 	_timbro.visible = s == "giusta"
 	if s == "giusta":
-		_applica(Color.WHITE, INK, INK, CREAM)
+		_applica(Color("3DDC84"), INK, INK, CREAM)  # verde: scelta di S (2026-10-14)
 		scale = Vector2(1.03, 1.03)
 		if anima:
 			scale = Vector2(1.08, 1.08)

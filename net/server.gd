@@ -33,6 +33,7 @@ var _players := {}  # slot -> {nome, avatar, token, conn (Dictionary o null), di
 var _bot := {}  # slot -> avatar
 var _aperta := false
 var _state := {}
+var _t_stato := 0  # ms di quando è arrivato _state: "tempo" si accorcia per chi lo riceve dopo
 var _risposte := {}  # slot -> {q, choice}
 
 
@@ -97,6 +98,7 @@ func invia_stato(d: Dictionary) -> void:
 	_state = {}
 	_state.merge(d, true)
 	_state["t"] = "state"
+	_t_stato = Time.get_ticks_msec()
 	for c in _conns:
 		if c.slot >= 0:
 			_send(c, _msg_state(c.slot))
@@ -297,6 +299,8 @@ func _msg_lobby() -> Dictionary:
 
 func _msg_state(slot: int) -> Dictionary:
 	var d := _state.duplicate()
+	if d.has("tempo"):
+		d["tempo"] = maxf(0.0, float(d["tempo"]) - (Time.get_ticks_msec() - _t_stato) / 1000.0)
 	if d.get("fase") == "domanda":
 		var r = _risposte.get(slot)
 		d["scelta"] = r.choice if r != null and r.q == int(d.get("q", -1)) else -1
