@@ -189,10 +189,11 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] D5 `game/domande.gd`: cache, validazione, riserva, uscite, esiti; prova sulla TV senza rete e con rete
 
 ### C — Co-conduttrice Gilda Lampo (dopo G1h)
-- [ ] Voce (Voice Design, 3 anteprime, sceglie S)
+- [x] Voce (Voice Design, 3 anteprime, sceglie S)
 - [x] Personaggio cutout nello stile del design (SVG a pezzi + rig come Tony), approvato da S
 - [ ] Due conduttori in `main`: mazzi con battute di entrambi, duetti, Gilda entra da destra con il suo fumetto
-- [ ] ~40 battute di Gilda + ~10 duetti (testi approvati da S); dopo il 2026-11-10 le battute di Tony che diventano duetti
+- [x] ~40 battute di Gilda + ~10 duetti (testi approvati da S)
+- [ ] Dopo il 2026-11-10 le battute di Tony che diventano duetti
 
 ### G2 — Telefoni come controller
 - [ ] Lobby con QR + indirizzo + codice; il telefono sceglie personaggio e nome (1l)
