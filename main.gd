@@ -43,6 +43,7 @@ var _hurry := false
 var _mazzi := {}  # prefisso -> chiavi ancora da pescare
 var _ultima := {}  # prefisso -> ultima chiave uscita
 var _presentati := {}  # personaggi già presentati da Tony in questa sessione
+var _salta := false  # OK durante le presentazioni
 var _ult_commento := -9  # domanda dell'ultimo commento dopo la rivelazione
 var _ult_buzz := -9
 var _ult_hurry := -9
@@ -118,12 +119,12 @@ func _vai_lobby() -> void:
 	_lobby.visible = true
 	if _demo:
 		await get_tree().create_timer(1.5).timeout
-		await _cambia_giocatori(1)
+		_cambia_giocatori(1)
 		await get_tree().create_timer(1.0).timeout
 		_vai_round()
 
 
-## ←/→ nella lobby: aggiunge (Tony presenta il nuovo arrivato) o toglie l'ultimo giocatore (minimo 2).
+## ←/→ nella lobby: aggiunge o toglie l'ultimo giocatore (minimo 2). Niente voce: si presentano a inizio partita.
 func _cambia_giocatori(d: int) -> void:
 	var n := clampi(_n + d, 2, 6)
 	if n == _n:
@@ -131,26 +132,70 @@ func _cambia_giocatori(d: int) -> void:
 	if d > 0:
 		_lobby.aggiungi(_n, GIOCATORI[_n][2], GIOCATORI[_n][0], Color(GIOCATORI[_n][1]))
 		Sfx.play("pop")
-		var id: String = GIOCATORI[_n][2]
-		_n = n
-		if not _parla and not _presentati.has(id):  # ognuno si presenta una volta sola
-			_presentati[id] = true
-			await _commenta(_pesca("pres_" + id), "annuncio", FUMETTO_BASSO)
 	else:
-		_n = n
-		_lobby.togli(_n)
+		_lobby.togli(n)
+	_n = n
 
 
-# ---------------------------------------------------------------- round + domande
+# ---------------------------------------------------------------- presentazioni + round + domande
 func _vai_round() -> void:
 	_fase = "round"
 	_lobby.visible = false
 	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
+	await _presenta_giocatori()
+	_fase = "round"
 	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
 	await get_tree().create_timer(0.6).timeout
 	await _commenta(["round_1", "gilda_round_1"].pick_random(), "annuncio", FUMETTO_BASSO)
 	_round.nascondi()
 	_inizia_partita()
+
+
+## Primo piano di ogni giocatore non ancora presentato in questa sessione, con la battuta di Tony; OK salta tutto.
+## ponytail: qui andrà il caricamento in background (domande dal server, foto) quando ci sarà (D5, G3).
+func _presenta_giocatori() -> void:
+	_fase = "presentazioni"
+	_salta = false
+	for i in _n:
+		var id: String = GIOCATORI[i][2]
+		if _salta:
+			break
+		if _presentati.has(id):
+			continue
+		_presentati[id] = true
+		var pp := _primo_piano(i)
+		await _dici(_pesca("pres_" + id), "annuncio", FUMETTO_BASSO)
+		pp.queue_free()
+
+
+## Personaggio grande al centro che entra dal basso + nome nella striscia del suo colore che entra da destra.
+func _primo_piano(i: int) -> Node2D:
+	var n := Node2D.new()
+	add_child(n)
+	move_child(n, _cond[0].get_index())  # sotto i conduttori e i fumetti
+	var p := Personaggio.new()
+	p.setup(GIOCATORI[i][2])
+	p.scale = Vector2.ONE * 3.6
+	p.position = Vector2(328, 1100)
+	n.add_child(p)
+	var piedistallo := Panel.new()  # copre il taglio del busto (coordinate della tela, scalate con il personaggio)
+	piedistallo.add_theme_stylebox_override("panel", Risposta.box(Color(GIOCATORI[i][1]), INK, 2, 4, 6))
+	piedistallo.position = Vector2(28, 168)
+	piedistallo.size = Vector2(184, 60)
+	p.add_child(piedistallo)
+	p.stato("esulta")
+	var striscia := Panel.new()
+	striscia.add_theme_stylebox_override("panel", Risposta.box(Color(GIOCATORI[i][1]), INK, 8, 16, 40))
+	striscia.size = Vector2(700, 150)
+	striscia.position = Vector2(1920, 220)
+	striscia.rotation_degrees = -3
+	striscia.add_child(Risposta.etichetta(GIOCATORI[i][0], Risposta.font_display(), 96, INK, 700, 140))
+	n.add_child(striscia)
+	var tw := create_tween().set_parallel().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tw.tween_property(p, "position:y", 120.0, 0.45)
+	tw.tween_property(striscia, "position:x", 1120.0, 0.45).set_delay(0.15)
+	Sfx.play("pop")
+	return n
 
 
 func _inizia_partita() -> void:
@@ -347,12 +392,17 @@ func _input(e: InputEvent) -> void:
 				for f in _fumetti:
 					f.visible = _sottotitoli and f.visible
 		"lobby":
-			if ok and not _parla:  # aspetta che Tony finisca la presentazione
+			if ok:
 				_vai_round()
 			elif e.is_action_pressed("ui_right"):
 				_cambia_giocatori(1)
 			elif e.is_action_pressed("ui_left"):
 				_cambia_giocatori(-1)
+		"presentazioni":
+			if ok:
+				_salta = true
+				for c in _cond:
+					c.zitto()
 		"domanda":
 			if _demo:
 				return

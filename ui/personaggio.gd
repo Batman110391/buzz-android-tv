@@ -226,6 +226,13 @@ func _exit_tree() -> void:
 		_player.stream = null
 
 
+## Interrompe la battuta in corso (finito_parlare viene emesso lo stesso).
+func zitto() -> void:
+	if _parlando:
+		_player.stop()
+		_fine_parla()
+
+
 func _fine_parla() -> void:
 	_parlando = false
 	_vol = 0.0
