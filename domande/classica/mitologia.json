@@ -1,0 +1,3242 @@
+[
+ {
+  "id": "cl-mit-0001",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Chi è il re degli dei nella mitologia greca?",
+  "risposte": [
+   "Zeus",
+   "Poseidone",
+   "Ade",
+   "Apollo"
+  ],
+  "curiosita": "Viveva sull'Olimpo e scagliava i fulmini.",
+  "fatto": "re degli dei greci zeus",
+  "fonte": "https://it.wikipedia.org/wiki/Zeus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0002",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio greco del mare?",
+  "risposte": [
+   "Poseidone",
+   "Ade",
+   "Ares",
+   "Efesto"
+  ],
+  "curiosita": "La sua arma era il tridente, con cui scuoteva la terra.",
+  "fatto": "dio greco del mare poseidone",
+  "fonte": "https://it.wikipedia.org/wiki/Poseidone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0003",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale dea greca nacque, già armata, dalla testa di Zeus?",
+  "risposte": [
+   "Atena",
+   "Era",
+   "Artemide",
+   "Afrodite"
+  ],
+  "curiosita": "Zeus aveva un gran mal di testa: Efesto lo curò con un colpo d'ascia.",
+  "fatto": "dea nata dalla testa di zeus atena",
+  "fonte": "https://it.wikipedia.org/wiki/Atena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0004",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale eroe greco affrontò dodici fatiche?",
+  "risposte": [
+   "Ercole",
+   "Achille",
+   "Ulisse",
+   "Teseo"
+  ],
+  "curiosita": "In greco si chiama Eracle: Ercole è il nome romano.",
+  "fatto": "eroe delle dodici fatiche ercole",
+  "fonte": "https://it.wikipedia.org/wiki/Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0005",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il cane a tre teste che custodisce gli Inferi?",
+  "risposte": [
+   "Cerbero",
+   "Fenrir",
+   "Argo",
+   "Laelaps"
+  ],
+  "curiosita": "Ercole lo portò fuori dagli Inferi come ultima fatica.",
+  "fatto": "cane a tre teste inferi cerbero",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0006",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Secondo il mito, chi aprì il vaso da cui uscirono tutti i mali?",
+  "risposte": [
+   "Pandora",
+   "Elena",
+   "Penelope",
+   "Arianna"
+  ],
+  "curiosita": "Sul fondo restò solo la speranza.",
+  "fatto": "pandora apre il vaso dei mali",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0007",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale mostro dai capelli di serpenti pietrificava con lo sguardo?",
+  "risposte": [
+   "Medusa",
+   "Scilla",
+   "Cariddi",
+   "Echidna"
+  ],
+  "curiosita": "Perseo la uccise guardandola nello scudo lucido.",
+  "fatto": "mostro capelli di serpenti medusa",
+  "fonte": "https://it.wikipedia.org/wiki/Medusa",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0008",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il cavallo alato della mitologia greca?",
+  "risposte": [
+   "Pegaso",
+   "Bucefalo",
+   "Sleipnir",
+   "Ippogrifo"
+  ],
+  "curiosita": "Nacque dal sangue di Medusa.",
+  "fatto": "cavallo alato greco pegaso",
+  "fonte": "https://it.wikipedia.org/wiki/Pegaso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0009",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiamava il dio romano della guerra?",
+  "risposte": [
+   "Marte",
+   "Giove",
+   "Mercurio",
+   "Vulcano"
+  ],
+  "curiosita": "Il mese di marzo prende il nome da lui.",
+  "fatto": "dio romano della guerra marte",
+  "fonte": "https://it.wikipedia.org/wiki/Marte_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0010",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale dio greco ha i sandali alati ed è il messaggero degli dei?",
+  "risposte": [
+   "Ermes",
+   "Apollo",
+   "Ares",
+   "Dioniso"
+  ],
+  "curiosita": "I Romani lo chiamavano Mercurio.",
+  "fatto": "messaggero degli dei ermes",
+  "fonte": "https://it.wikipedia.org/wiki/Ermes",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0011",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era il padre di Zeus?",
+  "risposte": [
+   "Crono",
+   "Urano",
+   "Atlante",
+   "Oceano"
+  ],
+  "curiosita": "Divorava i figli appena nati, per paura di essere detronizzato.",
+  "fatto": "padre di zeus crono",
+  "fonte": "https://it.wikipedia.org/wiki/Crono_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0012",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale re della leggenda trasformava in oro tutto ciò che toccava?",
+  "risposte": [
+   "Mida",
+   "Creso",
+   "Minosse",
+   "Priamo"
+  ],
+  "curiosita": "Dopo aver toccato il cibo, chiese agli dei di liberarlo dal dono.",
+  "fatto": "re che trasforma in oro mida",
+  "fonte": "https://it.wikipedia.org/wiki/Mida",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0013",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Su quale isola sorgeva, secondo il mito, il labirinto del Minotauro?",
+  "risposte": [
+   "Creta",
+   "Cipro",
+   "Rodi",
+   "Delo"
+  ],
+  "curiosita": "Il labirinto fu progettato da Dedalo per il re Minosse.",
+  "fatto": "isola del labirinto minotauro creta",
+  "fonte": "https://it.wikipedia.org/wiki/Minotauro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0014",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale eroe uccise il Minotauro?",
+  "risposte": [
+   "Teseo",
+   "Perseo",
+   "Ercole",
+   "Giasone"
+  ],
+  "curiosita": "Uscì dal labirinto grazie al filo di Arianna.",
+  "fatto": "uccisore del minotauro teseo",
+  "fonte": "https://it.wikipedia.org/wiki/Teseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0015",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi fu condannato a spingere in eterno un masso su per un monte?",
+  "risposte": [
+   "Sisifo",
+   "Tantalo",
+   "Prometeo",
+   "Issione"
+  ],
+  "curiosita": "Ogni volta il masso rotolava giù, a un passo dalla cima.",
+  "fatto": "condannato al masso sisifo",
+  "fonte": "https://it.wikipedia.org/wiki/Sisifo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0016",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale titano rubò il fuoco agli dei per donarlo agli uomini?",
+  "risposte": [
+   "Prometeo",
+   "Epimeteo",
+   "Atlante",
+   "Crio"
+  ],
+  "curiosita": "Zeus lo punì incatenandolo a una roccia, dove un'aquila gli mangiava il fegato.",
+  "fatto": "titano ladro del fuoco prometeo",
+  "fonte": "https://it.wikipedia.org/wiki/Prometeo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0017",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamava la moglie fedele di Ulisse?",
+  "risposte": [
+   "Penelope",
+   "Elena",
+   "Andromaca",
+   "Clitennestra"
+  ],
+  "curiosita": "Per vent'anni respinse i pretendenti, disfacendo di notte la tela.",
+  "fatto": "moglie di ulisse penelope",
+  "fonte": "https://it.wikipedia.org/wiki/Penelope_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0018",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio greco era il dio del vino e dell'estasi?",
+  "risposte": [
+   "Dioniso",
+   "Apollo",
+   "Ares",
+   "Pan"
+  ],
+  "curiosita": "I Romani lo chiamavano Bacco.",
+  "fatto": "dio greco del vino dioniso",
+  "fonte": "https://it.wikipedia.org/wiki/Dioniso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0019",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dea romana corrisponde alla greca Afrodite?",
+  "risposte": [
+   "Venere",
+   "Giunone",
+   "Minerva",
+   "Diana"
+  ],
+  "curiosita": "Per i Romani era anche la madre mitica di Enea.",
+  "fatto": "dea romana equivalente afrodite venere",
+  "fonte": "https://it.wikipedia.org/wiki/Venere_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0020",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale mostro marino, con Cariddi, minacciava lo stretto di Ulisse?",
+  "risposte": [
+   "Scilla",
+   "Medusa",
+   "Idra",
+   "Cerbero"
+  ],
+  "curiosita": "Aveva sei teste e sei bocche piene di denti.",
+  "fatto": "mostro con cariddi stretto scilla",
+  "fonte": "https://it.wikipedia.org/wiki/Scilla_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0021",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama il fiume dell'oblio negli Inferi greci?",
+  "risposte": [
+   "Lete",
+   "Stige",
+   "Acheronte",
+   "Cocito"
+  ],
+  "curiosita": "Bevendo le sue acque le anime dimenticavano la vita passata.",
+  "fatto": "fiume dell oblio lete",
+  "fonte": "https://it.wikipedia.org/wiki/Lete",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0022",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi traghettava le anime dei morti sull'Acheronte?",
+  "risposte": [
+   "Caronte",
+   "Tanato",
+   "Minosse",
+   "Ade"
+  ],
+  "curiosita": "Per il passaggio le anime pagavano una moneta, messa in bocca al defunto.",
+  "fatto": "traghettatore dei morti caronte",
+  "fonte": "https://it.wikipedia.org/wiki/Caronte_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0023",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale indovino cieco di Tebe compare nell'Edipo re e nell'Odissea?",
+  "risposte": [
+   "Tiresia",
+   "Calcante",
+   "Laocoonte",
+   "Nestore"
+  ],
+  "curiosita": "Fu trasformato in donna per sette anni, secondo una tradizione.",
+  "fatto": "indovino cieco tebe tiresia",
+  "fonte": "https://it.wikipedia.org/wiki/Tiresia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0024",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale titano fu condannato a reggere sulle spalle la volta del cielo?",
+  "risposte": [
+   "Atlante",
+   "Prometeo",
+   "Crio",
+   "Iperione"
+  ],
+  "curiosita": "Dal suo nome deriva la parola atlante e l'oceano Atlantico.",
+  "fatto": "titano che regge il cielo atlante",
+  "fonte": "https://it.wikipedia.org/wiki/Atlante_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0025",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la nave con cui Giasone cercò il vello d'oro?",
+  "risposte": [
+   "Argo",
+   "Olimpia",
+   "Pegaso",
+   "Calliope"
+  ],
+  "curiosita": "I suoi eroi si chiamano Argonauti.",
+  "fatto": "nave di giasone argo",
+  "fonte": "https://it.wikipedia.org/wiki/Argonauti",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0026",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi, secondo il mito, giudicò la più bella tra Era, Atena e Afrodite?",
+  "risposte": [
+   "Paride",
+   "Ettore",
+   "Menelao",
+   "Enea"
+  ],
+  "curiosita": "Scelse Afrodite, che gli promise l'amore di Elena.",
+  "fatto": "giudizio di paride",
+  "fonte": "https://it.wikipedia.org/wiki/Giudizio_di_Paride",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0027",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la madre di Zeus?",
+  "risposte": [
+   "Rea",
+   "Gea",
+   "Teti",
+   "Meti"
+  ],
+  "curiosita": "Lo nascose a Creta per salvarlo da Crono.",
+  "fatto": "madre di zeus rea",
+  "fonte": "https://it.wikipedia.org/wiki/Rea_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0028",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi era il padre dell'eroe Achille?",
+  "risposte": [
+   "Peleo",
+   "Telamone",
+   "Priamo",
+   "Laerte"
+  ],
+  "curiosita": "Sua madre era la ninfa marina Teti.",
+  "fatto": "padre di achille peleo",
+  "fonte": "https://it.wikipedia.org/wiki/Achille",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0029",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la dea greca della discordia?",
+  "risposte": [
+   "Eris",
+   "Nemesi",
+   "Ate",
+   "Tiche"
+  ],
+  "curiosita": "Gettò la mela d'oro al banchetto di nozze di Peleo e Teti.",
+  "fatto": "dea della discordia eris",
+  "fonte": "https://it.wikipedia.org/wiki/Eris_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0030",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale ninfa si innamorò di Narciso e si consumò fino a restare solo voce?",
+  "risposte": [
+   "Eco",
+   "Dafne",
+   "Calipso",
+   "Siringa"
+  ],
+  "curiosita": "Da lei viene il fenomeno acustico dell'eco.",
+  "fatto": "ninfa eco e narciso",
+  "fonte": "https://it.wikipedia.org/wiki/Narciso_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0031",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Chi, secondo la leggenda, fondò Roma dopo essere stato allattato da una lupa?",
+  "risposte": [
+   "Romolo",
+   "Numa",
+   "Enea",
+   "Tarquinio"
+  ],
+  "curiosita": "Uccise il fratello gemello Remo durante una lite sul confine.",
+  "fatto": "fondatore di roma romolo",
+  "fonte": "https://it.wikipedia.org/wiki/Romolo_e_Remo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0032",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio del tuono nella mitologia norrena, armato di martello?",
+  "risposte": [
+   "Thor",
+   "Odino",
+   "Loki",
+   "Balder"
+  ],
+  "curiosita": "Il suo martello si chiama Mjöllnir; il giovedì inglese prende il suo nome.",
+  "fatto": "dio norreno del tuono thor",
+  "fonte": "https://it.wikipedia.org/wiki/Thor",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0033",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale dio egizio ha la testa di sciacallo?",
+  "risposte": [
+   "Anubi",
+   "Horus",
+   "Thot",
+   "Sobek"
+  ],
+  "curiosita": "Proteggeva i morti e l'imbalsamazione.",
+  "fatto": "dio egizio testa di sciacallo anubi",
+  "fonte": "https://it.wikipedia.org/wiki/Anubi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0034",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il mago consigliere di Re Artù?",
+  "risposte": [
+   "Merlino",
+   "Gandalf",
+   "Silente",
+   "Saruman"
+  ],
+  "curiosita": "Nelle leggende bretoni era anche profeta.",
+  "fatto": "mago di re artu merlino",
+  "fonte": "https://it.wikipedia.org/wiki/Merlino",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0035",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale creatura mitica ha busto d'uomo e corpo di cavallo?",
+  "risposte": [
+   "Centauro",
+   "Satiro",
+   "Minotauro",
+   "Fauno"
+  ],
+  "curiosita": "Il più saggio dei centauri, Chirone, fece da maestro ad Achille.",
+  "fatto": "creatura uomo cavallo centauro",
+  "fonte": "https://it.wikipedia.org/wiki/Centauro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0036",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Chi porta dolci e carbone la notte tra il 5 e il 6 gennaio?",
+  "risposte": [
+   "La Befana",
+   "Santa Lucia",
+   "San Nicola",
+   "Gelindo"
+  ],
+  "curiosita": "Il suo nome deriva da Epifania, deformata nel parlare popolare.",
+  "fatto": "befana notte 5 gennaio",
+  "fonte": "https://it.wikipedia.org/wiki/Befana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0037",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale animale mitico ha un solo corno sulla fronte?",
+  "risposte": [
+   "Unicorno",
+   "Grifone",
+   "Basilisco",
+   "Ippogrifo"
+  ],
+  "curiosita": "Nel Medioevo si credeva che il corno guarisse dai veleni.",
+  "fatto": "animale con un corno unicorno",
+  "fonte": "https://it.wikipedia.org/wiki/Unicorno",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0038",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Da quale dio greco deriva la parola \"panico\"?",
+  "risposte": [
+   "Pan",
+   "Ares",
+   "Fobos",
+   "Dioniso"
+  ],
+  "curiosita": "Pan, mezzo caprone, spaventava i viandanti con le sue urla improvvise.",
+  "fatto": "origine parola panico pan",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0039",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale eroe greco era vulnerabile solo al tallone?",
+  "risposte": [
+   "Achille",
+   "Ettore",
+   "Aiace",
+   "Ulisse"
+  ],
+  "curiosita": "Sua madre Teti lo immerse nello Stige, tenendolo per il tallone.",
+  "fatto": "eroe vulnerabile al tallone achille",
+  "fonte": "https://it.wikipedia.org/wiki/Achille",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0040",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale città fu conquistata grazie a un enorme cavallo di legno?",
+  "risposte": [
+   "Troia",
+   "Sparta",
+   "Atene",
+   "Micene"
+  ],
+  "curiosita": "Gli achei finsero di partire lasciandolo in dono davanti alle mura.",
+  "fatto": "citta conquistata col cavallo di legno troia",
+  "fonte": "https://it.wikipedia.org/wiki/Cavallo_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0041",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale isola leggendaria, narrata da Platone, sarebbe sprofondata nel mare?",
+  "risposte": [
+   "Atlantide",
+   "Lemuria",
+   "Eldorado",
+   "Avalon"
+  ],
+  "curiosita": "Platone ne parla nei dialoghi Timeo e Crizia.",
+  "fatto": "isola leggendaria platone atlantide",
+  "fonte": "https://it.wikipedia.org/wiki/Atlantide",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0042",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dea greca era la dea della caccia?",
+  "risposte": [
+   "Artemide",
+   "Atena",
+   "Demetra",
+   "Estia"
+  ],
+  "curiosita": "Era sorella gemella di Apollo; i Romani la chiamavano Diana.",
+  "fatto": "dea greca della caccia artemide",
+  "fonte": "https://it.wikipedia.org/wiki/Artemide",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0043",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio greco era il dio della musica e delle profezie?",
+  "risposte": [
+   "Apollo",
+   "Ares",
+   "Efesto",
+   "Ermes"
+  ],
+  "curiosita": "Il suo oracolo più famoso era a Delfi.",
+  "fatto": "dio greco musica profezia apollo",
+  "fonte": "https://it.wikipedia.org/wiki/Apollo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0044",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama il capo degli dei nella mitologia norrena?",
+  "risposte": [
+   "Odino",
+   "Thor",
+   "Tyr",
+   "Loki"
+  ],
+  "curiosita": "Per ottenere la sapienza sacrificò un occhio.",
+  "fatto": "capo degli dei norreni odino",
+  "fonte": "https://it.wikipedia.org/wiki/Odino",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0045",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama il regno degli dei nella mitologia norrena?",
+  "risposte": [
+   "Asgard",
+   "Midgard",
+   "Jotunheim",
+   "Niflheim"
+  ],
+  "curiosita": "Midgard è invece il mondo degli uomini.",
+  "fatto": "regno degli dei norreni asgard",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0046",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio egizio, con disco solare sul capo, personificava il Sole?",
+  "risposte": [
+   "Ra",
+   "Osiride",
+   "Seth",
+   "Ptah"
+  ],
+  "curiosita": "Ogni notte viaggiava su una barca nel mondo dei morti.",
+  "fatto": "dio egizio del sole ra",
+  "fonte": "https://it.wikipedia.org/wiki/Ra_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0047",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era la dea egizia sposa di Osiride?",
+  "risposte": [
+   "Iside",
+   "Hathor",
+   "Nefti",
+   "Bastet"
+  ],
+  "curiosita": "Ricompose il corpo di Osiride fatto a pezzi da Seth.",
+  "fatto": "sposa di osiride iside",
+  "fonte": "https://it.wikipedia.org/wiki/Iside",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0048",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale eroe fuggì da Troia in fiamme portando il padre sulle spalle?",
+  "risposte": [
+   "Enea",
+   "Ettore",
+   "Paride",
+   "Ulisse"
+  ],
+  "curiosita": "Dopo molte avventure approdò nel Lazio.",
+  "fatto": "enea fugge da troia con anchise",
+  "fonte": "https://it.wikipedia.org/wiki/Enea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0049",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi, secondo la leggenda siciliana, si immerse per reggere l'isola su una colonna?",
+  "risposte": [
+   "Colapesce",
+   "Giufà",
+   "Re Ruggero",
+   "Cola di Rienzo"
+  ],
+  "curiosita": "Era un ragazzo che nuotava così bene da sembrare mezzo pesce.",
+  "fatto": "leggenda colapesce sicilia",
+  "fonte": "https://it.wikipedia.org/wiki/Colapesce",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0050",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi risolse l'enigma della Sfinge a Tebe?",
+  "risposte": [
+   "Edipo",
+   "Teseo",
+   "Perseo",
+   "Cadmo"
+  ],
+  "curiosita": "La risposta era l'uomo, che cammina a quattro zampe, poi due, poi tre.",
+  "fatto": "risolutore enigma sfinge edipo",
+  "fonte": "https://it.wikipedia.org/wiki/Edipo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0051",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamava il ciclope accecato da Ulisse?",
+  "risposte": [
+   "Polifemo",
+   "Bronte",
+   "Sterope",
+   "Arge"
+  ],
+  "curiosita": "Ulisse disse di chiamarsi Nessuno, e gli altri ciclopi non accorsero.",
+  "fatto": "ciclope accecato da ulisse polifemo",
+  "fonte": "https://it.wikipedia.org/wiki/Polifemo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0052",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Da quale dio romano prende il nome il sabato inglese, Saturday?",
+  "risposte": [
+   "Saturno",
+   "Giove",
+   "Marte",
+   "Mercurio"
+  ],
+  "curiosita": "Il giovedì inglese, Thursday, deriva invece da Thor.",
+  "fatto": "saturday da saturno",
+  "fonte": "https://it.wikipedia.org/wiki/Saturno_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0053",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama il lupo gigante che nel Ragnarǫk divorerà Odino?",
+  "risposte": [
+   "Fenrir",
+   "Sköll",
+   "Garm",
+   "Hati"
+  ],
+  "curiosita": "Gli dei lo incatenarono con una corda magica fatta di cose impossibili.",
+  "fatto": "lupo norreno fenrir",
+  "fonte": "https://it.wikipedia.org/wiki/Fenrir",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0054",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama il cavallo a otto zampe di Odino?",
+  "risposte": [
+   "Sleipnir",
+   "Svadilfari",
+   "Gullfaxi",
+   "Grani"
+  ],
+  "curiosita": "Nacque da Loki, trasformato in giumenta.",
+  "fatto": "cavallo di odino sleipnir",
+  "fonte": "https://it.wikipedia.org/wiki/Sleipnir",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0055",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dea egizia è simboleggiata dalla piuma su cui si pesa il cuore del defunto?",
+  "risposte": [
+   "Maat",
+   "Iside",
+   "Nut",
+   "Hathor"
+  ],
+  "curiosita": "Se il cuore era più pesante, veniva divorato da Ammit.",
+  "fatto": "dea egizia della piuma maat",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_egizia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0056",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio egizio con testa di ibis era il dio della scrittura?",
+  "risposte": [
+   "Thot",
+   "Horus",
+   "Ptah",
+   "Sobek"
+  ],
+  "curiosita": "Inventò i geroglifici, secondo la tradizione egizia.",
+  "fatto": "dio egizio scrittura thot",
+  "fonte": "https://it.wikipedia.org/wiki/Thot",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0057",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la fata sorellastra di Re Artù?",
+  "risposte": [
+   "Morgana",
+   "Viviana",
+   "Ginevra",
+   "Elaine"
+  ],
+  "curiosita": "Nelle leggende bretoni vive sull'isola di Avalon.",
+  "fatto": "sorellastra di artu morgana",
+  "fonte": "https://it.wikipedia.org/wiki/Morgana_(fata)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0058",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio romano aveva due volti e dà il nome al mese di gennaio?",
+  "risposte": [
+   "Giano",
+   "Saturno",
+   "Quirino",
+   "Fauno"
+  ],
+  "curiosita": "Le porte del suo tempio restavano aperte in tempo di guerra.",
+  "fatto": "dio romano bifronte giano",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0059",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dea greca, messaggera degli dei, personificava l'arcobaleno?",
+  "risposte": [
+   "Iride",
+   "Estia",
+   "Nike",
+   "Ebe"
+  ],
+  "curiosita": "Dal suo nome viene anche la parola iride dell'occhio.",
+  "fatto": "dea greca arcobaleno iride",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0060",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale pastore, amato dalla Luna, cadde in un sonno eterno?",
+  "risposte": [
+   "Endimione",
+   "Atteone",
+   "Adone",
+   "Ganimede"
+  ],
+  "curiosita": "Selene lo visitava ogni notte e gli diede cinquanta figlie.",
+  "fatto": "pastore amato dalla luna endimione",
+  "fonte": "https://it.wikipedia.org/wiki/Endimione",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0061",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale sacerdote troiano ammonì: \"Temo i Greci, anche se portano doni\"?",
+  "risposte": [
+   "Laocoonte",
+   "Calcante",
+   "Priamo",
+   "Sinone"
+  ],
+  "curiosita": "Fu strangolato con i figli da due serpenti marini.",
+  "fatto": "sacerdote che avverte sul cavallo laocoonte",
+  "fonte": "https://it.wikipedia.org/wiki/Laocoonte",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0062",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Chi, nel mito, si innamorò della propria immagine riflessa nell'acqua?",
+  "risposte": [
+   "Narciso",
+   "Adone",
+   "Apollo",
+   "Eros"
+  ],
+  "curiosita": "Da lui deriva la parola narcisismo e il nome del fiore.",
+  "fatto": "narciso innamorato del riflesso",
+  "fonte": "https://it.wikipedia.org/wiki/Narciso_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0063",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio greco dell'amore, armato di arco e frecce?",
+  "risposte": [
+   "Eros",
+   "Ermes",
+   "Imeneo",
+   "Pan"
+  ],
+  "curiosita": "I Romani lo chiamavano Cupido.",
+  "fatto": "dio greco dell amore eros",
+  "fonte": "https://it.wikipedia.org/wiki/Eros_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0064",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Su quale monte vivevano gli dei greci?",
+  "risposte": [
+   "Olimpo",
+   "Parnaso",
+   "Etna",
+   "Ida"
+  ],
+  "curiosita": "È la montagna più alta della Grecia, oltre 2.900 metri.",
+  "fatto": "monte degli dei greci olimpo",
+  "fonte": "https://it.wikipedia.org/wiki/Monte_Olimpo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0065",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale uccello mitico rinasce dalle proprie ceneri?",
+  "risposte": [
+   "Fenice",
+   "Grifone",
+   "Roc",
+   "Pavone"
+  ],
+  "curiosita": "Per questo è simbolo di rinascita dopo una crisi.",
+  "fatto": "uccello che rinasce dalle ceneri fenice",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0066",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiamava la bellissima donna per cui scoppiò la guerra di Troia?",
+  "risposte": [
+   "Elena",
+   "Penelope",
+   "Cassandra",
+   "Andromaca"
+  ],
+  "curiosita": "Era la moglie del re di Sparta, Menelao.",
+  "fatto": "donna causa guerra di troia elena",
+  "fonte": "https://it.wikipedia.org/wiki/Elena_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0067",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale eroe omerico tornò a Itaca dopo dieci anni di viaggio?",
+  "risposte": [
+   "Ulisse",
+   "Achille",
+   "Ettore",
+   "Agamennone"
+  ],
+  "curiosita": "Il suo ritorno è raccontato nell'Odissea.",
+  "fatto": "eroe ritorno a itaca ulisse",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0068",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale mostro dalle molte teste fu sconfitto da Ercole a Lerna?",
+  "risposte": [
+   "Idra",
+   "Chimera",
+   "Cerbero",
+   "Medusa"
+  ],
+  "curiosita": "Dove si tagliava una testa, ne ricrescevano due.",
+  "fatto": "mostro di lerna idra",
+  "fonte": "https://it.wikipedia.org/wiki/Idra_di_Lerna",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0069",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il re degli dei nella mitologia romana?",
+  "risposte": [
+   "Giove",
+   "Saturno",
+   "Nettuno",
+   "Plutone"
+  ],
+  "curiosita": "Corrisponde al greco Zeus.",
+  "fatto": "re degli dei romani giove",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0070",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale pianeta prende il nome dal messaggero degli dei romano?",
+  "risposte": [
+   "Mercurio",
+   "Venere",
+   "Marte",
+   "Giove"
+  ],
+  "curiosita": "È il pianeta più vicino al Sole, quindi il più veloce.",
+  "fatto": "pianeta messaggero degli dei mercurio",
+  "fonte": "https://it.wikipedia.org/wiki/Mercurio_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0071",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio greco dei morti e degli Inferi?",
+  "risposte": [
+   "Ade",
+   "Tanato",
+   "Ares",
+   "Ermes"
+  ],
+  "curiosita": "Il suo nome indica anche il regno stesso dei morti.",
+  "fatto": "dio greco degli inferi ade",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0072",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio greco era il dio del fuoco e della forgia?",
+  "risposte": [
+   "Efesto",
+   "Ares",
+   "Apollo",
+   "Dioniso"
+  ],
+  "curiosita": "Era zoppo, ma forgiava le armi degli dei e degli eroi.",
+  "fatto": "dio greco della forgia efesto",
+  "fonte": "https://it.wikipedia.org/wiki/Efesto",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0073",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale mostro ha testa di leone, corpo di capra e coda di serpente?",
+  "risposte": [
+   "Chimera",
+   "Sfinge",
+   "Arpia",
+   "Gorgone"
+  ],
+  "curiosita": "Oggi chimera significa anche sogno irrealizzabile.",
+  "fatto": "mostro leone capra serpente chimera",
+  "fonte": "https://it.wikipedia.org/wiki/Chimera_(mitologia)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0074",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Con quale dono Atena vinse la gara con Poseidone per proteggere Atene?",
+  "risposte": [
+   "L'ulivo",
+   "Il cavallo",
+   "La spada",
+   "La civetta"
+  ],
+  "curiosita": "Poseidone offrì una sorgente d'acqua salata, o secondo altre versioni un cavallo.",
+  "fatto": "dono di atena per atene ulivo",
+  "fonte": "https://it.wikipedia.org/wiki/Atena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0075",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi, secondo il mito, uccise il padre e sposò la madre senza saperlo?",
+  "risposte": [
+   "Edipo",
+   "Oreste",
+   "Telemaco",
+   "Giasone"
+  ],
+  "curiosita": "Dal suo mito Freud trasse il nome di complesso di Edipo.",
+  "fatto": "edipo uccide il padre sposa la madre",
+  "fonte": "https://it.wikipedia.org/wiki/Edipo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0076",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi cadde in mare per essersi avvicinato troppo al Sole con ali di cera?",
+  "risposte": [
+   "Icaro",
+   "Fetonte",
+   "Dedalo",
+   "Bellerofonte"
+  ],
+  "curiosita": "Il mare in cui cadde, vicino a Samo, si chiama mare Icario.",
+  "fatto": "icaro ali di cera",
+  "fonte": "https://it.wikipedia.org/wiki/Icaro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0077",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale cantore scese negli Inferi per riportare in vita Euridice?",
+  "risposte": [
+   "Orfeo",
+   "Anfione",
+   "Lino",
+   "Arione"
+  ],
+  "curiosita": "Si voltò a guardarla troppo presto e la perse per sempre.",
+  "fatto": "orfeo ed euridice",
+  "fonte": "https://it.wikipedia.org/wiki/Orfeo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0078",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Di quale materiale era il \"pomo della discordia\" del mito?",
+  "risposte": [
+   "Oro",
+   "Argento",
+   "Bronzo",
+   "Rame"
+  ],
+  "curiosita": "Fu gettato fra le dee con la scritta: alla più bella.",
+  "fatto": "pomo della discordia oro",
+  "fonte": "https://it.wikipedia.org/wiki/Giudizio_di_Paride",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0079",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale creatura con testa di donna, corpo di leone e ali poneva un enigma?",
+  "risposte": [
+   "Sfinge",
+   "Arpia",
+   "Chimera",
+   "Gorgone"
+  ],
+  "curiosita": "Divorava chi non sapeva rispondere, finché Edipo la sconfisse.",
+  "fatto": "creatura enigma testa donna corpo leone sfinge",
+  "fonte": "https://it.wikipedia.org/wiki/Sfinge",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0080",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale profetessa troiana dice il vero ma nessuno le crede?",
+  "risposte": [
+   "Cassandra",
+   "Ecuba",
+   "Andromaca",
+   "Polissena"
+  ],
+  "curiosita": "Per questo oggi si dice \"fare la Cassandra\" per chi dà cattivi presagi.",
+  "fatto": "profetessa non creduta cassandra",
+  "fonte": "https://it.wikipedia.org/wiki/Guerra_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0081",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era, nel mito greco, la sorella e sposa di Zeus?",
+  "risposte": [
+   "Era",
+   "Demetra",
+   "Atena",
+   "Estia"
+  ],
+  "curiosita": "Era la dea del matrimonio; i Romani la chiamavano Giunone.",
+  "fatto": "moglie di zeus era",
+  "fonte": "https://it.wikipedia.org/wiki/Era_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0082",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quante sono le Muse, divinità delle arti?",
+  "risposte": [
+   "Nove",
+   "Sette",
+   "Dodici",
+   "Tre"
+  ],
+  "curiosita": "Una di loro, Calliope, protegge la poesia epica.",
+  "fatto": "numero delle muse",
+  "fonte": "https://it.wikipedia.org/wiki/Muse",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0083",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi è la madre di Persefone?",
+  "risposte": [
+   "Demetra",
+   "Era",
+   "Rea",
+   "Estia"
+  ],
+  "curiosita": "Con la sua disperazione, secondo il mito, nacque l'inverno.",
+  "fatto": "madre di persefone demetra",
+  "fonte": "https://it.wikipedia.org/wiki/Persefone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0084",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi rapì Persefone portandola negli Inferi?",
+  "risposte": [
+   "Ade",
+   "Zeus",
+   "Ares",
+   "Poseidone"
+  ],
+  "curiosita": "Per metà anno Persefone torna sulla terra: è il mito delle stagioni.",
+  "fatto": "rapitore di persefone ade",
+  "fonte": "https://it.wikipedia.org/wiki/Persefone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0085",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi era la dea greca del focolare domestico?",
+  "risposte": [
+   "Estia",
+   "Demetra",
+   "Era",
+   "Persefone"
+  ],
+  "curiosita": "I Romani la chiamavano Vesta e le sue sacerdotesse custodivano il fuoco.",
+  "fatto": "dea greca del focolare estia",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0086",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la madre di Ercole?",
+  "risposte": [
+   "Alcmena",
+   "Leda",
+   "Semele",
+   "Danae"
+  ],
+  "curiosita": "Zeus le apparve sotto le sembianze del marito Anfitrione.",
+  "fatto": "madre di ercole alcmena",
+  "fonte": "https://it.wikipedia.org/wiki/Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0087",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale ninfa si trasformò in alloro per sfuggire ad Apollo?",
+  "risposte": [
+   "Dafne",
+   "Eco",
+   "Siringa",
+   "Calisto"
+  ],
+  "curiosita": "Da allora l'alloro è la pianta sacra ad Apollo.",
+  "fatto": "ninfa trasformata in alloro dafne",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0088",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi era il re di Tebe ucciso, senza saperlo, dal figlio Edipo?",
+  "risposte": [
+   "Laio",
+   "Creonte",
+   "Cadmo",
+   "Penteo"
+  ],
+  "curiosita": "Un oracolo lo aveva avvisato che il figlio l'avrebbe ucciso.",
+  "fatto": "padre di edipo laio",
+  "fonte": "https://it.wikipedia.org/wiki/Edipo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0089",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale eroe sconfisse la Chimera in sella a Pegaso?",
+  "risposte": [
+   "Bellerofonte",
+   "Perseo",
+   "Teseo",
+   "Ercole"
+  ],
+  "curiosita": "Pegaso lo portò in alto per colpire il mostro con le frecce.",
+  "fatto": "uccisore della chimera bellerofonte",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0090",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava il cane che riconobbe Ulisse al ritorno a Itaca?",
+  "risposte": [
+   "Argo",
+   "Cerbero",
+   "Laelaps",
+   "Mera"
+  ],
+  "curiosita": "Dopo vent'anni lo riconobbe, poi morì.",
+  "fatto": "cane di ulisse argo",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0091",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale fiume infernale rendeva invulnerabile chi vi veniva immerso?",
+  "risposte": [
+   "Stige",
+   "Lete",
+   "Acheronte",
+   "Flegetonte"
+  ],
+  "curiosita": "Gli dei giuravano sulle sue acque il giuramento più sacro.",
+  "fatto": "fiume stige invulnerabilita",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0092",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio dei venti donò a Ulisse un otre con i venti chiusi dentro?",
+  "risposte": [
+   "Eolo",
+   "Borea",
+   "Zefiro",
+   "Noto"
+  ],
+  "curiosita": "I compagni di Ulisse lo aprirono e scatenarono una tempesta.",
+  "fatto": "eolo otre dei venti ulisse",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0093",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale re fu condannato a fame e sete eterne, con acqua e frutti irraggiungibili?",
+  "risposte": [
+   "Tantalo",
+   "Sisifo",
+   "Issione",
+   "Mida"
+  ],
+  "curiosita": "Da lui viene la parola supplizio di Tantalo.",
+  "fatto": "supplizio di tantalo",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0094",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamano le divinità greche del destino, che filano il filo della vita?",
+  "risposte": [
+   "Moire",
+   "Muse",
+   "Furie",
+   "Grazie"
+  ],
+  "curiosita": "Sono tre: una fila, una misura e una taglia il filo.",
+  "fatto": "divinita del destino moire",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0095",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio romano del vino?",
+  "risposte": [
+   "Bacco",
+   "Marte",
+   "Vulcano",
+   "Giano"
+  ],
+  "curiosita": "Corrisponde al greco Dioniso: da lui deriva \"baccano\".",
+  "fatto": "dio romano del vino bacco",
+  "fonte": "https://it.wikipedia.org/wiki/Dioniso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0096",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "In quale paese si trova il lago di Loch Ness, casa del mostro Nessie?",
+  "risposte": [
+   "Scozia",
+   "Irlanda",
+   "Galles",
+   "Norvegia"
+  ],
+  "curiosita": "Il primo presunto avvistamento risale al VI secolo.",
+  "fatto": "paese di loch ness scozia",
+  "fonte": "https://it.wikipedia.org/wiki/Mostro_di_Loch_Ness",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0097",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il leggendario uomo delle nevi dell'Himalaya?",
+  "risposte": [
+   "Yeti",
+   "Bigfoot",
+   "Sasquatch",
+   "Chupacabra"
+  ],
+  "curiosita": "Nessuna prova scientifica ne ha mai dimostrato l'esistenza.",
+  "fatto": "uomo delle nevi himalaya yeti",
+  "fonte": "https://it.wikipedia.org/wiki/Yeti",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0098",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il re degli Inferi nella mitologia romana?",
+  "risposte": [
+   "Plutone",
+   "Saturno",
+   "Nettuno",
+   "Vulcano"
+  ],
+  "curiosita": "Corrisponde al greco Ade; il suo nome indica la ricchezza del sottosuolo.",
+  "fatto": "re degli inferi romano plutone",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0099",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Con cosa le sirene attiravano i marinai verso gli scogli?",
+  "risposte": [
+   "Con il canto",
+   "Con il profumo",
+   "Con lo sguardo",
+   "Con l'oro"
+  ],
+  "curiosita": "Ulisse si fece legare all'albero della nave per ascoltarle senza rischi.",
+  "fatto": "sirene attirano col canto",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0100",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Che cosa cercavano Giasone e gli Argonauti?",
+  "risposte": [
+   "Il vello d'oro",
+   "Il Graal",
+   "Il fuoco sacro",
+   "Il tridente"
+  ],
+  "curiosita": "Il vello era la pelle dorata di un ariete alato.",
+  "fatto": "ricerca degli argonauti vello d oro",
+  "fonte": "https://it.wikipedia.org/wiki/Argonauti",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0101",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale marchio sportivo prende il nome dalla dea greca della vittoria?",
+  "risposte": [
+   "Nike",
+   "Adidas",
+   "Puma",
+   "Asics"
+  ],
+  "curiosita": "La dea è raffigurata con le ali; il logo è una virgola ispirata ad esse.",
+  "fatto": "nike dea della vittoria marchio",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0102",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale pianeta prende il nome dal dio romano della guerra?",
+  "risposte": [
+   "Marte",
+   "Venere",
+   "Giove",
+   "Saturno"
+  ],
+  "curiosita": "Il suo colore rosso ricorda il sangue.",
+  "fatto": "pianeta dio della guerra marte",
+  "fonte": "https://it.wikipedia.org/wiki/Marte_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0103",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Da quale divinità romana prende il nome il venerdì?",
+  "risposte": [
+   "Venere",
+   "Giove",
+   "Mercurio",
+   "Marte"
+  ],
+  "curiosita": "Gli altri giorni: martedì Marte, mercoledì Mercurio, giovedì Giove.",
+  "fatto": "venerdi da venere",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0104",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "In quale fase della Luna si trasforma, secondo il mito, il lupo mannaro?",
+  "risposte": [
+   "Luna piena",
+   "Luna nuova",
+   "Primo quarto",
+   "Eclissi"
+  ],
+  "curiosita": "Il mito del licantropo è antichissimo, già presente nel mondo greco.",
+  "fatto": "lupo mannaro luna piena",
+  "fonte": "https://it.wikipedia.org/wiki/Licantropo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0105",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama la maga che trasformò i compagni di Ulisse in porci?",
+  "risposte": [
+   "Circe",
+   "Calipso",
+   "Medea",
+   "Nausicaa"
+  ],
+  "curiosita": "Ulisse resistette al sortilegio grazie a un'erba donata da Ermes.",
+  "fatto": "maga circe compagni ulisse",
+  "fonte": "https://it.wikipedia.org/wiki/Circe",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0106",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio norreno è noto come l'ingannatore?",
+  "risposte": [
+   "Loki",
+   "Thor",
+   "Odino",
+   "Freyr"
+  ],
+  "curiosita": "Nei racconti è un mutaforma e padre di mostri come Fenrir.",
+  "fatto": "dio norreno ingannatore loki",
+  "fonte": "https://it.wikipedia.org/wiki/Loki",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0107",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "In onore di quale dio si svolgevano le antiche Olimpiadi?",
+  "risposte": [
+   "Zeus",
+   "Apollo",
+   "Ares",
+   "Atena"
+  ],
+  "curiosita": "Si tenevano a Olimpia, ogni quattro anni.",
+  "fatto": "antiche olimpiadi in onore di zeus",
+  "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_antichi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0108",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale città è legata al mito della sirena Partenope?",
+  "risposte": [
+   "Napoli",
+   "Palermo",
+   "Genova",
+   "Venezia"
+  ],
+  "curiosita": "Il corpo della sirena si sarebbe arenato sull'isolotto di Megaride.",
+  "fatto": "sirena partenope napoli",
+  "fonte": "https://it.wikipedia.org/wiki/Napoli",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0109",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi, secondo la leggenda, sciolse il nodo di Gordio con un colpo di spada?",
+  "risposte": [
+   "Alessandro Magno",
+   "Giulio Cesare",
+   "Annibale",
+   "Pirro"
+  ],
+  "curiosita": "Chi lo avesse sciolto avrebbe regnato sull'Asia.",
+  "fatto": "nodo di gordio alessandro magno",
+  "fonte": "https://it.wikipedia.org/wiki/Nodo_di_Gordio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0110",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quali animali, con il loro strepito, salvarono il Campidoglio dai Galli?",
+  "risposte": [
+   "Le oche",
+   "I cani",
+   "Le galline",
+   "I lupi"
+  ],
+  "curiosita": "A Roma, secondo Livio, erano sacre a Giunone.",
+  "fatto": "oche del campidoglio",
+  "fonte": "https://it.wikipedia.org/wiki/Campidoglio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0111",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio indù ha la testa di elefante?",
+  "risposte": [
+   "Ganesh",
+   "Shiva",
+   "Vishnu",
+   "Hanuman"
+  ],
+  "curiosita": "È considerato il dio che rimuove gli ostacoli.",
+  "fatto": "dio indu testa di elefante ganesh",
+  "fonte": "https://it.wikipedia.org/wiki/Induismo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0112",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dea egizia aveva la testa di gatto?",
+  "risposte": [
+   "Bastet",
+   "Sekhmet",
+   "Iside",
+   "Hathor"
+  ],
+  "curiosita": "Gli antichi Egizi veneravano i gatti e punivano chi li uccideva.",
+  "fatto": "dea egizia gatto bastet",
+  "fonte": "https://it.wikipedia.org/wiki/Bastet",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0113",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama il mostro marino gigante con tentacoli della tradizione scandinava?",
+  "risposte": [
+   "Kraken",
+   "Leviatano",
+   "Idra",
+   "Scilla"
+  ],
+  "curiosita": "Secondo i marinai affondava le navi creando enormi gorghi.",
+  "fatto": "mostro marino scandinavo kraken",
+  "fonte": "https://it.wikipedia.org/wiki/Kraken",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0114",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama la creatura d'argilla della tradizione ebraica, animata da magia?",
+  "risposte": [
+   "Golem",
+   "Homunculus",
+   "Cherubino",
+   "Basilisco"
+  ],
+  "curiosita": "Fu reso famoso dalla leggenda del rabbino Löw di Praga.",
+  "fatto": "creatura di argilla golem",
+  "fonte": "https://it.wikipedia.org/wiki/Golem",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0115",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Da quale dea romana derivano i \"cereali\"?",
+  "risposte": [
+   "Cerere",
+   "Vesta",
+   "Flora",
+   "Opi"
+  ],
+  "curiosita": "Era la dea dell'agricoltura, corrispondente a Demetra.",
+  "fatto": "cereali da cerere",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0116",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama l'albero cosmico che regge i nove mondi nella mitologia norrena?",
+  "risposte": [
+   "Yggdrasil",
+   "Bifrost",
+   "Mjöllnir",
+   "Valknut"
+  ],
+  "curiosita": "Odino vi restò appeso nove notti per ottenere la conoscenza delle rune.",
+  "fatto": "albero cosmico norreno yggdrasil",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0117",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale divinità azteca era il serpente piumato?",
+  "risposte": [
+   "Quetzalcoatl",
+   "Huitzilopochtli",
+   "Tlaloc",
+   "Tezcatlipoca"
+  ],
+  "curiosita": "Il suo nome significa serpente piumato.",
+  "fatto": "dio azteco serpente piumato quetzalcoatl",
+  "fonte": "https://it.wikipedia.org/wiki/Aztechi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0118",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la dea giapponese del Sole?",
+  "risposte": [
+   "Amaterasu",
+   "Inari",
+   "Izanami",
+   "Benzaiten"
+  ],
+  "curiosita": "Secondo la tradizione, la famiglia imperiale discenderebbe da lei.",
+  "fatto": "dea giapponese del sole amaterasu",
+  "fonte": "https://it.wikipedia.org/wiki/Shintoismo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0119",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la lancia di Odino, che colpisce sempre il bersaglio?",
+  "risposte": [
+   "Gungnir",
+   "Mjöllnir",
+   "Gram",
+   "Tyrfing"
+  ],
+  "curiosita": "Fu forgiata dai nani, insieme ad altri tesori degli dei.",
+  "fatto": "lancia di odino gungnir",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0120",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dea norrena è la dea dell'amore e della bellezza?",
+  "risposte": [
+   "Freya",
+   "Frigg",
+   "Sif",
+   "Idunn"
+  ],
+  "curiosita": "Il suo carro è trainato da due gatti.",
+  "fatto": "dea norrena amore freya",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0121",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio norreno fa da guardiano al ponte Bifrost?",
+  "risposte": [
+   "Heimdall",
+   "Tyr",
+   "Baldr",
+   "Bragi"
+  ],
+  "curiosita": "Ha un udito così fine da sentire crescere l'erba.",
+  "fatto": "guardiano bifrost heimdall",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0122",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio egizio con testa di coccodrillo era signore delle acque del Nilo?",
+  "risposte": [
+   "Sobek",
+   "Anubi",
+   "Khnum",
+   "Seth"
+  ],
+  "curiosita": "Gli veniva dedicata la città greca di Crocodilopolis.",
+  "fatto": "dio egizio coccodrillo sobek",
+  "fonte": "https://it.wikipedia.org/wiki/Sobek",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0123",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi uccise Osiride, secondo la mitologia egizia?",
+  "risposte": [
+   "Seth",
+   "Horus",
+   "Anubi",
+   "Thot"
+  ],
+  "curiosita": "Era suo fratello: poi Horus lo sfidò per vendicarlo.",
+  "fatto": "assassino di osiride seth",
+  "fonte": "https://it.wikipedia.org/wiki/Osiride",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0124",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale epiteto accompagna spesso il nome di Atena?",
+  "risposte": [
+   "Pallade",
+   "Ebe",
+   "Febe",
+   "Eurinome"
+  ],
+  "curiosita": "Il palladio era una statua sacra che proteggeva la città.",
+  "fatto": "pallade epiteto di atena",
+  "fonte": "https://it.wikipedia.org/wiki/Atena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0125",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio dell'amore nella mitologia romana?",
+  "risposte": [
+   "Cupido",
+   "Eros",
+   "Imeneo",
+   "Vulcano"
+  ],
+  "curiosita": "Era figlio di Venere ed è rappresentato con le ali e l'arco.",
+  "fatto": "dio romano dell amore cupido",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0126",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "In quale foresta viveva, secondo la leggenda, Robin Hood?",
+  "risposte": [
+   "Sherwood",
+   "Epping",
+   "Dean",
+   "Bosco Nero"
+  ],
+  "curiosita": "Rubava ai ricchi per dare ai poveri.",
+  "fatto": "foresta di robin hood sherwood",
+  "fonte": "https://it.wikipedia.org/wiki/Robin_Hood",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0127",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama la tavola attorno alla quale sedevano i cavalieri di Re Artù?",
+  "risposte": [
+   "Tavola Rotonda",
+   "Tavola Ovale",
+   "Tavola Reale",
+   "Tavola Sacra"
+  ],
+  "curiosita": "Era rotonda perché nessuno sedesse a capotavola.",
+  "fatto": "tavola dei cavalieri di artu rotonda",
+  "fonte": "https://it.wikipedia.org/wiki/Re_Artù",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0128",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale animale, secondo la leggenda, allattò Romolo e Remo?",
+  "risposte": [
+   "Una lupa",
+   "Una cerva",
+   "Un'orsa",
+   "Una capra"
+  ],
+  "curiosita": "La statua della lupa è il simbolo di Roma.",
+  "fatto": "lupa allatta romolo e remo",
+  "fonte": "https://it.wikipedia.org/wiki/Lupa_capitolina",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0129",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Da quale eroe mitico deriva l'aggettivo \"erculeo\"?",
+  "risposte": [
+   "Ercole",
+   "Achille",
+   "Atlante",
+   "Ettore"
+  ],
+  "curiosita": "Si usa per indicare una forza fisica straordinaria.",
+  "fatto": "erculeo da ercole",
+  "fonte": "https://it.wikipedia.org/wiki/Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0130",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama la dea romana della caccia, corrispondente ad Artemide?",
+  "risposte": [
+   "Diana",
+   "Venere",
+   "Minerva",
+   "Giunone"
+  ],
+  "curiosita": "Era anche la dea della Luna.",
+  "fatto": "dea romana della caccia diana",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0131",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale arma tiene in mano Nettuno, il dio del mare?",
+  "risposte": [
+   "Il tridente",
+   "La lancia",
+   "Il martello",
+   "L'arco"
+  ],
+  "curiosita": "Il tridente è anche un simbolo dei mari in molti stemmi.",
+  "fatto": "arma di nettuno tridente",
+  "fonte": "https://it.wikipedia.org/wiki/Poseidone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0132",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dio romano del fuoco e della forgia?",
+  "risposte": [
+   "Vulcano",
+   "Marte",
+   "Saturno",
+   "Giano"
+  ],
+  "curiosita": "Dal suo nome deriva la parola vulcano.",
+  "fatto": "dio romano della forgia vulcano",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0133",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come venivano chiamate le leggendarie donne guerriere della mitologia greca?",
+  "risposte": [
+   "Amazzoni",
+   "Vestali",
+   "Sirene",
+   "Ninfe"
+  ],
+  "curiosita": "Il Rio delle Amazzoni prende nome da loro, non da una tribù vera.",
+  "fatto": "donne guerriere amazzoni",
+  "fonte": "https://it.wikipedia.org/wiki/Amazzoni",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0134",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale guerriero greco uccise Ettore sotto le mura di Troia?",
+  "risposte": [
+   "Achille",
+   "Aiace",
+   "Ulisse",
+   "Diomede"
+  ],
+  "curiosita": "Dopo averlo ucciso, lo trascinò dietro il suo carro.",
+  "fatto": "uccisore di ettore achille",
+  "fonte": "https://it.wikipedia.org/wiki/Iliade",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0135",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale leggendaria città d'oro cercavano i conquistadores in Sud America?",
+  "risposte": [
+   "El Dorado",
+   "Atlantide",
+   "Shangri-La",
+   "Camelot"
+  ],
+  "curiosita": "Nacque da una cerimonia in cui un re si copriva di polvere d'oro.",
+  "fatto": "citta d oro el dorado",
+  "fonte": "https://it.wikipedia.org/wiki/El_Dorado",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0136",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Qual era la prima delle dodici fatiche di Ercole?",
+  "risposte": [
+   "Uccidere il leone di Nemea",
+   "Catturare Cerbero",
+   "Pulire le stalle di Augia",
+   "Uccidere l'Idra"
+  ],
+  "curiosita": "La pelle del leone divenne il suo mantello.",
+  "fatto": "prima fatica di ercole leone di nemea",
+  "fonte": "https://it.wikipedia.org/wiki/Dodici_fatiche_di_Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0137",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Da quale personaggio dell'Odissea deriva la parola \"mentore\"?",
+  "risposte": [
+   "Mentore",
+   "Nestore",
+   "Telemaco",
+   "Eumeo"
+  ],
+  "curiosita": "Era l'amico di Ulisse a cui affidò l'educazione del figlio.",
+  "fatto": "parola mentore da odissea",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0138",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale animale è il simbolo di Atena?",
+  "risposte": [
+   "La civetta",
+   "L'aquila",
+   "Il serpente",
+   "Il cervo"
+  ],
+  "curiosita": "Compare anche sulle monete dell'antica Atene.",
+  "fatto": "animale simbolo di atena civetta",
+  "fonte": "https://it.wikipedia.org/wiki/Atena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0139",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama il figlio di Ulisse e Penelope?",
+  "risposte": [
+   "Telemaco",
+   "Ettore",
+   "Astianatte",
+   "Pirro"
+  ],
+  "curiosita": "Lo cercò suo padre a lungo, e partì per averne notizie.",
+  "fatto": "figlio di ulisse telemaco",
+  "fonte": "https://it.wikipedia.org/wiki/Telemaco",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0140",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "In quale animale si trasformò Zeus per rapire la principessa Europa?",
+  "risposte": [
+   "Toro",
+   "Cigno",
+   "Aquila",
+   "Cavallo"
+  ],
+  "curiosita": "Il continente europeo prende il nome da lei.",
+  "fatto": "zeus toro rapisce europa",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0141",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quanti erano i fratelli Orazi, che sfidarono i Curiazi?",
+  "risposte": [
+   "Tre",
+   "Due",
+   "Quattro",
+   "Cinque"
+  ],
+  "curiosita": "Il duello decise la guerra fra Roma e Alba Longa.",
+  "fatto": "numero fratelli orazi tre",
+  "fonte": "https://it.wikipedia.org/wiki/Orazi_e_Curiazi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0142",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dea greca incarnava la giusta vendetta divina?",
+  "risposte": [
+   "Nemesi",
+   "Eris",
+   "Ate",
+   "Tiche"
+  ],
+  "curiosita": "Per questo oggi \"nemesi\" indica una rivalsa del destino.",
+  "fatto": "dea della vendetta nemesi",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0143",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama la corte di Re Artù?",
+  "risposte": [
+   "Camelot",
+   "Avalon",
+   "Tintagel",
+   "Excalibur"
+  ],
+  "curiosita": "Nessuna fonte storica ne prova l'esistenza.",
+  "fatto": "corte di re artu camelot",
+  "fonte": "https://it.wikipedia.org/wiki/Camelot",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0144",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi aiutò Teseo a uscire dal labirinto con un filo?",
+  "risposte": [
+   "Arianna",
+   "Fedra",
+   "Pasifae",
+   "Euridice"
+  ],
+  "curiosita": "Teseo poi la abbandonò sull'isola di Nasso.",
+  "fatto": "filo di arianna teseo labirinto",
+  "fonte": "https://it.wikipedia.org/wiki/Teseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0145",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la grande guerra in cui gli dei olimpici sconfissero i Titani?",
+  "risposte": [
+   "Titanomachia",
+   "Gigantomachia",
+   "Centauromachia",
+   "Amazzonomachia"
+  ],
+  "curiosita": "Durò dieci anni, secondo la tradizione, e Zeus ne uscì re degli dei.",
+  "fatto": "guerra degli dei contro i titani titanomachia",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0146",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Verso quale isola, secondo la leggenda, fu portato Re Artù dopo l'ultima battaglia?",
+  "risposte": [
+   "Avalon",
+   "Camelot",
+   "Tintagel",
+   "Lyonesse"
+  ],
+  "curiosita": "Il nome Avalon si ricollega alla parola gallese per mela.",
+  "fatto": "isola di artu avalon",
+  "fonte": "https://it.wikipedia.org/wiki/Re_Artù",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0147",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la madre dell'eroe Perseo?",
+  "risposte": [
+   "Danae",
+   "Leda",
+   "Alcmena",
+   "Europa"
+  ],
+  "curiosita": "Zeus la raggiunse sotto forma di pioggia d'oro.",
+  "fatto": "madre di perseo danae",
+  "fonte": "https://it.wikipedia.org/wiki/Perseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0148",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi fu sedotta da Zeus trasformato in cigno?",
+  "risposte": [
+   "Leda",
+   "Danae",
+   "Io",
+   "Semele"
+  ],
+  "curiosita": "Dal suo uovo nacquero, fra gli altri, Elena e i Dioscuri.",
+  "fatto": "leda e il cigno",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0149",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Qual era l'ultima fatica di Ercole?",
+  "risposte": [
+   "Catturare Cerbero",
+   "Rubare le mele d'oro",
+   "Catturare il cinghiale",
+   "Pulire le stalle"
+  ],
+  "curiosita": "Dopo l'impresa, Ercole riportò Cerbero negli Inferi.",
+  "fatto": "ultima fatica di ercole cerbero",
+  "fonte": "https://it.wikipedia.org/wiki/Dodici_fatiche_di_Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0150",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi ordinò a Ercole di compiere le dodici fatiche?",
+  "risposte": [
+   "Euristeo",
+   "Augia",
+   "Laomedonte",
+   "Eeta"
+  ],
+  "curiosita": "Ercole le compì per espiare la strage dei propri figli.",
+  "fatto": "re che impone le fatiche euristeo",
+  "fonte": "https://it.wikipedia.org/wiki/Dodici_fatiche_di_Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0151",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la madre del Minotauro?",
+  "risposte": [
+   "Pasifae",
+   "Arianna",
+   "Fedra",
+   "Medea"
+  ],
+  "curiosita": "Era la moglie di Minosse, re di Creta.",
+  "fatto": "madre del minotauro pasifae",
+  "fonte": "https://it.wikipedia.org/wiki/Minotauro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0152",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava il re di Troia al tempo della guerra?",
+  "risposte": [
+   "Priamo",
+   "Laomedonte",
+   "Anchise",
+   "Enea"
+  ],
+  "curiosita": "Aveva cinquanta figli, fra cui Ettore e Paride.",
+  "fatto": "re di troia priamo",
+  "fonte": "https://it.wikipedia.org/wiki/Priamo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0153",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi fu la regina di Cartagine che si innamorò di Enea?",
+  "risposte": [
+   "Didone",
+   "Medea",
+   "Fedra",
+   "Dafne"
+  ],
+  "curiosita": "Si uccise quando lui l'abbandonò per fondare Roma.",
+  "fatto": "regina di cartagine didone",
+  "fonte": "https://it.wikipedia.org/wiki/Didone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0154",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale albero era sacro a Zeus?",
+  "risposte": [
+   "La quercia",
+   "L'ulivo",
+   "L'alloro",
+   "La vite"
+  ],
+  "curiosita": "A Dodona il fruscio delle sue foglie veniva interpretato dai sacerdoti.",
+  "fatto": "albero sacro a zeus quercia",
+  "fonte": "https://it.wikipedia.org/wiki/Zeus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0155",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale eroe greco uccise Medusa?",
+  "risposte": [
+   "Perseo",
+   "Teseo",
+   "Ercole",
+   "Giasone"
+  ],
+  "curiosita": "Usò lo scudo come specchio e una spada fornita da Ermes.",
+  "fatto": "uccisore di medusa perseo",
+  "fonte": "https://it.wikipedia.org/wiki/Perseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0156",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama la dea greca dell'amore e della bellezza?",
+  "risposte": [
+   "Afrodite",
+   "Era",
+   "Atena",
+   "Artemide"
+  ],
+  "curiosita": "Secondo Esiodo nacque dalla spuma del mare.",
+  "fatto": "dea greca amore afrodite",
+  "fonte": "https://it.wikipedia.org/wiki/Afrodite",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0157",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama la dea romana della buona sorte?",
+  "risposte": [
+   "Fortuna",
+   "Vittoria",
+   "Pace",
+   "Salute"
+  ],
+  "curiosita": "Veniva rappresentata bendata, con una ruota in mano.",
+  "fatto": "dea romana della sorte fortuna",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0158",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale pianeta prende il nome dal re degli dei romano?",
+  "risposte": [
+   "Giove",
+   "Marte",
+   "Saturno",
+   "Nettuno"
+  ],
+  "curiosita": "È il pianeta più grande del sistema solare.",
+  "fatto": "pianeta re degli dei giove",
+  "fonte": "https://it.wikipedia.org/wiki/Giove_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0159",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale pianeta con gli anelli prende il nome da un antico dio romano?",
+  "risposte": [
+   "Saturno",
+   "Giove",
+   "Urano",
+   "Nettuno"
+  ],
+  "curiosita": "Il dio Saturno era legato all'agricoltura; a lui erano dedicati i Saturnali.",
+  "fatto": "pianeta con anelli saturno dio",
+  "fonte": "https://it.wikipedia.org/wiki/Saturno_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0160",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "In quale città è ambientata la leggenda di Romeo e Giulietta?",
+  "risposte": [
+   "Verona",
+   "Venezia",
+   "Mantova",
+   "Padova"
+  ],
+  "curiosita": "Ogni anno arrivano lettere indirizzate a Giulietta.",
+  "fatto": "citta di romeo e giulietta verona",
+  "fonte": "https://it.wikipedia.org/wiki/Verona",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0161",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale dea greca corrisponde alla romana Giunone?",
+  "risposte": [
+   "Era",
+   "Demetra",
+   "Atena",
+   "Artemide"
+  ],
+  "curiosita": "Era la protettrice del matrimonio e delle donne.",
+  "fatto": "dea greca equivalente giunone era",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0162",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale dea greca corrisponde alla romana Minerva?",
+  "risposte": [
+   "Atena",
+   "Afrodite",
+   "Artemide",
+   "Estia"
+  ],
+  "curiosita": "Sul Campidoglio c'era il tempio di Giove, Giunone e Minerva.",
+  "fatto": "dea greca equivalente minerva atena",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0163",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamava il fratello del re Agamennone?",
+  "risposte": [
+   "Menelao",
+   "Ettore",
+   "Nestore",
+   "Ulisse"
+  ],
+  "curiosita": "Era il marito di Elena e re di Sparta.",
+  "fatto": "fratello di agamennone menelao",
+  "fonte": "https://it.wikipedia.org/wiki/Menelao",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0164",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale creatura mitica ha corpo di leone e testa e ali d'aquila?",
+  "risposte": [
+   "Grifone",
+   "Chimera",
+   "Sfinge",
+   "Ippogrifo"
+  ],
+  "curiosita": "Nel Medioevo era simbolo di forza e vigilanza.",
+  "fatto": "creatura leone aquila grifone",
+  "fonte": "https://it.wikipedia.org/wiki/Grifone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0165",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama la fine del mondo nella mitologia norrena?",
+  "risposte": [
+   "Ragnarok",
+   "Valhalla",
+   "Bifrost",
+   "Asgard"
+  ],
+  "curiosita": "Nelle saghe è la battaglia finale tra dei e giganti.",
+  "fatto": "fine del mondo norrena ragnarok",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0166",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dio egizio con testa di falco era figlio di Osiride e Iside?",
+  "risposte": [
+   "Horus",
+   "Thot",
+   "Anubi",
+   "Sobek"
+  ],
+  "curiosita": "Il suo occhio è un amuleto di protezione, l'occhio di Horus.",
+  "fatto": "figlio di osiride e iside horus",
+  "fonte": "https://it.wikipedia.org/wiki/Horus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0167",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi portò Elena a Troia, scatenando la guerra?",
+  "risposte": [
+   "Paride",
+   "Ettore",
+   "Enea",
+   "Deifobo"
+  ],
+  "curiosita": "Era il figlio di Priamo, il re di Troia.",
+  "fatto": "rapitore di elena paride",
+  "fonte": "https://it.wikipedia.org/wiki/Guerra_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0168",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamano i gemelli Dioscuri?",
+  "risposte": [
+   "Castore e Polluce",
+   "Romolo e Remo",
+   "Apollo e Artemide",
+   "Ettore e Paride"
+  ],
+  "curiosita": "Da loro prende il nome la costellazione dei Gemelli.",
+  "fatto": "dioscuri castore e polluce",
+  "fonte": "https://it.wikipedia.org/wiki/Dioscuri",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0169",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi uccise Agamennone al ritorno da Troia?",
+  "risposte": [
+   "Clitennestra",
+   "Elettra",
+   "Ifigenia",
+   "Cassandra"
+  ],
+  "curiosita": "Agì con l'amante Egisto, per vendicare la figlia Ifigenia.",
+  "fatto": "assassina di agamennone clitennestra",
+  "fonte": "https://it.wikipedia.org/wiki/Agamennone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0170",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale greco convinse i Troiani a portare in città il cavallo di legno?",
+  "risposte": [
+   "Sinone",
+   "Ulisse",
+   "Diomede",
+   "Nestore"
+  ],
+  "curiosita": "Finse di essere stato abbandonato dai suoi compagni.",
+  "fatto": "greco che inganna i troiani sinone",
+  "fonte": "https://it.wikipedia.org/wiki/Cavallo_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0171",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama il ponte-arcobaleno che unisce Asgard a Midgard?",
+  "risposte": [
+   "Bifrost",
+   "Gjallarhorn",
+   "Yggdrasil",
+   "Naglfar"
+  ],
+  "curiosita": "È sorvegliato dal dio Heimdall.",
+  "fatto": "ponte arcobaleno norreno bifrost",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0172",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi era il padre del dio Baldr nella mitologia norrena?",
+  "risposte": [
+   "Odino",
+   "Thor",
+   "Loki",
+   "Tyr"
+  ],
+  "curiosita": "Baldr era il più amato degli dei, ucciso da un rametto di vischio.",
+  "fatto": "padre di baldr odino",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0173",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi è la dea egizia del cielo, raffigurata con il corpo inarcato sulla terra?",
+  "risposte": [
+   "Nut",
+   "Hathor",
+   "Iside",
+   "Maat"
+  ],
+  "curiosita": "Ogni sera inghiottiva il Sole e lo partoriva all'alba.",
+  "fatto": "dea egizia del cielo nut",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_egizia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0174",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale strega russa vive in una capanna su zampe di gallina?",
+  "risposte": [
+   "Baba Jaga",
+   "Befana",
+   "Morgana",
+   "Koschei"
+  ],
+  "curiosita": "Nelle fiabe slave vola su un mortaio.",
+  "fatto": "strega russa baba jaga",
+  "fonte": "https://it.wikipedia.org/wiki/Baba_Jaga",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0175",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale ninfa trattenne Ulisse sulla sua isola per sette anni?",
+  "risposte": [
+   "Calipso",
+   "Circe",
+   "Nausicaa",
+   "Penelope"
+  ],
+  "curiosita": "Gli offrì l'immortalità, ma lui volle tornare a casa.",
+  "fatto": "ninfa che trattiene ulisse calipso",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0176",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la principessa che accolse Ulisse naufragato sulla sua spiaggia?",
+  "risposte": [
+   "Nausicaa",
+   "Calipso",
+   "Circe",
+   "Elena"
+  ],
+  "curiosita": "Lo trovò mentre lavava i panni con le ancelle.",
+  "fatto": "principessa che accoglie ulisse nausicaa",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0177",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale titano era il padre di Prometeo?",
+  "risposte": [
+   "Giapeto",
+   "Crono",
+   "Oceano",
+   "Iperione"
+  ],
+  "curiosita": "Era anche il padre di Atlante.",
+  "fatto": "padre di prometeo giapeto",
+  "fonte": "https://it.wikipedia.org/wiki/Prometeo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0178",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale dio norreno perse una mano nelle fauci del lupo Fenrir?",
+  "risposte": [
+   "Tyr",
+   "Thor",
+   "Baldr",
+   "Heimdall"
+  ],
+  "curiosita": "Mise la mano nelle fauci come garanzia, mentre gli altri dei incatenavano il lupo.",
+  "fatto": "dio norreno senza mano tyr",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0179",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava il centauro che educò Achille?",
+  "risposte": [
+   "Chirone",
+   "Nesso",
+   "Folo",
+   "Euritione"
+  ],
+  "curiosita": "Era famoso per la saggezza, a differenza degli altri centauri.",
+  "fatto": "centauro maestro di achille chirone",
+  "fonte": "https://it.wikipedia.org/wiki/Centauro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "cl-mit-0180",
+  "tipo": "classica",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi era la regina delle Amazzoni, nella nona fatica di Ercole?",
+  "risposte": [
+   "Ippolita",
+   "Pentesilea",
+   "Antiope",
+   "Euridice"
+  ],
+  "curiosita": "Doveva consegnare la sua cintura a Ercole.",
+  "fatto": "regina amazzoni ippolita",
+  "fonte": "https://it.wikipedia.org/wiki/Dodici_fatiche_di_Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ }
+]

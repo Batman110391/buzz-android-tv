@@ -1,0 +1,602 @@
+[
+ {
+  "id": "or-mit-0001",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Fatiche di Ercole, dalla prima all'ultima",
+  "elementi": [
+   "Leone di Nemea",
+   "Idra di Lerna",
+   "Stalle di Augia",
+   "Cattura di Cerbero"
+  ],
+  "valori": [
+   "1ª",
+   "2ª",
+   "5ª",
+   "12ª"
+  ],
+  "curiosita": "Secondo la tradizione di Apollodoro, Cerbero è l'ultima impresa.",
+  "fatto": "ordine fatiche di ercole",
+  "fonte": "https://it.wikipedia.org/wiki/Dodici_fatiche_di_Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0002",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "criterio": "Giorni italiani che nascono da un dio, in ordine",
+  "elementi": [
+   "Martedì (Marte)",
+   "Mercoledì (Mercurio)",
+   "Giovedì (Giove)",
+   "Venerdì (Venere)"
+  ],
+  "valori": [
+   "2°",
+   "3°",
+   "4°",
+   "5°"
+  ],
+  "curiosita": "I nomi italiani dei giorni vengono da astri e dei romani.",
+  "fatto": "ordine giorni settimana dei romani",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0003",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Generazioni divine, dalla più antica",
+  "elementi": [
+   "Urano",
+   "Crono",
+   "Zeus",
+   "Atena"
+  ],
+  "valori": [
+   "1ª generazione",
+   "2ª generazione",
+   "3ª generazione",
+   "4ª generazione"
+  ],
+  "curiosita": "Urano è nonno di Zeus, Zeus è padre di Atena.",
+  "fatto": "ordine generazioni divine greche",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0004",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "criterio": "Eventi della guerra di Troia, in ordine",
+  "elementi": [
+   "Giudizio di Paride",
+   "Rapimento di Elena",
+   "Morte di Ettore",
+   "Cavallo di Troia"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Il cavallo di legno chiude il racconto della guerra.",
+  "fatto": "ordine eventi guerra di troia",
+  "fonte": "https://it.wikipedia.org/wiki/Guerra_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0005",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Tappe del viaggio di Ulisse, in ordine",
+  "elementi": [
+   "Ciclope Polifemo",
+   "Maga Circe",
+   "Sirene",
+   "Ninfa Calipso"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Ulisse resta sette anni sull'isola di Calipso.",
+  "fatto": "ordine tappe viaggio di ulisse",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0006",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Re leggendari di Roma, dal primo all'ultimo",
+  "elementi": [
+   "Romolo",
+   "Tullo Ostilio",
+   "Tarquinio Prisco",
+   "Tarquinio il Superbo"
+  ],
+  "valori": [
+   "1°",
+   "3°",
+   "5°",
+   "7°"
+  ],
+  "curiosita": "Il settimo re fu cacciato nel 509 a.C., e nacque la Repubblica.",
+  "fatto": "ordine sette re di roma",
+  "fonte": "https://it.wikipedia.org/wiki/Storia_di_Roma",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0007",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Opere, dalla più antica alla più recente",
+  "elementi": [
+   "Iliade",
+   "Eneide",
+   "Metamorfosi",
+   "Orlando furioso"
+  ],
+  "valori": [
+   "VIII sec. a.C.",
+   "19 a.C.",
+   "8 d.C.",
+   "1516"
+  ],
+  "curiosita": "Virgilio morì nel 19 a.C. lasciando l'Eneide incompiuta.",
+  "fatto": "ordine opere epiche iliade eneide metamorfosi furioso",
+  "fonte": "https://it.wikipedia.org/wiki/Letteratura_latina",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0008",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Mesi con nome di dio o imperatore",
+  "elementi": [
+   "Gennaio (Giano)",
+   "Marzo (Marte)",
+   "Luglio (Cesare)",
+   "Agosto (Augusto)"
+  ],
+  "valori": [
+   "1°",
+   "3°",
+   "7°",
+   "8°"
+  ],
+  "curiosita": "Agosto era in origine Sestile, il sesto mese dell'anno romano.",
+  "fatto": "ordine mesi con nomi di dei e imperatori",
+  "fonte": "https://it.wikipedia.org/wiki/Calendario_romano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0009",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Le età del mondo secondo Ovidio, dalla prima",
+  "elementi": [
+   "Età dell'oro",
+   "Età dell'argento",
+   "Età del bronzo",
+   "Età del ferro"
+  ],
+  "valori": [
+   "1ª",
+   "2ª",
+   "3ª",
+   "4ª"
+  ],
+  "curiosita": "Per Ovidio ogni età è peggiore della precedente.",
+  "fatto": "ordine eta del mondo ovidio",
+  "fonte": "https://it.wikipedia.org/wiki/Metamorfosi_(Ovidio)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0010",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "criterio": "Pianeti, dal più grande al più piccolo",
+  "elementi": [
+   "Giove",
+   "Saturno",
+   "Venere",
+   "Mercurio"
+  ],
+  "valori": [
+   "139.820 km",
+   "116.460 km",
+   "12.104 km",
+   "4.879 km"
+  ],
+  "curiosita": "Giove e Saturno hanno nomi di dei romani padre e figlio.",
+  "fatto": "ordine pianeti per diametro con nomi di dei",
+  "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0011",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "In ordine crescente di quantità",
+  "elementi": [
+   "Le Grazie",
+   "I re di Roma",
+   "Le Muse",
+   "Fatiche di Ercole"
+  ],
+  "valori": [
+   "3",
+   "7",
+   "9",
+   "12"
+  ],
+  "curiosita": "Le Muse sono nove, secondo Esiodo.",
+  "fatto": "ordine numeri grazie re muse fatiche",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0012",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "criterio": "Monti del mito, dal più alto al più basso",
+  "elementi": [
+   "Olimpo",
+   "Parnaso",
+   "Ossa",
+   "Pelio"
+  ],
+  "valori": [
+   "2.917 m",
+   "2.457 m",
+   "1.978 m",
+   "1.624 m"
+  ],
+  "curiosita": "I Giganti, secondo il mito, sovrapposero Ossa e Pelio per scalare l'Olimpo.",
+  "fatto": "ordine altezza monti del mito",
+  "fonte": "https://it.wikipedia.org/wiki/Monte_Olimpo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0013",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Giorni inglesi, da lunedì in poi",
+  "elementi": [
+   "Tuesday (Tyr)",
+   "Wednesday (Odino)",
+   "Thursday (Thor)",
+   "Saturday (Saturno)"
+  ],
+  "valori": [
+   "2°",
+   "3°",
+   "4°",
+   "6°"
+  ],
+  "curiosita": "Wednesday viene da Woden, nome anglosassone di Odino.",
+  "fatto": "ordine giorni inglesi dei nordici",
+  "fonte": "https://it.wikipedia.org/wiki/Thor",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0014",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Città delle leggende italiane, da nord a sud",
+  "elementi": [
+   "Verona (Giulietta)",
+   "Roma (la lupa)",
+   "Napoli (Partenope)",
+   "Messina (Colapesce)"
+  ],
+  "valori": [
+   "45,4° N",
+   "41,9° N",
+   "40,8° N",
+   "38,2° N"
+  ],
+  "curiosita": "Roma, Napoli e Messina hanno miti di fondazione antichi.",
+  "fatto": "ordine latitudine citta leggende italiane",
+  "fonte": "https://it.wikipedia.org/wiki/Italia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0015",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "criterio": "Luoghi del mito greco, da nord a sud",
+  "elementi": [
+   "Troia",
+   "Tebe",
+   "Sparta",
+   "Cnosso"
+  ],
+  "valori": [
+   "39,96° N",
+   "38,32° N",
+   "37,07° N",
+   "35,30° N"
+  ],
+  "curiosita": "Troia si trova in Turchia, vicino ai Dardanelli.",
+  "fatto": "ordine latitudine luoghi del mito",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0016",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Tappe dell'Eneide, in ordine",
+  "elementi": [
+   "Caduta di Troia",
+   "Amore con Didone",
+   "Discesa agli Inferi",
+   "Guerra nel Lazio"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Dopo gli Inferi, Enea sbarca finalmente alla foce del Tevere.",
+  "fatto": "ordine tappe eneide",
+  "fonte": "https://it.wikipedia.org/wiki/Eneide",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0017",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Vita di Edipo, in ordine",
+  "elementi": [
+   "Abbandonato da neonato",
+   "Uccide Laio",
+   "Risolve l'enigma",
+   "Scopre la verità"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Edipo uccise il padre in una rissa per il diritto di passaggio.",
+  "fatto": "ordine vita di edipo",
+  "fonte": "https://it.wikipedia.org/wiki/Edipo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0018",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "criterio": "Imprese di Teseo, in ordine",
+  "elementi": [
+   "Uccide il Minotauro",
+   "Lascia Arianna a Nasso",
+   "Scorda le vele bianche",
+   "Egeo si getta in mare"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Dal nome di Egeo si chiama il mare Egeo.",
+  "fatto": "ordine imprese di teseo",
+  "fonte": "https://it.wikipedia.org/wiki/Teseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0019",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "criterio": "Storia di Romolo e Remo, in ordine",
+  "elementi": [
+   "Abbandonati nel Tevere",
+   "Allattati dalla lupa",
+   "Fondazione di Roma",
+   "Ratto delle Sabine"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Il ratto delle Sabine avvenne per dare mogli ai primi Romani.",
+  "fatto": "ordine storia romolo e remo",
+  "fonte": "https://it.wikipedia.org/wiki/Romolo_e_Remo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0020",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "criterio": "Imprese di Perseo, in ordine",
+  "elementi": [
+   "Nasce da Danae",
+   "Decapita Medusa",
+   "Libera Andromeda",
+   "Pietrifica Polidette"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Polidette fu pietrificato con la testa di Medusa.",
+  "fatto": "ordine imprese di perseo",
+  "fonte": "https://it.wikipedia.org/wiki/Perseo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0021",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Leggende, dall'epoca più antica alla più recente",
+  "elementi": [
+   "Guerra di Troia",
+   "Fondazione di Roma",
+   "Re Artù",
+   "Guglielmo Tell"
+  ],
+  "valori": [
+   "~1200 a.C.",
+   "753 a.C.",
+   "~VI sec. d.C.",
+   "1307"
+  ],
+  "curiosita": "La data di Tell, 1307, è quella data dalla tradizione svizzera.",
+  "fatto": "ordine leggende per epoca",
+  "fonte": "https://it.wikipedia.org/wiki/Storia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0022",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "criterio": "Lune di Giove con nomi del mito, dalla più vicina",
+  "elementi": [
+   "Io",
+   "Europa",
+   "Ganimede",
+   "Callisto"
+  ],
+  "valori": [
+   "~422.000 km",
+   "~671.000 km",
+   "~1.070.000 km",
+   "~1.883.000 km"
+  ],
+  "curiosita": "Tutte portano il nome di amori o favoriti di Zeus.",
+  "fatto": "ordine distanza lune galileiane",
+  "fonte": "https://it.wikipedia.org/wiki/Satelliti_galileiani",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0023",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Storia di Orfeo, in ordine",
+  "elementi": [
+   "Muore Euridice",
+   "Scende negli Inferi",
+   "Si volta a guardarla",
+   "Sbranato dalle Menadi"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Orfeo era il cantore capace di incantare animali e piante.",
+  "fatto": "ordine storia di orfeo",
+  "fonte": "https://it.wikipedia.org/wiki/Orfeo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0024",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "criterio": "Storia di Dedalo e Icaro, in ordine",
+  "elementi": [
+   "Progetta il labirinto",
+   "Fabbrica ali di cera",
+   "Fugge da Creta",
+   "Icaro cade in mare"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Dedalo era l'inventore e architetto più celebre del mito.",
+  "fatto": "ordine storia di dedalo e icaro",
+  "fonte": "https://it.wikipedia.org/wiki/Icaro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-mit-0025",
+  "tipo": "ordine",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "criterio": "Imprese di Giasone, in ordine",
+  "elementi": [
+   "Salpa sull'Argo",
+   "Doma i tori di fuoco",
+   "Prende il vello d'oro",
+   "Torna a Iolco"
+  ],
+  "valori": [
+   "1°",
+   "2°",
+   "3°",
+   "4°"
+  ],
+  "curiosita": "Medea lo aiutò a superare le prove, innamorata di lui.",
+  "fatto": "ordine imprese di giasone",
+  "fonte": "https://it.wikipedia.org/wiki/Argonauti",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ }
+]

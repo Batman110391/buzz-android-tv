@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "la-mit-0001",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale pianeta ha il nome del dio romano del mare?",
+  "risposte": [
+   "Nettuno",
+   "Giove",
+   "Saturno",
+   "Mercurio"
+  ],
+  "curiosita": "È il pianeta più lontano dal Sole, scoperto nel 1846.",
+  "fatto": "pianeta dio romano del mare nettuno",
+  "fonte": "https://it.wikipedia.org/wiki/Nettuno_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0002",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quanti occhi ha un Ciclope?",
+  "risposte": [
+   "Uno",
+   "Due",
+   "Tre",
+   "Quattro"
+  ],
+  "curiosita": "In greco il nome significa occhio rotondo.",
+  "fatto": "numero occhi ciclope uno",
+  "fonte": "https://it.wikipedia.org/wiki/Ciclope",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0003",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale uccello è il simbolo di Zeus?",
+  "risposte": [
+   "Aquila",
+   "Gufo",
+   "Colomba",
+   "Pavone"
+  ],
+  "curiosita": "Nelle storie Zeus lo manda a portargli Ganimede.",
+  "fatto": "uccello simbolo di zeus aquila",
+  "fonte": "https://it.wikipedia.org/wiki/Zeus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0004",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale insetto era sacro agli antichi Egizi?",
+  "risposte": [
+   "Scarabeo",
+   "Ape",
+   "Cavalletta",
+   "Mosca"
+  ],
+  "curiosita": "Rappresentava il Sole che sorge.",
+  "fatto": "insetto sacro egizi scarabeo",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_egizia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0005",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Chi è l'autore tradizionale dell'Iliade?",
+  "risposte": [
+   "Omero",
+   "Esiodo",
+   "Virgilio",
+   "Sofocle"
+  ],
+  "curiosita": "Alcuni studiosi dubitano che sia mai esistito davvero.",
+  "fatto": "autore iliade omero",
+  "fonte": "https://it.wikipedia.org/wiki/Omero",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0006",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale poeta romano narrò la fuga di Enea da Troia?",
+  "risposte": [
+   "Virgilio",
+   "Omero",
+   "Ovidio",
+   "Orazio"
+  ],
+  "curiosita": "Voleva darla alle fiamme in punto di morte, ma Augusto glielo impedì.",
+  "fatto": "poeta fuga di enea da troia virgilio",
+  "fonte": "https://it.wikipedia.org/wiki/Eneide",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0007",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale isola era la patria di Ulisse?",
+  "risposte": [
+   "Itaca",
+   "Ogigia",
+   "Creta",
+   "Cipro"
+  ],
+  "curiosita": "Oggi è un'isola greca del mar Ionio.",
+  "fatto": "patria di ulisse itaca",
+  "fonte": "https://it.wikipedia.org/wiki/Itaca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0008",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "A chi era dedicato il Pantheon di Roma?",
+  "risposte": [
+   "Tutti gli dei",
+   "Giove",
+   "Marte",
+   "Apollo"
+  ],
+  "curiosita": "Il nome greco significa appunto di tutti gli dei.",
+  "fatto": "dedica del pantheon a tutti gli dei",
+  "fonte": "https://it.wikipedia.org/wiki/Pantheon_(Roma)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0009",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Da cosa liberò Hamelin il pifferaio magico?",
+  "risposte": [
+   "Dai topi",
+   "Dai lupi",
+   "Dalla peste",
+   "Dai ladri"
+  ],
+  "curiosita": "La leggenda dice che si vendicò portando via anche i bambini.",
+  "fatto": "pifferaio di hamelin topi",
+  "fonte": "https://it.wikipedia.org/wiki/Pifferaio_di_Hamelin",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0010",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Che frutto colpì Guglielmo Tell con la balestra?",
+  "risposte": [
+   "Una mela",
+   "Una pera",
+   "Un'arancia",
+   "Una noce"
+  ],
+  "curiosita": "La mela stava sulla testa del figlio.",
+  "fatto": "guglielmo tell mela",
+  "fonte": "https://it.wikipedia.org/wiki/Guglielmo_Tell",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0011",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale mese prende il nome dal dio Marte?",
+  "risposte": [
+   "Marzo",
+   "Maggio",
+   "Aprile",
+   "Giugno"
+  ],
+  "curiosita": "Per i Romani era il primo mese dell'anno.",
+  "fatto": "mese del dio marte marzo",
+  "fonte": "https://it.wikipedia.org/wiki/Marte_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0012",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Come si chiama la sacerdotessa di Vesta?",
+  "risposte": [
+   "Vestale",
+   "Druida",
+   "Baccante",
+   "Pizia"
+  ],
+  "curiosita": "Doveva mantenere acceso il fuoco sacro di Roma.",
+  "fatto": "sacerdotessa di vesta vestale",
+  "fonte": "https://it.wikipedia.org/wiki/Vestali",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0013",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Qual è il nome greco di Ercole?",
+  "risposte": [
+   "Eracle",
+   "Achille",
+   "Ares",
+   "Atlante"
+  ],
+  "curiosita": "Il nome significa gloria di Era.",
+  "fatto": "nome greco di ercole eracle",
+  "fonte": "https://it.wikipedia.org/wiki/Ercole",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0014",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Qual è il nome greco di Ulisse?",
+  "risposte": [
+   "Odisseo",
+   "Ettore",
+   "Teseo",
+   "Aiace"
+  ],
+  "curiosita": "Da Odisseo deriva anche il titolo Odissea.",
+  "fatto": "nome greco di ulisse odisseo",
+  "fonte": "https://it.wikipedia.org/wiki/Odissea",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0015",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 1,
+  "domanda": "Quale arma scagliava Zeus?",
+  "risposte": [
+   "Il fulmine",
+   "Il tridente",
+   "Il martello",
+   "L'arco"
+  ],
+  "curiosita": "I fulmini gli furono forgiati dai Ciclopi.",
+  "fatto": "arma di zeus fulmine",
+  "fonte": "https://it.wikipedia.org/wiki/Zeus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0016",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale uccello è sacro a Era?",
+  "risposte": [
+   "Pavone",
+   "Cigno",
+   "Civetta",
+   "Aquila"
+  ],
+  "curiosita": "Sulle sue piume, secondo il mito, Era mise gli occhi di Argo.",
+  "fatto": "uccello sacro a era pavone",
+  "fonte": "https://it.wikipedia.org/wiki/Era_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0017",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama il martello di Thor?",
+  "risposte": [
+   "Mjöllnir",
+   "Gungnir",
+   "Excalibur",
+   "Durlindana"
+  ],
+  "curiosita": "Torna sempre nella mano del suo proprietario.",
+  "fatto": "martello di thor mjollnir",
+  "fonte": "https://it.wikipedia.org/wiki/Thor",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0018",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi è il dio egizio dell'oltretomba?",
+  "risposte": [
+   "Osiride",
+   "Ra",
+   "Seth",
+   "Horus"
+  ],
+  "curiosita": "Fu ucciso dal fratello Seth e riportato in vita da Iside.",
+  "fatto": "dio egizio oltretomba osiride",
+  "fonte": "https://it.wikipedia.org/wiki/Osiride",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0019",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Che cosa simboleggia l'ankh, la croce ansata egizia?",
+  "risposte": [
+   "La vita",
+   "La morte",
+   "La guerra",
+   "Il Sole"
+  ],
+  "curiosita": "Gli dei la tengono in mano nelle pitture egizie.",
+  "fatto": "simbolo ankh vita",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_egizia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0020",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiama la dea romana della vittoria?",
+  "risposte": [
+   "Vittoria",
+   "Fortuna",
+   "Pace",
+   "Giustizia"
+  ],
+  "curiosita": "Corrisponde alla greca Nike.",
+  "fatto": "dea romana della vittoria",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0021",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamava la sacerdotessa dell'oracolo di Delfi?",
+  "risposte": [
+   "Pizia",
+   "Sibilla",
+   "Vestale",
+   "Menade"
+  ],
+  "curiosita": "Parlava in estasi, e i sacerdoti traducevano le sue parole.",
+  "fatto": "sacerdotessa di delfi pizia",
+  "fonte": "https://it.wikipedia.org/wiki/Delfi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0022",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "In quale città sorgeva il più celebre oracolo greco?",
+  "risposte": [
+   "Delfi",
+   "Olimpia",
+   "Atene",
+   "Sparta"
+  ],
+  "curiosita": "I Greci la consideravano l'ombelico del mondo.",
+  "fatto": "oracolo piu famoso delfi",
+  "fonte": "https://it.wikipedia.org/wiki/Delfi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0023",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale poeta latino scrisse le Metamorfosi?",
+  "risposte": [
+   "Ovidio",
+   "Virgilio",
+   "Orazio",
+   "Lucrezio"
+  ],
+  "curiosita": "Nel poema raccoglie centinaia di miti greci e romani.",
+  "fatto": "autore metamorfosi ovidio",
+  "fonte": "https://it.wikipedia.org/wiki/Ovidio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0024",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Dove vanno i guerrieri caduti, secondo i Vichinghi?",
+  "risposte": [
+   "Valhalla",
+   "Hel",
+   "Midgard",
+   "Niflheim"
+  ],
+  "curiosita": "Il Valhalla è la sala di Odino, in Asgard.",
+  "fatto": "aldila guerrieri vichinghi valhalla",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0025",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quante sono le Grazie, nella mitologia greca?",
+  "risposte": [
+   "Tre",
+   "Due",
+   "Quattro",
+   "Nove"
+  ],
+  "curiosita": "Erano le dee della bellezza e della gioia.",
+  "fatto": "numero delle grazie tre",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0026",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quanti sono gli dei principali dell'Olimpo?",
+  "risposte": [
+   "Dodici",
+   "Sette",
+   "Nove",
+   "Dieci"
+  ],
+  "curiosita": "Il numero varia a seconda delle fonti, ma dodici è il più comune.",
+  "fatto": "dei dell olimpo dodici",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0027",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quanti anni durò l'assedio di Troia?",
+  "risposte": [
+   "Dieci",
+   "Sette",
+   "Dodici",
+   "Tre"
+  ],
+  "curiosita": "Finì con il celebre inganno del cavallo di legno.",
+  "fatto": "durata assedio troia dieci anni",
+  "fonte": "https://it.wikipedia.org/wiki/Guerra_di_Troia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0028",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi sfidò Atena a tessere e fu trasformata in ragno?",
+  "risposte": [
+   "Aracne",
+   "Medusa",
+   "Dafne",
+   "Calisto"
+  ],
+  "curiosita": "Da lei prende il nome la classe degli aracnidi.",
+  "fatto": "aracne trasformata in ragno",
+  "fonte": "https://it.wikipedia.org/wiki/Aracne",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0029",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi ammansì il lupo di Gubbio, secondo la leggenda?",
+  "risposte": [
+   "San Francesco",
+   "Sant'Antonio",
+   "San Benedetto",
+   "San Martino"
+  ],
+  "curiosita": "Il lupo seminava il terrore, ma divenne amico degli abitanti.",
+  "fatto": "lupo di gubbio san francesco",
+  "fonte": "https://it.wikipedia.org/wiki/San_Francesco_d'Assisi",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0030",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale pianeta ha il nome del dio greco del cielo?",
+  "risposte": [
+   "Urano",
+   "Venere",
+   "Marte",
+   "Mercurio"
+  ],
+  "curiosita": "È l'unico pianeta con il nome di una divinità greca anziché romana.",
+  "fatto": "pianeta dio del cielo urano",
+  "fonte": "https://it.wikipedia.org/wiki/Urano_(divinità)",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0031",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Da quale titano deriva il nome dell'Oceano?",
+  "risposte": [
+   "Oceano",
+   "Crono",
+   "Giapeto",
+   "Iperione"
+  ],
+  "curiosita": "Per i Greci era un fiume che circondava il mondo.",
+  "fatto": "oceano da titano oceano",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0032",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "In quale città è ambientata la leggenda del Golem?",
+  "risposte": [
+   "Praga",
+   "Vienna",
+   "Varsavia",
+   "Budapest"
+  ],
+  "curiosita": "Il rabbino Löw avrebbe creato il Golem per difendere il ghetto.",
+  "fatto": "citta della leggenda del golem praga",
+  "fonte": "https://it.wikipedia.org/wiki/Golem",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0033",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale costellazione porta il nome di un cacciatore?",
+  "risposte": [
+   "Orione",
+   "Perseo",
+   "Pegaso",
+   "Cassiopea"
+  ],
+  "curiosita": "Le sue tre stelle della cintura sono visibili a occhio nudo.",
+  "fatto": "costellazione cacciatore orione",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0034",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale frutto mangiò Persefone negli Inferi?",
+  "risposte": [
+   "Melograno",
+   "Mela",
+   "Fico",
+   "Pera"
+  ],
+  "curiosita": "Per averlo mangiato fu costretta a tornare ogni anno agli Inferi.",
+  "fatto": "frutto di persefone melograno",
+  "fonte": "https://it.wikipedia.org/wiki/Persefone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0035",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Come si chiamano i mostri alati che rubano il cibo?",
+  "risposte": [
+   "Arpie",
+   "Sirene",
+   "Gorgoni",
+   "Furie"
+  ],
+  "curiosita": "Perseguitarono il re Fineo, rubandogli il cibo dalla tavola.",
+  "fatto": "mostri alati che rubano il cibo arpie",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0036",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi è il dio greco della medicina?",
+  "risposte": [
+   "Asclepio",
+   "Apollo",
+   "Ermes",
+   "Efesto"
+  ],
+  "curiosita": "Il suo bastone con un serpente è ancora simbolo dei medici.",
+  "fatto": "dio greco della medicina asclepio",
+  "fonte": "https://it.wikipedia.org/wiki/Asclepio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0037",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era la dea greca della Terra?",
+  "risposte": [
+   "Gea",
+   "Rea",
+   "Era",
+   "Estia"
+  ],
+  "curiosita": "Dalla sua unione con Urano nacquero i Titani.",
+  "fatto": "dea greca della terra gea",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0038",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era la madre di Achille?",
+  "risposte": [
+   "Teti",
+   "Era",
+   "Calipso",
+   "Anfitrite"
+  ],
+  "curiosita": "Era una ninfa marina.",
+  "fatto": "madre di achille teti",
+  "fonte": "https://it.wikipedia.org/wiki/Achille",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0039",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era il migliore amico di Achille?",
+  "risposte": [
+   "Patroclo",
+   "Ettore",
+   "Aiace",
+   "Diomede"
+  ],
+  "curiosita": "La sua morte spinse Achille a tornare a combattere.",
+  "fatto": "migliore amico di achille patroclo",
+  "fonte": "https://it.wikipedia.org/wiki/Iliade",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0040",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Chi era il comandante supremo dei Greci a Troia?",
+  "risposte": [
+   "Agamennone",
+   "Achille",
+   "Ulisse",
+   "Menelao"
+  ],
+  "curiosita": "Il conflitto con Achille per una schiava apre l'Iliade.",
+  "fatto": "comandante greco a troia agamennone",
+  "fonte": "https://it.wikipedia.org/wiki/Agamennone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0041",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale giorno inglese prende il nome da Thor?",
+  "risposte": [
+   "Thursday",
+   "Tuesday",
+   "Friday",
+   "Monday"
+  ],
+  "curiosita": "In italiano è giovedì, dal dio romano Giove.",
+  "fatto": "giorno inglese di thor thursday",
+  "fonte": "https://it.wikipedia.org/wiki/Thor",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0042",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Quale dea romana è la dea dei fiori?",
+  "risposte": [
+   "Flora",
+   "Cerere",
+   "Vesta",
+   "Diana"
+  ],
+  "curiosita": "Le feste in suo onore si chiamavano Floralia.",
+  "fatto": "dea romana dei fiori flora",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_romana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0043",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 2,
+  "domanda": "Cosa restò sul fondo del vaso di Pandora?",
+  "risposte": [
+   "La speranza",
+   "La paura",
+   "La gioia",
+   "L'amore"
+  ],
+  "curiosita": "Per questo si dice che la speranza è l'ultima a morire.",
+  "fatto": "fondo del vaso di pandora speranza",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0044",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la moglie di Odino?",
+  "risposte": [
+   "Frigg",
+   "Freya",
+   "Sif",
+   "Idunn"
+  ],
+  "curiosita": "Era la dea del matrimonio e della maternità.",
+  "fatto": "moglie di odino frigg",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_norrena",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0045",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la dea greca della giustizia?",
+  "risposte": [
+   "Temi",
+   "Nike",
+   "Eris",
+   "Gea"
+  ],
+  "curiosita": "Viene raffigurata con la bilancia, come la dea romana Giustizia.",
+  "fatto": "dea greca della giustizia temi",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0046",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "In quale città campana viveva la Sibilla di Virgilio?",
+  "risposte": [
+   "Cuma",
+   "Capri",
+   "Pompei",
+   "Baia"
+  ],
+  "curiosita": "Nell'Eneide guida Enea negli Inferi.",
+  "fatto": "sibilla cumana cuma",
+  "fonte": "https://it.wikipedia.org/wiki/Sibilla_cumana",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0047",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi scrisse la Teogonia, sulla nascita degli dei?",
+  "risposte": [
+   "Esiodo",
+   "Omero",
+   "Ovidio",
+   "Eschilo"
+  ],
+  "curiosita": "È uno dei più antichi poeti greci a noi noti.",
+  "fatto": "autore teogonia esiodo",
+  "fonte": "https://it.wikipedia.org/wiki/Esiodo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0048",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Da quale dea greca deriva la parola \"igiene\"?",
+  "risposte": [
+   "Igea",
+   "Atena",
+   "Era",
+   "Nike"
+  ],
+  "curiosita": "Era la figlia di Asclepio, dio della medicina.",
+  "fatto": "parola igiene da igea",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0049",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Da quale dio deriva la parola \"morfina\"?",
+  "risposte": [
+   "Morfeo",
+   "Ipno",
+   "Orfeo",
+   "Ermes"
+  ],
+  "curiosita": "Il dio dei sogni dà il nome anche all'espressione tra le braccia di Morfeo.",
+  "fatto": "morfina da morfeo",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0050",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamano i due corvi di Odino?",
+  "risposte": [
+   "Huginn e Muninn",
+   "Geri e Freki",
+   "Sköll e Hati",
+   "Thor e Tyr"
+  ],
+  "curiosita": "I loro nomi significano pensiero e memoria.",
+  "fatto": "corvi di odino huginn muninn",
+  "fonte": "https://it.wikipedia.org/wiki/Odino",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0051",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quante sono le Gorgoni, di cui Medusa faceva parte?",
+  "risposte": [
+   "Tre",
+   "Due",
+   "Quattro",
+   "Sette"
+  ],
+  "curiosita": "Medusa era l'unica mortale delle tre.",
+  "fatto": "numero delle gorgoni tre",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0052",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Su quale isola nacquero Apollo e Artemide?",
+  "risposte": [
+   "Delo",
+   "Creta",
+   "Rodi",
+   "Naxos"
+  ],
+  "curiosita": "Era l'isola sacra dei Greci: nessuno poteva nascervi o morirvi.",
+  "fatto": "isola nascita apollo artemide delo",
+  "fonte": "https://it.wikipedia.org/wiki/Delo",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0053",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi fu trasformato in cervo da Artemide?",
+  "risposte": [
+   "Atteone",
+   "Narciso",
+   "Adone",
+   "Orione"
+  ],
+  "curiosita": "I suoi stessi cani lo sbranarono.",
+  "fatto": "atteone trasformato in cervo",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0054",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Chi accompagna San Nicola nelle tradizioni alpine?",
+  "risposte": [
+   "Krampus",
+   "Befana",
+   "Babbo Natale",
+   "Perchta"
+  ],
+  "curiosita": "Punisce i bambini cattivi con catene e fruste.",
+  "fatto": "krampus accompagna san nicola",
+  "fonte": "https://it.wikipedia.org/wiki/Krampus",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0055",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama la dea greca della giovinezza?",
+  "risposte": [
+   "Ebe",
+   "Igea",
+   "Estia",
+   "Nike"
+  ],
+  "curiosita": "Era la coppiera degli dei dell'Olimpo.",
+  "fatto": "dea greca della giovinezza ebe",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0056",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiama il dio greco del vento del nord?",
+  "risposte": [
+   "Borea",
+   "Zefiro",
+   "Noto",
+   "Euro"
+  ],
+  "curiosita": "Veniva raffigurato come un uomo alato e barbuto.",
+  "fatto": "dio del vento del nord borea",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0057",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Come si chiamava la moglie di Poseidone?",
+  "risposte": [
+   "Anfitrite",
+   "Teti",
+   "Medusa",
+   "Anfione"
+  ],
+  "curiosita": "Era una Nereide, figlia di Nereo.",
+  "fatto": "moglie di poseidone anfitrite",
+  "fonte": "https://it.wikipedia.org/wiki/Poseidone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0058",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale gigante perdeva forza se sollevato da terra?",
+  "risposte": [
+   "Anteo",
+   "Atlante",
+   "Polifemo",
+   "Briareo"
+  ],
+  "curiosita": "Ercole lo vinse sollevandolo in aria.",
+  "fatto": "gigante anteo ercole",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0059",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "In quale animale Zeus trasformò Io, sua amante?",
+  "risposte": [
+   "Giovenca",
+   "Cigna",
+   "Cerva",
+   "Orsa"
+  ],
+  "curiosita": "Era la fece sorvegliare da Argo dai cento occhi.",
+  "fatto": "io trasformata in giovenca",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-mit-0060",
+  "tipo": "lampo",
+  "categoria": "mitologia",
+  "difficolta": 3,
+  "domanda": "Quale capra, secondo il mito, allattò Zeus neonato?",
+  "risposte": [
+   "Amaltea",
+   "Egle",
+   "Calisto",
+   "Ebe"
+  ],
+  "curiosita": "Un suo corno divenne la cornucopia, simbolo di abbondanza.",
+  "fatto": "capra amaltea zeus",
+  "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ }
+]
