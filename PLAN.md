@@ -108,7 +108,7 @@ Le lunghezze vengono dal design: pannello domanda 1540 px a 60 px = 2 righe; car
 - `fonte`: pagina dove il fatto si verifica (preferibilmente Wikipedia italiana).
 - `origine`: `claude` | `gemini`; sul server si aggiungono `stato` (`attiva` | `sospesa`), `uscite`, `giuste`.
 
-**Categorie (12, chiavi fisse):** `geografia` `storia` `scienza` `natura` (natura e animali) `cinema_tv` `musica` `sport` `cucina` `arte_letteratura` `lingua` (lingua italiana e modi di dire) `tecnologia` (tecnologia e invenzioni) `costume` (costume, giochi, vita quotidiana, curiosità).
+**Categorie (18, chiavi fisse):** `geografia` `storia` `scienza` `natura` (natura e animali) `cinema_tv` `musica` `sport` `cucina` `arte_letteratura` `lingua` (lingua italiana e modi di dire) `tecnologia` (tecnologia e invenzioni) `costume` (costume, giochi, vita quotidiana, curiosità); **particolari** (2026-10-14, per non essere il solito quiz): `videogiochi` · `mitologia` (mitologia e leggende) · `citazioni` ("Chi l'ha detto?": frasi celebri di film, canzoni, storia) · `strano_ma_vero` (curiosità incredibili ma vere e verificabili) · `corpo_umano` · `tradizioni` (superstizioni e tradizioni). Prefissi `cat3` degli id: geo sto sci nat cin mus spo cuc art lin tec cos vid mit cit str cor tra.
 
 **Difficoltà** (per un gruppo di amici adulti italiani, età miste): **1** la sa quasi chiunque · **2** circa metà del tavolo · **3** pochi, ma sentita la risposta si dice "ah, giusto!" (mai nozioni da specialisti). Dopo 20 uscite la difficoltà si ricalcola dai dati reali: ≥ 75% giuste → 1, 35–75% → 2, < 35% → 3; < 5% dopo 20 uscite → `sospesa` (probabilmente sbagliata).
 
@@ -120,7 +120,7 @@ Le lunghezze vengono dal design: pannello domanda 1540 px a 60 px = 2 righe; car
 5. Varietà: niente due domande sullo stesso `fatto`; non più di 3 domande sullo stesso argomento ristretto per categoria.
 
 #### Dotazione iniziale (D2, scritta da Claude)
-Per categoria: 90 `classica` (30 per difficoltà) + 30 `lampo` + 15 `ordine` → **~1.620** domande in `domande/<tipo>/<categoria>.json` (array JSON). Una partita ne usa ~30 → ~50 partite senza ripetizioni. `tools/domande_check.mjs` valida tutto (schema, lunghezze, regole meccaniche, doppioni di `fatto` e di testo) ed esce con codice ≠ 0 se trova errori.
+Per categoria: 90 `classica` (30 per difficoltà) + 30 `lampo` + 15 `ordine` → **~1.620** domande in `domande/<tipo>/<categoria>.json` (array JSON). **D6 (approvato 2026-10-14, "come Buzz"):** si sale a 180 `classica` (60 per difficoltà) + 60 `lampo` + 25 `ordine` per ognuna delle 18 categorie → **~4.770**, più `stima`/`indizi` con i loro minigiochi → ~5.000. Domande meno scontate: niente quiz da sussidiario, curiosità che fanno dire "davvero?". `tools/domande_check.mjs` valida tutto (schema, lunghezze, regole meccaniche, doppioni di `fatto` e di testo) ed esce con codice ≠ 0 se trova errori.
 
 #### Prompt e banco di prova (D3)
 - `tools/prompts/genera.md` (Gemini): ruolo, pubblico, regole di qualità, scala di difficoltà con 2 esempi per livello presi dalla dotazione, elenco dei `fatto` già presenti nella categoria, richiesta di N domande di un `tipo`/`categoria`/`difficolta`; uscita JSON con schema obbligato (`responseSchema`).

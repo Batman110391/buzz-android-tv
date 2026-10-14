@@ -3,7 +3,7 @@ import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const CATEGORIE = ["geografia","storia","scienza","natura","cinema_tv","musica","sport","cucina","arte_letteratura","lingua","tecnologia","costume"];
+const CATEGORIE = ["geografia","storia","scienza","natura","cinema_tv","musica","sport","cucina","arte_letteratura","lingua","tecnologia","costume","videogiochi","mitologia","citazioni","strano_ma_vero","corpo_umano","tradizioni"];
 const PREFISSI = { classica: "cl", lampo: "la", ordine: "or", foto: "fo" };
 const LIM = { classica: { domanda: 90, risposta: 26 }, lampo: { domanda: 55, risposta: 16 } };
 const SENZA_ACCENTO = /\b(perche|poiche|cioe|piu|gia|puo|citta)\b/i;

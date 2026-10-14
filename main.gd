@@ -15,6 +15,15 @@ const GIOCHI := [  # solo quelli già fatti (G3f aggiunge gli altri e Conto alla
 		"regola": "Chi risponde giusto ruba 300 punti a un avversario a scelta!"},
 ]
 const RUBA_TEMPO := 10.0
+const CAT_TEMPO := 10.0
+const CATEGORIE := {  # chiave di domande/ -> [nome, icona] (PLAN.md §4 "Domande")
+	"geografia": ["Geografia", "🌍"], "storia": ["Storia", "🏛️"], "scienza": ["Scienza", "🔬"],
+	"natura": ["Natura e animali", "🐾"], "cinema_tv": ["Cinema e TV", "🎬"], "musica": ["Musica", "🎵"],
+	"sport": ["Sport", "⚽"], "cucina": ["Cucina", "🍝"], "arte_letteratura": ["Arte e letteratura", "🎨"],
+	"lingua": ["Lingua italiana", "📖"], "tecnologia": ["Tecnologia", "💡"], "costume": ["Costume", "🎲"],
+	"videogiochi": ["Videogiochi", "🎮"], "mitologia": ["Mitologia", "🐉"], "citazioni": ["Chi l'ha detto?", "💬"],
+	"strano_ma_vero": ["Strano ma vero", "🤯"], "corpo_umano": ["Corpo umano", "🫀"], "tradizioni": ["Tradizioni", "🍀"],
+}
 const INK := Color("1B0B3A")
 const CREAM := Color("FFF4DC")
 const GIOCATORI := [
@@ -40,6 +49,11 @@ var _bomba: Bomba
 var _giochi: Array[String] = []  # id dei giochi scelti, nell'ordine di GIOCHI
 var _r := 0  # round in corso (indice in _giochi)
 var _punti := {}  # pid -> punti totali della partita
+var _punti_prima := {}  # punti all'inizio del round in corso (per la classifica intermedia)
+var _cat := ""  # categoria del round in corso
+var _cat_scelta := -1  # indice scelto dal fanalino di coda
+var _classifica_ui: SchermataClassifica
+var _categoria_ui: SchermataCategoria
 var _ruba_da: Array = []  # Ruba Punti: chi ha indovinato e non ha ancora rubato
 var _t := 0.0  # Bomba: secondi dall'inizio della domanda
 var _quando_b := INF  # Bomba: quando risponde il bot che ce l'ha
@@ -85,7 +99,9 @@ func _ready() -> void:
 	_scelta = SchermataScelta.new()
 	_s = SchermataDomanda.new()
 	_finale = SchermataFinale.new()
-	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _s, _finale]:
+	_classifica_ui = SchermataClassifica.new()
+	_categoria_ui = SchermataCategoria.new()
+	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _classifica_ui, _categoria_ui, _s, _finale]:
 		sc.visible = false
 		add_child(sc)
 	_scelta.confermato.connect(_scelti)
@@ -101,6 +117,9 @@ func _ready() -> void:
 	_server.answered.connect(func(slot: int, q: int, scelta: int) -> void:
 		if _pid_di.has(slot) and q == _i:
 			_risponde(_pid_di[slot], scelta))
+	_server.categoria_scelta.connect(func(slot: int, r: int, scelta: int) -> void:
+		if _fase == "categoria" and r == _r and _pid_di.get(slot, -1) == _ultimo(_punti):
+			_cat_scelta = scelta)
 	_server.stole.connect(func(slot: int, q: int, vittima: int) -> void:
 		if _fase == "ruba" and _pid_di.has(slot) and q == _i:
 			for pid in _n:
@@ -371,12 +390,23 @@ func _prossimo_round() -> void:
 	_fase = "round"
 	_s.visible = false
 	_server.invia_stato({"fase": "attesa"})
-	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"], gi["icona"])
+	if _r == 0:  # al primo round non c'è ancora un ultimo: categoria a caso
+		_cat = _categorie_per(gi).pick_random()
+	else:
+		await _intermezzo(gi)
+	_fase = "round"
+	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"] + "\n%s %s" % [CATEGORIE[_cat][1], CATEGORIE[_cat][0]], gi["icona"])
 	await get_tree().create_timer(0.6).timeout
-	var k: String = ["round_1", "gilda_round_1"].pick_random() if _r == 0 and gi["id"] == "accumula" \
-			else ["round_2", "gilda_round_2", "gilda_round_3"][_r % 3]  # le battute generiche, a turno
+	var k: String
+	if _r == 0 and gi["id"] == "accumula":
+		k = ["round_1", "gilda_round_1"].pick_random()
+	elif _testi.has("gilda_round_%s_1" % gi["id"]):  # Gilda spiega le regole del gioco
+		k = _pesca("round_" + gi["id"])
+	else:
+		k = ["round_2", "gilda_round_2", "gilda_round_3"][_r % 3]  # le battute generiche, a turno
 	await _commenta(k, "annuncio", FUMETTO_BASSO)
 	_round.nascondi()
+	_punti_prima = _punti.duplicate()
 	for i in _n:
 		_s.podio(i).set_punti(_punti[i])
 	_s.visible = true
@@ -391,9 +421,72 @@ func _prossimo_round() -> void:
 	_game.question_started.connect(_domanda)
 	_game.question_resolved.connect(_rivela)
 	_game.game_over.connect(_fine_round)
-	_game.setup(_nomi(), _domande.pesca(gi["tipo"], DOMANDE), DOMANDE, gi["id"], _punti)
+	_game.setup(_nomi(), _domande.pesca(gi["tipo"], DOMANDE, 0, _cat), DOMANDE, gi["id"], _punti)
 	_game.start()
 	_game.advance()
+
+
+## Categorie con abbastanza domande per il gioco (la Bomba ne consuma molte).
+func _categorie_per(gi: Dictionary) -> Array:
+	var serve := 15 if gi["id"] == "bomba" else DOMANDE
+	var ok: Array = []
+	for c: String in CATEGORIE:
+		if _domande.quante(gi["tipo"], c) >= serve:
+			ok.append(c)
+	return ok
+
+
+## Tra un round e l'altro: classifica intermedia, poi il fanalino di coda sceglie la categoria (telefono, 10 s;
+## bot o tempo scaduto -> a caso).
+func _intermezzo(gi: Dictionary) -> void:
+	_fase = "intermezzo"
+	Sfx.music("scores")
+	_classifica_ui.visible = true
+	_classifica_ui.mostra(_righe(_punti_prima), _righe(_punti))
+	await _commenta(_pesca("classifica"), "annuncio", FUMETTO_BASSO)
+	_classifica_ui.nascondi()
+	var ult := _ultimo(_punti)
+	var cats := _categorie_per(gi)
+	cats.shuffle()
+	var opz: Array = []
+	for c: String in cats.slice(0, 3):
+		opz.append({"id": c, "nome": CATEGORIE[c][0], "icona": CATEGORIE[c][1]})
+	_categoria_ui.visible = true
+	_categoria_ui.mostra(_g[ult]["nome"], _g[ult]["colore"], _g[ult]["id"], opz)
+	_cat_scelta = -1
+	_t = 0.0
+	_fase = "categoria"
+	_server.invia_stato({"fase": "categoria", "r": _r, "tempo": CAT_TEMPO, "opzioni": opz, "chi": _g[ult]["slot"],
+			"chi_nome": _g[ult]["nome"], "puo": [_g[ult]["slot"]] if _pid_di.values().has(ult) else []})
+	_dici(_pesca("fanalino"), "annuncio", FUMETTO_BASSO)
+	var bot := _demo or not _pid_di.values().has(ult)
+	var quando := randf_range(2.0, 4.0)
+	while _cat_scelta < 0 and _t < CAT_TEMPO:
+		_categoria_ui.set_tempo(CAT_TEMPO - _t, CAT_TEMPO)
+		if bot and _t >= quando:
+			_cat_scelta = randi() % opz.size()
+		await get_tree().process_frame
+	if _cat_scelta < 0 or _cat_scelta >= opz.size():
+		_cat_scelta = randi() % opz.size()
+	_cat = opz[_cat_scelta]["id"]
+	_categoria_ui.scegli(_cat_scelta)
+	Sfx.play("pop")
+	await get_tree().create_timer(1.5).timeout
+	while _parla:
+		await get_tree().process_frame
+	_nascondi_fumetti()
+	await _esci()
+	_categoria_ui.nascondi()
+	_server.invia_stato({"fase": "attesa"})
+
+
+func _righe(punti: Dictionary) -> Array:
+	var r: Array = []
+	for pid in _n:
+		r.append({"pid": pid, "nome": _g[pid]["nome"], "colore": _g[pid]["colore"], "personaggio": _g[pid]["id"], "punti": punti[pid]})
+	r.sort_custom(func(a: Dictionary, b: Dictionary) -> bool:  # la classifica le mostra nell'ordine dato
+		return a["punti"] > b["punti"] or (a["punti"] == b["punti"] and a["pid"] < b["pid"]))
+	return r
 
 
 func _fine_round(classifica: Array) -> void:
@@ -423,7 +516,7 @@ func _inizia_bomba() -> void:
 	_bomba.sbagliata.connect(func(_pid: int) -> void: Sfx.play("wrong"))
 	_bomba.esplosa.connect(_b_esplosa)
 	_bomba.round_finito.connect(_fine_round)
-	_bomba.setup(_nomi(), _domande.pesca("lampo", 40), _punti)
+	_bomba.setup(_nomi(), _domande.pesca("lampo", 40, 0, _cat), _punti)
 	_i = -1
 	_s.mostra_timer(false)
 	_bomba_ui.visible = true
@@ -528,7 +621,7 @@ func _process(dt: float) -> void:
 			_risponde(_bomba.chi_ha_bomba(), _q["correct"] if randf() < 0.7 else randi() % 4)
 		_bomba.tick(dt)  # può emettere esplosa -> _b_esplosa
 		return
-	if _fase == "ruba":
+	if _fase == "ruba" or _fase == "categoria":
 		_t += dt
 		return
 	if _fase != "domanda":

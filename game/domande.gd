@@ -40,3 +40,12 @@ func pesca(tipo: String, n: int, difficolta := 0, categoria := "") -> Array:
 	if f:
 		f.store_string(JSON.stringify(_uscite.keys()))
 	return scelte
+
+
+## Quante domande ci sono di quel tipo e categoria (uscite comprese).
+func quante(tipo: String, categoria: String) -> int:
+	var n := 0
+	for q: Dictionary in _tutte:
+		if q["tipo"] == tipo and q["categoria"] == categoria:
+			n += 1
+	return n
