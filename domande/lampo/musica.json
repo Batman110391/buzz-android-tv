@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Il_carnevale_degli_animali",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0031",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantava \"Satisfaction\"?",
+    "risposte": [
+      "Rolling Stones",
+      "Beatles",
+      "Who",
+      "Kinks"
+    ],
+    "curiosita": "Il riff di chitarra è tra i più celebri del rock.",
+    "fatto": "satisfaction rolling stones",
+    "fonte": "https://it.wikipedia.org/wiki/(I_Can't_Get_No)_Satisfaction",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0032",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi era il batterista dei Beatles?",
+    "risposte": [
+      "Ringo Starr",
+      "Paul McCartney",
+      "George Harrison",
+      "Pete Best"
+    ],
+    "curiosita": "Il suo vero nome è Richard Starkey.",
+    "fatto": "batterista beatles ringo starr",
+    "fonte": "https://it.wikipedia.org/wiki/Ringo_Starr",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0033",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Hello\" del 2015?",
+    "risposte": [
+      "Adele",
+      "Beyoncé",
+      "Rihanna",
+      "Shakira"
+    ],
+    "curiosita": "Il brano ha battuto ogni record su YouTube.",
+    "fatto": "hello 2015 adele",
+    "fonte": "https://it.wikipedia.org/wiki/Hello_(Adele)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0034",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale paese è la cantante Shakira?",
+    "risposte": [
+      "Colombia",
+      "Messico",
+      "Spagna",
+      "Argentina"
+    ],
+    "curiosita": "È nata a Barranquilla.",
+    "fatto": "paese shakira colombia",
+    "fonte": "https://it.wikipedia.org/wiki/Shakira",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0035",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale paese è il flamenco?",
+    "risposte": [
+      "Spagna",
+      "Portogallo",
+      "Messico",
+      "Cuba"
+    ],
+    "curiosita": "Nasce in Andalusia.",
+    "fatto": "paese flamenco spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Flamenco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0036",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale paese è la samba?",
+    "risposte": [
+      "Brasile",
+      "Argentina",
+      "Cuba",
+      "Messico"
+    ],
+    "curiosita": "Il Carnevale di Rio ne è la vetrina.",
+    "fatto": "paese samba brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Samba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0037",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale nota viene dopo il mi?",
+    "risposte": [
+      "Fa",
+      "Re",
+      "Sol",
+      "Do"
+    ],
+    "curiosita": "Mi e fa sono vicinissime: tra loro c'è solo un semitono.",
+    "fatto": "nota dopo mi fa",
+    "fonte": "https://it.wikipedia.org/wiki/Nota_musicale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0038",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Qual è la prima nota della scala maggiore?",
+    "risposte": [
+      "Do",
+      "La",
+      "Si",
+      "Re"
+    ],
+    "curiosita": "Il Do centrale sta a metà della tastiera.",
+    "fatto": "prima nota scala do",
+    "fonte": "https://it.wikipedia.org/wiki/Do",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0039",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quante linee ha il pentagramma?",
+    "risposte": [
+      "Cinque",
+      "Quattro",
+      "Sei",
+      "Sette"
+    ],
+    "curiosita": "Il nome viene dal greco \"pente\", cinque.",
+    "fatto": "linee pentagramma cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Pentagramma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0040",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Wannabe\" nel 1996?",
+    "risposte": [
+      "Spice Girls",
+      "Destiny's Child",
+      "All Saints",
+      "TLC"
+    ],
+    "curiosita": "Era il loro primo singolo.",
+    "fatto": "wannabe spice girls",
+    "fonte": "https://it.wikipedia.org/wiki/Wannabe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0041",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Di quale paese è il fado?",
+    "risposte": [
+      "Portogallo",
+      "Spagna",
+      "Brasile",
+      "Argentina"
+    ],
+    "curiosita": "Significa \"destino\" e nasce a Lisbona.",
+    "fatto": "paese fado portogallo",
+    "fonte": "https://it.wikipedia.org/wiki/Fado",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0042",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale strumento ad arco suonava Yo-Yo Ma?",
+    "risposte": [
+      "Violoncello",
+      "Violino",
+      "Viola",
+      "Contrabbasso"
+    ],
+    "curiosita": "Un violoncello si suona stando seduti.",
+    "fatto": "strumento yo yo ma violoncello",
+    "fonte": "https://it.wikipedia.org/wiki/Yo-Yo_Ma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0043",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Cosa indica \"allegro\" in musica?",
+    "risposte": [
+      "Un ritmo vivace",
+      "Un ritmo lento",
+      "Un volume basso",
+      "Un suono dolce"
+    ],
+    "curiosita": "Non ha a che fare con l'umore.",
+    "fatto": "allegro significato musica",
+    "fonte": "https://it.wikipedia.org/wiki/Tempo_(musica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0044",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Cosa indica \"adagio\" in musica?",
+    "risposte": [
+      "Un ritmo lento",
+      "Un ritmo veloce",
+      "Un volume forte",
+      "Un suono secco"
+    ],
+    "curiosita": "Letteralmente vuol dire \"agio\", con calma.",
+    "fatto": "adagio significato musica",
+    "fonte": "https://it.wikipedia.org/wiki/Adagio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0045",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Sarà perché ti amo\"?",
+    "risposte": [
+      "Ricchi e Poveri",
+      "Pooh",
+      "Matia Bazar",
+      "Collage"
+    ],
+    "curiosita": "Era il 1981 e vinse la gara a Sanremo.",
+    "fatto": "sara perche ti amo ricchi e poveri",
+    "fonte": "https://it.wikipedia.org/wiki/Sarà_perché_ti_amo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0046",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Nel sole\" nel 1967?",
+    "risposte": [
+      "Al Bano",
+      "Gianni Morandi",
+      "Little Tony",
+      "Claudio Villa"
+    ],
+    "curiosita": "Al Bano è nato a Cellino San Marco.",
+    "fatto": "nel sole al bano",
+    "fonte": "https://it.wikipedia.org/wiki/Nel_sole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0047",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Con chi cantò Bocelli \"Vivo per lei\"?",
+    "risposte": [
+      "Giorgia",
+      "Laura Pausini",
+      "Elisa",
+      "Irene Grandi"
+    ],
+    "curiosita": "Il brano è del 1995.",
+    "fatto": "vivo per lei bocelli giorgia",
+    "fonte": "https://it.wikipedia.org/wiki/Vivo_per_lei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0048",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Sultans of Swing\"?",
+    "risposte": [
+      "Dire Straits",
+      "Police",
+      "U2",
+      "Genesis"
+    ],
+    "curiosita": "Mark Knopfler suona la chitarra senza plettro.",
+    "fatto": "sultans of swing dire straits",
+    "fonte": "https://it.wikipedia.org/wiki/Sultans_of_Swing",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0049",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Girls Just Want to Have Fun\"?",
+    "risposte": [
+      "Cyndi Lauper",
+      "Madonna",
+      "Pat Benatar",
+      "Debbie Harry"
+    ],
+    "curiosita": "Era il 1983.",
+    "fatto": "girls just want to have fun lauper",
+    "fonte": "https://it.wikipedia.org/wiki/Girls_Just_Want_to_Have_Fun",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0050",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale strumento ha un mantice?",
+    "risposte": [
+      "Fisarmonica",
+      "Flauto",
+      "Violino",
+      "Tromba"
+    ],
+    "curiosita": "Il mantice spinge l'aria sulle ance.",
+    "fatto": "strumento mantice fisarmonica",
+    "fonte": "https://it.wikipedia.org/wiki/Fisarmonica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0051",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Di quale paese è la polka?",
+    "risposte": [
+      "Rep. Ceca",
+      "Polonia",
+      "Austria",
+      "Germania"
+    ],
+    "curiosita": "Nata in Boemia, nell'Ottocento.",
+    "fatto": "paese polka boemia",
+    "fonte": "https://it.wikipedia.org/wiki/Polka",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0052",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Sweet Dreams (Are Made of This)\"?",
+    "risposte": [
+      "Eurythmics",
+      "Culture Club",
+      "Pet Shop Boys",
+      "Yazoo"
+    ],
+    "curiosita": "La cantante è Annie Lennox.",
+    "fatto": "sweet dreams eurythmics",
+    "fonte": "https://it.wikipedia.org/wiki/Eurythmics",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0053",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Ti sento\" nel 1985?",
+    "risposte": [
+      "Matia Bazar",
+      "Pooh",
+      "Righeira",
+      "Alphaville"
+    ],
+    "curiosita": "Vinse un premio come miglior canzone dell'anno.",
+    "fatto": "ti sento matia bazar",
+    "fonte": "https://it.wikipedia.org/wiki/Ti_sento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0054",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Il corno inglese è in realtà un tipo di...?",
+    "risposte": [
+      "Oboe",
+      "Corno",
+      "Tromba",
+      "Clarinetto"
+    ],
+    "curiosita": "Non è inglese e non è un corno.",
+    "fatto": "corno inglese oboe",
+    "fonte": "https://it.wikipedia.org/wiki/Corno_inglese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0055",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quanti musicisti formano un nonetto?",
+    "risposte": [
+      "Nove",
+      "Sette",
+      "Otto",
+      "Dieci"
+    ],
+    "curiosita": "Il nome viene dal latino \"nonus\".",
+    "fatto": "nonetto nove musicisti",
+    "fonte": "https://it.wikipedia.org/wiki/Nonetto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0056",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Di quale paese è l'orchestra tradizionale gamelan?",
+    "risposte": [
+      "Indonesia",
+      "India",
+      "Giappone",
+      "Thailandia"
+    ],
+    "curiosita": "Fu fonte di ispirazione per Debussy.",
+    "fatto": "paese gamelan indonesia",
+    "fonte": "https://it.wikipedia.org/wiki/Gamelan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0057",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Maracaibo\" nel 1981?",
+    "risposte": [
+      "Lu Colombo",
+      "Raffaella Carrà",
+      "Loredana Bertè",
+      "Gazebo"
+    ],
+    "curiosita": "Il brano parla di un porto del Venezuela.",
+    "fatto": "maracaibo lu colombo",
+    "fonte": "https://it.wikipedia.org/wiki/Maracaibo_(brano_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0058",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Il bodhrán è un tipo di...?",
+    "risposte": [
+      "Tamburo",
+      "Flauto",
+      "Arpa",
+      "Violino"
+    ],
+    "curiosita": "È tipico della musica irlandese.",
+    "fatto": "bodhran tamburo",
+    "fonte": "https://it.wikipedia.org/wiki/Bodhrán",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0059",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Il clavicembalo è l'antenato di quale strumento?",
+    "risposte": [
+      "Pianoforte",
+      "Violino",
+      "Organo",
+      "Chitarra"
+    ],
+    "curiosita": "Le corde sono pizzicate, non percosse.",
+    "fatto": "clavicembalo antenato pianoforte",
+    "fonte": "https://it.wikipedia.org/wiki/Clavicembalo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-mus-0060",
+    "tipo": "lampo",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Di quale paese è il sitar?",
+    "risposte": [
+      "India",
+      "Iran",
+      "Turchia",
+      "Egitto"
+    ],
+    "curiosita": "George Harrison lo introdusse nel rock.",
+    "fatto": "paese sitar india",
+    "fonte": "https://it.wikipedia.org/wiki/Sitar",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

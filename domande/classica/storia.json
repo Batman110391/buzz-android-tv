@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Vallo_di_Adriano",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0091",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale città giapponese subì, insieme a Nagasaki, la bomba atomica nel 1945?",
+    "risposte": [
+      "Hiroshima",
+      "Tokyo",
+      "Osaka",
+      "Kyoto"
+    ],
+    "curiosita": "La bomba su Hiroshima fu sganciata il 6 agosto 1945.",
+    "fatto": "bomba atomica 1945 hiroshima nagasaki",
+    "fonte": "https://it.wikipedia.org/wiki/Bombardamenti_atomici_di_Hiroshima_e_Nagasaki",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0092",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quali animali avvertirono i Romani dell'assalto dei Galli al Campidoglio?",
+    "risposte": [
+      "Le oche",
+      "I cani",
+      "I cavalli",
+      "Le civette"
+    ],
+    "curiosita": "Secondo la tradizione, i loro strepiti nella notte salvarono la città nel 390 a.C.",
+    "fatto": "oche campidoglio galli",
+    "fonte": "https://it.wikipedia.org/wiki/Campidoglio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0093",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come fu chiamata la pandemia influenzale del 1918?",
+    "risposte": [
+      "Spagnola",
+      "Asiatica",
+      "Russa",
+      "Francese"
+    ],
+    "curiosita": "Il nome è ingannevole: non nacque in Spagna.",
+    "fatto": "pandemia 1918 spagnola",
+    "fonte": "https://it.wikipedia.org/wiki/Influenza_spagnola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0094",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale civiltà costruì la città di Machu Picchu?",
+    "risposte": [
+      "Inca",
+      "Maya",
+      "Aztechi",
+      "Olmechi"
+    ],
+    "curiosita": "Fu abbandonata dopo la conquista spagnola e riscoperta nel 1911.",
+    "fatto": "machu picchu civilta inca",
+    "fonte": "https://it.wikipedia.org/wiki/Machu_Picchu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0095",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il regime guidato da Mussolini dal 1922?",
+    "risposte": [
+      "Fascismo",
+      "Nazismo",
+      "Franchismo",
+      "Comunismo"
+    ],
+    "curiosita": "Mussolini fu arrestato dal re il 25 luglio 1943.",
+    "fatto": "regime mussolini fascismo",
+    "fonte": "https://it.wikipedia.org/wiki/Fascismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0096",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Su quale isola toscana fu esiliato Napoleone nel 1814?",
+    "risposte": [
+      "Elba",
+      "Giglio",
+      "Capraia",
+      "Montecristo"
+    ],
+    "curiosita": "Vi rimase circa dieci mesi prima dei Cento giorni.",
+    "fatto": "napoleone esilio elba",
+    "fonte": "https://it.wikipedia.org/wiki/Isola_d'Elba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0097",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale Paese lanciò nel 1957 il primo satellite artificiale, lo Sputnik?",
+    "risposte": [
+      "Unione Sovietica",
+      "Stati Uniti",
+      "Cina",
+      "Germania"
+    ],
+    "curiosita": "Il suo segnale radio «bip-bip» si poteva ascoltare dalla Terra.",
+    "fatto": "primo satellite sputnik urss",
+    "fonte": "https://it.wikipedia.org/wiki/Sputnik_1",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0098",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il periodo storico che segue la caduta dell'Impero romano d'Occidente?",
+    "risposte": [
+      "Medioevo",
+      "Rinascimento",
+      "Età moderna",
+      "Antichità"
+    ],
+    "curiosita": "Convenzionalmente si chiude nel 1492, con la scoperta dell'America.",
+    "fatto": "periodo dopo caduta impero romano medioevo",
+    "fonte": "https://it.wikipedia.org/wiki/Medioevo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0099",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi compì nel 1903 il primo volo a motore controllato?",
+    "risposte": [
+      "Fratelli Wright",
+      "Fratelli Lumière",
+      "Fratelli Montgolfier",
+      "Santos-Dumont"
+    ],
+    "curiosita": "Il primo volo durò 12 secondi e coprì 36 metri.",
+    "fatto": "primo volo motore 1903 wright",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Wright",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0100",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale animale era il simbolo di ogni legione romana?",
+    "risposte": [
+      "Aquila",
+      "Lupa",
+      "Leone",
+      "Orso"
+    ],
+    "curiosita": "L'aquila d'argento era il vessillo più sacro della legione.",
+    "fatto": "simbolo legione romana aquila",
+    "fonte": "https://it.wikipedia.org/wiki/Legione_romana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0101",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale presidente americano abolì la schiavitù e fu ucciso a teatro nel 1865?",
+    "risposte": [
+      "Lincoln",
+      "Washington",
+      "Jefferson",
+      "Grant"
+    ],
+    "curiosita": "Fu colpito al Ford's Theatre di Washington.",
+    "fatto": "presidente abolizione schiavitu lincoln",
+    "fonte": "https://it.wikipedia.org/wiki/Abraham_Lincoln",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0102",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi inventò in Europa la stampa a caratteri mobili?",
+    "risposte": [
+      "Gutenberg",
+      "Galileo",
+      "Leonardo",
+      "Marconi"
+    ],
+    "curiosita": "La sua Bibbia fu stampata intorno al 1455.",
+    "fatto": "inventore stampa gutenberg",
+    "fonte": "https://it.wikipedia.org/wiki/Johannes_Gutenberg",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0103",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiamavano i guerrieri nobili del Giappone feudale?",
+    "risposte": [
+      "Samurai",
+      "Ninja",
+      "Shogun",
+      "Geisha"
+    ],
+    "curiosita": "La loro spada, la katana, era detta «anima del samurai».",
+    "fatto": "guerrieri giappone feudale samurai",
+    "fonte": "https://it.wikipedia.org/wiki/Samurai",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0104",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale re di Francia fu ghigliottinato nel 1793?",
+    "risposte": [
+      "Luigi XVI",
+      "Luigi XIV",
+      "Luigi XV",
+      "Carlo X"
+    ],
+    "curiosita": "Era il marito di Maria Antonietta.",
+    "fatto": "re ghigliottinato 1793 luigi xvi",
+    "fonte": "https://it.wikipedia.org/wiki/Luigi_XVI_di_Francia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0105",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi è considerato il padre della medicina antica?",
+    "risposte": [
+      "Ippocrate",
+      "Galeno",
+      "Aristotele",
+      "Pitagora"
+    ],
+    "curiosita": "Il giuramento dei medici porta ancora il suo nome.",
+    "fatto": "padre medicina ippocrate",
+    "fonte": "https://it.wikipedia.org/wiki/Ippocrate",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0106",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Da quale dea prende il nome la città di Atene?",
+    "risposte": [
+      "Atena",
+      "Era",
+      "Afrodite",
+      "Artemide"
+    ],
+    "curiosita": "Secondo il mito, vinse Poseidone offrendo agli ateniesi l'ulivo.",
+    "fatto": "nome atene dea atena",
+    "fonte": "https://it.wikipedia.org/wiki/Atene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0107",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale evento ricorda in Italia la festa del 25 aprile?",
+    "risposte": [
+      "La Liberazione",
+      "L'Unità d'Italia",
+      "La Repubblica",
+      "La Costituzione"
+    ],
+    "curiosita": "Ricorda la liberazione dal nazifascismo nel 1945.",
+    "fatto": "festa 25 aprile liberazione",
+    "fonte": "https://it.wikipedia.org/wiki/Resistenza_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0108",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In quale anno avvenne lo sbarco degli Alleati in Normandia?",
+    "risposte": [
+      "1944",
+      "1942",
+      "1943",
+      "1945"
+    ],
+    "curiosita": "Il 6 giugno 1944 parteciparono oltre 150.000 soldati.",
+    "fatto": "anno sbarco normandia 1944",
+    "fonte": "https://it.wikipedia.org/wiki/Sbarco_in_Normandia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0109",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Da quale battaglia nasce la corsa della maratona?",
+    "risposte": [
+      "Maratona",
+      "Salamina",
+      "Termopili",
+      "Platea"
+    ],
+    "curiosita": "Secondo la leggenda, un messaggero corse fino ad Atene per annunciare la vittoria.",
+    "fatto": "origine corsa maratona battaglia",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Maratona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0110",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Che tipo di navi erano la Niña e la Pinta di Colombo?",
+    "risposte": [
+      "Caravelle",
+      "Galeoni",
+      "Galee",
+      "Drakkar"
+    ],
+    "curiosita": "La Santa Maria era invece una nao, più grande.",
+    "fatto": "navi colombo caravelle",
+    "fonte": "https://it.wikipedia.org/wiki/Caravella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0111",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale scienziato fu processato dall'Inquisizione nel 1633?",
+    "risposte": [
+      "Galileo Galilei",
+      "Giordano Bruno",
+      "Copernico",
+      "Keplero"
+    ],
+    "curiosita": "Fu costretto ad abiurare la teoria copernicana.",
+    "fatto": "galileo processo inquisizione 1633",
+    "fonte": "https://it.wikipedia.org/wiki/Galileo_Galilei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0112",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Per quale esposizione universale fu costruita la Torre Eiffel nel 1889?",
+    "risposte": [
+      "Parigi",
+      "Londra",
+      "Vienna",
+      "Chicago"
+    ],
+    "curiosita": "Doveva restare 20 anni, ma si salvò perché fu usata come antenna radio.",
+    "fatto": "torre eiffel esposizione 1889",
+    "fonte": "https://it.wikipedia.org/wiki/Torre_Eiffel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0113",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi fu il leader sudafricano rimasto 27 anni in carcere?",
+    "risposte": [
+      "Mandela",
+      "Tutu",
+      "Mbeki",
+      "Lumumba"
+    ],
+    "curiosita": "Fu rilasciato nel 1990 dopo 27 anni di prigionia.",
+    "fatto": "leader sudafricano 27 anni carcere mandela",
+    "fonte": "https://it.wikipedia.org/wiki/Nelson_Mandela",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0114",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama oggi l'antica Costantinopoli?",
+    "risposte": [
+      "Istanbul",
+      "Ankara",
+      "Atene",
+      "Smirne"
+    ],
+    "curiosita": "Il cambio di nome divenne ufficiale solo nel 1930.",
+    "fatto": "costantinopoli oggi istanbul",
+    "fonte": "https://it.wikipedia.org/wiki/Istanbul",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0115",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi nel 1955 rifiutò di cedere il posto su un autobus ad Alabama?",
+    "risposte": [
+      "Rosa Parks",
+      "Angela Davis",
+      "Coretta King",
+      "Harriet Tubman"
+    ],
+    "curiosita": "Il suo gesto avviò il boicottaggio degli autobus di Montgomery.",
+    "fatto": "rosa parks autobus 1955",
+    "fonte": "https://it.wikipedia.org/wiki/Rosa_Parks",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0116",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi inviò nel 1901 il primo segnale radio attraverso l'Atlantico?",
+    "risposte": [
+      "Marconi",
+      "Edison",
+      "Bell",
+      "Tesla"
+    ],
+    "curiosita": "Trasmise la lettera «S» dalla Cornovaglia a Terranova.",
+    "fatto": "segnale radio atlantico 1901 marconi",
+    "fonte": "https://it.wikipedia.org/wiki/Guglielmo_Marconi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0117",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale re d'Inghilterra era detto «Cuor di Leone»?",
+    "risposte": [
+      "Riccardo I",
+      "Enrico II",
+      "Giovanni",
+      "Edoardo I"
+    ],
+    "curiosita": "Partecipò alla terza crociata contro Saladino.",
+    "fatto": "re cuor di leone riccardo",
+    "fonte": "https://it.wikipedia.org/wiki/Riccardo_I_d'Inghilterra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0118",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiama il confronto tra USA e URSS dopo il 1945, senza scontro diretto?",
+    "risposte": [
+      "Guerra fredda",
+      "Guerra lampo",
+      "Guerra dei sei giorni",
+      "Guerra civile"
+    ],
+    "curiosita": "Durò dal 1947 al 1991 circa.",
+    "fatto": "confronto usa urss guerra fredda",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_fredda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0119",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale organizzazione nacque nel 1945 per mantenere la pace tra le nazioni?",
+    "risposte": [
+      "ONU",
+      "NATO",
+      "Unione Europea",
+      "OPEC"
+    ],
+    "curiosita": "Ha sede a New York.",
+    "fatto": "organizzazione 1945 onu",
+    "fonte": "https://it.wikipedia.org/wiki/Organizzazione_delle_Nazioni_Unite",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0120",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale spettacolo era il più amato al Circo Massimo?",
+    "risposte": [
+      "Corse dei carri",
+      "Lotte tra gladiatori",
+      "Naumachie",
+      "Commedie"
+    ],
+    "curiosita": "Poteva contenere circa 150.000 spettatori.",
+    "fatto": "circo massimo corse dei carri",
+    "fonte": "https://it.wikipedia.org/wiki/Circo_Massimo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0121",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi raggiunse per primo la vetta dell'Everest con lo sherpa Tenzing nel 1953?",
+    "risposte": [
+      "Edmund Hillary",
+      "George Mallory",
+      "Reinhold Messner",
+      "Walter Bonatti"
+    ],
+    "curiosita": "La notizia arrivò a Londra il giorno dell'incoronazione di Elisabetta II.",
+    "fatto": "everest 1953 hillary",
+    "fonte": "https://it.wikipedia.org/wiki/Edmund_Hillary",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0122",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale esploratore raggiunse la costa orientale dell'Australia nel 1770?",
+    "risposte": [
+      "James Cook",
+      "Vasco da Gama",
+      "Francis Drake",
+      "Abel Tasman"
+    ],
+    "curiosita": "Approdò nella baia poi chiamata Botany Bay.",
+    "fatto": "australia 1770 cook",
+    "fonte": "https://it.wikipedia.org/wiki/James_Cook",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0123",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale re britannico lasciò il trono nel 1936 per sposare un'americana divorziata?",
+    "risposte": [
+      "Edoardo VIII",
+      "Giorgio V",
+      "Giorgio VI",
+      "Edoardo VII"
+    ],
+    "curiosita": "Regnò meno di undici mesi.",
+    "fatto": "re britannico abdicazione 1936",
+    "fonte": "https://it.wikipedia.org/wiki/Edoardo_VIII_del_Regno_Unito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0124",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale Paese nacque Adolf Hitler?",
+    "risposte": [
+      "Austria",
+      "Germania",
+      "Polonia",
+      "Svizzera"
+    ],
+    "curiosita": "Nacque a Braunau am Inn nel 1889.",
+    "fatto": "nascita hitler austria",
+    "fonte": "https://it.wikipedia.org/wiki/Adolf_Hitler",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0125",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "A quale faraone è legata la Grande Piramide di Giza?",
+    "risposte": [
+      "Cheope",
+      "Tutankhamon",
+      "Ramses II",
+      "Akhenaton"
+    ],
+    "curiosita": "Rimase l'edificio più alto del mondo per circa 3.800 anni.",
+    "fatto": "grande piramide cheope",
+    "fonte": "https://it.wikipedia.org/wiki/Piramide_di_Cheope",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0126",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale evento distrusse gran parte di Londra nel 1666?",
+    "risposte": [
+      "Un grande incendio",
+      "Un terremoto",
+      "La peste",
+      "Un'inondazione"
+    ],
+    "curiosita": "Partì da un forno di Pudding Lane.",
+    "fatto": "londra 1666 grande incendio",
+    "fonte": "https://it.wikipedia.org/wiki/Grande_incendio_di_Londra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0127",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale popolo mesopotamico fece incidere un celebre codice di leggi su una stele?",
+    "risposte": [
+      "Babilonesi",
+      "Egizi",
+      "Ittiti",
+      "Fenici"
+    ],
+    "curiosita": "Il re Hammurabi lo fece scolpire nel XVIII secolo a.C.",
+    "fatto": "codice hammurabi babilonesi",
+    "fonte": "https://it.wikipedia.org/wiki/Codice_di_Hammurabi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0128",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale imperatore cinese è sepolto accanto all'Esercito di terracotta?",
+    "risposte": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Han Wudi",
+      "Mao"
+    ],
+    "curiosita": "L'esercito conta migliaia di statue, ognuna con un volto diverso.",
+    "fatto": "esercito terracotta imperatore qin",
+    "fonte": "https://it.wikipedia.org/wiki/Esercito_di_terracotta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0129",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale esploratore norreno raggiunse il Nord America intorno al 1000?",
+    "risposte": [
+      "Leif Eriksson",
+      "Erik il Rosso",
+      "Ragnar Lodbrok",
+      "Harald Hardrada"
+    ],
+    "curiosita": "Arrivò mezzo millennio prima di Colombo.",
+    "fatto": "vichingo america 1000 leif eriksson",
+    "fonte": "https://it.wikipedia.org/wiki/Leif_Eriksson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0130",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fu la prima donna nello spazio, nel 1963?",
+    "risposte": [
+      "Valentina Tereshkova",
+      "Sally Ride",
+      "Samantha Cristoforetti",
+      "Svetlana Savitskaya"
+    ],
+    "curiosita": "Era una sovietica e aveva 26 anni.",
+    "fatto": "prima donna spazio tereshkova",
+    "fonte": "https://it.wikipedia.org/wiki/Valentina_Tereshkova",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0131",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città italiana fu devastata dal terremoto del 1908?",
+    "risposte": [
+      "Messina",
+      "Napoli",
+      "Catania",
+      "Reggio Emilia"
+    ],
+    "curiosita": "Il sisma colpì anche Reggio Calabria e causò un maremoto.",
+    "fatto": "terremoto 1908 messina",
+    "fonte": "https://it.wikipedia.org/wiki/Terremoto_di_Messina_del_1908",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0132",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città fu capitale del Regno delle Due Sicilie?",
+    "risposte": [
+      "Napoli",
+      "Palermo",
+      "Bari",
+      "Salerno"
+    ],
+    "curiosita": "Il regno durò dal 1816 al 1861.",
+    "fatto": "capitale due sicilie napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Regno_delle_Due_Sicilie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0133",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città i Romani distrussero nel 146 a.C. dopo la terza guerra punica?",
+    "risposte": [
+      "Cartagine",
+      "Atene",
+      "Alessandria",
+      "Siracusa"
+    ],
+    "curiosita": "La storia del sale sui campi è però un'invenzione moderna.",
+    "fatto": "distruzione cartagine 146 ac",
+    "fonte": "https://it.wikipedia.org/wiki/Cartagine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0134",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi guidò i Galli nella rivolta contro Cesare nel 52 a.C.?",
+    "risposte": [
+      "Vercingetorige",
+      "Brenno",
+      "Arminio",
+      "Boudicca"
+    ],
+    "curiosita": "Si arrese ad Alesia e fu portato a Roma in catene.",
+    "fatto": "rivolta galli 52 ac vercingetorige",
+    "fonte": "https://it.wikipedia.org/wiki/Vercingetorige",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0135",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Come si chiamava il cavallo di Alessandro Magno?",
+    "risposte": [
+      "Bucefalo",
+      "Pegaso",
+      "Incitatus",
+      "Rocinante"
+    ],
+    "curiosita": "Alessandro fondò in suo onore una città, Bucefala.",
+    "fatto": "cavallo alessandro magno bucefalo",
+    "fonte": "https://it.wikipedia.org/wiki/Bucefalo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0136",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale rete di rotte univa la Cina all'Europa?",
+    "risposte": [
+      "Via della Seta",
+      "Via Appia",
+      "Via Francigena",
+      "Via dell'Ambra"
+    ],
+    "curiosita": "Il nome «Via della Seta» fu coniato solo nell'Ottocento.",
+    "fatto": "rete rotte cina europa via della seta",
+    "fonte": "https://it.wikipedia.org/wiki/Via_della_seta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0137",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale filosofo fu maestro di Alessandro Magno?",
+    "risposte": [
+      "Aristotele",
+      "Platone",
+      "Socrate",
+      "Epicuro"
+    ],
+    "curiosita": "Alessandro lo ebbe come precettore da ragazzo.",
+    "fatto": "maestro alessandro magno aristotele",
+    "fonte": "https://it.wikipedia.org/wiki/Aristotele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0138",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale popolo mesopotamico inventò la scrittura cuneiforme?",
+    "risposte": [
+      "Sumeri",
+      "Assiri",
+      "Ittiti",
+      "Persiani"
+    ],
+    "curiosita": "Scrivevano premendo una canna su tavolette d'argilla.",
+    "fatto": "scrittura cuneiforme sumeri",
+    "fonte": "https://it.wikipedia.org/wiki/Sumeri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0139",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città insorse contro gli austriaci nelle Cinque giornate del 1848?",
+    "risposte": [
+      "Milano",
+      "Venezia",
+      "Torino",
+      "Roma"
+    ],
+    "curiosita": "Il feldmaresciallo Radetzky dovette lasciare la città.",
+    "fatto": "cinque giornate 1848 milano",
+    "fonte": "https://it.wikipedia.org/wiki/Cinque_giornate_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0140",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale alleanza militare fondata nel 1949 ha sede a Bruxelles?",
+    "risposte": [
+      "NATO",
+      "Patto di Varsavia",
+      "ONU",
+      "SEATO"
+    ],
+    "curiosita": "L'URSS rispose con il Patto di Varsavia nel 1955.",
+    "fatto": "alleanza 1949 nato",
+    "fonte": "https://it.wikipedia.org/wiki/NATO",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0141",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In quale città tedesca furono processati i gerarchi nazisti nel 1945-46?",
+    "risposte": [
+      "Norimberga",
+      "Monaco",
+      "Berlino",
+      "Francoforte"
+    ],
+    "curiosita": "Fu scelta perché il palazzo di giustizia era rimasto in piedi.",
+    "fatto": "processo gerarchi nazisti norimberga",
+    "fonte": "https://it.wikipedia.org/wiki/Processo_di_Norimberga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0142",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale sultano riconquistò Gerusalemme nel 1187?",
+    "risposte": [
+      "Saladino",
+      "Solimano",
+      "Maometto II",
+      "Harun al-Rashid"
+    ],
+    "curiosita": "Era curdo e nacque a Tikrit.",
+    "fatto": "riconquista gerusalemme 1187 saladino",
+    "fonte": "https://it.wikipedia.org/wiki/Saladino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0143",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale zar russo fu detto «il Terribile»?",
+    "risposte": [
+      "Ivan IV",
+      "Pietro I",
+      "Nicola II",
+      "Alessandro I"
+    ],
+    "curiosita": "Fu il primo a farsi incoronare «zar di tutte le Russie».",
+    "fatto": "zar il terribile ivan iv",
+    "fonte": "https://it.wikipedia.org/wiki/Ivan_IV_di_Russia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0144",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi scrisse il Manifesto del Partito Comunista insieme a Engels?",
+    "risposte": [
+      "Karl Marx",
+      "Lenin",
+      "Trotskij",
+      "Proudhon"
+    ],
+    "curiosita": "Fu pubblicato a Londra nel 1848.",
+    "fatto": "manifesto comunista marx engels",
+    "fonte": "https://it.wikipedia.org/wiki/Karl_Marx",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0145",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "A chi viene attribuita la frase «Che mangino brioche»?",
+    "risposte": [
+      "Maria Antonietta",
+      "Caterina de' Medici",
+      "Madame de Pompadour",
+      "Giuseppina Bonaparte"
+    ],
+    "curiosita": "Non esistono prove che l'abbia mai pronunciata.",
+    "fatto": "frase brioche maria antonietta",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Antonietta_d'Asburgo-Lorena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0146",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale celebre santuario greco ospitava l'oracolo della Pizia?",
+    "risposte": [
+      "Delfi",
+      "Olimpia",
+      "Epidauro",
+      "Dodona"
+    ],
+    "curiosita": "Era considerato l'«ombelico del mondo».",
+    "fatto": "oracolo pizia delfi",
+    "fonte": "https://it.wikipedia.org/wiki/Delfi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0147",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi fece costruire il Taj Mahal per la moglie defunta?",
+    "risposte": [
+      "Shah Jahan",
+      "Akbar",
+      "Aurangzeb",
+      "Babur"
+    ],
+    "curiosita": "La moglie si chiamava Mumtaz Mahal.",
+    "fatto": "taj mahal committente shah jahan",
+    "fonte": "https://it.wikipedia.org/wiki/Taj_Mahal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0148",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale nave completò la prima circumnavigazione del globo nel 1522?",
+    "risposte": [
+      "Victoria",
+      "Trinidad",
+      "Santa Maria",
+      "Beagle"
+    ],
+    "curiosita": "Tornò in Spagna con soli 18 uomini.",
+    "fatto": "prima circumnavigazione nave victoria",
+    "fonte": "https://it.wikipedia.org/wiki/Ferdinando_Magellano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0149",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale famosa famiglia dopo i Visconti governò Milano nel Quattrocento?",
+    "risposte": [
+      "Sforza",
+      "Gonzaga",
+      "Este",
+      "Borgia"
+    ],
+    "curiosita": "Costruirono il Castello Sforzesco.",
+    "fatto": "famiglia milano dopo visconti sforza",
+    "fonte": "https://it.wikipedia.org/wiki/Sforza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0150",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale celebre imperatore romano nacque in Spagna e portò l'impero alla massima estensione?",
+    "risposte": [
+      "Traiano",
+      "Adriano",
+      "Nerone",
+      "Augusto"
+    ],
+    "curiosita": "Nel 117 d.C. l'impero toccava la massima estensione.",
+    "fatto": "imperatore nato in spagna traiano",
+    "fonte": "https://it.wikipedia.org/wiki/Traiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0151",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In quale città nacquero nel 1919 i Fasci italiani di combattimento?",
+    "risposte": [
+      "Milano",
+      "Roma",
+      "Predappio",
+      "Torino"
+    ],
+    "curiosita": "L'adunata si tenne in piazza San Sepolcro.",
+    "fatto": "nascita fasci combattimento 1919 milano",
+    "fonte": "https://it.wikipedia.org/wiki/Fasci_italiani_di_combattimento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0152",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale sultano ottomano conquistò Costantinopoli nel 1453?",
+    "risposte": [
+      "Maometto II",
+      "Solimano",
+      "Selim I",
+      "Murad II"
+    ],
+    "curiosita": "Aveva solo 21 anni.",
+    "fatto": "conquista costantinopoli 1453 maometto ii",
+    "fonte": "https://it.wikipedia.org/wiki/Maometto_II",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0153",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu il primo europeo a vedere l'Oceano Pacifico dall'America, nel 1513?",
+    "risposte": [
+      "Balboa",
+      "Magellano",
+      "Cortés",
+      "Pizarro"
+    ],
+    "curiosita": "Lo battezzò «Mar del Sur».",
+    "fatto": "primo europeo pacifico balboa",
+    "fonte": "https://it.wikipedia.org/wiki/Vasco_N%C3%BA%C3%B1ez_de_Balboa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0154",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale città divenne capitale dell'Impero romano d'Occidente nel 402?",
+    "risposte": [
+      "Ravenna",
+      "Milano",
+      "Roma",
+      "Aquileia"
+    ],
+    "curiosita": "Fu poi capitale di Goti e Bizantini in Italia.",
+    "fatto": "capitale impero occidente 402 ravenna",
+    "fonte": "https://it.wikipedia.org/wiki/Ravenna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0155",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu al centro di uno scandalo che divise la Francia, con il «J'accuse» di Zola?",
+    "risposte": [
+      "Alfred Dreyfus",
+      "Georges Boulanger",
+      "Philippe Pétain",
+      "Émile Zola"
+    ],
+    "curiosita": "Era un capitano ebreo, accusato ingiustamente di spionaggio.",
+    "fatto": "affare dreyfus",
+    "fonte": "https://it.wikipedia.org/wiki/Affare_Dreyfus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0156",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale re inglese fu giustiziato nel 1649 dopo un processo del Parlamento?",
+    "risposte": [
+      "Carlo I",
+      "Giacomo II",
+      "Riccardo III",
+      "Enrico VI"
+    ],
+    "curiosita": "Fu l'unico re inglese condannato e giustiziato in questo modo.",
+    "fatto": "re inglese giustiziato 1649 carlo i",
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_I_d'Inghilterra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0157",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale trattato del 1494 divise il Nuovo Mondo tra Spagna e Portogallo?",
+    "risposte": [
+      "Tordesillas",
+      "Utrecht",
+      "Vestfalia",
+      "Cateau-Cambrésis"
+    ],
+    "curiosita": "Spiega perché in Brasile si parla portoghese.",
+    "fatto": "trattato 1494 tordesillas",
+    "fonte": "https://it.wikipedia.org/wiki/Trattato_di_Tordesillas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0158",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale battaglia del 1805 vide Napoleone vincere russi e austriaci?",
+    "risposte": [
+      "Austerlitz",
+      "Waterloo",
+      "Jena",
+      "Wagram"
+    ],
+    "curiosita": "È detta anche la «battaglia dei tre imperatori».",
+    "fatto": "battaglia 1805 austerlitz",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Austerlitz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0159",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale scandalo portò alle dimissioni di Nixon nel 1974?",
+    "risposte": [
+      "Watergate",
+      "Iran-Contra",
+      "Teapot Dome",
+      "Whitewater"
+    ],
+    "curiosita": "Il nome viene da un complesso di uffici a Washington.",
+    "fatto": "scandalo nixon watergate",
+    "fonte": "https://it.wikipedia.org/wiki/Richard_Nixon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0160",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale popolo sconfisse Crasso a Carre nel 53 a.C.?",
+    "risposte": [
+      "Parti",
+      "Persiani",
+      "Sciti",
+      "Daci"
+    ],
+    "curiosita": "Crasso morì durante la ritirata.",
+    "fatto": "battaglia carre 53 ac parti",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Carre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0161",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale battaglia navale del 480 a.C. vide i Greci vincere i Persiani?",
+    "risposte": [
+      "Salamina",
+      "Capo Artemisio",
+      "Azio",
+      "Milazzo"
+    ],
+    "curiosita": "Il comandante ateniese era Temistocle.",
+    "fatto": "battaglia navale 480 ac salamina",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Salamina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0162",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale papa bandì la prima crociata nel 1095?",
+    "risposte": [
+      "Urbano II",
+      "Gregorio VII",
+      "Innocenzo III",
+      "Pio II"
+    ],
+    "curiosita": "Lo fece nel concilio di Clermont, in Francia.",
+    "fatto": "papa prima crociata 1095 urbano ii",
+    "fonte": "https://it.wikipedia.org/wiki/Urbano_II",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0163",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu al centro dello scandalo del «J'accuse» di Zola, in Francia?",
+    "risposte": [
+      "Teodosio I",
+      "Costantino",
+      "Diocleziano",
+      "Giustiniano"
+    ],
+    "curiosita": "Alla sua morte l'impero fu diviso tra i figli.",
+    "fatto": "ultimo imperatore unico teodosio",
+    "fonte": "https://it.wikipedia.org/wiki/Teodosio_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0164",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale città russa si chiamava un tempo Stalingrado?",
+    "risposte": [
+      "Volgograd",
+      "Samara",
+      "Kazan",
+      "Omsk"
+    ],
+    "curiosita": "Fu teatro di una svolta decisiva della seconda guerra mondiale.",
+    "fatto": "stalingrado oggi volgograd",
+    "fonte": "https://it.wikipedia.org/wiki/Volgograd",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0165",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale generale americano promise in Asia «I shall return» nel 1942?",
+    "risposte": [
+      "MacArthur",
+      "Eisenhower",
+      "Patton",
+      "Pershing"
+    ],
+    "curiosita": "Mantenne la promessa sbarcando nelle Filippine nel 1944.",
+    "fatto": "generale i shall return macarthur",
+    "fonte": "https://it.wikipedia.org/wiki/Douglas_MacArthur",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0166",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale primo ministro britannico tornò da Monaco nel 1938 dicendo di aver portato la pace?",
+    "risposte": [
+      "Chamberlain",
+      "Churchill",
+      "Baldwin",
+      "Attlee"
+    ],
+    "curiosita": "L'accordo cedette i Sudeti alla Germania di Hitler.",
+    "fatto": "accordi monaco 1938 chamberlain",
+    "fonte": "https://it.wikipedia.org/wiki/Neville_Chamberlain",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0167",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale popolo germanico invase l'Italia nel 568 sotto Alboino?",
+    "risposte": [
+      "Longobardi",
+      "Visigoti",
+      "Vandali",
+      "Ostrogoti"
+    ],
+    "curiosita": "Da loro deriva il nome della Lombardia.",
+    "fatto": "invasione italia 568 longobardi",
+    "fonte": "https://it.wikipedia.org/wiki/Longobardi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0168",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale capo visigoto saccheggiò Roma nel 410?",
+    "risposte": [
+      "Alarico",
+      "Attila",
+      "Genserico",
+      "Odoacre"
+    ],
+    "curiosita": "Il saccheggio durò tre giorni.",
+    "fatto": "saccheggio roma 410 alarico",
+    "fonte": "https://it.wikipedia.org/wiki/Alarico_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0169",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale raccolto fallì causando la grande carestia irlandese del 1845?",
+    "risposte": [
+      "Patate",
+      "Grano",
+      "Orzo",
+      "Avena"
+    ],
+    "curiosita": "Circa un milione di persone morì e altrettante emigrarono.",
+    "fatto": "carestia irlanda 1845 patate",
+    "fonte": "https://it.wikipedia.org/wiki/Irlanda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0170",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale guerra del 1853-56 vide impegnati Florence Nightingale e il Piemonte?",
+    "risposte": [
+      "Guerra di Crimea",
+      "Guerra dei Trent'anni",
+      "Guerra franco-prussiana",
+      "Guerra dei Cent'anni"
+    ],
+    "curiosita": "Cavour mandò i bersaglieri per ottenere peso diplomatico.",
+    "fatto": "guerra 1853 1856 crimea",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_di_Crimea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0171",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore si umiliò davanti al papa a Canossa nel 1077?",
+    "risposte": [
+      "Enrico IV",
+      "Federico Barbarossa",
+      "Ottone I",
+      "Carlo V"
+    ],
+    "curiosita": "Secondo la tradizione attese tre giorni nella neve.",
+    "fatto": "canossa 1077 enrico iv",
+    "fonte": "https://it.wikipedia.org/wiki/Canossa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0172",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale presidente USA acquistò la Louisiana da Napoleone nel 1803?",
+    "risposte": [
+      "Jefferson",
+      "Madison",
+      "Monroe",
+      "Adams"
+    ],
+    "curiosita": "Pagò 15 milioni di dollari.",
+    "fatto": "acquisto louisiana 1803 jefferson",
+    "fonte": "https://it.wikipedia.org/wiki/Acquisto_della_Louisiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0173",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale Stato preunitario abolì per primo la pena di morte, nel 1786?",
+    "risposte": [
+      "Granducato di Toscana",
+      "Regno di Sardegna",
+      "Repubblica di Venezia",
+      "Stato Pontificio"
+    ],
+    "curiosita": "La riforma fu voluta dal granduca Pietro Leopoldo.",
+    "fatto": "abolizione pena di morte 1786 toscana",
+    "fonte": "https://it.wikipedia.org/wiki/Granducato_di_Toscana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0174",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale re di Sardegna abdicò dopo la sconfitta di Novara nel 1849?",
+    "risposte": [
+      "Carlo Alberto",
+      "Vittorio Emanuele I",
+      "Carlo Felice",
+      "Umberto I"
+    ],
+    "curiosita": "Morì in esilio a Oporto nello stesso anno.",
+    "fatto": "abdicazione novara 1849 carlo alberto",
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_Alberto_di_Savoia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0175",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale cancelliere unificò la Germania nel 1871?",
+    "risposte": [
+      "Bismarck",
+      "Metternich",
+      "Hindenburg",
+      "Bülow"
+    ],
+    "curiosita": "L'impero tedesco fu proclamato nella reggia di Versailles.",
+    "fatto": "unificazione germania 1871 bismarck",
+    "fonte": "https://it.wikipedia.org/wiki/Otto_von_Bismarck",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0176",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale naturalista romano morì nel 79 d.C. osservando l'eruzione del Vesuvio?",
+    "risposte": [
+      "Plinio il Vecchio",
+      "Plinio il Giovane",
+      "Seneca",
+      "Tacito"
+    ],
+    "curiosita": "Il nipote ne lasciò la descrizione in una lettera.",
+    "fatto": "morte eruzione 79 plinio il vecchio",
+    "fonte": "https://it.wikipedia.org/wiki/Plinio_il_Vecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0177",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale compagnia olandese del 1602 è considerata la prima grande società per azioni?",
+    "risposte": [
+      "Compagnia delle Indie",
+      "Compagnia di Hudson",
+      "Banco di San Giorgio",
+      "Casa dei Medici"
+    ],
+    "curiosita": "Fu la prima a quotare le proprie azioni in borsa, ad Amsterdam.",
+    "fatto": "prima societa per azioni voc",
+    "fonte": "https://it.wikipedia.org/wiki/Compagnia_olandese_delle_Indie_orientali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0178",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale battaglia del 1859 spinse Henri Dunant a ideare la Croce Rossa?",
+    "risposte": [
+      "Solferino",
+      "Magenta",
+      "Custoza",
+      "Novara"
+    ],
+    "curiosita": "Dunant vide migliaia di feriti senza soccorsi.",
+    "fatto": "battaglia 1859 dunant solferino",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Solferino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0179",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "In quale città polacca nacque nel 1980 il sindacato Solidarność?",
+    "risposte": [
+      "Danzica",
+      "Varsavia",
+      "Cracovia",
+      "Breslavia"
+    ],
+    "curiosita": "Il leader Lech Wałęsa diventò poi presidente.",
+    "fatto": "solidarnosc 1980 danzica",
+    "fonte": "https://it.wikipedia.org/wiki/Danzica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sto-0180",
+    "tipo": "classica",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale imperatore detto Barbarossa fu sconfitto a Legnano nel 1176?",
+    "risposte": [
+      "Federico I",
+      "Federico II",
+      "Enrico VI",
+      "Ottone IV"
+    ],
+    "curiosita": "A batterlo fu la Lega Lombarda.",
+    "fatto": "barbarossa sconfitta legnano 1176",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Legnano",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

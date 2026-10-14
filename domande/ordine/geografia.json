@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Monte_Bianco",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0016",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Fiumi europei, dal più corto al più lungo",
+    "elementi": [
+      "Tamigi",
+      "Senna",
+      "Reno",
+      "Danubio"
+    ],
+    "valori": [
+      "346 km",
+      "777 km",
+      "1.233 km",
+      "2.850 km"
+    ],
+    "curiosita": "Il Danubio attraversa o tocca dieci Paesi.",
+    "fatto": "ordine fiumi europei tamigi senna reno danubio",
+    "fonte": "https://it.wikipedia.org/wiki/Fiume",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0017",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "criterio": "Isole italiane, dalla più piccola alla più grande",
+    "elementi": [
+      "Capri",
+      "Ischia",
+      "Elba",
+      "Sardegna"
+    ],
+    "valori": [
+      "10 km²",
+      "46 km²",
+      "224 km²",
+      "24.090 km²"
+    ],
+    "curiosita": "La Sardegna è la seconda isola del Mediterraneo per superficie.",
+    "fatto": "ordine isole italiane capri ischia elba sardegna",
+    "fonte": "https://it.wikipedia.org/wiki/Isole_d'Italia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0018",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Capoluoghi italiani, dal più basso al più alto",
+    "elementi": [
+      "Venezia",
+      "Bologna",
+      "Torino",
+      "Enna"
+    ],
+    "valori": [
+      "1 m",
+      "54 m",
+      "239 m",
+      "931 m"
+    ],
+    "curiosita": "Enna è il capoluogo di provincia più alto d'Italia.",
+    "fatto": "ordine capoluoghi altitudine venezia bologna torino enna",
+    "fonte": "https://it.wikipedia.org/wiki/Enna",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0019",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Vette, dalla più bassa alla più alta",
+    "elementi": [
+      "Monte Fuji",
+      "Monte Bianco",
+      "Kilimangiaro",
+      "Aconcagua"
+    ],
+    "valori": [
+      "3.776 m",
+      "4.806 m",
+      "5.895 m",
+      "6.961 m"
+    ],
+    "curiosita": "L'Aconcagua è la vetta più alta fuori dall'Asia.",
+    "fatto": "ordine vette fuji bianco kilimangiaro aconcagua",
+    "fonte": "https://it.wikipedia.org/wiki/Aconcagua",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0020",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Deserti, dal più piccolo al più grande",
+    "elementi": [
+      "Atacama",
+      "Kalahari",
+      "Gobi",
+      "Sahara"
+    ],
+    "valori": [
+      "~105.000 km²",
+      "~900.000 km²",
+      "~1.300.000 km²",
+      "~9.200.000 km²"
+    ],
+    "curiosita": "L'Atacama è tra i luoghi più aridi della Terra.",
+    "fatto": "ordine deserti atacama kalahari gobi sahara",
+    "fonte": "https://it.wikipedia.org/wiki/Deserto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0021",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Laghi, dal più piccolo al più grande",
+    "elementi": [
+      "Garda",
+      "Titicaca",
+      "Vittoria",
+      "Superiore"
+    ],
+    "valori": [
+      "370 km²",
+      "8.372 km²",
+      "68.800 km²",
+      "82.100 km²"
+    ],
+    "curiosita": "Il Titicaca è il lago navigabile più alto del mondo.",
+    "fatto": "ordine laghi mondo garda titicaca vittoria superiore",
+    "fonte": "https://it.wikipedia.org/wiki/Lago",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0022",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Città dove il sole sorge prima, da est a ovest",
+    "elementi": [
+      "Tokyo",
+      "Dubai",
+      "Roma",
+      "New York"
+    ],
+    "valori": [
+      "UTC+9",
+      "UTC+4",
+      "UTC+1",
+      "UTC-5"
+    ],
+    "curiosita": "Tra Tokyo e New York ci sono 14 ore di differenza.",
+    "fatto": "ordine fusi orari tokyo dubai roma new york",
+    "fonte": "https://it.wikipedia.org/wiki/Fuso_orario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0023",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Stretti, dal più stretto al più largo",
+    "elementi": [
+      "Stretto del Bosforo",
+      "Stretto di Messina",
+      "Stretto di Gibilterra",
+      "Stretto di Bering"
+    ],
+    "valori": [
+      "~0,7 km",
+      "~3 km",
+      "~14 km",
+      "~82 km"
+    ],
+    "curiosita": "Il Bosforo, nel punto più stretto, è largo meno di un chilometro.",
+    "fatto": "ordine stretti bosforo messina gibilterra bering",
+    "fonte": "https://it.wikipedia.org/wiki/Stretto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0024",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "criterio": "Canali artificiali, dal più corto al più lungo",
+    "elementi": [
+      "Canale di Corinto",
+      "Canale di Panama",
+      "Canale di Kiel",
+      "Canale di Suez"
+    ],
+    "valori": [
+      "6,3 km",
+      "82 km",
+      "98 km",
+      "193 km"
+    ],
+    "curiosita": "Il canale di Suez collega il Mediterraneo al Mar Rosso.",
+    "fatto": "ordine canali corinto panama kiel suez",
+    "fonte": "https://it.wikipedia.org/wiki/Canale_di_Suez",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-geo-0025",
+    "tipo": "ordine",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "criterio": "Isole del mondo, dalla più piccola alla più grande",
+    "elementi": [
+      "Sicilia",
+      "Islanda",
+      "Gran Bretagna",
+      "Madagascar"
+    ],
+    "valori": [
+      "25.711 km²",
+      "103.000 km²",
+      "209.000 km²",
+      "587.000 km²"
+    ],
+    "curiosita": "Il Madagascar è la quarta isola del mondo per superficie.",
+    "fatto": "ordine isole mondo sicilia islanda gran bretagna madagascar",
+    "fonte": "https://it.wikipedia.org/wiki/Isola",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

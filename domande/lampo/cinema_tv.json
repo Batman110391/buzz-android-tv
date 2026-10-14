@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Tornatore",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0031",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale eroe protegge Gotham City?",
+    "risposte": [
+      "Batman",
+      "Superman",
+      "Flash",
+      "Thor"
+    ],
+    "curiosita": "Non ha superpoteri: solo soldi e addestramento.",
+    "fatto": "eroe di gotham batman",
+    "fonte": "https://it.wikipedia.org/wiki/Batman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0032",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale eroe Marvel è un dio del tuono?",
+    "risposte": [
+      "Thor",
+      "Loki",
+      "Odino",
+      "Hulk"
+    ],
+    "curiosita": "Il suo martello si chiama Mjolnir.",
+    "fatto": "eroe marvel dio del tuono thor",
+    "fonte": "https://it.wikipedia.org/wiki/Thor_(Marvel_Comics)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0033",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il drago di \"Dragon Trainer\"?",
+    "risposte": [
+      "Sdentato",
+      "Fiammetta",
+      "Drago",
+      "Fuoco"
+    ],
+    "curiosita": "È una Furia Buia.",
+    "fatto": "drago dragon trainer sdentato",
+    "fonte": "https://it.wikipedia.org/wiki/Dragon_Trainer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0034",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la regina di Arendelle in \"Frozen\"?",
+    "risposte": [
+      "Elsa",
+      "Anna",
+      "Belle",
+      "Aurora"
+    ],
+    "curiosita": "Anna è la sorella più piccola.",
+    "fatto": "regina frozen elsa",
+    "fonte": "https://it.wikipedia.org/wiki/Frozen_-_Il_regno_di_ghiaccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0035",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi trasforma la zucca in carrozza per Cenerentola?",
+    "risposte": [
+      "Fata Madrina",
+      "La Strega",
+      "Mago Merlino",
+      "La Regina"
+    ],
+    "curiosita": "L'incantesimo svanisce a mezzanotte.",
+    "fatto": "zucca carrozza cenerentola fata madrina",
+    "fonte": "https://it.wikipedia.org/wiki/Cenerentola_(film_1950)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0036",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale gorilla gigante scala l'Empire State Building?",
+    "risposte": [
+      "King Kong",
+      "Mighty Joe",
+      "Godzilla",
+      "Bigfoot"
+    ],
+    "curiosita": "Il primo film è del 1933.",
+    "fatto": "gorilla empire state king kong",
+    "fonte": "https://it.wikipedia.org/wiki/King_Kong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0037",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è il nemico storico di Topolino?",
+    "risposte": [
+      "Gambadilegno",
+      "Macchia Nera",
+      "Paperone",
+      "Basettoni"
+    ],
+    "curiosita": "È un gatto grosso e malvagio.",
+    "fatto": "nemico di topolino gambadilegno",
+    "fonte": "https://it.wikipedia.org/wiki/Gambadilegno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0038",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la fidanzata di Topolino?",
+    "risposte": [
+      "Minni",
+      "Paperina",
+      "Clarabella",
+      "Marge"
+    ],
+    "curiosita": "Debuttò con lui nel 1928.",
+    "fatto": "fidanzata di topolino minni",
+    "fonte": "https://it.wikipedia.org/wiki/Minni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0039",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiamano i nipoti di Paperino?",
+    "risposte": [
+      "Qui, Quo e Qua",
+      "Tip e Tap",
+      "Cip e Ciop",
+      "Bip e Bop"
+    ],
+    "curiosita": "Il nome originale è Huey, Dewey e Louie.",
+    "fatto": "nipoti di paperino qui quo qua",
+    "fonte": "https://it.wikipedia.org/wiki/Qui,_Quo_e_Qua",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0040",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale pirata ha un uncino al posto della mano?",
+    "risposte": [
+      "Capitan Uncino",
+      "Barbanera",
+      "Jack Sparrow",
+      "Long John Silver"
+    ],
+    "curiosita": "È il nemico di Peter Pan.",
+    "fatto": "pirata uncino capitan uncino",
+    "fonte": "https://it.wikipedia.org/wiki/Capitan_Uncino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0041",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Taxi Driver\"?",
+    "risposte": [
+      "Scorsese",
+      "Coppola",
+      "De Palma",
+      "Lumet"
+    ],
+    "curiosita": "Robert De Niro improvvisò \"Dici a me?\".",
+    "fatto": "regista taxi driver scorsese",
+    "fonte": "https://it.wikipedia.org/wiki/Taxi_Driver",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0042",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Apocalypse Now\"?",
+    "risposte": [
+      "Coppola",
+      "Scorsese",
+      "Kubrick",
+      "Stone"
+    ],
+    "curiosita": "Le riprese durarono molto più del previsto.",
+    "fatto": "regista apocalypse now coppola",
+    "fonte": "https://it.wikipedia.org/wiki/Apocalypse_Now",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0043",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Gandalf nei film di Peter Jackson?",
+    "risposte": [
+      "Ian McKellen",
+      "Patrick Stewart",
+      "Anthony Hopkins",
+      "Michael Gambon"
+    ],
+    "curiosita": "Ha anche interpretato Magneto.",
+    "fatto": "gandalf attore mckellen",
+    "fonte": "https://it.wikipedia.org/wiki/Ian_McKellen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0044",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il vicino religioso dei Simpson?",
+    "risposte": [
+      "Ned Flanders",
+      "Moe",
+      "Barney",
+      "Apu"
+    ],
+    "curiosita": "Il suo saluto è \"Ciao ciao, vicinello!\".",
+    "fatto": "vicino simpson ned flanders",
+    "fonte": "https://it.wikipedia.org/wiki/Ned_Flanders",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0045",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi è il coinquilino di Sheldon Cooper?",
+    "risposte": [
+      "Leonard",
+      "Howard",
+      "Raj",
+      "Penny"
+    ],
+    "curiosita": "La serie è \"The Big Bang Theory\".",
+    "fatto": "coinquilino sheldon leonard",
+    "fonte": "https://it.wikipedia.org/wiki/The_Big_Bang_Theory",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0046",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attrice interpreta Rachel in \"Friends\"?",
+    "risposte": [
+      "Jennifer Aniston",
+      "Courteney Cox",
+      "Lisa Kudrow",
+      "Meg Ryan"
+    ],
+    "curiosita": "Il suo taglio di capelli fece moda.",
+    "fatto": "rachel friends aniston",
+    "fonte": "https://it.wikipedia.org/wiki/Jennifer_Aniston",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0047",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama la nave di Jack Sparrow?",
+    "risposte": [
+      "Perla Nera",
+      "Olandese Volante",
+      "Queen Anne",
+      "Interceptor"
+    ],
+    "curiosita": "Il suo equipaggio è un gruppo di pirati maledetti.",
+    "fatto": "nave jack sparrow perla nera",
+    "fonte": "https://it.wikipedia.org/wiki/Pirati_dei_Caraibi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0048",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi è il pilota del Millennium Falcon con Chewbacca?",
+    "risposte": [
+      "Han Solo",
+      "Luke",
+      "Lando",
+      "Obi-Wan"
+    ],
+    "curiosita": "Han Solo è il capitano.",
+    "fatto": "pilota millennium falcon han solo",
+    "fonte": "https://it.wikipedia.org/wiki/Han_Solo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0049",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Su quale pianeta desertico cresce Luke Skywalker?",
+    "risposte": [
+      "Tatooine",
+      "Hoth",
+      "Endor",
+      "Naboo"
+    ],
+    "curiosita": "Ha due soli nel cielo.",
+    "fatto": "pianeta luke tatooine",
+    "fonte": "https://it.wikipedia.org/wiki/Tatooine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0050",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Caro diario\"?",
+    "risposte": [
+      "Nanni Moretti",
+      "Carlo Verdone",
+      "Paolo Virzì",
+      "Daniele Luchetti"
+    ],
+    "curiosita": "Il film vinse il premio per la regia a Cannes nel 1994.",
+    "fatto": "regista caro diario moretti",
+    "fonte": "https://it.wikipedia.org/wiki/Caro_diario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0051",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Come si chiama lo scimpanzé di Tarzan?",
+    "risposte": [
+      "Cita",
+      "Kong",
+      "Ugo",
+      "Baba"
+    ],
+    "curiosita": "Il suo nome in inglese è Cheeta.",
+    "fatto": "scimpanze tarzan cita",
+    "fonte": "https://it.wikipedia.org/wiki/Tarzan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0052",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Su quale pianeta desertico vive Luke da ragazzo?",
+    "risposte": [
+      "Mad Men",
+      "Suits",
+      "Succession",
+      "The Wire"
+    ],
+    "curiosita": "È ambientata a New York negli anni Sessanta.",
+    "fatto": "serie don draper mad men",
+    "fonte": "https://it.wikipedia.org/wiki/Mad_Men",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0053",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi creò \"Mazinga Z\"?",
+    "risposte": [
+      "Go Nagai",
+      "Osamu Tezuka",
+      "Hayao Miyazaki",
+      "Leiji Matsumoto"
+    ],
+    "curiosita": "È considerato il primo robot pilotato dall'interno.",
+    "fatto": "creatore mazinga go nagai",
+    "fonte": "https://it.wikipedia.org/wiki/Go_Nagai",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0054",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Salvatore Giuliano\"?",
+    "risposte": [
+      "Francesco Rosi",
+      "Elio Petri",
+      "Gillo Pontecorvo",
+      "Marco Bellocchio"
+    ],
+    "curiosita": "Il film è del 1962.",
+    "fatto": "regista salvatore giuliano francesco rosi",
+    "fonte": "https://it.wikipedia.org/wiki/Salvatore_Giuliano_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0055",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto il documentario \"Sacro GRA\"?",
+    "risposte": [
+      "Gianfranco Rosi",
+      "Francesco Rosi",
+      "Nanni Moretti",
+      "Matteo Garrone"
+    ],
+    "curiosita": "Vinse il Leone d'oro nel 2013.",
+    "fatto": "regista sacro gra gianfranco rosi",
+    "fonte": "https://it.wikipedia.org/wiki/Sacro_GRA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0056",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Perfetti sconosciuti\"?",
+    "risposte": [
+      "Paolo Genovese",
+      "Paolo Virzì",
+      "Luca Guadagnino",
+      "Gabriele Muccino"
+    ],
+    "curiosita": "Ne sono state fatte decine di rifacimenti nel mondo.",
+    "fatto": "regista perfetti sconosciuti genovese",
+    "fonte": "https://it.wikipedia.org/wiki/Perfetti_sconosciuti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0057",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Lo chiamavano Jeeg Robot\"?",
+    "risposte": [
+      "Mainetti",
+      "Garrone",
+      "Sollima",
+      "Rovere"
+    ],
+    "curiosita": "Il film vinse otto David di Donatello.",
+    "fatto": "regista jeeg robot mainetti",
+    "fonte": "https://it.wikipedia.org/wiki/Lo_chiamavano_Jeeg_Robot",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0058",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Benvenuti al Sud\"?",
+    "risposte": [
+      "Luca Miniero",
+      "Massimo Venier",
+      "Fausto Brizzi",
+      "Neri Parenti"
+    ],
+    "curiosita": "È il remake italiano di un film francese.",
+    "fatto": "regista benvenuti al sud miniero",
+    "fonte": "https://it.wikipedia.org/wiki/Benvenuti_al_Sud",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0059",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Tre uomini e una gamba\"?",
+    "risposte": [
+      "Massimo Venier",
+      "Luca Miniero",
+      "Carlo Vanzina",
+      "Neri Parenti"
+    ],
+    "curiosita": "Aldo, Giovanni e Giacomo l'hanno scritto insieme.",
+    "fatto": "regista tre uomini e una gamba venier",
+    "fonte": "https://it.wikipedia.org/wiki/Tre_uomini_e_una_gamba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cin-0060",
+    "tipo": "lampo",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Gomorra\" (film)?",
+    "risposte": [
+      "Garrone",
+      "Sorrentino",
+      "Rosi",
+      "Martone"
+    ],
+    "curiosita": "Vinse il Grand Prix a Cannes nel 2008.",
+    "fatto": "regista gomorra film garrone",
+    "fonte": "https://it.wikipedia.org/wiki/Gomorra_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

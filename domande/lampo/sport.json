@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Golf",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0031",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quanti giocatori ha una squadra di rugby a 15?",
+    "risposte": [
+      "Quindici",
+      "Undici",
+      "Tredici",
+      "Diciotto"
+    ],
+    "curiosita": "Il rugby a 15 è il più diffuso; esiste anche la versione a 7 olimpica.",
+    "fatto": "rugby giocatori squadra quindici",
+    "fonte": "https://it.wikipedia.org/wiki/Rugby_a_15",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0032",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Di quale Paese è il Real Madrid?",
+    "risposte": [
+      "Spagna",
+      "Portogallo",
+      "Italia",
+      "Argentina"
+    ],
+    "curiosita": "Il club fu fondato nel 1902 e ha sede nella capitale spagnola.",
+    "fatto": "real madrid paese spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Real_Madrid_Club_de_Fútbol",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0033",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport praticano i New York Yankees?",
+    "risposte": [
+      "Baseball",
+      "Basket",
+      "Football",
+      "Hockey"
+    ],
+    "curiosita": "I Yankees hanno la divisa a righe sottili, fra le più celebri dello sport.",
+    "fatto": "new york yankees sport baseball",
+    "fonte": "https://it.wikipedia.org/wiki/Baseball",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0034",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si pratica sul ghiaccio con musica e salti?",
+    "risposte": [
+      "Pattinaggio",
+      "Curling",
+      "Hockey",
+      "Bob"
+    ],
+    "curiosita": "Nel pattinaggio il salto più difficile è l'axel, con tre rotazioni e mezza.",
+    "fatto": "pattinaggio artistico ghiaccio musica",
+    "fonte": "https://it.wikipedia.org/wiki/Pattinaggio_di_figura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0035",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "In quale sport esiste il fuorigioco?",
+    "risposte": [
+      "Calcio",
+      "Basket",
+      "Tennis",
+      "Pallavolo"
+    ],
+    "curiosita": "Il fuorigioco è regola del calcio fin dall'Ottocento.",
+    "fatto": "fuorigioco sport calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0036",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport si pratica con i remi?",
+    "risposte": [
+      "Canottaggio",
+      "Nuoto",
+      "Vela",
+      "Canoa"
+    ],
+    "curiosita": "Nel canottaggio si va all'indietro: gli atleti guardano la partenza.",
+    "fatto": "canottaggio remi sport",
+    "fonte": "https://it.wikipedia.org/wiki/Canottaggio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0037",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale animale è il logo della Puma?",
+    "risposte": [
+      "Puma",
+      "Leopardo",
+      "Giaguaro",
+      "Tigre"
+    ],
+    "curiosita": "Il marchio nacque nel 1948 da una lite tra due fratelli tedeschi, Rudolf e Adi Dassler.",
+    "fatto": "logo puma animale",
+    "fonte": "https://it.wikipedia.org/wiki/Puma_(azienda)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0038",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Tiger Woods?",
+    "risposte": [
+      "Golf",
+      "Tennis",
+      "Baseball",
+      "Basket"
+    ],
+    "curiosita": "Woods ha vinto 15 tornei major.",
+    "fatto": "tiger woods sport golf",
+    "fonte": "https://it.wikipedia.org/wiki/Tiger_Woods",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0039",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport pratica Simone Biles?",
+    "risposte": [
+      "Ginnastica",
+      "Nuoto",
+      "Atletica",
+      "Pattinaggio"
+    ],
+    "curiosita": "È statunitense e ha dato il nome a un suo salto, il \"Biles\".",
+    "fatto": "simone biles sport ginnastica",
+    "fonte": "https://it.wikipedia.org/wiki/Ginnastica_artistica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0040",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 1,
+    "domanda": "Quale sport praticava Usain Bolt?",
+    "risposte": [
+      "Atletica",
+      "Calcio",
+      "Nuoto",
+      "Basket"
+    ],
+    "curiosita": "Alle Olimpiadi vinse otto ori con i 100, i 200 e la staffetta.",
+    "fatto": "usain bolt sport atletica",
+    "fonte": "https://it.wikipedia.org/wiki/Usain_Bolt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0041",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Di che colore è la maglia del leader della Vuelta?",
+    "risposte": [
+      "Rossa",
+      "Gialla",
+      "Rosa",
+      "Verde"
+    ],
+    "curiosita": "Fino al 2009 la maglia del leader era dorata.",
+    "fatto": "maglia leader vuelta rossa",
+    "fonte": "https://it.wikipedia.org/wiki/Vuelta_a_España",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0042",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti giochi servono per vincere un set a tennis?",
+    "risposte": [
+      "Sei",
+      "Quattro",
+      "Cinque",
+      "Sette"
+    ],
+    "curiosita": "Serve anche uno scarto di due giochi, altrimenti si va al tie-break.",
+    "fatto": "giochi per vincere set tennis",
+    "fonte": "https://it.wikipedia.org/wiki/Tennis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0043",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quanti punti vale un calcio di punizione nel rugby?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Cinque",
+      "Uno"
+    ],
+    "curiosita": "La meta vale 5 punti, la trasformazione 2.",
+    "fatto": "rugby calcio punizione punti",
+    "fonte": "https://it.wikipedia.org/wiki/Rugby_a_15",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0044",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale squadra gioca al Camp Nou?",
+    "risposte": [
+      "Barcellona",
+      "Valencia",
+      "Siviglia",
+      "Atlético Madrid"
+    ],
+    "curiosita": "\"Camp Nou\" significa \"campo nuovo\" in catalano.",
+    "fatto": "camp nou squadra barcellona",
+    "fonte": "https://it.wikipedia.org/wiki/Futbol_Club_Barcelona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0045",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Maglia del miglior giovane al Tour de France?",
+    "risposte": [
+      "Bianca",
+      "Gialla",
+      "Verde",
+      "Rossa"
+    ],
+    "curiosita": "La maglia verde del Tour va invece al miglior velocista.",
+    "fatto": "maglia miglior giovane tour bianca",
+    "fonte": "https://it.wikipedia.org/wiki/Tour_de_France",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0046",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale nazionale vinse il Mondiale di calcio del 2010?",
+    "risposte": [
+      "Spagna",
+      "Olanda",
+      "Germania",
+      "Uruguay"
+    ],
+    "curiosita": "Fu il primo Mondiale giocato in Africa.",
+    "fatto": "mondiale calcio 2010 spagna",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0047",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale nazionale vinse il Mondiale di calcio del 1994?",
+    "risposte": [
+      "Brasile",
+      "Italia",
+      "Svezia",
+      "Germania"
+    ],
+    "curiosita": "La finale si decise ai rigori contro l'Italia.",
+    "fatto": "mondiale calcio 1994 brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0048",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Chi ospitò e vinse il Mondiale di calcio 1998?",
+    "risposte": [
+      "Francia",
+      "Brasile",
+      "Germania",
+      "Italia"
+    ],
+    "curiosita": "In finale batté il Brasile 3-0.",
+    "fatto": "mondiale calcio 1998 francia",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0049",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale sport pratica Paola Egonu?",
+    "risposte": [
+      "Pallavolo",
+      "Basket",
+      "Pallamano",
+      "Rugby"
+    ],
+    "curiosita": "È nata a Cittadella, in provincia di Padova.",
+    "fatto": "paola egonu sport pallavolo",
+    "fonte": "https://it.wikipedia.org/wiki/Paola_Egonu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0050",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 2,
+    "domanda": "Quale numero indossa il centravanti tradizionale?",
+    "risposte": [
+      "Nove",
+      "Sette",
+      "Dieci",
+      "Undici"
+    ],
+    "curiosita": "Il numero 9 è il simbolo del bomber.",
+    "fatto": "centravanti numero maglia",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0051",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanto pesa circa un pallone da calcio?",
+    "risposte": [
+      "430 grammi",
+      "300 grammi",
+      "550 grammi",
+      "650 grammi"
+    ],
+    "curiosita": "Il regolamento impone un peso tra 410 e 450 grammi.",
+    "fatto": "pallone calcio peso grammi",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0052",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti giocatori ha una squadra di polo a cavallo?",
+    "risposte": [
+      "Quattro",
+      "Tre",
+      "Cinque",
+      "Sei"
+    ],
+    "curiosita": "Ogni giocatore ha più cavalli, che cambia a ogni tempo.",
+    "fatto": "polo giocatori squadra",
+    "fonte": "https://it.wikipedia.org/wiki/Polo_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0053",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Fino a quanti punti si gioca un set di pallavolo?",
+    "risposte": [
+      "25",
+      "21",
+      "30",
+      "15"
+    ],
+    "curiosita": "Il set decisivo, il quinto, si gioca invece fino a 15.",
+    "fatto": "set pallavolo 25 punti",
+    "fonte": "https://it.wikipedia.org/wiki/Pallavolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0054",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti chilometri misura una mezza maratona?",
+    "risposte": [
+      "21",
+      "15",
+      "25",
+      "30"
+    ],
+    "curiosita": "La misura esatta è 21,0975 chilometri.",
+    "fatto": "mezza maratona chilometri",
+    "fonte": "https://it.wikipedia.org/wiki/Maratona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0055",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quanti atleti compongono l'otto con del canottaggio?",
+    "risposte": [
+      "Nove",
+      "Otto",
+      "Dieci",
+      "Sette"
+    ],
+    "curiosita": "Il timoniere è l'unico a bordo che non rema.",
+    "fatto": "otto con canottaggio atleti",
+    "fonte": "https://it.wikipedia.org/wiki/Canottaggio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0056",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "In quale anno Jesse Owens vinse quattro ori olimpici?",
+    "risposte": [
+      "1936",
+      "1928",
+      "1948",
+      "1932"
+    ],
+    "curiosita": "A Berlino vinse 100 m, 200 m, salto in lungo e staffetta 4x100.",
+    "fatto": "jesse owens quattro ori 1936",
+    "fonte": "https://it.wikipedia.org/wiki/Jesse_Owens",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0057",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale pugile friulano fu campione dei massimi nel 1933?",
+    "risposte": [
+      "Primo Carnera",
+      "Rocky Marciano",
+      "Nino Benvenuti",
+      "Tiberio Mitri"
+    ],
+    "curiosita": "Era alto quasi due metri.",
+    "fatto": "primo carnera campione massimi",
+    "fonte": "https://it.wikipedia.org/wiki/Primo_Carnera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0058",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Chi vinse i quattro Slam e l'oro olimpico nel 1988?",
+    "risposte": [
+      "Steffi Graf",
+      "Evonne Goolagong",
+      "Chris Evert",
+      "Monica Seles"
+    ],
+    "curiosita": "Fu chiamato Golden Slam e lo realizzò a soli 19 anni.",
+    "fatto": "steffi graf golden slam 1988",
+    "fonte": "https://it.wikipedia.org/wiki/Steffi_Graf",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0059",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Quale numero di maglia ritirò il Napoli per Maradona?",
+    "risposte": [
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "curiosita": "Il Napoli ritirò la maglia 10 nel 2000.",
+    "fatto": "napoli maglia ritirata maradona",
+    "fonte": "https://it.wikipedia.org/wiki/Diego_Armando_Maradona",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-spo-0060",
+    "tipo": "lampo",
+    "categoria": "sport",
+    "difficolta": 3,
+    "domanda": "Chi rilanciò le Olimpiadi moderne?",
+    "risposte": [
+      "De Coubertin",
+      "Brundage",
+      "Samaranch",
+      "Zubin"
+    ],
+    "curiosita": "Era un barone francese: il suo cuore è sepolto a Olimpia.",
+    "fatto": "rilancio olimpiadi coubertin",
+    "fonte": "https://it.wikipedia.org/wiki/Pierre_de_Coubertin",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

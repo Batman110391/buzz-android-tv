@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Encefalo",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0016",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dall'animale più basso al più alto",
+    "elementi": [
+      "Gatto",
+      "Lupo",
+      "Cavallo",
+      "Giraffa"
+    ],
+    "valori": [
+      "25 cm",
+      "80 cm",
+      "1,6 m",
+      "5,5 m"
+    ],
+    "curiosita": "La giraffa è alta quanto un palazzo a due piani.",
+    "fatto": "altezza gatto lupo cavallo giraffa",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0017",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dal pesce più corto al più lungo",
+    "elementi": [
+      "Sardina",
+      "Salmone",
+      "Squalo bianco",
+      "Squalo balena"
+    ],
+    "valori": [
+      "20 cm",
+      "70 cm",
+      "5 m",
+      "12 m"
+    ],
+    "curiosita": "Il più grande pesce vivente si nutre solo di plancton.",
+    "fatto": "lunghezza sardina salmone squalo bianco squalo balena",
+    "fonte": "https://it.wikipedia.org/wiki/Squalo_balena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0018",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Dall'uccello più leggero al più pesante",
+    "elementi": [
+      "Colibrì",
+      "Passero",
+      "Gallina",
+      "Struzzo"
+    ],
+    "valori": [
+      "2 g",
+      "25 g",
+      "2 kg",
+      "120 kg"
+    ],
+    "curiosita": "Uno struzzo pesa quanto sessantamila colibrì.",
+    "fatto": "peso colibri passero gallina struzzo",
+    "fonte": "https://it.wikipedia.org/wiki/Struzzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0019",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 1,
+    "criterio": "Un albero a foglia caduca, da marzo",
+    "elementi": [
+      "Gemme che sbocciano",
+      "Chioma verde",
+      "Foglie rosse e gialle",
+      "Rami spogli"
+    ],
+    "valori": [
+      "Primavera",
+      "Estate",
+      "Autunno",
+      "Inverno"
+    ],
+    "curiosita": "Perdere le foglie gli fa risparmiare energia nel freddo.",
+    "fatto": "stagioni albero foglie caduche",
+    "fonte": "https://it.wikipedia.org/wiki/Albero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0020",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dall'uovo più leggero al più pesante",
+    "elementi": [
+      "Colibrì",
+      "Gallina",
+      "Oca",
+      "Struzzo"
+    ],
+    "valori": [
+      "0,5 g",
+      "60 g",
+      "150 g",
+      "1.500 g"
+    ],
+    "curiosita": "Per cuocere un uovo di struzzo servono circa 45 minuti.",
+    "fatto": "peso uova colibri gallina oca struzzo",
+    "fonte": "https://it.wikipedia.org/wiki/Uovo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0021",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dall'albero più basso al più alto, da adulto",
+    "elementi": [
+      "Ulivo",
+      "Quercia",
+      "Abete rosso",
+      "Sequoia"
+    ],
+    "valori": [
+      "15 m",
+      "40 m",
+      "60 m",
+      "115 m"
+    ],
+    "curiosita": "Le sequoie più alte superano il Colosseo di oltre due volte.",
+    "fatto": "altezza ulivo quercia abete sequoia",
+    "fonte": "https://it.wikipedia.org/wiki/Sequoia_sempervirens",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0022",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 2,
+    "criterio": "Dal sonno più breve al più lungo (al giorno)",
+    "elementi": [
+      "Giraffa",
+      "Uomo",
+      "Gatto",
+      "Koala"
+    ],
+    "valori": [
+      "4 h",
+      "8 h",
+      "14 h",
+      "20 h"
+    ],
+    "curiosita": "Il koala dorme più di tutti perché mangia foglie poco nutrienti.",
+    "fatto": "ore sonno giraffa uomo gatto koala",
+    "fonte": "https://it.wikipedia.org/wiki/Sonno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0023",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dal numero minore al maggiore di occhi",
+    "elementi": [
+      "Uomo",
+      "Ape",
+      "Ragno tipico",
+      "Capasanta"
+    ],
+    "valori": [
+      "2",
+      "5",
+      "8",
+      "circa 200"
+    ],
+    "curiosita": "La capasanta ha una fila di occhietti lungo il bordo del mantello.",
+    "fatto": "numero occhi uomo ape ragno capasanta",
+    "fonte": "https://it.wikipedia.org/wiki/Pecten_jacobaeus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0024",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dal periodo geologico più antico al più recente",
+    "elementi": [
+      "Cambriano",
+      "Carbonifero",
+      "Giurassico",
+      "Cretaceo"
+    ],
+    "valori": [
+      "539 mln anni",
+      "359 mln anni",
+      "201 mln anni",
+      "145 mln anni"
+    ],
+    "curiosita": "Il Giurassico dà il nome al film di Spielberg, ma è del Cretaceo il T. rex.",
+    "fatto": "periodi geologici cambriano carbonifero giurassico cretaceo",
+    "fonte": "https://it.wikipedia.org/wiki/Giurassico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-nat-0025",
+    "tipo": "ordine",
+    "categoria": "natura",
+    "difficolta": 3,
+    "criterio": "Dall'addomesticamento più antico al più recente",
+    "elementi": [
+      "Cane",
+      "Pecora",
+      "Gallina",
+      "Cavallo"
+    ],
+    "valori": [
+      "15.000 anni fa",
+      "11.000 anni fa",
+      "8.000 anni fa",
+      "5.500 anni fa"
+    ],
+    "curiosita": "Il cane è probabilmente il primo animale che abbiamo addomesticato.",
+    "fatto": "addomesticamento cane pecora gallina cavallo",
+    "fonte": "https://it.wikipedia.org/wiki/Domesticazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

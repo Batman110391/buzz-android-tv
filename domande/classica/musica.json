@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Il_cielo_in_una_stanza",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0091",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Azzurro\" nel 1968?",
+    "risposte": [
+      "Adriano Celentano",
+      "Gianni Morandi",
+      "Little Tony",
+      "Rita Pavone"
+    ],
+    "curiosita": "Il testo è di Paolo Conte, che lo scrisse per l'estate.",
+    "fatto": "chi canto azzurro celentano",
+    "fonte": "https://it.wikipedia.org/wiki/Azzurro_(singolo_1968)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0092",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante è detta \"la regina del pop\"?",
+    "risposte": [
+      "Madonna",
+      "Cher",
+      "Tina Turner",
+      "Kylie Minogue"
+    ],
+    "curiosita": "Il suo vero cognome è Ciccone.",
+    "fatto": "regina del pop madonna",
+    "fonte": "https://it.wikipedia.org/wiki/Madonna_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0093",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante è detto \"il Re del Rock and Roll\"?",
+    "risposte": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Jerry Lee Lewis",
+      "Little Richard"
+    ],
+    "curiosita": "Visse a Graceland, nel Tennessee.",
+    "fatto": "re del rock and roll elvis",
+    "fonte": "https://it.wikipedia.org/wiki/Elvis_Presley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0094",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Vita spericolata\" a Sanremo 1983?",
+    "risposte": [
+      "Vasco Rossi",
+      "Ligabue",
+      "Zucchero",
+      "Gianna Nannini"
+    ],
+    "curiosita": "Arrivò ultimo, ma è diventata un inno generazionale.",
+    "fatto": "vita spericolata vasco sanremo 1983",
+    "fonte": "https://it.wikipedia.org/wiki/Vita_spericolata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0095",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Despacito\"?",
+    "risposte": [
+      "Luis Fonsi",
+      "Enrique Iglesias",
+      "Ricky Martin",
+      "Marc Anthony"
+    ],
+    "curiosita": "Il video è tra i più visti di sempre su YouTube.",
+    "fatto": "chi canta despacito fonsi",
+    "fonte": "https://it.wikipedia.org/wiki/Despacito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0096",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi pubblicò l'album \"Thriller\" nel 1982?",
+    "risposte": [
+      "Michael Jackson",
+      "Prince",
+      "Stevie Wonder",
+      "Lionel Richie"
+    ],
+    "curiosita": "È l'album più venduto della storia.",
+    "fatto": "album thriller michael jackson",
+    "fonte": "https://it.wikipedia.org/wiki/Thriller_(album)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0097",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Waka Waka\", inno dei Mondiali del 2010?",
+    "risposte": [
+      "Shakira",
+      "Jennifer Lopez",
+      "Beyoncé",
+      "Rihanna"
+    ],
+    "curiosita": "Il torneo si giocava in Sudafrica.",
+    "fatto": "waka waka mondiali 2010 shakira",
+    "fonte": "https://it.wikipedia.org/wiki/Waka_Waka_(This_Time_for_Africa)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0098",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Shape of You\"?",
+    "risposte": [
+      "Ed Sheeran",
+      "Harry Styles",
+      "Sam Smith",
+      "Justin Bieber"
+    ],
+    "curiosita": "È stato per anni il brano più ascoltato su Spotify.",
+    "fatto": "shape of you ed sheeran",
+    "fonte": "https://it.wikipedia.org/wiki/Shape_of_You",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0099",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Napule è\"?",
+    "risposte": [
+      "Pino Daniele",
+      "Massimo Ranieri",
+      "Gigi D'Alessio",
+      "Eduardo De Crescenzo"
+    ],
+    "curiosita": "Mescola blues e tradizione napoletana.",
+    "fatto": "napule e pino daniele",
+    "fonte": "https://it.wikipedia.org/wiki/Pino_Daniele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0100",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"Con te partirò\" a Sanremo 1995?",
+    "risposte": [
+      "Andrea Bocelli",
+      "Luciano Pavarotti",
+      "Eros Ramazzotti",
+      "Mario Biondi"
+    ],
+    "curiosita": "Il brano ebbe il suo grande successo in versione \"Time to Say Goodbye\".",
+    "fatto": "con te partiro bocelli sanremo 1995",
+    "fonte": "https://it.wikipedia.org/wiki/Con_te_partirò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0101",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"La solitudine\" a Sanremo 1993?",
+    "risposte": [
+      "Laura Pausini",
+      "Giorgia",
+      "Elisa",
+      "Alexia"
+    ],
+    "curiosita": "Aveva 18 anni e vinse tra le Nuove Proposte.",
+    "fatto": "la solitudine pausini sanremo 1993",
+    "fonte": "https://it.wikipedia.org/wiki/Laura_Pausini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0102",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale cantante di Correggio è detto \"Liga\"?",
+    "risposte": [
+      "Luciano Ligabue",
+      "Vasco Rossi",
+      "Zucchero",
+      "Nek"
+    ],
+    "curiosita": "Ha anche diretto film come \"Radiofreccia\".",
+    "fatto": "liga ligabue correggio",
+    "fonte": "https://it.wikipedia.org/wiki/Luciano_Ligabue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0103",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi canta \"Single Ladies\"?",
+    "risposte": [
+      "Beyoncé",
+      "Rihanna",
+      "Katy Perry",
+      "Adele"
+    ],
+    "curiosita": "Il video è girato in bianco e nero.",
+    "fatto": "single ladies beyonce",
+    "fonte": "https://it.wikipedia.org/wiki/Single_Ladies_(Put_a_Ring_on_It)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0104",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale gruppo svedese cantava \"Dancing Queen\"?",
+    "risposte": [
+      "ABBA",
+      "Roxette",
+      "Europe",
+      "Ace of Base"
+    ],
+    "curiosita": "Il nome è formato dalle iniziali dei quattro membri.",
+    "fatto": "dancing queen abba",
+    "fonte": "https://it.wikipedia.org/wiki/Dancing_Queen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0105",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il Teatro San Carlo?",
+    "risposte": [
+      "Napoli",
+      "Milano",
+      "Roma",
+      "Palermo"
+    ],
+    "curiosita": "È il più antico teatro d'opera ancora attivo in Europa.",
+    "fatto": "teatro san carlo napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Teatro_di_San_Carlo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0106",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi formò i Tre Tenori con Domingo e Carreras?",
+    "risposte": [
+      "Luciano Pavarotti",
+      "Andrea Bocelli",
+      "Enrico Caruso",
+      "Mario Lanza"
+    ],
+    "curiosita": "Il primo concerto fu nel 1990 alle Terme di Caracalla.",
+    "fatto": "tre tenori pavarotti",
+    "fonte": "https://it.wikipedia.org/wiki/I_tre_tenori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0107",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento a corde triangolare si pizzica con le dita?",
+    "risposte": [
+      "Arpa",
+      "Liuto",
+      "Cetra",
+      "Mandolino"
+    ],
+    "curiosita": "Quella da concerto ha 47 corde.",
+    "fatto": "strumento corde triangolare arpa",
+    "fonte": "https://it.wikipedia.org/wiki/Arpa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0108",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale gruppo rock ha una lingua come logo?",
+    "risposte": [
+      "Rolling Stones",
+      "Queen",
+      "Kiss",
+      "Aerosmith"
+    ],
+    "curiosita": "Il logo fu disegnato nel 1970 da John Pasche.",
+    "fatto": "logo lingua rolling stones",
+    "fonte": "https://it.wikipedia.org/wiki/The_Rolling_Stones",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0109",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale artigiano di Cremona è famoso per i suoi violini?",
+    "risposte": [
+      "Antonio Stradivari",
+      "Giuseppe Verdi",
+      "Claudio Monteverdi",
+      "Niccolò Paganini"
+    ],
+    "curiosita": "Si dice che ne costruì più di mille.",
+    "fatto": "violini cremona stradivari",
+    "fonte": "https://it.wikipedia.org/wiki/Antonio_Stradivari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0110",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale strumento suona il compositore Ludovico Einaudi?",
+    "risposte": [
+      "Pianoforte",
+      "Violino",
+      "Chitarra",
+      "Clarinetto"
+    ],
+    "curiosita": "È tra i compositori italiani più ascoltati al mondo.",
+    "fatto": "strumento einaudi pianoforte",
+    "fonte": "https://it.wikipedia.org/wiki/Ludovico_Einaudi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0111",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale nota viene subito dopo il sol?",
+    "risposte": [
+      "La",
+      "Fa",
+      "Si",
+      "Do"
+    ],
+    "curiosita": "La sequenza è do, re, mi, fa, sol, la, si.",
+    "fatto": "nota dopo sol la",
+    "fonte": "https://it.wikipedia.org/wiki/Nota_musicale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0112",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Come si chiama il segno musicale che indica il silenzio?",
+    "risposte": [
+      "Pausa",
+      "Legatura",
+      "Chiave",
+      "Battuta"
+    ],
+    "curiosita": "Ogni nota ha la sua pausa di uguale durata.",
+    "fatto": "segno silenzio musica pausa",
+    "fonte": "https://it.wikipedia.org/wiki/Pausa_(musica)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0113",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Cosa significa \"piano\" sullo spartito?",
+    "risposte": [
+      "Suonare a basso volume",
+      "Suonare più veloce",
+      "Suonare in coro",
+      "Suonare a tempo"
+    ],
+    "curiosita": "Il pianoforte si chiama così perché può suonare piano e forte.",
+    "fatto": "significato piano spartito",
+    "fonte": "https://it.wikipedia.org/wiki/Pianoforte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0114",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale musical racconta di un uomo mascherato che vive sotto un teatro?",
+    "risposte": [
+      "Il fantasma dell'opera",
+      "Cats",
+      "Evita",
+      "Grease"
+    ],
+    "curiosita": "Fu scritto da Andrew Lloyd Webber.",
+    "fatto": "musical uomo mascherato teatro fantasma opera",
+    "fonte": "https://it.wikipedia.org/wiki/Il_fantasma_dell'opera_(musical)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0115",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale film musicale ha la canzone \"Do-Re-Mi\"?",
+    "risposte": [
+      "The Sound of Music",
+      "Mary Poppins",
+      "Grease",
+      "West Side Story"
+    ],
+    "curiosita": "È ambientato in Austria, a Salisburgo.",
+    "fatto": "do re mi film tutti insieme appassionatamente",
+    "fonte": "https://it.wikipedia.org/wiki/Tutti_insieme_appassionatamente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0116",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quali sono i protagonisti del musical \"Grease\"?",
+    "risposte": [
+      "Danny e Sandy",
+      "Tony e Maria",
+      "Rhett e Rossella",
+      "Rick e Ilsa"
+    ],
+    "curiosita": "Il film del 1978 vedeva John Travolta e Olivia Newton-John.",
+    "fatto": "protagonisti grease danny sandy",
+    "fonte": "https://it.wikipedia.org/wiki/Grease_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0117",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"I Will Always Love You\" nel film \"Guardia del corpo\"?",
+    "risposte": [
+      "Whitney Houston",
+      "Mariah Carey",
+      "Céline Dion",
+      "Aretha Franklin"
+    ],
+    "curiosita": "Il brano è stato scritto da Dolly Parton.",
+    "fatto": "i will always love you whitney houston",
+    "fonte": "https://it.wikipedia.org/wiki/I_Will_Always_Love_You",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0118",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Di quale paese era il re del reggae Bob Marley?",
+    "risposte": [
+      "Giamaica",
+      "Cuba",
+      "Brasile",
+      "Senegal"
+    ],
+    "curiosita": "Il reggae nacque proprio sull'isola.",
+    "fatto": "paese bob marley giamaica",
+    "fonte": "https://it.wikipedia.org/wiki/Bob_Marley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0119",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Quale gruppo britannico cantava \"Yellow Submarine\"?",
+    "risposte": [
+      "Beatles",
+      "Rolling Stones",
+      "Who",
+      "Kinks"
+    ],
+    "curiosita": "La cantava Ringo Starr, il batterista.",
+    "fatto": "yellow submarine beatles",
+    "fonte": "https://it.wikipedia.org/wiki/Yellow_Submarine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0120",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 1,
+    "domanda": "Chi cantò \"La cura\" nel 1996?",
+    "risposte": [
+      "Franco Battiato",
+      "Lucio Dalla",
+      "Fabrizio De André",
+      "Ivano Fossati"
+    ],
+    "curiosita": "Battiato la scrisse insieme al filosofo Manlio Sgalambro.",
+    "fatto": "la cura battiato",
+    "fonte": "https://it.wikipedia.org/wiki/La_cura_(singolo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0121",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Margherita\" nel 1976?",
+    "risposte": [
+      "Riccardo Cocciante",
+      "Claudio Baglioni",
+      "Lucio Battisti",
+      "Eros Ramazzotti"
+    ],
+    "curiosita": "Cocciante è nato a Saigon, da madre italiana.",
+    "fatto": "margherita cocciante",
+    "fonte": "https://it.wikipedia.org/wiki/Riccardo_Cocciante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0122",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantautore romano scrisse \"Notte prima degli esami\"?",
+    "risposte": [
+      "Antonello Venditti",
+      "Francesco De Gregori",
+      "Claudio Baglioni",
+      "Renato Zero"
+    ],
+    "curiosita": "È un inno per gli studenti all'esame di maturità.",
+    "fatto": "notte prima degli esami venditti",
+    "fonte": "https://it.wikipedia.org/wiki/Notte_prima_degli_esami",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0123",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Qual è il più grande strumento della famiglia degli archi?",
+    "risposte": [
+      "Contrabbasso",
+      "Violoncello",
+      "Viola",
+      "Arpa"
+    ],
+    "curiosita": "Si suona in piedi o seduti su uno sgabello alto.",
+    "fatto": "strumento archi piu grande contrabbasso",
+    "fonte": "https://it.wikipedia.org/wiki/Contrabbasso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0124",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale duo cantò \"Vorrei incontrarti fra cent'anni\"?",
+    "risposte": [
+      "Ron e Tiziano Ferro",
+      "Ligabue e Jovanotti",
+      "Pausini e Biagio Antonacci",
+      "Elisa e Giuliano Sangiorgi"
+    ],
+    "curiosita": "È uscita nel 2013 ed è molto cantata ai matrimoni.",
+    "fatto": "vorrei incontrarti fra cent anni ron ferro",
+    "fonte": "https://it.wikipedia.org/wiki/Vorrei_incontrarti_fra_cent'anni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0125",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Africa\" nel 1982?",
+    "risposte": [
+      "Toto",
+      "Journey",
+      "Foreigner",
+      "Boston"
+    ],
+    "curiosita": "Il testo parla di un continente che l'autore non aveva ancora visto.",
+    "fatto": "africa toto",
+    "fonte": "https://it.wikipedia.org/wiki/Africa_(Toto)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0126",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Ti amo\" nel 1977?",
+    "risposte": [
+      "Umberto Tozzi",
+      "Riccardo Fogli",
+      "Gino Paoli",
+      "Mango"
+    ],
+    "curiosita": "Tozzi è anche autore di \"Gloria\".",
+    "fatto": "ti amo umberto tozzi",
+    "fonte": "https://it.wikipedia.org/wiki/Ti_amo_(Umberto_Tozzi)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0127",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Sapore di sale\"?",
+    "risposte": [
+      "Gino Paoli",
+      "Luigi Tenco",
+      "Bruno Lauzi",
+      "Sergio Endrigo"
+    ],
+    "curiosita": "Paoli è nato a Monfalcone, ma è genovese d'adozione.",
+    "fatto": "sapore di sale gino paoli",
+    "fonte": "https://it.wikipedia.org/wiki/Sapore_di_sale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0128",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantante vinse Sanremo 2017 con \"Occidentali's Karma\"?",
+    "risposte": [
+      "Francesco Gabbani",
+      "Ermal Meta",
+      "Fiorella Mannoia",
+      "Michele Bravi"
+    ],
+    "curiosita": "Nel video compare un ballerino vestito da gorilla.",
+    "fatto": "occidentali s karma gabbani",
+    "fonte": "https://it.wikipedia.org/wiki/Occidentali's_Karma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0129",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi vinse Sanremo 2019 con \"Soldi\"?",
+    "risposte": [
+      "Mahmood",
+      "Ultimo",
+      "Achille Lauro",
+      "Loredana Bertè"
+    ],
+    "curiosita": "Con quel brano rappresentò l'Italia all'Eurovision.",
+    "fatto": "soldi mahmood sanremo 2019",
+    "fonte": "https://it.wikipedia.org/wiki/Soldi_(Mahmood)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0130",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantautore scrisse \"Ma il cielo è sempre più blu\"?",
+    "risposte": [
+      "Rino Gaetano",
+      "Pino Daniele",
+      "Lucio Dalla",
+      "Edoardo Bennato"
+    ],
+    "curiosita": "Elenca 70 difetti e vizi dell'Italia del 1975.",
+    "fatto": "ma il cielo e sempre piu blu rino gaetano",
+    "fonte": "https://it.wikipedia.org/wiki/Rino_Gaetano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0131",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Da quale musical viene la canzone \"Tonight\"?",
+    "risposte": [
+      "West Side Story",
+      "Chicago",
+      "Hair",
+      "Cats"
+    ],
+    "curiosita": "Le musiche sono di Leonard Bernstein.",
+    "fatto": "musical tonight west side story",
+    "fonte": "https://it.wikipedia.org/wiki/West_Side_Story",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0132",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Da quale musical viene la canzone \"Memory\"?",
+    "risposte": [
+      "Cats",
+      "Evita",
+      "Les Misérables",
+      "Mamma Mia"
+    ],
+    "curiosita": "I personaggi sono gatti randagi, tratti da poesie di T. S. Eliot.",
+    "fatto": "musical memory cats",
+    "fonte": "https://it.wikipedia.org/wiki/Cats_(musical)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0133",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi scrisse la musica de \"Il cerchio della vita\" ne \"Il re leone\"?",
+    "risposte": [
+      "Elton John",
+      "Phil Collins",
+      "Sting",
+      "Michael Jackson"
+    ],
+    "curiosita": "Il film vinse due Oscar per la musica.",
+    "fatto": "cerchio della vita elton john",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0134",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantante è detta \"la regina del soul\"?",
+    "risposte": [
+      "Aretha Franklin",
+      "Diana Ross",
+      "Tina Turner",
+      "Etta James"
+    ],
+    "curiosita": "\"Respect\" è diventata il suo inno.",
+    "fatto": "regina del soul aretha franklin",
+    "fonte": "https://it.wikipedia.org/wiki/Aretha_Franklin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0135",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantautore bolognese cantò \"4 marzo 1943\"?",
+    "risposte": [
+      "Lucio Dalla",
+      "Francesco Guccini",
+      "Gianni Morandi",
+      "Vasco Rossi"
+    ],
+    "curiosita": "Il titolo originale era \"Gesù bambino\", poi cambiato.",
+    "fatto": "4 marzo 1943 lucio dalla",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Dalla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0136",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"L'italiano\" a Sanremo 1983?",
+    "risposte": [
+      "Toto Cutugno",
+      "Al Bano",
+      "Riccardo Fogli",
+      "Pupo"
+    ],
+    "curiosita": "Il ritornello inizia con \"Lasciatemi cantare\".",
+    "fatto": "l italiano toto cutugno",
+    "fonte": "https://it.wikipedia.org/wiki/L'italiano_(Toto_Cutugno)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0137",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Emozioni\" nel 1970?",
+    "risposte": [
+      "Lucio Battisti",
+      "Claudio Baglioni",
+      "Fabio Concato",
+      "Mango"
+    ],
+    "curiosita": "Il testo è di Mogol.",
+    "fatto": "emozioni lucio battisti",
+    "fonte": "https://it.wikipedia.org/wiki/Emozioni_(Lucio_Battisti)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0138",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo tedesco cantava \"Wind of Change\"?",
+    "risposte": [
+      "Scorpions",
+      "Kraftwerk",
+      "Rammstein",
+      "Nena"
+    ],
+    "curiosita": "Il brano è ispirato alla caduta del muro di Berlino.",
+    "fatto": "wind of change scorpions",
+    "fonte": "https://it.wikipedia.org/wiki/Wind_of_Change_(Scorpions)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0139",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Sweet Child o' Mine\"?",
+    "risposte": [
+      "Guns N' Roses",
+      "Aerosmith",
+      "Metallica",
+      "Bon Jovi"
+    ],
+    "curiosita": "Axl Rose è il cantante.",
+    "fatto": "sweet child o mine guns n roses",
+    "fonte": "https://it.wikipedia.org/wiki/Sweet_Child_o'_Mine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0140",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo australiano cantava \"Back in Black\"?",
+    "risposte": [
+      "AC/DC",
+      "INXS",
+      "Men at Work",
+      "Midnight Oil"
+    ],
+    "curiosita": "Il chitarrista Angus Young suona in divisa scolastica.",
+    "fatto": "back in black ac dc",
+    "fonte": "https://it.wikipedia.org/wiki/Back_in_Black",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0141",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Enter Sandman\"?",
+    "risposte": [
+      "Metallica",
+      "Slayer",
+      "Megadeth",
+      "Anthrax"
+    ],
+    "curiosita": "Fu pubblicata nel 1991.",
+    "fatto": "enter sandman metallica",
+    "fonte": "https://it.wikipedia.org/wiki/Enter_Sandman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0142",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Creep\"?",
+    "risposte": [
+      "Radiohead",
+      "Oasis",
+      "Blur",
+      "Muse"
+    ],
+    "curiosita": "Il brano all'inizio fu un flop in patria.",
+    "fatto": "creep radiohead",
+    "fonte": "https://it.wikipedia.org/wiki/Creep_(Radiohead)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0143",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Da quale paese viene il gruppo a-ha, autore di \"Take On Me\"?",
+    "risposte": [
+      "Norvegia",
+      "Svezia",
+      "Danimarca",
+      "Finlandia"
+    ],
+    "curiosita": "Il video unisce attori reali e disegni a matita.",
+    "fatto": "take on me aha norvegia",
+    "fonte": "https://it.wikipedia.org/wiki/A-ha",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0144",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Di quale paese è la cantante Björk?",
+    "risposte": [
+      "Islanda",
+      "Norvegia",
+      "Finlandia",
+      "Irlanda"
+    ],
+    "curiosita": "È famosa per i suoi abiti stravaganti e la voce unica.",
+    "fatto": "paese bjork islanda",
+    "fonte": "https://it.wikipedia.org/wiki/Björk",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0145",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantava \"Smells Like Teen Spirit\"?",
+    "risposte": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Green Day"
+    ],
+    "curiosita": "Il nome viene da un deodorante per ragazze.",
+    "fatto": "smells like teen spirit nirvana",
+    "fonte": "https://it.wikipedia.org/wiki/Smells_Like_Teen_Spirit",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0146",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale cantante ricevette il Nobel per la letteratura nel 2016?",
+    "risposte": [
+      "Bob Dylan",
+      "Leonard Cohen",
+      "Paul Simon",
+      "Bruce Springsteen"
+    ],
+    "curiosita": "Fu il primo musicista a ricevere il premio.",
+    "fatto": "nobel letteratura 2016 bob dylan",
+    "fonte": "https://it.wikipedia.org/wiki/Bob_Dylan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0147",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale album dei Beatles ha in copertina un passaggio pedonale?",
+    "risposte": [
+      "Abbey Road",
+      "Revolver",
+      "Help",
+      "Let It Be"
+    ],
+    "curiosita": "La zebratura è diventata una meta turistica a Londra.",
+    "fatto": "album beatles passaggio pedonale abbey road",
+    "fonte": "https://it.wikipedia.org/wiki/Abbey_Road",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0148",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Quale compositore era detto \"il Prete rosso\"?",
+    "risposte": [
+      "Antonio Vivaldi",
+      "Giuseppe Tartini",
+      "Arcangelo Corelli",
+      "Tomaso Albinoni"
+    ],
+    "curiosita": "Era un prete dai capelli rossi.",
+    "fatto": "prete rosso vivaldi",
+    "fonte": "https://it.wikipedia.org/wiki/Antonio_Vivaldi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0149",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi cantò \"Se telefonando\" nel 1966?",
+    "risposte": [
+      "Mina",
+      "Ornella Vanoni",
+      "Patty Pravo",
+      "Milva"
+    ],
+    "curiosita": "La musica è di Ennio Morricone.",
+    "fatto": "se telefonando mina",
+    "fonte": "https://it.wikipedia.org/wiki/Se_telefonando",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0150",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 2,
+    "domanda": "Chi è il chitarrista dei Queen?",
+    "risposte": [
+      "Brian May",
+      "Roger Taylor",
+      "John Deacon",
+      "Jimmy Page"
+    ],
+    "curiosita": "Ha anche un dottorato in astrofisica.",
+    "fatto": "chitarrista queen brian may",
+    "fonte": "https://it.wikipedia.org/wiki/Brian_May",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0151",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di Mina?",
+    "risposte": [
+      "Mazzini",
+      "Mazzotti",
+      "Mantovani",
+      "Mancini"
+    ],
+    "curiosita": "Mina Anna Maria Mazzini è nata a Busto Arsizio.",
+    "fatto": "vero cognome mina mazzini",
+    "fonte": "https://it.wikipedia.org/wiki/Mina_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0152",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Il mondo\" nel 1965?",
+    "risposte": [
+      "Jimmy Fontana",
+      "Gianni Morandi",
+      "Peppino di Capri",
+      "Tony Renis"
+    ],
+    "curiosita": "Il brano è stato inciso da centinaia di artisti.",
+    "fatto": "il mondo jimmy fontana",
+    "fonte": "https://it.wikipedia.org/wiki/Il_mondo_(brano_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0153",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Su di noi\" a Sanremo 1980?",
+    "risposte": [
+      "Pupo",
+      "Ricchi e Poveri",
+      "Marcella Bella",
+      "Sandro Giacobbe"
+    ],
+    "curiosita": "Pupo si chiama in realtà Enzo Ghinazzi.",
+    "fatto": "su di noi pupo",
+    "fonte": "https://it.wikipedia.org/wiki/Pupo_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0154",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo americano cantava \"Don't Stop Believin'\"?",
+    "risposte": [
+      "Journey",
+      "Toto",
+      "Styx",
+      "Foreigner"
+    ],
+    "curiosita": "Oggi è uno dei brani più scaricati di sempre.",
+    "fatto": "don t stop believin journey",
+    "fonte": "https://it.wikipedia.org/wiki/Journey_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0155",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo britannico cantava \"Boys Don't Cry\"?",
+    "risposte": [
+      "The Cure",
+      "The Smiths",
+      "Joy Division",
+      "Depeche Mode"
+    ],
+    "curiosita": "Il cantante Robert Smith è famoso per il trucco e i capelli.",
+    "fatto": "boys don t cry the cure",
+    "fonte": "https://it.wikipedia.org/wiki/The_Cure",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0156",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Di quale paese è il gruppo elettronico Kraftwerk?",
+    "risposte": [
+      "Germania",
+      "Svezia",
+      "Belgio",
+      "Olanda"
+    ],
+    "curiosita": "Sono considerati i pionieri della musica elettronica.",
+    "fatto": "paese kraftwerk germania",
+    "fonte": "https://it.wikipedia.org/wiki/Kraftwerk",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0157",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale compositore smise di scrivere opere a 37 anni e si dedicò alla cucina?",
+    "risposte": [
+      "Gioachino Rossini",
+      "Vincenzo Bellini",
+      "Gaetano Donizetti",
+      "Giuseppe Verdi"
+    ],
+    "curiosita": "Rossini è ricordato anche per il \"tournedos\" che porta il suo nome.",
+    "fatto": "rossini smise di scrivere opere cucina",
+    "fonte": "https://it.wikipedia.org/wiki/Gioachino_Rossini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0158",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi compose il brano \"4'33''\", fatto di silenzio?",
+    "risposte": [
+      "John Cage",
+      "Philip Glass",
+      "Karlheinz Stockhausen",
+      "Steve Reich"
+    ],
+    "curiosita": "Si ascoltano i rumori della sala per quattro minuti e mezzo.",
+    "fatto": "4 33 silenzio john cage",
+    "fonte": "https://it.wikipedia.org/wiki/John_Cage",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0159",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Dove si tenne l'ultima esibizione pubblica dei Beatles, nel 1969?",
+    "risposte": [
+      "Sul tetto di un palazzo",
+      "Allo stadio di Shea",
+      "Alla Royal Albert Hall",
+      "Nel club Cavern"
+    ],
+    "curiosita": "Fu interrotta dalla polizia per i rumori.",
+    "fatto": "ultima esibizione beatles 1969 tetto",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0160",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale strumento si suona senza toccarlo?",
+    "risposte": [
+      "Theremin",
+      "Ocarina",
+      "Armonica",
+      "Zampogna"
+    ],
+    "curiosita": "Lo inventò il russo Lev Termen nel 1920.",
+    "fatto": "strumento si suona senza toccarlo theremin",
+    "fonte": "https://it.wikipedia.org/wiki/Theremin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0161",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale compositore scrisse la \"Sinfonia incompiuta\"?",
+    "risposte": [
+      "Franz Schubert",
+      "Gustav Mahler",
+      "Felix Mendelssohn",
+      "Antonín Dvořák"
+    ],
+    "curiosita": "Ne scrisse solo due movimenti completi.",
+    "fatto": "sinfonia incompiuta schubert",
+    "fonte": "https://it.wikipedia.org/wiki/Sinfonia_n._8_(Schubert)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0162",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo prog italiano cantava \"Impressioni di settembre\"?",
+    "risposte": [
+      "PFM",
+      "Banco del Mutuo Soccorso",
+      "Le Orme",
+      "New Trolls"
+    ],
+    "curiosita": "PFM sta per Premiata Forneria Marconi.",
+    "fatto": "impressioni di settembre pfm",
+    "fonte": "https://it.wikipedia.org/wiki/Premiata_Forneria_Marconi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0163",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale cantante cambiò nome in un simbolo impronunciabile?",
+    "risposte": [
+      "Prince",
+      "David Bowie",
+      "Michael Jackson",
+      "George Michael"
+    ],
+    "curiosita": "Visse anni con il nome \"l'Artista già noto come Prince\".",
+    "fatto": "cantante simbolo impronunciabile prince",
+    "fonte": "https://it.wikipedia.org/wiki/Prince",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0164",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale città nacque il tenore Enrico Caruso?",
+    "risposte": [
+      "Napoli",
+      "Roma",
+      "Milano",
+      "Palermo"
+    ],
+    "curiosita": "Fu uno dei primi cantanti a vendere milioni di dischi.",
+    "fatto": "citta nascita enrico caruso napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Enrico_Caruso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0165",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale città nacque il soprano Maria Callas?",
+    "risposte": [
+      "New York",
+      "Atene",
+      "Milano",
+      "Venezia"
+    ],
+    "curiosita": "I genitori erano greci, emigrati negli Stati Uniti.",
+    "fatto": "citta nascita maria callas new york",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Callas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0166",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il primo singolo dei Beatles, del 1962?",
+    "risposte": [
+      "Love Me Do",
+      "Please Please Me",
+      "Yesterday",
+      "Help"
+    ],
+    "curiosita": "Fu inciso ad Abbey Road.",
+    "fatto": "primo singolo beatles love me do",
+    "fonte": "https://it.wikipedia.org/wiki/Love_Me_Do",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0167",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quanti pedali ha un'arpa da concerto?",
+    "risposte": [
+      "Sette",
+      "Tre",
+      "Cinque",
+      "Dodici"
+    ],
+    "curiosita": "Ogni pedale altera la nota di una corda.",
+    "fatto": "pedali arpa da concerto sette",
+    "fonte": "https://it.wikipedia.org/wiki/Arpa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0168",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quali strumenti formano un quartetto d'archi?",
+    "risposte": [
+      "2 violini, viola, cello",
+      "3 violini, cello",
+      "Violino, viola, arpa",
+      "Violino, 2 viole, basso"
+    ],
+    "curiosita": "È la formazione preferita da Haydn e Mozart.",
+    "fatto": "quartetto d archi composizione",
+    "fonte": "https://it.wikipedia.org/wiki/Quartetto_d'archi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0169",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di Bob Dylan?",
+    "risposte": [
+      "Zimmerman",
+      "Zimmer",
+      "Dylan",
+      "Taylor"
+    ],
+    "curiosita": "Prese il nome da un poeta gallese, Dylan Thomas.",
+    "fatto": "vero cognome bob dylan zimmerman",
+    "fonte": "https://it.wikipedia.org/wiki/Bob_Dylan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0170",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero nome di Bono, il cantante degli U2?",
+    "risposte": [
+      "Paul Hewson",
+      "Peter Hudson",
+      "Paul Hughes",
+      "David Evans"
+    ],
+    "curiosita": "Bono viene da \"Bono Vox\", un negozio di Dublino.",
+    "fatto": "vero nome bono paul hewson",
+    "fonte": "https://it.wikipedia.org/wiki/Bono",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0171",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero nome di Freddie Mercury?",
+    "risposte": [
+      "Farrokh Bulsara",
+      "Fred Bailey",
+      "Farid Bashir",
+      "Ferdinand Brown"
+    ],
+    "curiosita": "Nacque a Zanzibar da una famiglia parsi.",
+    "fatto": "vero nome freddie mercury",
+    "fonte": "https://it.wikipedia.org/wiki/Freddie_Mercury",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0172",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di David Bowie?",
+    "risposte": [
+      "Jones",
+      "Smith",
+      "Brown",
+      "Taylor"
+    ],
+    "curiosita": "Cambiò nome per non essere confuso con il cantante dei Monkees.",
+    "fatto": "vero cognome david bowie jones",
+    "fonte": "https://it.wikipedia.org/wiki/David_Bowie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0173",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero nome di Sting?",
+    "risposte": [
+      "Gordon Sumner",
+      "George Stinson",
+      "Gerald Stone",
+      "Graham Smith"
+    ],
+    "curiosita": "Il soprannome nacque dalla maglia a strisce gialle e nere.",
+    "fatto": "vero nome sting gordon sumner",
+    "fonte": "https://it.wikipedia.org/wiki/Sting",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0174",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di Renato Zero?",
+    "risposte": [
+      "Fiacchini",
+      "Fiaschi",
+      "Facchini",
+      "Fioravanti"
+    ],
+    "curiosita": "Si fa chiamare Zero perché da piccolo era \"uno zero\".",
+    "fatto": "vero cognome renato zero fiacchini",
+    "fonte": "https://it.wikipedia.org/wiki/Renato_Zero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0175",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi diede il nome alle note musicali (ut, re, mi...)?",
+    "risposte": [
+      "Guido d'Arezzo",
+      "Pitagora",
+      "Bach",
+      "Palestrina"
+    ],
+    "curiosita": "Prese le sillabe da un inno a San Giovanni.",
+    "fatto": "nomi delle note guido d arezzo",
+    "fonte": "https://it.wikipedia.org/wiki/Guido_d'Arezzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0176",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi diresse il concerto di riapertura della Scala nel 1946?",
+    "risposte": [
+      "Arturo Toscanini",
+      "Riccardo Muti",
+      "Claudio Abbado",
+      "Herbert von Karajan"
+    ],
+    "curiosita": "Il teatro era stato bombardato nel 1943.",
+    "fatto": "riapertura scala 1946 toscanini",
+    "fonte": "https://it.wikipedia.org/wiki/Arturo_Toscanini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0177",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale anno morì Mozart?",
+    "risposte": [
+      "1791",
+      "1756",
+      "1827",
+      "1801"
+    ],
+    "curiosita": "Aveva 35 anni.",
+    "fatto": "anno morte mozart 1791",
+    "fonte": "https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0178",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "In quale anno fu inaugurato il Teatro alla Scala?",
+    "risposte": [
+      "1778",
+      "1600",
+      "1861",
+      "1870"
+    ],
+    "curiosita": "Sorse al posto di una chiesa chiamata Santa Maria alla Scala.",
+    "fatto": "anno inaugurazione scala 1778",
+    "fonte": "https://it.wikipedia.org/wiki/Teatro_alla_Scala",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0179",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Quale gruppo pavese cantava \"Hanno ucciso l'Uomo Ragno\"?",
+    "risposte": [
+      "883",
+      "Pooh",
+      "Stadio",
+      "Nomadi"
+    ],
+    "curiosita": "Il nome richiama il numero di una moto.",
+    "fatto": "hanno ucciso l uomo ragno 883",
+    "fonte": "https://it.wikipedia.org/wiki/883_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-mus-0180",
+    "tipo": "classica",
+    "categoria": "musica",
+    "difficolta": 3,
+    "domanda": "Chi cantò \"Self Control\" nel 1984?",
+    "risposte": [
+      "Raf",
+      "Umberto Tozzi",
+      "Gazebo",
+      "Alberto Camerini"
+    ],
+    "curiosita": "Raf è nato a Margherita di Savoia, in Puglia.",
+    "fatto": "self control raf",
+    "fonte": "https://it.wikipedia.org/wiki/Self_Control_(Raf)",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

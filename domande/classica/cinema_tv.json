@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Jacques_Clouseau",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0091",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale mago grigio guida la Compagnia dell'Anello?",
+    "risposte": [
+      "Gandalf",
+      "Saruman",
+      "Elrond",
+      "Radagast"
+    ],
+    "curiosita": "Nei libri torna dopo la morte come Gandalf il Bianco.",
+    "fatto": "mago grigio compagnia anello gandalf",
+    "fonte": "https://it.wikipedia.org/wiki/Gandalf",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0092",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film Disney contiene la canzone \"Let It Go\"?",
+    "risposte": [
+      "Frozen",
+      "Rapunzel",
+      "Oceania",
+      "Encanto"
+    ],
+    "curiosita": "Nel film è la canzone di Elsa, che vive isolata per paura dei suoi poteri.",
+    "fatto": "film disney let it go frozen",
+    "fonte": "https://it.wikipedia.org/wiki/Frozen_-_Il_regno_di_ghiaccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0093",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale tata magica arriva volando con l'ombrello?",
+    "risposte": [
+      "Mary Poppins",
+      "Miss Trunchbull",
+      "Nanny McPhee",
+      "Cenerentola"
+    ],
+    "curiosita": "Il film del 1964 vinse cinque Oscar.",
+    "fatto": "tata magica ombrello mary poppins",
+    "fonte": "https://it.wikipedia.org/wiki/Mary_Poppins_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0094",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "In quale città immaginaria vive Batman?",
+    "risposte": [
+      "Gotham City",
+      "Metropolis",
+      "Smallville",
+      "Central City"
+    ],
+    "curiosita": "Il nome \"Gotham\" è un soprannome storico di New York.",
+    "fatto": "citta di batman gotham",
+    "fonte": "https://it.wikipedia.org/wiki/Gotham_City",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0095",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi interpretava Sandra nella sit-com \"Casa Vianello\"?",
+    "risposte": [
+      "Sandra Mondaini",
+      "Franca Valeri",
+      "Raffaella Carrà",
+      "Lauretta Masiero"
+    ],
+    "curiosita": "Formava coppia sullo schermo e nella vita con Raimondo Vianello.",
+    "fatto": "casa vianello sandra mondaini",
+    "fonte": "https://it.wikipedia.org/wiki/Casa_Vianello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0096",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale conduttore ha presentato più edizioni del Festival di Sanremo?",
+    "risposte": [
+      "Pippo Baudo",
+      "Mike Bongiorno",
+      "Fabio Fazio",
+      "Carlo Conti"
+    ],
+    "curiosita": "Ne condusse tredici, a partire dal 1968.",
+    "fatto": "conduttore piu edizioni sanremo baudo",
+    "fonte": "https://it.wikipedia.org/wiki/Pippo_Baudo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0097",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi condusse il quiz \"Lascia o raddoppia?\" negli anni Cinquanta?",
+    "risposte": [
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Corrado",
+      "Enzo Tortora"
+    ],
+    "curiosita": "Le strade si svuotavano il giovedì sera per seguirlo.",
+    "fatto": "lascia o raddoppia conduttore mike bongiorno",
+    "fonte": "https://it.wikipedia.org/wiki/Lascia_o_raddoppia?",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0098",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale supereroe usa uno scudo come arma?",
+    "risposte": [
+      "Capitan America",
+      "Thor",
+      "Hulk",
+      "Occhio di Falco"
+    ],
+    "curiosita": "Lo scudo è fatto di vibranio.",
+    "fatto": "supereroe scudo capitan america",
+    "fonte": "https://it.wikipedia.org/wiki/Capitan_America",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0099",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale serie spagnola ha ladri con maschere ispirate a Dalí?",
+    "risposte": [
+      "La casa di carta",
+      "Narcos",
+      "Élite",
+      "Gomorra"
+    ],
+    "curiosita": "La maschera del Professore è diventata un simbolo pop.",
+    "fatto": "serie spagnola maschere dali casa di carta",
+    "fonte": "https://it.wikipedia.org/wiki/La_casa_di_carta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0100",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film di Checco Zalone racconta il \"posto fisso\" da difendere?",
+    "risposte": [
+      "Quo vado",
+      "Sole a catinelle",
+      "Tolo Tolo",
+      "Cado dalle nubi"
+    ],
+    "curiosita": "Nel 2016 fu il film italiano con più incassi di sempre.",
+    "fatto": "film zalone posto fisso quo vado",
+    "fonte": "https://it.wikipedia.org/wiki/Quo_vado?",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0101",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il bambino lasciato solo in \"Mamma, ho perso l'aereo\"?",
+    "risposte": [
+      "Kevin",
+      "Peter",
+      "Max",
+      "Harry"
+    ],
+    "curiosita": "Il film è uscito nel 1990 ed è un classico di Natale.",
+    "fatto": "bambino solo mamma ho perso l aereo kevin",
+    "fonte": "https://it.wikipedia.org/wiki/Mamma,_ho_perso_l'aereo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0102",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama lo zio cattivo di Simba?",
+    "risposte": [
+      "Scar",
+      "Mufasa",
+      "Zazu",
+      "Rafiki"
+    ],
+    "curiosita": "Il suo nome in inglese significa \"cicatrice\".",
+    "fatto": "zio cattivo simba scar",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0103",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film Pixar ha come protagoniste Gioia e Tristezza?",
+    "risposte": [
+      "Inside Out",
+      "Up",
+      "Coco",
+      "Soul"
+    ],
+    "curiosita": "È ambientato nella testa di una ragazzina.",
+    "fatto": "film pixar gioia tristezza inside out",
+    "fonte": "https://it.wikipedia.org/wiki/Inside_Out",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0104",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la principessa di \"Aladdin\"?",
+    "risposte": [
+      "Jasmine",
+      "Belle",
+      "Ariel",
+      "Aurora"
+    ],
+    "curiosita": "Il cartone uscì nel 1992.",
+    "fatto": "principessa aladdin jasmine",
+    "fonte": "https://it.wikipedia.org/wiki/Aladdin_(film_1992)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0105",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi esce dalla lampada magica in \"Aladdin\"?",
+    "risposte": [
+      "Il Genio",
+      "Il Mago",
+      "Il Sultano",
+      "Iago"
+    ],
+    "curiosita": "Nell'originale era doppiato da Robin Williams.",
+    "fatto": "aladdin lampada genio",
+    "fonte": "https://it.wikipedia.org/wiki/Aladdin_(film_1992)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0106",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Di che razza è il cane protagonista di \"Il commissario Rex\"?",
+    "risposte": [
+      "Pastore tedesco",
+      "Labrador",
+      "Dalmata",
+      "Collie"
+    ],
+    "curiosita": "La serie è nata in Austria.",
+    "fatto": "commissario rex razza pastore tedesco",
+    "fonte": "https://it.wikipedia.org/wiki/Il_commissario_Rex",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0107",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale serie TV, tratta da Saviano, racconta la camorra?",
+    "risposte": [
+      "Gomorra",
+      "Suburra",
+      "Romanzo criminale",
+      "Squadra antimafia"
+    ],
+    "curiosita": "È diventata un successo anche all'estero.",
+    "fatto": "serie camorra gomorra saviano",
+    "fonte": "https://it.wikipedia.org/wiki/Gomorra_-_La_serie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0108",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Che animale è Pumbaa, amico di Simba?",
+    "risposte": [
+      "Facocero",
+      "Cinghiale",
+      "Maiale",
+      "Tasso"
+    ],
+    "curiosita": "Il suo nome in swahili significa \"sciocco\".",
+    "fatto": "animale pumbaa facocero",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0109",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quanti nani aiutano Biancaneve?",
+    "risposte": [
+      "Sette",
+      "Cinque",
+      "Nove",
+      "Dodici"
+    ],
+    "curiosita": "Nel cartone hanno nomi come Dotto e Mammolo.",
+    "fatto": "nani di biancaneve sette",
+    "fonte": "https://it.wikipedia.org/wiki/Biancaneve_e_i_sette_nani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0110",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama lo stregone nemico dei Puffi?",
+    "risposte": [
+      "Gargamella",
+      "Malefico",
+      "Jafar",
+      "Sauron"
+    ],
+    "curiosita": "Il suo gatto si chiama Birba.",
+    "fatto": "stregone nemico puffi gargamella",
+    "fonte": "https://it.wikipedia.org/wiki/Gargamella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0111",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale gruppo svedese ha ispirato il musical \"Mamma Mia!\"?",
+    "risposte": [
+      "ABBA",
+      "Roxette",
+      "Europe",
+      "Ace of Base"
+    ],
+    "curiosita": "Il film del 2008 raccoglie le loro canzoni.",
+    "fatto": "gruppo mamma mia abba",
+    "fonte": "https://it.wikipedia.org/wiki/Mamma_Mia!_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0112",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la ragazza amata dalla Bestia?",
+    "risposte": [
+      "Belle",
+      "Jasmine",
+      "Aurora",
+      "Cenerentola"
+    ],
+    "curiosita": "Il cartone del 1991 fu il primo animato candidato all'Oscar come miglior film.",
+    "fatto": "ragazza della bestia belle",
+    "fonte": "https://it.wikipedia.org/wiki/La_bella_e_la_bestia_(film_1991)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0113",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Chi è Saetta McQueen?",
+    "risposte": [
+      "Un'auto da corsa",
+      "Un pilota",
+      "Un camion",
+      "Un trattore"
+    ],
+    "curiosita": "È il protagonista di \"Cars\".",
+    "fatto": "saetta mcqueen auto",
+    "fonte": "https://it.wikipedia.org/wiki/Cars_-_Motori_ruggenti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0114",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale amico di Harry Potter ha i capelli rossi?",
+    "risposte": [
+      "Ron Weasley",
+      "Draco Malfoy",
+      "Neville Paciock",
+      "Cedric Diggory"
+    ],
+    "curiosita": "I Weasley sono sette fratelli.",
+    "fatto": "amico harry potter capelli rossi ron",
+    "fonte": "https://it.wikipedia.org/wiki/Ron_Weasley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0115",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama la scuola di magia di Harry Potter?",
+    "risposte": [
+      "Hogwarts",
+      "Beauxbatons",
+      "Durmstrang",
+      "Ilvermorny"
+    ],
+    "curiosita": "In italiano il nome è \"Hogwarts\", non tradotto.",
+    "fatto": "scuola magia harry potter hogwarts",
+    "fonte": "https://it.wikipedia.org/wiki/Hogwarts",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0116",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Come si chiama il pallone amico di Tom Hanks in \"Cast Away\"?",
+    "risposte": [
+      "Wilson",
+      "Spalding",
+      "Rawlings",
+      "Jackson"
+    ],
+    "curiosita": "Lo dipinge con la sua mano sporca di sangue.",
+    "fatto": "pallone cast away wilson",
+    "fonte": "https://it.wikipedia.org/wiki/Cast_Away",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0117",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale cartone russo ha una bambina vivace e un orso?",
+    "risposte": [
+      "Masha e Orso",
+      "Peppa Pig",
+      "Bluey",
+      "Heidi"
+    ],
+    "curiosita": "È uno dei cartoni più visti su internet.",
+    "fatto": "cartone russo bambina orso masha",
+    "fonte": "https://it.wikipedia.org/wiki/Masha_e_Orso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0118",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "In quale serie TV una ragazza con poteri telecinetici si chiama Eleven?",
+    "risposte": [
+      "Stranger Things",
+      "The Witcher",
+      "Dark",
+      "Lupin"
+    ],
+    "curiosita": "Prende il nome dal numero tatuato sul polso.",
+    "fatto": "serie eleven stranger things",
+    "fonte": "https://it.wikipedia.org/wiki/Stranger_Things",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0119",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quale film del 2023 con Margot Robbie parla di una celebre bambola?",
+    "risposte": [
+      "Barbie",
+      "Oppenheimer",
+      "Wonka",
+      "Elvis"
+    ],
+    "curiosita": "Uscì lo stesso giorno di \"Oppenheimer\": il fenomeno \"Barbenheimer\".",
+    "fatto": "film 2023 bambola barbie",
+    "fonte": "https://it.wikipedia.org/wiki/Barbie_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0120",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "domanda": "Quali piccoli aiutanti gialli sono protagonisti di una saga?",
+    "risposte": [
+      "Minions",
+      "Puffi",
+      "Troll",
+      "Gremlins"
+    ],
+    "curiosita": "Il loro linguaggio è un mix di molte lingue.",
+    "fatto": "aiutanti gialli minions",
+    "fonte": "https://it.wikipedia.org/wiki/Minions",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0121",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il gatto di Geppetto nel film Disney \"Pinocchio\"?",
+    "risposte": [
+      "Figaro",
+      "Felix",
+      "Silvestro",
+      "Tom"
+    ],
+    "curiosita": "Il gatto non compare nel romanzo di Collodi.",
+    "fatto": "gatto di geppetto figaro",
+    "fonte": "https://it.wikipedia.org/wiki/Pinocchio_(film_1940)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0122",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "In quale città vive Clark Kent, alias Superman?",
+    "risposte": [
+      "Metropolis",
+      "Gotham City",
+      "Smallville",
+      "Star City"
+    ],
+    "curiosita": "Smallville è il paese in cui cresce.",
+    "fatto": "citta di superman metropolis",
+    "fonte": "https://it.wikipedia.org/wiki/Metropolis_(fumetto)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0123",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il cane di Dorothy ne \"Il mago di Oz\"?",
+    "risposte": [
+      "Toto",
+      "Rex",
+      "Lassie",
+      "Fido"
+    ],
+    "curiosita": "Fu interpretato da una cagnolina di nome Terry.",
+    "fatto": "cane di dorothy toto",
+    "fonte": "https://it.wikipedia.org/wiki/Il_mago_di_Oz_(film_1939)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0124",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Come si chiama il clown assassino di \"It\"?",
+    "risposte": [
+      "Pennywise",
+      "Joker",
+      "Chucky",
+      "Krusty"
+    ],
+    "curiosita": "Il romanzo è di Stephen King.",
+    "fatto": "clown di it pennywise",
+    "fonte": "https://it.wikipedia.org/wiki/It_(romanzo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0125",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha creato i pupazzi del Muppet Show?",
+    "risposte": [
+      "Jim Henson",
+      "Walt Disney",
+      "Jim Carrey",
+      "Tim Burton"
+    ],
+    "curiosita": "Henson è anche il papà di Kermit.",
+    "fatto": "creatore muppet jim henson",
+    "fonte": "https://it.wikipedia.org/wiki/Jim_Henson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0126",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale serie italiana racconta il dietro le quinte di \"Gli occhi del cuore\"?",
+    "risposte": [
+      "Boris",
+      "Romanzo criminale",
+      "Distretto di polizia",
+      "Medico in famiglia"
+    ],
+    "curiosita": "La frase \"Qui nessuno è innocente\" è entrata nel gergo.",
+    "fatto": "serie italiana dietro le quinte fiction boris",
+    "fonte": "https://it.wikipedia.org/wiki/Boris_(serie_televisiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0127",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale nano di Biancaneve è sempre assonnato?",
+    "risposte": [
+      "Pisolo",
+      "Dotto",
+      "Brontolo",
+      "Mammolo"
+    ],
+    "curiosita": "In inglese è \"Sleepy\".",
+    "fatto": "nano di biancaneve assonnato pisolo",
+    "fonte": "https://it.wikipedia.org/wiki/Biancaneve_e_i_sette_nani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0128",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto il film sudcoreano \"Parasite\"?",
+    "risposte": [
+      "Bong Joon-ho",
+      "Park Chan-wook",
+      "Kim Ki-duk",
+      "Hirokazu Kore-eda"
+    ],
+    "curiosita": "Fu il primo film non in inglese a vincere l'Oscar come miglior film.",
+    "fatto": "regista parasite bong joon ho",
+    "fonte": "https://it.wikipedia.org/wiki/Bong_Joon-ho",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0129",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Guglielmo da Baskerville ne \"Il nome della rosa\"?",
+    "risposte": [
+      "Sean Connery",
+      "Roger Moore",
+      "Michael Caine",
+      "Christopher Lee"
+    ],
+    "curiosita": "Il film del 1986 è tratto dal romanzo di Umberto Eco.",
+    "fatto": "guglielmo da baskerville connery",
+    "fonte": "https://it.wikipedia.org/wiki/Il_nome_della_rosa_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0130",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore romano interpreta \"Il marchese del Grillo\"?",
+    "risposte": [
+      "Alberto Sordi",
+      "Nino Manfredi",
+      "Ugo Tognazzi",
+      "Vittorio Gassman"
+    ],
+    "curiosita": "La sua battuta più famosa è diventata un modo di dire.",
+    "fatto": "marchese del grillo sordi",
+    "fonte": "https://it.wikipedia.org/wiki/Il_marchese_del_Grillo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0131",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film vede Troisi e Benigni finire nel Quattrocento?",
+    "risposte": [
+      "Non ci resta che piangere",
+      "Il postino",
+      "Johnny Stecchino",
+      "Scusate il ritardo"
+    ],
+    "curiosita": "Girato nel 1984, i due lo scrissero insieme.",
+    "fatto": "troisi benigni quattrocento non ci resta che piangere",
+    "fonte": "https://it.wikipedia.org/wiki/Non_ci_resta_che_piangere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0132",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"Amarcord\"?",
+    "risposte": [
+      "Federico Fellini",
+      "Luchino Visconti",
+      "Pier Paolo Pasolini",
+      "Michelangelo Antonioni"
+    ],
+    "curiosita": "Il titolo in romagnolo significa \"mi ricordo\".",
+    "fatto": "regista amarcord fellini",
+    "fonte": "https://it.wikipedia.org/wiki/Amarcord",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0133",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attrice è Holly Golightly in \"Colazione da Tiffany\"?",
+    "risposte": [
+      "Audrey Hepburn",
+      "Grace Kelly",
+      "Marilyn Monroe",
+      "Elizabeth Taylor"
+    ],
+    "curiosita": "La scena iniziale davanti alla gioielleria è celebre.",
+    "fatto": "holly golightly audrey hepburn",
+    "fonte": "https://it.wikipedia.org/wiki/Colazione_da_Tiffany_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0134",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale kolossal del 1959 vinse 11 Oscar come poi \"Titanic\"?",
+    "risposte": [
+      "Ben-Hur",
+      "Cleopatra",
+      "Spartacus",
+      "Quo vadis"
+    ],
+    "curiosita": "La corsa delle bighe è una delle scene più famose.",
+    "fatto": "film 11 oscar 1959 ben hur",
+    "fonte": "https://it.wikipedia.org/wiki/Ben-Hur_(film_1959)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0135",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi ha diretto \"La grande bellezza\"?",
+    "risposte": [
+      "Paolo Sorrentino",
+      "Matteo Garrone",
+      "Gabriele Muccino",
+      "Ferzan Özpetek"
+    ],
+    "curiosita": "Il film è un omaggio a Roma e a \"La dolce vita\".",
+    "fatto": "regista grande bellezza sorrentino",
+    "fonte": "https://it.wikipedia.org/wiki/La_grande_bellezza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0136",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "In quale film Anita Ekberg fa il bagno nella Fontana di Trevi?",
+    "risposte": [
+      "La dolce vita",
+      "Amarcord",
+      "Roma",
+      "8½"
+    ],
+    "curiosita": "La scena fu girata di notte, nel freddo di marzo.",
+    "fatto": "anita ekberg fontana di trevi dolce vita",
+    "fonte": "https://it.wikipedia.org/wiki/La_dolce_vita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0137",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta il vicequestore Rocco Schiavone?",
+    "risposte": [
+      "Marco Giallini",
+      "Luca Zingaretti",
+      "Toni Servillo",
+      "Fabrizio Bentivoglio"
+    ],
+    "curiosita": "Il personaggio nasce dai romanzi di Antonio Manzini.",
+    "fatto": "rocco schiavone attore giallini",
+    "fonte": "https://it.wikipedia.org/wiki/Rocco_Schiavone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0138",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film con Joaquin Phoenix vinse il Leone d'oro nel 2019?",
+    "risposte": [
+      "Joker",
+      "Parasite",
+      "Roma",
+      "1917"
+    ],
+    "curiosita": "Fu il primo film tratto da un fumetto a vincere a Venezia.",
+    "fatto": "leone d oro 2019 joker",
+    "fonte": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0139",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Doc Brown in \"Ritorno al futuro\"?",
+    "risposte": [
+      "Christopher Lloyd",
+      "Michael J. Fox",
+      "Jeff Goldblum",
+      "Bill Murray"
+    ],
+    "curiosita": "Il suo nome di battesimo nel film è Emmett.",
+    "fatto": "doc brown attore christopher lloyd",
+    "fonte": "https://it.wikipedia.org/wiki/Christopher_Lloyd",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0140",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Jack Torrance in \"Shining\"?",
+    "risposte": [
+      "Jack Nicholson",
+      "Robert De Niro",
+      "Al Pacino",
+      "Dustin Hoffman"
+    ],
+    "curiosita": "La frase \"Heeere's Johnny!\" fu improvvisata.",
+    "fatto": "jack torrance shining nicholson",
+    "fonte": "https://it.wikipedia.org/wiki/Shining_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0141",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film Pixar è ambientato nella Terra dei Morti messicana?",
+    "risposte": [
+      "Coco",
+      "Soul",
+      "Onward",
+      "Luca"
+    ],
+    "curiosita": "Il Día de Muertos è la festa al centro della storia.",
+    "fatto": "film pixar terra dei morti coco",
+    "fonte": "https://it.wikipedia.org/wiki/Coco_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0142",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Jep Gambardella ne \"La grande bellezza\"?",
+    "risposte": [
+      "Toni Servillo",
+      "Marco Giallini",
+      "Elio Germano",
+      "Pierfrancesco Favino"
+    ],
+    "curiosita": "Servillo è anche interprete teatrale.",
+    "fatto": "jep gambardella servillo",
+    "fonte": "https://it.wikipedia.org/wiki/Toni_Servillo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0143",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta don Matteo nella serie TV?",
+    "risposte": [
+      "Terence Hill",
+      "Bud Spencer",
+      "Gigi Proietti",
+      "Lino Banfi"
+    ],
+    "curiosita": "Vi va in bicicletta per le strade di Gubbio e Spoleto.",
+    "fatto": "don matteo attore terence hill",
+    "fonte": "https://it.wikipedia.org/wiki/Don_Matteo_(serie_televisiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0144",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale film del 1964 di Sergio Leone lanciò Clint Eastwood?",
+    "risposte": [
+      "Per un pugno di dollari",
+      "Il buono, il brutto",
+      "C'era una volta il West",
+      "Django"
+    ],
+    "curiosita": "Era un remake non dichiarato di un film di Kurosawa.",
+    "fatto": "film leone 1964 eastwood per un pugno di dollari",
+    "fonte": "https://it.wikipedia.org/wiki/Per_un_pugno_di_dollari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0145",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi interpreta Tony Manero ne \"La febbre del sabato sera\"?",
+    "risposte": [
+      "John Travolta",
+      "Patrick Swayze",
+      "Sylvester Stallone",
+      "Richard Gere"
+    ],
+    "curiosita": "L'abito bianco è tra i più imitati di sempre.",
+    "fatto": "tony manero travolta",
+    "fonte": "https://it.wikipedia.org/wiki/La_febbre_del_sabato_sera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0146",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta il boss Tony Soprano?",
+    "risposte": [
+      "James Gandolfini",
+      "Joe Pesci",
+      "Ray Liotta",
+      "Robert De Niro"
+    ],
+    "curiosita": "La serie è andata in onda dal 1999 al 2007.",
+    "fatto": "tony soprano gandolfini",
+    "fonte": "https://it.wikipedia.org/wiki/I_Soprano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0147",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi è detto \"il Principe della risata\"?",
+    "risposte": [
+      "Totò",
+      "Alberto Sordi",
+      "Ugo Tognazzi",
+      "Peppino De Filippo"
+    ],
+    "curiosita": "Era un nobile, almeno secondo i documenti legali.",
+    "fatto": "principe della risata toto",
+    "fonte": "https://it.wikipedia.org/wiki/Totò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0148",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta Johnny Stecchino e il suo sosia?",
+    "risposte": [
+      "Roberto Benigni",
+      "Massimo Troisi",
+      "Carlo Verdone",
+      "Paolo Villaggio"
+    ],
+    "curiosita": "Il film è del 1991.",
+    "fatto": "johnny stecchino benigni",
+    "fonte": "https://it.wikipedia.org/wiki/Johnny_Stecchino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0149",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Chi sono i creatori di \"Tom & Jerry\"?",
+    "risposte": [
+      "Hanna e Barbera",
+      "Walt Disney",
+      "Fleischer",
+      "Warner Bros"
+    ],
+    "curiosita": "Fondarono poi uno studio con il loro nome.",
+    "fatto": "creatori tom e jerry hanna barbera",
+    "fonte": "https://it.wikipedia.org/wiki/Tom_&_Jerry",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0150",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "domanda": "Quale attore interpreta Spider-Man nella trilogia di Sam Raimi?",
+    "risposte": [
+      "Tobey Maguire",
+      "Andrew Garfield",
+      "Tom Holland",
+      "Ryan Gosling"
+    ],
+    "curiosita": "Il primo film uscì nel 2002.",
+    "fatto": "spiderman raimi tobey maguire",
+    "fonte": "https://it.wikipedia.org/wiki/Spider-Man_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0151",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale doppiatore italiano ha dato la voce a Woody in \"Toy Story\"?",
+    "risposte": [
+      "Fabrizio Frizzi",
+      "Claudio Bisio",
+      "Massimo Boldi",
+      "Gerry Scotti"
+    ],
+    "curiosita": "Frizzi è stato anche conduttore televisivo.",
+    "fatto": "voce woody toy story fabrizio frizzi",
+    "fonte": "https://it.wikipedia.org/wiki/Fabrizio_Frizzi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0152",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi è stata la voce storica di Homer Simpson in italiano?",
+    "risposte": [
+      "Tonino Accolla",
+      "Pino Insegno",
+      "Luca Ward",
+      "Roberto Pedicini"
+    ],
+    "curiosita": "Accolla doppiò anche Eddie Murphy.",
+    "fatto": "voce homer simpson tonino accolla",
+    "fonte": "https://it.wikipedia.org/wiki/Tonino_Accolla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0153",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha dato la voce italiana a Rocky Balboa nei primi film?",
+    "risposte": [
+      "Ferruccio Amendola",
+      "Gigi Proietti",
+      "Oreste Lionello",
+      "Ugo Pagliai"
+    ],
+    "curiosita": "Doppiò anche De Niro, Pacino e Dustin Hoffman.",
+    "fatto": "voce italiana rocky amendola",
+    "fonte": "https://it.wikipedia.org/wiki/Ferruccio_Amendola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0154",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attrice interpreta Catwoman in \"Batman - Il ritorno\"?",
+    "risposte": [
+      "Michelle Pfeiffer",
+      "Halle Berry",
+      "Anne Hathaway",
+      "Julie Newmar"
+    ],
+    "curiosita": "Il film è del 1992, diretto da Tim Burton.",
+    "fatto": "catwoman batman il ritorno pfeiffer",
+    "fonte": "https://it.wikipedia.org/wiki/Batman_-_Il_ritorno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0155",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"C'eravamo tanto amati\"?",
+    "risposte": [
+      "Ettore Scola",
+      "Dino Risi",
+      "Mario Monicelli",
+      "Luigi Comencini"
+    ],
+    "curiosita": "Racconta trent'anni di storia italiana attraverso tre amici.",
+    "fatto": "regista ceravamo tanto amati scola",
+    "fonte": "https://it.wikipedia.org/wiki/C'eravamo_tanto_amati",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0156",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Il postino\" con Massimo Troisi?",
+    "risposte": [
+      "Michael Radford",
+      "Massimo Troisi",
+      "Giuseppe Tornatore",
+      "Ettore Scola"
+    ],
+    "curiosita": "Troisi morì poco dopo aver finito le riprese.",
+    "fatto": "regista il postino radford",
+    "fonte": "https://it.wikipedia.org/wiki/Il_postino_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0157",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "In quale film di Spielberg una bambina con il cappotto rosso spicca nel bianco e nero?",
+    "risposte": [
+      "Schindler's List",
+      "Salvate il soldato Ryan",
+      "Il colore viola",
+      "Munich"
+    ],
+    "curiosita": "È l'unico dettaglio a colori in tutto il film.",
+    "fatto": "bambina cappotto rosso schindler",
+    "fonte": "https://it.wikipedia.org/wiki/Schindler's_List",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0158",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Cosa faceva Alfred Hitchcock in quasi tutti i suoi film?",
+    "risposte": [
+      "Una breve comparsa",
+      "Cantava",
+      "Doppiava il cattivo",
+      "Firmava il finale"
+    ],
+    "curiosita": "Compare brevemente, a volte solo di sfuggita.",
+    "fatto": "hitchcock cameo nei film",
+    "fonte": "https://it.wikipedia.org/wiki/Alfred_Hitchcock",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0159",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attore interpretò il conte Dracula nel film del 1931?",
+    "risposte": [
+      "Bela Lugosi",
+      "Boris Karloff",
+      "Christopher Lee",
+      "Vincent Price"
+    ],
+    "curiosita": "Era ungherese e fu sepolto con il mantello di Dracula.",
+    "fatto": "dracula 1931 bela lugosi",
+    "fonte": "https://it.wikipedia.org/wiki/Dracula_(film_1931)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0160",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attore americano interpretò il Principe di Salina ne \"Il Gattopardo\"?",
+    "risposte": [
+      "Burt Lancaster",
+      "Marlon Brando",
+      "Kirk Douglas",
+      "Gregory Peck"
+    ],
+    "curiosita": "Il film di Visconti vinse la Palma d'oro nel 1963.",
+    "fatto": "principe di salina gattopardo lancaster",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Gattopardo_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0161",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di Totò?",
+    "risposte": [
+      "De Curtis",
+      "De Filippo",
+      "Fabrizi",
+      "Rascel"
+    ],
+    "curiosita": "Il nome completo era Antonio Griffo Focas Flavio Angelo Ducas Comneno de Curtis.",
+    "fatto": "vero cognome toto de curtis",
+    "fonte": "https://it.wikipedia.org/wiki/Totò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0162",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Qual è il vero cognome di Terence Hill?",
+    "risposte": [
+      "Girotti",
+      "Pedersoli",
+      "Spencer",
+      "Hill"
+    ],
+    "curiosita": "Il vero nome di Bud Spencer era Carlo Pedersoli.",
+    "fatto": "vero cognome terence hill girotti",
+    "fonte": "https://it.wikipedia.org/wiki/Terence_Hill",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0163",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale regista diresse \"La corazzata Potëmkin\"?",
+    "risposte": [
+      "Sergej Ejzenštejn",
+      "Andrej Tarkovskij",
+      "Dziga Vertov",
+      "Fritz Lang"
+    ],
+    "curiosita": "Nel cinema italiano è nota per la scena di Fantozzi al cineforum.",
+    "fatto": "regista corazzata potemkin ejzenstejn",
+    "fonte": "https://it.wikipedia.org/wiki/La_corazzata_Potëmkin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0164",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film di Fellini prende il titolo da una frazione?",
+    "risposte": [
+      "Otto e mezzo",
+      "Amarcord",
+      "La strada",
+      "Roma"
+    ],
+    "curiosita": "Il titolo conta i film girati dal regista fino ad allora.",
+    "fatto": "film fellini titolo frazione otto e mezzo",
+    "fonte": "https://it.wikipedia.org/wiki/8½",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0165",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi ha diretto \"Il silenzio degli innocenti\"?",
+    "risposte": [
+      "Jonathan Demme",
+      "David Fincher",
+      "Ridley Scott",
+      "Brian De Palma"
+    ],
+    "curiosita": "Vinse i cinque Oscar principali.",
+    "fatto": "regista silenzio degli innocenti demme",
+    "fonte": "https://it.wikipedia.org/wiki/Il_silenzio_degli_innocenti_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0166",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi fu la prima donna a vincere l'Oscar per la regia?",
+    "risposte": [
+      "Kathryn Bigelow",
+      "Jane Campion",
+      "Sofia Coppola",
+      "Greta Gerwig"
+    ],
+    "curiosita": "Vinse nel 2010 con \"The Hurt Locker\".",
+    "fatto": "prima donna oscar regia bigelow",
+    "fonte": "https://it.wikipedia.org/wiki/Kathryn_Bigelow",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0167",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Di che colore è la tuta della Sposa in \"Kill Bill\"?",
+    "risposte": [
+      "Gialla",
+      "Rossa",
+      "Nera",
+      "Blu"
+    ],
+    "curiosita": "È un omaggio a Bruce Lee ne \"L'ultimo combattimento di Chen\".",
+    "fatto": "kill bill tuta gialla",
+    "fonte": "https://it.wikipedia.org/wiki/Kill_Bill",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0168",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi interpreta il cattivo Frank in \"C'era una volta il West\"?",
+    "risposte": [
+      "Henry Fonda",
+      "Charles Bronson",
+      "Lee Van Cleef",
+      "Eli Wallach"
+    ],
+    "curiosita": "Fonda era noto per ruoli da eroe: fu un colpo di scena.",
+    "fatto": "frank c era una volta il west fonda",
+    "fonte": "https://it.wikipedia.org/wiki/C'era_una_volta_il_West",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0169",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Per quale film Ennio Morricone vinse il suo primo Oscar competitivo?",
+    "risposte": [
+      "The Hateful Eight",
+      "Mission",
+      "C'era una volta il West",
+      "Gli intoccabili"
+    ],
+    "curiosita": "Lo vinse nel 2016, a 87 anni.",
+    "fatto": "morricone primo oscar hateful eight",
+    "fonte": "https://it.wikipedia.org/wiki/Ennio_Morricone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0170",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Per quale film Leonardo DiCaprio vinse il suo primo Oscar?",
+    "risposte": [
+      "Revenant - Redivivo",
+      "The Wolf of Wall Street",
+      "Titanic",
+      "Inception"
+    ],
+    "curiosita": "Dopo quattro candidature da attore, lo vinse nel 2016.",
+    "fatto": "dicaprio primo oscar revenant",
+    "fonte": "https://it.wikipedia.org/wiki/Revenant_-_Redivivo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0171",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale fu il primo film italiano a ricevere un Oscar, nel 1947?",
+    "risposte": [
+      "Sciuscià",
+      "Roma città aperta",
+      "Ladri di biciclette",
+      "Paisà"
+    ],
+    "curiosita": "Era un premio onorario, assegnato al film di De Sica.",
+    "fatto": "primo oscar film italiano sciuscia",
+    "fonte": "https://it.wikipedia.org/wiki/Sciuscià",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0172",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "In quale anno nacquero gli studi di Cinecittà?",
+    "risposte": [
+      "1937",
+      "1925",
+      "1950",
+      "1946"
+    ],
+    "curiosita": "Furono inaugurati da Mussolini e distrutti in parte dai bombardamenti.",
+    "fatto": "anno nascita cinecitta 1937",
+    "fonte": "https://it.wikipedia.org/wiki/Cinecittà",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0173",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale film giapponese ispirò \"I magnifici sette\"?",
+    "risposte": [
+      "I sette samurai",
+      "Rashomon",
+      "Ran",
+      "Yojimbo"
+    ],
+    "curiosita": "Fu diretto da Akira Kurosawa nel 1954.",
+    "fatto": "film ispirato magnifici sette samurai",
+    "fonte": "https://it.wikipedia.org/wiki/I_sette_samurai",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0174",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attrice svedese era chiamata \"la Divina\"?",
+    "risposte": [
+      "Greta Garbo",
+      "Ingrid Bergman",
+      "Liv Ullmann",
+      "Anita Ekberg"
+    ],
+    "curiosita": "Si ritirò a 36 anni e non tornò più sul set.",
+    "fatto": "attrice la divina greta garbo",
+    "fonte": "https://it.wikipedia.org/wiki/Greta_Garbo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0175",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale sit-com è ambientata in un bar dove \"tutti conoscono il tuo nome\"?",
+    "risposte": [
+      "Cheers",
+      "Friends",
+      "Frasier",
+      "Seinfeld"
+    ],
+    "curiosita": "Frasier ne è lo spin-off.",
+    "fatto": "sitcom bar tutti conoscono il tuo nome cheers",
+    "fonte": "https://it.wikipedia.org/wiki/Cheers",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0176",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi creò \"Twin Peaks\" insieme a Mark Frost?",
+    "risposte": [
+      "David Lynch",
+      "Tim Burton",
+      "David Cronenberg",
+      "Quentin Tarantino"
+    ],
+    "curiosita": "La domanda \"Chi ha ucciso Laura Palmer?\" tenne il mondo col fiato sospeso.",
+    "fatto": "creatore twin peaks lynch",
+    "fonte": "https://it.wikipedia.org/wiki/Twin_Peaks",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0177",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale programma di Renzo Arbore del 1987 lanciò \"Cacao meravigliao\"?",
+    "risposte": [
+      "Indietro tutta",
+      "Quelli della notte",
+      "Il Pap'occhio",
+      "Doc"
+    ],
+    "curiosita": "Era una parodia dei programmi TV con ballerine brasiliane.",
+    "fatto": "indietro tutta cacao meravigliao arbore",
+    "fonte": "https://it.wikipedia.org/wiki/Indietro_tutta!",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0178",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Quale attrice interpretava Jessica Fletcher ne \"La signora in giallo\"?",
+    "risposte": [
+      "Angela Lansbury",
+      "Maggie Smith",
+      "Judi Dench",
+      "Julie Andrews"
+    ],
+    "curiosita": "Jessica era una scrittrice di gialli che risolveva i casi.",
+    "fatto": "jessica fletcher lansbury",
+    "fonte": "https://it.wikipedia.org/wiki/La_signora_in_giallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0179",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi condusse \"Portobello\", il programma dei pappagalli parlanti?",
+    "risposte": [
+      "Enzo Tortora",
+      "Mike Bongiorno",
+      "Corrado",
+      "Pippo Baudo"
+    ],
+    "curiosita": "Il pappagallo Portobello era la mascotte del programma.",
+    "fatto": "portobello conduttore tortora",
+    "fonte": "https://it.wikipedia.org/wiki/Portobello_(programma_televisivo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cin-0180",
+    "tipo": "classica",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "domanda": "Chi diresse \"Lo chiamavano Trinità\"?",
+    "risposte": [
+      "Enzo Barboni",
+      "Sergio Leone",
+      "Sergio Corbucci",
+      "Damiano Damiani"
+    ],
+    "curiosita": "Firmò il film come E. B. Clucher.",
+    "fatto": "regista lo chiamavano trinita barboni",
+    "fonte": "https://it.wikipedia.org/wiki/Lo_chiamavano_Trinità...",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Torneo_di_Wimbledon",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0016",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Mondiali vinti dall'Italia, dal più antico",
+    "elementi": [
+      "Roma",
+      "Parigi",
+      "Madrid",
+      "Berlino"
+    ],
+    "valori": [
+      "1934",
+      "1938",
+      "1982",
+      "2006"
+    ],
+    "curiosita": "Nel 1938 a Parigi l'Italia batté l'Ungheria 4-2 in finale.",
+    "fatto": "ordine citta finali mondiali italia",
+    "fonte": "https://it.wikipedia.org/wiki/Campionato_mondiale_di_calcio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0017",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Chi ha vinto il Pallone d'oro, dal più antico",
+    "elementi": [
+      "Rivera",
+      "Rossi",
+      "Baggio",
+      "Cannavaro"
+    ],
+    "valori": [
+      "1969",
+      "1982",
+      "1993",
+      "2006"
+    ],
+    "curiosita": "Rivera lo vinse nel 1969, Cannavaro nel 2006 da difensore.",
+    "fatto": "ordine pallone oro italiani",
+    "fonte": "https://it.wikipedia.org/wiki/Pallone_d'oro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0018",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Ori olimpici italiani in atletica, dal più antico",
+    "elementi": [
+      "Pamich",
+      "Mennea",
+      "Baldini",
+      "Jacobs"
+    ],
+    "valori": [
+      "1964",
+      "1980",
+      "2004",
+      "2021"
+    ],
+    "curiosita": "Jacobs e Tamberi vinsero i loro ori a pochi minuti l'uno dall'altro.",
+    "fatto": "ordine ori olimpici atletica italia",
+    "fonte": "https://it.wikipedia.org/wiki/Atletica_leggera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0019",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Campioni di Formula 1, dal più antico",
+    "elementi": [
+      "Farina",
+      "Fangio",
+      "Ascari",
+      "Hawthorn"
+    ],
+    "valori": [
+      "1950",
+      "1951",
+      "1952",
+      "1958"
+    ],
+    "curiosita": "Hawthorn fu il primo britannico a vincere il Mondiale di F1.",
+    "fatto": "ordine campioni formula 1 anni cinquanta",
+    "fonte": "https://it.wikipedia.org/wiki/Formula_1",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0020",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Palline degli sport, dalla più piccola",
+    "elementi": [
+      "Ping-pong",
+      "Golf",
+      "Tennis",
+      "Baseball"
+    ],
+    "valori": [
+      "4 cm",
+      "4,3 cm",
+      "6,7 cm",
+      "7,4 cm"
+    ],
+    "curiosita": "La pallina da ping-pong pesa appena 2,7 grammi.",
+    "fatto": "ordine diametro palline sport",
+    "fonte": "https://it.wikipedia.org/wiki/Sport",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0021",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Durata regolare di una partita, dalla più breve",
+    "elementi": [
+      "Basket",
+      "Football americano",
+      "Rugby",
+      "Calcio"
+    ],
+    "valori": [
+      "40 minuti",
+      "60 minuti",
+      "80 minuti",
+      "90 minuti"
+    ],
+    "curiosita": "In NBA un incontro dura 48 minuti, non 40.",
+    "fatto": "ordine durata partite sport",
+    "fonte": "https://it.wikipedia.org/wiki/Sport",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0022",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 3,
+    "criterio": "Altezza della rete, dalla più bassa",
+    "elementi": [
+      "Ping-pong",
+      "Tennis",
+      "Badminton",
+      "Pallavolo donne"
+    ],
+    "valori": [
+      "15,25 cm",
+      "91,4 cm",
+      "1,55 m",
+      "2,24 m"
+    ],
+    "curiosita": "La rete del tennis è più alta ai lati che al centro.",
+    "fatto": "ordine altezza reti sport",
+    "fonte": "https://it.wikipedia.org/wiki/Sport",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0023",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Calciatori azzurri, dal più anziano per nascita",
+    "elementi": [
+      "Baggio",
+      "Totti",
+      "Buffon",
+      "Pirlo"
+    ],
+    "valori": [
+      "1967",
+      "1976",
+      "1978",
+      "1979"
+    ],
+    "curiosita": "Totti, Buffon e Pirlo vinsero il Mondiale 2006, ma Baggio no.",
+    "fatto": "ordine calciatori anno nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_(sport)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0024",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 2,
+    "criterio": "Olimpiadi estive fuori Europa, dalla più antica",
+    "elementi": [
+      "Melbourne",
+      "Tokyo",
+      "Città del Messico",
+      "Montréal"
+    ],
+    "valori": [
+      "1956",
+      "1964",
+      "1968",
+      "1976"
+    ],
+    "curiosita": "Nel 1956 le gare equestri si tennero a Stoccolma per la quarantena.",
+    "fatto": "ordine olimpiadi fuori europa",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-spo-0025",
+    "tipo": "ordine",
+    "categoria": "sport",
+    "difficolta": 1,
+    "criterio": "Tornei del Grande Slam, da gennaio a settembre",
+    "elementi": [
+      "Australian Open",
+      "Roland Garros",
+      "Wimbledon",
+      "US Open"
+    ],
+    "valori": [
+      "Gennaio",
+      "Maggio",
+      "Giugno",
+      "Agosto"
+    ],
+    "curiosita": "L'Australian Open è il primo Slam dell'anno, l'US Open l'ultimo.",
+    "fatto": "ordine calendario slam tennis",
+    "fonte": "https://it.wikipedia.org/wiki/Tennis",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

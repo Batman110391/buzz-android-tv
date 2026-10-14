@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Invenzione",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0016",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Trattati, dal più antico al più recente",
+    "elementi": [
+      "Magna Carta",
+      "Tordesillas",
+      "Vestfalia",
+      "Versailles"
+    ],
+    "valori": [
+      "1215",
+      "1494",
+      "1648",
+      "1919"
+    ],
+    "curiosita": "Il trattato di Vestfalia chiuse la guerra dei Trent'anni.",
+    "fatto": "ordine trattati magna carta tordesillas vestfalia versailles",
+    "fonte": "https://it.wikipedia.org/wiki/Trattato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0017",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Imprese del volo e dello spazio, dalla più antica",
+    "elementi": [
+      "Fratelli Wright",
+      "Lindbergh",
+      "Gagarin",
+      "Armstrong"
+    ],
+    "valori": [
+      "1903",
+      "1927",
+      "1961",
+      "1969"
+    ],
+    "curiosita": "Gagarin e Armstrong distano solo otto anni.",
+    "fatto": "ordine imprese volo wright lindbergh gagarin armstrong",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_dell'aviazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0018",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Personaggi, per anno di morte",
+    "elementi": [
+      "Giulio Cesare",
+      "Augusto",
+      "Carlo Magno",
+      "Napoleone"
+    ],
+    "valori": [
+      "44 a.C.",
+      "14 d.C.",
+      "814",
+      "1821"
+    ],
+    "curiosita": "Napoleone morì a Sant'Elena, Cesare alle idi di marzo.",
+    "fatto": "ordine morte cesare augusto carlo magno napoleone",
+    "fonte": "https://it.wikipedia.org/wiki/Storia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0019",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Grandi viaggi, dal più antico al più recente",
+    "elementi": [
+      "Colombo in America",
+      "Gama in India",
+      "Magellano parte",
+      "Cook in Australia"
+    ],
+    "valori": [
+      "1492",
+      "1498",
+      "1519",
+      "1770"
+    ],
+    "curiosita": "Del viaggio di Magellano tornò una sola nave.",
+    "fatto": "ordine viaggi colombo gama magellano cook",
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0020",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Presidenti della Repubblica, per anno di elezione",
+    "elementi": [
+      "Einaudi",
+      "Gronchi",
+      "Pertini",
+      "Mattarella"
+    ],
+    "valori": [
+      "1948",
+      "1955",
+      "1978",
+      "2015"
+    ],
+    "curiosita": "Pertini fu eletto con una maggioranza record.",
+    "fatto": "ordine presidenti repubblica einaudi gronchi pertini mattarella",
+    "fonte": "https://it.wikipedia.org/wiki/Presidenti_della_Repubblica_Italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0021",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Invenzioni industriali, dalla più antica",
+    "elementi": [
+      "Macchina di Watt",
+      "Locomotiva Rocket",
+      "Telegrafo di Morse",
+      "Lampadina di Edison"
+    ],
+    "valori": [
+      "1769",
+      "1829",
+      "1837",
+      "1879"
+    ],
+    "curiosita": "La Rocket di Stephenson correva a circa 50 km/h.",
+    "fatto": "ordine invenzioni industriali watt rocket morse edison",
+    "fonte": "https://it.wikipedia.org/wiki/Rivoluzione_industriale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0022",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Eventi della Guerra fredda, dal più antico",
+    "elementi": [
+      "Ponte aereo di Berlino",
+      "Guerra di Corea",
+      "Costruzione del Muro",
+      "Crisi dei missili"
+    ],
+    "valori": [
+      "1948",
+      "1950",
+      "1961",
+      "1962"
+    ],
+    "curiosita": "Il Muro di Berlino cadde 28 anni dopo la costruzione.",
+    "fatto": "ordine guerra fredda ponte aereo corea muro missili",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_fredda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0023",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Battaglie antiche, dalla più antica",
+    "elementi": [
+      "Maratona",
+      "Peloponneso",
+      "Gaugamela",
+      "Canne"
+    ],
+    "valori": [
+      "490 a.C.",
+      "431 a.C.",
+      "331 a.C.",
+      "216 a.C."
+    ],
+    "curiosita": "Il Peloponneso fu una guerra di quasi trent'anni.",
+    "fatto": "ordine battaglie antiche maratona peloponneso gaugamela canne",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_antica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0024",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 2,
+    "criterio": "Olimpiadi estive, dalla più lontana nel tempo",
+    "elementi": [
+      "Atene",
+      "Londra",
+      "Roma",
+      "Mosca"
+    ],
+    "valori": [
+      "1896",
+      "1908",
+      "1960",
+      "1980"
+    ],
+    "curiosita": "A Roma 1960 la maratona finì sotto l'Arco di Costantino.",
+    "fatto": "ordine olimpiadi sedi atene londra roma mosca",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sto-0025",
+    "tipo": "ordine",
+    "categoria": "storia",
+    "difficolta": 3,
+    "criterio": "Voto alle donne, dal Paese che lo diede prima",
+    "elementi": [
+      "Nuova Zelanda",
+      "Germania",
+      "Italia",
+      "Svizzera"
+    ],
+    "valori": [
+      "1893",
+      "1918",
+      "1945",
+      "1971"
+    ],
+    "curiosita": "La Svizzera fu tra gli ultimi in Europa.",
+    "fatto": "ordine voto donne nuova zelanda germania italia svizzera",
+    "fonte": "https://it.wikipedia.org/wiki/Suffragio_femminile",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

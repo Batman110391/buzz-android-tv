@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Noce_moscata",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0031",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale frutto è giallo e curvo?",
+    "risposte": [
+      "Banana",
+      "Limone",
+      "Ananas",
+      "Mango"
+    ],
+    "curiosita": "La banana è in realtà una bacca, mentre la fragola non lo è.",
+    "fatto": "frutto giallo curvo banana",
+    "fonte": "https://it.wikipedia.org/wiki/Frutta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0032",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Come si chiama il succo di arance appena spremute?",
+    "risposte": [
+      "Spremuta",
+      "Centrifuga",
+      "Frullato",
+      "Nettare"
+    ],
+    "curiosita": "La spremuta perde vitamina C se la si lascia a lungo all'aria.",
+    "fatto": "succo arance spremuta",
+    "fonte": "https://it.wikipedia.org/wiki/Arancia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0033",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Che sapore ha il limone?",
+    "risposte": [
+      "Aspro",
+      "Dolce",
+      "Salato",
+      "Amaro"
+    ],
+    "curiosita": "Il limone è ricco di acido citrico.",
+    "fatto": "limone sapore aspro",
+    "fonte": "https://it.wikipedia.org/wiki/Limone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0034",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pasta sottilissima ricorda i capelli d'angelo?",
+    "risposte": [
+      "Capellini",
+      "Linguine",
+      "Bucatini",
+      "Tagliolini"
+    ],
+    "curiosita": "I capellini cuociono in appena tre minuti.",
+    "fatto": "pasta capelli d angelo capellini",
+    "fonte": "https://it.wikipedia.org/wiki/Pasta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0035",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Su quale dolce si mettono le candeline?",
+    "risposte": [
+      "Torta",
+      "Panettone",
+      "Colomba",
+      "Pastiera"
+    ],
+    "curiosita": "Le candeline sul dolce di compleanno sono una tradizione tedesca dell'Ottocento.",
+    "fatto": "candeline compleanno torta",
+    "fonte": "https://it.wikipedia.org/wiki/Torta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0036",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di quale Paese è tipico lo champagne?",
+    "risposte": [
+      "Francia",
+      "Italia",
+      "Spagna",
+      "Belgio"
+    ],
+    "curiosita": "Può chiamarsi champagne solo lo spumante della regione della Champagne.",
+    "fatto": "champagne paese francia",
+    "fonte": "https://it.wikipedia.org/wiki/Champagne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0037",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Cosa si versa di solito sui cereali a colazione?",
+    "risposte": [
+      "Latte",
+      "Succo",
+      "Tè",
+      "Acqua"
+    ],
+    "curiosita": "Il latte di mucca contiene circa l'87% di acqua.",
+    "fatto": "cereali colazione latte",
+    "fonte": "https://it.wikipedia.org/wiki/Latte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0038",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale spezia si macina sulla pasta e sulla carne?",
+    "risposte": [
+      "Pepe",
+      "Cannella",
+      "Paprika",
+      "Zafferano"
+    ],
+    "curiosita": "Un tempo il pepe valeva quanto l'oro e si usava come moneta.",
+    "fatto": "pepe macinato spezia",
+    "fonte": "https://it.wikipedia.org/wiki/Pepe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0039",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale cereale si trova nei corn flakes?",
+    "risposte": [
+      "Mais",
+      "Orzo",
+      "Avena",
+      "Riso"
+    ],
+    "curiosita": "I corn flakes nacquero nel 1894 in un sanatorio del Michigan.",
+    "fatto": "corn flakes cereale mais",
+    "fonte": "https://it.wikipedia.org/wiki/Cereale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0040",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale insalata ha il nome che richiama il latte?",
+    "risposte": [
+      "Lattuga",
+      "Rucola",
+      "Radicchio",
+      "Valeriana"
+    ],
+    "curiosita": "Il nome latino \"lactuca\" viene dal liquido bianco che esce dal gambo.",
+    "fatto": "lattuga nome latte",
+    "fonte": "https://it.wikipedia.org/wiki/Lattuga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0041",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale riso profumato è tipico dell'India?",
+    "risposte": [
+      "Basmati",
+      "Carnaroli",
+      "Arborio",
+      "Vialone"
+    ],
+    "curiosita": "Basmati significa \"profumato\" in hindi.",
+    "fatto": "riso profumato india basmati",
+    "fonte": "https://it.wikipedia.org/wiki/Riso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0042",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiama il tè fermentato dalle foglie scure?",
+    "risposte": [
+      "Tè nero",
+      "Tè verde",
+      "Tè bianco",
+      "Matcha"
+    ],
+    "curiosita": "Tè nero e tè verde vengono dalla stessa pianta, la Camellia sinensis.",
+    "fatto": "te nero fermentato",
+    "fonte": "https://it.wikipedia.org/wiki/Tè",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0043",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Da quale frutto si ottiene il sidro?",
+    "risposte": [
+      "Mele",
+      "Pere",
+      "Uva",
+      "Ciliegie"
+    ],
+    "curiosita": "In Normandia e in Inghilterra il sidro è più diffuso del vino.",
+    "fatto": "sidro frutto mele",
+    "fonte": "https://it.wikipedia.org/wiki/Sidro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0044",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale regione è l'oliva taggiasca?",
+    "risposte": [
+      "Liguria",
+      "Toscana",
+      "Puglia",
+      "Sicilia"
+    ],
+    "curiosita": "Prende il nome da Taggia, vicino a Sanremo.",
+    "fatto": "oliva taggiasca regione",
+    "fonte": "https://it.wikipedia.org/wiki/Oliva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0045",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale cioccolato ha più cacao?",
+    "risposte": [
+      "Fondente",
+      "Al latte",
+      "Bianco",
+      "Gianduia"
+    ],
+    "curiosita": "Il cioccolato fondente più puro può superare il 90% di cacao.",
+    "fatto": "cioccolato piu cacao fondente",
+    "fonte": "https://it.wikipedia.org/wiki/Cioccolato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0046",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è la birra scura Guinness?",
+    "risposte": [
+      "Irlanda",
+      "Scozia",
+      "Inghilterra",
+      "Belgio"
+    ],
+    "curiosita": "La Guinness è prodotta a Dublino dal 1759.",
+    "fatto": "guinness paese irlanda",
+    "fonte": "https://it.wikipedia.org/wiki/Guinness",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0047",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale isola è la torta Caprese?",
+    "risposte": [
+      "Capri",
+      "Ischia",
+      "Procida",
+      "Sicilia"
+    ],
+    "curiosita": "Si dice che nacque per errore, quando un pasticcere dimenticò di mettere la farina.",
+    "fatto": "torta caprese capri",
+    "fonte": "https://it.wikipedia.org/wiki/Torta_caprese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0048",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale pasta larga si serve con il ragù di cinghiale?",
+    "risposte": [
+      "Pappardelle",
+      "Spaghetti",
+      "Penne",
+      "Tortiglioni"
+    ],
+    "curiosita": "Le pappardelle sono tipiche della Toscana.",
+    "fatto": "pappardelle ragu cinghiale",
+    "fonte": "https://it.wikipedia.org/wiki/Pasta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0049",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quanti gradi alcolici ha di solito un vino da pasto?",
+    "risposte": [
+      "12 gradi",
+      "5 gradi",
+      "20 gradi",
+      "30 gradi"
+    ],
+    "curiosita": "I vini fortificati come il Marsala arrivano a 18-20 gradi.",
+    "fatto": "gradazione alcolica vino 12",
+    "fonte": "https://it.wikipedia.org/wiki/Vino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0050",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Che cosa si aggiunge all'espresso per farlo macchiato?",
+    "risposte": [
+      "Un po' di latte",
+      "Panna montata",
+      "Cioccolato",
+      "Sciroppo"
+    ],
+    "curiosita": "Il caffè viene \"macchiato\" da un goccio di latte, non il contrario.",
+    "fatto": "espresso macchiato aggiunta latte",
+    "fonte": "https://it.wikipedia.org/wiki/Caffè",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0051",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Di quale regione è Gragnano, città della pasta?",
+    "risposte": [
+      "Campania",
+      "Puglia",
+      "Lazio",
+      "Sicilia"
+    ],
+    "curiosita": "La pasta di Gragnano ha un marchio IGP.",
+    "fatto": "gragnano pasta regione",
+    "fonte": "https://it.wikipedia.org/wiki/Gragnano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0052",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale spezia è la più costosa dopo lo zafferano?",
+    "risposte": [
+      "Vaniglia",
+      "Cardamomo",
+      "Cannella",
+      "Zenzero"
+    ],
+    "curiosita": "Le orchidee di vaniglia vengono impollinate a mano, una per una.",
+    "fatto": "vaniglia seconda spezia costosa",
+    "fonte": "https://it.wikipedia.org/wiki/Vaniglia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0053",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale residuo dell'uva si distilla la grappa?",
+    "risposte": [
+      "Le vinacce",
+      "I raspi",
+      "Le foglie",
+      "I mosti"
+    ],
+    "curiosita": "Le vinacce sono bucce e semi che restano dopo la pigiatura.",
+    "fatto": "grappa vinacce distillazione",
+    "fonte": "https://it.wikipedia.org/wiki/Grappa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0054",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale crema di sesamo si unisce ai ceci nell'hummus?",
+    "risposte": [
+      "Tahina",
+      "Harissa",
+      "Skyr",
+      "Guacamole"
+    ],
+    "curiosita": "La tahina è una pasta di semi di sesamo tostati.",
+    "fatto": "hummus tahina sesamo",
+    "fonte": "https://it.wikipedia.org/wiki/Hummus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0055",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Con che cosa si prepara un roux?",
+    "risposte": [
+      "Burro e farina",
+      "Olio e aceto",
+      "Uova e latte",
+      "Panna e zucchero"
+    ],
+    "curiosita": "Il roux serve a legare salse come la besciamella.",
+    "fatto": "roux burro farina",
+    "fonte": "https://it.wikipedia.org/wiki/Besciamella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0056",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale ciliegia si distilla il maraschino?",
+    "risposte": [
+      "Marasca",
+      "Amarena",
+      "Duroncina",
+      "Visciola"
+    ],
+    "curiosita": "Il maraschino nasce a Zara, in Dalmazia.",
+    "fatto": "maraschino marasca ciliegia",
+    "fonte": "https://it.wikipedia.org/wiki/Maraschino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0057",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale derivato del latte si ricava il mascarpone?",
+    "risposte": [
+      "Panna",
+      "Siero",
+      "Latte scremato",
+      "Caglio"
+    ],
+    "curiosita": "Il mascarpone nasce in Lombardia, tra Lodi e Abbiategrasso.",
+    "fatto": "mascarpone derivato panna",
+    "fonte": "https://it.wikipedia.org/wiki/Mascarpone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0058",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale parte del maiale si riempie per fare lo zampone?",
+    "risposte": [
+      "Zampa anteriore",
+      "Zampa posteriore",
+      "Orecchio",
+      "Coda"
+    ],
+    "curiosita": "Secondo la tradizione nacque a Mirandola nel 1511, durante un assedio.",
+    "fatto": "zampone parte maiale zampa",
+    "fonte": "https://it.wikipedia.org/wiki/Zampone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0059",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale ortaggio è protagonista della caponata siciliana?",
+    "risposte": [
+      "Melanzana",
+      "Zucchina",
+      "Peperone",
+      "Carciofo"
+    ],
+    "curiosita": "Alla caponata si aggiungono sedano, olive, capperi e agrodolce.",
+    "fatto": "caponata ortaggio melanzana",
+    "fonte": "https://it.wikipedia.org/wiki/Caponata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cuc-0060",
+    "tipo": "lampo",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale celebre formaggio erborinato è inglese?",
+    "risposte": [
+      "Stilton",
+      "Roquefort",
+      "Gorgonzola",
+      "Danablu"
+    ],
+    "curiosita": "Lo Stilton può chiamarsi così solo se prodotto in tre contee inglesi.",
+    "fatto": "stilton formaggio inglese",
+    "fonte": "https://it.wikipedia.org/wiki/Stilton",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

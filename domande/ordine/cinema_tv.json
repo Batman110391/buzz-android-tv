@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Televisione_in_Italia",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0016",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "criterio": "Dal film Marvel più vecchio al più recente",
+    "elementi": [
+      "Iron Man",
+      "Avengers",
+      "Black Panther",
+      "Avengers: Endgame"
+    ],
+    "valori": [
+      "2008",
+      "2012",
+      "2018",
+      "2019"
+    ],
+    "curiosita": "Iron Man diede il via al Marvel Cinematic Universe.",
+    "fatto": "film marvel iron man avengers black panther endgame",
+    "fonte": "https://it.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0017",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal film vincitore più vecchio al più nuovo",
+    "elementi": [
+      "Via col vento",
+      "Casablanca",
+      "Ben-Hur",
+      "Titanic"
+    ],
+    "valori": [
+      "1939",
+      "1942",
+      "1959",
+      "1997"
+    ],
+    "curiosita": "Casablanca è quasi interamente girato in studio.",
+    "fatto": "film oscar via col vento casablanca ben hur titanic",
+    "fonte": "https://it.wikipedia.org/wiki/Premi_Oscar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0018",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal film con meno Oscar al più premiato",
+    "elementi": [
+      "Il padrino",
+      "Schindler's List",
+      "Via col vento",
+      "Ben-Hur"
+    ],
+    "valori": [
+      "3",
+      "7",
+      "8",
+      "11"
+    ],
+    "curiosita": "Ben-Hur arrivò a 11 statuette, un record poi eguagliato due volte.",
+    "fatto": "film oscar vinti padrino schindler vento ben hur",
+    "fonte": "https://it.wikipedia.org/wiki/Premi_Oscar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0019",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal conduttore TV nato prima al più giovane",
+    "elementi": [
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Raffaella Carrà",
+      "Fiorello"
+    ],
+    "valori": [
+      "1924",
+      "1936",
+      "1943",
+      "1960"
+    ],
+    "curiosita": "Mike Bongiorno è nato a New York.",
+    "fatto": "conduttori tv nascita bongiorno baudo carra fiorello",
+    "fonte": "https://it.wikipedia.org/wiki/Mike_Bongiorno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0020",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dalla serie italiana più vecchia alla più nuova",
+    "elementi": [
+      "La piovra",
+      "Montalbano",
+      "Don Matteo",
+      "Gomorra"
+    ],
+    "valori": [
+      "1984",
+      "1999",
+      "2000",
+      "2014"
+    ],
+    "curiosita": "La piovra è stata venduta in oltre cento paesi.",
+    "fatto": "serie tv italiane piovra montalbano don matteo gomorra",
+    "fonte": "https://it.wikipedia.org/wiki/La_piovra_(serie_televisiva)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0021",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal film più breve al più lungo",
+    "elementi": [
+      "Il mago di Oz",
+      "Titanic",
+      "Il ritorno del re",
+      "Via col vento"
+    ],
+    "valori": [
+      "101 min",
+      "194 min",
+      "201 min",
+      "238 min"
+    ],
+    "curiosita": "Le durate variano di poco secondo le edizioni.",
+    "fatto": "durata film mago di oz titanic ritorno del re via col vento",
+    "fonte": "https://it.wikipedia.org/wiki/Via_col_vento_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0022",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal personaggio Disney nato prima al più recente",
+    "elementi": [
+      "Topolino",
+      "Pluto",
+      "Paperino",
+      "Cip e Ciop"
+    ],
+    "valori": [
+      "1928",
+      "1930",
+      "1934",
+      "1943"
+    ],
+    "curiosita": "Topolino debuttò con \"Steamboat Willie\".",
+    "fatto": "personaggi disney nascita topolino pluto paperino cip ciop",
+    "fonte": "https://it.wikipedia.org/wiki/Topolino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0023",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dal festival del cinema nato prima al più recente",
+    "elementi": [
+      "Venezia",
+      "Cannes",
+      "Berlino",
+      "Sundance"
+    ],
+    "valori": [
+      "1932",
+      "1946",
+      "1951",
+      "1978"
+    ],
+    "curiosita": "Venezia è il più antico festival cinematografico del mondo.",
+    "fatto": "festival cinema venezia cannes berlino sundance",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0024",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "criterio": "Dall'attrice nata prima alla più giovane",
+    "elementi": [
+      "Gina Lollobrigida",
+      "Audrey Hepburn",
+      "Sophia Loren",
+      "Claudia Cardinale"
+    ],
+    "valori": [
+      "1927",
+      "1929",
+      "1934",
+      "1938"
+    ],
+    "curiosita": "Tre su quattro sono italiane, Hepburn è belga-britannica.",
+    "fatto": "attrici nascita lollobrigida hepburn loren cardinale",
+    "fonte": "https://it.wikipedia.org/wiki/Sophia_Loren",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cin-0025",
+    "tipo": "ordine",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "criterio": "Dal film di Benigni più vecchio al più recente",
+    "elementi": [
+      "Non ci resta che...",
+      "Johnny Stecchino",
+      "Il mostro",
+      "La vita è bella"
+    ],
+    "valori": [
+      "1984",
+      "1991",
+      "1994",
+      "1997"
+    ],
+    "curiosita": "Con \"La vita è bella\" Benigni vinse due Oscar.",
+    "fatto": "film benigni anni piangere stecchino mostro vita bella",
+    "fonte": "https://it.wikipedia.org/wiki/Roberto_Benigni",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

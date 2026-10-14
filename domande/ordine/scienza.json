@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Storia_della_scienza",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0016",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Ossa del corpo, dalla più corta alla più lunga",
+    "elementi": [
+      "Staffa",
+      "Rotula",
+      "Omero",
+      "Femore"
+    ],
+    "valori": [
+      "~3 mm",
+      "~5 cm",
+      "~30 cm",
+      "~48 cm"
+    ],
+    "curiosita": "Il femore è l'osso più lungo e robusto del corpo.",
+    "fatto": "ordine ossa staffa rotula omero femore",
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0017",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Durata dell'anno sui pianeti, dalla più breve",
+    "elementi": [
+      "Marte",
+      "Giove",
+      "Saturno",
+      "Nettuno"
+    ],
+    "valori": [
+      "687 giorni",
+      "~12 anni",
+      "~29 anni",
+      "~165 anni"
+    ],
+    "curiosita": "Nettuno ha compiuto il primo giro dalla scoperta nel 2011.",
+    "fatto": "ordine anno pianeti marte giove saturno nettuno",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0018",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Velocità, dalla più lenta alla più veloce",
+    "elementi": [
+      "Passo di un adulto",
+      "Frecciarossa",
+      "Suono nell'aria",
+      "Luce nel vuoto"
+    ],
+    "valori": [
+      "5 km/h",
+      "300 km/h",
+      "1.235 km/h",
+      "1,08 mld km/h"
+    ],
+    "curiosita": "La luce fa sette volte e mezzo il giro della Terra in un secondo.",
+    "fatto": "ordine velocita passo treno suono luce",
+    "fonte": "https://it.wikipedia.org/wiki/Velocit%C3%A0",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0019",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Scoperte mediche, dalla più antica",
+    "elementi": [
+      "Vaccino di Jenner",
+      "Raggi X",
+      "Penicillina",
+      "Trapianto di cuore"
+    ],
+    "valori": [
+      "1796",
+      "1895",
+      "1928",
+      "1967"
+    ],
+    "curiosita": "Il primo trapianto di cuore fu eseguito in Sudafrica.",
+    "fatto": "ordine scoperte mediche jenner raggi x penicillina cuore",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_medicina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0020",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Metalli, dal punto di fusione più basso",
+    "elementi": [
+      "Mercurio",
+      "Stagno",
+      "Ferro",
+      "Tungsteno"
+    ],
+    "valori": [
+      "-39 °C",
+      "232 °C",
+      "1.538 °C",
+      "3.422 °C"
+    ],
+    "curiosita": "Il mercurio è liquido già a temperatura ambiente.",
+    "fatto": "ordine metalli punto fusione mercurio stagno ferro tungsteno",
+    "fonte": "https://it.wikipedia.org/wiki/Punto_di_fusione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0021",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Distanze dalla Terra, dalla più vicina",
+    "elementi": [
+      "Luna",
+      "Sole",
+      "Proxima Centauri",
+      "Andromeda"
+    ],
+    "valori": [
+      "384.000 km",
+      "150 mln km",
+      "4,2 anni luce",
+      "2,5 mln a.l."
+    ],
+    "curiosita": "La luce della Luna ci arriva in poco più di un secondo.",
+    "fatto": "ordine distanze luna sole proxima andromeda",
+    "fonte": "https://it.wikipedia.org/wiki/Anno_luce",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0022",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "criterio": "Memoria dei computer, dalla più piccola",
+    "elementi": [
+      "Byte",
+      "Kilobyte",
+      "Megabyte",
+      "Gigabyte"
+    ],
+    "valori": [
+      "8 bit",
+      "10³ byte",
+      "10⁶ byte",
+      "10⁹ byte"
+    ],
+    "curiosita": "Un byte basta per memorizzare una lettera.",
+    "fatto": "ordine memoria byte kilobyte megabyte gigabyte",
+    "fonte": "https://it.wikipedia.org/wiki/Byte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0023",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Elementi della crosta terrestre, dal più comune",
+    "elementi": [
+      "Ossigeno",
+      "Silicio",
+      "Alluminio",
+      "Ferro"
+    ],
+    "valori": [
+      "~46%",
+      "~28%",
+      "~8%",
+      "~5%"
+    ],
+    "curiosita": "Il silicio è alla base di sabbia e vetro.",
+    "fatto": "ordine abbondanza elementi crosta ossigeno silicio alluminio ferro",
+    "fonte": "https://it.wikipedia.org/wiki/Crosta_terrestre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0024",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "criterio": "Ere geologiche, dalla più antica",
+    "elementi": [
+      "Precambriano",
+      "Paleozoico",
+      "Mesozoico",
+      "Cenozoico"
+    ],
+    "valori": [
+      "4.600 mln anni",
+      "541 mln anni",
+      "252 mln anni",
+      "66 mln anni"
+    ],
+    "curiosita": "I dinosauri vissero nel Mesozoico.",
+    "fatto": "ordine ere geologiche precambriano paleozoico mesozoico cenozoico",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_dei_tempi_geologici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-sci-0025",
+    "tipo": "ordine",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "criterio": "Premi Nobel, dal più antico",
+    "elementi": [
+      "Röntgen",
+      "Marie Curie",
+      "Einstein",
+      "Enrico Fermi"
+    ],
+    "valori": [
+      "1901",
+      "1903",
+      "1921",
+      "1938"
+    ],
+    "curiosita": "Röntgen vinse il primo Nobel per la fisica della storia.",
+    "fatto": "ordine nobel fisica rontgen curie einstein fermi",
+    "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_fisica",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

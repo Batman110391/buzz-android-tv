@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Storia_dell'arte",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0016",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Opere di Leonardo, dalla più antica",
+    "elementi": [
+      "Annunciazione",
+      "Adorazione dei Magi",
+      "Ultima Cena",
+      "Gioconda"
+    ],
+    "valori": [
+      "c. 1472",
+      "c. 1481",
+      "c. 1495",
+      "c. 1503"
+    ],
+    "curiosita": "Leonardo portò la Gioconda con sé in Francia, dove morì nel 1519.",
+    "fatto": "ordine opere leonardo",
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0017",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Romanzi di Calvino, dal più antico",
+    "elementi": [
+      "Sentiero nidi di ragno",
+      "Il visconte dimezzato",
+      "Il barone rampante",
+      "Cavaliere inesistente"
+    ],
+    "valori": [
+      "1947",
+      "1952",
+      "1957",
+      "1959"
+    ],
+    "curiosita": "Gli ultimi tre formano la trilogia \"I nostri antenati\".",
+    "fatto": "ordine romanzi calvino",
+    "fonte": "https://it.wikipedia.org/wiki/Italo_Calvino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0018",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Libri di Harry Potter, dal primo",
+    "elementi": [
+      "La pietra filosofale",
+      "La camera dei segreti",
+      "Prigioniero di Azkaban",
+      "Il calice di fuoco"
+    ],
+    "valori": [
+      "1997",
+      "1998",
+      "1999",
+      "2000"
+    ],
+    "curiosita": "Il primo libro fu rifiutato da una dozzina di editori.",
+    "fatto": "ordine libri harry potter",
+    "fonte": "https://it.wikipedia.org/wiki/Harry_Potter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0019",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Pittori italiani del Novecento, dal più anziano",
+    "elementi": [
+      "Boccioni",
+      "De Chirico",
+      "Morandi",
+      "Fontana"
+    ],
+    "valori": [
+      "1882",
+      "1888",
+      "1890",
+      "1899"
+    ],
+    "curiosita": "De Chirico nacque in Grecia e Fontana in Argentina, da genitori italiani.",
+    "fatto": "ordine pittori novecento nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Pittura_del_XX_secolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0020",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Monumenti di Roma antica, dal più antico",
+    "elementi": [
+      "Colosseo",
+      "Pantheon",
+      "Terme di Caracalla",
+      "Arco di Costantino"
+    ],
+    "valori": [
+      "80 d.C.",
+      "126 d.C.",
+      "216 d.C.",
+      "315 d.C."
+    ],
+    "curiosita": "La cupola del Pantheon è ancora la più grande in calcestruzzo non armato.",
+    "fatto": "ordine monumenti roma antica",
+    "fonte": "https://it.wikipedia.org/wiki/Roma_antica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0021",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Cattedrali, dalla più antica per fondazione",
+    "elementi": [
+      "Duomo di Pisa",
+      "Notre-Dame",
+      "Duomo di Milano",
+      "Sagrada Família"
+    ],
+    "valori": [
+      "1064",
+      "1163",
+      "1386",
+      "1882"
+    ],
+    "curiosita": "Il Duomo di Milano richiese oltre quattro secoli per essere completato.",
+    "fatto": "ordine cattedrali fondazione",
+    "fonte": "https://it.wikipedia.org/wiki/Cattedrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0022",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "criterio": "Opere, dalla più antica",
+    "elementi": [
+      "Iliade",
+      "Eneide",
+      "Divina Commedia",
+      "Orlando furioso"
+    ],
+    "valori": [
+      "VIII sec. a.C.",
+      "19 a.C.",
+      "c. 1320",
+      "1532"
+    ],
+    "curiosita": "L'Eneide rimase incompiuta alla morte di Virgilio.",
+    "fatto": "ordine opere epiche",
+    "fonte": "https://it.wikipedia.org/wiki/Poema_epico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0023",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "criterio": "Impressionisti, dal più anziano per nascita",
+    "elementi": [
+      "Manet",
+      "Degas",
+      "Monet",
+      "Renoir"
+    ],
+    "valori": [
+      "1832",
+      "1834",
+      "1840",
+      "1841"
+    ],
+    "curiosita": "Monet e Renoir dipinsero insieme alla Grenouillère, nel 1869.",
+    "fatto": "ordine impressionisti nascita",
+    "fonte": "https://it.wikipedia.org/wiki/Impressionismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0024",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Nobel per la letteratura, dal più antico",
+    "elementi": [
+      "Pirandello",
+      "Hemingway",
+      "Camus",
+      "García Márquez"
+    ],
+    "valori": [
+      "1934",
+      "1954",
+      "1957",
+      "1982"
+    ],
+    "curiosita": "Camus lo vinse a 44 anni, tra i più giovani di sempre.",
+    "fatto": "ordine premi nobel letteratura autori",
+    "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_letteratura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-art-0025",
+    "tipo": "ordine",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "criterio": "Musei, dall'apertura più antica",
+    "elementi": [
+      "Uffizi",
+      "Louvre",
+      "Prado",
+      "Metropolitan"
+    ],
+    "valori": [
+      "1769",
+      "1793",
+      "1819",
+      "1872"
+    ],
+    "curiosita": "Il Louvre aprì al pubblico nel 1793, in piena Rivoluzione francese.",
+    "fatto": "ordine apertura musei",
+    "fonte": "https://it.wikipedia.org/wiki/Museo",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

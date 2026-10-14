@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Battaglia_della_foresta_di_Teutoburgo",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0031",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi guidò l'URSS nella Seconda guerra mondiale?",
+    "risposte": [
+      "Stalin",
+      "Lenin",
+      "Trotskij",
+      "Krusciov"
+    ],
+    "curiosita": "Il suo vero cognome era Džugašvili.",
+    "fatto": "guida urss seconda guerra stalin",
+    "fonte": "https://it.wikipedia.org/wiki/Iosif_Stalin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0032",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "In che anno ci fu la Marcia su Roma?",
+    "risposte": [
+      "1922",
+      "1915",
+      "1929",
+      "1936"
+    ],
+    "curiosita": "Il re Vittorio Emanuele III incaricò Mussolini di formare il governo.",
+    "fatto": "anno marcia su roma 1922",
+    "fonte": "https://it.wikipedia.org/wiki/Marcia_su_Roma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0033",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale città greca era l'eterna rivale di Atene?",
+    "risposte": [
+      "Sparta",
+      "Corinto",
+      "Tebe",
+      "Argo"
+    ],
+    "curiosita": "I suoi ragazzi crescevano nell'agoghé, un durissimo addestramento.",
+    "fatto": "rivale atene sparta",
+    "fonte": "https://it.wikipedia.org/wiki/Sparta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0034",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale presidente è sulla banconota da un dollaro?",
+    "risposte": [
+      "Washington",
+      "Lincoln",
+      "Jefferson",
+      "Franklin"
+    ],
+    "curiosita": "Su quella da cinque dollari c'è Lincoln.",
+    "fatto": "banconota un dollaro washington",
+    "fonte": "https://it.wikipedia.org/wiki/Dollaro_statunitense",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0035",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale animale era sacro agli Egizi, legato a Bastet?",
+    "risposte": [
+      "Gatto",
+      "Cane",
+      "Ibis",
+      "Sciacallo"
+    ],
+    "curiosita": "Fare del male a un gatto era punito severamente.",
+    "fatto": "animale sacro bastet gatto",
+    "fonte": "https://it.wikipedia.org/wiki/Bastet",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0036",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Quale Medici fu detto «il Magnifico»?",
+    "risposte": [
+      "Lorenzo",
+      "Cosimo",
+      "Piero",
+      "Giuliano"
+    ],
+    "curiosita": "Fu mecenate di Michelangelo e Botticelli.",
+    "fatto": "il magnifico lorenzo medici",
+    "fonte": "https://it.wikipedia.org/wiki/Lorenzo_de'_Medici",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0037",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi conquistò la Gallia tra il 58 e il 51 a.C.?",
+    "risposte": [
+      "Giulio Cesare",
+      "Pompeo",
+      "Crasso",
+      "Marco Antonio"
+    ],
+    "curiosita": "Raccontò la guerra nel «De bello Gallico».",
+    "fatto": "conquista gallia cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_gallica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0038",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Con quale titolo era noto Benito Mussolini?",
+    "risposte": [
+      "Duce",
+      "Führer",
+      "Caudillo",
+      "Generalissimo"
+    ],
+    "curiosita": "Deriva dal latino dux, «capo».",
+    "fatto": "titolo mussolini duce",
+    "fonte": "https://it.wikipedia.org/wiki/Benito_Mussolini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0039",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Chi si incoronò da solo imperatore nel 1804?",
+    "risposte": [
+      "Napoleone",
+      "Carlo Magno",
+      "Luigi XVIII",
+      "Federico II"
+    ],
+    "curiosita": "Prese la corona dalle mani del papa e se la posò da sé.",
+    "fatto": "napoleone incoronazione 1804",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0040",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 1,
+    "domanda": "Come si chiamava la corta spada dei legionari romani?",
+    "risposte": [
+      "Gladio",
+      "Katana",
+      "Scimitarra",
+      "Claymore"
+    ],
+    "curiosita": "Era lunga circa 50-60 cm e fatta per colpire di punta.",
+    "fatto": "spada legionari gladio",
+    "fonte": "https://it.wikipedia.org/wiki/Legione_romana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0041",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Come si chiamava la prima moglie di Napoleone?",
+    "risposte": [
+      "Giuseppina",
+      "Maria Luisa",
+      "Paolina",
+      "Letizia"
+    ],
+    "curiosita": "Lui la ripudiò nel 1809 perché non gli dava eredi.",
+    "fatto": "prima moglie napoleone giuseppina",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0042",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Con quali armi combatteva il gladiatore reziario?",
+    "risposte": [
+      "Rete e tridente",
+      "Spada e scudo",
+      "Arco e frecce",
+      "Lancia e fionda"
+    ],
+    "curiosita": "Il suo avversario tipico era il secutor.",
+    "fatto": "armi gladiatore reziario",
+    "fonte": "https://it.wikipedia.org/wiki/Gladiatore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0043",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale popolo germanico diede il nome all'Inghilterra?",
+    "risposte": [
+      "Angli",
+      "Sassoni",
+      "Iuti",
+      "Franchi"
+    ],
+    "curiosita": "«England» significa «terra degli Angli».",
+    "fatto": "nome inghilterra angli",
+    "fonte": "https://it.wikipedia.org/wiki/Anglosassoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0044",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "In che anno avvenne lo sbarco dei Mille in Sicilia?",
+    "risposte": [
+      "1860",
+      "1848",
+      "1866",
+      "1870"
+    ],
+    "curiosita": "Salparono da Quarto, vicino a Genova.",
+    "fatto": "anno sbarco dei mille 1860",
+    "fonte": "https://it.wikipedia.org/wiki/Spedizione_dei_Mille",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0045",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale presidente USA lanciò il «New Deal»?",
+    "risposte": [
+      "F. D. Roosevelt",
+      "Hoover",
+      "Truman",
+      "Wilson"
+    ],
+    "curiosita": "Era la risposta alla grande crisi del 1929.",
+    "fatto": "new deal presidente roosevelt",
+    "fonte": "https://it.wikipedia.org/wiki/New_Deal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0046",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale città esplose con la corsa all'oro del 1849?",
+    "risposte": [
+      "San Francisco",
+      "Denver",
+      "Seattle",
+      "Dallas"
+    ],
+    "curiosita": "In due anni gli abitanti passarono da mille a 25.000.",
+    "fatto": "corsa oro 1849 san francisco",
+    "fonte": "https://it.wikipedia.org/wiki/San_Francisco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0047",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Chi lanciò da Londra l'appello del 18 giugno 1940?",
+    "risposte": [
+      "De Gaulle",
+      "Pétain",
+      "Leclerc",
+      "Mitterrand"
+    ],
+    "curiosita": "L'appello fu trasmesso dalla BBC il 18 giugno.",
+    "fatto": "appello 1940 de gaulle",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_de_Gaulle",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0048",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale papa perse Roma a Porta Pia?",
+    "risposte": [
+      "Pio IX",
+      "Leone XIII",
+      "Pio X",
+      "Gregorio XVI"
+    ],
+    "curiosita": "Roma fu presa dai bersaglieri il 20 settembre 1870.",
+    "fatto": "porta pia papa pio ix",
+    "fonte": "https://it.wikipedia.org/wiki/Pio_IX",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0049",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale moneta ha sostituito la lira nel 2002?",
+    "risposte": [
+      "Euro",
+      "Franco",
+      "Marco",
+      "Dollaro"
+    ],
+    "curiosita": "Il cambio fu fissato a 1.936,27 lire per un euro.",
+    "fatto": "moneta dopo lira euro 2002",
+    "fonte": "https://it.wikipedia.org/wiki/Euro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0050",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 2,
+    "domanda": "Quale regina firmò la condanna di Maria Stuarda?",
+    "risposte": [
+      "Elisabetta I",
+      "Maria I",
+      "Vittoria",
+      "Anna"
+    ],
+    "curiosita": "Maria era sua cugina e fu giustiziata nel 1587.",
+    "fatto": "condanna maria stuarda elisabetta",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Stuarda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0051",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale zar vendette l'Alaska agli Stati Uniti nel 1867?",
+    "risposte": [
+      "Alessandro II",
+      "Nicola I",
+      "Pietro il Grande",
+      "Ivan III"
+    ],
+    "curiosita": "Il prezzo fu di 7,2 milioni di dollari.",
+    "fatto": "vendita alaska 1867 alessandro ii",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_II_di_Russia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0052",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale re franco si convertì intorno al 496?",
+    "risposte": [
+      "Clodoveo",
+      "Pipino",
+      "Childerico",
+      "Dagoberto"
+    ],
+    "curiosita": "Fu il primo sovrano barbaro a farsi battezzare cattolico.",
+    "fatto": "re franchi conversione 496 clodoveo",
+    "fonte": "https://it.wikipedia.org/wiki/Clodoveo_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0053",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Dove si tenne dal 1545 il concilio della Controriforma?",
+    "risposte": [
+      "Trento",
+      "Costanza",
+      "Basilea",
+      "Lione"
+    ],
+    "curiosita": "Durò, con lunghe interruzioni, fino al 1563.",
+    "fatto": "concilio controriforma 1545 trento",
+    "fonte": "https://it.wikipedia.org/wiki/Concilio_di_Trento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0054",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu il primo imperatore del Sacro Romano Impero?",
+    "risposte": [
+      "Ottone I",
+      "Carlo Magno",
+      "Federico I",
+      "Enrico IV"
+    ],
+    "curiosita": "Fu incoronato a Roma da papa Giovanni XII.",
+    "fatto": "incoronazione 962 ottone i",
+    "fonte": "https://it.wikipedia.org/wiki/Ottone_I_di_Sassonia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0055",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi proclamò l'indipendenza di Haiti nel 1804?",
+    "risposte": [
+      "Dessalines",
+      "Napoleone",
+      "Bolívar",
+      "Sucre"
+    ],
+    "curiosita": "Haiti fu la prima repubblica fondata da ex schiavi.",
+    "fatto": "indipendenza haiti 1804 dessalines",
+    "fonte": "https://it.wikipedia.org/wiki/Haiti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0056",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale re di Prussia è detto «il Grande»?",
+    "risposte": [
+      "Federico II",
+      "Federico I",
+      "Guglielmo I",
+      "Federico III"
+    ],
+    "curiosita": "Suonava il flauto e componeva musica.",
+    "fatto": "re prussia il grande federico ii",
+    "fonte": "https://it.wikipedia.org/wiki/Federico_II_di_Prussia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0057",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale città tornò capitale russa nel 1918?",
+    "risposte": [
+      "Mosca",
+      "San Pietroburgo",
+      "Kiev",
+      "Novgorod"
+    ],
+    "curiosita": "Lenin spostò il governo per ragioni di sicurezza.",
+    "fatto": "capitale russia 1918 mosca",
+    "fonte": "https://it.wikipedia.org/wiki/Mosca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0058",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Quale re francese fu catturato a Pavia nel 1525?",
+    "risposte": [
+      "Francesco I",
+      "Luigi XII",
+      "Enrico II",
+      "Carlo VIII"
+    ],
+    "curiosita": "Fu trattenuto prigioniero a Madrid da Carlo V.",
+    "fatto": "re catturato pavia 1525 francesco i",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_I_di_Francia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0059",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fermò gli Arabi a Poitiers nel 732?",
+    "risposte": [
+      "Carlo Martello",
+      "Carlo Magno",
+      "Pipino",
+      "Clodoveo"
+    ],
+    "curiosita": "Era il nonno di Carlo Magno.",
+    "fatto": "poitiers 732 carlo martello",
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_Martello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sto-0060",
+    "tipo": "lampo",
+    "categoria": "storia",
+    "difficolta": 3,
+    "domanda": "Chi fu il primo granduca di Toscana?",
+    "risposte": [
+      "Cosimo I",
+      "Lorenzo",
+      "Ferdinando I",
+      "Francesco I"
+    ],
+    "curiosita": "Fu investito del titolo dal papa nel 1569.",
+    "fatto": "primo granduca toscana cosimo i",
+    "fonte": "https://it.wikipedia.org/wiki/Cosimo_I_de'_Medici",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

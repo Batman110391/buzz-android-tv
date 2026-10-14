@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Osteria_Francescana",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0091",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale ingrediente lega il condimento della carbonara tradizionale?",
+    "risposte": [
+      "Uovo",
+      "Panna",
+      "Latte",
+      "Ricotta"
+    ],
+    "curiosita": "La ricetta tradizionale non prevede né panna né aglio.",
+    "fatto": "carbonara ingrediente legante uovo",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0092",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Da quale frutto si ottiene l'olio d'oliva?",
+    "risposte": [
+      "Oliva",
+      "Girasole",
+      "Noce",
+      "Mais"
+    ],
+    "curiosita": "Per un litro d'olio servono circa quattro-sei chili di olive.",
+    "fatto": "olio oliva frutto",
+    "fonte": "https://it.wikipedia.org/wiki/Olio_d'oliva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0093",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pasta prende il nome da un insetto alato dalle ali colorate?",
+    "risposte": [
+      "Farfalle",
+      "Fusilli",
+      "Rigatoni",
+      "Penne"
+    ],
+    "curiosita": "Le farfalle sono una pasta all'uovo originaria dell'Italia settentrionale.",
+    "fatto": "pasta farfalle nome insetto",
+    "fonte": "https://it.wikipedia.org/wiki/Pasta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0094",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale frutto secco aromatizza la Nutella?",
+    "risposte": [
+      "Nocciola",
+      "Mandorla",
+      "Pistacchio",
+      "Noce"
+    ],
+    "curiosita": "Il nome Nutella è del 1964: prima la crema si chiamava Supercrema.",
+    "fatto": "nutella nocciola",
+    "fonte": "https://it.wikipedia.org/wiki/Nutella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0095",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di che colore diventa la pasta cotta con il nero di seppia?",
+    "risposte": [
+      "Nera",
+      "Rossa",
+      "Verde",
+      "Gialla"
+    ],
+    "curiosita": "Il nero di seppia è usato anche nel risotto, soprattutto a Venezia.",
+    "fatto": "pasta nero di seppia colore",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0096",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale frutto è l'ingrediente più discusso della pizza Hawaii?",
+    "risposte": [
+      "Ananas",
+      "Papaya",
+      "Banana",
+      "Mango"
+    ],
+    "curiosita": "Fu inventata in Canada nel 1962 da un cuoco di origine greca, Sam Panopoulos.",
+    "fatto": "pizza hawaii ananas",
+    "fonte": "https://it.wikipedia.org/wiki/Pizza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0097",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Che cosa significa che la pasta è \"al dente\"?",
+    "risposte": [
+      "Cotta ma ancora soda",
+      "Scotta e morbida",
+      "Appena scolata",
+      "Cruda al centro"
+    ],
+    "curiosita": "Un cuore appena resistente è il segno di una cottura giusta.",
+    "fatto": "pasta al dente significato",
+    "fonte": "https://it.wikipedia.org/wiki/Pasta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0098",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di che colore è la polpa del kiwi?",
+    "risposte": [
+      "Verde",
+      "Gialla",
+      "Arancione",
+      "Rossa"
+    ],
+    "curiosita": "Il kiwi prende il nome dall'uccello simbolo della Nuova Zelanda.",
+    "fatto": "kiwi polpa colore verde",
+    "fonte": "https://it.wikipedia.org/wiki/Frutta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0099",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di quale Paese sono tipici i fish and chips?",
+    "risposte": [
+      "Regno Unito",
+      "Irlanda",
+      "Stati Uniti",
+      "Australia"
+    ],
+    "curiosita": "Si vendevano per strada già a metà Ottocento.",
+    "fatto": "fish and chips paese",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_inglese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0100",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale animale fornisce il latte del Parmigiano Reggiano?",
+    "risposte": [
+      "Mucca",
+      "Pecora",
+      "Capra",
+      "Bufala"
+    ],
+    "curiosita": "Per un chilo di formaggio servono circa 16 litri di latte.",
+    "fatto": "parmigiano latte mucca",
+    "fonte": "https://it.wikipedia.org/wiki/Parmigiano_Reggiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0101",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Come si chiama la pizza ripiegata su se stessa e farcita all'interno?",
+    "risposte": [
+      "Calzone",
+      "Pinsa",
+      "Focaccia",
+      "Schiacciata"
+    ],
+    "curiosita": "\"Calzone\" significa letteralmente \"gamba dei pantaloni\", per la forma.",
+    "fatto": "pizza ripiegata calzone",
+    "fonte": "https://it.wikipedia.org/wiki/Pizza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0102",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Come si chiama in inglese la ciambella fritta con il buco, spesso glassata?",
+    "risposte": [
+      "Donut",
+      "Muffin",
+      "Waffle",
+      "Brownie"
+    ],
+    "curiosita": "Il buco permette di cuocerla in modo uniforme anche al centro.",
+    "fatto": "ciambella donut",
+    "fonte": "https://it.wikipedia.org/wiki/Ciambella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0103",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Di quale carne è fatto di solito un hamburger?",
+    "risposte": [
+      "Manzo",
+      "Maiale",
+      "Pollo",
+      "Agnello"
+    ],
+    "curiosita": "Il nome viene dalla città di Amburgo, non dal prosciutto (ham).",
+    "fatto": "hamburger carne manzo",
+    "fonte": "https://it.wikipedia.org/wiki/Hamburger",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0104",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Come si chiama il dolce leggero fatto con albumi montati a neve e zucchero?",
+    "risposte": [
+      "Meringa",
+      "Zabaione",
+      "Bignè",
+      "Mousse"
+    ],
+    "curiosita": "Il nome potrebbe derivare dalla città svizzera di Meiringen, ma l'origine è incerta.",
+    "fatto": "meringa albumi zucchero",
+    "fonte": "https://it.wikipedia.org/wiki/Meringa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0105",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Che cosa si stappa tradizionalmente a mezzanotte di Capodanno?",
+    "risposte": [
+      "Spumante",
+      "Vino rosso",
+      "Birra",
+      "Aranciata"
+    ],
+    "curiosita": "Un tappo di spumante può partire a oltre 40 chilometri orari.",
+    "fatto": "capodanno spumante",
+    "fonte": "https://it.wikipedia.org/wiki/Spumante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0106",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale mollusco con otto tentacoli si cucina anche \"alla luciana\"?",
+    "risposte": [
+      "Polpo",
+      "Calamaro",
+      "Seppia",
+      "Cozza"
+    ],
+    "curiosita": "Il polpo ha tre cuori e il sangue blu.",
+    "fatto": "polpo alla luciana",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0107",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Con che cosa si aromatizza l'alcol nel limoncello?",
+    "risposte": [
+      "Scorze di limone",
+      "Arance amare",
+      "Bucce di mandarino",
+      "Foglie di menta"
+    ],
+    "curiosita": "Il limoncello più famoso viene da Sorrento e dalla costiera amalfitana.",
+    "fatto": "limoncello ingrediente",
+    "fonte": "https://it.wikipedia.org/wiki/Limoncello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0108",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale agrume dalla polpa rossa è tipico della Sicilia?",
+    "risposte": [
+      "Arancia rossa",
+      "Pompelmo",
+      "Limone",
+      "Mandarino"
+    ],
+    "curiosita": "Il colore viene dalle antocianine, che si sviluppano con gli sbalzi di temperatura.",
+    "fatto": "arancia rossa sicilia",
+    "fonte": "https://it.wikipedia.org/wiki/Arancia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0109",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Che cosa si regala a Pasqua, a forma d'uovo, con una sorpresa dentro?",
+    "risposte": [
+      "Uovo di cioccolato",
+      "Colomba",
+      "Pastiera",
+      "Agnello di marzapane"
+    ],
+    "curiosita": "Le uova di cioccolato pasquali si diffusero in Europa nell'Ottocento.",
+    "fatto": "uovo pasqua cioccolato sorpresa",
+    "fonte": "https://it.wikipedia.org/wiki/Pasqua",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0110",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Da quale pianta tropicale si ricava lo zucchero di canna?",
+    "risposte": [
+      "Canna da zucchero",
+      "Barbabietola",
+      "Palma",
+      "Bambù"
+    ],
+    "curiosita": "In Italia lo zucchero si ottiene soprattutto dalla barbabietola.",
+    "fatto": "zucchero di canna pianta",
+    "fonte": "https://it.wikipedia.org/wiki/Zucchero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0111",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Da quale parte della pianta si ricava la liquirizia?",
+    "risposte": [
+      "Radice",
+      "Foglie",
+      "Fiore",
+      "Semi"
+    ],
+    "curiosita": "La Calabria è celebre per la liquirizia, soprattutto quella di Rossano.",
+    "fatto": "liquirizia radice",
+    "fonte": "https://it.wikipedia.org/wiki/Liquirizia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0112",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "In quale regione italiana si mangia il gelato dentro una brioche?",
+    "risposte": [
+      "Sicilia",
+      "Puglia",
+      "Campania",
+      "Sardegna"
+    ],
+    "curiosita": "Si chiama brioche col tuppo ed è una colazione estiva classica a Palermo e Catania.",
+    "fatto": "gelato in brioche sicilia",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_siciliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0113",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale piatto giapponese è un brodo con spaghetti, carne e uova?",
+    "risposte": [
+      "Ramen",
+      "Sushi",
+      "Tempura",
+      "Udon di riso"
+    ],
+    "curiosita": "Il ramen arrivò in Giappone dalla Cina e oggi ha versioni diverse per ogni regione.",
+    "fatto": "ramen brodo giappone",
+    "fonte": "https://it.wikipedia.org/wiki/Ramen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0114",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale frutto è l'ingrediente principale dello strudel tradizionale?",
+    "risposte": [
+      "Mela",
+      "Pera",
+      "Ciliegia",
+      "Prugna"
+    ],
+    "curiosita": "Lo strudel è un classico dell'Alto Adige, dell'Austria e di tutta la cucina mitteleuropea.",
+    "fatto": "strudel mela ingrediente",
+    "fonte": "https://it.wikipedia.org/wiki/Strudel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0115",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pesce si compra più spesso sott'olio in scatola?",
+    "risposte": [
+      "Tonno",
+      "Merluzzo",
+      "Orata",
+      "Spigola"
+    ],
+    "curiosita": "Il tonno rosso può superare i tre metri di lunghezza.",
+    "fatto": "pesce sott olio scatola tonno",
+    "fonte": "https://it.wikipedia.org/wiki/Tonno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0116",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale fungo è detto anche boleto?",
+    "risposte": [
+      "Porcino",
+      "Champignon",
+      "Ovolo",
+      "Finferlo"
+    ],
+    "curiosita": "Il porcino si mangia anche crudo, a lamelle sottili, in insalata.",
+    "fatto": "porcino boleto fungo",
+    "fonte": "https://it.wikipedia.org/wiki/Boletus_edulis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0117",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale salume rosa a fette sottili, con pezzetti di grasso, è tipico di Bologna?",
+    "risposte": [
+      "Mortadella",
+      "Bresaola",
+      "Coppa",
+      "Speck"
+    ],
+    "curiosita": "Il nome potrebbe derivare dal mortaio in cui un tempo si pestava la carne.",
+    "fatto": "mortadella bologna salume",
+    "fonte": "https://it.wikipedia.org/wiki/Mortadella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0118",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale dolce fritto cosparso di zucchero a velo si mangia a Carnevale?",
+    "risposte": [
+      "Chiacchiere",
+      "Panettone",
+      "Colomba",
+      "Pandoro"
+    ],
+    "curiosita": "Cambiano nome da regione a regione: bugie, frappe, cenci, crostoli.",
+    "fatto": "dolce carnevale chiacchiere",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0119",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pesce nuota controcorrente per riprodursi e si mangia anche affumicato?",
+    "risposte": [
+      "Salmone",
+      "Trota",
+      "Merluzzo",
+      "Sgombro"
+    ],
+    "curiosita": "Torna a deporre le uova nel fiume in cui è nato.",
+    "fatto": "salmone controcorrente affumicato",
+    "fonte": "https://it.wikipedia.org/wiki/Salmone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0120",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "domanda": "Quale pasta verde piccante accompagna il sushi?",
+    "risposte": [
+      "Wasabi",
+      "Senape",
+      "Zenzero",
+      "Pesto"
+    ],
+    "curiosita": "Il vero wasabi è raro: molta pasta in commercio è fatta di rafano e senape.",
+    "fatto": "wasabi sushi pasta verde",
+    "fonte": "https://it.wikipedia.org/wiki/Sushi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0121",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale piatto toscano è un'insalata di pane raffermo bagnato, pomodoro e cipolla?",
+    "risposte": [
+      "Panzanella",
+      "Ribollita",
+      "Acquacotta",
+      "Pappa al pomodoro"
+    ],
+    "curiosita": "Si condisce con olio, aceto e basilico, ed è un piatto estivo per eccellenza.",
+    "fatto": "panzanella toscana pane raffermo",
+    "fonte": "https://it.wikipedia.org/wiki/Panzanella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0122",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "In quale città si mangiano i \"risi e bisi\", riso e piselli?",
+    "risposte": [
+      "Venezia",
+      "Milano",
+      "Torino",
+      "Verona"
+    ],
+    "curiosita": "Era il piatto offerto al Doge il 25 aprile, giorno di San Marco.",
+    "fatto": "risi e bisi venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Risi_e_bisi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0123",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiama il pane arabo tondo che si apre a tasca?",
+    "risposte": [
+      "Pita",
+      "Naan",
+      "Chapati",
+      "Tortilla"
+    ],
+    "curiosita": "Si gonfia in forno e si apre in due, formando una tasca da riempire.",
+    "fatto": "pita pane arabo tasca",
+    "fonte": "https://it.wikipedia.org/wiki/Pane",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0124",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Che differenza c'è tra olive verdi e olive nere?",
+    "risposte": [
+      "La maturazione",
+      "La varietà d'albero",
+      "Il Paese d'origine",
+      "Il tipo di sale"
+    ],
+    "curiosita": "Le olive nere sono semplicemente raccolte più mature di quelle verdi.",
+    "fatto": "olive verdi nere differenza",
+    "fonte": "https://it.wikipedia.org/wiki/Oliva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0125",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Che cosa fa scoppiare un chicco di popcorn?",
+    "risposte": [
+      "Il vapore interno",
+      "L'olio caldo",
+      "Il sale",
+      "L'aria compressa"
+    ],
+    "curiosita": "Il chicco scoppia quando l'acqua al suo interno raggiunge circa 180 gradi.",
+    "fatto": "popcorn scoppio vapore",
+    "fonte": "https://it.wikipedia.org/wiki/Popcorn",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0126",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Con quale legume si preparano i falafel?",
+    "risposte": [
+      "Ceci",
+      "Lenticchie",
+      "Fagioli",
+      "Piselli"
+    ],
+    "curiosita": "I falafel sono polpette fritte tipiche del Medio Oriente.",
+    "fatto": "falafel legume ceci",
+    "fonte": "https://it.wikipedia.org/wiki/Falafel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0127",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale pane salato a forma di nodo è tipico della Germania?",
+    "risposte": [
+      "Brezel",
+      "Baguette",
+      "Ciabatta",
+      "Bagel"
+    ],
+    "curiosita": "Secondo una leggenda lo inventò un monaco per premiare i bambini che imparavano le preghiere.",
+    "fatto": "pane nodo germania brezel",
+    "fonte": "https://it.wikipedia.org/wiki/Brezel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0128",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale città è tipica la cassoeula, con cotenne e verze?",
+    "risposte": [
+      "Milano",
+      "Torino",
+      "Genova",
+      "Venezia"
+    ],
+    "curiosita": "Si mangia in inverno, tradizionalmente dopo le prime gelate.",
+    "fatto": "cassoeula milano",
+    "fonte": "https://it.wikipedia.org/wiki/Cassoeula",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0129",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale regione sono tipici i pizzoccheri?",
+    "risposte": [
+      "Lombardia",
+      "Piemonte",
+      "Veneto",
+      "Trentino"
+    ],
+    "curiosita": "Si fanno con farina di grano saraceno e si condiscono con burro, verza e formaggio.",
+    "fatto": "pizzoccheri lombardia",
+    "fonte": "https://it.wikipedia.org/wiki/Pizzoccheri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0130",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale regione è originaria la ribollita?",
+    "risposte": [
+      "Toscana",
+      "Umbria",
+      "Lazio",
+      "Liguria"
+    ],
+    "curiosita": "Si chiama così perché il giorno dopo si fa \"bollire di nuovo\".",
+    "fatto": "ribollita toscana",
+    "fonte": "https://it.wikipedia.org/wiki/Ribollita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0131",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale regione è tipica la 'nduja?",
+    "risposte": [
+      "Calabria",
+      "Sicilia",
+      "Basilicata",
+      "Puglia"
+    ],
+    "curiosita": "È un salume spalmabile e piccantissimo, fatto con molto peperoncino.",
+    "fatto": "nduja calabria",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0132",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale regione è tipico lo speck?",
+    "risposte": [
+      "Alto Adige",
+      "Veneto",
+      "Friuli",
+      "Valle d'Aosta"
+    ],
+    "curiosita": "Si affumica leggermente e poi si stagiona.",
+    "fatto": "speck alto adige",
+    "fonte": "https://it.wikipedia.org/wiki/Speck",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0133",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Con quale vino si inzuppano tradizionalmente i cantucci toscani?",
+    "risposte": [
+      "Vin Santo",
+      "Chianti",
+      "Lambrusco",
+      "Marsala"
+    ],
+    "curiosita": "Il Vin Santo è un vino passito, fatto con uva appassita.",
+    "fatto": "cantucci vin santo",
+    "fonte": "https://it.wikipedia.org/wiki/Vin_Santo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0134",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale paese italiano è tipico il lardo stagionato in conche di marmo?",
+    "risposte": [
+      "Colonnata",
+      "Carrara",
+      "Massa",
+      "Lucca"
+    ],
+    "curiosita": "Il lardo di Colonnata si stagiona in vasche ricavate nel marmo delle cave di Carrara.",
+    "fatto": "lardo colonnata marmo",
+    "fonte": "https://it.wikipedia.org/wiki/Lardo_di_Colonnata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0135",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale cucina è tipico il dim sum?",
+    "risposte": [
+      "Cinese",
+      "Giapponese",
+      "Coreana",
+      "Thailandese"
+    ],
+    "curiosita": "Dim sum significa più o meno \"toccare il cuore\".",
+    "fatto": "dim sum cucina cinese",
+    "fonte": "https://it.wikipedia.org/wiki/Dim_sum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0136",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è tipico il gulasch?",
+    "risposte": [
+      "Ungheria",
+      "Austria",
+      "Polonia",
+      "Romania"
+    ],
+    "curiosita": "Il nome viene da \"gulyás\", il pastore di mandrie.",
+    "fatto": "gulasch ungheria",
+    "fonte": "https://it.wikipedia.org/wiki/Gulasch",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0137",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è tipica la moussaka?",
+    "risposte": [
+      "Grecia",
+      "Turchia",
+      "Libano",
+      "Egitto"
+    ],
+    "curiosita": "Si prepara a strati di melanzane, carne macinata e besciamella.",
+    "fatto": "moussaka grecia",
+    "fonte": "https://it.wikipedia.org/wiki/Moussaka",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0138",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è originario il kebab?",
+    "risposte": [
+      "Turchia",
+      "Grecia",
+      "Libano",
+      "Iran"
+    ],
+    "curiosita": "\"Döner\" significa \"che gira\", come la carne sullo spiedo.",
+    "fatto": "kebab origine turchia",
+    "fonte": "https://it.wikipedia.org/wiki/Kebab",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0139",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale cocktail cubano si prepara con rum, lime, menta e soda?",
+    "risposte": [
+      "Mojito",
+      "Daiquiri",
+      "Cuba libre",
+      "Caipirinha"
+    ],
+    "curiosita": "È nato a Cuba, all'Avana.",
+    "fatto": "mojito ingredienti rum menta",
+    "fonte": "https://it.wikipedia.org/wiki/Mojito",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0140",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale cocktail veneziano si fa con prosecco e succo di pesca?",
+    "risposte": [
+      "Bellini",
+      "Spritz",
+      "Rossini",
+      "Mimosa"
+    ],
+    "curiosita": "Fu creato all'Harry's Bar di Venezia nel 1948 e prende il nome dal pittore Giovanni Bellini.",
+    "fatto": "bellini cocktail prosecco pesca",
+    "fonte": "https://it.wikipedia.org/wiki/Bellini_(cocktail)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0141",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiama il tè verde giapponese in polvere?",
+    "risposte": [
+      "Matcha",
+      "Sencha",
+      "Bancha",
+      "Hojicha"
+    ],
+    "curiosita": "Si beve intero, perché la foglia viene macinata finissima.",
+    "fatto": "matcha te verde polvere",
+    "fonte": "https://it.wikipedia.org/wiki/Matcha",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0142",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Che cosa c'è dentro una burrata?",
+    "risposte": [
+      "Stracciatella e panna",
+      "Ricotta e miele",
+      "Pasta filata e olio",
+      "Mozzarella e basilico"
+    ],
+    "curiosita": "Nacque in Puglia, a Andria, negli anni Venti, per non sprecare i ritagli di mozzarella.",
+    "fatto": "burrata contenuto stracciatella",
+    "fonte": "https://it.wikipedia.org/wiki/Burrata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0143",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiama la pasta sarda a piccole palline tostate?",
+    "risposte": [
+      "Fregola",
+      "Gnocchetti",
+      "Malloreddus",
+      "Couscous"
+    ],
+    "curiosita": "Si cucina spesso con vongole o arselle.",
+    "fatto": "fregola sarda pasta",
+    "fonte": "https://it.wikipedia.org/wiki/Fregola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0144",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Con che cosa si prepara la bottarga?",
+    "risposte": [
+      "Uova di pesce",
+      "Fegato di pesce",
+      "Latte di tonno",
+      "Pelle di pesce"
+    ],
+    "curiosita": "Si prepara salando e stagionando le uova, soprattutto di muggine o di tonno.",
+    "fatto": "bottarga uova di pesce",
+    "fonte": "https://it.wikipedia.org/wiki/Bottarga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0145",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Come si chiamano i piccoli dolci di pasta choux ripieni di crema?",
+    "risposte": [
+      "Bignè",
+      "Cannoli",
+      "Sfogliatelle",
+      "Krapfen"
+    ],
+    "curiosita": "\"Choux\" in francese significa anche \"cavolo\", per la forma.",
+    "fatto": "bigne pasta choux",
+    "fonte": "https://it.wikipedia.org/wiki/Pasticceria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0146",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è tipico il pad thai?",
+    "risposte": [
+      "Thailandia",
+      "Vietnam",
+      "Cina",
+      "Cambogia"
+    ],
+    "curiosita": "Fu promosso negli anni Quaranta per creare un'identità culinaria nazionale.",
+    "fatto": "pad thai thailandia",
+    "fonte": "https://it.wikipedia.org/wiki/Pad_thai",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0147",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "In quale città si mangia il panino con la milza?",
+    "risposte": [
+      "Palermo",
+      "Napoli",
+      "Catania",
+      "Bari"
+    ],
+    "curiosita": "Si chiama \"pani ca' meusa\" e si può chiedere \"schietto\" o \"maritato\".",
+    "fatto": "panino con la milza palermo",
+    "fonte": "https://it.wikipedia.org/wiki/Palermo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0148",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale nobile inglese diede il nome al sandwich?",
+    "risposte": [
+      "Conte di Sandwich",
+      "Duca di Wellington",
+      "Conte di Cavour",
+      "Duca di York"
+    ],
+    "curiosita": "Secondo la tradizione voleva mangiare senza lasciare il tavolo da gioco.",
+    "fatto": "sandwich nome conte",
+    "fonte": "https://it.wikipedia.org/wiki/Sandwich",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0149",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Da quale albero si ricava lo sciroppo d'acero?",
+    "risposte": [
+      "Acero",
+      "Betulla",
+      "Faggio",
+      "Pino"
+    ],
+    "curiosita": "Per un litro di sciroppo servono circa 40 litri di linfa.",
+    "fatto": "sciroppo d acero albero",
+    "fonte": "https://it.wikipedia.org/wiki/Acero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0150",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "domanda": "Quale città francese è celebre per la sua senape?",
+    "risposte": [
+      "Digione",
+      "Lione",
+      "Marsiglia",
+      "Strasburgo"
+    ],
+    "curiosita": "Per la senape di Digione si usano semi bruni e succo di uva acerba.",
+    "fatto": "senape digione",
+    "fonte": "https://it.wikipedia.org/wiki/Senape",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0151",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Chi è associato all'invenzione del gelato alla corte dei Medici?",
+    "risposte": [
+      "Bernardo Buontalenti",
+      "Cosimo de' Medici",
+      "Giorgio Vasari",
+      "Francesco Procopio"
+    ],
+    "curiosita": "Secondo la tradizione lo presentò a una festa nel 1565.",
+    "fatto": "gelato medici buontalenti",
+    "fonte": "https://it.wikipedia.org/wiki/Gelato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0152",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale lingua europea deriva la parola \"tempura\"?",
+    "risposte": [
+      "Portoghese",
+      "Olandese",
+      "Spagnolo",
+      "Inglese"
+    ],
+    "curiosita": "La frittura in pastella arrivò in Giappone con i missionari portoghesi nel Cinquecento.",
+    "fatto": "tempura etimologia portoghese",
+    "fonte": "https://it.wikipedia.org/wiki/Tempura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0153",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale dolce senese a base di mandorle ha forma romboidale?",
+    "risposte": [
+      "Ricciarelli",
+      "Cavallucci",
+      "Cantucci",
+      "Panpepato"
+    ],
+    "curiosita": "Si dice che li abbia portati a Siena un cavaliere tornato dalle Crociate.",
+    "fatto": "ricciarelli siena",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_toscana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0154",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale sostanza fa coagulare il latte nella produzione del formaggio?",
+    "risposte": [
+      "Caglio",
+      "Lievito",
+      "Albume",
+      "Gelatina"
+    ],
+    "curiosita": "Il caglio tradizionale si ricava dallo stomaco dei vitelli lattanti.",
+    "fatto": "caglio coagulazione latte formaggio",
+    "fonte": "https://it.wikipedia.org/wiki/Formaggio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0155",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Che cosa sono i capperi?",
+    "risposte": [
+      "Boccioli di fiori",
+      "Bacche",
+      "Semi",
+      "Foglie"
+    ],
+    "curiosita": "Se non si raccolgono sbocciano; i frutti della stessa pianta sono i cucunci.",
+    "fatto": "capperi boccioli fiori",
+    "fonte": "https://it.wikipedia.org/wiki/Capperi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0156",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Che cosa sono i chiodi di garofano?",
+    "risposte": [
+      "Boccioli essiccati",
+      "Semi",
+      "Radici",
+      "Foglie"
+    ],
+    "curiosita": "Vengono da un albero tropicale originario delle Molucche.",
+    "fatto": "chiodi di garofano boccioli",
+    "fonte": "https://it.wikipedia.org/wiki/Spezia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0157",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale uva è la base del Chianti?",
+    "risposte": [
+      "Sangiovese",
+      "Nebbiolo",
+      "Barbera",
+      "Montepulciano"
+    ],
+    "curiosita": "Il nome richiama, per etimologia popolare, il \"sangue di Giove\".",
+    "fatto": "chianti uva sangiovese",
+    "fonte": "https://it.wikipedia.org/wiki/Sangiovese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0158",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale uva è la base del vino bianco Soave?",
+    "risposte": [
+      "Garganega",
+      "Glera",
+      "Vermentino",
+      "Trebbiano"
+    ],
+    "curiosita": "Il Soave si produce in provincia di Verona.",
+    "fatto": "soave uva garganega",
+    "fonte": "https://it.wikipedia.org/wiki/Soave_(vino)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0159",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Per quale sovrana fu creata nel 1889 la pizza Margherita?",
+    "risposte": [
+      "Margherita di Savoia",
+      "Maria Carolina",
+      "Elena di Savoia",
+      "Maria José"
+    ],
+    "curiosita": "Pomodoro, mozzarella e basilico richiamavano i colori della bandiera italiana.",
+    "fatto": "pizza margherita regina 1889",
+    "fonte": "https://it.wikipedia.org/wiki/Pizza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0160",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Chi inventò nel 1809 il metodo per conservare i cibi in recipienti sigillati?",
+    "risposte": [
+      "Nicolas Appert",
+      "Louis Pasteur",
+      "Auguste Escoffier",
+      "Pierre Durand"
+    ],
+    "curiosita": "Rispose a un concorso di Napoleone, che voleva cibo per l'esercito.",
+    "fatto": "appert conserve 1809",
+    "fonte": "https://it.wikipedia.org/wiki/Nicolas_Appert",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0161",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "A quale cantante lirica è dedicata la pesca Melba, creata da Escoffier?",
+    "risposte": [
+      "Nellie Melba",
+      "Maria Callas",
+      "Adelina Patti",
+      "Jenny Lind"
+    ],
+    "curiosita": "Escoffier la ideò al Savoy di Londra, verso il 1892.",
+    "fatto": "pesca melba cantante",
+    "fonte": "https://it.wikipedia.org/wiki/Nellie_Melba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0162",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale compositore italiano diede il nome ai tournedos con foie gras e tartufo?",
+    "risposte": [
+      "Rossini",
+      "Verdi",
+      "Puccini",
+      "Donizetti"
+    ],
+    "curiosita": "Rossini fu un gran gourmet e smise di comporre opere a 37 anni.",
+    "fatto": "tournedos rossini compositore",
+    "fonte": "https://it.wikipedia.org/wiki/Gioachino_Rossini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0163",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Come si chiama la scala che misura quanto è piccante un peperoncino?",
+    "risposte": [
+      "Scoville",
+      "Richter",
+      "Mohs",
+      "Beaufort"
+    ],
+    "curiosita": "Prende il nome dal farmacista Wilbur Scoville, che la ideò nel 1912.",
+    "fatto": "scala piccantezza scoville",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_Scoville",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0164",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale animale produce i chicchi di caffè del kopi luwak?",
+    "risposte": [
+      "Civetta delle palme",
+      "Scimmia",
+      "Scoiattolo",
+      "Pipistrello"
+    ],
+    "curiosita": "I chicchi vengono raccolti dopo essere passati nel suo apparato digerente.",
+    "fatto": "kopi luwak civetta",
+    "fonte": "https://it.wikipedia.org/wiki/Caffè",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0165",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Come si chiama il formaggio sardo che contiene larve vive di mosca?",
+    "risposte": [
+      "Casu marzu",
+      "Fiore sardo",
+      "Casizolu",
+      "Pecorino sardo"
+    ],
+    "curiosita": "In Sardegna è tradizionale, ma la sua vendita è vietata.",
+    "fatto": "casu marzu larve",
+    "fonte": "https://it.wikipedia.org/wiki/Casu_marzu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0166",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Di quale città è tipico il cioccolatino gianduiotto?",
+    "risposte": [
+      "Torino",
+      "Alba",
+      "Perugia",
+      "Modena"
+    ],
+    "curiosita": "Nacque nel 1865: per la scarsità di cacao si usarono le nocciole delle Langhe.",
+    "fatto": "gianduiotto torino",
+    "fonte": "https://it.wikipedia.org/wiki/Cioccolato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0167",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale ingrediente del cioccolato fondente manca nel cioccolato bianco?",
+    "risposte": [
+      "Cacao in polvere",
+      "Burro di cacao",
+      "Zucchero",
+      "Latte"
+    ],
+    "curiosita": "Il colore chiaro viene dal burro di cacao, senza i solidi scuri del cacao.",
+    "fatto": "cioccolato bianco senza cacao",
+    "fonte": "https://it.wikipedia.org/wiki/Cioccolato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0168",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da che cosa si distilla il Calvados?",
+    "risposte": [
+      "Sidro di mele",
+      "Uva",
+      "Pere",
+      "Prugne"
+    ],
+    "curiosita": "Il nome è quello di un dipartimento della Normandia.",
+    "fatto": "calvados distillato sidro",
+    "fonte": "https://it.wikipedia.org/wiki/Calvados",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0169",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale sostanza dà il sapore amaro all'acqua tonica?",
+    "risposte": [
+      "Chinino",
+      "Caffeina",
+      "Tannino",
+      "Quassia"
+    ],
+    "curiosita": "Si ricava dalla corteccia di china, usata contro la malaria.",
+    "fatto": "acqua tonica chinino",
+    "fonte": "https://it.wikipedia.org/wiki/Chinino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0170",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale bevanda greca all'anice diventa lattiginosa con l'acqua?",
+    "risposte": [
+      "Ouzo",
+      "Raki",
+      "Grappa",
+      "Sambuca"
+    ],
+    "curiosita": "L'effetto è dovuto agli oli essenziali dell'anice, che si disperdono nell'acqua.",
+    "fatto": "ouzo anice lattiginoso",
+    "fonte": "https://it.wikipedia.org/wiki/Ouzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0171",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Che cos'era il garum, tanto amato dai Romani?",
+    "risposte": [
+      "Salsa di pesce fermentato",
+      "Aceto di vino",
+      "Salsa di olive",
+      "Formaggio stagionato"
+    ],
+    "curiosita": "Si otteneva facendo fermentare sotto sale interiora di pesce.",
+    "fatto": "garum romani salsa pesce",
+    "fonte": "https://it.wikipedia.org/wiki/Garum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0172",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Qual è l'acidità massima di un olio extravergine di oliva?",
+    "risposte": [
+      "0,8%",
+      "0,2%",
+      "2%",
+      "3,3%"
+    ],
+    "curiosita": "Un extravergine si ottiene solo con procedimenti meccanici, senza raffinazione.",
+    "fatto": "extravergine acidita massima",
+    "fonte": "https://it.wikipedia.org/wiki/Olio_d'oliva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0173",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Dove fu inventata la Caesar salad?",
+    "risposte": [
+      "Messico",
+      "Roma",
+      "Stati Uniti",
+      "Spagna"
+    ],
+    "curiosita": "La inventò Caesar Cardini a Tijuana nel 1924: Giulio Cesare non c'entra.",
+    "fatto": "caesar salad invenzione tijuana",
+    "fonte": "https://it.wikipedia.org/wiki/Insalata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0174",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Da quale parte del maiale si ottiene il culatello?",
+    "risposte": [
+      "Coscia",
+      "Spalla",
+      "Guancia",
+      "Pancia"
+    ],
+    "curiosita": "Si stagiona nelle nebbiose cantine della Bassa parmense.",
+    "fatto": "culatello parte del maiale",
+    "fonte": "https://it.wikipedia.org/wiki/Culatello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0175",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "In quale secolo il pomodoro arrivò in Italia?",
+    "risposte": [
+      "Cinquecento",
+      "Quattrocento",
+      "Settecento",
+      "Ottocento"
+    ],
+    "curiosita": "Per secoli fu considerato una pianta ornamentale e sospetta.",
+    "fatto": "pomodoro arrivo italia cinquecento",
+    "fonte": "https://it.wikipedia.org/wiki/Pomodoro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0176",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Che cosa avrebbe ispirato, secondo la leggenda, la forma dei tortellini?",
+    "risposte": [
+      "L'ombelico di Venere",
+      "Un cappello",
+      "Una conchiglia",
+      "Un anello"
+    ],
+    "curiosita": "La leggenda lo lega a una locandiera di Castelfranco Emilia.",
+    "fatto": "tortellini leggenda ombelico venere",
+    "fonte": "https://it.wikipedia.org/wiki/Tortellini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0177",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale ingrediente di mare è alla base della salsa Worcestershire?",
+    "risposte": [
+      "Acciughe",
+      "Sardine",
+      "Tonno",
+      "Salmone"
+    ],
+    "curiosita": "La salsa fermenta per mesi in botti prima di essere imbottigliata.",
+    "fatto": "worcestershire acciughe",
+    "fonte": "https://it.wikipedia.org/wiki/Salsa_Worcestershire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0178",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quali formaggi compongono la fonduta svizzera classica?",
+    "risposte": [
+      "Gruviera ed Emmental",
+      "Fontina e Taleggio",
+      "Brie e Camembert",
+      "Asiago e Grana"
+    ],
+    "curiosita": "Si bagna con vino bianco e un goccio di kirsch.",
+    "fatto": "fonduta svizzera formaggi",
+    "fonte": "https://it.wikipedia.org/wiki/Fonduta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0179",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Come si chiama la reazione che rosola la crosta del pane e la carne?",
+    "risposte": [
+      "Reazione di Maillard",
+      "Caramellizzazione",
+      "Saponificazione",
+      "Fermentazione"
+    ],
+    "curiosita": "Prende il nome dal chimico francese che la descrisse nel 1912.",
+    "fatto": "reazione di maillard",
+    "fonte": "https://it.wikipedia.org/wiki/Reazione_di_Maillard",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cuc-0180",
+    "tipo": "classica",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "domanda": "Quale gas fa lievitare il pane?",
+    "risposte": [
+      "Anidride carbonica",
+      "Ossigeno",
+      "Azoto",
+      "Idrogeno"
+    ],
+    "curiosita": "Il lievito la produce fermentando gli zuccheri dell'impasto.",
+    "fatto": "lievitazione gas anidride carbonica",
+    "fonte": "https://it.wikipedia.org/wiki/Pane",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

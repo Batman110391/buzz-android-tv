@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Cucina_italiana",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0016",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Temperature, dalla più bassa",
+    "elementi": [
+      "Congelatore",
+      "Frigorifero",
+      "Acqua che bolle",
+      "Forno per pizza"
+    ],
+    "valori": [
+      "-18 °C",
+      "4 °C",
+      "100 °C",
+      "450 °C"
+    ],
+    "curiosita": "Il forno a legna napoletano supera i 450 gradi.",
+    "fatto": "ordine temperature cucina",
+    "fonte": "https://it.wikipedia.org/wiki/Cucina_(arte)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0017",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "criterio": "Frutti di stagione, da primavera a inverno",
+    "elementi": [
+      "Fragole",
+      "Pesche",
+      "Castagne",
+      "Arance"
+    ],
+    "valori": [
+      "Primavera",
+      "Estate",
+      "Autunno",
+      "Inverno"
+    ],
+    "curiosita": "Le arance maturano in inverno, da dicembre a marzo.",
+    "fatto": "ordine frutta di stagione",
+    "fonte": "https://it.wikipedia.org/wiki/Frutta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0018",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Caffè, dal più corto al più lungo",
+    "elementi": [
+      "Ristretto",
+      "Espresso",
+      "Lungo",
+      "Americano"
+    ],
+    "valori": [
+      "~20 ml",
+      "~30 ml",
+      "~50 ml",
+      "~150 ml"
+    ],
+    "curiosita": "Il ristretto estrae meno acqua e risulta più intenso.",
+    "fatto": "ordine tipi di caffe quantita",
+    "fonte": "https://it.wikipedia.org/wiki/Caffè",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0019",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Temperature di servizio, dalla più bassa",
+    "elementi": [
+      "Spumante",
+      "Bianco",
+      "Rosso giovane",
+      "Rosso importante"
+    ],
+    "valori": [
+      "6-8 °C",
+      "10-12 °C",
+      "14-16 °C",
+      "18-20 °C"
+    ],
+    "curiosita": "Un rosso troppo caldo sa di alcol; troppo freddo perde profumo.",
+    "fatto": "ordine temperatura servizio vini",
+    "fonte": "https://it.wikipedia.org/wiki/Vino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0020",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Elettrodomestici da cucina, dal più antico",
+    "elementi": [
+      "Lavastoviglie",
+      "Frigorifero domestico",
+      "Forno a microonde",
+      "Friggitrice ad aria"
+    ],
+    "valori": [
+      "1886",
+      "1913",
+      "1947",
+      "2010"
+    ],
+    "curiosita": "Il forno a microonde nacque, si dice, da una barretta sciolta in tasca di un ingegnere.",
+    "fatto": "ordine invenzione elettrodomestici",
+    "fonte": "https://it.wikipedia.org/wiki/Elettrodomestico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0021",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "criterio": "Alimenti, dal meno al più ricco d'acqua",
+    "elementi": [
+      "Olio",
+      "Pane",
+      "Mela",
+      "Cetriolo"
+    ],
+    "valori": [
+      "0%",
+      "35%",
+      "85%",
+      "96%"
+    ],
+    "curiosita": "Il cetriolo è composto per il 96% da acqua.",
+    "fatto": "ordine contenuto acqua alimenti",
+    "fonte": "https://it.wikipedia.org/wiki/Acqua",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0022",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Nascita di prodotti italiani, dalla più antica",
+    "elementi": [
+      "Campari",
+      "Moka Bialetti",
+      "Nutella",
+      "Kinder Cioccolato"
+    ],
+    "valori": [
+      "1860",
+      "1933",
+      "1964",
+      "1968"
+    ],
+    "curiosita": "La moka fu inventata da Alfonso Bialetti nel 1933.",
+    "fatto": "ordine nascita prodotti italiani",
+    "fonte": "https://it.wikipedia.org/wiki/Moka",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0023",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Formaggi DOP, dalla stagionatura minima più breve",
+    "elementi": [
+      "Gorgonzola dolce",
+      "Pecorino Romano",
+      "Grana Padano",
+      "Parmigiano Reggiano"
+    ],
+    "valori": [
+      "50 giorni",
+      "5 mesi",
+      "9 mesi",
+      "12 mesi"
+    ],
+    "curiosita": "Il Parmigiano resta in stagionatura almeno 12 mesi, spesso 24.",
+    "fatto": "ordine stagionatura minima formaggi dop",
+    "fonte": "https://it.wikipedia.org/wiki/Formaggio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0024",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Dal meno al più ricco di proteine (100 g)",
+    "elementi": [
+      "Latte",
+      "Riso",
+      "Uovo",
+      "Parmigiano"
+    ],
+    "valori": [
+      "3 g",
+      "7 g",
+      "13 g",
+      "33 g"
+    ],
+    "curiosita": "Il Parmigiano ha più proteine di una bistecca magra.",
+    "fatto": "ordine proteine alimenti",
+    "fonte": "https://it.wikipedia.org/wiki/Proteine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cuc-0025",
+    "tipo": "ordine",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "criterio": "Vitamina C ogni 100 g, dalla minore alla maggiore",
+    "elementi": [
+      "Mela",
+      "Banana",
+      "Arancia",
+      "Kiwi"
+    ],
+    "valori": [
+      "5 mg",
+      "9 mg",
+      "53 mg",
+      "93 mg"
+    ],
+    "curiosita": "Il peperone rosso ne contiene più del kiwi: oltre 120 mg.",
+    "fatto": "ordine vitamina c frutta",
+    "fonte": "https://it.wikipedia.org/wiki/Vitamina_C",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

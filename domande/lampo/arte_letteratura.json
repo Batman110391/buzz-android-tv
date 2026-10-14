@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Vita_nova",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0031",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il Colosseo?",
+    "risposte": [
+      "Roma",
+      "Napoli",
+      "Atene",
+      "Milano"
+    ],
+    "curiosita": "Poteva ospitare circa 50.000 spettatori.",
+    "fatto": "colosseo citta roma",
+    "fonte": "https://it.wikipedia.org/wiki/Colosseo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0032",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova la torre pendente più famosa?",
+    "risposte": [
+      "Pisa",
+      "Bologna",
+      "Siena",
+      "Venezia"
+    ],
+    "curiosita": "Pende fin dalla costruzione, per il cedimento del terreno.",
+    "fatto": "torre pendente pisa",
+    "fonte": "https://it.wikipedia.org/wiki/Torre_di_Pisa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0033",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Lo Hobbit\"?",
+    "risposte": [
+      "Tolkien",
+      "C. S. Lewis",
+      "Roald Dahl",
+      "Michael Ende"
+    ],
+    "curiosita": "Tolkien lo scrisse per intrattenere i suoi figli.",
+    "fatto": "lo hobbit autore",
+    "fonte": "https://it.wikipedia.org/wiki/Lo_Hobbit",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0034",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova il Cenacolo di Leonardo?",
+    "risposte": [
+      "Milano",
+      "Firenze",
+      "Roma",
+      "Pavia"
+    ],
+    "curiosita": "È dipinto nel refettorio di Santa Maria delle Grazie.",
+    "fatto": "cenacolo leonardo citta",
+    "fonte": "https://it.wikipedia.org/wiki/Ultima_cena_(Leonardo_da_Vinci)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0035",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale poeta è detto \"il Sommo Poeta\"?",
+    "risposte": [
+      "Dante",
+      "Petrarca",
+      "Virgilio",
+      "Leopardi"
+    ],
+    "curiosita": "Alla \"Commedia\" fu aggiunto l'aggettivo \"Divina\" solo dopo la morte di Dante.",
+    "fatto": "sommo poeta dante",
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0036",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale città ospita la Biennale d'arte?",
+    "risposte": [
+      "Venezia",
+      "Milano",
+      "Firenze",
+      "Torino"
+    ],
+    "curiosita": "La prima edizione si tenne nel 1895.",
+    "fatto": "biennale arte venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Biennale_di_Venezia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0037",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale complesso museale custodisce la Cappella Sistina?",
+    "risposte": [
+      "Musei Vaticani",
+      "Uffizi",
+      "Brera",
+      "Capitolini"
+    ],
+    "curiosita": "Il nucleo dei Musei Vaticani nacque con papa Giulio II, nel Cinquecento.",
+    "fatto": "cappella sistina musei vaticani",
+    "fonte": "https://it.wikipedia.org/wiki/Musei_Vaticani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0038",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Oliver Twist\"?",
+    "risposte": [
+      "Dickens",
+      "Thackeray",
+      "Hardy",
+      "Stevenson"
+    ],
+    "curiosita": "Fu pubblicato a puntate su una rivista tra il 1837 e il 1839.",
+    "fatto": "oliver twist autore",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_Dickens",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0039",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale piccola statua è il simbolo di Copenaghen?",
+    "risposte": [
+      "La Sirenetta",
+      "Il Pensatore",
+      "Il Perseo",
+      "Il David"
+    ],
+    "curiosita": "La statua è alta appena 1,25 metri.",
+    "fatto": "sirenetta copenaghen statua",
+    "fonte": "https://it.wikipedia.org/wiki/Copenaghen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0040",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scrittore inglese creò James Bond?",
+    "risposte": [
+      "Ian Fleming",
+      "John le Carré",
+      "Graham Greene",
+      "Roald Dahl"
+    ],
+    "curiosita": "Prese il nome del personaggio da un ornitologo americano.",
+    "fatto": "james bond creatore fleming",
+    "fonte": "https://it.wikipedia.org/wiki/Ian_Fleming",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0041",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scolpì il \"Mosè\" di San Pietro in Vincoli?",
+    "risposte": [
+      "Michelangelo",
+      "Bernini",
+      "Donatello",
+      "Canova"
+    ],
+    "curiosita": "Ha due cornetti sulla fronte per una traduzione medievale di \"raggi di luce\".",
+    "fatto": "mose scultura michelangelo",
+    "fonte": "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0042",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Papà Goriot\"?",
+    "risposte": [
+      "Balzac",
+      "Zola",
+      "Maupassant",
+      "Flaubert"
+    ],
+    "curiosita": "Fa parte della \"Commedia umana\", un ciclo di circa novanta opere.",
+    "fatto": "papa goriot autore",
+    "fonte": "https://it.wikipedia.org/wiki/Honoré_de_Balzac",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0043",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale soprannome ha Shakespeare?",
+    "risposte": [
+      "Cigno di Avon",
+      "Aquila di Londra",
+      "Bardo di Thames",
+      "Gufo di Oxford"
+    ],
+    "curiosita": "Il soprannome allude al fiume Avon, che bagna Stratford.",
+    "fatto": "shakespeare soprannome cigno avon",
+    "fonte": "https://it.wikipedia.org/wiki/William_Shakespeare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0044",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse la novella \"Cavalleria rusticana\"?",
+    "risposte": [
+      "Giovanni Verga",
+      "Luigi Capuana",
+      "De Roberto",
+      "Grazia Deledda"
+    ],
+    "curiosita": "Fu portata all'opera da Pietro Mascagni nel 1890.",
+    "fatto": "cavalleria rusticana autore",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Verga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0045",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi creò il personaggio di Tarzan?",
+    "risposte": [
+      "E. R. Burroughs",
+      "Rudyard Kipling",
+      "Jack London",
+      "H. G. Wells"
+    ],
+    "curiosita": "Tarzan esordì nel 1912 su una rivista americana.",
+    "fatto": "tarzan creatore burroughs",
+    "fonte": "https://it.wikipedia.org/wiki/Tarzan",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0046",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il Gruffalò\"?",
+    "risposte": [
+      "Julia Donaldson",
+      "J. K. Rowling",
+      "Beatrix Potter",
+      "Enid Blyton"
+    ],
+    "curiosita": "Il libro è del 1999 ed è illustrato da Axel Scheffler.",
+    "fatto": "gruffalo autrice",
+    "fonte": "https://it.wikipedia.org/wiki/Julia_Donaldson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0047",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"La storia infinita\"?",
+    "risposte": [
+      "Michael Ende",
+      "Otfried Preußler",
+      "Erich Kästner",
+      "Cornelia Funke"
+    ],
+    "curiosita": "Il titolo originale tedesco è \"Die unendliche Geschichte\".",
+    "fatto": "storia infinita autore",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Ende",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0048",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale pittore lasciò Parigi per Tahiti nel 1891?",
+    "risposte": [
+      "Paul Gauguin",
+      "Paul Cézanne",
+      "Henri Matisse",
+      "Pierre Bonnard"
+    ],
+    "curiosita": "Tornò in Polinesia nel 1895 e vi morì nel 1903.",
+    "fatto": "gauguin tahiti",
+    "fonte": "https://it.wikipedia.org/wiki/Paul_Gauguin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0049",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"L'idiota\"?",
+    "risposte": [
+      "Dostoevskij",
+      "Tolstoj",
+      "Čechov",
+      "Gogol"
+    ],
+    "curiosita": "Dostoevskij lo scrisse in gran parte all'estero, tra Svizzera e Italia.",
+    "fatto": "idiota autore dostoevskij",
+    "fonte": "https://it.wikipedia.org/wiki/L%27idiota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0050",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il corsaro nero\"?",
+    "risposte": [
+      "Emilio Salgari",
+      "Giovanni Verga",
+      "Italo Svevo",
+      "De Amicis"
+    ],
+    "curiosita": "Salgari scrisse di mari lontani senza mai allontanarsi dall'Italia.",
+    "fatto": "corsaro nero autore salgari",
+    "fonte": "https://it.wikipedia.org/wiki/Emilio_Salgari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0051",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La capanna dello zio Tom\"?",
+    "risposte": [
+      "H. B. Stowe",
+      "L. M. Alcott",
+      "Emily Dickinson",
+      "Edith Wharton"
+    ],
+    "curiosita": "Uscì nel 1852 e fu un best seller dell'abolizionismo.",
+    "fatto": "capanna zio tom autrice",
+    "fonte": "https://it.wikipedia.org/wiki/Harriet_Beecher_Stowe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0052",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La lettera scarlatta\"?",
+    "risposte": [
+      "Hawthorne",
+      "Melville",
+      "Poe",
+      "Whitman"
+    ],
+    "curiosita": "Il romanzo è ambientato nel Seicento tra i puritani di Boston.",
+    "fatto": "lettera scarlatta autore",
+    "fonte": "https://it.wikipedia.org/wiki/Nathaniel_Hawthorne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0053",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Orlando innamorato\"?",
+    "risposte": [
+      "Boiardo",
+      "Ariosto",
+      "Pulci",
+      "Tasso"
+    ],
+    "curiosita": "Boiardo lo lasciò incompiuto; lo continuò l'Ariosto con il \"Furioso\".",
+    "fatto": "orlando innamorato autore",
+    "fonte": "https://it.wikipedia.org/wiki/Matteo_Maria_Boiardo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0054",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il mulino del Po\"?",
+    "risposte": [
+      "Bacchelli",
+      "Bassani",
+      "Pavese",
+      "Fenoglio"
+    ],
+    "curiosita": "Racconta una famiglia di mugnai lungo il Po in tre volumi.",
+    "fatto": "mulino del po autore",
+    "fonte": "https://it.wikipedia.org/wiki/Riccardo_Bacchelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0055",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La ciociara\"?",
+    "risposte": [
+      "Moravia",
+      "Pratolini",
+      "Sciascia",
+      "Vittorini"
+    ],
+    "curiosita": "Dal libro nel 1960 De Sica trasse un film con Sophia Loren.",
+    "fatto": "la ciociara autore",
+    "fonte": "https://it.wikipedia.org/wiki/Alberto_Moravia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0056",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Piccolo mondo antico\"?",
+    "risposte": [
+      "Fogazzaro",
+      "Verga",
+      "Nievo",
+      "Manzoni"
+    ],
+    "curiosita": "È ambientato sul lago di Lugano al tempo del Risorgimento.",
+    "fatto": "piccolo mondo antico autore",
+    "fonte": "https://it.wikipedia.org/wiki/Antonio_Fogazzaro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0057",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale pittore, detto \"il Doganiere\", dipinse giungle?",
+    "risposte": [
+      "Henri Rousseau",
+      "Paul Gauguin",
+      "Henri Matisse",
+      "Edgar Degas"
+    ],
+    "curiosita": "Dipinse le sue giungle senza mai uscire dalla Francia.",
+    "fatto": "doganiere rousseau giungla",
+    "fonte": "https://it.wikipedia.org/wiki/Henri_Rousseau",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0058",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò la Reggia di Caserta?",
+    "risposte": [
+      "Vanvitelli",
+      "Juvarra",
+      "Palladio",
+      "Borromini"
+    ],
+    "curiosita": "È una delle regge più grandi del mondo, con oltre 1.200 stanze.",
+    "fatto": "reggia di caserta architetto",
+    "fonte": "https://it.wikipedia.org/wiki/Reggia_di_Caserta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0059",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse la raccolta \"Alcyone\"?",
+    "risposte": [
+      "D'Annunzio",
+      "Pascoli",
+      "Carducci",
+      "Ungaretti"
+    ],
+    "curiosita": "Contiene \"La pioggia nel pineto\".",
+    "fatto": "alcyone autore",
+    "fonte": "https://it.wikipedia.org/wiki/Gabriele_D'Annunzio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-art-0060",
+    "tipo": "lampo",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il mondo nuovo\"?",
+    "risposte": [
+      "Aldous Huxley",
+      "George Orwell",
+      "Ray Bradbury",
+      "H. G. Wells"
+    ],
+    "curiosita": "Il titolo viene da una frase della \"Tempesta\" di Shakespeare.",
+    "fatto": "il mondo nuovo autore huxley",
+    "fonte": "https://it.wikipedia.org/wiki/Aldous_Huxley",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

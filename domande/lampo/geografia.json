@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Kathmandu",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0031",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale della Polonia?",
+    "risposte": [
+      "Varsavia",
+      "Cracovia",
+      "Danzica",
+      "Breslavia"
+    ],
+    "curiosita": "Fu ricostruita quasi da zero dopo il 1945.",
+    "fatto": "capitale polonia varsavia",
+    "fonte": "https://it.wikipedia.org/wiki/Varsavia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0032",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale dell'Ungheria?",
+    "risposte": [
+      "Budapest",
+      "Vienna",
+      "Praga",
+      "Bucarest"
+    ],
+    "curiosita": "Nacque nel 1873 unendo Buda, Óbuda e Pest.",
+    "fatto": "capitale ungheria budapest",
+    "fonte": "https://it.wikipedia.org/wiki/Budapest",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0033",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale della Cina?",
+    "risposte": [
+      "Pechino",
+      "Shanghai",
+      "Hong Kong",
+      "Canton"
+    ],
+    "curiosita": "Fu la prima città a ospitare Giochi estivi e invernali.",
+    "fatto": "capitale cina pechino",
+    "fonte": "https://it.wikipedia.org/wiki/Pechino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0034",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale continente si trova il Kenya?",
+    "risposte": [
+      "Africa",
+      "Asia",
+      "America",
+      "Oceania"
+    ],
+    "curiosita": "L'equatore attraversa il Paese.",
+    "fatto": "kenya continente africa",
+    "fonte": "https://it.wikipedia.org/wiki/Kenya",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0035",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Il Monte Bianco fa parte di quale catena?",
+    "risposte": [
+      "Alpi",
+      "Appennini",
+      "Pirenei",
+      "Carpazi"
+    ],
+    "curiosita": "È la vetta più alta delle Alpi.",
+    "fatto": "monte bianco catena alpi",
+    "fonte": "https://it.wikipedia.org/wiki/Monte_Bianco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0036",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il capoluogo della Lombardia?",
+    "risposte": [
+      "Milano",
+      "Bergamo",
+      "Brescia",
+      "Como"
+    ],
+    "curiosita": "È la città italiana con più grattacieli.",
+    "fatto": "capoluogo lombardia milano",
+    "fonte": "https://it.wikipedia.org/wiki/Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0037",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "In quale Paese si trova Rio de Janeiro?",
+    "risposte": [
+      "Brasile",
+      "Argentina",
+      "Portogallo",
+      "Messico"
+    ],
+    "curiosita": "Fu capitale del Brasile fino al 1960.",
+    "fatto": "rio de janeiro paese brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Rio_de_Janeiro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0038",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è la capitale della Grecia?",
+    "risposte": [
+      "Atene",
+      "Salonicco",
+      "Patrasso",
+      "Sparta"
+    ],
+    "curiosita": "È una delle più antiche città d'Europa.",
+    "fatto": "capitale grecia atene",
+    "fonte": "https://it.wikipedia.org/wiki/Atene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0039",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Qual è il capoluogo della Puglia?",
+    "risposte": [
+      "Bari",
+      "Lecce",
+      "Taranto",
+      "Foggia"
+    ],
+    "curiosita": "Qui riposano le reliquie di San Nicola.",
+    "fatto": "capoluogo puglia bari",
+    "fonte": "https://it.wikipedia.org/wiki/Bari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0040",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "domanda": "Nel golfo di quale città si trova Capri?",
+    "risposte": [
+      "Napoli",
+      "Salerno",
+      "Gaeta",
+      "Sorrento"
+    ],
+    "curiosita": "I Faraglioni sono il suo simbolo.",
+    "fatto": "capri golfo napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Capri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0041",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è capitale Amman?",
+    "risposte": [
+      "Giordania",
+      "Siria",
+      "Libano",
+      "Iraq"
+    ],
+    "curiosita": "Sorge su sette colli, come Roma.",
+    "fatto": "capitale giordania amman",
+    "fonte": "https://it.wikipedia.org/wiki/Amman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0042",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Di quale nazione britannica è capitale Edimburgo?",
+    "risposte": [
+      "Scozia",
+      "Galles",
+      "Irlanda del Nord",
+      "Inghilterra"
+    ],
+    "curiosita": "Ogni agosto ospita un festival con migliaia di spettacoli.",
+    "fatto": "capitale scozia edimburgo",
+    "fonte": "https://it.wikipedia.org/wiki/Edimburgo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0043",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale del Vietnam?",
+    "risposte": [
+      "Hanoi",
+      "Ho Chi Minh",
+      "Hué",
+      "Da Nang"
+    ],
+    "curiosita": "Ho Chi Minh è più grande, ma non è la capitale.",
+    "fatto": "capitale vietnam hanoi",
+    "fonte": "https://it.wikipedia.org/wiki/Hanoi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0044",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale della Corea del Sud?",
+    "risposte": [
+      "Seul",
+      "Busan",
+      "Incheon",
+      "Pyongyang"
+    ],
+    "curiosita": "Ci vivono circa dieci milioni di persone.",
+    "fatto": "capitale corea del sud seul",
+    "fonte": "https://it.wikipedia.org/wiki/Seul",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0045",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale della Croazia?",
+    "risposte": [
+      "Zagabria",
+      "Spalato",
+      "Fiume",
+      "Zara"
+    ],
+    "curiosita": "Si trova nell'interno, lontano dal mare.",
+    "fatto": "capitale croazia zagabria",
+    "fonte": "https://it.wikipedia.org/wiki/Zagabria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0046",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova Salonicco?",
+    "risposte": [
+      "Grecia",
+      "Turchia",
+      "Bulgaria",
+      "Albania"
+    ],
+    "curiosita": "È la seconda città greca per popolazione.",
+    "fatto": "salonicco paese grecia",
+    "fonte": "https://it.wikipedia.org/wiki/Salonicco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0047",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova la città di Oporto?",
+    "risposte": [
+      "Portogallo",
+      "Spagna",
+      "Brasile",
+      "Francia"
+    ],
+    "curiosita": "Dà il nome al vino liquoroso detto porto.",
+    "fatto": "oporto paese portogallo",
+    "fonte": "https://it.wikipedia.org/wiki/Portogallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0048",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese si trova Cusco?",
+    "risposte": [
+      "Perù",
+      "Bolivia",
+      "Ecuador",
+      "Cile"
+    ],
+    "curiosita": "Fu la capitale dell'impero Inca.",
+    "fatto": "cusco paese peru",
+    "fonte": "https://it.wikipedia.org/wiki/Cusco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0049",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "In quale Paese sorge Mont-Saint-Michel?",
+    "risposte": [
+      "Francia",
+      "Belgio",
+      "Regno Unito",
+      "Spagna"
+    ],
+    "curiosita": "Ha maree tra le più forti d'Europa.",
+    "fatto": "mont saint michel paese francia",
+    "fonte": "https://it.wikipedia.org/wiki/Mont-Saint-Michel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0050",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "domanda": "Qual è la capitale della Costa d'Avorio?",
+    "risposte": [
+      "Yamoussoukro",
+      "Abidjan",
+      "Dakar",
+      "Accra"
+    ],
+    "curiosita": "Abidjan è più grande, ma la capitale è Yamoussoukro.",
+    "fatto": "capitale costa d avorio yamoussoukro",
+    "fonte": "https://it.wikipedia.org/wiki/Yamoussoukro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0051",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale della Tanzania?",
+    "risposte": [
+      "Dodoma",
+      "Dar es Salaam",
+      "Nairobi",
+      "Zanzibar"
+    ],
+    "curiosita": "Dar es Salaam è più grande ma non è la capitale.",
+    "fatto": "capitale tanzania dodoma",
+    "fonte": "https://it.wikipedia.org/wiki/Dodoma",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0052",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale del Pakistan?",
+    "risposte": [
+      "Islamabad",
+      "Karachi",
+      "Lahore",
+      "Peshawar"
+    ],
+    "curiosita": "Fu costruita dal 1960 al posto di Karachi.",
+    "fatto": "capitale pakistan islamabad",
+    "fonte": "https://it.wikipedia.org/wiki/Islamabad",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0053",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale della Slovacchia?",
+    "risposte": [
+      "Bratislava",
+      "Praga",
+      "Lubiana",
+      "Budapest"
+    ],
+    "curiosita": "Sta sul Danubio, a poco più di 50 km da Vienna.",
+    "fatto": "capitale slovacchia bratislava",
+    "fonte": "https://it.wikipedia.org/wiki/Bratislava",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0054",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale dell'Estonia?",
+    "risposte": [
+      "Tallinn",
+      "Riga",
+      "Vilnius",
+      "Helsinki"
+    ],
+    "curiosita": "Il suo centro medievale è Patrimonio UNESCO.",
+    "fatto": "capitale estonia tallinn",
+    "fonte": "https://it.wikipedia.org/wiki/Tallinn",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0055",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale dell'Etiopia?",
+    "risposte": [
+      "Addis Abeba",
+      "Asmara",
+      "Khartum",
+      "Mogadiscio"
+    ],
+    "curiosita": "Il nome significa «nuovo fiore».",
+    "fatto": "capitale etiopia addis abeba",
+    "fonte": "https://it.wikipedia.org/wiki/Addis_Abeba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0056",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale costituzionale della Bolivia?",
+    "risposte": [
+      "Sucre",
+      "La Paz",
+      "Cochabamba",
+      "Santa Cruz"
+    ],
+    "curiosita": "Il governo però siede a La Paz.",
+    "fatto": "capitale costituzionale bolivia sucre",
+    "fonte": "https://it.wikipedia.org/wiki/Sucre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0057",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Il Reno sfocia in quale mare?",
+    "risposte": [
+      "Mare del Nord",
+      "Mar Baltico",
+      "Mar Nero",
+      "Mediterraneo"
+    ],
+    "curiosita": "Il suo delta si trova nei Paesi Bassi.",
+    "fatto": "reno foce mare del nord",
+    "fonte": "https://it.wikipedia.org/wiki/Mare_del_Nord",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0058",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è il più piccolo Stato degli USA per superficie?",
+    "risposte": [
+      "Rhode Island",
+      "Delaware",
+      "Connecticut",
+      "Vermont"
+    ],
+    "curiosita": "Nonostante il nome, gran parte del territorio è sulla terraferma.",
+    "fatto": "stato usa piu piccolo rhode island",
+    "fonte": "https://it.wikipedia.org/wiki/Rhode_Island",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0059",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è l'isola più grande del Giappone?",
+    "risposte": [
+      "Honshu",
+      "Hokkaido",
+      "Kyushu",
+      "Shikoku"
+    ],
+    "curiosita": "Ospita Tokyo, Kyoto e il Monte Fuji.",
+    "fatto": "isola piu grande giappone honshu",
+    "fonte": "https://it.wikipedia.org/wiki/Giappone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-geo-0060",
+    "tipo": "lampo",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "domanda": "Qual è la capitale della Lituania?",
+    "risposte": [
+      "Vilnius",
+      "Riga",
+      "Tallinn",
+      "Minsk"
+    ],
+    "curiosita": "Ospita Užupis, quartiere che si proclama «repubblica» per gioco.",
+    "fatto": "capitale lituania vilnius",
+    "fonte": "https://it.wikipedia.org/wiki/Vilnius",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

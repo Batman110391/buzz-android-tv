@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Canzoniere_(Petrarca)",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0091",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quali fratelli tedeschi raccolsero fiabe come \"Hansel e Gretel\"?",
+    "risposte": [
+      "Grimm",
+      "Lumière",
+      "Wright",
+      "Brontë"
+    ],
+    "curiosita": "Jacob e Wilhelm Grimm erano anche filologi e studiosi della lingua tedesca.",
+    "fatto": "fratelli grimm fiabe",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Grimm",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0092",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"Notre-Dame de Paris\"?",
+    "risposte": [
+      "Victor Hugo",
+      "Alexandre Dumas",
+      "Honoré de Balzac",
+      "Émile Zola"
+    ],
+    "curiosita": "Il romanzo contribuì a salvare la cattedrale dal degrado.",
+    "fatto": "notre dame de paris autore",
+    "fonte": "https://it.wikipedia.org/wiki/Victor_Hugo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0093",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse \"La Sirenetta\" e \"Il brutto anatroccolo\"?",
+    "risposte": [
+      "Hans Christian Andersen",
+      "Charles Perrault",
+      "Carlo Collodi",
+      "Astrid Lindgren"
+    ],
+    "curiosita": "Andersen era danese e scrisse oltre 150 fiabe.",
+    "fatto": "andersen sirenetta",
+    "fonte": "https://it.wikipedia.org/wiki/Hans_Christian_Andersen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0094",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova la Basilica di San Marco?",
+    "risposte": [
+      "Venezia",
+      "Verona",
+      "Padova",
+      "Ravenna"
+    ],
+    "curiosita": "I suoi mosaici dorati coprono circa 8.000 metri quadrati.",
+    "fatto": "basilica san marco citta",
+    "fonte": "https://it.wikipedia.org/wiki/Basilica_di_San_Marco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0095",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova la Sagrada Família?",
+    "risposte": [
+      "Barcellona",
+      "Madrid",
+      "Siviglia",
+      "Valencia"
+    ],
+    "curiosita": "Antoni Gaudí vi lavorò dal 1883 fino alla morte, nel 1926.",
+    "fatto": "sagrada familia citta",
+    "fonte": "https://it.wikipedia.org/wiki/Sagrada_Família",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0096",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scultore firmò la Pietà di San Pietro sulla fascia della Madonna?",
+    "risposte": [
+      "Michelangelo",
+      "Bernini",
+      "Canova",
+      "Donatello"
+    ],
+    "curiosita": "È l'unica opera che Michelangelo firmò.",
+    "fatto": "pieta vaticana firma",
+    "fonte": "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0097",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi guida Dante nell'Inferno e nel Purgatorio?",
+    "risposte": [
+      "Virgilio",
+      "Omero",
+      "Orazio",
+      "Ovidio"
+    ],
+    "curiosita": "Dante sceglie Virgilio perché poeta amatissimo e simbolo della ragione.",
+    "fatto": "guida di dante virgilio",
+    "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0098",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale pittrice messicana è celebre per i suoi autoritratti?",
+    "risposte": [
+      "Frida Kahlo",
+      "Tamara de Lempicka",
+      "Artemisia Gentileschi",
+      "Georgia O'Keeffe"
+    ],
+    "curiosita": "Visse nella \"Casa Azul\" di Coyoacán, oggi museo.",
+    "fatto": "frida kahlo autoritratti",
+    "fonte": "https://it.wikipedia.org/wiki/Frida_Kahlo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0099",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il curato timoroso dei \"Promessi sposi\"?",
+    "risposte": [
+      "Don Abbondio",
+      "Fra Cristoforo",
+      "Don Rodrigo",
+      "Il Griso"
+    ],
+    "curiosita": "La sua paura dei bravi dà il via a tutta la vicenda.",
+    "fatto": "don abbondio promessi sposi",
+    "fonte": "https://it.wikipedia.org/wiki/I_promessi_sposi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0100",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scrittrice creò l'investigatore Hercule Poirot?",
+    "risposte": [
+      "Agatha Christie",
+      "Jane Austen",
+      "Patricia Highsmith",
+      "Virginia Woolf"
+    ],
+    "curiosita": "Si stima che abbia venduto oltre due miliardi di copie.",
+    "fatto": "poirot autrice agatha christie",
+    "fonte": "https://it.wikipedia.org/wiki/Agatha_Christie",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0101",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse un celebre diario nell'alloggio segreto di Amsterdam?",
+    "risposte": [
+      "Anna Frank",
+      "Marie Curie",
+      "Sophie Scholl",
+      "Irène Némirovsky"
+    ],
+    "curiosita": "Si nascose con la famiglia per oltre due anni, dal 1942 al 1944.",
+    "fatto": "diario anna frank",
+    "fonte": "https://it.wikipedia.org/wiki/Anna_Frank",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0102",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scrittore siciliano ha creato il commissario Montalbano?",
+    "risposte": [
+      "Andrea Camilleri",
+      "Leonardo Sciascia",
+      "Luigi Pirandello",
+      "Gesualdo Bufalino"
+    ],
+    "curiosita": "Il nome del commissario omaggia lo scrittore spagnolo Manuel Vázquez Montalbán.",
+    "fatto": "montalbano autore camilleri",
+    "fonte": "https://it.wikipedia.org/wiki/Andrea_Camilleri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0103",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi scrisse il \"Cantico delle creature\"?",
+    "risposte": [
+      "Francesco d'Assisi",
+      "Dante Alighieri",
+      "Jacopone da Todi",
+      "Petrarca"
+    ],
+    "curiosita": "È considerato uno dei primi testi poetici in lingua italiana.",
+    "fatto": "cantico delle creature autore",
+    "fonte": "https://it.wikipedia.org/wiki/Cantico_delle_creature",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0104",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Di che colore sono i quadri del \"periodo blu\" di Picasso?",
+    "risposte": [
+      "Blu",
+      "Rosa",
+      "Verde",
+      "Grigio"
+    ],
+    "curiosita": "Li dipinse dopo la morte dell'amico Casagemas, tra il 1901 e il 1904.",
+    "fatto": "periodo blu picasso",
+    "fonte": "https://it.wikipedia.org/wiki/Pablo_Picasso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0105",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale opera inizia con \"Nel mezzo del cammin di nostra vita\"?",
+    "risposte": [
+      "Divina Commedia",
+      "Decameron",
+      "Orlando furioso",
+      "Canzoniere"
+    ],
+    "curiosita": "Il poema fu scritto in gran parte durante l'esilio di Dante.",
+    "fatto": "incipit nel mezzo del cammin",
+    "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0106",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale romanzo inizia con \"Quel ramo del lago di Como\"?",
+    "risposte": [
+      "I promessi sposi",
+      "Il Gattopardo",
+      "I Malavoglia",
+      "Il fu Mattia Pascal"
+    ],
+    "curiosita": "È uno degli incipit più famosi della letteratura italiana.",
+    "fatto": "incipit ramo del lago di como",
+    "fonte": "https://it.wikipedia.org/wiki/I_promessi_sposi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0107",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale statua accoglie i visitatori all'ingresso del porto di New York?",
+    "risposte": [
+      "Statua della Libertà",
+      "Cristo Redentore",
+      "Piccola Sirena",
+      "Mount Rushmore"
+    ],
+    "curiosita": "La progettò Bartholdi, ma la struttura interna è di Gustave Eiffel.",
+    "fatto": "statua della liberta progettista",
+    "fonte": "https://it.wikipedia.org/wiki/Statua_della_Libertà",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0108",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale cattedrale di Milano è sormontata dalla Madonnina?",
+    "risposte": [
+      "Duomo",
+      "Sant'Ambrogio",
+      "San Lorenzo",
+      "Santa Maria delle Grazie"
+    ],
+    "curiosita": "La Madonnina dorata è alta oltre quattro metri.",
+    "fatto": "madonnina duomo milano",
+    "fonte": "https://it.wikipedia.org/wiki/Duomo_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0109",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale fontana di Roma si lanciano monete portafortuna?",
+    "risposte": [
+      "Fontana di Trevi",
+      "Fontana dei Quattro Fiumi",
+      "Barcaccia",
+      "Fontana del Tritone"
+    ],
+    "curiosita": "Le monete raccolte vengono devolute in beneficenza.",
+    "fatto": "fontana di trevi monete",
+    "fonte": "https://it.wikipedia.org/wiki/Fontana_di_Trevi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0110",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale ponte di Firenze è carico di botteghe di orafi?",
+    "risposte": [
+      "Ponte Vecchio",
+      "Ponte Santa Trinita",
+      "Ponte alle Grazie",
+      "Ponte Rialto"
+    ],
+    "curiosita": "Nel 1944 fu l'unico ponte fiorentino risparmiato dai tedeschi in ritirata.",
+    "fatto": "ponte vecchio botteghe",
+    "fonte": "https://it.wikipedia.org/wiki/Ponte_Vecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0111",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale tempio domina l'Acropoli di Atene?",
+    "risposte": [
+      "Partenone",
+      "Pantheon",
+      "Eretteo",
+      "Colosseo"
+    ],
+    "curiosita": "È dedicato ad Atena, dea della saggezza.",
+    "fatto": "partenone acropoli atene",
+    "fonte": "https://it.wikipedia.org/wiki/Partenone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0112",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il fedele scudiero di Don Chisciotte?",
+    "risposte": [
+      "Sancho Panza",
+      "Sansón Carrasco",
+      "Cardenio",
+      "Cide Hamete"
+    ],
+    "curiosita": "Sancho è l'opposto del suo padrone: concreto e pieno di buon senso.",
+    "fatto": "scudiero don chisciotte",
+    "fonte": "https://it.wikipedia.org/wiki/Don_Chisciotte_della_Mancia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0113",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città nacque Dante Alighieri?",
+    "risposte": [
+      "Firenze",
+      "Ravenna",
+      "Pisa",
+      "Verona"
+    ],
+    "curiosita": "Dante fu esiliato da Firenze nel 1302 e non vi tornò più.",
+    "fatto": "dante luogo di nascita firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0114",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Da quale paese toscano prende il nome Leonardo da Vinci?",
+    "risposte": [
+      "Vinci",
+      "Anchiano",
+      "Empoli",
+      "Pistoia"
+    ],
+    "curiosita": "Il suo nome completo era \"Leonardo di ser Piero da Vinci\".",
+    "fatto": "leonardo nome vinci",
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0115",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città è ambientato \"Romeo e Giulietta\"?",
+    "risposte": [
+      "Verona",
+      "Venezia",
+      "Roma",
+      "Mantova"
+    ],
+    "curiosita": "La \"casa di Giulietta\" con il balcone è una delle mete più visitate di Verona.",
+    "fatto": "romeo e giulietta ambientazione verona",
+    "fonte": "https://it.wikipedia.org/wiki/Romeo_e_Giulietta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0116",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Chi dettò \"Il Milione\", il racconto dei suoi viaggi in Oriente?",
+    "risposte": [
+      "Marco Polo",
+      "Cristoforo Colombo",
+      "Amerigo Vespucci",
+      "Ibn Battuta"
+    ],
+    "curiosita": "Lo dettò a Rustichello da Pisa mentre erano prigionieri a Genova.",
+    "fatto": "il milione autore marco polo",
+    "fonte": "https://it.wikipedia.org/wiki/Il_Milione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0117",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quale scrittrice americana creò Jo March e le sorelle di \"Piccole donne\"?",
+    "risposte": [
+      "Louisa May Alcott",
+      "Emily Dickinson",
+      "Harper Lee",
+      "Margaret Mitchell"
+    ],
+    "curiosita": "Jo è in parte ispirata alla stessa autrice.",
+    "fatto": "piccole donne autrice alcott",
+    "fonte": "https://it.wikipedia.org/wiki/Louisa_May_Alcott",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0118",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale città si trova la Pinacoteca di Brera?",
+    "risposte": [
+      "Milano",
+      "Torino",
+      "Bologna",
+      "Roma"
+    ],
+    "curiosita": "Custodisce il \"Bacio\" di Hayez e la \"Cena in Emmaus\" di Caravaggio.",
+    "fatto": "pinacoteca di brera citta",
+    "fonte": "https://it.wikipedia.org/wiki/Pinacoteca_di_Brera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0119",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "Quanti sono i libri della saga di Harry Potter?",
+    "risposte": [
+      "Sette",
+      "Cinque",
+      "Sei",
+      "Otto"
+    ],
+    "curiosita": "L'ultimo, \"I doni della Morte\", uscì nel 2007.",
+    "fatto": "harry potter numero libri",
+    "fonte": "https://it.wikipedia.org/wiki/Harry_Potter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0120",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "domanda": "In quale museo parigino è esposta la Gioconda?",
+    "risposte": [
+      "Louvre",
+      "Orsay",
+      "Orangerie",
+      "Pompidou"
+    ],
+    "curiosita": "Nel 1911 fu rubata da un ex dipendente, Vincenzo Peruggia, e ritrovata nel 1913.",
+    "fatto": "gioconda museo louvre furto",
+    "fonte": "https://it.wikipedia.org/wiki/Museo_del_Louvre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0121",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse nel 1697 le fiabe di \"Cenerentola\" e \"Il gatto con gli stivali\"?",
+    "risposte": [
+      "Charles Perrault",
+      "Fratelli Grimm",
+      "Hans Christian Andersen",
+      "Carlo Collodi"
+    ],
+    "curiosita": "Perrault pubblicò i \"Racconti di Mamma l'Oca\" a più di sessant'anni.",
+    "fatto": "perrault cenerentola 1697",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_Perrault",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0122",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il fantasma dell'Opera\"?",
+    "risposte": [
+      "Gaston Leroux",
+      "Victor Hugo",
+      "Maurice Leblanc",
+      "Jules Verne"
+    ],
+    "curiosita": "Fu pubblicato a puntate su un quotidiano francese nel 1909-1910.",
+    "fatto": "fantasma dell opera autore",
+    "fonte": "https://it.wikipedia.org/wiki/Gaston_Leroux",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0123",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il sabato del villaggio\"?",
+    "risposte": [
+      "Giacomo Leopardi",
+      "Giovanni Pascoli",
+      "Giosuè Carducci",
+      "Ugo Foscolo"
+    ],
+    "curiosita": "Leopardi lo compose a Recanati, la sua città natale.",
+    "fatto": "sabato del villaggio autore",
+    "fonte": "https://it.wikipedia.org/wiki/Giacomo_Leopardi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0124",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "In quale lingua scrisse Dante la Divina Commedia?",
+    "risposte": [
+      "Volgare fiorentino",
+      "Latino",
+      "Provenzale",
+      "Siciliano"
+    ],
+    "curiosita": "Per questa scelta Dante è detto \"padre della lingua italiana\".",
+    "fatto": "lingua della divina commedia",
+    "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0125",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "In quale città inglese nacque William Shakespeare?",
+    "risposte": [
+      "Stratford-upon-Avon",
+      "Londra",
+      "Oxford",
+      "Canterbury"
+    ],
+    "curiosita": "Nacque nel 1564 e morì nello stesso posto nel 1616.",
+    "fatto": "shakespeare luogo di nascita",
+    "fonte": "https://it.wikipedia.org/wiki/William_Shakespeare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0126",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il meraviglioso Mago di Oz\"?",
+    "risposte": [
+      "L. Frank Baum",
+      "Lewis Carroll",
+      "C. S. Lewis",
+      "J. M. Barrie"
+    ],
+    "curiosita": "Baum scrisse 14 libri ambientati nel mondo di Oz.",
+    "fatto": "mago di oz autore baum",
+    "fonte": "https://it.wikipedia.org/wiki/L._Frank_Baum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0127",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Le cronache di Narnia\"?",
+    "risposte": [
+      "C. S. Lewis",
+      "J. R. R. Tolkien",
+      "Roald Dahl",
+      "Philip Pullman"
+    ],
+    "curiosita": "Lewis fu amico di Tolkien e insegnò a Oxford.",
+    "fatto": "cronache di narnia autore",
+    "fonte": "https://it.wikipedia.org/wiki/C._S._Lewis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0128",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Winnie the Pooh\"?",
+    "risposte": [
+      "A. A. Milne",
+      "Beatrix Potter",
+      "Kenneth Grahame",
+      "Rudyard Kipling"
+    ],
+    "curiosita": "L'orsetto è ispirato al peluche del figlio dell'autore, Christopher Robin.",
+    "fatto": "winnie the pooh autore",
+    "fonte": "https://it.wikipedia.org/wiki/A._A._Milne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0130",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Va' dove ti porta il cuore\"?",
+    "risposte": [
+      "Susanna Tamaro",
+      "Margaret Mazzantini",
+      "Oriana Fallaci",
+      "Alessandro Baricco"
+    ],
+    "curiosita": "Uscì nel 1994 e fu uno dei libri italiani più venduti di sempre.",
+    "fatto": "va dove ti porta il cuore autrice",
+    "fonte": "https://it.wikipedia.org/wiki/Susanna_Tamaro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0131",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"L'amica geniale\"?",
+    "risposte": [
+      "Elena Ferrante",
+      "Natalia Ginzburg",
+      "Elsa Morante",
+      "Grazia Deledda"
+    ],
+    "curiosita": "Elena Ferrante è uno pseudonimo: la sua identità è rimasta riservata.",
+    "fatto": "amica geniale autrice ferrante",
+    "fonte": "https://it.wikipedia.org/wiki/Elena_Ferrante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0132",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale autore italiano, attore e drammaturgo, vinse il Nobel per la letteratura nel 1997?",
+    "risposte": [
+      "Dario Fo",
+      "Eugenio Montale",
+      "Umberto Eco",
+      "Luigi Pirandello"
+    ],
+    "curiosita": "Il suo capolavoro è \"Mistero buffo\", un monologo satirico.",
+    "fatto": "dario fo nobel 1997",
+    "fonte": "https://it.wikipedia.org/wiki/Dario_Fo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0133",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale affresco di Michelangelo copre la parete dietro l'altare della Cappella Sistina?",
+    "risposte": [
+      "Giudizio Universale",
+      "Creazione di Adamo",
+      "Diluvio universale",
+      "Sacra Famiglia"
+    ],
+    "curiosita": "Fu dipinto tra il 1536 e il 1541, più di vent'anni dopo la volta.",
+    "fatto": "giudizio universale michelangelo",
+    "fonte": "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0134",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Dentro quale animale marino finisce Pinocchio nel libro di Collodi?",
+    "risposte": [
+      "Pescecane",
+      "Balena",
+      "Delfino",
+      "Polpo"
+    ],
+    "curiosita": "La balena è del film Disney: nel libro Geppetto e Pinocchio sono nel ventre di un pescecane.",
+    "fatto": "pinocchio pescecane balena",
+    "fonte": "https://it.wikipedia.org/wiki/Le_avventure_di_Pinocchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0135",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il capitano ossessionato da Moby Dick?",
+    "risposte": [
+      "Achab",
+      "Ismaele",
+      "Queequeg",
+      "Starbuck"
+    ],
+    "curiosita": "Il nome richiama un re biblico malvagio.",
+    "fatto": "capitano moby dick achab",
+    "fonte": "https://it.wikipedia.org/wiki/Moby_Dick",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0136",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale pittore dipinse \"Impressione, levar del sole\"?",
+    "risposte": [
+      "Claude Monet",
+      "Édouard Manet",
+      "Pierre-Auguste Renoir",
+      "Edgar Degas"
+    ],
+    "curiosita": "Il critico Louis Leroy usò il titolo con ironia nel 1874, e nacque il nome \"impressionismo\".",
+    "fatto": "impressione levar del sole monet",
+    "fonte": "https://it.wikipedia.org/wiki/Impressionismo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0137",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale scultore creò \"Il bacio\" in marmo, ispirato a Paolo e Francesca?",
+    "risposte": [
+      "Auguste Rodin",
+      "Antonio Canova",
+      "Constantin Brâncuși",
+      "Camille Claudel"
+    ],
+    "curiosita": "Rodin lo concepì per le \"Porte dell'Inferno\".",
+    "fatto": "il bacio rodin paolo e francesca",
+    "fonte": "https://it.wikipedia.org/wiki/Auguste_Rodin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0138",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale artista olandese è noto per le scale infinite e i disegni impossibili?",
+    "risposte": [
+      "M. C. Escher",
+      "Piet Mondrian",
+      "Vincent van Gogh",
+      "Jan Vermeer"
+    ],
+    "curiosita": "Escher si ispirò anche ai mosaici dell'Alhambra di Granada.",
+    "fatto": "escher scale impossibili",
+    "fonte": "https://it.wikipedia.org/wiki/Maurits_Cornelis_Escher",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0139",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale pittore belga dipinse \"Il tradimento delle immagini\"?",
+    "risposte": [
+      "René Magritte",
+      "Paul Delvaux",
+      "James Ensor",
+      "Salvador Dalí"
+    ],
+    "curiosita": "Sotto la pipa scrisse: \"Ceci n'est pas une pipe\".",
+    "fatto": "tradimento delle immagini magritte",
+    "fonte": "https://it.wikipedia.org/wiki/René_Magritte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0140",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse l'\"Orlando furioso\"?",
+    "risposte": [
+      "Ludovico Ariosto",
+      "Torquato Tasso",
+      "Matteo Maria Boiardo",
+      "Luigi Pulci"
+    ],
+    "curiosita": "Lo rielaborò per quasi trent'anni, in tre edizioni dal 1516 al 1532.",
+    "fatto": "orlando furioso autore",
+    "fonte": "https://it.wikipedia.org/wiki/Ludovico_Ariosto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0141",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Lo straniero\", che inizia con la morte della madre del protagonista?",
+    "risposte": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Marcel Proust",
+      "André Gide"
+    ],
+    "curiosita": "Camus vinse il Nobel per la letteratura nel 1957.",
+    "fatto": "lo straniero autore camus",
+    "fonte": "https://it.wikipedia.org/wiki/Albert_Camus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0142",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Il buio oltre la siepe\"?",
+    "risposte": [
+      "Harper Lee",
+      "Truman Capote",
+      "Margaret Mitchell",
+      "Toni Morrison"
+    ],
+    "curiosita": "Per decenni fu il suo unico romanzo pubblicato.",
+    "fatto": "il buio oltre la siepe autrice",
+    "fonte": "https://it.wikipedia.org/wiki/Harper_Lee",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0143",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale architetto catalano progettò Casa Batlló, con la facciata a squame di drago?",
+    "risposte": [
+      "Antoni Gaudí",
+      "Santiago Calatrava",
+      "Ricardo Bofill",
+      "Josep Puig i Cadafalch"
+    ],
+    "curiosita": "Il tetto ricorda il dorso di un drago ferito da san Giorgio.",
+    "fatto": "casa batllo gaudi",
+    "fonte": "https://it.wikipedia.org/wiki/Antoni_Gaudí",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0144",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi progettò il colonnato che abbraccia Piazza San Pietro?",
+    "risposte": [
+      "Bernini",
+      "Michelangelo",
+      "Borromini",
+      "Bramante"
+    ],
+    "curiosita": "Le colonne sono 284, disposte su quattro file.",
+    "fatto": "colonnato piazza san pietro bernini",
+    "fonte": "https://it.wikipedia.org/wiki/Piazza_San_Pietro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0145",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "In quale città si trova il Rijksmuseum, che custodisce \"La ronda di notte\"?",
+    "risposte": [
+      "Amsterdam",
+      "L'Aia",
+      "Rotterdam",
+      "Bruxelles"
+    ],
+    "curiosita": "Il quadro di Rembrandt misura circa 3,6 per 4,4 metri.",
+    "fatto": "rijksmuseum citta",
+    "fonte": "https://it.wikipedia.org/wiki/Rijksmuseum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0146",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi disegnò l'Uomo vitruviano?",
+    "risposte": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raffaello",
+      "Brunelleschi"
+    ],
+    "curiosita": "Si ispira al trattato di architettura dell'antico romano Vitruvio.",
+    "fatto": "uomo vitruviano autore",
+    "fonte": "https://it.wikipedia.org/wiki/Uomo_vitruviano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0147",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale fumettista italiano creò Corto Maltese?",
+    "risposte": [
+      "Hugo Pratt",
+      "Milo Manara",
+      "Guido Crepax",
+      "Sergio Toppi"
+    ],
+    "curiosita": "Corto Maltese esordì nel 1967 con \"La ballata del mare salato\".",
+    "fatto": "corto maltese autore pratt",
+    "fonte": "https://it.wikipedia.org/wiki/Hugo_Pratt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0148",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Quale scrittore italiano creò Dylan Dog?",
+    "risposte": [
+      "Tiziano Sclavi",
+      "Gianluigi Bonelli",
+      "Stefano Benni",
+      "Bruno Bozzetto"
+    ],
+    "curiosita": "Il volto del personaggio è ispirato a quello dell'attore Rupert Everett.",
+    "fatto": "dylan dog creatore",
+    "fonte": "https://it.wikipedia.org/wiki/Tiziano_Sclavi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0149",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi creò Asterix insieme al disegnatore Albert Uderzo?",
+    "risposte": [
+      "René Goscinny",
+      "Hergé",
+      "Jean Giraud",
+      "Morris"
+    ],
+    "curiosita": "Il primo albo uscì nel 1959 sulla rivista \"Pilote\".",
+    "fatto": "asterix sceneggiatore goscinny",
+    "fonte": "https://it.wikipedia.org/wiki/René_Goscinny",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0150",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Lo strano caso del dottor Jekyll e del signor Hyde\"?",
+    "risposte": [
+      "Robert Louis Stevenson",
+      "Bram Stoker",
+      "Oscar Wilde",
+      "Arthur Conan Doyle"
+    ],
+    "curiosita": "Stevenson affermò di aver sognato la trama.",
+    "fatto": "jekyll e hyde autore",
+    "fonte": "https://it.wikipedia.org/wiki/Robert_Louis_Stevenson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0151",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "domanda": "Chi scrisse \"Jane Eyre\"?",
+    "risposte": [
+      "Charlotte Brontë",
+      "Emily Brontë",
+      "Jane Austen",
+      "George Eliot"
+    ],
+    "curiosita": "Pubblicò il romanzo con lo pseudonimo maschile Currer Bell.",
+    "fatto": "jane eyre autrice",
+    "fonte": "https://it.wikipedia.org/wiki/Charlotte_Brontë",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0152",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Pianto antico\", dedicata al figlio morto a tre anni?",
+    "risposte": [
+      "Giosuè Carducci",
+      "Giovanni Pascoli",
+      "Giacomo Leopardi",
+      "Ugo Foscolo"
+    ],
+    "curiosita": "Il figlio si chiamava Dante e morì nel 1870.",
+    "fatto": "pianto antico autore carducci",
+    "fonte": "https://it.wikipedia.org/wiki/Giosuè_Carducci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0153",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il Cortegiano\"?",
+    "risposte": [
+      "Baldassarre Castiglione",
+      "Niccolò Machiavelli",
+      "Pietro Bembo",
+      "Ludovico Ariosto"
+    ],
+    "curiosita": "Introdusse nella letteratura il concetto di \"sprezzatura\", la grazia senza sforzo.",
+    "fatto": "il cortegiano autore",
+    "fonte": "https://it.wikipedia.org/wiki/Baldassarre_Castiglione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0154",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse la commedia \"La Mandragola\"?",
+    "risposte": [
+      "Niccolò Machiavelli",
+      "Ludovico Ariosto",
+      "Pietro Aretino",
+      "Carlo Goldoni"
+    ],
+    "curiosita": "Machiavelli la scrisse intorno al 1518: è una delle prime grandi commedie italiane.",
+    "fatto": "mandragola autore",
+    "fonte": "https://it.wikipedia.org/wiki/Niccolò_Machiavelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0155",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale scrittrice romana scrisse \"La Storia\" nel 1974?",
+    "risposte": [
+      "Elsa Morante",
+      "Natalia Ginzburg",
+      "Dacia Maraini",
+      "Anna Maria Ortese"
+    ],
+    "curiosita": "Uscì direttamente in edizione economica, per essere alla portata di tutti.",
+    "fatto": "la storia 1974 autrice morante",
+    "fonte": "https://it.wikipedia.org/wiki/Elsa_Morante",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0156",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La pelle\", ambientato nella Napoli liberata del 1943?",
+    "risposte": [
+      "Curzio Malaparte",
+      "Leonardo Sciascia",
+      "Carlo Levi",
+      "Ennio Flaiano"
+    ],
+    "curiosita": "Il libro è un racconto crudo di Napoli dopo l'arrivo degli Alleati.",
+    "fatto": "la pelle malaparte",
+    "fonte": "https://it.wikipedia.org/wiki/Curzio_Malaparte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0157",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò la Villa Savoye, vicino a Parigi?",
+    "risposte": [
+      "Le Corbusier",
+      "Walter Gropius",
+      "Ludwig Mies van der Rohe",
+      "Alvar Aalto"
+    ],
+    "curiosita": "Fu pensata come casa di campagna a Poissy, sollevata su pilastri.",
+    "fatto": "villa savoye progettista",
+    "fonte": "https://it.wikipedia.org/wiki/Le_Corbusier",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0158",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò il Teatro dell'Opera di Sydney?",
+    "risposte": [
+      "Jørn Utzon",
+      "Frank Gehry",
+      "Renzo Piano",
+      "Oscar Niemeyer"
+    ],
+    "curiosita": "Utzon lasciò il cantiere prima della fine e non vide mai l'opera completata.",
+    "fatto": "opera house sydney architetto",
+    "fonte": "https://it.wikipedia.org/wiki/Jørn_Utzon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0159",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale pittore spagnolo dipinse \"Le fucilazioni del 3 maggio 1808\"?",
+    "risposte": [
+      "Francisco Goya",
+      "Diego Velázquez",
+      "El Greco",
+      "Bartolomé Murillo"
+    ],
+    "curiosita": "Il quadro racconta la repressione francese a Madrid dopo la rivolta del 2 maggio.",
+    "fatto": "fucilazioni 3 maggio goya",
+    "fonte": "https://it.wikipedia.org/wiki/Francisco_Goya",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0160",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Quale pittore fiammingo dipinse \"I cacciatori nella neve\"?",
+    "risposte": [
+      "Pieter Bruegel il Vecchio",
+      "Hieronymus Bosch",
+      "Peter Paul Rubens",
+      "Jan van Eyck"
+    ],
+    "curiosita": "Il quadro, del 1565, è uno dei più celebri paesaggi invernali della storia.",
+    "fatto": "cacciatori nella neve bruegel",
+    "fonte": "https://it.wikipedia.org/wiki/Pieter_Bruegel_il_Vecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0161",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scolpì il \"Cristo velato\" nella Cappella Sansevero a Napoli?",
+    "risposte": [
+      "Giuseppe Sanmartino",
+      "Antonio Canova",
+      "Gian Lorenzo Bernini",
+      "Antonio Corradini"
+    ],
+    "curiosita": "Il velo trasparente sembra stoffa, ma è scolpito nello stesso blocco di marmo.",
+    "fatto": "cristo velato sanmartino",
+    "fonte": "https://it.wikipedia.org/wiki/Cappella_Sansevero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0162",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse il doppio ritratto dei \"coniugi Arnolfini\"?",
+    "risposte": [
+      "Jan van Eyck",
+      "Hans Holbein",
+      "Albrecht Dürer",
+      "Rogier van der Weyden"
+    ],
+    "curiosita": "Nello specchio convesso sul fondo si riflette anche il pittore.",
+    "fatto": "coniugi arnolfini pittore",
+    "fonte": "https://it.wikipedia.org/wiki/Jan_van_Eyck",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0163",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"I giocatori di carte\"?",
+    "risposte": [
+      "Paul Cézanne",
+      "Georges Seurat",
+      "Paul Gauguin",
+      "Henri Matisse"
+    ],
+    "curiosita": "Ne dipinse cinque versioni tra il 1890 e il 1895.",
+    "fatto": "giocatori di carte cezanne",
+    "fonte": "https://it.wikipedia.org/wiki/Paul_Cézanne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0164",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"Una domenica pomeriggio all'isola della Grande Jatte\"?",
+    "risposte": [
+      "Georges Seurat",
+      "Paul Signac",
+      "Claude Monet",
+      "Camille Pissarro"
+    ],
+    "curiosita": "È il capolavoro del puntinismo: l'immagine nasce da migliaia di puntini di colore.",
+    "fatto": "grande jatte seurat",
+    "fonte": "https://it.wikipedia.org/wiki/Georges_Seurat",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0165",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"Nottambuli\", la scena di un bar a notte fonda?",
+    "risposte": [
+      "Edward Hopper",
+      "Andrew Wyeth",
+      "Jackson Pollock",
+      "Norman Rockwell"
+    ],
+    "curiosita": "Il bar è ispirato a un locale del Greenwich Village, a New York.",
+    "fatto": "nottambuli hopper",
+    "fonte": "https://it.wikipedia.org/wiki/Edward_Hopper",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0166",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"American Gothic\"?",
+    "risposte": [
+      "Grant Wood",
+      "Edward Hopper",
+      "Andy Warhol",
+      "Norman Rockwell"
+    ],
+    "curiosita": "I due modelli erano il dentista e la sorella del pittore, non marito e moglie.",
+    "fatto": "american gothic pittore",
+    "fonte": "https://it.wikipedia.org/wiki/American_Gothic",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0167",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"Composizione VIII\", tra i pionieri dell'arte astratta?",
+    "risposte": [
+      "Vasilij Kandinskij",
+      "Kazimir Malevič",
+      "Piet Mondrian",
+      "Paul Klee"
+    ],
+    "curiosita": "Kandinskij associava i colori ai suoni e alle note musicali.",
+    "fatto": "composizione viii kandinskij",
+    "fonte": "https://it.wikipedia.org/wiki/Vasilij_Kandinskij",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0168",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"Le Muse inquietanti\"?",
+    "risposte": [
+      "Giorgio de Chirico",
+      "Carlo Carrà",
+      "Giorgio Morandi",
+      "Amedeo Modigliani"
+    ],
+    "curiosita": "Fondò la pittura metafisica insieme a Carlo Carrà.",
+    "fatto": "muse inquietanti de chirico",
+    "fonte": "https://it.wikipedia.org/wiki/Giorgio_de_Chirico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0169",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scolpì \"Forme uniche della continuità nello spazio\"?",
+    "risposte": [
+      "Umberto Boccioni",
+      "Giacomo Balla",
+      "Carlo Carrà",
+      "Gino Severini"
+    ],
+    "curiosita": "Questa scultura futurista è raffigurata sulle monete italiane da 20 centesimi.",
+    "fatto": "forme uniche continuita boccioni",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_Boccioni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0170",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi realizzò nel 1961 le scatolette \"Merda d'artista\"?",
+    "risposte": [
+      "Piero Manzoni",
+      "Lucio Fontana",
+      "Alberto Burri",
+      "Michelangelo Pistoletto"
+    ],
+    "curiosita": "Ne produsse 90 esemplari numerati.",
+    "fatto": "merda d artista manzoni",
+    "fonte": "https://it.wikipedia.org/wiki/Piero_Manzoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0171",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi creò i \"Concetti spaziali\" con i tagli sulla tela?",
+    "risposte": [
+      "Lucio Fontana",
+      "Alberto Burri",
+      "Piero Manzoni",
+      "Giorgio Morandi"
+    ],
+    "curiosita": "Fontana nacque in Argentina, a Rosario, da padre italiano.",
+    "fatto": "concetti spaziali tagli fontana",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Fontana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0172",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi dipinse \"Colazione sull'erba\", che fece scandalo nel 1863?",
+    "risposte": [
+      "Édouard Manet",
+      "Claude Monet",
+      "Gustave Courbet",
+      "Pierre-Auguste Renoir"
+    ],
+    "curiosita": "Fu rifiutato dal Salon ufficiale ed esposto nel \"Salon des Refusés\".",
+    "fatto": "colazione sull erba manet",
+    "fonte": "https://it.wikipedia.org/wiki/Édouard_Manet",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0173",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Le affinità elettive\"?",
+    "risposte": [
+      "Goethe",
+      "Schiller",
+      "Thomas Mann",
+      "Hermann Hesse"
+    ],
+    "curiosita": "Il titolo viene da un concetto della chimica settecentesca.",
+    "fatto": "affinita elettive autore goethe",
+    "fonte": "https://it.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0174",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il tamburo di latta\"?",
+    "risposte": [
+      "Günter Grass",
+      "Heinrich Böll",
+      "Thomas Mann",
+      "Bertolt Brecht"
+    ],
+    "curiosita": "Il piccolo protagonista, Oskar, decide di smettere di crescere a tre anni.",
+    "fatto": "tamburo di latta autore grass",
+    "fonte": "https://it.wikipedia.org/wiki/Günter_Grass",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0175",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"L'insostenibile leggerezza dell'essere\"?",
+    "risposte": [
+      "Milan Kundera",
+      "Václav Havel",
+      "Franz Kafka",
+      "Bohumil Hrabal"
+    ],
+    "curiosita": "Il romanzo è ambientato a Praga durante la Primavera del 1968.",
+    "fatto": "insostenibile leggerezza autore kundera",
+    "fonte": "https://it.wikipedia.org/wiki/Milan_Kundera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0176",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il dottor Živago\"?",
+    "risposte": [
+      "Boris Pasternak",
+      "Michail Bulgakov",
+      "Aleksandr Solženicyn",
+      "Vladimir Nabokov"
+    ],
+    "curiosita": "Fu pubblicato per la prima volta in Italia, da Feltrinelli, nel 1957.",
+    "fatto": "dottor zivago autore pasternak",
+    "fonte": "https://it.wikipedia.org/wiki/Boris_Pasternak",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0177",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"Il sergente nella neve\"?",
+    "risposte": [
+      "Mario Rigoni Stern",
+      "Primo Levi",
+      "Nuto Revelli",
+      "Giorgio Bassani"
+    ],
+    "curiosita": "Racconta la ritirata degli alpini dalla Russia nell'inverno del 1943.",
+    "fatto": "sergente nella neve autore",
+    "fonte": "https://it.wikipedia.org/wiki/Mario_Rigoni_Stern",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0178",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"I Buddenbrook\"?",
+    "risposte": [
+      "Thomas Mann",
+      "Hermann Hesse",
+      "Robert Musil",
+      "Stefan Zweig"
+    ],
+    "curiosita": "Il romanzo gli valse il premio Nobel per la letteratura nel 1929.",
+    "fatto": "buddenbrook autore mann",
+    "fonte": "https://it.wikipedia.org/wiki/Thomas_Mann",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0179",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"I fiori del male\"?",
+    "risposte": [
+      "Charles Baudelaire",
+      "Arthur Rimbaud",
+      "Paul Verlaine",
+      "Victor Hugo"
+    ],
+    "curiosita": "Nel 1857 la raccolta fu processata per oltraggio alla morale.",
+    "fatto": "fiori del male autore",
+    "fonte": "https://it.wikipedia.org/wiki/Charles_Baudelaire",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0180",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi scrisse \"La terra desolata\"?",
+    "risposte": [
+      "T. S. Eliot",
+      "Ezra Pound",
+      "W. H. Auden",
+      "Walt Whitman"
+    ],
+    "curiosita": "Eliot dedicò il poema a Ezra Pound, definito \"il miglior fabbro\".",
+    "fatto": "terra desolata autore eliot",
+    "fonte": "https://it.wikipedia.org/wiki/T._S._Eliot",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-art-0181",
+    "tipo": "classica",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "domanda": "Chi progettò la Mole Antonelliana di Torino?",
+    "risposte": [
+      "Alessandro Antonelli",
+      "Filippo Juvarra",
+      "Guarino Guarini",
+      "Carlo Mollino"
+    ],
+    "curiosita": "Nata per essere una sinagoga, fu completata dopo la morte dell'architetto.",
+    "fatto": "mole antonelliana architetto",
+    "fonte": "https://it.wikipedia.org/wiki/Mole_Antonelliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

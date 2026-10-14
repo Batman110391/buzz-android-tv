@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Ippopotamo",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0031",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama la femmina del cervo?",
+    "risposte": [
+      "Cerva",
+      "Daina",
+      "Capriola",
+      "Renna"
+    ],
+    "curiosita": "Il maschio si chiama semplicemente cervo.",
+    "fatto": "femmina del cervo cerva",
+    "fonte": "https://it.wikipedia.org/wiki/Cervo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0032",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il piccolo della capra?",
+    "risposte": [
+      "Capretto",
+      "Agnello",
+      "Puledro",
+      "Leprotto"
+    ],
+    "curiosita": "Si chiama anche \"caprettino\" in tono affettuoso.",
+    "fatto": "piccolo della capra capretto",
+    "fonte": "https://it.wikipedia.org/wiki/Capra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0033",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama la femmina del maiale?",
+    "risposte": [
+      "Scrofa",
+      "Giumenta",
+      "Cerva",
+      "Capra"
+    ],
+    "curiosita": "Il maschio da riproduzione è il verro.",
+    "fatto": "femmina del maiale scrofa",
+    "fonte": "https://it.wikipedia.org/wiki/Maiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0034",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama un gruppo di lupi?",
+    "risposte": [
+      "Branco",
+      "Gregge",
+      "Mandria",
+      "Stormo"
+    ],
+    "curiosita": "Ha una struttura familiare, con una coppia a capo.",
+    "fatto": "gruppo di lupi branco",
+    "fonte": "https://it.wikipedia.org/wiki/Lupo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0035",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama un gruppo di pesci?",
+    "risposte": [
+      "Banco",
+      "Branco",
+      "Stormo",
+      "Sciame"
+    ],
+    "curiosita": "Nuotare in banco confonde i predatori.",
+    "fatto": "gruppo di pesci banco",
+    "fonte": "https://it.wikipedia.org/wiki/Banco_(zoologia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0036",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il verso del cavallo?",
+    "risposte": [
+      "Nitrito",
+      "Raglio",
+      "Muggito",
+      "Belato"
+    ],
+    "curiosita": "Il verbo è \"nitrire\".",
+    "fatto": "verso del cavallo nitrito",
+    "fonte": "https://it.wikipedia.org/wiki/Cavallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0037",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il verso dell'asino?",
+    "risposte": [
+      "Raglio",
+      "Nitrito",
+      "Ruggito",
+      "Ululato"
+    ],
+    "curiosita": "Il verbo è \"ragliare\".",
+    "fatto": "verso dell asino raglio",
+    "fonte": "https://it.wikipedia.org/wiki/Asino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0038",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Come si chiama il verso del leone?",
+    "risposte": [
+      "Ruggito",
+      "Raglio",
+      "Belato",
+      "Grugnito"
+    ],
+    "curiosita": "Si sente fino a otto chilometri di distanza.",
+    "fatto": "verso del leone ruggito",
+    "fonte": "https://it.wikipedia.org/wiki/Leone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0039",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "Quale animale ha un guscio a spirale sul dorso?",
+    "risposte": [
+      "Chiocciola",
+      "Tartaruga",
+      "Granchio",
+      "Riccio"
+    ],
+    "curiosita": "Il guscio cresce insieme all'animale.",
+    "fatto": "guscio spirale chiocciola",
+    "fonte": "https://it.wikipedia.org/wiki/Chiocciola",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0040",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 1,
+    "domanda": "La balena è un pesce o un...?",
+    "risposte": [
+      "Mammifero",
+      "Rettile",
+      "Anfibio",
+      "Mollusco"
+    ],
+    "curiosita": "Allatta i piccoli e respira con i polmoni.",
+    "fatto": "balena mammifero",
+    "fonte": "https://it.wikipedia.org/wiki/Balena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0041",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il verso del corvo?",
+    "risposte": [
+      "Gracchio",
+      "Cinguettio",
+      "Fischio",
+      "Squittio"
+    ],
+    "curiosita": "Il verbo è \"gracchiare\".",
+    "fatto": "verso del corvo gracchio",
+    "fonte": "https://it.wikipedia.org/wiki/Corvo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0042",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il verso del gufo?",
+    "risposte": [
+      "Bubolio",
+      "Raglio",
+      "Belato",
+      "Grugnito"
+    ],
+    "curiosita": "Il verbo è \"bubolare\".",
+    "fatto": "verso del gufo bubolio",
+    "fonte": "https://it.wikipedia.org/wiki/Gufo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0043",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "A quale classe appartiene la rana?",
+    "risposte": [
+      "Anfibi",
+      "Rettili",
+      "Mammiferi",
+      "Pesci"
+    ],
+    "curiosita": "Anfibio significa \"doppia vita\".",
+    "fatto": "classe della rana anfibi",
+    "fonte": "https://it.wikipedia.org/wiki/Anura",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0044",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Il corallo è un animale, una pianta o un minerale?",
+    "risposte": [
+      "Animale",
+      "Pianta",
+      "Minerale",
+      "Alga"
+    ],
+    "curiosita": "Sono colonie di piccoli polipi.",
+    "fatto": "corallo e un animale",
+    "fonte": "https://it.wikipedia.org/wiki/Corallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0045",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Da quale animale discende il maiale domestico?",
+    "risposte": [
+      "Cinghiale",
+      "Facocero",
+      "Pecari",
+      "Tapiro"
+    ],
+    "curiosita": "Fu addomesticato circa 9000 anni fa.",
+    "fatto": "maiale discende cinghiale",
+    "fonte": "https://it.wikipedia.org/wiki/Cinghiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0046",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il maschio del cavallo?",
+    "risposte": [
+      "Stallone",
+      "Castrone",
+      "Montone",
+      "Verro"
+    ],
+    "curiosita": "La femmina si chiama giumenta.",
+    "fatto": "maschio del cavallo stallone",
+    "fonte": "https://it.wikipedia.org/wiki/Cavallo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0047",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Quale parte della pianta è la carota?",
+    "risposte": [
+      "Radice",
+      "Fusto",
+      "Frutto",
+      "Foglia"
+    ],
+    "curiosita": "La parte che mangiamo è una radice a fittone.",
+    "fatto": "carota parte pianta radice",
+    "fonte": "https://it.wikipedia.org/wiki/Carota",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0048",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Cos'è l'ambra?",
+    "risposte": [
+      "Resina fossile",
+      "Roccia vulcanica",
+      "Corallo antico",
+      "Osso fossile"
+    ],
+    "curiosita": "A volte contiene insetti vecchi di milioni di anni.",
+    "fatto": "ambra resina fossile",
+    "fonte": "https://it.wikipedia.org/wiki/Ambra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0049",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Il pomodoro, per i botanici, è un...?",
+    "risposte": [
+      "Frutto",
+      "Ortaggio",
+      "Tubero",
+      "Seme"
+    ],
+    "curiosita": "Anche se si usa come verdura.",
+    "fatto": "pomodoro botanicamente frutto",
+    "fonte": "https://it.wikipedia.org/wiki/Pomodoro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0050",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 2,
+    "domanda": "Come si chiama il piccolo della lepre?",
+    "risposte": [
+      "Leprotto",
+      "Coniglietto",
+      "Cerbiatto",
+      "Capretto"
+    ],
+    "curiosita": "Nasce già con gli occhi aperti e il pelo.",
+    "fatto": "piccolo della lepre leprotto",
+    "fonte": "https://it.wikipedia.org/wiki/Lepre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0051",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Come si chiama il verso della cicogna?",
+    "risposte": [
+      "Crotorare",
+      "Gracchiare",
+      "Squittire",
+      "Gorgheggiare"
+    ],
+    "curiosita": "Fa schioccare il becco perché non ha una vera voce.",
+    "fatto": "verso della cicogna crotorare",
+    "fonte": "https://it.wikipedia.org/wiki/Ciconia_ciconia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0052",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "A quale gruppo appartiene la stella marina?",
+    "risposte": [
+      "Echinodermi",
+      "Molluschi",
+      "Crostacei",
+      "Cnidari"
+    ],
+    "curiosita": "È parente dei ricci di mare.",
+    "fatto": "stella marina echinodermi",
+    "fonte": "https://it.wikipedia.org/wiki/Asteroidea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0053",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Come si chiama il maschio del cigno?",
+    "risposte": [
+      "Cobbo",
+      "Verro",
+      "Becco",
+      "Montone"
+    ],
+    "curiosita": "La femmina si chiama penna.",
+    "fatto": "maschio del cigno cobbo",
+    "fonte": "https://it.wikipedia.org/wiki/Cigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0054",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quanti occhi ha un'ape?",
+    "risposte": [
+      "Cinque",
+      "Due",
+      "Tre",
+      "Sette"
+    ],
+    "curiosita": "Due composti e tre minuscoli sulla fronte.",
+    "fatto": "occhi ape cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Apis_mellifera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0055",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quante palpebre ha un gatto?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Una",
+      "Quattro"
+    ],
+    "curiosita": "La terza è una membrana trasparente.",
+    "fatto": "palpebre gatto tre",
+    "fonte": "https://it.wikipedia.org/wiki/Gatto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0056",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quanti denti ha un cane adulto?",
+    "risposte": [
+      "42",
+      "32",
+      "28",
+      "36"
+    ],
+    "curiosita": "Un cucciolo ne ha 28.",
+    "fatto": "denti cane adulto 42",
+    "fonte": "https://it.wikipedia.org/wiki/Cane",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0057",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Come si chiama il primo latte dopo il parto?",
+    "risposte": [
+      "Colostro",
+      "Siero",
+      "Panna",
+      "Caglio"
+    ],
+    "curiosita": "È ricco di anticorpi per il piccolo.",
+    "fatto": "primo latte dopo parto colostro",
+    "fonte": "https://it.wikipedia.org/wiki/Colostro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0058",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale parte della pianta è la patata?",
+    "risposte": [
+      "Tubero",
+      "Radice",
+      "Frutto",
+      "Seme"
+    ],
+    "curiosita": "Non è una radice: è un fusto sotterraneo ingrossato.",
+    "fatto": "patata parte pianta tubero",
+    "fonte": "https://it.wikipedia.org/wiki/Patata",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0059",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Quale parte del fiore diventa il frutto?",
+    "risposte": [
+      "Ovario",
+      "Petalo",
+      "Sepalo",
+      "Stame"
+    ],
+    "curiosita": "Dentro maturano i semi.",
+    "fatto": "parte fiore diventa frutto ovario",
+    "fonte": "https://it.wikipedia.org/wiki/Fiore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-nat-0060",
+    "tipo": "lampo",
+    "categoria": "natura",
+    "difficolta": 3,
+    "domanda": "Come si chiama lo studio delle formiche?",
+    "risposte": [
+      "Mirmecologia",
+      "Entomologia",
+      "Etologia",
+      "Erpetologia"
+    ],
+    "curiosita": "Dal greco \"myrmex\", formica.",
+    "fatto": "studio delle formiche mirmecologia",
+    "fonte": "https://it.wikipedia.org/wiki/Formicidae",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

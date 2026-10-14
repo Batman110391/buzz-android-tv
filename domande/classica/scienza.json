@@ -1618,5 +1618,1625 @@
     "fonte": "https://it.wikipedia.org/wiki/Tungsteno",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0091",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Perché di giorno il cielo appare azzurro?",
+    "risposte": [
+      "Si diffonde la luce blu",
+      "Riflette il mare",
+      "Il Sole emette luce blu",
+      "L'ossigeno è azzurro"
+    ],
+    "curiosita": "Si chiama diffusione di Rayleigh.",
+    "fatto": "cielo azzurro diffusione rayleigh",
+    "fonte": "https://it.wikipedia.org/wiki/Diffusione_di_Rayleigh",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0092",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale gas assorbono le piante con la fotosintesi?",
+    "risposte": [
+      "Anidride carbonica",
+      "Azoto",
+      "Idrogeno",
+      "Elio"
+    ],
+    "curiosita": "Come «scarto» rilasciano ossigeno.",
+    "fatto": "fotosintesi gas assorbito anidride carbonica",
+    "fonte": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0093",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Qual è il pianeta più vicino al Sole?",
+    "risposte": [
+      "Mercurio",
+      "Venere",
+      "Marte",
+      "Terra"
+    ],
+    "curiosita": "Un suo anno dura solo 88 giorni terrestri.",
+    "fatto": "pianeta piu vicino al sole mercurio",
+    "fonte": "https://it.wikipedia.org/wiki/Mercurio_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0094",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale sostanza rende verdi le foglie?",
+    "risposte": [
+      "Clorofilla",
+      "Emoglobina",
+      "Melanina",
+      "Carotene"
+    ],
+    "curiosita": "In autunno si degrada e compaiono i gialli e i rossi.",
+    "fatto": "sostanza foglie verdi clorofilla",
+    "fonte": "https://it.wikipedia.org/wiki/Clorofilla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0095",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiama il passaggio dell'acqua dallo stato liquido al vapore a ogni temperatura?",
+    "risposte": [
+      "Evaporazione",
+      "Condensazione",
+      "Fusione",
+      "Sublimazione"
+    ],
+    "curiosita": "Avviene a qualsiasi temperatura, non solo a 100 gradi.",
+    "fatto": "evaporazione acqua liquido vapore",
+    "fonte": "https://it.wikipedia.org/wiki/Evaporazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0096",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale pianeta ha una gigantesca tempesta chiamata Grande Macchia Rossa?",
+    "risposte": [
+      "Giove",
+      "Saturno",
+      "Marte",
+      "Nettuno"
+    ],
+    "curiosita": "È più larga della Terra e dura da secoli.",
+    "fatto": "grande macchia rossa giove",
+    "fonte": "https://it.wikipedia.org/wiki/Giove_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0097",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti sono i pianeti del Sistema solare?",
+    "risposte": [
+      "Otto",
+      "Nove",
+      "Sette",
+      "Dieci"
+    ],
+    "curiosita": "Plutone fu declassato a pianeta nano nel 2006.",
+    "fatto": "numero pianeti sistema solare otto",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0098",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Perché dopo il lampo si sente il tuono in ritardo?",
+    "risposte": [
+      "Il suono è più lento",
+      "La luce è più lenta",
+      "Il vento li separa",
+      "Il tuono nasce dopo"
+    ],
+    "curiosita": "Ogni 3 secondi di ritardo equivalgono a circa 1 km.",
+    "fatto": "lampo tuono ritardo suono luce",
+    "fonte": "https://it.wikipedia.org/wiki/Tuono",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0099",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale osso protegge il cervello?",
+    "risposte": [
+      "Il cranio",
+      "Lo sterno",
+      "La clavicola",
+      "Il bacino"
+    ],
+    "curiosita": "La parte alta è formata da 8 ossa unite da suture.",
+    "fatto": "osso protegge cervello cranio",
+    "fonte": "https://it.wikipedia.org/wiki/Cranio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0100",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti zeri ha un miliardo?",
+    "risposte": [
+      "Nove",
+      "Sei",
+      "Dodici",
+      "Dieci"
+    ],
+    "curiosita": "Un miliardo di secondi sono circa 31 anni e mezzo.",
+    "fatto": "zeri miliardo nove",
+    "fonte": "https://it.wikipedia.org/wiki/Numero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0101",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale scienza studia gli animali?",
+    "risposte": [
+      "Zoologia",
+      "Botanica",
+      "Geologia",
+      "Ecologia"
+    ],
+    "curiosita": "Dal greco zoon, «animale», e logos, «studio».",
+    "fatto": "scienza animali zoologia",
+    "fonte": "https://it.wikipedia.org/wiki/Zoologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0102",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale scienza studia il tempo atmosferico?",
+    "risposte": [
+      "Meteorologia",
+      "Geologia",
+      "Sismologia",
+      "Astronomia"
+    ],
+    "curiosita": "Il nome viene da «meteora», fenomeno che avviene in aria.",
+    "fatto": "scienza tempo atmosferico meteorologia",
+    "fonte": "https://it.wikipedia.org/wiki/Meteorologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0103",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale strumento serve al medico per ascoltare il battito del cuore?",
+    "risposte": [
+      "Stetoscopio",
+      "Termometro",
+      "Otoscopio",
+      "Sfigmomanometro"
+    ],
+    "curiosita": "Fu inventato nel 1816 da René Laennec.",
+    "fatto": "strumento battito stetoscopio",
+    "fonte": "https://it.wikipedia.org/wiki/Stetoscopio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0104",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale strumento permette di vedere le cellule?",
+    "risposte": [
+      "Microscopio",
+      "Telescopio",
+      "Periscopio",
+      "Caleidoscopio"
+    ],
+    "curiosita": "Il primo fu realizzato intorno al 1590 nei Paesi Bassi.",
+    "fatto": "strumento vedere cellule microscopio",
+    "fonte": "https://it.wikipedia.org/wiki/Microscopio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0105",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale parte della pianta assorbe l'acqua dal terreno?",
+    "risposte": [
+      "Le radici",
+      "Le foglie",
+      "I fiori",
+      "Il fusto"
+    ],
+    "curiosita": "Alcune radici scendono fino a 60 metri di profondità.",
+    "fatto": "parte pianta assorbe acqua radici",
+    "fonte": "https://it.wikipedia.org/wiki/Pianta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0106",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale metallo ha come simbolo chimico Fe?",
+    "risposte": [
+      "Ferro",
+      "Fluoro",
+      "Fermio",
+      "Francio"
+    ],
+    "curiosita": "Dal latino ferrum.",
+    "fatto": "simbolo fe ferro",
+    "fonte": "https://it.wikipedia.org/wiki/Ferro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0107",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale elemento ha come simbolo chimico Na?",
+    "risposte": [
+      "Sodio",
+      "Neon",
+      "Azoto",
+      "Nichel"
+    ],
+    "curiosita": "Dal latino natrium; è metà del sale da cucina.",
+    "fatto": "simbolo na sodio",
+    "fonte": "https://it.wikipedia.org/wiki/Sodio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0108",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale metallo ha come simbolo chimico Pb?",
+    "risposte": [
+      "Piombo",
+      "Platino",
+      "Palladio",
+      "Potassio"
+    ],
+    "curiosita": "Dal latino plumbum: in inglese l'idraulico è «plumber».",
+    "fatto": "simbolo pb piombo",
+    "fonte": "https://it.wikipedia.org/wiki/Piombo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0109",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale unità di misura si usa per la massa?",
+    "risposte": [
+      "Chilogrammo",
+      "Newton",
+      "Litro",
+      "Joule"
+    ],
+    "curiosita": "È l'unica unità base del sistema internazionale con un prefisso nel nome.",
+    "fatto": "unita misura massa chilogrammo",
+    "fonte": "https://it.wikipedia.org/wiki/Chilogrammo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0110",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiama il fenomeno in cui la Luna copre il Sole?",
+    "risposte": [
+      "Eclissi solare",
+      "Eclissi lunare",
+      "Aurora",
+      "Solstizio"
+    ],
+    "curiosita": "Una eclissi totale dura al massimo circa 7 minuti e mezzo.",
+    "fatto": "fenomeno luna copre sole eclissi solare",
+    "fonte": "https://it.wikipedia.org/wiki/Eclissi_solare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0111",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiamano le luci colorate che appaiono nel cielo vicino ai poli?",
+    "risposte": [
+      "Aurore polari",
+      "Arcobaleni",
+      "Aloni lunari",
+      "Stelle cadenti"
+    ],
+    "curiosita": "Nascono dalle particelle cariche del vento solare.",
+    "fatto": "luci poli aurora polare",
+    "fonte": "https://it.wikipedia.org/wiki/Aurora_polare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0112",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale vitamina aiuta la vista al buio?",
+    "risposte": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina K"
+    ],
+    "curiosita": "È abbondante nelle carote sotto forma di beta-carotene.",
+    "fatto": "vitamina vista vitamina a",
+    "fonte": "https://it.wikipedia.org/wiki/Vitamina_A",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0113",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale scienziato italiano inventò la pila elettrica?",
+    "risposte": [
+      "Alessandro Volta",
+      "Luigi Galvani",
+      "Antonio Meucci",
+      "Enrico Fermi"
+    ],
+    "curiosita": "L'unità di tensione, il volt, porta il suo nome.",
+    "fatto": "inventore pila volta",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Volta",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0114",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Come si chiama il sistema che comprende cuore e vasi sanguigni?",
+    "risposte": [
+      "Apparato circolatorio",
+      "Apparato digerente",
+      "Sistema linfatico",
+      "Apparato respiratorio"
+    ],
+    "curiosita": "Il sangue compie un giro completo in circa un minuto.",
+    "fatto": "sistema cuore vasi circolatorio",
+    "fonte": "https://it.wikipedia.org/wiki/Apparato_cardiocircolatorio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0115",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale gas rende frizzante l'acqua minerale?",
+    "risposte": [
+      "Anidride carbonica",
+      "Azoto",
+      "Ossigeno",
+      "Elio"
+    ],
+    "curiosita": "Si scioglie meglio con il freddo e a pressione alta.",
+    "fatto": "gas acqua frizzante anidride carbonica",
+    "fonte": "https://it.wikipedia.org/wiki/Anidride_carbonica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0116",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale scienza studia i terremoti?",
+    "risposte": [
+      "Sismologia",
+      "Vulcanologia",
+      "Geografia",
+      "Climatologia"
+    ],
+    "curiosita": "Si basa sulle registrazioni dei sismografi.",
+    "fatto": "scienza terremoti sismologia",
+    "fonte": "https://it.wikipedia.org/wiki/Sismologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0117",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Con quale unità si misura l'intensità del suono?",
+    "risposte": [
+      "Decibel",
+      "Hertz",
+      "Watt",
+      "Pascal"
+    ],
+    "curiosita": "Una conversazione normale è sui 60 decibel.",
+    "fatto": "unita intensita suono decibel",
+    "fonte": "https://it.wikipedia.org/wiki/Decibel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0118",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti gradi misura un angolo piatto?",
+    "risposte": [
+      "180",
+      "90",
+      "270",
+      "360"
+    ],
+    "curiosita": "Due angoli retti formano un angolo piatto.",
+    "fatto": "gradi angolo piatto 180",
+    "fonte": "https://it.wikipedia.org/wiki/Angolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0119",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanto vale all'incirca pi greco?",
+    "risposte": [
+      "3,14",
+      "2,71",
+      "1,61",
+      "4,13"
+    ],
+    "curiosita": "Il 14 marzo si festeggia il «Pi Day».",
+    "fatto": "valore pi greco 3 14",
+    "fonte": "https://it.wikipedia.org/wiki/Pi_greco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0120",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale mammifero è l'unico capace di volare davvero?",
+    "risposte": [
+      "Pipistrello",
+      "Scoiattolo volante",
+      "Lemure",
+      "Colugo"
+    ],
+    "curiosita": "Se ne conoscono oltre 1.400 specie.",
+    "fatto": "mammifero volo pipistrello",
+    "fonte": "https://it.wikipedia.org/wiki/Pipistrello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0121",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanto tempo impiega la luce del Sole ad arrivare sulla Terra?",
+    "risposte": [
+      "Circa 8 minuti",
+      "Circa 8 secondi",
+      "Circa 8 ore",
+      "Circa 1 minuto"
+    ],
+    "curiosita": "Quindi vediamo il Sole com'era 8 minuti fa.",
+    "fatto": "tempo luce sole terra otto minuti",
+    "fonte": "https://it.wikipedia.org/wiki/Sole",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0122",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale pianeta ruota quasi sdraiato sul fianco?",
+    "risposte": [
+      "Urano",
+      "Nettuno",
+      "Saturno",
+      "Giove"
+    ],
+    "curiosita": "Il suo asse è inclinato di circa 98 gradi.",
+    "fatto": "pianeta ruota sul fianco urano",
+    "fonte": "https://it.wikipedia.org/wiki/Urano_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0123",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale organo consuma più energia a riposo?",
+    "risposte": [
+      "Il cervello",
+      "Il cuore",
+      "Il fegato",
+      "I polmoni"
+    ],
+    "curiosita": "Pesa circa il 2% del corpo ma usa il 20% dell'energia.",
+    "fatto": "organo piu energia cervello",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0124",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanto sangue ha circa un adulto?",
+    "risposte": [
+      "5 litri",
+      "2 litri",
+      "10 litri",
+      "15 litri"
+    ],
+    "curiosita": "Il cuore lo fa circolare in tutto il corpo in circa un minuto.",
+    "fatto": "quantita sangue adulto cinque litri",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0125",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale proteina rende rosso il sangue?",
+    "risposte": [
+      "Emoglobina",
+      "Insulina",
+      "Cheratina",
+      "Collagene"
+    ],
+    "curiosita": "Contiene ferro, che si lega all'ossigeno.",
+    "fatto": "proteina sangue rosso emoglobina",
+    "fonte": "https://it.wikipedia.org/wiki/Emoglobina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0126",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale ormone prepara il corpo alla fuga o alla lotta?",
+    "risposte": [
+      "Adrenalina",
+      "Insulina",
+      "Melatonina",
+      "Ossitocina"
+    ],
+    "curiosita": "Viene prodotto dalle ghiandole surrenali, sopra i reni.",
+    "fatto": "ormone fuga lotta adrenalina",
+    "fonte": "https://it.wikipedia.org/wiki/Adrenalina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0127",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale gruppo sanguigno è detto donatore universale?",
+    "risposte": [
+      "0 negativo",
+      "AB positivo",
+      "A positivo",
+      "B negativo"
+    ],
+    "curiosita": "Si può trasfondere a quasi tutti, in emergenza.",
+    "fatto": "gruppo sanguigno donatore universale",
+    "fonte": "https://it.wikipedia.org/wiki/Gruppo_sanguigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0128",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Che cosa misura la scala Richter?",
+    "risposte": [
+      "I terremoti",
+      "I venti",
+      "Le temperature",
+      "Le maree"
+    ],
+    "curiosita": "Ogni punto in più equivale a un'energia circa 32 volte maggiore.",
+    "fatto": "scala richter terremoti",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_Richter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0129",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Contro quali microrganismi agiscono gli antibiotici?",
+    "risposte": [
+      "I batteri",
+      "I virus",
+      "I funghi",
+      "I parassiti"
+    ],
+    "curiosita": "Contro i virus non funzionano.",
+    "fatto": "antibiotici contro batteri",
+    "fonte": "https://it.wikipedia.org/wiki/Antibiotico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0130",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale parte della cellula produce energia?",
+    "risposte": [
+      "Mitocondri",
+      "Nucleo",
+      "Ribosomi",
+      "Membrana"
+    ],
+    "curiosita": "Hanno un proprio DNA, ereditato dalla madre.",
+    "fatto": "cellula produce energia mitocondri",
+    "fonte": "https://it.wikipedia.org/wiki/Mitocondrio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0131",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale metallo conduce meglio l'elettricità?",
+    "risposte": [
+      "Argento",
+      "Rame",
+      "Oro",
+      "Alluminio"
+    ],
+    "curiosita": "Il rame costa meno, per questo si usa nei cavi.",
+    "fatto": "miglior conduttore argento",
+    "fonte": "https://it.wikipedia.org/wiki/Argento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0132",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale lega di rame e stagno diede il nome a un'età preistorica?",
+    "risposte": [
+      "Bronzo",
+      "Ottone",
+      "Acciaio",
+      "Peltro"
+    ],
+    "curiosita": "Fu una delle prime leghe prodotte dall'uomo.",
+    "fatto": "lega rame stagno bronzo",
+    "fonte": "https://it.wikipedia.org/wiki/Bronzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0133",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale lega di ferro e carbonio si usa per costruire grattacieli e ponti?",
+    "risposte": [
+      "Acciaio",
+      "Bronzo",
+      "Ottone",
+      "Ghisa"
+    ],
+    "curiosita": "Contiene meno del 2% di carbonio.",
+    "fatto": "lega ferro carbonio acciaio",
+    "fonte": "https://it.wikipedia.org/wiki/Acciaio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0134",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è la stella più vicina al Sole?",
+    "risposte": [
+      "Proxima Centauri",
+      "Sirio",
+      "Betelgeuse",
+      "Polare"
+    ],
+    "curiosita": "Dista circa 4,2 anni luce.",
+    "fatto": "stella piu vicina proxima centauri",
+    "fonte": "https://it.wikipedia.org/wiki/Proxima_Centauri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0135",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale grandezza si misura in ampere?",
+    "risposte": [
+      "Corrente elettrica",
+      "Tensione",
+      "Resistenza",
+      "Potenza"
+    ],
+    "curiosita": "Il nome onora André-Marie Ampère.",
+    "fatto": "ampere corrente elettrica",
+    "fonte": "https://it.wikipedia.org/wiki/Ampere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0136",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale principio spiega perché un razzo sale espellendo gas?",
+    "risposte": [
+      "Azione e reazione",
+      "Inerzia",
+      "Gravitazione",
+      "Conservazione della massa"
+    ],
+    "curiosita": "È la terza legge di Newton.",
+    "fatto": "razzo principio azione reazione",
+    "fonte": "https://it.wikipedia.org/wiki/Leggi_di_Newton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0137",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Perché il ghiaccio galleggia sull'acqua?",
+    "risposte": [
+      "È meno denso",
+      "È più salato",
+      "È più compatto",
+      "Ha carica elettrica"
+    ],
+    "curiosita": "Congelando l'acqua si espande di circa il 9%.",
+    "fatto": "ghiaccio galleggia densita",
+    "fonte": "https://it.wikipedia.org/wiki/Acqua",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0138",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale strumento misura l'umidità dell'aria?",
+    "risposte": [
+      "Igrometro",
+      "Anemometro",
+      "Barometro",
+      "Pluviometro"
+    ],
+    "curiosita": "Il nome viene dal greco hygros, «umido».",
+    "fatto": "strumento umidita igrometro",
+    "fonte": "https://it.wikipedia.org/wiki/Igrometro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0139",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale strumento misura l'altitudine?",
+    "risposte": [
+      "Altimetro",
+      "Barometro",
+      "Cronometro",
+      "Podometro"
+    ],
+    "curiosita": "Funziona misurando la pressione dell'aria.",
+    "fatto": "strumento altitudine altimetro",
+    "fonte": "https://it.wikipedia.org/wiki/Altimetro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0140",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale scienziato francese ideò la pastorizzazione?",
+    "risposte": [
+      "Louis Pasteur",
+      "Antoine Lavoisier",
+      "Marie Curie",
+      "Claude Bernard"
+    ],
+    "curiosita": "La sperimentò su vino e birra.",
+    "fatto": "pastorizzazione pasteur",
+    "fonte": "https://it.wikipedia.org/wiki/Louis_Pasteur",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0141",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale colore ha la lunghezza d'onda maggiore nello spettro visibile?",
+    "risposte": [
+      "Rosso",
+      "Blu",
+      "Verde",
+      "Violetto"
+    ],
+    "curiosita": "Per questo il Sole al tramonto sembra rossastro.",
+    "fatto": "colore lunghezza onda maggiore rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Spettro_visibile",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0142",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale pianeta ruota più velocemente su se stesso?",
+    "risposte": [
+      "Giove",
+      "Terra",
+      "Mercurio",
+      "Marte"
+    ],
+    "curiosita": "Compie una rotazione in meno di 10 ore.",
+    "fatto": "pianeta rotazione piu veloce giove",
+    "fonte": "https://it.wikipedia.org/wiki/Giove_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0143",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'atmosfera più esterna del Sole, visibile nelle eclissi totali?",
+    "risposte": [
+      "Corona",
+      "Cromosfera",
+      "Fotosfera",
+      "Nucleo"
+    ],
+    "curiosita": "È più calda della superficie solare di centinaia di volte.",
+    "fatto": "atmosfera esterna sole corona",
+    "fonte": "https://it.wikipedia.org/wiki/Corona_solare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0144",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Come si chiama la divisione di un nucleo atomico in due più piccoli?",
+    "risposte": [
+      "Fissione",
+      "Fusione",
+      "Combustione",
+      "Ionizzazione"
+    ],
+    "curiosita": "È il principio delle centrali nucleari.",
+    "fatto": "divisione nucleo fissione",
+    "fonte": "https://it.wikipedia.org/wiki/Fissione_nucleare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0145",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è l'unità di temperatura del sistema internazionale?",
+    "risposte": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit",
+      "Rankine"
+    ],
+    "curiosita": "Lo zero kelvin corrisponde a −273,15 °C.",
+    "fatto": "unita temperatura kelvin",
+    "fonte": "https://it.wikipedia.org/wiki/Kelvin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0146",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Chi ideò la classificazione scientifica con nomi latini di due parole?",
+    "risposte": [
+      "Linneo",
+      "Darwin",
+      "Aristotele",
+      "Lamarck"
+    ],
+    "curiosita": "Per la nostra specie scelse Homo sapiens.",
+    "fatto": "classificazione binomiale linneo",
+    "fonte": "https://it.wikipedia.org/wiki/Linneo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0147",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Che cosa regola la precisione di un orologio al quarzo?",
+    "risposte": [
+      "Vibrazioni di un cristallo",
+      "Un pendolo",
+      "Una molla",
+      "Un'onda radio"
+    ],
+    "curiosita": "Il cristallo vibra 32.768 volte al secondo.",
+    "fatto": "orologio quarzo cristallo vibrazioni",
+    "fonte": "https://it.wikipedia.org/wiki/Orologio_al_quarzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0148",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Come si chiama la particella di cui è fatta la luce?",
+    "risposte": [
+      "Fotone",
+      "Elettrone",
+      "Neutrino",
+      "Quark"
+    ],
+    "curiosita": "Non ha massa a riposo.",
+    "fatto": "particella luce fotone",
+    "fonte": "https://it.wikipedia.org/wiki/Fotone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0149",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Su quale pianeta si trova il vulcano più alto del Sistema solare?",
+    "risposte": [
+      "Marte",
+      "Venere",
+      "Giove",
+      "Mercurio"
+    ],
+    "curiosita": "L'Olympus Mons è alto circa due volte e mezzo l'Everest.",
+    "fatto": "vulcano piu alto marte olympus mons",
+    "fonte": "https://it.wikipedia.org/wiki/Olympus_Mons",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0150",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale fenomeno causa le stagioni?",
+    "risposte": [
+      "L'inclinazione dell'asse",
+      "La distanza dal Sole",
+      "L'orbita ovale",
+      "L'attività solare"
+    ],
+    "curiosita": "A gennaio la Terra è più vicina al Sole, ma in emisfero nord è inverno.",
+    "fatto": "causa stagioni inclinazione asse",
+    "fonte": "https://it.wikipedia.org/wiki/Stagione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0151",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Su quale pianeta un giorno dura più di un anno?",
+    "risposte": [
+      "Venere",
+      "Mercurio",
+      "Marte",
+      "Giove"
+    ],
+    "curiosita": "Ruota all'indietro: il Sole vi sorge a ovest.",
+    "fatto": "pianeta giorno piu lungo anno venere",
+    "fonte": "https://it.wikipedia.org/wiki/Venere_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0152",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale gas dà alle uova marce il loro cattivo odore?",
+    "risposte": [
+      "Idrogeno solforato",
+      "Ammoniaca",
+      "Metano",
+      "Anidride carbonica"
+    ],
+    "curiosita": "Il naso lo avverte anche in quantità minime.",
+    "fatto": "gas uova marce idrogeno solforato",
+    "fonte": "https://it.wikipedia.org/wiki/Acido_solfidrico",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0153",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Oltre al mercurio, quale elemento è liquido a temperatura ambiente?",
+    "risposte": [
+      "Bromo",
+      "Cloro",
+      "Iodio",
+      "Zolfo"
+    ],
+    "curiosita": "È un non metallo di colore rosso-bruno.",
+    "fatto": "elemento liquido ambiente bromo",
+    "fonte": "https://it.wikipedia.org/wiki/Bromo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0154",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Qual è l'osso più piccolo del corpo umano?",
+    "risposte": [
+      "Staffa",
+      "Incudine",
+      "Martello",
+      "Rotula"
+    ],
+    "curiosita": "Si trova nell'orecchio e misura circa 3 millimetri.",
+    "fatto": "osso piu piccolo staffa",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0155",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Su quale astro fu scoperto l'elio prima che sulla Terra?",
+    "risposte": [
+      "Sole",
+      "Luna",
+      "Giove",
+      "Sirio"
+    ],
+    "curiosita": "Il nome viene dal greco helios.",
+    "fatto": "elio scoperto sole",
+    "fonte": "https://it.wikipedia.org/wiki/Elio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0156",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale fisico italiano guidò il primo reattore nucleare a Chicago nel 1942?",
+    "risposte": [
+      "Enrico Fermi",
+      "Ettore Majorana",
+      "Emilio Segrè",
+      "Bruno Pontecorvo"
+    ],
+    "curiosita": "Il reattore si chiamava Chicago Pile-1.",
+    "fatto": "reattore chicago 1942 fermi",
+    "fonte": "https://it.wikipedia.org/wiki/Enrico_Fermi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0157",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale unità di misura porta il nome dello scopritore della radioattività?",
+    "risposte": [
+      "Becquerel",
+      "Sievert",
+      "Gray",
+      "Curie"
+    ],
+    "curiosita": "La scoprì per caso nel 1896 con sali di uranio.",
+    "fatto": "unita radioattivita becquerel",
+    "fonte": "https://it.wikipedia.org/wiki/Henri_Becquerel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0158",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scala usavano i marinai per la forza del vento, da 0 a 12?",
+    "risposte": [
+      "Scala Beaufort",
+      "Scala Richter",
+      "Scala Mercalli",
+      "Scala Kelvin"
+    ],
+    "curiosita": "Fu ideata nel 1805 dall'ammiraglio Beaufort.",
+    "fatto": "scala vento beaufort",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_Beaufort",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0159",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Chi propose per primo l'idea del Big Bang, nel 1927?",
+    "risposte": [
+      "Georges Lemaître",
+      "Edwin Hubble",
+      "Albert Einstein",
+      "Fred Hoyle"
+    ],
+    "curiosita": "Era un prete e fisico belga.",
+    "fatto": "big bang lemaitre",
+    "fonte": "https://it.wikipedia.org/wiki/Georges_Lema%C3%AEtre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0160",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale ormone dell'epifisi regola il ciclo sonno-veglia?",
+    "risposte": [
+      "Melatonina",
+      "Insulina",
+      "Tiroxina",
+      "Adrenalina"
+    ],
+    "curiosita": "Se ne produce di più col buio.",
+    "fatto": "ormone epifisi sonno melatonina",
+    "fonte": "https://it.wikipedia.org/wiki/Melatonina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0161",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Perché il sangue di polpi e granchi è blu?",
+    "risposte": [
+      "Contiene rame",
+      "Contiene ferro",
+      "Contiene sale",
+      "Contiene alghe"
+    ],
+    "curiosita": "Il pigmento si chiama emocianina.",
+    "fatto": "sangue blu polpo rame emocianina",
+    "fonte": "https://it.wikipedia.org/wiki/Emocianina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0162",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Chi scoprì le pulsar nel 1967 da studentessa?",
+    "risposte": [
+      "Jocelyn Bell",
+      "Vera Rubin",
+      "Henrietta Leavitt",
+      "Margherita Hack"
+    ],
+    "curiosita": "Il Nobel andò però al suo supervisore.",
+    "fatto": "scoperta pulsar jocelyn bell",
+    "fonte": "https://it.wikipedia.org/wiki/Jocelyn_Bell_Burnell",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0163",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale pianeta potrebbe galleggiare nell'acqua per la sua bassa densità?",
+    "risposte": [
+      "Saturno",
+      "Giove",
+      "Urano",
+      "Nettuno"
+    ],
+    "curiosita": "La sua densità è circa 0,69 g/cm³, minore di quella dell'acqua.",
+    "fatto": "pianeta galleggerebbe saturno",
+    "fonte": "https://it.wikipedia.org/wiki/Saturno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0164",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale pianeta ha una luna, Tritone, che orbita al contrario?",
+    "risposte": [
+      "Nettuno",
+      "Urano",
+      "Saturno",
+      "Giove"
+    ],
+    "curiosita": "Forse è un oggetto catturato dal pianeta.",
+    "fatto": "tritone orbita retrograda nettuno",
+    "fonte": "https://it.wikipedia.org/wiki/Nettuno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0165",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale particella senza carica elettrica si trova nel nucleo?",
+    "risposte": [
+      "Neutrone",
+      "Protone",
+      "Elettrone",
+      "Positrone"
+    ],
+    "curiosita": "Fu scoperto da James Chadwick nel 1932.",
+    "fatto": "particella neutra nucleo neutrone",
+    "fonte": "https://it.wikipedia.org/wiki/Neutrone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0166",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Chi realizzò la celebre «Fotografia 51» del DNA?",
+    "risposte": [
+      "Rosalind Franklin",
+      "Marie Curie",
+      "Dorothy Hodgkin",
+      "Barbara McClintock"
+    ],
+    "curiosita": "Quell'immagine aiutò Watson e Crick a capire la doppia elica.",
+    "fatto": "fotografia 51 dna franklin",
+    "fonte": "https://it.wikipedia.org/wiki/Rosalind_Franklin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0167",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Che tipo di stella è il nostro Sole?",
+    "risposte": [
+      "Nana gialla",
+      "Gigante rossa",
+      "Nana bianca",
+      "Supergigante"
+    ],
+    "curiosita": "In realtà la sua luce è bianca.",
+    "fatto": "tipo stella sole nana gialla",
+    "fonte": "https://it.wikipedia.org/wiki/Nana_gialla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0168",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scienziato dimostrò la rotazione terrestre con un pendolo nel 1851?",
+    "risposte": [
+      "Foucault",
+      "Galilei",
+      "Huygens",
+      "Newton"
+    ],
+    "curiosita": "Lo fece al Pantheon di Parigi.",
+    "fatto": "pendolo 1851 foucault",
+    "fonte": "https://it.wikipedia.org/wiki/L%C3%A9on_Foucault",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0169",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale legge lega il volume di un gas alla pressione, a temperatura costante?",
+    "risposte": [
+      "Legge di Boyle",
+      "Legge di Ohm",
+      "Legge di Hooke",
+      "Principio di Archimede"
+    ],
+    "curiosita": "Vale per i gas ideali a temperatura costante.",
+    "fatto": "legge gas pressione volume boyle",
+    "fonte": "https://it.wikipedia.org/wiki/Legge_di_Boyle",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0170",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Il numero 6,02 × 10²³ porta il nome di quale scienziato?",
+    "risposte": [
+      "Avogadro",
+      "Boltzmann",
+      "Planck",
+      "Faraday"
+    ],
+    "curiosita": "Era un fisico italiano, nato a Torino.",
+    "fatto": "numero avogadro",
+    "fonte": "https://it.wikipedia.org/wiki/Amedeo_Avogadro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0171",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scienziata italiana vinse il Nobel per la medicina nel 1986?",
+    "risposte": [
+      "Rita Levi-Montalcini",
+      "Margherita Hack",
+      "Maria Montessori",
+      "Fabiola Gianotti"
+    ],
+    "curiosita": "Scoprì il fattore di crescita nervoso, l'NGF.",
+    "fatto": "nobel medicina 1986 levi montalcini",
+    "fonte": "https://it.wikipedia.org/wiki/Rita_Levi-Montalcini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0172",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale pianeta nano ha una grande macchia chiara a forma di cuore?",
+    "risposte": [
+      "Plutone",
+      "Cerere",
+      "Eris",
+      "Haumea"
+    ],
+    "curiosita": "La regione si chiama Tombaugh.",
+    "fatto": "pianeta nano cuore plutone",
+    "fonte": "https://it.wikipedia.org/wiki/Plutone_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0173",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale elemento chimico porta il nome di Albert Einstein?",
+    "risposte": [
+      "Einsteinio",
+      "Fermio",
+      "Nobelio",
+      "Curio"
+    ],
+    "curiosita": "Fu trovato nei resti della prima bomba H, nel 1952.",
+    "fatto": "elemento einsteinio",
+    "fonte": "https://it.wikipedia.org/wiki/Einsteinio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0174",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale matematico britannico contribuì a decifrare il codice Enigma?",
+    "risposte": [
+      "Alan Turing",
+      "Charles Babbage",
+      "George Boole",
+      "Stephen Hawking"
+    ],
+    "curiosita": "Ideò anche un test per distinguere una macchina da un uomo.",
+    "fatto": "enigma alan turing",
+    "fonte": "https://it.wikipedia.org/wiki/Alan_Turing",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0175",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale malattia l'OMS dichiarò eradicata nel 1980?",
+    "risposte": [
+      "Vaiolo",
+      "Polio",
+      "Morbillo",
+      "Peste"
+    ],
+    "curiosita": "La dichiarazione fu fatta l'8 maggio 1980.",
+    "fatto": "malattia eradicata 1980 vaiolo",
+    "fonte": "https://it.wikipedia.org/wiki/Vaiolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0176",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scienza studia i funghi?",
+    "risposte": [
+      "Micologia",
+      "Botanica",
+      "Zoologia",
+      "Virologia"
+    ],
+    "curiosita": "Dal greco mykes, «fungo».",
+    "fatto": "scienza funghi micologia",
+    "fonte": "https://it.wikipedia.org/wiki/Micologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0177",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Di che cosa si occupa l'etologia?",
+    "risposte": [
+      "Comportamento animale",
+      "Origine delle parole",
+      "Rocce e minerali",
+      "Fossili"
+    ],
+    "curiosita": "Konrad Lorenz vinse il Nobel nel 1973 per i suoi studi.",
+    "fatto": "etologia comportamento animale",
+    "fonte": "https://it.wikipedia.org/wiki/Etologia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0178",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale scala misura l'intensità dei terremoti dagli effetti, da I a XII?",
+    "risposte": [
+      "Scala Mercalli",
+      "Scala Richter",
+      "Scala Beaufort",
+      "Scala Mohs"
+    ],
+    "curiosita": "Fu ideata dal sacerdote italiano Giuseppe Mercalli.",
+    "fatto": "scala effetti terremoto mercalli",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_Mercalli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0179",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Ogni quanti anni circa torna la cometa di Halley?",
+    "risposte": [
+      "76",
+      "12",
+      "150",
+      "29"
+    ],
+    "curiosita": "Il prossimo passaggio è previsto nel 2061.",
+    "fatto": "cometa halley periodo 76 anni",
+    "fonte": "https://it.wikipedia.org/wiki/Cometa_di_Halley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-sci-0180",
+    "tipo": "classica",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quanto dura circa un anno su Marte?",
+    "risposte": [
+      "687 giorni",
+      "365 giorni",
+      "225 giorni",
+      "12 anni"
+    ],
+    "curiosita": "È quasi il doppio di un anno terrestre.",
+    "fatto": "anno su marte 687 giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Marte_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

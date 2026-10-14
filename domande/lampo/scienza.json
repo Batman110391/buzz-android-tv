@@ -538,5 +538,545 @@
     "fonte": "https://it.wikipedia.org/wiki/Leggi_di_Newton",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0031",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quale gas producono le piante di giorno?",
+    "risposte": [
+      "Ossigeno",
+      "Azoto",
+      "Elio",
+      "Metano"
+    ],
+    "curiosita": "Lo rilasciano come scarto della fotosintesi.",
+    "fatto": "gas prodotto piante ossigeno",
+    "fonte": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0032",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti gradi misura un angolo giro?",
+    "risposte": [
+      "360",
+      "180",
+      "90",
+      "270"
+    ],
+    "curiosita": "Deriva dal sistema in base 60 dei Babilonesi.",
+    "fatto": "gradi angolo giro 360",
+    "fonte": "https://it.wikipedia.org/wiki/Angolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0033",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti secondi ci sono in un'ora?",
+    "risposte": [
+      "3.600",
+      "600",
+      "1.800",
+      "6.000"
+    ],
+    "curiosita": "È 60 volte 60.",
+    "fatto": "secondi in un ora",
+    "fonte": "https://it.wikipedia.org/wiki/Secondo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0034",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "In quale parte del corpo si trova la rotula?",
+    "risposte": [
+      "Ginocchio",
+      "Gomito",
+      "Spalla",
+      "Caviglia"
+    ],
+    "curiosita": "È l'osso che protegge l'articolazione del ginocchio.",
+    "fatto": "rotula ginocchio",
+    "fonte": "https://it.wikipedia.org/wiki/Rotula",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0035",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Con quali due elementi il ferro forma la ruggine?",
+    "risposte": [
+      "Acqua e ossigeno",
+      "Sole e vento",
+      "Sale e zucchero",
+      "Azoto e neon"
+    ],
+    "curiosita": "La ruggine è ossido di ferro.",
+    "fatto": "ruggine acqua ossigeno",
+    "fonte": "https://it.wikipedia.org/wiki/Ruggine",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0036",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "A quale classe di animali appartiene la balena?",
+    "risposte": [
+      "Mammiferi",
+      "Pesci",
+      "Rettili",
+      "Anfibi"
+    ],
+    "curiosita": "Allatta i piccoli e respira aria.",
+    "fatto": "balena classe mammiferi",
+    "fonte": "https://it.wikipedia.org/wiki/Balena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0037",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanti emisferi ha il cervello umano?",
+    "risposte": [
+      "Due",
+      "Tre",
+      "Quattro",
+      "Uno"
+    ],
+    "curiosita": "Sono collegati dal corpo calloso.",
+    "fatto": "emisferi cervello due",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0038",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quanto fa 12 per 12?",
+    "risposte": [
+      "144",
+      "124",
+      "154",
+      "132"
+    ],
+    "curiosita": "Una dozzina di dozzine si chiama «grossa».",
+    "fatto": "dodici per dodici 144",
+    "fonte": "https://it.wikipedia.org/wiki/Dozzina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0039",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Quante facce ha un cubo?",
+    "risposte": [
+      "Sei",
+      "Quattro",
+      "Otto",
+      "Dodici"
+    ],
+    "curiosita": "Ha 12 spigoli e 8 vertici.",
+    "fatto": "facce cubo sei",
+    "fonte": "https://it.wikipedia.org/wiki/Cubo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0040",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "domanda": "Che forma ha l'orbita della Terra?",
+    "risposte": [
+      "Ellisse",
+      "Cerchio perfetto",
+      "Quadrato",
+      "Spirale"
+    ],
+    "curiosita": "È quasi circolare: la distanza dal Sole varia solo del 3%.",
+    "fatto": "orbita terra ellisse",
+    "fonte": "https://it.wikipedia.org/wiki/Ellisse",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0041",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanto fa la somma dei numeri da 1 a 10?",
+    "risposte": [
+      "55",
+      "50",
+      "45",
+      "60"
+    ],
+    "curiosita": "Il giovane Gauss trovò il trucco per sommarli in un lampo.",
+    "fatto": "somma numeri uno dieci 55",
+    "fonte": "https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0042",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanti litri ci sono in un metro cubo?",
+    "risposte": [
+      "1.000",
+      "100",
+      "10",
+      "10.000"
+    ],
+    "curiosita": "Un litro è un decimetro cubo.",
+    "fatto": "litri metro cubo mille",
+    "fonte": "https://it.wikipedia.org/wiki/Metro_cubo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0043",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è il simbolo chimico del potassio?",
+    "risposte": [
+      "K",
+      "P",
+      "Po",
+      "Pt"
+    ],
+    "curiosita": "Dal latino kalium.",
+    "fatto": "simbolo chimico potassio k",
+    "fonte": "https://it.wikipedia.org/wiki/Potassio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0044",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Qual è il simbolo chimico dello stagno?",
+    "risposte": [
+      "Sn",
+      "St",
+      "S",
+      "Zn"
+    ],
+    "curiosita": "Dal latino stannum.",
+    "fatto": "simbolo chimico stagno sn",
+    "fonte": "https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0045",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quale eclissi avviene con la Luna nell'ombra terrestre?",
+    "risposte": [
+      "Eclissi lunare",
+      "Eclissi solare",
+      "Occultazione",
+      "Transito"
+    ],
+    "curiosita": "La Luna assume un colore rosso ramato.",
+    "fatto": "eclissi luna ombra terra lunare",
+    "fonte": "https://it.wikipedia.org/wiki/Eclissi_lunare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0046",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanti ossicini ha l'orecchio medio?",
+    "risposte": [
+      "Tre",
+      "Due",
+      "Quattro",
+      "Cinque"
+    ],
+    "curiosita": "Sono martello, incudine e staffa.",
+    "fatto": "ossicini orecchio medio tre",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0047",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Quanto corre circa il suono nell'aria?",
+    "risposte": [
+      "340 m/s",
+      "34 m/s",
+      "3.400 m/s",
+      "300.000 km/s"
+    ],
+    "curiosita": "Equivale a circa 1.235 km/h.",
+    "fatto": "velocita suono aria 340",
+    "fonte": "https://it.wikipedia.org/wiki/Velocit%C3%A0_del_suono",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0048",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Come si chiama il lato opposto all'angolo retto?",
+    "risposte": [
+      "Ipotenusa",
+      "Cateto",
+      "Base",
+      "Apotema"
+    ],
+    "curiosita": "Il suo quadrato è la somma dei quadrati dei cateti.",
+    "fatto": "lato opposto angolo retto ipotenusa",
+    "fonte": "https://it.wikipedia.org/wiki/Ipotenusa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0049",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Chi diede il nome al teorema sui triangoli rettangoli?",
+    "risposte": [
+      "Pitagora",
+      "Euclide",
+      "Talete",
+      "Archimede"
+    ],
+    "curiosita": "Era già noto ai Babilonesi.",
+    "fatto": "teorema triangolo rettangolo pitagora",
+    "fonte": "https://it.wikipedia.org/wiki/Teorema_di_Pitagora",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0050",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "domanda": "Con quale unità si misura la pressione?",
+    "risposte": [
+      "Pascal",
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "curiosita": "Il nome onora Blaise Pascal.",
+    "fatto": "unita pressione pascal",
+    "fonte": "https://it.wikipedia.org/wiki/Pressione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0051",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quanti ossi ha una mano umana?",
+    "risposte": [
+      "27",
+      "14",
+      "32",
+      "19"
+    ],
+    "curiosita": "Le due mani contengono circa un quarto di tutte le ossa del corpo.",
+    "fatto": "ossa mano umana 27",
+    "fonte": "https://it.wikipedia.org/wiki/Mano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0052",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Qual è il simbolo chimico dell'antimonio?",
+    "risposte": [
+      "Sb",
+      "An",
+      "Am",
+      "At"
+    ],
+    "curiosita": "Dal latino stibium.",
+    "fatto": "simbolo chimico antimonio sb",
+    "fonte": "https://it.wikipedia.org/wiki/Antimonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0053",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Qual è il simbolo chimico del mercurio?",
+    "risposte": [
+      "Hg",
+      "Me",
+      "Mc",
+      "Mr"
+    ],
+    "curiosita": "Dal greco hydrargyros, «argento liquido».",
+    "fatto": "simbolo chimico mercurio hg",
+    "fonte": "https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0054",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "A quanti anni luce è la galassia di Andromeda?",
+    "risposte": [
+      "2,5 milioni",
+      "250.000",
+      "40 milioni",
+      "8 miliardi"
+    ],
+    "curiosita": "È l'oggetto più lontano visibile a occhio nudo.",
+    "fatto": "distanza andromeda anni luce",
+    "fonte": "https://it.wikipedia.org/wiki/Galassia_di_Andromeda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0055",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Chi sistematizzò il codice binario?",
+    "risposte": [
+      "Leibniz",
+      "Pascal",
+      "Descartes",
+      "Newton"
+    ],
+    "curiosita": "Vide nel binario un'immagine della creazione dal nulla.",
+    "fatto": "codice binario leibniz",
+    "fonte": "https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0056",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Qual è il numero atomico del carbonio?",
+    "risposte": [
+      "6",
+      "12",
+      "8",
+      "14"
+    ],
+    "curiosita": "Ha sei protoni e sei elettroni.",
+    "fatto": "numero atomico carbonio sei",
+    "fonte": "https://it.wikipedia.org/wiki/Carbonio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0057",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quanti litri di sangue pompa il cuore in un giorno?",
+    "risposte": [
+      "7.000",
+      "700",
+      "70.000",
+      "70"
+    ],
+    "curiosita": "Batte circa 100.000 volte al giorno.",
+    "fatto": "sangue pompato cuore giorno",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0058",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Con quale unità si misura il flusso luminoso?",
+    "risposte": [
+      "Lumen",
+      "Watt",
+      "Volt",
+      "Lux"
+    ],
+    "curiosita": "I watt misurano invece il consumo, non la luce.",
+    "fatto": "unita flusso luminoso lumen",
+    "fonte": "https://it.wikipedia.org/wiki/Lumen",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0059",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quanto vale circa il numero di Nepero, la costante e?",
+    "risposte": [
+      "2,718",
+      "3,141",
+      "1,618",
+      "1,414"
+    ],
+    "curiosita": "3,141 è pi greco, 1,618 il rapporto aureo.",
+    "fatto": "costante e nepero 2718",
+    "fonte": "https://it.wikipedia.org/wiki/Numero_di_Nepero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-sci-0060",
+    "tipo": "lampo",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "domanda": "Quale pianeta nano sta tra Marte e Giove?",
+    "risposte": [
+      "Cerere",
+      "Plutone",
+      "Eris",
+      "Makemake"
+    ],
+    "curiosita": "Contiene circa un quarto della massa della fascia.",
+    "fatto": "pianeta nano fascia asteroidi cerere",
+    "fonte": "https://it.wikipedia.org/wiki/Cerere_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]

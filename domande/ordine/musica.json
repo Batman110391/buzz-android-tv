@@ -358,5 +358,245 @@
     "fonte": "https://it.wikipedia.org/wiki/Enrico_Caruso",
     "origine": "claude",
     "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0016",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Dal compositore morto prima al morto dopo",
+    "elementi": [
+      "Bach",
+      "Mozart",
+      "Beethoven",
+      "Verdi"
+    ],
+    "valori": [
+      "1750",
+      "1791",
+      "1827",
+      "1901"
+    ],
+    "curiosita": "Verdi visse fino a quasi 88 anni.",
+    "fatto": "morte compositori bach mozart beethoven verdi",
+    "fonte": "https://it.wikipedia.org/wiki/Johann_Sebastian_Bach",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0017",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Dalla formazione più piccola alla più grande",
+    "elementi": [
+      "Trio",
+      "Quartetto",
+      "Quintetto",
+      "Ottetto"
+    ],
+    "valori": [
+      "3",
+      "4",
+      "5",
+      "8"
+    ],
+    "curiosita": "Il quartetto d'archi è la formazione più amata.",
+    "fatto": "musicisti formazioni trio quartetto quintetto ottetto",
+    "fonte": "https://it.wikipedia.org/wiki/Musica_da_camera",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0018",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 1,
+    "criterio": "Dalla nota più lunga alla più breve",
+    "elementi": [
+      "Semibreve",
+      "Minima",
+      "Semiminima",
+      "Croma"
+    ],
+    "valori": [
+      "4 tempi",
+      "2 tempi",
+      "1 tempo",
+      "1/2 tempo"
+    ],
+    "curiosita": "Ogni nota dura la metà della precedente.",
+    "fatto": "durata note semibreve minima semiminima croma",
+    "fonte": "https://it.wikipedia.org/wiki/Figure_musicali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0019",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Dallo strumento ad arco più grave al più acuto",
+    "elementi": [
+      "Contrabbasso",
+      "Violoncello",
+      "Viola",
+      "Violino"
+    ],
+    "valori": [
+      "41 Hz",
+      "65 Hz",
+      "131 Hz",
+      "196 Hz"
+    ],
+    "curiosita": "Frequenza della corda più bassa.",
+    "fatto": "frequenza archi contrabbasso violoncello viola violino",
+    "fonte": "https://it.wikipedia.org/wiki/Strumenti_ad_arco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0020",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Dal brano dei Queen più vecchio al più recente",
+    "elementi": [
+      "Bohemian Rhapsody",
+      "We Will Rock You",
+      "Don't Stop Me Now",
+      "Radio Ga Ga"
+    ],
+    "valori": [
+      "1975",
+      "1977",
+      "1978",
+      "1984"
+    ],
+    "curiosita": "Radio Ga Ga è stato scritto dal batterista.",
+    "fatto": "brani queen anni bohemian rhapsody radio ga ga",
+    "fonte": "https://it.wikipedia.org/wiki/Queen_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0021",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Dal cantante nato prima al più giovane",
+    "elementi": [
+      "Elvis Presley",
+      "Bob Dylan",
+      "David Bowie",
+      "Madonna"
+    ],
+    "valori": [
+      "1935",
+      "1941",
+      "1947",
+      "1958"
+    ],
+    "curiosita": "Elvis è morto a 42 anni.",
+    "fatto": "cantanti nascita elvis dylan bowie madonna",
+    "fonte": "https://it.wikipedia.org/wiki/Elvis_Presley",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0022",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 2,
+    "criterio": "Dal brano degli ABBA più vecchio al più recente",
+    "elementi": [
+      "Waterloo",
+      "Mamma Mia",
+      "Dancing Queen",
+      "Super Trouper"
+    ],
+    "valori": [
+      "1974",
+      "1975",
+      "1976",
+      "1980"
+    ],
+    "curiosita": "Con Waterloo vinsero l'Eurovision.",
+    "fatto": "brani abba anni waterloo mamma mia dancing queen",
+    "fonte": "https://it.wikipedia.org/wiki/ABBA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0023",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Dallo strumento inventato prima al più recente",
+    "elementi": [
+      "Violino",
+      "Pianoforte",
+      "Sassofono",
+      "Theremin"
+    ],
+    "valori": [
+      "1550 circa",
+      "1700 circa",
+      "1846",
+      "1920"
+    ],
+    "curiosita": "Il theremin si suona senza toccarlo.",
+    "fatto": "invenzione strumenti violino pianoforte sassofono theremin",
+    "fonte": "https://it.wikipedia.org/wiki/Strumento_musicale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0024",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Dall'album dei Pink Floyd più vecchio",
+    "elementi": [
+      "Atom Heart Mother",
+      "Dark Side of the Moon",
+      "Wish You Were Here",
+      "The Wall"
+    ],
+    "valori": [
+      "1970",
+      "1973",
+      "1975",
+      "1979"
+    ],
+    "curiosita": "Dark Side of the Moon restò in classifica per anni.",
+    "fatto": "album pink floyd anni atom heart wish you were here wall",
+    "fonte": "https://it.wikipedia.org/wiki/Pink_Floyd",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-mus-0025",
+    "tipo": "ordine",
+    "categoria": "musica",
+    "difficolta": 3,
+    "criterio": "Dal gruppo italiano nato prima al più recente",
+    "elementi": [
+      "Nomadi",
+      "Pooh",
+      "Matia Bazar",
+      "Elio e le Storie Tese"
+    ],
+    "valori": [
+      "1963",
+      "1966",
+      "1975",
+      "1980"
+    ],
+    "curiosita": "I Pooh hanno compiuto cinquant'anni nel 2016.",
+    "fatto": "gruppi italiani nomadi pooh matia bazar elio",
+    "fonte": "https://it.wikipedia.org/wiki/Musica_leggera_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
   }
 ]
