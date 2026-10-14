@@ -1,0 +1,602 @@
+[
+  {
+    "id": "or-vid-0001",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Console Nintendo, dalla più vecchia (Giappone)",
+    "elementi": [
+      "Famicom (NES)",
+      "Super Famicom",
+      "Nintendo 64",
+      "GameCube"
+    ],
+    "valori": [
+      "1983",
+      "1990",
+      "1996",
+      "2001"
+    ],
+    "curiosita": "Dal Famicom al GameCube passano meno di vent'anni.",
+    "fatto": "ordine console nintendo famicom gamecube",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0002",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "criterio": "Console Sony di casa, dalla più vecchia",
+    "elementi": [
+      "PlayStation",
+      "PlayStation 2",
+      "PlayStation 3",
+      "PlayStation 4"
+    ],
+    "valori": [
+      "1994",
+      "2000",
+      "2006",
+      "2013"
+    ],
+    "curiosita": "La PlayStation 2 è la console più longeva della famiglia.",
+    "fatto": "ordine console sony di casa ps1 ps2 ps3 ps4",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0003",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Console Xbox, dalla più vecchia",
+    "elementi": [
+      "Xbox",
+      "Xbox 360",
+      "Xbox One",
+      "Xbox Series X"
+    ],
+    "valori": [
+      "2001",
+      "2005",
+      "2013",
+      "2020"
+    ],
+    "curiosita": "Series X arrivò quasi vent'anni dopo la prima Xbox.",
+    "fatto": "ordine console xbox",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0004",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "criterio": "Giochi da sala, dal più antico",
+    "elementi": [
+      "Pong",
+      "Space Invaders",
+      "Pac-Man",
+      "Donkey Kong"
+    ],
+    "valori": [
+      "1972",
+      "1978",
+      "1980",
+      "1981"
+    ],
+    "curiosita": "Nel giro di dieci anni i bar si riempirono di cabinati.",
+    "fatto": "ordine giochi da sala pong donkey kong",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0005",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Giochi famosi, dal più antico",
+    "elementi": [
+      "Pac-Man",
+      "Super Mario Bros.",
+      "Sonic",
+      "Pokémon Rosso e Verde"
+    ],
+    "valori": [
+      "1980",
+      "1985",
+      "1991",
+      "1996"
+    ],
+    "curiosita": "Ogni gioco ha lanciato una nuova mascotte.",
+    "fatto": "ordine mascotte pacman mario sonic pokemon",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0006",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Console portatili Nintendo, dalla più vecchia",
+    "elementi": [
+      "Game Boy",
+      "Game Boy Color",
+      "Game Boy Advance",
+      "Nintendo DS"
+    ],
+    "valori": [
+      "1989",
+      "1998",
+      "2001",
+      "2004"
+    ],
+    "curiosita": "Tutte condividevano l'idea di giochi su cartuccia.",
+    "fatto": "ordine portatili nintendo game boy ds",
+    "fonte": "https://it.wikipedia.org/wiki/Game_Boy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0007",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Console Sega, dalla più vecchia (Giappone)",
+    "elementi": [
+      "Mega Drive",
+      "Game Gear",
+      "Saturn",
+      "Dreamcast"
+    ],
+    "valori": [
+      "1988",
+      "1990",
+      "1994",
+      "1998"
+    ],
+    "curiosita": "Il Dreamcast fu l'ultima console prodotta da Sega.",
+    "fatto": "ordine console sega mega drive dreamcast",
+    "fonte": "https://it.wikipedia.org/wiki/Sega",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0008",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Dal più vecchio al più recente",
+    "elementi": [
+      "Atari 2600",
+      "Commodore 64",
+      "Amiga 1000",
+      "PlayStation"
+    ],
+    "valori": [
+      "1977",
+      "1982",
+      "1985",
+      "1994"
+    ],
+    "curiosita": "Dal salotto alla cameretta, i primi computer da gioco.",
+    "fatto": "ordine atari commodore amiga playstation",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0009",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Giochi di Zelda, dal più antico",
+    "elementi": [
+      "The Legend of Zelda",
+      "A Link to the Past",
+      "Ocarina of Time",
+      "Breath of the Wild"
+    ],
+    "valori": [
+      "1986",
+      "1991",
+      "1998",
+      "2017"
+    ],
+    "curiosita": "Il primo Zelda uscì in Giappone su Famicom Disk System.",
+    "fatto": "ordine giochi zelda",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0010",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Giochi di Mario, dal più antico",
+    "elementi": [
+      "Super Mario Bros.",
+      "Super Mario World",
+      "Super Mario 64",
+      "Super Mario Galaxy"
+    ],
+    "valori": [
+      "1985",
+      "1990",
+      "1996",
+      "2007"
+    ],
+    "curiosita": "Ogni capitolo ha ridefinito il genere delle piattaforme.",
+    "fatto": "ordine giochi mario",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0011",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Giochi Pokémon, dal più antico (Giappone)",
+    "elementi": [
+      "Rosso e Verde",
+      "Oro e Argento",
+      "Rubino e Zaffiro",
+      "Diamante e Perla"
+    ],
+    "valori": [
+      "1996",
+      "1999",
+      "2002",
+      "2006"
+    ],
+    "curiosita": "Ogni coppia ha aggiunto nuove creature da catturare.",
+    "fatto": "ordine giochi pokemon generazioni",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0012",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Final Fantasy, dal più antico (Giappone)",
+    "elementi": [
+      "Final Fantasy",
+      "Final Fantasy VII",
+      "Final Fantasy X",
+      "Final Fantasy XIII"
+    ],
+    "valori": [
+      "1987",
+      "1997",
+      "2001",
+      "2009"
+    ],
+    "curiosita": "Il settimo capitolo portò la saga al grande pubblico.",
+    "fatto": "ordine final fantasy",
+    "fonte": "https://it.wikipedia.org/wiki/Final_Fantasy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0013",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Grand Theft Auto, dal più antico",
+    "elementi": [
+      "GTA",
+      "GTA III",
+      "GTA Vice City",
+      "GTA V"
+    ],
+    "valori": [
+      "1997",
+      "2001",
+      "2002",
+      "2013"
+    ],
+    "curiosita": "Dal 2D dall'alto fino al mondo aperto in 3D.",
+    "fatto": "ordine gta",
+    "fonte": "https://it.wikipedia.org/wiki/Grand_Theft_Auto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0014",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "criterio": "Giochi di successo, dal più antico",
+    "elementi": [
+      "Minecraft",
+      "Pokémon GO",
+      "Fortnite",
+      "Among Us"
+    ],
+    "valori": [
+      "2011",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "curiosita": "Tutti e quattro sono diventati fenomeni mondiali.",
+    "fatto": "ordine minecraft pokemon go fortnite among us",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0015",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Giochi da telefono, dal più antico",
+    "elementi": [
+      "Snake",
+      "Angry Birds",
+      "Flappy Bird",
+      "Pokémon GO"
+    ],
+    "valori": [
+      "1997",
+      "2009",
+      "2013",
+      "2016"
+    ],
+    "curiosita": "Dal vecchio Nokia agli smartphone con GPS.",
+    "fatto": "ordine giochi telefono snake angry birds",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0016",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Picchiaduro, dal più antico",
+    "elementi": [
+      "Street Fighter II",
+      "Mortal Kombat",
+      "Tekken",
+      "Super Smash Bros."
+    ],
+    "valori": [
+      "1991",
+      "1992",
+      "1994",
+      "1999"
+    ],
+    "curiosita": "Nel 1991 le sale giochi si riempirono di sfide uno contro uno.",
+    "fatto": "ordine picchiaduro street fighter smash",
+    "fonte": "https://it.wikipedia.org/wiki/Street_Fighter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0017",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Sparatutto, dal più antico",
+    "elementi": [
+      "Doom",
+      "Quake",
+      "Half-Life",
+      "Halo"
+    ],
+    "valori": [
+      "1993",
+      "1996",
+      "1998",
+      "2001"
+    ],
+    "curiosita": "Dopo Doom il genere in prima persona esplose.",
+    "fatto": "ordine sparatutto doom quake half life halo",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0018",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Giochi simulativi, dal più antico",
+    "elementi": [
+      "SimCity",
+      "The Sims",
+      "World of Warcraft",
+      "Minecraft"
+    ],
+    "valori": [
+      "1989",
+      "2000",
+      "2004",
+      "2011"
+    ],
+    "curiosita": "Da sindaco a dio costruttore, il passo è breve.",
+    "fatto": "ordine simulazione simcity sims warcraft minecraft",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0019",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Mario Kart, dal più antico",
+    "elementi": [
+      "Super Mario Kart",
+      "Mario Kart 64",
+      "Mario Kart Wii",
+      "Mario Kart 8"
+    ],
+    "valori": [
+      "1992",
+      "1996",
+      "2008",
+      "2014"
+    ],
+    "curiosita": "Si gioca in due fin dal primo capitolo.",
+    "fatto": "ordine mario kart",
+    "fonte": "https://it.wikipedia.org/wiki/Mario_Kart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0020",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Giochi di Mario, dal più antico (1981-1988)",
+    "elementi": [
+      "Donkey Kong",
+      "Mario Bros.",
+      "Super Mario Bros.",
+      "Super Mario Bros. 3"
+    ],
+    "valori": [
+      "1981",
+      "1983",
+      "1985",
+      "1988"
+    ],
+    "curiosita": "In otto anni Mario passa da comparsa a stella.",
+    "fatto": "ordine mario donkey kong mario bros smb3",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0021",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Dispositivi Nintendo, dal più vecchio",
+    "elementi": [
+      "Game & Watch",
+      "Game Boy",
+      "Nintendo DS",
+      "Nintendo Switch"
+    ],
+    "valori": [
+      "1980",
+      "1989",
+      "2004",
+      "2017"
+    ],
+    "curiosita": "Dalla piccola calcolatrice ai due schermi.",
+    "fatto": "ordine nintendo game and watch switch",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0022",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Giochi su PlayStation, dal più antico",
+    "elementi": [
+      "Crash Bandicoot",
+      "Gran Turismo",
+      "Metal Gear Solid",
+      "Silent Hill"
+    ],
+    "valori": [
+      "1996",
+      "1997",
+      "1998",
+      "1999"
+    ],
+    "curiosita": "La PlayStation ospitò titoli di ogni genere.",
+    "fatto": "ordine giochi playstation crash gran turismo",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0023",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Giochi Bethesda, dal più antico",
+    "elementi": [
+      "Morrowind",
+      "Oblivion",
+      "Skyrim",
+      "Fallout 4"
+    ],
+    "valori": [
+      "2002",
+      "2006",
+      "2011",
+      "2015"
+    ],
+    "curiosita": "Il vento del Nord soffia dal 2011.",
+    "fatto": "ordine giochi bethesda elder scrolls",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0024",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "criterio": "Sonic, dal più antico",
+    "elementi": [
+      "Sonic 1",
+      "Sonic 2",
+      "Sonic CD",
+      "Sonic 3"
+    ],
+    "valori": [
+      "1991",
+      "1992",
+      "1993",
+      "1994"
+    ],
+    "curiosita": "In quattro anni la mascotte Sega portò quattro capitoli.",
+    "fatto": "ordine giochi sonic",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-vid-0025",
+    "tipo": "ordine",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "criterio": "Personaggi, dal più antico",
+    "elementi": [
+      "Mario",
+      "Link",
+      "Sonic",
+      "Lara Croft"
+    ],
+    "valori": [
+      "1981",
+      "1986",
+      "1991",
+      "1996"
+    ],
+    "curiosita": "Mario fu il primo, Lara arrivò con la PlayStation.",
+    "fatto": "ordine personaggi mario link sonic lara",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

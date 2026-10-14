@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "cl-vid-0001",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che mestiere fa Mario nelle sue avventure più famose?",
+    "risposte": [
+      "Idraulico",
+      "Meccanico",
+      "Cuoco",
+      "Elettricista"
+    ],
+    "curiosita": "Nacque come carpentiere in Donkey Kong (1981), poi passò ai tubi.",
+    "fatto": "mario mestiere idraulico",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0002",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il fratello di Mario, vestito di verde?",
+    "risposte": [
+      "Luigi",
+      "Wario",
+      "Yoshi",
+      "Toad"
+    ],
+    "curiosita": "Compare per la prima volta in Mario Bros. nel 1983.",
+    "fatto": "fratello di mario luigi",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0003",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Chi rapisce la principessa Peach nei giochi di Super Mario?",
+    "risposte": [
+      "Bowser",
+      "Wario",
+      "Ganondorf",
+      "Donkey Kong"
+    ],
+    "curiosita": "Bowser è un re delle tartarughe Koopa, nemico storico di Mario.",
+    "fatto": "rapitore di peach bowser",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0004",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è il cappello di Mario?",
+    "risposte": [
+      "Rosso",
+      "Verde",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Il cappello c'è perché era difficile animare i capelli con pochi pixel.",
+    "fatto": "colore cappello mario rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0005",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il dinosauro verde che Mario cavalca?",
+    "risposte": [
+      "Yoshi",
+      "Toad",
+      "Birdo",
+      "Koopa"
+    ],
+    "curiosita": "Yoshi debuttò in Super Mario World nel 1990.",
+    "fatto": "dinosauro verde di mario yoshi",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0006",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quanti fantasmi inseguono Pac-Man nel gioco originale?",
+    "risposte": [
+      "Quattro",
+      "Tre",
+      "Cinque",
+      "Sei"
+    ],
+    "curiosita": "Si chiamano Blinky, Pinky, Inky e Clyde.",
+    "fatto": "numero fantasmi pac man quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0007",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In quale Paese nacque Tetris, nel 1984?",
+    "risposte": [
+      "Unione Sovietica",
+      "Giappone",
+      "Stati Uniti",
+      "Germania"
+    ],
+    "curiosita": "Lo inventò Aleksej Pažitnov mentre lavorava a Mosca.",
+    "fatto": "paese di nascita di tetris",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0008",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il Pokémon giallo con la coda a fulmine?",
+    "risposte": [
+      "Pikachu",
+      "Raichu",
+      "Pichu",
+      "Electabuzz"
+    ],
+    "curiosita": "Nel nome, pika imita una scintilla e chu il verso di un topolino.",
+    "fatto": "pokemon giallo coda a fulmine pikachu",
+    "fonte": "https://it.wikipedia.org/wiki/Pikachu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0009",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che animale è Sonic, la mascotte della Sega?",
+    "risposte": [
+      "Riccio",
+      "Scoiattolo",
+      "Volpe",
+      "Lepre"
+    ],
+    "curiosita": "Corre più veloce del suono, da cui il nome.",
+    "fatto": "animale di sonic riccio",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0010",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'eroe con il cappello verde di Zelda?",
+    "risposte": [
+      "Link",
+      "Zelda",
+      "Ganon",
+      "Navi"
+    ],
+    "curiosita": "Zelda è la principessa, non l'eroe: un errore molto comune.",
+    "fatto": "eroe cappello verde zelda link",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0011",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In Minecraft, quale mostro verde esplode vicino al giocatore?",
+    "risposte": [
+      "Creeper",
+      "Zombie",
+      "Scheletro",
+      "Enderman"
+    ],
+    "curiosita": "Nacque per errore mentre l'autore cercava di creare un maiale.",
+    "fatto": "mostro esplosivo minecraft creeper",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0012",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale azienda giapponese produce la PlayStation?",
+    "risposte": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Panasonic"
+    ],
+    "curiosita": "La prima PlayStation nacque da un accordo fallito con Nintendo.",
+    "fatto": "azienda produttrice playstation sony",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0013",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama la console Nintendo del 2006 con il telecomando a sensori?",
+    "risposte": [
+      "Wii",
+      "GameCube",
+      "Nintendo 64",
+      "Game Boy Advance"
+    ],
+    "curiosita": "Con Wii Sports portò i videogiochi anche tra i nonni.",
+    "fatto": "console nintendo 2006 wii",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0014",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale azienda produce la console Xbox?",
+    "risposte": [
+      "Microsoft",
+      "Sony",
+      "Google",
+      "Apple"
+    ],
+    "curiosita": "La prima Xbox uscì nel 2001, in sfida alla PlayStation 2.",
+    "fatto": "azienda produttrice xbox microsoft",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0015",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In Angry Birds, contro chi lanciano gli uccelli?",
+    "risposte": [
+      "Maiali",
+      "Gatti",
+      "Serpenti",
+      "Topi"
+    ],
+    "curiosita": "Le uova degli uccelli sono state rubate dai maiali verdi.",
+    "fatto": "nemici di angry birds maiali",
+    "fonte": "https://it.wikipedia.org/wiki/Angry_Birds",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0016",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco per telefono consiste nell'unire caramelle uguali?",
+    "risposte": [
+      "Candy Crush Saga",
+      "Clash of Clans",
+      "Subway Surfers",
+      "Flappy Bird"
+    ],
+    "curiosita": "Uscito nel 2012, è diventato uno dei giochi mobile più scaricati.",
+    "fatto": "gioco telefono caramelle candy crush",
+    "fonte": "https://it.wikipedia.org/wiki/Candy_Crush_Saga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0017",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco online porta 100 giocatori su un'isola in stile cartoon?",
+    "risposte": [
+      "Fortnite",
+      "Minecraft",
+      "Roblox",
+      "Among Us"
+    ],
+    "curiosita": "Ha reso celebri i balli chiamati emote.",
+    "fatto": "gioco battaglia cento giocatori fortnite",
+    "fonte": "https://it.wikipedia.org/wiki/Fortnite",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0018",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco per telefono ha un omino che scappa da un tempio?",
+    "risposte": [
+      "Temple Run",
+      "Subway Surfers",
+      "Flappy Bird",
+      "Doodle Jump"
+    ],
+    "curiosita": "Uscì nel 2011 ed è tra i primi giochi di corsa infinita.",
+    "fatto": "gioco telefono omino scappa tempio temple run",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0019",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale console portatile Nintendo del 1989 aveva lo schermo verdognolo?",
+    "risposte": [
+      "Game Boy",
+      "Game Gear",
+      "Atari Lynx",
+      "PSP"
+    ],
+    "curiosita": "Fu venduta in bundle con Tetris, grande motore del suo successo.",
+    "fatto": "console portatile 1989 game boy",
+    "fonte": "https://it.wikipedia.org/wiki/Game_Boy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0020",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale semplice gioco di tennis con due barre fu un primo successo nei bar?",
+    "risposte": [
+      "Pong",
+      "Tetris",
+      "Asteroids",
+      "Breakout"
+    ],
+    "curiosita": "Fu creato da Atari nel 1972 come esercizio per un nuovo assunto.",
+    "fatto": "gioco tennis due barre pong",
+    "fonte": "https://it.wikipedia.org/wiki/Pong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0021",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco anni '70 aveva alieni che scendevano verso un cannone?",
+    "risposte": [
+      "Space Invaders",
+      "Asteroids",
+      "Galaga",
+      "Pac-Man"
+    ],
+    "curiosita": "Lo creò il giapponese Tomohiro Nishikado nel 1978.",
+    "fatto": "gioco alieni cannone space invaders",
+    "fonte": "https://it.wikipedia.org/wiki/Space_Invaders",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0022",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che mestiere fa Lara Croft, protagonista di Tomb Raider?",
+    "risposte": [
+      "Archeologa",
+      "Cacciatrice di taglie",
+      "Poliziotta",
+      "Astronauta"
+    ],
+    "curiosita": "Esplora tombe e rovine di tutto il mondo.",
+    "fatto": "mestiere di lara croft archeologa",
+    "fonte": "https://it.wikipedia.org/wiki/Tomb_Raider",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0023",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale serie ha criminali in città come Vice City e San Andreas?",
+    "risposte": [
+      "Grand Theft Auto",
+      "Saints Row",
+      "Watch Dogs",
+      "Mafia"
+    ],
+    "curiosita": "Vice City ricorda la Miami degli anni Ottanta.",
+    "fatto": "serie vice city san andreas gta",
+    "fonte": "https://it.wikipedia.org/wiki/Grand_Theft_Auto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0024",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco fa vivere persone virtuali chiamate Sim?",
+    "risposte": [
+      "The Sims",
+      "SimCity",
+      "Animal Crossing",
+      "Second Life"
+    ],
+    "curiosita": "Le persone parlano un linguaggio inventato, il simlish.",
+    "fatto": "gioco persone virtuali sim the sims",
+    "fonte": "https://it.wikipedia.org/wiki/The_Sims",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0025",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco vede piante difendere la casa dagli zombie?",
+    "risposte": [
+      "Plants vs. Zombies",
+      "Cut the Rope",
+      "Temple Run",
+      "Fruit Ninja"
+    ],
+    "curiosita": "Il girasole produce il sole che serve a comprare le piante.",
+    "fatto": "gioco piante contro zombie",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0026",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco del 2020 vede astronauti colorati cercare l'impostore?",
+    "risposte": [
+      "Among Us",
+      "Fall Guys",
+      "Fortnite",
+      "Rocket League"
+    ],
+    "curiosita": "Uscito nel 2018, esplose solo due anni dopo durante il lockdown.",
+    "fatto": "gioco astronauti impostore among us",
+    "fonte": "https://it.wikipedia.org/wiki/Among_Us",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0027",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In quale gioco Mario e amici gareggiano con carapaci e banane?",
+    "risposte": [
+      "Mario Kart",
+      "F-Zero",
+      "Crash Team Racing",
+      "Sonic Racing"
+    ],
+    "curiosita": "Il primo capitolo uscì su Super Nintendo nel 1992.",
+    "fatto": "gioco gare carapaci mario kart",
+    "fonte": "https://it.wikipedia.org/wiki/Mario_Kart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0028",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale animale lancia barili a Mario in Donkey Kong?",
+    "risposte": [
+      "Gorilla",
+      "Orso",
+      "Rinoceronte",
+      "Elefante"
+    ],
+    "curiosita": "Nel 1981 fu il primo gioco con Mario, allora detto Jumpman.",
+    "fatto": "animale lancia barili donkey kong",
+    "fonte": "https://it.wikipedia.org/wiki/Donkey_Kong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0029",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale azienda creò Sonic, il riccio blu?",
+    "risposte": [
+      "Sega",
+      "Nintendo",
+      "Atari",
+      "Capcom"
+    ],
+    "curiosita": "Sonic fu creato per rivaleggiare con Mario.",
+    "fatto": "azienda creatrice di sonic sega",
+    "fonte": "https://it.wikipedia.org/wiki/Sega",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0030",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale console del 2017 passa dalla TV al portatile?",
+    "risposte": [
+      "Nintendo Switch",
+      "Wii U",
+      "Nintendo 3DS",
+      "Steam Deck"
+    ],
+    "curiosita": "Si usa staccando i controller Joy-Con dai lati.",
+    "fatto": "console tv portatile switch 2017",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Switch",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0031",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che cosa fa diventare grande Mario quando lo raccoglie?",
+    "risposte": [
+      "Fungo",
+      "Stella",
+      "Fiore",
+      "Moneta"
+    ],
+    "curiosita": "La stella invece lo rende invincibile per pochi secondi.",
+    "fatto": "oggetto che ingrandisce mario fungo",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0032",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il ragazzino protagonista dell'anime Pokémon?",
+    "risposte": [
+      "Ash",
+      "Brock",
+      "Gary",
+      "Misty"
+    ],
+    "curiosita": "In giapponese si chiama Satoshi, come il creatore Satoshi Tajiri.",
+    "fatto": "protagonista anime pokemon ash",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0033",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Con quale oggetto si catturano i Pokémon?",
+    "risposte": [
+      "Poké Ball",
+      "Rete",
+      "Gabbia",
+      "Lazo"
+    ],
+    "curiosita": "Si lancia contro il Pokémon dopo averlo indebolito.",
+    "fatto": "oggetto cattura pokemon poke ball",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0034",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco con un uccellino tra tubi verdi fu un caso nel 2014?",
+    "risposte": [
+      "Flappy Bird",
+      "Angry Birds",
+      "Temple Run",
+      "Doodle Jump"
+    ],
+    "curiosita": "Il creatore lo ritirò dagli store perché lo viveva come un peso.",
+    "fatto": "gioco uccellino tubi flappy bird",
+    "fonte": "https://it.wikipedia.org/wiki/Flappy_Bird",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0035",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco del 2016 fa catturare Pokémon camminando per strada?",
+    "risposte": [
+      "Pokémon GO",
+      "Ingress",
+      "Geocaching",
+      "Wizards Unite"
+    ],
+    "curiosita": "Superò i 100 milioni di download in poche settimane.",
+    "fatto": "gioco catturare pokemon per strada go",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon_GO",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0036",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Cosa si inseriva in un cabinato da sala giochi per giocare?",
+    "risposte": [
+      "Gettone o moneta",
+      "Biglietto",
+      "Scheda magnetica",
+      "Bollino"
+    ],
+    "curiosita": "I gettoni erano spesso venduti da una cassa all'ingresso.",
+    "fatto": "cosa inserire cabinato sala giochi gettone",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0037",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama la leva per muovere i personaggi in sala giochi?",
+    "risposte": [
+      "Joystick",
+      "Mouse",
+      "Trackball",
+      "Volante"
+    ],
+    "curiosita": "La parola inglese significa letteralmente bastone della gioia.",
+    "fatto": "leva sala giochi joystick",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0038",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Con che forma è costruito il mondo di Minecraft?",
+    "risposte": [
+      "Cubi",
+      "Sfere",
+      "Triangoli",
+      "Esagoni"
+    ],
+    "curiosita": "Tutto, dalla terra all'acqua, è fatto di blocchi cubici.",
+    "fatto": "forma mondo minecraft cubi",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0039",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In quale decennio uscì la prima PlayStation?",
+    "risposte": [
+      "Anni Novanta",
+      "Anni Ottanta",
+      "Anni Settanta",
+      "Anni Duemila"
+    ],
+    "curiosita": "Debuttò in Giappone a fine 1994.",
+    "fatto": "decennio uscita playstation novanta",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0040",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco con un serpente che mangia puntini era sui vecchi Nokia?",
+    "risposte": [
+      "Snake",
+      "Pong",
+      "Tetris",
+      "Space Impact"
+    ],
+    "curiosita": "Il serpente si allunga a ogni puntino mangiato.",
+    "fatto": "gioco serpente nokia snake",
+    "fonte": "https://it.wikipedia.org/wiki/Nokia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0041",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco di Windows consiste nel trovare le mine senza farle esplodere?",
+    "risposte": [
+      "Campo minato",
+      "Solitario",
+      "Pinball",
+      "Cuori"
+    ],
+    "curiosita": "Per anni è stato il passatempo d'ufficio per eccellenza.",
+    "fatto": "gioco windows mine campo minato",
+    "fonte": "https://it.wikipedia.org/wiki/Microsoft_Windows",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0042",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di quale nazionalità sono Mario e Luigi nei giochi Nintendo?",
+    "risposte": [
+      "Italiana",
+      "Spagnola",
+      "Francese",
+      "Greca"
+    ],
+    "curiosita": "Il film del 2023 li mostra come idraulici di Brooklyn.",
+    "fatto": "nazionalita mario e luigi italiana",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0043",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quali creature infestano Resident Evil?",
+    "risposte": [
+      "Zombie",
+      "Vampiri",
+      "Lupi mannari",
+      "Alieni"
+    ],
+    "curiosita": "La serie è nata in Giappone nel 1996 ed è un classico dell'horror.",
+    "fatto": "creature resident evil zombie",
+    "fonte": "https://it.wikipedia.org/wiki/Resident_Evil",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0044",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco con tennis e bowling usa il telecomando Wii?",
+    "risposte": [
+      "Wii Sports",
+      "Wii Fit",
+      "Just Dance",
+      "Wii Play"
+    ],
+    "curiosita": "Era incluso con la console in molti Paesi.",
+    "fatto": "gioco tennis bowling wii sports",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0045",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Qual è la console Sony successiva alla PlayStation 2?",
+    "risposte": [
+      "PlayStation 3",
+      "PSP",
+      "Xbox 360",
+      "PlayStation Vita"
+    ],
+    "curiosita": "Uscì nel 2006 e usava anche i dischi Blu-ray.",
+    "fatto": "console dopo playstation 2",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation_2",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0046",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che cosa significa \"Game Over\" sullo schermo?",
+    "risposte": [
+      "Partita finita",
+      "Nuova partita",
+      "Livello superato",
+      "Pausa"
+    ],
+    "curiosita": "Nei giochi da sala spingeva a inserire un'altra moneta.",
+    "fatto": "significato game over",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0047",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il nemico più forte alla fine di un livello?",
+    "risposte": [
+      "Boss",
+      "Avatar",
+      "Bonus",
+      "Clone"
+    ],
+    "curiosita": "Il termine viene dall'inglese e significa capo.",
+    "fatto": "nemico finale livello boss",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0048",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'immagine che rappresenta il giocatore online?",
+    "risposte": [
+      "Avatar",
+      "Hacker",
+      "Server",
+      "Boss"
+    ],
+    "curiosita": "La parola viene dal sanscrito e indica la discesa di una divinità.",
+    "fatto": "immagine giocatore online avatar",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0049",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che genere di gioco è Super Mario Bros.?",
+    "risposte": [
+      "Piattaforme",
+      "Sparatutto",
+      "Strategia",
+      "Simulazione"
+    ],
+    "curiosita": "Si salta tra blocchi e piattaforme fino alla bandiera.",
+    "fatto": "genere super mario bros piattaforme",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario_Bros.",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0050",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale console portatile Nintendo ha due schermi, uno tattile?",
+    "risposte": [
+      "Nintendo DS",
+      "Game Boy Color",
+      "PSP",
+      "Wii"
+    ],
+    "curiosita": "DS sta per Dual Screen, doppio schermo.",
+    "fatto": "console due schermi nintendo ds",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_DS",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0051",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco da sala si gioca ballando su frecce con i piedi?",
+    "risposte": [
+      "Dance Dance Revolution",
+      "Guitar Hero",
+      "Rock Band",
+      "Just Dance"
+    ],
+    "curiosita": "Uscì in Giappone nel 1998 e invase le sale giochi.",
+    "fatto": "gioco sala ballo frecce ddr",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0052",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco musicale usa una chitarra di plastica?",
+    "risposte": [
+      "Guitar Hero",
+      "SingStar",
+      "Wii Fit",
+      "Just Dance"
+    ],
+    "curiosita": "Si suona seguendo le note colorate sullo schermo.",
+    "fatto": "gioco chitarra di plastica guitar hero",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0053",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che cosa sono i cheat dei videogiochi?",
+    "risposte": [
+      "Codici o trucchi",
+      "Livelli segreti",
+      "Nemici finali",
+      "Personaggi extra"
+    ],
+    "curiosita": "Il celebre codice Konami dava 30 vite in Contra.",
+    "fatto": "significato cheat videogiochi",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0054",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è Kirby, che inghiotte i nemici?",
+    "risposte": [
+      "Rosa",
+      "Giallo",
+      "Bianco",
+      "Azzurro"
+    ],
+    "curiosita": "Nacque come un cerchio segnaposto disegnato da Masahiro Sakurai.",
+    "fatto": "colore di kirby rosa",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0055",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale piattaforma PC vende giochi e porta il nome del vapore?",
+    "risposte": [
+      "Steam",
+      "Origin",
+      "Epic Games",
+      "GOG"
+    ],
+    "curiosita": "Fu creata dalla Valve nel 2003.",
+    "fatto": "piattaforma pc giochi steam",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0056",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale serie fantasy di Bethesda comprende Skyrim?",
+    "risposte": [
+      "The Elder Scrolls",
+      "The Witcher",
+      "Dragon Age",
+      "Fable"
+    ],
+    "curiosita": "Skyrim uscì nel 2011 ed è stato riproposto su moltissime piattaforme.",
+    "fatto": "serie fantasy skyrim elder scrolls",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0057",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale serie di giochi di ruolo giapponesi comprende Cloud e Sephiroth?",
+    "risposte": [
+      "Final Fantasy",
+      "Dragon Quest",
+      "Kingdom Hearts",
+      "Persona"
+    ],
+    "curiosita": "Il nome nacque quando l'azienda era a un passo dal fallimento.",
+    "fatto": "serie cloud sephiroth final fantasy",
+    "fonte": "https://it.wikipedia.org/wiki/Final_Fantasy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0058",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco di simulazione ti fa gestire un'isola con vicini animali?",
+    "risposte": [
+      "Animal Crossing",
+      "The Sims",
+      "Stardew Valley",
+      "Harvest Moon"
+    ],
+    "curiosita": "Il negoziante Tom Nook è un tanuki, il cane procione giapponese.",
+    "fatto": "gioco isola vicini animali animal crossing",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0059",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che cosa significa che un gioco è \"multiplayer\"?",
+    "risposte": [
+      "Si gioca in più persone",
+      "Ha più livelli",
+      "Ha più armi",
+      "Ha più finali"
+    ],
+    "curiosita": "Può essere in locale sullo stesso schermo o online.",
+    "fatto": "significato multiplayer",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0060",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama il robottino azzurro di Capcom con il cannone al braccio?",
+    "risposte": [
+      "Mega Man",
+      "Astro Boy",
+      "Bomberman",
+      "Sonic"
+    ],
+    "curiosita": "In Giappone si chiama Rockman, da rock and roll.",
+    "fatto": "robot azzurro capcom mega man",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0061",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Chi è il game designer giapponese padre di Super Mario e Zelda?",
+    "risposte": [
+      "Shigeru Miyamoto",
+      "Hideo Kojima",
+      "Satoru Iwata",
+      "Gunpei Yokoi"
+    ],
+    "curiosita": "Lavora in Nintendo dal 1977 e creò anche Donkey Kong.",
+    "fatto": "creatore di mario e zelda miyamoto",
+    "fonte": "https://it.wikipedia.org/wiki/Shigeru_Miyamoto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0062",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Su quale console uscì Super Mario Bros. nel 1985?",
+    "risposte": [
+      "NES",
+      "Game Boy",
+      "Nintendo 64",
+      "Super Nintendo"
+    ],
+    "curiosita": "In Giappone la console si chiamava Famicom.",
+    "fatto": "console di super mario bros nes",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0063",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale home computer del 1982 fu il più venduto negli anni Ottanta?",
+    "risposte": [
+      "Commodore 64",
+      "ZX Spectrum",
+      "Amiga 500",
+      "Apple II"
+    ],
+    "curiosita": "Molti giochi si caricavano da cassetta, con attese di diversi minuti.",
+    "fatto": "home computer 1982 piu venduto c64",
+    "fonte": "https://it.wikipedia.org/wiki/Commodore_64",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0064",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Chi è il soldato in armatura verde, simbolo della Xbox?",
+    "risposte": [
+      "Master Chief",
+      "Marcus Fenix",
+      "Gordon Freeman",
+      "Duke Nukem"
+    ],
+    "curiosita": "Halo uscì nel 2001 insieme alla prima Xbox.",
+    "fatto": "soldato armatura verde xbox master chief",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0065",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "In quale gioco di lotta combattono Ryu e Ken?",
+    "risposte": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "Soulcalibur"
+    ],
+    "curiosita": "Street Fighter II del 1991 scatenò la mania dei picchiaduro.",
+    "fatto": "gioco lotta ryu e ken street fighter",
+    "fonte": "https://it.wikipedia.org/wiki/Street_Fighter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0066",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco di lotta è noto per le mosse finali cruente, le Fatality?",
+    "risposte": [
+      "Mortal Kombat",
+      "Street Fighter",
+      "Tekken",
+      "Killer Instinct"
+    ],
+    "curiosita": "Nei primi anni Novanta fece nascere il bollino sull'età dei videogiochi.",
+    "fatto": "gioco lotta fatality mortal kombat",
+    "fonte": "https://it.wikipedia.org/wiki/Mortal_Kombat",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0067",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che tipo di animale australiano è Crash Bandicoot?",
+    "risposte": [
+      "Peramele",
+      "Canguro",
+      "Koala",
+      "Wombat"
+    ],
+    "curiosita": "Fu la mascotte della prima PlayStation a metà anni Novanta.",
+    "fatto": "animale di crash bandicoot peramele",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0068",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale serie di sparatutto bellici comprende Modern Warfare?",
+    "risposte": [
+      "Call of Duty",
+      "Battlefield",
+      "Medal of Honor",
+      "Wolfenstein"
+    ],
+    "curiosita": "Dal 2003 esce quasi ogni anno un nuovo capitolo.",
+    "fatto": "serie sparatutto modern warfare call of duty",
+    "fonte": "https://it.wikipedia.org/wiki/Call_of_Duty",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0069",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Su quale piattaforma si creano e giocano mini-giochi di altri utenti?",
+    "risposte": [
+      "Roblox",
+      "Minecraft",
+      "Fortnite",
+      "LEGO Worlds"
+    ],
+    "curiosita": "Gli avatar sembrano omini di mattoncini.",
+    "fatto": "piattaforma minigiochi creati dagli utenti roblox",
+    "fonte": "https://it.wikipedia.org/wiki/Roblox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0070",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama la console portatile Sony lanciata nel 2004?",
+    "risposte": [
+      "PlayStation Portable",
+      "PlayStation Vita",
+      "Game Gear",
+      "N-Gage"
+    ],
+    "curiosita": "Usava piccoli dischi chiamati UMD.",
+    "fatto": "console portatile sony 2004 psp",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation_Portable",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0071",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco di ruolo online della Blizzard è ambientato ad Azeroth?",
+    "risposte": [
+      "World of Warcraft",
+      "Final Fantasy XIV",
+      "Guild Wars",
+      "EverQuest"
+    ],
+    "curiosita": "Ha avuto milioni di abbonati paganti in tutto il mondo.",
+    "fatto": "gioco ruolo online azeroth wow",
+    "fonte": "https://it.wikipedia.org/wiki/World_of_Warcraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0072",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale serie di calcio di Konami è stata a lungo rivale di FIFA?",
+    "risposte": [
+      "Pro Evolution Soccer",
+      "Football Manager",
+      "Sensible Soccer",
+      "Virtua Striker"
+    ],
+    "curiosita": "Nel 2021 è stata rinominata eFootball.",
+    "fatto": "serie calcio konami rivale fifa pes",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0073",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console Sega del 1998 fu l'ultima prodotta dall'azienda?",
+    "risposte": [
+      "Dreamcast",
+      "Saturn",
+      "Mega Drive",
+      "Master System"
+    ],
+    "curiosita": "Nel 2001 Sega smise di produrre console.",
+    "fatto": "ultima console sega dreamcast",
+    "fonte": "https://it.wikipedia.org/wiki/Dreamcast",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0074",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale azienda americana creò Pong e la console 2600?",
+    "risposte": [
+      "Atari",
+      "Commodore",
+      "Mattel",
+      "Coleco"
+    ],
+    "curiosita": "Il nome viene da un termine del gioco del go.",
+    "fatto": "azienda pong e 2600 atari",
+    "fonte": "https://it.wikipedia.org/wiki/Atari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0075",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cosa produceva Nintendo quando fu fondata, nel 1889?",
+    "risposte": [
+      "Carte da gioco",
+      "Giocattoli di legno",
+      "Strumenti musicali",
+      "Lanterne di carta"
+    ],
+    "curiosita": "Erano le carte giapponesi hanafuda.",
+    "fatto": "nintendo fondata carte da gioco",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0076",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quanti quadratini compongono ogni pezzo di Tetris?",
+    "risposte": [
+      "Quattro",
+      "Tre",
+      "Cinque",
+      "Sei"
+    ],
+    "curiosita": "Il nome unisce tetra, quattro in greco, e tennis.",
+    "fatto": "quadratini pezzo tetris quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0077",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale nome giapponese originale aveva Pac-Man?",
+    "risposte": [
+      "Puck-Man",
+      "Pak-Man",
+      "Chomp-Man",
+      "Dot-Man"
+    ],
+    "curiosita": "Fu cambiato per evitare che le scritte sui cabinati venissero modificate.",
+    "fatto": "nome originale di pac man puck man",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0078",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale forma ha la Triforce, reliquia sacra di Zelda?",
+    "risposte": [
+      "Triangolo",
+      "Cerchio",
+      "Croce",
+      "Stella"
+    ],
+    "curiosita": "È formata da tre triangoli d'oro: Forza, Saggezza e Coraggio.",
+    "fatto": "forma della triforce triangolo",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0079",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quanti Pokémon c'erano nella prima generazione?",
+    "risposte": [
+      "151",
+      "150",
+      "100",
+      "251"
+    ],
+    "curiosita": "Mew, il 151°, fu aggiunto quando il gioco era quasi finito.",
+    "fatto": "numero pokemon prima generazione 151",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0080",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama il dottore malvagio nemico di Sonic?",
+    "risposte": [
+      "Dr. Eggman",
+      "Dr. Wily",
+      "Dr. Mario",
+      "Dr. Doom"
+    ],
+    "curiosita": "In Occidente fu a lungo chiamato Dr. Robotnik.",
+    "fatto": "nemico di sonic eggman",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0081",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Chi ha creato Minecraft?",
+    "risposte": [
+      "Markus Persson",
+      "Hideo Kojima",
+      "Gabe Newell",
+      "Peter Molyneux"
+    ],
+    "curiosita": "Nel 2014 Mojang fu venduta a Microsoft per 2,5 miliardi di dollari.",
+    "fatto": "creatore di minecraft persson",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0082",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Di quale Paese è Rovio, la casa di Angry Birds?",
+    "risposte": [
+      "Finlandia",
+      "Svezia",
+      "Norvegia",
+      "Danimarca"
+    ],
+    "curiosita": "Il primo Angry Birds uscì nel 2009.",
+    "fatto": "paese di rovio finlandia",
+    "fonte": "https://it.wikipedia.org/wiki/Angry_Birds",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0083",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console a 16 bit della Sega ospitò il primo Sonic?",
+    "risposte": [
+      "Mega Drive",
+      "Saturn",
+      "Master System",
+      "Dreamcast"
+    ],
+    "curiosita": "In America si chiamava Genesis.",
+    "fatto": "console sega primo sonic mega drive",
+    "fonte": "https://it.wikipedia.org/wiki/Sega_Mega_Drive",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0084",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco 3D debuttò con il Nintendo 64 nel 1996?",
+    "risposte": [
+      "Super Mario 64",
+      "Super Mario Galaxy",
+      "Mario Kart 8",
+      "Donkey Kong 64"
+    ],
+    "curiosita": "Fu uno dei primi giochi di piattaforme in vero 3D.",
+    "fatto": "gioco 3d debutto nintendo 64 mario 64",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_64",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0085",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "In quale regno è ambientato Super Mario?",
+    "risposte": [
+      "Regno dei Funghi",
+      "Hyrule",
+      "Azeroth",
+      "Mondo Verde"
+    ],
+    "curiosita": "Qui vive la principessa Peach, circondata da Toad.",
+    "fatto": "regno di super mario funghi",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0086",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che animale sono i Koopa Troopa, nemici di Mario?",
+    "risposte": [
+      "Tartarughe",
+      "Funghi",
+      "Fantasmi",
+      "Draghi"
+    ],
+    "curiosita": "Bowser è il loro re.",
+    "fatto": "animale koopa troopa tartarughe",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0087",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "In quale città giapponese ha sede Nintendo?",
+    "risposte": [
+      "Kyoto",
+      "Tokyo",
+      "Osaka",
+      "Nagoya"
+    ],
+    "curiosita": "Si trova nella città dei templi e dell'antica capitale imperiale.",
+    "fatto": "sede di nintendo kyoto",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0088",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale azienda francese produce la serie Assassin's Creed?",
+    "risposte": [
+      "Ubisoft",
+      "Square Enix",
+      "Capcom",
+      "Electronic Arts"
+    ],
+    "curiosita": "Il primo capitolo uscì nel 2007 ed era ambientato nelle Crociate.",
+    "fatto": "azienda assassin s creed ubisoft",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0089",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale film d'animazione del 2023 ha come protagonisti Mario e Luigi?",
+    "risposte": [
+      "Super Mario Bros. Il film",
+      "The Lego Movie",
+      "Detective Pikachu",
+      "Sonic il film"
+    ],
+    "curiosita": "Incassò oltre un miliardo di dollari nel mondo.",
+    "fatto": "film animazione 2023 super mario bros",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0090",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cosa raccoglie Sonic lungo i livelli?",
+    "risposte": [
+      "Anelli",
+      "Monete",
+      "Stelle",
+      "Gemme"
+    ],
+    "curiosita": "Se viene colpito perde gli anelli ma non muore.",
+    "fatto": "oggetto raccolto da sonic anelli",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0091",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cosa indica la sigla RPG nei videogiochi?",
+    "risposte": [
+      "Gioco di ruolo",
+      "Gioco di strategia",
+      "Sparatutto",
+      "Gioco di carte"
+    ],
+    "curiosita": "Sta per role-playing game, come nei giochi di ruolo da tavolo.",
+    "fatto": "significato sigla rpg gioco di ruolo",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0092",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console ha i tasti triangolo, cerchio, croce e quadrato?",
+    "risposte": [
+      "PlayStation",
+      "Xbox",
+      "Wii",
+      "Dreamcast"
+    ],
+    "curiosita": "I simboli sono rimasti gli stessi dal 1994.",
+    "fatto": "console tasti triangolo cerchio croce quadrato",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0093",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console Microsoft fu lanciata nel 2005?",
+    "risposte": [
+      "Xbox 360",
+      "Xbox One",
+      "Xbox",
+      "Xbox Series X"
+    ],
+    "curiosita": "Uscì un anno prima della PlayStation 3 e della Wii.",
+    "fatto": "console microsoft 2005 xbox 360",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0094",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che genere di gioco è Age of Empires?",
+    "risposte": [
+      "Strategia in tempo reale",
+      "Sparatutto",
+      "Gioco di ruolo",
+      "Simulatore di volo"
+    ],
+    "curiosita": "Uscì per la prima volta nel 1997.",
+    "fatto": "genere age of empires strategia",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0095",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco del 1989 fa costruire e amministrare una città?",
+    "risposte": [
+      "SimCity",
+      "Civilization",
+      "Cities Skylines",
+      "Caesar"
+    ],
+    "curiosita": "Lo creò Will Wright, poi autore di The Sims.",
+    "fatto": "gioco 1989 costruire citta simcity",
+    "fonte": "https://it.wikipedia.org/wiki/The_Sims",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0096",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cosa significa la sigla NPC nei videogiochi?",
+    "risposte": [
+      "Personaggio non giocante",
+      "Nuovo punto di controllo",
+      "Nemico pericoloso comune",
+      "Nodo di percorso"
+    ],
+    "curiosita": "Sono i personaggi comandati dal gioco, come i negozianti.",
+    "fatto": "significato sigla npc personaggio non giocante",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0097",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama la volpe a due code, amica di Sonic?",
+    "risposte": [
+      "Tails",
+      "Knuckles",
+      "Shadow",
+      "Amy"
+    ],
+    "curiosita": "Il nome vero è Miles Prower, un gioco di parole.",
+    "fatto": "amico volpe due code sonic tails",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0098",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama lo spartano furioso protagonista di God of War?",
+    "risposte": [
+      "Kratos",
+      "Leonida",
+      "Achille",
+      "Ercole"
+    ],
+    "curiosita": "Il suo nome in greco significa forza.",
+    "fatto": "protagonista god of war kratos",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0099",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Chi è il protagonista dei giochi di The Witcher?",
+    "risposte": [
+      "Geralt di Rivia",
+      "Aragorn",
+      "Conan",
+      "Link"
+    ],
+    "curiosita": "Nasce dai romanzi dello scrittore polacco Andrzej Sapkowski.",
+    "fatto": "protagonista the witcher geralt",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0100",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "In Mario Kart, quale oggetto colpisce chi è in testa alla gara?",
+    "risposte": [
+      "Guscio blu",
+      "Banana",
+      "Fungo",
+      "Stella"
+    ],
+    "curiosita": "È il più odiato da chi sta vincendo.",
+    "fatto": "oggetto mario kart colpisce primo guscio blu",
+    "fonte": "https://it.wikipedia.org/wiki/Mario_Kart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0101",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama il regno in cui è ambientata la saga di Zelda?",
+    "risposte": [
+      "Hyrule",
+      "Azeroth",
+      "Tamriel",
+      "Narnia"
+    ],
+    "curiosita": "Il nome compare già nel primo gioco del 1986.",
+    "fatto": "regno saga zelda hyrule",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0102",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale piattaforma è nota per le dirette di chi gioca ai videogiochi?",
+    "risposte": [
+      "Twitch",
+      "Vimeo",
+      "Pinterest",
+      "Spotify"
+    ],
+    "curiosita": "Nasce nel 2011 da un servizio chiamato Justin.tv.",
+    "fatto": "piattaforma dirette videogiochi twitch",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0103",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console Nintendo del 2012 aveva un controller con schermo?",
+    "risposte": [
+      "Wii U",
+      "Switch",
+      "Wii",
+      "3DS"
+    ],
+    "curiosita": "Il GamePad permetteva di giocare anche senza TV libera.",
+    "fatto": "console nintendo 2012 gamepad wii u",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0104",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale rivale di Mario ha baffi gialli e una W sul cappello?",
+    "risposte": [
+      "Wario",
+      "Waluigi",
+      "Bowser",
+      "Luigi"
+    ],
+    "curiosita": "Il nome unisce Mario e warui, cattivo in giapponese.",
+    "fatto": "rivale di mario wario",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0105",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama la cacciatrice di taglie con tuta spaziale di Metroid?",
+    "risposte": [
+      "Samus Aran",
+      "Ripley",
+      "Lara Croft",
+      "Jill Valentine"
+    ],
+    "curiosita": "Nel 1986 sorprese tutti rivelandosi una donna.",
+    "fatto": "protagonista metroid samus",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0106",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco di Rockstar è ambientato nel Far West?",
+    "risposte": [
+      "Red Dead Redemption",
+      "Mafia",
+      "Fallout",
+      "BioShock"
+    ],
+    "curiosita": "Il primo capitolo uscì nel 2010.",
+    "fatto": "gioco rockstar far west red dead",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0107",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama il gioco di spionaggio con Solid Snake?",
+    "risposte": [
+      "Metal Gear Solid",
+      "Splinter Cell",
+      "Hitman",
+      "Assassin's Creed"
+    ],
+    "curiosita": "Lo creò il giapponese Hideo Kojima.",
+    "fatto": "gioco solid snake metal gear solid",
+    "fonte": "https://it.wikipedia.org/wiki/Hideo_Kojima",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0108",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale animale ride di te in Duck Hunt quando sbagli?",
+    "risposte": [
+      "Cane",
+      "Gatto",
+      "Volpe",
+      "Scimmia"
+    ],
+    "curiosita": "Si usava la pistola ottica NES Zapper.",
+    "fatto": "animale che ride duck hunt cane",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0109",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Rocket League è un gioco in cui auto giocano a che cosa?",
+    "risposte": [
+      "Calcio",
+      "Tennis",
+      "Pallavolo",
+      "Basket"
+    ],
+    "curiosita": "Uscì nel 2015 ed è nato da un gioco meno fortunato.",
+    "fatto": "rocket league sport calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0110",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama il fungo fedele alla principessa Peach?",
+    "risposte": [
+      "Toad",
+      "Yoshi",
+      "Boo",
+      "Goomba"
+    ],
+    "curiosita": "Compare già nel primo Super Mario Bros. del 1985.",
+    "fatto": "fungo fedele a peach toad",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0111",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Il nome Nintendo 64 deriva da quale caratteristica?",
+    "risposte": [
+      "I 64 bit del processore",
+      "64 giochi inclusi",
+      "64 colori",
+      "64 MB di memoria"
+    ],
+    "curiosita": "Uscì in Giappone nel 1996.",
+    "fatto": "nome nintendo 64 bit",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_64",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0112",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale animale è il protagonista del gioco di Chrome offline?",
+    "risposte": [
+      "Dinosauro",
+      "Gallina",
+      "Cavallo",
+      "Cane"
+    ],
+    "curiosita": "Si salta premendo la barra spaziatrice.",
+    "fatto": "gioco chrome offline dinosauro",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0113",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale sport simula Tony Hawk's Pro Skater?",
+    "risposte": [
+      "Skateboard",
+      "Snowboard",
+      "Surf",
+      "BMX"
+    ],
+    "curiosita": "Il primo capitolo uscì nel 1999.",
+    "fatto": "sport tony hawk skateboard",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0114",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiamano gli avatar personalizzabili della Wii?",
+    "risposte": [
+      "Mii",
+      "Sim",
+      "Avatar",
+      "Pico"
+    ],
+    "curiosita": "Compaiono anche in Wii Sports e Mario Kart.",
+    "fatto": "avatar wii mii",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0115",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale serie unisce personaggi Disney e Final Fantasy?",
+    "risposte": [
+      "Kingdom Hearts",
+      "Dragon Quest",
+      "Persona",
+      "Xenoblade"
+    ],
+    "curiosita": "Il primo gioco uscì nel 2002.",
+    "fatto": "serie disney final fantasy kingdom hearts",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0116",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco per telefono fa tagliare la frutta con il dito?",
+    "risposte": [
+      "Fruit Ninja",
+      "Cut the Rope",
+      "Jetpack Joyride",
+      "Temple Run"
+    ],
+    "curiosita": "È uscito nel 2010.",
+    "fatto": "gioco telefono taglio frutta fruit ninja",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0117",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco per telefono fa costruire un villaggio e attaccare gli altri?",
+    "risposte": [
+      "Clash of Clans",
+      "Hay Day",
+      "Subway Surfers",
+      "Plants vs. Zombies"
+    ],
+    "curiosita": "Lo ha creato la finlandese Supercell nel 2012.",
+    "fatto": "gioco telefono villaggio clash of clans",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0118",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco di corsa infinita ha un ragazzo che scappa sui binari?",
+    "risposte": [
+      "Subway Surfers",
+      "Temple Run",
+      "Crossy Road",
+      "Jetpack Joyride"
+    ],
+    "curiosita": "Lo ha creato un'azienda danese nel 2012.",
+    "fatto": "gioco corsa binari subway surfers",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0119",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale accessorio Wii funziona come una bilancia?",
+    "risposte": [
+      "Balance Board",
+      "Kinect",
+      "Zapper",
+      "Joy-Con"
+    ],
+    "curiosita": "Venne lanciato nel 2007 con Wii Fit.",
+    "fatto": "accessorio wii bilancia balance board",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0120",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale gioco per Nintendo DS fa allevare cuccioli virtuali?",
+    "risposte": [
+      "Nintendogs",
+      "Tamagotchi",
+      "Pokémon Ranger",
+      "Animal Crossing"
+    ],
+    "curiosita": "Si accarezzano e si chiamano con il microfono e lo schermo tattile.",
+    "fatto": "gioco ds cuccioli virtuali nintendogs",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_DS",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0121",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Da chi prese il nome Mario, secondo la storia di Nintendo of America?",
+    "risposte": [
+      "Il padrone del magazzino",
+      "Il presidente Yamauchi",
+      "Un cuoco italiano",
+      "Un amico di Miyamoto"
+    ],
+    "curiosita": "Si dice che Mario Segale fosse venuto a reclamare un affitto in ritardo.",
+    "fatto": "origine nome mario segale padrone magazzino",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0122",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiamava Mario nel primo Donkey Kong del 1981?",
+    "risposte": [
+      "Jumpman",
+      "Jumper",
+      "Mr. Leap",
+      "Hopper Joe"
+    ],
+    "curiosita": "Il nome Mario arrivò solo dopo, per il gioco Mario Bros.",
+    "fatto": "nome di mario in donkey kong jumpman",
+    "fonte": "https://it.wikipedia.org/wiki/Donkey_Kong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0123",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Su quale dispositivo Nintendo debuttò la croce direzionale?",
+    "risposte": [
+      "Game & Watch",
+      "Famicom",
+      "Game Boy",
+      "Super Nintendo"
+    ],
+    "curiosita": "La inventò Gunpei Yokoi per un Donkey Kong in miniatura.",
+    "fatto": "debutto croce direzionale game and watch",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0124",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale passione d'infanzia ispirò Satoshi Tajiri a creare Pokémon?",
+    "risposte": [
+      "Collezionare insetti",
+      "Pescare",
+      "Allevare uccelli",
+      "Giocare a carte"
+    ],
+    "curiosita": "Voleva che i bambini di città potessero collezionare creature.",
+    "fatto": "ispirazione pokemon tajiri insetti",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0125",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il cavallo di Link in Zelda?",
+    "risposte": [
+      "Epona",
+      "Roach",
+      "Pegaso",
+      "Argo"
+    ],
+    "curiosita": "Compare per la prima volta in Ocarina of Time.",
+    "fatto": "cavallo di link epona",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0126",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'avventuriero protagonista di Uncharted?",
+    "risposte": [
+      "Nathan Drake",
+      "Indiana Jones",
+      "Sam Fisher",
+      "Ethan Hunt"
+    ],
+    "curiosita": "La serie si ispira ai film di avventura classici.",
+    "fatto": "protagonista uncharted nathan drake",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0127",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama lo scienziato muto protagonista di Half-Life?",
+    "risposte": [
+      "Gordon Freeman",
+      "Duke Nukem",
+      "Max Payne",
+      "Master Chief"
+    ],
+    "curiosita": "Non parla mai, e usa un piede di porco come arma simbolo.",
+    "fatto": "protagonista half life gordon freeman",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0128",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Di quale Paese è Mojang, creatrice di Minecraft?",
+    "risposte": [
+      "Svezia",
+      "Finlandia",
+      "Danimarca",
+      "Norvegia"
+    ],
+    "curiosita": "Ha sede a Stoccolma.",
+    "fatto": "paese di mojang svezia",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0129",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi creò The Sims e SimCity?",
+    "risposte": [
+      "Will Wright",
+      "Sid Meier",
+      "Peter Molyneux",
+      "John Carmack"
+    ],
+    "curiosita": "Voleva simulare la vita come in una casa di bambole.",
+    "fatto": "creatore the sims simcity will wright",
+    "fonte": "https://it.wikipedia.org/wiki/The_Sims",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0130",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale eroe senza braccia né gambe è protagonista di un gioco Ubisoft?",
+    "risposte": [
+      "Rayman",
+      "Sackboy",
+      "Ratchet",
+      "Jak"
+    ],
+    "curiosita": "Fu creato da Michel Ancel nel 1995.",
+    "fatto": "eroe senza arti rayman",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0131",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che dimensione hanno i dischi della Nintendo GameCube?",
+    "risposte": [
+      "8 centimetri",
+      "12 centimetri",
+      "20 centimetri",
+      "5 centimetri"
+    ],
+    "curiosita": "Sono dischi ottici più piccoli dei normali DVD.",
+    "fatto": "dimensione dischi gamecube",
+    "fonte": "https://it.wikipedia.org/wiki/GameCube",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0132",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il controller PlayStation del 1997 con vibrazione?",
+    "risposte": [
+      "DualShock",
+      "Joy-Con",
+      "Kinect",
+      "Wii Remote"
+    ],
+    "curiosita": "Le due leve analogiche servono a muoversi in 3D.",
+    "fatto": "controller playstation vibrazione dualshock",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0133",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale simulatore di guida per PlayStation uscì nel 1997 creando una saga?",
+    "risposte": [
+      "Gran Turismo",
+      "Need for Speed",
+      "Ridge Racer",
+      "Colin McRae Rally"
+    ],
+    "curiosita": "Il suo creatore Kazunori Yamauchi è anche pilota.",
+    "fatto": "simulatore guida playstation 1997 gran turismo",
+    "fonte": "https://it.wikipedia.org/wiki/PlayStation",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0134",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco spaziale creato al MIT nel 1962 fu tra i primi videogiochi?",
+    "risposte": [
+      "Spacewar",
+      "Tennis for Two",
+      "Pong",
+      "Asteroids"
+    ],
+    "curiosita": "Girava su un computer grande come un armadio.",
+    "fatto": "primo videogioco mit 1962 spacewar",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0135",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale videogioco del 1958 usava un oscilloscopio come schermo?",
+    "risposte": [
+      "Tennis for Two",
+      "Pong",
+      "Spacewar",
+      "Space Invaders"
+    ],
+    "curiosita": "Lo creò il fisico William Higinbotham in un laboratorio.",
+    "fatto": "videogioco 1958 oscilloscopio tennis for two",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0136",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi fu la mascotte Sega prima di Sonic?",
+    "risposte": [
+      "Alex Kidd",
+      "Bonk",
+      "Rayman",
+      "Earthworm Jim"
+    ],
+    "curiosita": "Aveva un pugno gigante e viveva su Mount Eternal.",
+    "fatto": "mascotte sega prima di sonic alex kidd",
+    "fonte": "https://it.wikipedia.org/wiki/Sega",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0137",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco italiano del 2017 omaggia Bud Spencer e Terence Hill?",
+    "risposte": [
+      "Slaps and Beans",
+      "Beans & Brawl",
+      "Hill and Spencer",
+      "Bud Fighters"
+    ],
+    "curiosita": "Lo hanno sviluppato i milanesi Trinity Team.",
+    "fatto": "gioco italiano bud spencer slaps and beans",
+    "fonte": "https://it.wikipedia.org/wiki/Bud_Spencer",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0138",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi ha dato la voce a Mario dal 1995 al 2023?",
+    "risposte": [
+      "Charles Martinet",
+      "Chris Pratt",
+      "Danny DeVito",
+      "Robin Williams"
+    ],
+    "curiosita": "Prestò la voce anche a Luigi, Wario e Waluigi.",
+    "fatto": "doppiatore mario martinet",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0139",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale oggetto trasforma Mario in procione in Super Mario Bros. 3?",
+    "risposte": [
+      "Foglia",
+      "Fungo",
+      "Fiore",
+      "Stella"
+    ],
+    "curiosita": "Gli permette di volare con la coda.",
+    "fatto": "oggetto procione super mario bros 3 foglia",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0140",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Da quale celebre moglie di scrittore prende il nome la principessa Zelda?",
+    "risposte": [
+      "Zelda Fitzgerald",
+      "Hadley Hemingway",
+      "Vera Nabokov",
+      "Clementine Churchill"
+    ],
+    "curiosita": "Miyamoto amava il suono del nome.",
+    "fatto": "nome principessa zelda zelda fitzgerald",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0141",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale nome aveva Lara Croft prima di essere cambiato?",
+    "risposte": [
+      "Laura Cruz",
+      "Lena Cruz",
+      "Lara Cross",
+      "Lola Crane"
+    ],
+    "curiosita": "Fu cambiato in Croft per renderla più britannica.",
+    "fatto": "nome originale lara croft laura cruz",
+    "fonte": "https://it.wikipedia.org/wiki/Tomb_Raider",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0142",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale console Nintendo del 1995 mostrava tutto in rosso e nero?",
+    "risposte": [
+      "Virtual Boy",
+      "Game Boy Pocket",
+      "Nintendo 64DD",
+      "Satellaview"
+    ],
+    "curiosita": "Fu un flop e uscì dal mercato dopo pochi mesi.",
+    "fatto": "console nintendo 1995 rosso nero virtual boy",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0143",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Da quali parole deriva il nome Sega?",
+    "risposte": [
+      "Service Games",
+      "Space Era Games",
+      "Software Games",
+      "Soft Arcade"
+    ],
+    "curiosita": "L'azienda nacque a Honolulu per macchine da gioco dei militari.",
+    "fatto": "origine nome sega service games",
+    "fonte": "https://it.wikipedia.org/wiki/Sega",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0144",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale fu la prima console domestica, uscita nel 1972?",
+    "risposte": [
+      "Magnavox Odyssey",
+      "Atari 2600",
+      "Intellivision",
+      "Colecovision"
+    ],
+    "curiosita": "Il suo creatore Ralph Baer è chiamato padre dei videogiochi.",
+    "fatto": "prima console domestica odyssey",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0145",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "In quale gioco debuttò l'echidna Knuckles?",
+    "risposte": [
+      "Sonic the Hedgehog 3",
+      "Sonic CD",
+      "Sonic Adventure",
+      "Sonic Spinball"
+    ],
+    "curiosita": "Uscì nel 1994 su Mega Drive.",
+    "fatto": "debutto knuckles sonic 3",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0146",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il boss finale di Minecraft?",
+    "risposte": [
+      "Ender Dragon",
+      "Wither",
+      "Warden",
+      "Ghast"
+    ],
+    "curiosita": "Vive in una dimensione chiamata End.",
+    "fatto": "boss finale minecraft ender dragon",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0147",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi inventò Tetris?",
+    "risposte": [
+      "Aleksej Pažitnov",
+      "Nolan Bushnell",
+      "Ralph Baer",
+      "Toru Iwatani"
+    ],
+    "curiosita": "Lo programmò in un centro di ricerca di Mosca.",
+    "fatto": "inventore di tetris pazitnov",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0148",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi progettò Pac-Man?",
+    "risposte": [
+      "Toru Iwatani",
+      "Shigeru Miyamoto",
+      "Yuji Naka",
+      "Tomohiro Nishikado"
+    ],
+    "curiosita": "Voleva un gioco che piacesse anche alle ragazze.",
+    "fatto": "progettista pac man iwatani",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0149",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quanto tempo ha il principe nel primo Prince of Persia per salvare la principessa?",
+    "risposte": [
+      "Un'ora",
+      "Mezz'ora",
+      "Due ore",
+      "Un giorno"
+    ],
+    "curiosita": "Il timer scorre in tempo reale.",
+    "fatto": "tempo principe prince of persia un ora",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0150",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'aspirante pirata goffo di Monkey Island?",
+    "risposte": [
+      "Guybrush Threepwood",
+      "Captain Flint",
+      "Rincewind",
+      "Larry Laffer"
+    ],
+    "curiosita": "Il gioco uscì nel 1990 ed era un'avventura grafica comica.",
+    "fatto": "protagonista monkey island guybrush",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0151",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale famiglia dà la caccia a Dracula in Castlevania?",
+    "risposte": [
+      "Belmont",
+      "Harker",
+      "Van Helsing",
+      "Seward"
+    ],
+    "curiosita": "Il primo gioco uscì nel 1986 su Famicom Disk System.",
+    "fatto": "famiglia castlevania belmont",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0152",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale sparatutto Nintendo 64 del 1997 era tratto da un film di James Bond?",
+    "risposte": [
+      "GoldenEye 007",
+      "Perfect Dark",
+      "Tomorrow Never Dies",
+      "Doom 64"
+    ],
+    "curiosita": "Fu uno dei primi sparatutto davvero popolari su console.",
+    "fatto": "sparatutto n64 james bond goldeneye",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_64",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0153",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che cosa si faceva spesso alle cartucce NES che davano problemi?",
+    "risposte": [
+      "Soffiarci dentro",
+      "Scaldarle",
+      "Lavarle",
+      "Congelarle"
+    ],
+    "curiosita": "Una abitudine diffusissima, anche se poco utile.",
+    "fatto": "rimedio cartucce nes soffiare",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0154",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco di ruolo da tavolo ispirò il videogioco Baldur's Gate?",
+    "risposte": [
+      "Dungeons & Dragons",
+      "GURPS",
+      "Vampire",
+      "Warhammer"
+    ],
+    "curiosita": "Usa le regole del lancio dei dadi a venti facce.",
+    "fatto": "gioco da tavolo baldur s gate dungeons and dragons",
+    "fonte": "https://it.wikipedia.org/wiki/Dungeons_%26_Dragons",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0155",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi compose la musica del primo Super Mario Bros. e di Zelda?",
+    "risposte": [
+      "Koji Kondo",
+      "Nobuo Uematsu",
+      "Yuzo Koshiro",
+      "Motoi Sakuraba"
+    ],
+    "curiosita": "Il suo tema di Mario è tra le melodie più riconoscibili del mondo.",
+    "fatto": "compositore super mario zelda koji kondo",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0156",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco Atari 2600 fu un flop con cartucce sepolte nel deserto?",
+    "risposte": [
+      "E.T. the Extra-Terrestrial",
+      "Pitfall",
+      "Adventure",
+      "Combat"
+    ],
+    "curiosita": "Le cartucce furono ritrovate nel New Mexico nel 2014.",
+    "fatto": "flop atari et cartucce sepolte",
+    "fonte": "https://it.wikipedia.org/wiki/Atari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0157",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "In che anno crollò il mercato americano dei videogiochi?",
+    "risposte": [
+      "1983",
+      "1979",
+      "1987",
+      "1991"
+    ],
+    "curiosita": "Troppi giochi scadenti fecero perdere la fiducia ai compratori.",
+    "fatto": "anno crollo videogiochi america 1983",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0158",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che cosa significa Amiga, nome del computer Commodore, in spagnolo?",
+    "risposte": [
+      "Amica",
+      "Anima",
+      "Arte",
+      "Amore"
+    ],
+    "curiosita": "Il nome fu scelto anche per stare in cima agli elenchi alfabetici.",
+    "fatto": "significato amiga amica",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0159",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale frase è diventata il simbolo di Portal?",
+    "risposte": [
+      "La torta è una bugia",
+      "Il cubo ti ama",
+      "Il gelato è una scusa",
+      "La luna è di formaggio"
+    ],
+    "curiosita": "Compare scritta sui muri di un laboratorio abbandonato.",
+    "fatto": "frase simbolo portal torta bugia",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0160",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quanti mondi ha il primo Super Mario Bros.?",
+    "risposte": [
+      "Otto",
+      "Sei",
+      "Dieci",
+      "Dodici"
+    ],
+    "curiosita": "Ogni mondo ha quattro livelli, per un totale di 32.",
+    "fatto": "numero mondi super mario bros otto",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario_Bros.",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0161",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quanti tasti, croce esclusa, aveva il joypad del NES?",
+    "risposte": [
+      "Quattro",
+      "Due",
+      "Sei",
+      "Otto"
+    ],
+    "curiosita": "Erano A, B, Start e Select.",
+    "fatto": "tasti joypad nes quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0162",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il cappello vivente che aiuta Mario in Odyssey?",
+    "risposte": [
+      "Cappy",
+      "Hatty",
+      "Capito",
+      "Beret"
+    ],
+    "curiosita": "Gli permette di impossessarsi di nemici e oggetti.",
+    "fatto": "cappello vivente odyssey cappy",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0163",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco del 1999 fa costruire montagne russe e gestire un parco?",
+    "risposte": [
+      "RollerCoaster Tycoon",
+      "Theme Park",
+      "Zoo Tycoon",
+      "SimCoaster"
+    ],
+    "curiosita": "Lo programmò quasi da solo Chris Sawyer.",
+    "fatto": "gioco 1999 parco montagne russe rollercoaster tycoon",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0164",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che cosa ha causato l'epidemia in The Last of Us?",
+    "risposte": [
+      "Un fungo",
+      "Un virus",
+      "Un batterio",
+      "Un'alga"
+    ],
+    "curiosita": "Si ispira al fungo Cordyceps che infesta le formiche.",
+    "fatto": "causa epidemia the last of us fungo",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0165",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale studio americano creò sia Crash Bandicoot sia Uncharted?",
+    "risposte": [
+      "Naughty Dog",
+      "Insomniac",
+      "Rare",
+      "Rockstar"
+    ],
+    "curiosita": "Il nome significa cane cattivo.",
+    "fatto": "studio crash bandicoot uncharted naughty dog",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0166",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiamava il robottino accessorio del NES?",
+    "risposte": [
+      "ROB",
+      "Robbie",
+      "Gyro",
+      "Bit-Boy"
+    ],
+    "curiosita": "Reagiva alle immagini sullo schermo con i movimenti delle braccia.",
+    "fatto": "robot accessorio nes rob",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0167",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che cosa usa Luigi per catturare fantasmi in Luigi's Mansion?",
+    "risposte": [
+      "Un aspirapolvere",
+      "Una rete",
+      "Una pistola ad acqua",
+      "Un lazo"
+    ],
+    "curiosita": "Si chiama Poltergust.",
+    "fatto": "arma luigi s mansion aspirapolvere",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0168",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale eroe di Hudson Soft piazza bombe nei labirinti?",
+    "risposte": [
+      "Bomberman",
+      "Dig Dug",
+      "Lode Runner",
+      "Pengo"
+    ],
+    "curiosita": "Fu uno dei giochi più popolari sul PC Engine.",
+    "fatto": "eroe bombe labirinto bomberman",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0169",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco da sala vede due draghetti intrappolare nemici in bolle?",
+    "risposte": [
+      "Bubble Bobble",
+      "Rainbow Islands",
+      "Snow Bros",
+      "Puzzle Bobble"
+    ],
+    "curiosita": "Fu creato da Taito nel 1986.",
+    "fatto": "gioco draghetti bolle bubble bobble",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0170",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco Sega da sala faceva guidare una Ferrari scoperta?",
+    "risposte": [
+      "Out Run",
+      "Pole Position",
+      "Daytona USA",
+      "Rad Racer"
+    ],
+    "curiosita": "Usciva nel 1986 e si poteva scegliere la musica.",
+    "fatto": "gioco sala ferrari out run",
+    "fonte": "https://it.wikipedia.org/wiki/Sega",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0171",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale console di SNK portava i giochi da sala a casa, costosissima?",
+    "risposte": [
+      "Neo Geo",
+      "Sega Saturn",
+      "3DO",
+      "Atari Jaguar"
+    ],
+    "curiosita": "Uscì nel 1990 con cartucce molto care.",
+    "fatto": "console snk neo geo",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0172",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale simulatore guida un camion tra le città europee?",
+    "risposte": [
+      "Euro Truck Simulator 2",
+      "Farming Simulator",
+      "Train Simulator",
+      "Gran Turismo"
+    ],
+    "curiosita": "Lo sviluppa la ceca SCS Software.",
+    "fatto": "simulatore camion europa euro truck",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0173",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco di Sid Meier porta una civiltà dalla preistoria al futuro?",
+    "risposte": [
+      "Civilization",
+      "Age of Empires",
+      "Anno 1800",
+      "Total War"
+    ],
+    "curiosita": "Il primo capitolo uscì nel 1991.",
+    "fatto": "gioco sid meier civilization",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0174",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi produsse lo ZX Spectrum, home computer britannico del 1982?",
+    "risposte": [
+      "Sinclair Research",
+      "Acorn",
+      "Amstrad",
+      "Dragon Data"
+    ],
+    "curiosita": "Fu il computer di tanti ragazzi europei con la tastiera a gomma.",
+    "fatto": "produttore zx spectrum sinclair",
+    "fonte": "https://it.wikipedia.org/wiki/ZX_Spectrum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0175",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco indie del 2017 imita i cartoni animati anni Trenta?",
+    "risposte": [
+      "Cuphead",
+      "Hollow Knight",
+      "Celeste",
+      "Undertale"
+    ],
+    "curiosita": "È stato disegnato interamente a mano.",
+    "fatto": "gioco indie cartoni anni trenta cuphead",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0176",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco indie del 2015 si può finire senza uccidere nessuno?",
+    "risposte": [
+      "Undertale",
+      "Celeste",
+      "Hades",
+      "Braid"
+    ],
+    "curiosita": "Lo ha creato quasi da solo Toby Fox.",
+    "fatto": "gioco indie senza uccidere undertale",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0177",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Di che colore è Spyro, il draghetto della prima PlayStation?",
+    "risposte": [
+      "Viola",
+      "Verde",
+      "Rosso",
+      "Blu"
+    ],
+    "curiosita": "Debuttò nel 1998 con Spyro the Dragon.",
+    "fatto": "colore spyro viola",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0178",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco Nintendo fa comandare a un astronauta creature-pianta?",
+    "risposte": [
+      "Pikmin",
+      "Kirby",
+      "Animal Crossing",
+      "Splatoon"
+    ],
+    "curiosita": "Il protagonista si chiama Capitan Olimar.",
+    "fatto": "gioco astronauta creature pianta pikmin",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0179",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco ti fa solo gestire una squadra di calcio, senza giocare le partite?",
+    "risposte": [
+      "Football Manager",
+      "FIFA",
+      "PES",
+      "Sensible Soccer"
+    ],
+    "curiosita": "Nasce nel 1992 come Championship Manager.",
+    "fatto": "gioco gestionale calcio football manager",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-vid-0180",
+    "tipo": "classica",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale fiera europea dei videogiochi si tiene a Colonia?",
+    "risposte": [
+      "Gamescom",
+      "E3",
+      "Tokyo Game Show",
+      "PAX West"
+    ],
+    "curiosita": "Richiama ogni anno centinaia di migliaia di visitatori.",
+    "fatto": "fiera videogiochi colonia gamescom",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

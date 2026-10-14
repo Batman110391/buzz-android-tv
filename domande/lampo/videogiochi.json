@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "la-vid-0001",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è Sonic?",
+    "risposte": [
+      "Blu",
+      "Rosso",
+      "Verde",
+      "Giallo"
+    ],
+    "curiosita": "Il blu richiama il colore del logo della Sega.",
+    "fatto": "colore di sonic blu",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0002",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è il cappello di Luigi?",
+    "risposte": [
+      "Verde",
+      "Rosso",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Sul cappello ha una L, come Mario ha la M.",
+    "fatto": "colore cappello luigi verde",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0003",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è l'abito della principessa Peach?",
+    "risposte": [
+      "Rosa",
+      "Rosso",
+      "Azzurro",
+      "Verde"
+    ],
+    "curiosita": "Nel primo Super Mario Bros. si chiamava Toadstool in America.",
+    "fatto": "colore abito peach rosa",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0004",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Che lettera c'è sul cappello di Mario?",
+    "risposte": [
+      "M",
+      "L",
+      "W",
+      "P"
+    ],
+    "curiosita": "Sta per Mario, naturalmente.",
+    "fatto": "lettera cappello mario m",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0005",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Cosa raccoglie Mario nei livelli?",
+    "risposte": [
+      "Monete",
+      "Gemme",
+      "Perle",
+      "Chiavi"
+    ],
+    "curiosita": "Raccoglierne cento regala una vita extra.",
+    "fatto": "cosa raccoglie mario monete",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0006",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale console ha il logo con la X verde?",
+    "risposte": [
+      "Xbox",
+      "PlayStation",
+      "Wii",
+      "Switch"
+    ],
+    "curiosita": "La X richiama il nome del progetto originario, DirectX Box.",
+    "fatto": "console logo x verde xbox",
+    "fonte": "https://it.wikipedia.org/wiki/Xbox",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0007",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale tasto del joypad mette in pausa il gioco?",
+    "risposte": [
+      "Start",
+      "Select",
+      "A",
+      "B"
+    ],
+    "curiosita": "In inglese significa partenza.",
+    "fatto": "tasto pausa start",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0008",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Chi è il cattivo principale di Zelda?",
+    "risposte": [
+      "Ganondorf",
+      "Bowser",
+      "Eggman",
+      "Wario"
+    ],
+    "curiosita": "Nella forma di maiale mostruoso si chiama Ganon.",
+    "fatto": "cattivo di zelda ganondorf",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0009",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "In quale Paese ha sede Nintendo?",
+    "risposte": [
+      "Giappone",
+      "Cina",
+      "Corea del Sud",
+      "Stati Uniti"
+    ],
+    "curiosita": "Nacque a Kyoto come produttrice di carte da gioco.",
+    "fatto": "paese di nintendo giappone",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0010",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Chi produce il Mega Drive?",
+    "risposte": [
+      "Sega",
+      "Nintendo",
+      "Sony",
+      "Atari"
+    ],
+    "curiosita": "In America si chiamava Genesis.",
+    "fatto": "azienda mega drive sega",
+    "fonte": "https://it.wikipedia.org/wiki/Sega_Mega_Drive",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0011",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è la parte alta di una Poké Ball?",
+    "risposte": [
+      "Rossa",
+      "Blu",
+      "Gialla",
+      "Nera"
+    ],
+    "curiosita": "La parte bassa è bianca, con un bottone al centro.",
+    "fatto": "colore alto poke ball rossa",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0012",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Come si chiama chi allena i Pokémon?",
+    "risposte": [
+      "Allenatore",
+      "Cacciatore",
+      "Ranger",
+      "Domatore"
+    ],
+    "curiosita": "Il giocatore parte a dieci anni con il primo Pokémon.",
+    "fatto": "chi allena pokemon allenatore",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0013",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco di carte c'è in Windows?",
+    "risposte": [
+      "Solitario",
+      "Burraco",
+      "Scopa",
+      "Tressette"
+    ],
+    "curiosita": "Fu aggiunto per insegnare l'uso del mouse.",
+    "fatto": "gioco carte windows solitario",
+    "fonte": "https://it.wikipedia.org/wiki/Microsoft_Windows",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0014",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Chi dice \"It's-a me!\"?",
+    "risposte": [
+      "Mario",
+      "Luigi",
+      "Wario",
+      "Toad"
+    ],
+    "curiosita": "La frase è un po' italiana e un po' americana.",
+    "fatto": "frase its a me mario",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0015",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale sport si simula in FIFA?",
+    "risposte": [
+      "Calcio",
+      "Basket",
+      "Tennis",
+      "Golf"
+    ],
+    "curiosita": "Il primo gioco uscì nel 1993.",
+    "fatto": "sport simulato fifa calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0016",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Di che colore è la salopette di Mario?",
+    "risposte": [
+      "Blu",
+      "Rossa",
+      "Verde",
+      "Gialla"
+    ],
+    "curiosita": "La maglia sotto è rossa.",
+    "fatto": "colore salopette mario blu",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0017",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Chi produce la Wii?",
+    "risposte": [
+      "Nintendo",
+      "Sony",
+      "Sega",
+      "Microsoft"
+    ],
+    "curiosita": "Uscì nel 2006 con un telecomando sensibile al movimento.",
+    "fatto": "produttore wii nintendo",
+    "fonte": "https://it.wikipedia.org/wiki/Wii",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0018",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Su quale veicolo gareggia Mario in Mario Kart?",
+    "risposte": [
+      "Go-kart",
+      "Moto",
+      "Elicottero",
+      "Monopattino"
+    ],
+    "curiosita": "Il nome unisce Mario e kart.",
+    "fatto": "veicolo mario kart go kart",
+    "fonte": "https://it.wikipedia.org/wiki/Mario_Kart",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0019",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale verso fa Pikachu?",
+    "risposte": [
+      "Pika Pika",
+      "Zap Zap",
+      "Bzz Bzz",
+      "Tic Tac"
+    ],
+    "curiosita": "Il verso in giapponese imita una scintilla elettrica.",
+    "fatto": "verso di pikachu pika pika",
+    "fonte": "https://it.wikipedia.org/wiki/Pikachu",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0020",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "domanda": "Quale gioco ha lo slogan \"Acchiappali tutti\"?",
+    "risposte": [
+      "Pokémon",
+      "Pac-Man",
+      "Pong",
+      "Tetris"
+    ],
+    "curiosita": "In inglese è \"Gotta catch 'em all\".",
+    "fatto": "slogan acchiappali tutti pokemon",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0021",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale Pokémon dorme sempre e russa?",
+    "risposte": [
+      "Snorlax",
+      "Eevee",
+      "Psyduck",
+      "Pikachu"
+    ],
+    "curiosita": "Mangia quantità enormi di cibo ogni giorno.",
+    "fatto": "pokemon dorme sempre snorlax",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0022",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama il mobile di un videogioco da sala?",
+    "risposte": [
+      "Cabinato",
+      "Totem",
+      "Armadio",
+      "Gettoniera"
+    ],
+    "curiosita": "Nei locali si metteva in fila con altri cabinati.",
+    "fatto": "nome mobile gioco da sala cabinato",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0023",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Chi è il rivale di Ash nell'anime originale?",
+    "risposte": [
+      "Gary",
+      "Brock",
+      "Misty",
+      "Jessie"
+    ],
+    "curiosita": "È il nipote del professor Oak.",
+    "fatto": "rivale di ash gary",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0024",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale console Nintendo precedette la Wii?",
+    "risposte": [
+      "GameCube",
+      "Nintendo 64",
+      "Super Nintendo",
+      "Wii U"
+    ],
+    "curiosita": "Uscì nel 2001 con dischi piccoli.",
+    "fatto": "console prima di wii gamecube",
+    "fonte": "https://it.wikipedia.org/wiki/GameCube",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0025",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama la banda malvagia di Jessie e James?",
+    "risposte": [
+      "Team Rocket",
+      "Team Magma",
+      "Team Aqua",
+      "Team Galassia"
+    ],
+    "curiosita": "Il loro motto finisce con \"più veloci della luce\".",
+    "fatto": "banda jessie james team rocket",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0026",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quante vite ha Mario a inizio Super Mario Bros.?",
+    "risposte": [
+      "Tre",
+      "Cinque",
+      "Una",
+      "Dieci"
+    ],
+    "curiosita": "Con cento monete se ne guadagna una in più.",
+    "fatto": "vite iniziali mario tre",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario_Bros.",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0027",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Di che colore è la tuta di Samus Aran?",
+    "risposte": [
+      "Arancione",
+      "Verde",
+      "Blu",
+      "Rosa"
+    ],
+    "curiosita": "È la Power Suit, che la protegge dai pericoli dei pianeti.",
+    "fatto": "colore tuta samus arancione",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0028",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale ninja di Mortal Kombat è azzurro e ghiacciato?",
+    "risposte": [
+      "Sub-Zero",
+      "Scorpion",
+      "Raiden",
+      "Liu Kang"
+    ],
+    "curiosita": "Congela gli avversari con i suoi poteri.",
+    "fatto": "ninja mortal kombat ghiaccio sub zero",
+    "fonte": "https://it.wikipedia.org/wiki/Mortal_Kombat",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0029",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiama la fata compagna di Link in Ocarina?",
+    "risposte": [
+      "Navi",
+      "Epona",
+      "Midna",
+      "Tatl"
+    ],
+    "curiosita": "Grida \"Ehi, ascolta!\" per ogni cosa.",
+    "fatto": "fata compagna ocarina navi",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0030",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cosa lancia Mario con il fiore di fuoco?",
+    "risposte": [
+      "Palle di fuoco",
+      "Boomerang",
+      "Bombe",
+      "Frecce"
+    ],
+    "curiosita": "Il fiore lo veste di bianco e rosso.",
+    "fatto": "cosa lancia mario fiore di fuoco",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0031",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Come si chiamano i nemici a forma di fungo di Mario?",
+    "risposte": [
+      "Goomba",
+      "Boo",
+      "Koopa",
+      "Shy Guy"
+    ],
+    "curiosita": "Muoiono con un semplice salto sulla testa.",
+    "fatto": "nemici fungo mario goomba",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0032",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Cosa indica XP nei giochi di ruolo?",
+    "risposte": [
+      "Esperienza",
+      "Energia",
+      "Munizioni",
+      "Monete"
+    ],
+    "curiosita": "Si accumula per salire di livello.",
+    "fatto": "significato xp esperienza",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0033",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Cosa indica HP nei giochi di ruolo?",
+    "risposte": [
+      "Punti vita",
+      "Punti magia",
+      "Punti forza",
+      "Punti fama"
+    ],
+    "curiosita": "Quando arrivano a zero, il personaggio è sconfitto.",
+    "fatto": "significato hp punti vita",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0034",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale azienda produce Grand Theft Auto?",
+    "risposte": [
+      "Rockstar",
+      "Ubisoft",
+      "Konami",
+      "Capcom"
+    ],
+    "curiosita": "Ha sede a New York.",
+    "fatto": "azienda gta rockstar",
+    "fonte": "https://it.wikipedia.org/wiki/Grand_Theft_Auto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0035",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale azienda giapponese produce Resident Evil?",
+    "risposte": [
+      "Capcom",
+      "Namco",
+      "Sega",
+      "Square Enix"
+    ],
+    "curiosita": "Il nome unisce capsule e computer.",
+    "fatto": "azienda resident evil capcom",
+    "fonte": "https://it.wikipedia.org/wiki/Resident_Evil",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0036",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Quale azienda produce Final Fantasy?",
+    "risposte": [
+      "Square Enix",
+      "Capcom",
+      "Konami",
+      "Namco"
+    ],
+    "curiosita": "Nacque dalla fusione di Square ed Enix nel 2003.",
+    "fatto": "azienda final fantasy square enix",
+    "fonte": "https://it.wikipedia.org/wiki/Final_Fantasy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0037",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cos'è un DLC?",
+    "risposte": [
+      "Contenuto extra",
+      "Joypad speciale",
+      "Un tipo di cavo",
+      "Console nuova"
+    ],
+    "curiosita": "Si scarica online e si aggiunge al gioco già acquistato.",
+    "fatto": "significato dlc contenuto extra",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0038",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che cos'è il lag in un gioco online?",
+    "risposte": [
+      "Ritardo",
+      "Sconto",
+      "Livello",
+      "Premio"
+    ],
+    "curiosita": "Può far saltare i comandi in un momento cruciale.",
+    "fatto": "significato lag ritardo",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0039",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che arma è la Master Sword di Zelda?",
+    "risposte": [
+      "Spada",
+      "Arco",
+      "Scudo",
+      "Martello"
+    ],
+    "curiosita": "Si dice che respinga il male.",
+    "fatto": "arma master sword spada",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0040",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "domanda": "Che colore ha il fungo che dà una vita extra?",
+    "risposte": [
+      "Verde",
+      "Rosso",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Il fungo rosso invece fa diventare Mario grande.",
+    "fatto": "colore fungo vita extra verde",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0041",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il primo livello del primo Sonic?",
+    "risposte": [
+      "Green Hill Zone",
+      "Marble Zone",
+      "Spring Yard Zone",
+      "Casino Night"
+    ],
+    "curiosita": "Il suo tema musicale è uno dei più famosi.",
+    "fatto": "primo livello sonic green hill",
+    "fonte": "https://it.wikipedia.org/wiki/Sonic_the_Hedgehog",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0042",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama il drago spaziale nemico di Samus?",
+    "risposte": [
+      "Ridley",
+      "Kraid",
+      "Bowser",
+      "Zebes"
+    ],
+    "curiosita": "Compare fin dal Metroid del 1986.",
+    "fatto": "nemico samus ridley",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0043",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale studio creò Doom e Quake?",
+    "risposte": [
+      "id Software",
+      "Valve",
+      "Epic Games",
+      "Bethesda"
+    ],
+    "curiosita": "Fu fondato nel 1991 in Texas.",
+    "fatto": "studio doom quake id software",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0044",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "In quale gioco compare l'intelligenza GLaDOS?",
+    "risposte": [
+      "Portal",
+      "Half-Life",
+      "BioShock",
+      "Doom"
+    ],
+    "curiosita": "È una voce fredda che commenta ogni test.",
+    "fatto": "gioco glados portal",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0045",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "In quale gioco si visita la città sottomarina Rapture?",
+    "risposte": [
+      "BioShock",
+      "Subnautica",
+      "Portal",
+      "Doom"
+    ],
+    "curiosita": "Fu ideata come utopia di un uomo ricchissimo.",
+    "fatto": "gioco citta sottomarina rapture bioshock",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0046",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale lottatore di Street Fighter è un sumo giapponese?",
+    "risposte": [
+      "E. Honda",
+      "Zangief",
+      "Guile",
+      "Blanka"
+    ],
+    "curiosita": "Il suo colpo di punta è una raffica di schiaffi.",
+    "fatto": "lottatore sumo street fighter honda",
+    "fonte": "https://it.wikipedia.org/wiki/Street_Fighter",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0047",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi è il protagonista di Assassin's Creed II?",
+    "risposte": [
+      "Ezio Auditore",
+      "Altair",
+      "Connor Kenway",
+      "Edward Kenway"
+    ],
+    "curiosita": "È ambientato nell'Italia del Rinascimento.",
+    "fatto": "protagonista assassin s creed ii ezio",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0048",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco guida creature verdi verso un precipizio?",
+    "risposte": [
+      "Lemmings",
+      "Pikmin",
+      "Worms",
+      "Oddworld"
+    ],
+    "curiosita": "Bisogna assegnare compiti per salvarne il maggior numero.",
+    "fatto": "gioco creature verdi precipizio lemmings",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0049",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale serie è famosa per \"You Died\"?",
+    "risposte": [
+      "Dark Souls",
+      "Zelda",
+      "Mario",
+      "Pokémon"
+    ],
+    "curiosita": "La scritta compare a ogni sconfitta del giocatore.",
+    "fatto": "serie difficile you died dark souls",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0050",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Come si chiama la valuta di Zelda?",
+    "risposte": [
+      "Rupia",
+      "Gil",
+      "Zeni",
+      "Bit"
+    ],
+    "curiosita": "Si raccoglie dai cespugli e dai nemici sconfitti.",
+    "fatto": "valuta zelda rupia",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0051",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale azienda produce Metal Gear Solid?",
+    "risposte": [
+      "Konami",
+      "Namco",
+      "Sega",
+      "Capcom"
+    ],
+    "curiosita": "Lo ideò Hideo Kojima nel 1987 per MSX2.",
+    "fatto": "azienda metal gear solid konami",
+    "fonte": "https://it.wikipedia.org/wiki/Hideo_Kojima",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0052",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Chi fondò Atari nel 1972?",
+    "risposte": [
+      "Nolan Bushnell",
+      "Ralph Baer",
+      "Bill Gates",
+      "Trip Hawkins"
+    ],
+    "curiosita": "Fondò poi anche la catena Chuck E. Cheese.",
+    "fatto": "fondatore atari bushnell",
+    "fonte": "https://it.wikipedia.org/wiki/Atari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0053",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale Pokémon è il numero 150 del Pokédex?",
+    "risposte": [
+      "Mewtwo",
+      "Mew",
+      "Articuno",
+      "Dragonite"
+    ],
+    "curiosita": "È stato creato in laboratorio, partendo da Mew.",
+    "fatto": "pokemon numero 150 mewtwo",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0054",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale azienda giapponese creò Space Invaders?",
+    "risposte": [
+      "Taito",
+      "Namco",
+      "Atari",
+      "Sega"
+    ],
+    "curiosita": "Nel 1978 il gioco ebbe un successo enorme.",
+    "fatto": "azienda space invaders taito",
+    "fonte": "https://it.wikipedia.org/wiki/Space_Invaders",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0055",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale azienda giapponese creò Pac-Man?",
+    "risposte": [
+      "Namco",
+      "Taito",
+      "Konami",
+      "Capcom"
+    ],
+    "curiosita": "Il fondatore era un ex tecnico di giostre.",
+    "fatto": "azienda pac man namco",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0056",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Che animale è Banjo, l'eroe di Banjo-Kazooie?",
+    "risposte": [
+      "Orso",
+      "Volpe",
+      "Lupo",
+      "Cane"
+    ],
+    "curiosita": "Vive con un uccello rosso chiamato Kazooie nello zaino.",
+    "fatto": "animale banjo orso",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0057",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale studio inglese creò il primo Tomb Raider?",
+    "risposte": [
+      "Core Design",
+      "Rare",
+      "Rockstar North",
+      "Codemasters"
+    ],
+    "curiosita": "Ha sede a Derby, in Inghilterra.",
+    "fatto": "studio tomb raider core design",
+    "fonte": "https://it.wikipedia.org/wiki/Tomb_Raider",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0058",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale sport pratica Little Mac in Punch-Out!!?",
+    "risposte": [
+      "Pugilato",
+      "Wrestling",
+      "Karate",
+      "Judo"
+    ],
+    "curiosita": "Mike Tyson fu il boss finale della versione NES.",
+    "fatto": "sport little mac punch out pugilato",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo_Entertainment_System",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0059",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco imita la pittura a inchiostro giapponese?",
+    "risposte": [
+      "Ōkami",
+      "Kirby",
+      "Zelda",
+      "Final Fantasy"
+    ],
+    "curiosita": "Si interpreta una lupa che rappresenta una dea.",
+    "fatto": "gioco inchiostro giapponese okami",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-vid-0060",
+    "tipo": "lampo",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "domanda": "Quale gioco fa rotolare una palla che raccoglie tutto?",
+    "risposte": [
+      "Katamari Damacy",
+      "Pikmin",
+      "Tetris",
+      "Lemmings"
+    ],
+    "curiosita": "Il re del cosmo ha distrutto le stelle, e tocca rimediare.",
+    "fatto": "gioco palla che raccoglie katamari",
+    "fonte": "https://it.wikipedia.org/wiki/Videogioco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]
