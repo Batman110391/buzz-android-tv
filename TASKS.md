@@ -21,6 +21,16 @@ Riferimento di codice già funzionante: `tests/quizzone_test.gd` (titolo, fumett
 
 **Parallelo:** G1a ∥ G1b ∥ G1c ∥ D1 (worker) mentre il padre fa G1d (testi); poi G1e, G1g, G1f.
 
+## C — Co-conduttrice Gilda Lampo (PLAN.md §2 "Co-conduttrice", §5 C)
+Lucida e ironica, alla pari con Tony. Voce sul 2° account ElevenLabs (`ELEVENLABS_API_KEY2`; Tony sul 1°, si rinnova il 2026-11-10).
+
+| ID | Task | Esec. | Dipende da | File consentiti | Check | Stato |
+|---|---|---|---|---|---|---|
+| C1 | Voce: Voice Design (API `text-to-voice`) sul 2° account, 3 anteprime → S sceglie → voce salvata; `tools/gen_voice.mjs` gestisce due voci/chiavi (battute di Gilda in `assets/voice/gilda.json`) | P + S | — | `tools/gen_voice.mjs`, `assets/voice/gilda.json` | S approva la voce | todo |
+| C2 | Personaggio `gilda`: SVG a pezzi nello stile di `design/quizzone/assets/personaggi/` (host come riferimento: stesse parti, bocche, espressioni), PNG con `tools/svg_to_png.gd`, `pezzi.json`; `Personaggio.setup("gilda")` funziona con gesti come host | W (medium) | — | `design/quizzone/assets/personaggi/gilda/**`, `assets/personaggi/gilda/**`, `ui/personaggio.gd` (solo se serve per il tipo host) | cattura ≈ stile di Tony, S approva | todo |
+| C3 | Testi: ~40 battute di Gilda (round, classifica, punzecchiate a Tony, situazioni) + ~10 duetti; S approva; generazione | P + S | C1 | `assets/voice/*` | file presenti, ascolto S | todo |
+| C4 | `main`: due conduttori (Gilda entra da destra, fumetto suo), mazzi misti, duetti | P | C2, C3 | `main.*` | `-- --demo` + cattura | todo |
+
 ## D — Domande dal server (PLAN.md §4 "Domande": leggere SOLO quella sezione)
 Variabili in `.env` (da `.env.example`); script Node lanciati con `node --env-file=.env ...`. Finché `QUIZZONE_MOCK=1` nessuna chiamata alle IA.
 

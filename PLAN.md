@@ -24,6 +24,7 @@ Come lavora Claude (padre + worker, regole anti-spreco): [CLAUDE.md](CLAUDE.md).
 | **Grafica** | **2D vettoriale "Quizzone!"** (design system in `design/quizzone/`, README = fonte di verità visiva): pannelli piatti, contorni spessi, ombre dure, personaggi cutout animati da codice. Niente shader/blur | Prova sulla TV: **60 FPS fissi, ~65 MB GL** (il 3D faceva 30–35 FPS, 180 MB) |
 | Personaggi | Presentatore **Tony Scintilla**; concorrenti Gastone (chef), Nonna Pina (nonna), Ugo (zombi), Brioche (gatto), Don Ciccio (boss), Vanessa (diva) | Dal design |
 | Voce | ElevenLabs v3, battute pre-generate (`tools/gen_voice.mjs`, testi in `assets/voice/lines.json`); lip-sync dal volume | Già funzionante |
+| **Co-conduttrice** | **Gilda Lampo** (approvata 2026-10-14): alla pari con Tony, lucida e ironica; tiene il ritmo, presenta round e classifica, smonta Tony con battute secche. Le situazioni pescano battute di entrambi + duetti (Tony → Gilda). Voce Voice Design sul 2° account ElevenLabs (`ELEVENLABS_API_KEY2`), Tony resta sul 1° | Meno ripetizioni, più "show", inclusività; raddoppia i crediti voce |
 | Sottotitoli | Fumetto con il testo di Tony, attivabile/disattivabile dal titolo (salvato in `user://impostazioni.cfg`) | Accessibilità |
 | Controller | Pagina web sul telefono (WebSocket verso la TV); tastiera/telecomando + bot per i test | Nessuna app da installare |
 | Lingua | Italiano | — |
@@ -186,6 +187,12 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] D3 prompt `genera.md`/`verifica.md` + `prompt_test.mjs`: soglie passate prima in mock, poi con le chiavi vere
 - [ ] D4 Worker + D1 + cron + endpoint, dotazione caricata, URL pubblico
 - [ ] D5 `game/domande.gd`: cache, validazione, riserva, uscite, esiti; prova sulla TV senza rete e con rete
+
+### C — Co-conduttrice Gilda Lampo (dopo G1h)
+- [ ] Voce (Voice Design, 3 anteprime, sceglie S)
+- [ ] Personaggio cutout nello stile del design (SVG a pezzi + rig come Tony), approvato da S
+- [ ] Due conduttori in `main`: mazzi con battute di entrambi, duetti, Gilda entra da destra con il suo fumetto
+- [ ] ~40 battute di Gilda + ~10 duetti (testi approvati da S); dopo il 2026-11-10 le battute di Tony che diventano duetti
 
 ### G2 — Telefoni come controller
 - [ ] Lobby con QR + indirizzo + codice; il telefono sceglie personaggio e nome (1l)
