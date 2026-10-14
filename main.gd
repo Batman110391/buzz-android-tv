@@ -75,7 +75,8 @@ func _ready() -> void:
 	var lines: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/voice/lines.json"))
 	var re := RegEx.create_from_string(r"\[[^\]]*\]\s*")
 	for k: String in lines:
-		_testi[k] = re.sub(str(lines[k]), "", true)
+		if ResourceLoader.exists("res://assets/voice/%s.mp3" % k):  # solo le battute già generate
+			_testi[k] = re.sub(str(lines[k]), "", true)
 	_domande.carica()
 	_mostra_titolo()
 
