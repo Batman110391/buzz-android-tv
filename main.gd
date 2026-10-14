@@ -38,6 +38,14 @@ var _parla := false  # Tony sta parlando
 var _quando: Array[float] = []
 var _scelte := {}  # pid -> risposta
 var _hurry := false
+# battute di Tony: ogni situazione è un mazzo (nessuna frase torna finché non sono uscite tutte) + pause tra i commenti
+var _mazzi := {}  # prefisso -> chiavi ancora da pescare
+var _ultima := {}  # prefisso -> ultima chiave uscita
+var _presentati := {}  # personaggi già presentati da Tony in questa sessione
+var _ult_commento := -9  # domanda dell'ultimo commento dopo la rivelazione
+var _ult_buzz := -9
+var _ult_hurry := -9
+var _capo := -1  # chi è primo da solo in classifica (-1 = nessuno o pari)
 var _perf := FileAccess.file_exists("user://perf.txt")
 var _pt := 0.0
 var _pn := 0
@@ -79,13 +87,15 @@ func _mostra_titolo() -> void:
 	_titolo.mostra()
 	_host.position = Vector2(60, 300)
 	_host.scale = Vector2.ONE * 2.5
-	await _dici("menu_1", "saluto", FUMETTO_TITOLO)
+	await _dici(_pesca("menu"), "saluto", FUMETTO_TITOLO)
 	if _demo and _fase == "titolo":
 		_vai_lobby()
-	while _fase == "titolo":  # ogni tanto Tony richiama l'attenzione
-		await get_tree().create_timer(12.0).timeout
-		if _fase == "titolo" and not _parla:
-			await _dici(["menu_2", "filler_1", "filler_2"].pick_random(), "annuncio", FUMETTO_TITOLO)
+	for _volta in 2:  # poi Tony richiama l'attenzione al massimo due volte, con calma, e tace
+		await get_tree().create_timer(28.0).timeout
+		if _fase != "titolo":
+			return
+		if not _parla:
+			await _dici(_pesca("filler"), "annuncio", FUMETTO_TITOLO)
 
 
 func _vai_lobby() -> void:
@@ -116,8 +126,9 @@ func _cambia_giocatori(d: int) -> void:
 		Sfx.play("pop")
 		var id: String = GIOCATORI[_n][2]
 		_n = n
-		if not _parla:
-			await _tony_commenta("pres_" + id, "annuncio", FUMETTO_BASSO)
+		if not _parla and not _presentati.has(id):  # ognuno si presenta una volta sola
+			_presentati[id] = true
+			await _tony_commenta(_pesca("pres_" + id), "annuncio", FUMETTO_BASSO)
 	else:
 		_n = n
 		_lobby.togli(_n)
@@ -127,7 +138,7 @@ func _cambia_giocatori(d: int) -> void:
 func _vai_round() -> void:
 	_fase = "round"
 	_lobby.visible = false
-	await _tony_commenta("intro_1", "saluto", FUMETTO_BASSO, false)
+	await _tony_commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
 	_round.mostra(1, 1, ROUND, "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!", "💰")
 	await get_tree().create_timer(0.6).timeout
 	await _tony_commenta("round_1", "annuncio", FUMETTO_BASSO)
@@ -154,6 +165,10 @@ func _inizia_partita() -> void:
 	_game.question_started.connect(_domanda)
 	_game.question_resolved.connect(_rivela)
 	_game.game_over.connect(_fine)
+	_capo = -1
+	_ult_commento = -9
+	_ult_buzz = -9
+	_ult_hurry = -9
 	_game.setup(nomi, _domande.pesca("classica", DOMANDE), DOMANDE)
 	_game.start()
 	_game.advance()
@@ -172,16 +187,19 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 	_s.mostra_domanda(i + 1, tot, ROUND, q["domanda"], q["risposte"])
 	_s.set_tempo(Game.QUESTION_TIME, Game.QUESTION_TIME)
 	if i == 0:
-		_dici("qfirst_1", "annuncio")
+		_dici(_pesca("qfirst"), "annuncio")
 	elif i == tot - 1:
-		_dici("qlast_1", "annuncio")
+		_dici(_pesca("qlast"), "annuncio")
+	elif _ult_commento < i - 1 and randf() < 0.5:  # se dopo l'ultima domanda è stato zitto
+		_dici(_pesca("qnext"), "annuncio")
 
 
 func _risponde(pid: int, scelta: int) -> void:
 	if _fase != "domanda" or not _game.submit_answer(pid, scelta):
 		return
-	if _scelte.is_empty() and randf() < 0.5 and not _parla:
-		_dici("firstbuzz_%d" % (randi() % 2 + 1), "sorpresa")
+	if _scelte.is_empty() and _i - _ult_buzz >= 3 and randf() < 0.5 and not _parla:
+		_ult_buzz = _i
+		_dici(_pesca("firstbuzz"), "sorpresa")
 	_scelte[pid] = scelta
 	_s.risposto(pid, scelta)
 
@@ -204,8 +222,9 @@ func _process(dt: float) -> void:
 	_s.set_tempo(_game.time_left(), Game.QUESTION_TIME)
 	if _game.time_left() <= 5.0 and not _hurry and _scelte.size() < _n:
 		_hurry = true
-		if not _parla:
-			_dici("hurry_%d" % (randi() % 2 + 1), "annuncio")
+		if not _parla and _i - _ult_hurry >= 3:
+			_ult_hurry = _i
+			_dici(_pesca("hurry"), "annuncio")
 	_game.tick(dt)  # può emettere question_resolved -> _rivela
 
 
@@ -220,21 +239,47 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	_s.rivela(corretta, _scelte, punti)
 	Sfx.play("correct" if not giusti.is_empty() else "wrong")
 	await get_tree().create_timer(1.8).timeout
-	var k := "someright_%d" % (randi() % 3 + 1)
+	var capo := _primo(punteggi)
+	var nuovo_capo := capo != -1 and capo != _capo and _i > 0
+	_capo = capo
+	# Tony commenta solo se c'è qualcosa da dire, e mai due domande di fila (salvo metà partita)
+	var k := ""
 	var g := "esulta"
-	if giusti.size() == _n:
-		k = "allright_%d" % (randi() % 2 + 1)
-	elif giusti.is_empty():
-		k = "noneright_%d" % (randi() % 2 + 1)
+	if _i == DOMANDE / 2 - 1:  # a metà partita punzecchia l'ultimo
+		k = _pesca("last_" + GIOCATORI[_ultimo(punteggi)][2])
 		g = "delusione"
-	elif giusti.size() == 1:
-		k = "solo_" + GIOCATORI[giusti[0]][2]
-	elif _i == DOMANDE / 2 - 1:  # a metà partita Tony punzecchia l'ultimo
-		k = "last_" + GIOCATORI[_ultimo(punteggi)][2]
-		g = "delusione"
-	await _tony_commenta(k, g, FUMETTO_DOMANDA)
+	elif _i - _ult_commento >= 2:
+		if giusti.size() == 1 and _n >= 3:
+			k = _pesca("solo_" + GIOCATORI[giusti[0]][2])
+		elif giusti.is_empty():
+			k = _pesca("noneright")
+			g = "delusione"
+		elif giusti.size() == _n:
+			k = _pesca("allright")
+		elif nuovo_capo:
+			k = _pesca("lead")
+		elif randf() < 0.4:
+			k = _pesca("someright")
+	if k == "":
+		await get_tree().create_timer(1.2).timeout
+	else:
+		_ult_commento = _i
+		await _tony_commenta(k, g, FUMETTO_DOMANDA)
 	_game.advance()  # REVEAL -> SCOREBOARD
 	_game.advance()  # -> domanda successiva oppure FINAL (game_over)
+
+
+## Chi è primo da solo (-1 se a pari merito in testa).
+func _primo(punteggi: Dictionary) -> int:
+	var p := 0
+	var pari := false
+	for pid in range(1, _n):
+		if punteggi[pid] > punteggi[p]:
+			p = pid
+			pari = false
+		elif punteggi[pid] == punteggi[p]:
+			pari = true
+	return -1 if pari else p
 
 
 func _ultimo(punteggi: Dictionary) -> int:
@@ -258,10 +303,10 @@ func _fine(classifica: Array) -> void:
 	_finale.mostra(c)
 	await get_tree().create_timer(2.5).timeout
 	Sfx.play("applause")
-	await _tony_commenta("final_1", "annuncio", FUMETTO_FINALE, false)
+	await _tony_commenta(_pesca("final"), "annuncio", FUMETTO_FINALE, false)
 	var pari: bool = classifica.size() > 1 and classifica[0]["score"] == classifica[1]["score"]
-	await _tony_commenta("tie_1" if pari else "win_" + GIOCATORI[classifica[0]["id"]][2], "esulta", FUMETTO_FINALE, false)
-	await _tony_commenta("outro_1", "saluto", FUMETTO_FINALE)
+	await _tony_commenta(_pesca("tie" if pari else "win_" + GIOCATORI[classifica[0]["id"]][2]), "esulta", FUMETTO_FINALE, false)
+	await _tony_commenta(_pesca("outro"), "saluto", FUMETTO_FINALE)
 	if _demo:
 		await get_tree().create_timer(2.0).timeout
 		_torna_al_titolo()
@@ -354,8 +399,28 @@ func _esci_tony() -> void:
 	await tw.finished
 
 
+## Pesca dal mazzo `p` (chiavi "p" e "p_<numero>" di lines.json); rimescola quando è vuoto, senza ripetere subito l'ultima.
+func _pesca(p: String) -> String:
+	var m: Array = _mazzi.get(p, [])
+	if m.is_empty():
+		for k: String in _testi:
+			if k == p or (k.begins_with(p + "_") and k.trim_prefix(p + "_").is_valid_int()):
+				m.append(k)
+		if m.is_empty():
+			push_warning("nessuna battuta per '%s'" % p)
+			return ""
+		m.shuffle()
+		if m.size() > 1 and m[-1] == _ultima.get(p, ""):
+			m.reverse()
+		_mazzi[p] = m
+	_ultima[p] = m.pop_back()
+	return _ultima[p]
+
+
 ## Tony dice la battuta `k`; con i sottotitoli attivi il testo appare nel fumetto in `pos` (INF = niente fumetto).
 func _dici(k: String, g: String, pos := Vector2.INF) -> void:
+	if k == "":
+		return
 	_fumetto.visible = _sottotitoli and pos != Vector2.INF
 	if _fumetto.visible:
 		var w := 1380.0 if pos.y > 540.0 else 900.0  # in basso largo: meno righe, copre meno
