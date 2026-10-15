@@ -1,0 +1,602 @@
+[
+ {
+  "id": "or-cor-0001",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Ossa, dalla più corta alla più lunga",
+  "elementi": [
+   "Staffa",
+   "Rotula",
+   "Clavicola",
+   "Femore"
+  ],
+  "valori": [
+   "3 mm",
+   "5 cm",
+   "15 cm",
+   "48 cm"
+  ],
+  "curiosita": "La staffa dell'orecchio è l'osso più piccolo del corpo.",
+  "fatto": "ordine ossa lunghezza staffa femore",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0002",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Organi, dal più leggero al più pesante",
+  "elementi": [
+   "Tiroide",
+   "Rene",
+   "Cuore",
+   "Fegato"
+  ],
+  "valori": [
+   "circa 20 g",
+   "circa 150 g",
+   "circa 300 g",
+   "circa 1,5 kg"
+  ],
+  "curiosita": "Il fegato è l'organo interno più pesante.",
+  "fatto": "ordine organi peso",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0003",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Quantità, dalla più piccola alla più grande",
+  "elementi": [
+   "Cuore",
+   "Reni",
+   "Vertebre del collo",
+   "Costole"
+  ],
+  "valori": [
+   "1",
+   "2",
+   "7",
+   "24"
+  ],
+  "curiosita": "Il cuore è uno solo, ma lavora per tutta la vita.",
+  "fatto": "ordine quantita parti corpo",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0004",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Ossa di, dal numero più basso al più alto",
+  "elementi": [
+   "Un orecchio",
+   "Una mano",
+   "Un adulto",
+   "Un neonato"
+  ],
+  "valori": [
+   "3",
+   "27",
+   "206",
+   "circa 300"
+  ],
+  "curiosita": "Il neonato ha più ossa dell'adulto: molte poi si fondono.",
+  "fatto": "ordine numero ossa",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0005",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Ossa lunghe, dalla più corta",
+  "elementi": [
+   "Radio",
+   "Omero",
+   "Tibia",
+   "Femore"
+  ],
+  "valori": [
+   "circa 24 cm",
+   "circa 32 cm",
+   "circa 40 cm",
+   "circa 48 cm"
+  ],
+  "curiosita": "Il femore può arrivare a un quarto dell'altezza.",
+  "fatto": "ordine ossa lunghe femore",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0006",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "criterio": "Svolte della medicina, dalla più antica",
+  "elementi": [
+   "Anatomia di Vesalio",
+   "Vaccino di Jenner",
+   "Penicillina",
+   "Trapianto di cuore"
+  ],
+  "valori": [
+   "1543",
+   "1796",
+   "1928",
+   "1967"
+  ],
+  "curiosita": "Il primo trapianto di cuore fu eseguito in Sudafrica nel 1967.",
+  "fatto": "ordine scoperte mediche date",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0007",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Il viaggio della luce nell'occhio, dall'ingresso",
+  "elementi": [
+   "Cornea",
+   "Pupilla",
+   "Cristallino",
+   "Retina"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Sulla retina l'immagine si forma capovolta.",
+  "fatto": "ordine percorso luce occhio",
+  "fonte": "https://it.wikipedia.org/wiki/Occhio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0008",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Il viaggio del cibo, dalla bocca in poi",
+  "elementi": [
+   "Bocca",
+   "Esofago",
+   "Stomaco",
+   "Intestino tenue"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Il cibo arriva nello stomaco in pochi secondi.",
+  "fatto": "ordine percorso cibo",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0009",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Il viaggio del suono nell'orecchio",
+  "elementi": [
+   "Padiglione",
+   "Timpano",
+   "Ossicini",
+   "Coclea"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Alla fine il suono diventa un segnale per il cervello.",
+  "fatto": "ordine percorso suono orecchio",
+  "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0010",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Il viaggio dell'aria che respiriamo",
+  "elementi": [
+   "Naso",
+   "Trachea",
+   "Bronchi",
+   "Alveoli"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Gli alveoli sono circa 300 milioni.",
+  "fatto": "ordine percorso aria respirazione",
+  "fonte": "https://it.wikipedia.org/wiki/Polmone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0011",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "La colonna vertebrale, dall'alto in basso",
+  "elementi": [
+   "Vertebre cervicali",
+   "Vertebre toraciche",
+   "Vertebre lombari",
+   "Osso sacro"
+  ],
+  "valori": [
+   "7 vertebre",
+   "12 vertebre",
+   "5 vertebre",
+   "5 fuse"
+  ],
+  "curiosita": "Le vertebre del collo sono sette anche nella giraffa.",
+  "fatto": "ordine colonna vertebrale sezioni",
+  "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0012",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Ossa, dalla testa ai piedi",
+  "elementi": [
+   "Cranio",
+   "Sterno",
+   "Bacino",
+   "Tibia"
+  ],
+  "valori": [
+   "Testa",
+   "Petto",
+   "Fianchi",
+   "Gamba"
+  ],
+  "curiosita": "Dalla testa ai piedi, lo scheletro ha oltre 200 ossa.",
+  "fatto": "ordine ossa posizione testa piedi",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0013",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Organi, dall'alto verso il basso",
+  "elementi": [
+   "Cervello",
+   "Cuore",
+   "Stomaco",
+   "Vescica"
+  ],
+  "valori": [
+   "Testa",
+   "Torace",
+   "Addome",
+   "Bacino"
+  ],
+  "curiosita": "Il cuore sta nel torace, tra i polmoni.",
+  "fatto": "ordine organi posizione alto basso",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0014",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "criterio": "Il tragitto nell'intestino, dall'inizio alla fine",
+  "elementi": [
+   "Duodeno",
+   "Digiuno",
+   "Ileo",
+   "Colon"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "L'intestino tenue è lungo diversi metri.",
+  "fatto": "ordine tragitto intestino",
+  "fonte": "https://it.wikipedia.org/wiki/Intestino",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0015",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Il viaggio del sangue dal cuore",
+  "elementi": [
+   "Aorta",
+   "Arterie minori",
+   "Capillari",
+   "Vene"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Nei capillari il sangue cede l'ossigeno ai tessuti.",
+  "fatto": "ordine percorso sangue vasi",
+  "fonte": "https://it.wikipedia.org/wiki/Sangue",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0016",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Il viaggio di una carezza fino al cervello",
+  "elementi": [
+   "Pelle",
+   "Nervo",
+   "Midollo spinale",
+   "Cervello"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Il segnale viaggia a velocità superiori ai 100 metri al secondo.",
+  "fatto": "ordine percorso stimolo tatto",
+  "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0017",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "criterio": "Ghiandole, dalla testa in giù",
+  "elementi": [
+   "Ipofisi",
+   "Tiroide",
+   "Timo",
+   "Pancreas"
+  ],
+  "valori": [
+   "Testa",
+   "Collo",
+   "Petto",
+   "Addome"
+  ],
+  "curiosita": "L'ipofisi è grande come un pisello, ma comanda altre ghiandole.",
+  "fatto": "ordine ghiandole posizione",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0018",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Muscoli, dall'alto verso il basso",
+  "elementi": [
+   "Trapezio",
+   "Pettorale",
+   "Addominale",
+   "Quadricipite"
+  ],
+  "valori": [
+   "Collo",
+   "Petto",
+   "Pancia",
+   "Coscia"
+  ],
+  "curiosita": "Il quadricipite è il muscolo più potente della gamba.",
+  "fatto": "ordine muscoli posizione",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0019",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Dalla spalla alla punta delle dita",
+  "elementi": [
+   "Scapola",
+   "Omero",
+   "Carpo",
+   "Falange"
+  ],
+  "valori": [
+   "Spalla",
+   "Braccio",
+   "Polso",
+   "Dito"
+  ],
+  "curiosita": "Il braccio ha 30 ossa, mano compresa.",
+  "fatto": "ordine ossa braccio",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0020",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Dalla coscia al piede",
+  "elementi": [
+   "Femore",
+   "Rotula",
+   "Tibia",
+   "Calcagno"
+  ],
+  "valori": [
+   "Coscia",
+   "Ginocchio",
+   "Stinco",
+   "Tallone"
+  ],
+  "curiosita": "Il calcagno è l'osso più grande del piede.",
+  "fatto": "ordine ossa gamba coscia piede",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0021",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "criterio": "Il percorso del sangue nel cuore",
+  "elementi": [
+   "Atrio destro",
+   "Ventricolo destro",
+   "Atrio sinistro",
+   "Ventricolo sinistro"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "Nel mezzo il sangue passa dai polmoni per prendere ossigeno.",
+  "fatto": "ordine percorso sangue nel cuore",
+  "fonte": "https://it.wikipedia.org/wiki/Cuore",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0022",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Le fasi del sonno durante la notte",
+  "elementi": [
+   "Veglia",
+   "Sonno leggero",
+   "Sonno profondo",
+   "Fase REM"
+  ],
+  "valori": [
+   "1ª fase",
+   "2ª fase",
+   "3ª fase",
+   "4ª fase"
+  ],
+  "curiosita": "Il ciclo si ripete più volte per notte.",
+  "fatto": "ordine fasi sonno notte",
+  "fonte": "https://it.wikipedia.org/wiki/Sonno",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0023",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "criterio": "Gli strati del corpo, dalla superficie",
+  "elementi": [
+   "Epidermide",
+   "Derma",
+   "Ipoderma",
+   "Muscolo"
+  ],
+  "valori": [
+   "1° strato",
+   "2° strato",
+   "3° strato",
+   "4° strato"
+  ],
+  "curiosita": "La pelle ha tre strati, sotto c'è il muscolo.",
+  "fatto": "ordine strati pelle",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0024",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "criterio": "Il viaggio dell'urina nel corpo",
+  "elementi": [
+   "Rene",
+   "Uretere",
+   "Vescica",
+   "Uretra"
+  ],
+  "valori": [
+   "1° passo",
+   "2° passo",
+   "3° passo",
+   "4° passo"
+  ],
+  "curiosita": "I reni filtrano il sangue in continuazione.",
+  "fatto": "ordine percorso urina",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "or-cor-0025",
+  "tipo": "ordine",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "criterio": "Medici, dal più antico al più recente",
+  "elementi": [
+   "Ippocrate",
+   "Galeno",
+   "Avicenna",
+   "Vesalio"
+  ],
+  "valori": [
+   "ca. 460 a.C.",
+   "129",
+   "980",
+   "1514"
+  ],
+  "curiosita": "Vesalio rinnovò lo studio dell'anatomia con le dissezioni.",
+  "fatto": "ordine medici nascita ippocrate vesalio",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ }
+]

@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "la-cor-0001",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quanti polmoni ha una persona?",
+  "risposte": [
+   "Due",
+   "Uno",
+   "Tre",
+   "Quattro"
+  ],
+  "curiosita": "Il destro è un po' più grande del sinistro.",
+  "fatto": "numero polmoni due",
+  "fonte": "https://it.wikipedia.org/wiki/Polmone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0002",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quante dita ha una mano?",
+  "risposte": [
+   "Cinque",
+   "Quattro",
+   "Sei",
+   "Sette"
+  ],
+  "curiosita": "Il pollice conta come dito, anche se ha due falangi.",
+  "fatto": "dita mano cinque",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0003",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quale senso usa soprattutto la lingua?",
+  "risposte": [
+   "Gusto",
+   "Udito",
+   "Vista",
+   "Olfatto"
+  ],
+  "curiosita": "Funziona insieme all'olfatto: col naso chiuso i sapori si spengono.",
+  "fatto": "senso lingua gusto",
+  "fonte": "https://it.wikipedia.org/wiki/Gusto",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0004",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quanti denti del giudizio ha una bocca completa?",
+  "risposte": [
+   "Quattro",
+   "Due",
+   "Sei",
+   "Otto"
+  ],
+  "curiosita": "Non tutti però li sviluppano.",
+  "fatto": "denti giudizio quattro",
+  "fonte": "https://it.wikipedia.org/wiki/Dente",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0005",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quale organo batte nel petto?",
+  "risposte": [
+   "Il cuore",
+   "Il fegato",
+   "Lo stomaco",
+   "Il polmone"
+  ],
+  "curiosita": "Batte anche quando dormiamo.",
+  "fatto": "organo batte petto cuore",
+  "fonte": "https://it.wikipedia.org/wiki/Cuore",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0006",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dito accanto al pollice?",
+  "risposte": [
+   "Indice",
+   "Medio",
+   "Anulare",
+   "Mignolo"
+  ],
+  "curiosita": "Si chiama così perché serve a indicare.",
+  "fatto": "dito accanto pollice indice",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0007",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Su quale dito si porta la fede nuziale in Italia?",
+  "risposte": [
+   "Anulare",
+   "Indice",
+   "Medio",
+   "Mignolo"
+  ],
+  "curiosita": "Si chiama così perché porta l'anello.",
+  "fatto": "dito fede anulare",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0008",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Qual è il dito più corto della mano?",
+  "risposte": [
+   "Mignolo",
+   "Pollice",
+   "Anulare",
+   "Indice"
+  ],
+  "curiosita": "Il suo nome ricorda la piccolezza.",
+  "fatto": "dito piu corto mignolo",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0009",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quante dita hanno i due piedi?",
+  "risposte": [
+   "Dieci",
+   "Otto",
+   "Dodici",
+   "Venti"
+  ],
+  "curiosita": "Cinque per ogni piede.",
+  "fatto": "dita due piedi dieci",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0010",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Come si chiama il dito grosso del piede?",
+  "risposte": [
+   "Alluce",
+   "Pollice",
+   "Indice",
+   "Calcagno"
+  ],
+  "curiosita": "Il suo nome viene dal latino hallux.",
+  "fatto": "dito grosso piede alluce",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0011",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quante narici ha il naso?",
+  "risposte": [
+   "Due",
+   "Una",
+   "Tre",
+   "Quattro"
+  ],
+  "curiosita": "Si alternano nel respirare: una lavora più dell'altra.",
+  "fatto": "narici naso due",
+  "fonte": "https://it.wikipedia.org/wiki/Naso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0012",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quante camere ha lo stomaco umano?",
+  "risposte": [
+   "Una",
+   "Due",
+   "Tre",
+   "Quattro"
+  ],
+  "curiosita": "È un unico sacco muscolare.",
+  "fatto": "camere stomaco una",
+  "fonte": "https://it.wikipedia.org/wiki/Stomaco",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0013",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Con quale parte produciamo la voce?",
+  "risposte": [
+   "Corde vocali",
+   "Tonsille",
+   "Denti",
+   "Polmoni"
+  ],
+  "curiosita": "Vibrano centinaia di volte al secondo.",
+  "fatto": "voce corde vocali",
+  "fonte": "https://it.wikipedia.org/wiki/Laringe",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0014",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quale gas respiriamo che ci serve per vivere?",
+  "risposte": [
+   "Ossigeno",
+   "Elio",
+   "Idrogeno",
+   "Ferro"
+  ],
+  "curiosita": "Ne usiamo solo una parte: il resto lo espiriamo.",
+  "fatto": "gas respiriamo ossigeno",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0015",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quale gas aumenta quando espiriamo?",
+  "risposte": [
+   "CO2",
+   "O2",
+   "He",
+   "H2"
+  ],
+  "curiosita": "È anidride carbonica: prodotto di scarto delle cellule.",
+  "fatto": "gas espiriamo anidride carbonica",
+  "fonte": "https://it.wikipedia.org/wiki/Polmone",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0016",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi dorme più ore al giorno, di solito?",
+  "risposte": [
+   "Un neonato",
+   "Un adulto",
+   "Un anziano",
+   "Un ragazzo"
+  ],
+  "curiosita": "Un neonato può dormire anche 16 ore.",
+  "fatto": "chi dorme di piu neonato",
+  "fonte": "https://it.wikipedia.org/wiki/Sonno",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0017",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Le lacrime sono salate o dolci?",
+  "risposte": [
+   "Salate",
+   "Dolci",
+   "Amare",
+   "Acide"
+  ],
+  "curiosita": "Contengono sali minerali, come il sudore.",
+  "fatto": "sapore lacrime salate",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0018",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Qual è l'organo interno più grande?",
+  "risposte": [
+   "Fegato",
+   "Cuore",
+   "Polmone",
+   "Stomaco"
+  ],
+  "curiosita": "Pesa circa un chilo e mezzo.",
+  "fatto": "organo interno piu grande fegato",
+  "fonte": "https://it.wikipedia.org/wiki/Fegato",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0019",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Quale organo ha la forma di un fagiolo?",
+  "risposte": [
+   "Rene",
+   "Fegato",
+   "Cuore",
+   "Milza"
+  ],
+  "curiosita": "Per questo si dice anche forma a fagiolo.",
+  "fatto": "organo forma fagiolo rene",
+  "fonte": "https://it.wikipedia.org/wiki/Rene",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0020",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Quanto è grande un cuore adulto, circa?",
+  "risposte": [
+   "Come un pugno",
+   "Come un'arancia",
+   "Come un pallone",
+   "Come una noce"
+  ],
+  "curiosita": "Pesa circa 300 grammi.",
+  "fatto": "dimensione cuore pugno",
+  "fonte": "https://it.wikipedia.org/wiki/Cuore",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0021",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "In quale parte del corpo si trova la tiroide?",
+  "risposte": [
+   "Collo",
+   "Pancia",
+   "Testa",
+   "Spalla"
+  ],
+  "curiosita": "Sta davanti alla trachea.",
+  "fatto": "posizione tiroide collo",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0022",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "La parte visibile del capello è fatta di cellule...",
+  "risposte": [
+   "Morte",
+   "Vive",
+   "Nervose",
+   "Ossee"
+  ],
+  "curiosita": "Per questo tagliare i capelli non fa male.",
+  "fatto": "capello visibile cellule morte",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0023",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Quali unghie crescono più in fretta?",
+  "risposte": [
+   "Le mani",
+   "I piedi",
+   "Sono uguali",
+   "Dipende dall'età"
+  ],
+  "curiosita": "Crescono circa tre millimetri al mese.",
+  "fatto": "unghie crescita mani",
+  "fonte": "https://it.wikipedia.org/wiki/Unghia",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0024",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Possiamo farci il solletico da soli?",
+  "risposte": [
+   "Quasi mai",
+   "Sempre",
+   "Solo di notte",
+   "Solo d'estate"
+  ],
+  "curiosita": "Il cervello prevede il tocco e lo attenua.",
+  "fatto": "solletico da soli",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0025",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Quale emisfero controlla la mano destra?",
+  "risposte": [
+   "Il sinistro",
+   "Il destro",
+   "Entrambi",
+   "Nessuno"
+  ],
+  "curiosita": "Ogni emisfero comanda il lato opposto del corpo.",
+  "fatto": "emisfero controlla mano destra",
+  "fonte": "https://it.wikipedia.org/wiki/Cervello",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0026",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Il battito di un neonato è più...",
+  "risposte": [
+   "Veloce",
+   "Lento",
+   "Uguale",
+   "Assente"
+  ],
+  "curiosita": "Può superare i 120 battiti al minuto.",
+  "fatto": "battito neonato veloce",
+  "fonte": "https://it.wikipedia.org/wiki/Cuore",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0027",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Come si chiama il bianco dell'occhio?",
+  "risposte": [
+   "Sclera",
+   "Iride",
+   "Pupilla",
+   "Cornea"
+  ],
+  "curiosita": "È la parte che vediamo di più quando spalanchiamo gli occhi.",
+  "fatto": "bianco occhio sclera",
+  "fonte": "https://it.wikipedia.org/wiki/Occhio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0028",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Con la poca luce, la pupilla...",
+  "risposte": [
+   "Si allarga",
+   "Si restringe",
+   "Si chiude",
+   "Scompare"
+  ],
+  "curiosita": "Così entra più luce nell'occhio.",
+  "fatto": "pupilla poca luce allarga",
+  "fonte": "https://it.wikipedia.org/wiki/Occhio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0029",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Di che colore è il sangue nelle vene?",
+  "risposte": [
+   "Rosso scuro",
+   "Blu",
+   "Viola",
+   "Verde"
+  ],
+  "curiosita": "Le vene sembrano blu per come la luce attraversa la pelle.",
+  "fatto": "colore sangue vene",
+  "fonte": "https://it.wikipedia.org/wiki/Sangue",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0030",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Di che cosa è fatto soprattutto il sudore?",
+  "risposte": [
+   "Acqua",
+   "Sale",
+   "Zucchero",
+   "Grasso"
+  ],
+  "curiosita": "Il sale ne è solo una piccola parte.",
+  "fatto": "composizione sudore acqua",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0031",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Dove inizia la digestione?",
+  "risposte": [
+   "In bocca",
+   "Nello stomaco",
+   "Nel fegato",
+   "Nell'intestino"
+  ],
+  "curiosita": "Già masticando e con la saliva.",
+  "fatto": "inizio digestione bocca",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0032",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Le ossa sono tessuti...",
+  "risposte": [
+   "Vivi",
+   "Morti",
+   "Di pietra",
+   "Vuoti"
+  ],
+  "curiosita": "Si rinnovano di continuo, ogni dieci anni circa.",
+  "fatto": "ossa tessuti vivi",
+  "fonte": "https://it.wikipedia.org/wiki/Osso",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0033",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "domanda": "Quante ossa ha una mano?",
+  "risposte": [
+   "27",
+   "20",
+   "14",
+   "35"
+  ],
+  "curiosita": "Contando il polso: ne ha 27 tra polso e dita.",
+  "fatto": "ossa mano 27",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0034",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "domanda": "Quante ossa ha un piede?",
+  "risposte": [
+   "26",
+   "18",
+   "32",
+   "40"
+  ],
+  "curiosita": "Insieme i due piedi hanno un quarto delle ossa.",
+  "fatto": "ossa piede 26",
+  "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0035",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "domanda": "La saliva inizia a digerire...",
+  "risposte": [
+   "L'amido",
+   "Le proteine",
+   "I grassi",
+   "Le fibre"
+  ],
+  "curiosita": "Per questo il pane masticato a lungo sa di dolce.",
+  "fatto": "saliva digerisce amido",
+  "fonte": "https://it.wikipedia.org/wiki/Saliva",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0036",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 3,
+  "domanda": "Che cosa assorbe soprattutto il colon?",
+  "risposte": [
+   "Acqua",
+   "Ossigeno",
+   "Vitamina D",
+   "Luce"
+  ],
+  "curiosita": "Il colon è l'ultima parte dell'intestino.",
+  "fatto": "colon assorbe acqua",
+  "fonte": "https://it.wikipedia.org/wiki/Intestino",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0037",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha il sangue freddo è...",
+  "risposte": [
+   "Calmo",
+   "Malato",
+   "Stanco",
+   "Furioso"
+  ],
+  "curiosita": "Il modo di dire descrive chi non perde la calma.",
+  "fatto": "modo di dire sangue freddo",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0038",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Avere un cuore d'oro significa essere...",
+  "risposte": [
+   "Generosi",
+   "Ricchi",
+   "Forti",
+   "Avari"
+  ],
+  "curiosita": "Il cuore è da sempre simbolo dei sentimenti.",
+  "fatto": "modo di dire cuore d oro",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0039",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Mettere il naso negli affari altrui è...",
+  "risposte": [
+   "Impicciarsi",
+   "Rubare",
+   "Fuggire",
+   "Rifiutare"
+  ],
+  "curiosita": "Il naso rappresenta la curiosità indiscreta.",
+  "fatto": "modo di dire mettere il naso",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0040",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha le mani bucate...",
+  "risposte": [
+   "Spende troppo",
+   "Ruba",
+   "È maldestro",
+   "Lavora tanto"
+  ],
+  "curiosita": "Come se i soldi gli scivolassero tra le dita.",
+  "fatto": "modo di dire mani bucate",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0041",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Avere la testa fra le nuvole è essere...",
+  "risposte": [
+   "Distratti",
+   "Alti",
+   "Allegri",
+   "Stanchi"
+  ],
+  "curiosita": "Chi sogna a occhi aperti non guarda dove va.",
+  "fatto": "modo di dire testa tra le nuvole",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0042",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha il pollice verde è bravo a...",
+  "risposte": [
+   "Curare le piante",
+   "Dipingere",
+   "Cucinare",
+   "Scrivere"
+  ],
+  "curiosita": "È un modo di dire apprezzato dai giardinieri.",
+  "fatto": "modo di dire pollice verde",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0043",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Avere un nodo alla gola significa...",
+  "risposte": [
+   "Essere commossi",
+   "Avere sete",
+   "Essere stanchi",
+   "Avere fame"
+  ],
+  "curiosita": "Succede davvero: l'emozione stringe la gola.",
+  "fatto": "modo di dire nodo alla gola",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0044",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Mangiarsi le mani significa...",
+  "risposte": [
+   "Pentirsi",
+   "Avere fame",
+   "Essere nervosi",
+   "Essere ricchi"
+  ],
+  "curiosita": "Si usa quando una buona occasione è sfumata.",
+  "fatto": "modo di dire mangiarsi le mani",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0045",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Quale parte del corpo ha le palpebre?",
+  "risposte": [
+   "L'occhio",
+   "Il naso",
+   "La bocca",
+   "L'orecchio"
+  ],
+  "curiosita": "Le chiudiamo senza accorgercene decine di volte al minuto.",
+  "fatto": "palpebre occhio",
+  "fonte": "https://it.wikipedia.org/wiki/Occhio",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0046",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Avere il dente avvelenato vuol dire...",
+  "risposte": [
+   "Serbare rancore",
+   "Avere male",
+   "Essere golosi",
+   "Essere stanchi"
+  ],
+  "curiosita": "Come chi ha un morso pronto contro qualcuno.",
+  "fatto": "modo di dire dente avvelenato",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0047",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Dove si trova il polpaccio?",
+  "risposte": [
+   "Nella gamba",
+   "Nel braccio",
+   "Nella schiena",
+   "Nel collo"
+  ],
+  "curiosita": "È il muscolo dietro lo stinco.",
+  "fatto": "posizione polpaccio gamba",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0048",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha la lingua lunga è...",
+  "risposte": [
+   "Pettegolo",
+   "Silenzioso",
+   "Timido",
+   "Goloso"
+  ],
+  "curiosita": "Non sa tenere un segreto.",
+  "fatto": "modo di dire lingua lunga",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0049",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Dove si trova il gomito?",
+  "risposte": [
+   "Nel braccio",
+   "Nella gamba",
+   "Nel collo",
+   "Nel piede"
+  ],
+  "curiosita": "Piega il braccio a metà.",
+  "fatto": "posizione gomito braccio",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0050",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha il sangue blu è...",
+  "risposte": [
+   "Nobile",
+   "Freddoloso",
+   "Malato",
+   "Atleta"
+  ],
+  "curiosita": "Nel Medioevo i nobili spagnoli non prendevano il sole: le vene si vedevano.",
+  "fatto": "modo di dire sangue blu",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0051",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Dove si trova la caviglia?",
+  "risposte": [
+   "Sopra il piede",
+   "Sopra il gomito",
+   "Sotto il mento",
+   "Sul polso"
+  ],
+  "curiosita": "Collega la gamba al piede.",
+  "fatto": "posizione caviglia piede",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0052",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Il braccio destro di qualcuno è...",
+  "risposte": [
+   "Un aiutante",
+   "Un nemico",
+   "Un parente",
+   "Un capo"
+  ],
+  "curiosita": "Chi ti sta più vicino nel lavoro.",
+  "fatto": "modo di dire braccio destro",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0053",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Il tallone d'Achille è...",
+  "risposte": [
+   "Un punto debole",
+   "Una forza",
+   "Un trofeo",
+   "Una scarpa"
+  ],
+  "curiosita": "Dal mito: Achille era vulnerabile solo lì.",
+  "fatto": "modo di dire tallone d achille",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0054",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Stare con le mani in mano è...",
+  "risposte": [
+   "Non fare niente",
+   "Lavorare tanto",
+   "Pregare",
+   "Applaudire"
+  ],
+  "curiosita": "Chi non si dà da fare, insomma.",
+  "fatto": "modo di dire mani in mano",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0055",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "A occhio e croce significa...",
+  "risposte": [
+   "Più o meno",
+   "Con attenzione",
+   "Di nascosto",
+   "Con fretta"
+  ],
+  "curiosita": "Si dice quando si stima senza misurare.",
+  "fatto": "modo di dire a occhio e croce",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0056",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Parlare a quattr'occhi vuol dire parlare...",
+  "risposte": [
+   "In privato",
+   "In pubblico",
+   "Gridando",
+   "Al telefono"
+  ],
+  "curiosita": "I quattro occhi sono i due di chi parla e i due di chi ascolta.",
+  "fatto": "modo di dire a quattr occhi",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0057",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha la testa dura è...",
+  "risposte": [
+   "Testardo",
+   "Intelligente",
+   "Malato",
+   "Alto"
+  ],
+  "curiosita": "Non cambia idea nemmeno davanti ai fatti.",
+  "fatto": "modo di dire testa dura",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0058",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Avere il cuore in gola vuol dire essere...",
+  "risposte": [
+   "Agitati",
+   "Allegri",
+   "Stanchi",
+   "Affamati"
+  ],
+  "curiosita": "Succede davvero: il battito sale nei momenti di tensione.",
+  "fatto": "modo di dire cuore in gola",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0059",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 2,
+  "domanda": "Accogliere a braccia aperte significa...",
+  "risposte": [
+   "Con affetto",
+   "Con fretta",
+   "Con timore",
+   "Con sospetto"
+  ],
+  "curiosita": "Il gesto è universale, quasi un abbraccio.",
+  "fatto": "modo di dire braccia aperte",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ },
+ {
+  "id": "la-cor-0060",
+  "tipo": "lampo",
+  "categoria": "corpo_umano",
+  "difficolta": 1,
+  "domanda": "Chi ha la faccia tosta è...",
+  "risposte": [
+   "Sfacciato",
+   "Timido",
+   "Stanco",
+   "Vecchio"
+  ],
+  "curiosita": "Non si vergogna di nulla.",
+  "fatto": "modo di dire faccia tosta",
+  "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+  "origine": "claude",
+  "creata": "2026-10-14"
+ }
+]

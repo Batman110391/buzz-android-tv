@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "cl-cor-0001",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quante ossa ha un adulto?",
+    "risposte": [
+      "206",
+      "270",
+      "180",
+      "300"
+    ],
+    "curiosita": "Un neonato ne ha circa 300: molte si fondono crescendo.",
+    "fatto": "ossa adulto 206",
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0002",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'organo che raccoglie l'urina prima di espellerla?",
+    "risposte": [
+      "Vescica",
+      "Rene",
+      "Uretere",
+      "Milza"
+    ],
+    "curiosita": "Si riempie e si svuota più volte al giorno.",
+    "fatto": "organo raccoglie urina vescica",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0003",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quanti sono i sensi classici?",
+    "risposte": [
+      "Cinque",
+      "Quattro",
+      "Sei",
+      "Sette"
+    ],
+    "curiosita": "Vista, udito, olfatto, gusto e tatto.",
+    "fatto": "sensi classici cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0004",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale organo controlla pensieri e movimenti?",
+    "risposte": [
+      "Cervello",
+      "Cuore",
+      "Fegato",
+      "Stomaco"
+    ],
+    "curiosita": "Pesa circa un chilo e mezzo.",
+    "fatto": "organo controlla pensieri cervello",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0005",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quanti denti ha un adulto con la dentatura completa?",
+    "risposte": [
+      "32",
+      "24",
+      "36",
+      "40"
+    ],
+    "curiosita": "Contando anche i quattro denti del giudizio.",
+    "fatto": "denti adulto 32",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0006",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale osso forma lo stinco della gamba?",
+    "risposte": [
+      "Tibia",
+      "Perone",
+      "Femore",
+      "Omero"
+    ],
+    "curiosita": "È il secondo osso più lungo del corpo.",
+    "fatto": "osso stinco tibia",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0007",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quali organi ci permettono di respirare?",
+    "risposte": [
+      "Polmoni",
+      "Reni",
+      "Fegato",
+      "Stomaco"
+    ],
+    "curiosita": "Respiriamo circa 20.000 volte al giorno.",
+    "fatto": "organi respirazione polmoni",
+    "fonte": "https://it.wikipedia.org/wiki/Polmone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0008",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale senso usiamo con il naso?",
+    "risposte": [
+      "Olfatto",
+      "Gusto",
+      "Udito",
+      "Tatto"
+    ],
+    "curiosita": "Senza olfatto anche i cibi sembrano meno saporiti.",
+    "fatto": "senso naso olfatto",
+    "fonte": "https://it.wikipedia.org/wiki/Olfatto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0009",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Dove si trovano le impronte digitali?",
+    "risposte": [
+      "Sulla punta delle dita",
+      "Sulle unghie",
+      "Sui gomiti",
+      "Sulle orecchie"
+    ],
+    "curiosita": "Servono ad avere più presa sugli oggetti.",
+    "fatto": "posizione impronte digitali punta dita",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0010",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale cellula del sangue trasporta l'ossigeno?",
+    "risposte": [
+      "Globuli rossi",
+      "Globuli bianchi",
+      "Piastrine",
+      "Linfociti"
+    ],
+    "curiosita": "Contengono l'emoglobina, che dà al sangue il colore rosso.",
+    "fatto": "cellule sangue ossigeno globuli rossi",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0011",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quanti sono i gruppi sanguigni del sistema AB0?",
+    "risposte": [
+      "Quattro",
+      "Tre",
+      "Cinque",
+      "Sei"
+    ],
+    "curiosita": "A, B, AB e zero.",
+    "fatto": "gruppi sanguigni ab0 quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Gruppo_sanguigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0012",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quante dita hanno in tutto mani e piedi di una persona?",
+    "risposte": [
+      "Venti",
+      "Dieci",
+      "Quindici",
+      "Venticinque"
+    ],
+    "curiosita": "Dieci per le mani e dieci per i piedi.",
+    "fatto": "dita totali mani piedi venti",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0013",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "In quale parte del corpo si trova il femore?",
+    "risposte": [
+      "Coscia",
+      "Braccio",
+      "Polso",
+      "Spalla"
+    ],
+    "curiosita": "È l'osso più robusto del nostro scheletro.",
+    "fatto": "posizione femore coscia",
+    "fonte": "https://it.wikipedia.org/wiki/Femore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0014",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale osso forma il mento?",
+    "risposte": [
+      "Mandibola",
+      "Mascella",
+      "Zigomo",
+      "Sterno"
+    ],
+    "curiosita": "È l'osso che si muove quando parliamo.",
+    "fatto": "osso mento mandibola",
+    "fonte": "https://it.wikipedia.org/wiki/Cranio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0015",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quali organi producono l'urina?",
+    "risposte": [
+      "Reni",
+      "Polmoni",
+      "Fegato",
+      "Milza"
+    ],
+    "curiosita": "Filtrano il sangue di continuo, giorno e notte.",
+    "fatto": "organi urina reni",
+    "fonte": "https://it.wikipedia.org/wiki/Rene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0016",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano i denti davanti, adatti a tagliare?",
+    "risposte": [
+      "Incisivi",
+      "Molari",
+      "Canini",
+      "Premolari"
+    ],
+    "curiosita": "Sono i primi a spuntare nei bambini.",
+    "fatto": "denti tagliare incisivi",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0017",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale parte dell'occhio è colorata?",
+    "risposte": [
+      "Iride",
+      "Pupilla",
+      "Cornea",
+      "Retina"
+    ],
+    "curiosita": "Il suo colore dipende dalla quantità di melanina.",
+    "fatto": "parte colorata occhio iride",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0018",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale parte dell'occhio è il foro nero al centro?",
+    "risposte": [
+      "Pupilla",
+      "Iride",
+      "Cornea",
+      "Retina"
+    ],
+    "curiosita": "Si restringe con la luce forte e si allarga al buio.",
+    "fatto": "foro nero occhio pupilla",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0019",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale tubo porta il cibo dalla gola allo stomaco?",
+    "risposte": [
+      "Esofago",
+      "Trachea",
+      "Uretra",
+      "Colon"
+    ],
+    "curiosita": "È lungo circa 25 centimetri.",
+    "fatto": "tubo gola stomaco esofago",
+    "fonte": "https://it.wikipedia.org/wiki/Esofago",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0020",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale muscolo si muove senza che lo decidiamo?",
+    "risposte": [
+      "Cuore",
+      "Bicipite",
+      "Quadricipite",
+      "Deltoide"
+    ],
+    "curiosita": "Lavora da solo, anche mentre dormiamo.",
+    "fatto": "muscolo involontario cuore",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0021",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama la parte dell'occhio che si apre e si chiude sopra la pupilla?",
+    "risposte": [
+      "Palpebra",
+      "Ciglio",
+      "Sopracciglio",
+      "Cornea"
+    ],
+    "curiosita": "Si chiude per riflesso quando qualcosa si avvicina.",
+    "fatto": "palpebra apre chiude occhio",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0022",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale parte del corpo ha il palmo?",
+    "risposte": [
+      "La mano",
+      "Il piede",
+      "La testa",
+      "La schiena"
+    ],
+    "curiosita": "Il suo opposto è il dorso.",
+    "fatto": "palmo parte corpo mano",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0023",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama il liquido che esce dalla pelle quando abbiamo caldo?",
+    "risposte": [
+      "Sudore",
+      "Sebo",
+      "Linfa",
+      "Saliva"
+    ],
+    "curiosita": "Evaporando, raffredda il corpo.",
+    "fatto": "liquido pelle caldo sudore",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0024",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale organo di senso ci fa percepire i suoni?",
+    "risposte": [
+      "Orecchio",
+      "Naso",
+      "Occhio",
+      "Lingua"
+    ],
+    "curiosita": "Ne abbiamo due, per capire da dove arriva il suono.",
+    "fatto": "organo senso suoni orecchio",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0025",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quali ghiandole producono la saliva?",
+    "risposte": [
+      "Salivari",
+      "Surrenali",
+      "Tiroidee",
+      "Sudoripare"
+    ],
+    "curiosita": "Ne produciamo circa un litro al giorno.",
+    "fatto": "ghiandole saliva salivari",
+    "fonte": "https://it.wikipedia.org/wiki/Saliva",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0026",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'osso piatto al centro del petto?",
+    "risposte": [
+      "Sterno",
+      "Bacino",
+      "Rotula",
+      "Scapola"
+    ],
+    "curiosita": "Vi si attacca la cartilagine delle costole.",
+    "fatto": "osso piatto petto sterno",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0027",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama la parte molle e rosa dentro la bocca?",
+    "risposte": [
+      "Lingua",
+      "Gengiva",
+      "Palato",
+      "Tonsilla"
+    ],
+    "curiosita": "Serve a parlare, a gustare e a deglutire.",
+    "fatto": "parte molle bocca lingua",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_(anatomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0028",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano le ossa curve che proteggono cuore e polmoni?",
+    "risposte": [
+      "Costole",
+      "Vertebre",
+      "Clavicole",
+      "Scapole"
+    ],
+    "curiosita": "Di solito sono dodici paia.",
+    "fatto": "ossa proteggono cuore polmoni costole",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0029",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano i vasi che riportano il sangue al cuore?",
+    "risposte": [
+      "Vene",
+      "Arterie",
+      "Capillari",
+      "Bronchi"
+    ],
+    "curiosita": "Le arterie invece lo portano via dal cuore.",
+    "fatto": "vasi riportano sangue cuore vene",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0030",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale organo digerisce il cibo con un succo molto acido?",
+    "risposte": [
+      "Stomaco",
+      "Intestino",
+      "Fegato",
+      "Esofago"
+    ],
+    "curiosita": "Il succo gastrico scioglierebbe quasi tutto, ma non le sue pareti.",
+    "fatto": "organo digerisce succo acido stomaco",
+    "fonte": "https://it.wikipedia.org/wiki/Stomaco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0031",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Con quale parte del corpo sentiamo il sapore dei cibi?",
+    "risposte": [
+      "Lingua",
+      "Palato",
+      "Gola",
+      "Labbra"
+    ],
+    "curiosita": "Le papille gustative sono migliaia.",
+    "fatto": "parte corpo sapori lingua",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_(anatomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0032",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'osso del braccio tra spalla e gomito?",
+    "risposte": [
+      "Omero",
+      "Femore",
+      "Tibia",
+      "Rotula"
+    ],
+    "curiosita": "Il punto del gomito che fa male se lo urtiamo è lì vicino.",
+    "fatto": "osso braccio omero",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0033",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama comunemente l'intestino, nel linguaggio di tutti i giorni?",
+    "risposte": [
+      "Budella",
+      "Polmoni",
+      "Reni",
+      "Costole"
+    ],
+    "curiosita": "Si dice anche \"interiora\" per gli organi interni.",
+    "fatto": "budella intestino",
+    "fonte": "https://it.wikipedia.org/wiki/Intestino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0034",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Che colore ha di solito il sangue umano?",
+    "risposte": [
+      "Rosso",
+      "Blu",
+      "Verde",
+      "Viola"
+    ],
+    "curiosita": "Anche quello nelle vene è rosso, solo più scuro.",
+    "fatto": "colore sangue umano rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0035",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quanti reni ha una persona di solito?",
+    "risposte": [
+      "Due",
+      "Uno",
+      "Tre",
+      "Quattro"
+    ],
+    "curiosita": "Se ne può vivere anche con uno solo.",
+    "fatto": "numero reni due",
+    "fonte": "https://it.wikipedia.org/wiki/Rene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0036",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano i denti appuntiti ai lati degli incisivi?",
+    "risposte": [
+      "Canini",
+      "Molari",
+      "Incisivi",
+      "Premolari"
+    ],
+    "curiosita": "Servono a strappare il cibo.",
+    "fatto": "denti appuntiti canini",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0037",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale parte del corpo ci fa sentire caldo e freddo?",
+    "risposte": [
+      "Pelle",
+      "Ossa",
+      "Stomaco",
+      "Capelli"
+    ],
+    "curiosita": "Ha migliaia di piccoli recettori.",
+    "fatto": "parte sente caldo freddo pelle",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0038",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'osso dell'avambraccio che forma il gomito?",
+    "risposte": [
+      "Ulna",
+      "Tibia",
+      "Perone",
+      "Scapola"
+    ],
+    "curiosita": "Si chiama anche cubito.",
+    "fatto": "osso gomito ulna",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0039",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Cosa rimane sulla pancia dopo il taglio del cordone ombelicale?",
+    "risposte": [
+      "Ombelico",
+      "Neo",
+      "Cicatrice",
+      "Voglia"
+    ],
+    "curiosita": "Lo abbiamo tutti: è il primo segno della nascita.",
+    "fatto": "cordone ombelicale ombelico",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0040",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama la parte dell'occhio che raccoglie le immagini?",
+    "risposte": [
+      "Retina",
+      "Cornea",
+      "Iride",
+      "Pupilla"
+    ],
+    "curiosita": "Contiene milioni di cellule sensibili alla luce.",
+    "fatto": "parte occhio immagini retina",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0041",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale muscolo sta sul davanti della parte alta del braccio?",
+    "risposte": [
+      "Bicipite",
+      "Gluteo",
+      "Trapezio",
+      "Soleo"
+    ],
+    "curiosita": "Si gonfia quando pieghiamo il gomito.",
+    "fatto": "muscolo braccio bicipite",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0042",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'osso del bacino su cui ci sediamo?",
+    "risposte": [
+      "Ischio",
+      "Femore",
+      "Omero",
+      "Radio"
+    ],
+    "curiosita": "Gli ischi sono due, uno per lato.",
+    "fatto": "osso su cui ci sediamo ischio",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0043",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale tubo porta l'aria dalla gola ai polmoni?",
+    "risposte": [
+      "Trachea",
+      "Esofago",
+      "Uretere",
+      "Colon"
+    ],
+    "curiosita": "Ha anelli di cartilagine che la tengono aperta.",
+    "fatto": "tubo aria polmoni trachea",
+    "fonte": "https://it.wikipedia.org/wiki/Trachea",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0044",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale senso ci fa riconoscere un tessuto morbido o ruvido?",
+    "risposte": [
+      "Tatto",
+      "Gusto",
+      "Udito",
+      "Olfatto"
+    ],
+    "curiosita": "Le dita sono tra le zone più sensibili.",
+    "fatto": "senso tessuto tatto",
+    "fonte": "https://it.wikipedia.org/wiki/Tatto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0045",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama il canale che porta l'urina fuori dal corpo?",
+    "risposte": [
+      "Uretra",
+      "Esofago",
+      "Trachea",
+      "Vena"
+    ],
+    "curiosita": "È la parte finale delle vie urinarie.",
+    "fatto": "canale urina uretra",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0046",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'osso della spalla a forma di triangolo?",
+    "risposte": [
+      "Scapola",
+      "Clavicola",
+      "Sterno",
+      "Omero"
+    ],
+    "curiosita": "Si chiama anche paletta.",
+    "fatto": "osso spalla scapola",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0047",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "In quale parte del corpo si trova la colonna vertebrale?",
+    "risposte": [
+      "Schiena",
+      "Gamba",
+      "Mano",
+      "Braccio"
+    ],
+    "curiosita": "Protegge il midollo spinale.",
+    "fatto": "colonna vertebrale schiena",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0048",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano le ossa che formano la colonna vertebrale?",
+    "risposte": [
+      "Vertebre",
+      "Costole",
+      "Falangi",
+      "Metacarpi"
+    ],
+    "curiosita": "Ci permettono di piegare la schiena.",
+    "fatto": "ossa colonna vertebre",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0049",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano le ossa delle dita?",
+    "risposte": [
+      "Falangi",
+      "Vertebre",
+      "Costole",
+      "Tarsi"
+    ],
+    "curiosita": "Ogni dito ne ha tre, il pollice solo due.",
+    "fatto": "ossa dita falangi",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0050",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiamano i vasi sanguigni più sottili del corpo?",
+    "risposte": [
+      "Capillari",
+      "Arterie",
+      "Vene",
+      "Bronchi"
+    ],
+    "curiosita": "Sono più sottili di un capello.",
+    "fatto": "vasi sottili capillari",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0051",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale muscolo sotto i polmoni ci permette di respirare?",
+    "risposte": [
+      "Diaframma",
+      "Gluteo",
+      "Bicipite",
+      "Deltoide"
+    ],
+    "curiosita": "Si abbassa quando inspiriamo.",
+    "fatto": "muscolo respiro diaframma",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0052",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Qual è il gas più abbondante nell'aria che respiriamo?",
+    "risposte": [
+      "Azoto",
+      "Ossigeno",
+      "Elio",
+      "Argon"
+    ],
+    "curiosita": "Ne è composta circa il 78%.",
+    "fatto": "gas aria piu abbondante azoto",
+    "fonte": "https://it.wikipedia.org/wiki/Aria",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0053",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama l'organo della gola dove si forma la voce?",
+    "risposte": [
+      "Laringe",
+      "Esofago",
+      "Faringe",
+      "Tiroide"
+    ],
+    "curiosita": "Contiene le corde vocali.",
+    "fatto": "organo voce laringe",
+    "fonte": "https://it.wikipedia.org/wiki/Laringe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0054",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale dito della mano è opponibile alle altre?",
+    "risposte": [
+      "Pollice",
+      "Indice",
+      "Medio",
+      "Mignolo"
+    ],
+    "curiosita": "Ci permette di afferrare gli oggetti con precisione.",
+    "fatto": "dito opponibile pollice",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0055",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Come si chiama la parte dell'orecchio che vediamo all'esterno?",
+    "risposte": [
+      "Padiglione",
+      "Timpano",
+      "Coclea",
+      "Staffa"
+    ],
+    "curiosita": "Raccoglie i suoni e li convoglia nel condotto.",
+    "fatto": "parte esterna orecchio padiglione",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0056",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Quale parte trasparente protegge l'occhio sul davanti?",
+    "risposte": [
+      "Cornea",
+      "Retina",
+      "Iride",
+      "Sclera"
+    ],
+    "curiosita": "Non ha vasi sanguigni.",
+    "fatto": "parte trasparente occhio cornea",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0057",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "In quale parte della bocca si trovano i molari?",
+    "risposte": [
+      "In fondo",
+      "Davanti",
+      "Sul palato",
+      "Sotto la lingua"
+    ],
+    "curiosita": "Servono a masticare e triturare.",
+    "fatto": "molari posizione fondo bocca",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0058",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "In quale parte del corpo si trovano le tonsille?",
+    "risposte": [
+      "Gola",
+      "Stomaco",
+      "Ginocchio",
+      "Orecchio"
+    ],
+    "curiosita": "Sono masse di tessuto ai lati della gola.",
+    "fatto": "tonsille gola",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0059",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "A cosa serve soprattutto l'intestino tenue?",
+    "risposte": [
+      "Assorbire nutrienti",
+      "Produrre bile",
+      "Pompare sangue",
+      "Filtrare aria"
+    ],
+    "curiosita": "È lungo diversi metri.",
+    "fatto": "funzione intestino tenue assorbire nutrienti",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0060",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "domanda": "Che cosa sentiamo con la mano appoggiata sul petto?",
+    "risposte": [
+      "Il battito",
+      "L'eco",
+      "Il respiro",
+      "Il sudore"
+    ],
+    "curiosita": "È il cuore che spinge il sangue a ogni contrazione.",
+    "fatto": "sentire battito mano petto",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0061",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quante ossa ha circa un neonato?",
+    "risposte": [
+      "Circa 300",
+      "Circa 200",
+      "Circa 150",
+      "Circa 450"
+    ],
+    "curiosita": "Crescendo molte si fondono, fino alle 206 dell'adulto.",
+    "fatto": "ossa neonato 300",
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0062",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Qual è il muscolo più grande del corpo umano?",
+    "risposte": [
+      "Grande gluteo",
+      "Bicipite",
+      "Quadricipite",
+      "Deltoide"
+    ],
+    "curiosita": "Ci tiene in piedi e ci fa camminare in posizione eretta.",
+    "fatto": "muscolo piu grande gluteo",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0063",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Che cosa provoca la pelle d'oca?",
+    "risposte": [
+      "Muscoli che rizzano i peli",
+      "Nervi che si congelano",
+      "Ghiandole che si chiudono",
+      "Grasso che si indurisce"
+    ],
+    "curiosita": "È un riflesso antico: ai nostri antenati il pelo folto serviva contro il freddo.",
+    "fatto": "causa pelle d oca",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0064",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama la mezzaluna chiara alla base dell'unghia?",
+    "risposte": [
+      "Lunula",
+      "Cuticola",
+      "Matrice",
+      "Lamina"
+    ],
+    "curiosita": "Il nome viene dal latino: significa piccola luna.",
+    "fatto": "mezzaluna unghia lunula",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0065",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Qual è la ghiandola più grande del corpo?",
+    "risposte": [
+      "Fegato",
+      "Tiroide",
+      "Pancreas",
+      "Milza"
+    ],
+    "curiosita": "Svolge oltre cinquecento funzioni diverse.",
+    "fatto": "ghiandola piu grande fegato",
+    "fonte": "https://it.wikipedia.org/wiki/Fegato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0066",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Che cosa indica il segno + o - del gruppo sanguigno?",
+    "risposte": [
+      "Il fattore Rh",
+      "Il sesso",
+      "La pressione",
+      "L'età"
+    ],
+    "curiosita": "Rh viene dalle scimmie rhesus, usate negli studi.",
+    "fatto": "segno gruppo sanguigno rh",
+    "fonte": "https://it.wikipedia.org/wiki/Gruppo_sanguigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0067",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Dove si trova l'osso sacro?",
+    "risposte": [
+      "Nel bacino",
+      "Nel collo",
+      "Nella spalla",
+      "Nel polso"
+    ],
+    "curiosita": "Si trova alla base della colonna vertebrale.",
+    "fatto": "osso sacro bacino",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0068",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanto vive circa un globulo rosso?",
+    "risposte": [
+      "Circa 120 giorni",
+      "Circa 10 giorni",
+      "Circa 1 anno",
+      "Circa 5 anni"
+    ],
+    "curiosita": "Il midollo osseo ne produce milioni ogni secondo.",
+    "fatto": "vita globulo rosso 120 giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0069",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanto batte il cuore di un adulto a riposo?",
+    "risposte": [
+      "Circa 70 al minuto",
+      "Circa 30 al minuto",
+      "Circa 140 al minuto",
+      "Circa 200 al minuto"
+    ],
+    "curiosita": "Un neonato ha invece un battito molto più veloce.",
+    "fatto": "battito cuore riposo 70",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0070",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiamano le cellule del sistema nervoso?",
+    "risposte": [
+      "Neuroni",
+      "Osteociti",
+      "Miociti",
+      "Adipociti"
+    ],
+    "curiosita": "Nel cervello ce ne sono circa 86 miliardi.",
+    "fatto": "cellule sistema nervoso neuroni",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0071",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale organo interno ha una notevole capacità di rigenerarsi?",
+    "risposte": [
+      "Fegato",
+      "Cuore",
+      "Cervello",
+      "Reni"
+    ],
+    "curiosita": "Può ricrescere anche dopo la rimozione di una parte.",
+    "fatto": "organo rigenera fegato",
+    "fonte": "https://it.wikipedia.org/wiki/Fegato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0072",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale ghiandola produce la melatonina, legata al sonno?",
+    "risposte": [
+      "Pineale",
+      "Tiroide",
+      "Ipofisi",
+      "Surrene"
+    ],
+    "curiosita": "Si attiva soprattutto quando fa buio.",
+    "fatto": "ghiandola melatonina pineale",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0073",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale sostanza dà al sangue il colore rosso?",
+    "risposte": [
+      "Emoglobina",
+      "Melanina",
+      "Clorofilla",
+      "Cheratina"
+    ],
+    "curiosita": "Contiene ferro, che si lega all'ossigeno.",
+    "fatto": "sostanza colore rosso sangue emoglobina",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0074",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Che cosa si contrae di scatto quando abbiamo il singhiozzo?",
+    "risposte": [
+      "Diaframma",
+      "Stomaco",
+      "Cuore",
+      "Lingua"
+    ],
+    "curiosita": "Il suono \"hic\" nasce dalla chiusura improvvisa delle corde vocali.",
+    "fatto": "singhiozzo contrazione diaframma",
+    "fonte": "https://it.wikipedia.org/wiki/Singhiozzo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0075",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale parte del cervello coordina equilibrio e movimenti?",
+    "risposte": [
+      "Cervelletto",
+      "Ipotalamo",
+      "Ippocampo",
+      "Talamo"
+    ],
+    "curiosita": "Il nome significa piccolo cervello.",
+    "fatto": "parte cervello equilibrio cervelletto",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0076",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quante costole ha di solito un adulto?",
+    "risposte": [
+      "24",
+      "20",
+      "28",
+      "32"
+    ],
+    "curiosita": "Dodici paia, anche se qualcuno ne ha qualcuna in più.",
+    "fatto": "costole adulto 24",
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0077",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Di quale proteina sono fatti soprattutto capelli e unghie?",
+    "risposte": [
+      "Cheratina",
+      "Collagene",
+      "Melanina",
+      "Insulina"
+    ],
+    "curiosita": "È la stessa sostanza di corna e artigli degli animali.",
+    "fatto": "proteina capelli unghie cheratina",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0078",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quante vertebre ha il collo di una persona?",
+    "risposte": [
+      "Sette",
+      "Cinque",
+      "Nove",
+      "Dodici"
+    ],
+    "curiosita": "Anche la giraffa ne ha sette, ma molto più lunghe.",
+    "fatto": "vertebre cervicali sette",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0079",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanti gradi ha circa la temperatura normale del corpo?",
+    "risposte": [
+      "Circa 37 °C",
+      "Circa 35 °C",
+      "Circa 39 °C",
+      "Circa 41 °C"
+    ],
+    "curiosita": "Cambia un po' durante la giornata ed è più bassa al mattino.",
+    "fatto": "temperatura corpo 37",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0080",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Il pomo d'Adamo è una sporgenza di quale organo?",
+    "risposte": [
+      "Laringe",
+      "Trachea",
+      "Esofago",
+      "Tiroide"
+    ],
+    "curiosita": "È più visibile negli uomini adulti.",
+    "fatto": "pomo d adamo laringe",
+    "fonte": "https://it.wikipedia.org/wiki/Laringe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0081",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'ormone del tutto o niente, che accelera il cuore?",
+    "risposte": [
+      "Adrenalina",
+      "Insulina",
+      "Melatonina",
+      "Ossitocina"
+    ],
+    "curiosita": "Viene prodotto in situazioni di spavento o forte emozione.",
+    "fatto": "ormone accelera cuore adrenalina",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0082",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale organo è avvolto dalle meningi?",
+    "risposte": [
+      "Cervello",
+      "Cuore",
+      "Polmone",
+      "Fegato"
+    ],
+    "curiosita": "Sono tre membrane che lo proteggono.",
+    "fatto": "organo meningi cervello",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0083",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come arriva l'immagine sulla retina del nostro occhio?",
+    "risposte": [
+      "Capovolta",
+      "Ingrandita",
+      "Deformata",
+      "Sfocata"
+    ],
+    "curiosita": "Il cervello poi la rimette dritta.",
+    "fatto": "immagine retina capovolta",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0084",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Qual è la parte più dura del corpo umano?",
+    "risposte": [
+      "Smalto dei denti",
+      "Femore",
+      "Cranio",
+      "Unghia"
+    ],
+    "curiosita": "È il tessuto più mineralizzato che abbiamo.",
+    "fatto": "parte piu dura smalto",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0085",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale cellula può essere lunga più di un metro?",
+    "risposte": [
+      "Neurone motorio",
+      "Globulo rosso",
+      "Cellula della pelle",
+      "Ovulo"
+    ],
+    "curiosita": "Collega il midollo spinale ai muscoli del piede.",
+    "fatto": "cellula piu lunga neurone motorio",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0086",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanto pesa circa un cervello adulto?",
+    "risposte": [
+      "Circa 1,4 kg",
+      "Circa 400 g",
+      "Circa 3 kg",
+      "Circa 5 kg"
+    ],
+    "curiosita": "È solo il 2% del peso corporeo.",
+    "fatto": "peso cervello adulto",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0087",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanti sono i sapori di base riconosciuti dalla lingua?",
+    "risposte": [
+      "Cinque",
+      "Quattro",
+      "Sei",
+      "Tre"
+    ],
+    "curiosita": "Dolce, salato, acido, amaro e umami.",
+    "fatto": "sapori base cinque",
+    "fonte": "https://it.wikipedia.org/wiki/Gusto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0088",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama il quinto sapore, oltre a dolce, salato, acido e amaro?",
+    "risposte": [
+      "Umami",
+      "Piccante",
+      "Metallico",
+      "Grasso"
+    ],
+    "curiosita": "In giapponese significa gusto saporito.",
+    "fatto": "quinto sapore umami",
+    "fonte": "https://it.wikipedia.org/wiki/Gusto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0089",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiamano le cellule della retina che vedono i colori?",
+    "risposte": [
+      "Coni",
+      "Bastoncelli",
+      "Cheratociti",
+      "Ciglia"
+    ],
+    "curiosita": "Ne abbiamo circa sei milioni in ogni occhio.",
+    "fatto": "cellule retina colori coni",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0090",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiamano le cellule della retina che vedono al buio?",
+    "risposte": [
+      "Bastoncelli",
+      "Coni",
+      "Cheratociti",
+      "Ciglia"
+    ],
+    "curiosita": "Non distinguono i colori: per questo di notte vediamo grigio.",
+    "fatto": "cellule retina buio bastoncelli",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0091",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'organo a chiocciola dell'orecchio interno?",
+    "risposte": [
+      "Coclea",
+      "Staffa",
+      "Timpano",
+      "Padiglione"
+    ],
+    "curiosita": "Trasforma le vibrazioni in segnali nervosi.",
+    "fatto": "organo chiocciola orecchio coclea",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0092",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale parte dell'orecchio ci aiuta a mantenere l'equilibrio?",
+    "risposte": [
+      "Canali semicircolari",
+      "Padiglione",
+      "Timpano",
+      "Coclea"
+    ],
+    "curiosita": "Sono tre per orecchio, in tre direzioni diverse.",
+    "fatto": "equilibrio orecchio canali semicircolari",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0093",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Qual è il tendine più grosso del corpo?",
+    "risposte": [
+      "Tendine d'Achille",
+      "Tendine rotuleo",
+      "Legamento crociato",
+      "Tendine del bicipite"
+    ],
+    "curiosita": "Collega i muscoli del polpaccio al tallone.",
+    "fatto": "tendine piu grosso achille",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0094",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama la parte liquida del sangue?",
+    "risposte": [
+      "Plasma",
+      "Linfa",
+      "Bile",
+      "Sebo"
+    ],
+    "curiosita": "È composta per oltre il 90% di acqua.",
+    "fatto": "parte liquida sangue plasma",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0095",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quali cellule del sangue servono alla coagulazione?",
+    "risposte": [
+      "Piastrine",
+      "Globuli rossi",
+      "Linfociti",
+      "Neutrofili"
+    ],
+    "curiosita": "Chiudono le ferite formando un tappo.",
+    "fatto": "cellule coagulazione piastrine",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0096",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale polmone è un po' più grande?",
+    "risposte": [
+      "Il destro",
+      "Il sinistro",
+      "Sono identici",
+      "Dipende dal sesso"
+    ],
+    "curiosita": "Il sinistro lascia spazio al cuore.",
+    "fatto": "polmone piu grande destro",
+    "fonte": "https://it.wikipedia.org/wiki/Polmone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0097",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale medico dell'impero romano dominò la medicina per secoli?",
+    "risposte": [
+      "Galeno",
+      "Ippocrate",
+      "Vesalio",
+      "Avicenna"
+    ],
+    "curiosita": "Le sue idee furono accettate per quasi 1.400 anni.",
+    "fatto": "medico romano galeno",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0098",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Chi inventò lo stetoscopio?",
+    "risposte": [
+      "René Laennec",
+      "Louis Pasteur",
+      "Robert Koch",
+      "Ignaz Semmelweis"
+    ],
+    "curiosita": "Nel 1816 usò un rotolo di carta per ascoltare il cuore.",
+    "fatto": "inventore stetoscopio laennec",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0099",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Chi scoprì i gruppi sanguigni?",
+    "risposte": [
+      "Karl Landsteiner",
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "William Harvey"
+    ],
+    "curiosita": "Vinse il Nobel per la medicina nel 1930.",
+    "fatto": "scopritore gruppi sanguigni landsteiner",
+    "fonte": "https://it.wikipedia.org/wiki/Gruppo_sanguigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0100",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Che cosa indica il prefisso osteo-, come in osteopata?",
+    "risposte": [
+      "Osso",
+      "Orecchio",
+      "Pelle",
+      "Muscolo"
+    ],
+    "curiosita": "Dal greco osteon.",
+    "fatto": "prefisso osteo osso",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0101",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale parte del corpo è il carpo?",
+    "risposte": [
+      "Polso",
+      "Caviglia",
+      "Gomito",
+      "Ginocchio"
+    ],
+    "curiosita": "Il tunnel carpale prende il nome da lì.",
+    "fatto": "carpo polso",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0102",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "In quale arto si trova il perone?",
+    "risposte": [
+      "Gamba",
+      "Braccio",
+      "Mano",
+      "Torace"
+    ],
+    "curiosita": "È l'osso sottile accanto alla tibia.",
+    "fatto": "perone gamba",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0103",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "A cosa serve il cerume?",
+    "risposte": [
+      "Proteggere l'orecchio",
+      "Lubrificare gli occhi",
+      "Digerire i grassi",
+      "Isolare dal freddo"
+    ],
+    "curiosita": "Cattura polvere e piccoli insetti.",
+    "fatto": "funzione cerume proteggere orecchio",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0104",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Che cosa succede spesso quando vediamo qualcuno sbadigliare?",
+    "risposte": [
+      "Sbadigliamo anche noi",
+      "Ci viene fame",
+      "Ci viene sete",
+      "Ci viene freddo"
+    ],
+    "curiosita": "Lo sbadiglio è contagioso, e non si sa bene perché.",
+    "fatto": "sbadiglio contagioso",
+    "fonte": "https://it.wikipedia.org/wiki/Sbadiglio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0105",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "In quale fase del sonno facciamo i sogni più vividi?",
+    "risposte": [
+      "Fase REM",
+      "Fase profonda",
+      "Fase leggera",
+      "Dormiveglia"
+    ],
+    "curiosita": "REM sta per movimenti rapidi degli occhi.",
+    "fatto": "fase sonno sogni rem",
+    "fonte": "https://it.wikipedia.org/wiki/Sonno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0106",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Dove si producono i globuli rossi?",
+    "risposte": [
+      "Midollo osseo",
+      "Fegato",
+      "Cuore",
+      "Polmone"
+    ],
+    "curiosita": "Si trova all'interno delle ossa.",
+    "fatto": "produzione globuli rossi midollo osseo",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0107",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanti denti da latte ha un bambino?",
+    "risposte": [
+      "20",
+      "24",
+      "28",
+      "32"
+    ],
+    "curiosita": "Cadono tra i 6 e i 12 anni circa.",
+    "fatto": "denti da latte 20",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0108",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Come si chiama lo strato più esterno della pelle?",
+    "risposte": [
+      "Epidermide",
+      "Derma",
+      "Ipoderma",
+      "Cuticola"
+    ],
+    "curiosita": "Si rinnova di continuo: perdiamo milioni di cellule ogni giorno.",
+    "fatto": "strato esterno pelle epidermide",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0109",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale ormone è detto ormone dell'abbraccio?",
+    "risposte": [
+      "Ossitocina",
+      "Insulina",
+      "Adrenalina",
+      "Melatonina"
+    ],
+    "curiosita": "Aumenta nei contatti affettuosi.",
+    "fatto": "ormone abbraccio ossitocina",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0110",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "I gemelli identici hanno le stesse impronte digitali?",
+    "risposte": [
+      "No, diverse",
+      "Sì, identiche",
+      "Solo nella mano destra",
+      "Solo da adulti"
+    ],
+    "curiosita": "Dipendono anche dalle condizioni nel pancione.",
+    "fatto": "gemelli identici impronte diverse",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0111",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quando si formano le impronte digitali?",
+    "risposte": [
+      "Prima della nascita",
+      "Al primo anno",
+      "A dieci anni",
+      "In adolescenza"
+    ],
+    "curiosita": "Si formano nel feto, circa al quarto mese.",
+    "fatto": "formazione impronte digitali",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0112",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanti cromosomi ha di solito una cellula del corpo?",
+    "risposte": [
+      "46",
+      "48",
+      "44",
+      "52"
+    ],
+    "curiosita": "Sono 23 coppie, metà dalla madre e metà dal padre.",
+    "fatto": "cromosomi cellula umana 46",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0113",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "In quale organo si trovano gli alveoli?",
+    "risposte": [
+      "Polmoni",
+      "Reni",
+      "Stomaco",
+      "Fegato"
+    ],
+    "curiosita": "Sono sacchetti dove l'ossigeno passa nel sangue.",
+    "fatto": "alveoli polmoni",
+    "fonte": "https://it.wikipedia.org/wiki/Polmone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0114",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quante camere ha il cuore umano?",
+    "risposte": [
+      "Quattro",
+      "Due",
+      "Tre",
+      "Sei"
+    ],
+    "curiosita": "Due atri e due ventricoli.",
+    "fatto": "camere cuore quattro",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0115",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale ghiandola ha forma di farfalla e sta nel collo?",
+    "risposte": [
+      "Tiroide",
+      "Pancreas",
+      "Timo",
+      "Surrene"
+    ],
+    "curiosita": "Regola il metabolismo del corpo.",
+    "fatto": "ghiandola farfalla collo tiroide",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0116",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale parte dell'occhio funziona come una lente?",
+    "risposte": [
+      "Cristallino",
+      "Retina",
+      "Iride",
+      "Sclera"
+    ],
+    "curiosita": "Cambia forma per mettere a fuoco.",
+    "fatto": "parte occhio lente cristallino",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0117",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quale nervo porta le immagini dall'occhio al cervello?",
+    "risposte": [
+      "Nervo ottico",
+      "Nervo vago",
+      "Nervo sciatico",
+      "Nervo facciale"
+    ],
+    "curiosita": "Contiene più di un milione di fibre.",
+    "fatto": "nervo immagini occhio cervello ottico",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0118",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanta acqua contiene circa il corpo di un adulto?",
+    "risposte": [
+      "Circa il 60%",
+      "Circa il 20%",
+      "Circa il 40%",
+      "Circa il 90%"
+    ],
+    "curiosita": "Nei neonati la percentuale è ancora più alta.",
+    "fatto": "acqua corpo adulto 60",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0119",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "In quale parte del corpo si trovano martello, incudine e staffa?",
+    "risposte": [
+      "Orecchio",
+      "Laringe",
+      "Polso",
+      "Naso"
+    ],
+    "curiosita": "Sono i tre ossicini dell'udito.",
+    "fatto": "ossicini martello incudine staffa orecchio",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0120",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "domanda": "Quanti odori diversi sa distinguere il naso umano?",
+    "risposte": [
+      "Oltre mille",
+      "Una decina",
+      "Un centinaio",
+      "Solo cinque"
+    ],
+    "curiosita": "Alcuni studi parlano di molte migliaia.",
+    "fatto": "odori distinti naso oltre mille",
+    "fonte": "https://it.wikipedia.org/wiki/Olfatto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0121",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Da quale scienziato prende il nome il daltonismo?",
+    "risposte": [
+      "John Dalton",
+      "Isaac Newton",
+      "Charles Darwin",
+      "Louis Pasteur"
+    ],
+    "curiosita": "Dalton, che ne soffriva, lo descrisse nel 1794.",
+    "fatto": "daltonismo nome dalton",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0122",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'osso a forma di U nella gola?",
+    "risposte": [
+      "Ioide",
+      "Sacro",
+      "Sterno",
+      "Rotula"
+    ],
+    "curiosita": "Sostiene la lingua e non tocca altre ossa.",
+    "fatto": "osso u gola ioide",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0123",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale muscolo usiamo soprattutto per masticare?",
+    "risposte": [
+      "Massetere",
+      "Trapezio",
+      "Deltoide",
+      "Sartorio"
+    ],
+    "curiosita": "Spinge i denti con forza notevole in rapporto alle dimensioni.",
+    "fatto": "muscolo masticare massetere",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0124",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Qual è il muscolo più lungo del corpo umano?",
+    "risposte": [
+      "Sartorio",
+      "Gluteo",
+      "Bicipite",
+      "Soleo"
+    ],
+    "curiosita": "Si chiama come il sarto, che stava seduto a gambe incrociate.",
+    "fatto": "muscolo piu lungo sartorio",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0125",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quali ghiandole producono le lacrime?",
+    "risposte": [
+      "Lacrimali",
+      "Salivari",
+      "Sebacee",
+      "Sudoripare"
+    ],
+    "curiosita": "Sono sopra gli occhi, verso l'esterno.",
+    "fatto": "ghiandole lacrime lacrimali",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0126",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale organo sotto le costole a sinistra fa da serbatoio di sangue?",
+    "risposte": [
+      "Milza",
+      "Fegato",
+      "Pancreas",
+      "Rene"
+    ],
+    "curiosita": "Può rilasciare sangue di riserva nei momenti di sforzo.",
+    "fatto": "milza serbatoio sangue",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0127",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale parte del cuore spinge il sangue in tutto il corpo?",
+    "risposte": [
+      "Ventricolo sinistro",
+      "Atrio destro",
+      "Ventricolo destro",
+      "Atrio sinistro"
+    ],
+    "curiosita": "Ha le pareti più spesse perché fa lo sforzo maggiore.",
+    "fatto": "parte cuore spinge sangue ventricolo sinistro",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0128",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la più grande arteria del corpo?",
+    "risposte": [
+      "Aorta",
+      "Carotide",
+      "Femorale",
+      "Succlavia"
+    ],
+    "curiosita": "Ha il diametro di circa un tubo da giardino.",
+    "fatto": "arteria piu grande aorta",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0129",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Qual è il nervo più lungo del corpo?",
+    "risposte": [
+      "Sciatico",
+      "Ottico",
+      "Vago",
+      "Facciale"
+    ],
+    "curiosita": "Va dalla schiena fin giù ai piedi.",
+    "fatto": "nervo piu lungo sciatico",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0130",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Dove viene immagazzinata la bile?",
+    "risposte": [
+      "Cistifellea",
+      "Pancreas",
+      "Milza",
+      "Vescica"
+    ],
+    "curiosita": "Si chiama anche colecisti.",
+    "fatto": "bile immagazzinata cistifellea",
+    "fonte": "https://it.wikipedia.org/wiki/Fegato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0131",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quali ghiandole si trovano sopra i reni?",
+    "risposte": [
+      "Surrenali",
+      "Tiroidee",
+      "Salivari",
+      "Lacrimali"
+    ],
+    "curiosita": "Producono adrenalina e cortisolo.",
+    "fatto": "ghiandole sopra reni surrenali",
+    "fonte": "https://it.wikipedia.org/wiki/Rene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0132",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale ghiandola dietro lo sterno si riduce con l'età?",
+    "risposte": [
+      "Timo",
+      "Tiroide",
+      "Pineale",
+      "Ipofisi"
+    ],
+    "curiosita": "Aiuta i globuli bianchi a maturare.",
+    "fatto": "ghiandola dietro sterno timo",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0133",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama il senso che ci dice dove sono le parti del corpo?",
+    "risposte": [
+      "Propriocezione",
+      "Sinestesia",
+      "Empatia",
+      "Telepatia"
+    ],
+    "curiosita": "Per questo possiamo toccarci il naso a occhi chiusi.",
+    "fatto": "senso posizione corpo propriocezione",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0134",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Perché ogni occhio ha un punto cieco?",
+    "risposte": [
+      "Lì esce il nervo ottico",
+      "Lì c'è la pupilla",
+      "Lì finisce la cornea",
+      "Lì manca l'iride"
+    ],
+    "curiosita": "Il cervello riempie il vuoto senza che ce ne accorgiamo.",
+    "fatto": "punto cieco nervo ottico",
+    "fonte": "https://it.wikipedia.org/wiki/Occhio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0135",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quali frequenze sente l'orecchio umano, circa?",
+    "risposte": [
+      "Da 20 a 20.000 Hz",
+      "Da 2 a 200 Hz",
+      "Da 100 a 1.000 Hz",
+      "Da 1 a 100 Hz"
+    ],
+    "curiosita": "Con l'età si perdono i suoni più acuti.",
+    "fatto": "frequenze udito umano",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0136",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quali strutture dell'intestino aumentano l'assorbimento?",
+    "risposte": [
+      "Villi",
+      "Alveoli",
+      "Bronchioli",
+      "Follicoli"
+    ],
+    "curiosita": "Ne è piena la parete dell'intestino tenue.",
+    "fatto": "strutture intestino assorbimento villi",
+    "fonte": "https://it.wikipedia.org/wiki/Intestino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0137",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama il liquido che lubrifica le articolazioni?",
+    "risposte": [
+      "Liquido sinoviale",
+      "Linfa",
+      "Bile",
+      "Siero"
+    ],
+    "curiosita": "Riduce l'attrito come l'olio in un ingranaggio.",
+    "fatto": "liquido articolazioni sinoviale",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0138",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama il liquido che circonda il cervello?",
+    "risposte": [
+      "Liquor",
+      "Plasma",
+      "Linfa",
+      "Sinovia"
+    ],
+    "curiosita": "Il cervello vi galleggia, come in un cuscino d'acqua.",
+    "fatto": "liquido cervello liquor",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0139",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale tessuto unisce il muscolo all'osso?",
+    "risposte": [
+      "Tendine",
+      "Legamento",
+      "Cartilagine",
+      "Cuticola"
+    ],
+    "curiosita": "Il legamento unisce invece un osso all'altro.",
+    "fatto": "tessuto unisce muscolo osso tendine",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0140",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale tessuto unisce un osso all'altro?",
+    "risposte": [
+      "Legamento",
+      "Tendine",
+      "Cartilagine",
+      "Sebo"
+    ],
+    "curiosita": "Stabilizza le articolazioni, come una corda elastica.",
+    "fatto": "tessuto unisce osso osso legamento",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0141",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Chi è considerato il padre della medicina?",
+    "risposte": [
+      "Ippocrate",
+      "Galeno",
+      "Avicenna",
+      "Paracelso"
+    ],
+    "curiosita": "Il suo giuramento è ancora noto ai medici.",
+    "fatto": "padre della medicina ippocrate",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0142",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Chi pubblicò nel 1543 il trattato De humani corporis fabrica?",
+    "risposte": [
+      "Andrea Vesalio",
+      "Galeno",
+      "Leonardo da Vinci",
+      "William Harvey"
+    ],
+    "curiosita": "Fu il primo grande atlante di anatomia con disegni precisi.",
+    "fatto": "autore de humani corporis fabrica vesalio",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0143",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Chi scoprì l'insulina con Charles Best nel 1921?",
+    "risposte": [
+      "Frederick Banting",
+      "Ignaz Semmelweis",
+      "Edward Jenner",
+      "Jonas Salk"
+    ],
+    "curiosita": "Vinse il Nobel per la medicina nel 1923.",
+    "fatto": "scopritore insulina banting",
+    "fonte": "https://it.wikipedia.org/wiki/Pancreas",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0144",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale metallo è presente nell'emoglobina?",
+    "risposte": [
+      "Ferro",
+      "Calcio",
+      "Rame",
+      "Zinco"
+    ],
+    "curiosita": "Per questo il sangue ha un vago sapore metallico.",
+    "fatto": "metallo emoglobina ferro",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0145",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale minerale è il principale componente delle ossa?",
+    "risposte": [
+      "Calcio",
+      "Ferro",
+      "Sodio",
+      "Potassio"
+    ],
+    "curiosita": "Il nostro scheletro ne contiene circa un chilo.",
+    "fatto": "minerale ossa calcio",
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0146",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale parte del cervello è legata a paura ed emozioni forti?",
+    "risposte": [
+      "Amigdala",
+      "Ippocampo",
+      "Cervelletto",
+      "Talamo"
+    ],
+    "curiosita": "Il suo nome viene dalla forma a mandorla.",
+    "fatto": "parte cervello paura amigdala",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0147",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale parte del cervello è legata soprattutto alla memoria?",
+    "risposte": [
+      "Ippocampo",
+      "Amigdala",
+      "Cervelletto",
+      "Ipotalamo"
+    ],
+    "curiosita": "È importante per formare i ricordi nuovi.",
+    "fatto": "parte cervello memoria ippocampo",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0148",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Da quale animale prende il nome l'ippocampo del cervello?",
+    "risposte": [
+      "Cavalluccio marino",
+      "Cavallo",
+      "Ippopotamo",
+      "Delfino"
+    ],
+    "curiosita": "Per la sua forma ricurva, simile a un cavalluccio marino.",
+    "fatto": "nome ippocampo animale cavalluccio",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0149",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale parte del cervello regola fame, sete e temperatura?",
+    "risposte": [
+      "Ipotalamo",
+      "Cervelletto",
+      "Amigdala",
+      "Ippocampo"
+    ],
+    "curiosita": "È grande quanto una mandorla.",
+    "fatto": "parte cervello fame sete ipotalamo",
+    "fonte": "https://it.wikipedia.org/wiki/Cervello",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0150",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Qual è il più grande osso sesamoide del corpo?",
+    "risposte": [
+      "Rotula",
+      "Ioide",
+      "Pisiforme",
+      "Astragalo"
+    ],
+    "curiosita": "Sesamoide significa a forma di seme di sesamo.",
+    "fatto": "osso sesamoide piu grande rotula",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0151",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la prima vertebra, che sorregge il cranio?",
+    "risposte": [
+      "Atlante",
+      "Epistrofeo",
+      "Sacro",
+      "Coccige"
+    ],
+    "curiosita": "Come il titano della mitologia che reggeva il cielo.",
+    "fatto": "prima vertebra atlante",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0152",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama l'ultimo tratto della colonna, ricordo della coda?",
+    "risposte": [
+      "Coccige",
+      "Sacro",
+      "Atlante",
+      "Epistrofeo"
+    ],
+    "curiosita": "Deriva dal greco: becco di cuculo.",
+    "fatto": "ultimo tratto colonna coccige",
+    "fonte": "https://it.wikipedia.org/wiki/Colonna_vertebrale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0153",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quante paia di nervi cranici ha l'essere umano?",
+    "risposte": [
+      "12",
+      "8",
+      "16",
+      "31"
+    ],
+    "curiosita": "Escono direttamente dal cervello, senza passare dal midollo.",
+    "fatto": "nervi cranici 12 paia",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0154",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama il piccolo lembo che pende in fondo al palato?",
+    "risposte": [
+      "Ugola",
+      "Epiglottide",
+      "Tonsilla",
+      "Adenoide"
+    ],
+    "curiosita": "Si muove quando deglutiamo e parliamo.",
+    "fatto": "lembo palato ugola",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0155",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale lembo chiude la trachea quando deglutiamo?",
+    "risposte": [
+      "Epiglottide",
+      "Ugola",
+      "Tonsilla",
+      "Adenoide"
+    ],
+    "curiosita": "Evita che il cibo vada nelle vie respiratorie.",
+    "fatto": "lembo chiude trachea epiglottide",
+    "fonte": "https://it.wikipedia.org/wiki/Laringe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0156",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale nervo urtiamo quando diciamo di aver preso una botta al gomito?",
+    "risposte": [
+      "Ulnare",
+      "Radiale",
+      "Mediano",
+      "Sciatico"
+    ],
+    "curiosita": "Il formicolio arriva fino al mignolo.",
+    "fatto": "nervo botta gomito ulnare",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0157",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Circa quanto sangue pompa il cuore in un giorno?",
+    "risposte": [
+      "Circa 7.000 litri",
+      "Circa 700 litri",
+      "Circa 70.000 litri",
+      "Circa 70 litri"
+    ],
+    "curiosita": "In un anno sono più di due milioni di litri.",
+    "fatto": "litri sangue pompati al giorno",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0158",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quante volte batte il cuore in una vita lunga?",
+    "risposte": [
+      "Circa 3 miliardi",
+      "Circa 300 milioni",
+      "Circa 30 miliardi",
+      "Circa 30 milioni"
+    ],
+    "curiosita": "Per un'ottantina d'anni di vita.",
+    "fatto": "battiti cuore in una vita",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0159",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quali ghiandole rendono la pelle e i capelli untuosi?",
+    "risposte": [
+      "Sebacee",
+      "Sudoripare",
+      "Lacrimali",
+      "Salivari"
+    ],
+    "curiosita": "Producono il sebo.",
+    "fatto": "ghiandole pelle untuosa sebacee",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0160",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale membrana vibra quando un suono arriva nell'orecchio?",
+    "risposte": [
+      "Timpano",
+      "Cornea",
+      "Retina",
+      "Pleura"
+    ],
+    "curiosita": "Trasmette le vibrazioni agli ossicini.",
+    "fatto": "membrana vibra suono timpano",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0161",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la membrana che avvolge i polmoni?",
+    "risposte": [
+      "Pleura",
+      "Pericardio",
+      "Peritoneo",
+      "Cornea"
+    ],
+    "curiosita": "Tra i suoi due foglietti c'è un velo di liquido.",
+    "fatto": "membrana polmoni pleura",
+    "fonte": "https://it.wikipedia.org/wiki/Polmone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0162",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la membrana che avvolge il cuore?",
+    "risposte": [
+      "Pericardio",
+      "Pleura",
+      "Peritoneo",
+      "Timpano"
+    ],
+    "curiosita": "Dal greco peri e kardia, intorno al cuore.",
+    "fatto": "membrana cuore pericardio",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0163",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "A quale organo si riferisce l'aggettivo epatico?",
+    "risposte": [
+      "Fegato",
+      "Reni",
+      "Pancreas",
+      "Polmoni"
+    ],
+    "curiosita": "Da qui epatite, cioè infiammazione del fegato.",
+    "fatto": "aggettivo epatico fegato",
+    "fonte": "https://it.wikipedia.org/wiki/Fegato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0164",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Che cosa studia la nefrologia?",
+    "risposte": [
+      "I reni",
+      "I nervi",
+      "Il naso",
+      "I neonati"
+    ],
+    "curiosita": "Dal greco nephros, rene.",
+    "fatto": "studio nefrologia reni",
+    "fonte": "https://it.wikipedia.org/wiki/Rene",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0165",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Che cosa studia l'otorinolaringoiatria?",
+    "risposte": [
+      "Orecchio, naso e gola",
+      "Occhi, naso e denti",
+      "Ossa, nervi e pelle",
+      "Cuore, polmoni e reni"
+    ],
+    "curiosita": "È una delle parole più lunghe dell'italiano medico.",
+    "fatto": "studio otorinolaringoiatria",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0166",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "In quale parte del corpo si trova il muscolo più piccolo?",
+    "risposte": [
+      "Orecchio",
+      "Dito",
+      "Occhio",
+      "Lingua"
+    ],
+    "curiosita": "Il muscolo stapedio misura circa un millimetro.",
+    "fatto": "muscolo piu piccolo orecchio stapedio",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0167",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Qual è l'unico osso mobile del cranio?",
+    "risposte": [
+      "Mandibola",
+      "Mascella",
+      "Zigomo",
+      "Occipitale"
+    ],
+    "curiosita": "Serve per masticare e parlare.",
+    "fatto": "osso mobile cranio mandibola",
+    "fonte": "https://it.wikipedia.org/wiki/Cranio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0168",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale arteria si tocca ai lati del collo per sentire il battito?",
+    "risposte": [
+      "Carotide",
+      "Aorta",
+      "Femorale",
+      "Radiale"
+    ],
+    "curiosita": "Il nome viene da un termine greco che significa torpore.",
+    "fatto": "arteria collo battito carotide",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0169",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale arteria si tocca sul polso per sentire il battito?",
+    "risposte": [
+      "Radiale",
+      "Carotide",
+      "Aorta",
+      "Femorale"
+    ],
+    "curiosita": "Passa vicino al radio, l'osso dell'avambraccio.",
+    "fatto": "arteria polso battito radiale",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0170",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiamano i peli all'ingresso del naso?",
+    "risposte": [
+      "Vibrisse",
+      "Ciglia",
+      "Lanugine",
+      "Sopracciglia"
+    ],
+    "curiosita": "Trattengono polvere e particelle dall'aria.",
+    "fatto": "peli ingresso naso vibrisse",
+    "fonte": "https://it.wikipedia.org/wiki/Naso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0171",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la piega sotto la lingua che la collega alla bocca?",
+    "risposte": [
+      "Frenulo",
+      "Ugola",
+      "Epiglottide",
+      "Palato"
+    ],
+    "curiosita": "Il freno della lingua, in senso letterale.",
+    "fatto": "piega sotto lingua frenulo",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_(anatomia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0172",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiamano i denti del giudizio con altro nome?",
+    "risposte": [
+      "Terzi molari",
+      "Canini",
+      "Incisivi laterali",
+      "Premolari"
+    ],
+    "curiosita": "Spuntano di solito intorno ai vent'anni.",
+    "fatto": "denti del giudizio terzi molari",
+    "fonte": "https://it.wikipedia.org/wiki/Dente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0173",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Dove la pelle è più sottile?",
+    "risposte": [
+      "Sulle palpebre",
+      "Sulla pianta del piede",
+      "Sulla schiena",
+      "Sul gomito"
+    ],
+    "curiosita": "Lì è spessa meno di un millimetro.",
+    "fatto": "pelle piu sottile palpebre",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0174",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "A quale sistema appartengono i linfonodi?",
+    "risposte": [
+      "Sistema linfatico",
+      "Sistema nervoso",
+      "Sistema digerente",
+      "Sistema endocrino"
+    ],
+    "curiosita": "Aiutano il corpo a difendersi.",
+    "fatto": "linfonodi sistema linfatico",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0175",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale gruppo sanguigno è detto accettatore universale?",
+    "risposte": [
+      "AB positivo",
+      "Zero negativo",
+      "A positivo",
+      "B negativo"
+    ],
+    "curiosita": "Può ricevere sangue da tutti i gruppi.",
+    "fatto": "accettatore universale ab positivo",
+    "fonte": "https://it.wikipedia.org/wiki/Gruppo_sanguigno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0176",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Quale osso del piede forma il tallone?",
+    "risposte": [
+      "Calcagno",
+      "Astragalo",
+      "Cuboide",
+      "Tibia"
+    ],
+    "curiosita": "È l'osso più grande del piede.",
+    "fatto": "osso tallone calcagno",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0177",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la sporgenza ossea del gomito?",
+    "risposte": [
+      "Olecrano",
+      "Acromion",
+      "Rotula",
+      "Malleolo"
+    ],
+    "curiosita": "È la parte dell'ulna su cui ci appoggiamo.",
+    "fatto": "sporgenza gomito olecrano",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0178",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Come si chiama la sporgenza ossea della caviglia?",
+    "risposte": [
+      "Malleolo",
+      "Olecrano",
+      "Acromion",
+      "Trocantere"
+    ],
+    "curiosita": "Dal latino: piccolo martello.",
+    "fatto": "sporgenza caviglia malleolo",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0179",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Che cosa indica il prefisso emo-, come in emoglobina?",
+    "risposte": [
+      "Sangue",
+      "Pelle",
+      "Ossa",
+      "Cuore"
+    ],
+    "curiosita": "Dal greco haima, sangue.",
+    "fatto": "prefisso emo sangue",
+    "fonte": "https://it.wikipedia.org/wiki/Sangue",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cor-0180",
+    "tipo": "classica",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "domanda": "Dove si trova l'acromion?",
+    "risposte": [
+      "Spalla",
+      "Gomito",
+      "Anca",
+      "Ginocchio"
+    ],
+    "curiosita": "È la punta ossea in cima alla scapola.",
+    "fatto": "acromion spalla",
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

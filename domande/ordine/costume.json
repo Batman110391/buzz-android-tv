@@ -552,30 +552,6 @@
     "creata": "2026-10-14"
   },
   {
-    "id": "or-cos-0024",
-    "tipo": "ordine",
-    "categoria": "costume",
-    "difficolta": 3,
-    "criterio": "Bottiglie di champagne, dalla più piccola",
-    "elementi": [
-      "Bottiglia standard",
-      "Magnum",
-      "Jéroboam",
-      "Mathusalem"
-    ],
-    "valori": [
-      "0,75 litri",
-      "1,5 litri",
-      "3 litri",
-      "6 litri"
-    ],
-    "curiosita": "Un Mathusalem contiene otto bottiglie normali.",
-    "fatto": "ordine bottiglie champagne litri",
-    "fonte": "https://it.wikipedia.org/wiki/Champagne",
-    "origine": "claude",
-    "creata": "2026-10-14"
-  },
-  {
     "id": "or-cos-0025",
     "tipo": "ordine",
     "categoria": "costume",
