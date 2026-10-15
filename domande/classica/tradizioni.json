@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "cl-tra-0001",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale numero è considerato il più sfortunato in Italia?",
+    "risposte": [
+      "17",
+      "7",
+      "9",
+      "21"
+    ],
+    "curiosita": "In numeri romani XVII, riordinando le lettere, si legge VIXI: «ho vissuto».",
+    "fatto": "numero sfortunato italia diciassette",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0002",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi è il santo patrono di Napoli?",
+    "risposte": [
+      "San Gennaro",
+      "Sant'Antonio",
+      "San Nicola",
+      "San Francesco"
+    ],
+    "curiosita": "Il suo sangue conservato in ampolle si scioglie in date fisse: è il «miracolo di San Gennaro».",
+    "fatto": "patrono napoli",
+    "fonte": "https://it.wikipedia.org/wiki/San_Gennaro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0003",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi è il santo patrono di Milano?",
+    "risposte": [
+      "Sant'Ambrogio",
+      "San Carlo",
+      "San Siro",
+      "San Giorgio"
+    ],
+    "curiosita": "Si festeggia il 7 dicembre ed è festa cittadina.",
+    "fatto": "patrono milano",
+    "fonte": "https://it.wikipedia.org/wiki/Ambrogio_di_Milano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0004",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi è il santo patrono di Venezia?",
+    "risposte": [
+      "San Marco",
+      "San Giorgio",
+      "San Zeno",
+      "San Pietro"
+    ],
+    "curiosita": "Il suo simbolo è il leone alato, presente ovunque in città.",
+    "fatto": "patrono venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Marco_evangelista",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0005",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi è il santo patrono di Firenze?",
+    "risposte": [
+      "San Giovanni Battista",
+      "Sant'Ambrogio",
+      "San Pietro",
+      "San Lorenzo"
+    ],
+    "curiosita": "Il 24 giugno si festeggia con i «fochi» d'artificio.",
+    "fatto": "patrono firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Battista",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0006",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale santo è patrono d'Italia insieme a Santa Caterina da Siena?",
+    "risposte": [
+      "San Francesco d'Assisi",
+      "Sant'Antonio da Padova",
+      "San Benedetto",
+      "San Giorgio"
+    ],
+    "curiosita": "Furono proclamati patroni d'Italia nel 1939.",
+    "fatto": "patroni d italia francesco caterina",
+    "fonte": "https://it.wikipedia.org/wiki/San_Francesco_d'Assisi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0007",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale città è famosa per il Carnevale con maschere in laguna?",
+    "risposte": [
+      "Venezia",
+      "Viareggio",
+      "Ivrea",
+      "Putignano"
+    ],
+    "curiosita": "Le maschere più celebri sono la bauta e la moretta.",
+    "fatto": "carnevale venezia citta",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Venezia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0008",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Di che colore è il fiocco per la nascita di una bambina in Italia?",
+    "risposte": [
+      "Rosa",
+      "Azzurro",
+      "Giallo",
+      "Verde"
+    ],
+    "curiosita": "Il fiocco si appende alla porta di casa per annunciare la nascita.",
+    "fatto": "colore fiocco nascita bambina",
+    "fonte": "https://it.wikipedia.org/wiki/Rosa_(colore)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0009",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si lancia durante il Carnevale di Ivrea?",
+    "risposte": [
+      "Arance",
+      "Pomodori",
+      "Uova",
+      "Farina"
+    ],
+    "curiosita": "La battaglia delle arance ricorda la rivolta contro un tiranno.",
+    "fatto": "carnevale ivrea lancio arance",
+    "fonte": "https://it.wikipedia.org/wiki/Storico_Carnevale_di_Ivrea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0010",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale oggetto a forma di U si appende alla porta per portare fortuna?",
+    "risposte": [
+      "Ferro di cavallo",
+      "Specchio",
+      "Chiave",
+      "Campanello"
+    ],
+    "curiosita": "Va appeso con le estremità verso l'alto, perché la fortuna non esca.",
+    "fatto": "portafortuna ferro cavallo porta",
+    "fonte": "https://it.wikipedia.org/wiki/Ferro_di_cavallo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0011",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quanti acini d'uva si mangiano a mezzanotte di Capodanno in Spagna?",
+    "risposte": [
+      "12",
+      "7",
+      "9",
+      "10"
+    ],
+    "curiosita": "Uno a ogni rintocco, seguendo in tv le campane di Madrid.",
+    "fatto": "spagna dodici acini capodanno",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0012",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale legume si mangia a Capodanno in Italia per augurare ricchezza?",
+    "risposte": [
+      "Lenticchie",
+      "Ceci",
+      "Fagioli",
+      "Piselli"
+    ],
+    "curiosita": "Somigliano a piccole monete e si servono con cotechino o zampone.",
+    "fatto": "lenticchie capodanno ricchezza",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0013",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Di che colore è l'intimo portafortuna di Capodanno in Italia?",
+    "risposte": [
+      "Rosso",
+      "Bianco",
+      "Giallo",
+      "Verde"
+    ],
+    "curiosita": "Il rosso è associato alla vitalità e allontana la sfortuna.",
+    "fatto": "intimo capodanno colore",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0014",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale festa messicana ricorda i defunti con altari colorati?",
+    "risposte": [
+      "Día de los Muertos",
+      "Cinco de Mayo",
+      "Las Posadas",
+      "Guelaguetza"
+    ],
+    "curiosita": "È riconosciuta dall'UNESCO come patrimonio culturale immateriale.",
+    "fatto": "festa messicana defunti altari",
+    "fonte": "https://it.wikipedia.org/wiki/D%C3%ADa_de_los_Muertos",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0015",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si intaglia per Halloween per fare una lanterna?",
+    "risposte": [
+      "Zucca",
+      "Cavolfiore",
+      "Peperone",
+      "Sedano"
+    ],
+    "curiosita": "In Irlanda all'inizio si intagliavano le rape.",
+    "fatto": "halloween lanterna intaglio",
+    "fonte": "https://it.wikipedia.org/wiki/Halloween",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0016",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa trovano nella calza i bambini «cattivi» secondo la tradizione della Befana?",
+    "risposte": [
+      "Carbone",
+      "Cipolle",
+      "Sassi",
+      "Cenere"
+    ],
+    "curiosita": "Oggi è un dolce di zucchero nero venduto per l'Epifania.",
+    "fatto": "befana calza carbone",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0017",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Su che cosa vola la Befana?",
+    "risposte": [
+      "Scopa",
+      "Slitta",
+      "Tappeto",
+      "Cavallo"
+    ],
+    "curiosita": "Arriva nella notte tra il 5 e il 6 gennaio.",
+    "fatto": "befana vola scopa",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0018",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale santo si festeggia il 14 febbraio, giorno degli innamorati?",
+    "risposte": [
+      "San Valentino",
+      "San Giuseppe",
+      "San Francesco",
+      "Sant'Antonio"
+    ],
+    "curiosita": "È patrono di Terni, città dove è venerato.",
+    "fatto": "santo 14 febbraio innamorati",
+    "fonte": "https://it.wikipedia.org/wiki/San_Valentino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0019",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale paese nasce l'usanza dell'albero di Natale addobbato?",
+    "risposte": [
+      "Germania",
+      "Stati Uniti",
+      "Svezia",
+      "Inghilterra"
+    ],
+    "curiosita": "Le prime testimonianze scritte vengono dall'area tedesca del Cinquecento.",
+    "fatto": "origine albero natale paese",
+    "fonte": "https://it.wikipedia.org/wiki/Albero_di_Natale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0020",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi realizzò il primo presepe vivente, a Greccio nel 1223?",
+    "risposte": [
+      "San Francesco",
+      "Sant'Antonio",
+      "San Benedetto",
+      "San Domenico"
+    ],
+    "curiosita": "Volle rendere «visibile» ai fedeli la nascita di Gesù.",
+    "fatto": "primo presepe vivente greccio",
+    "fonte": "https://it.wikipedia.org/wiki/Presepe",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0021",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale animale apre il ciclo dello zodiaco cinese?",
+    "risposte": [
+      "Topo",
+      "Tigre",
+      "Drago",
+      "Bue"
+    ],
+    "curiosita": "Secondo la leggenda arrivò primo alla gara, sulla schiena del bue.",
+    "fatto": "primo animale zodiaco cinese",
+    "fonte": "https://it.wikipedia.org/wiki/Zodiaco_cinese",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0022",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale colore domina il Capodanno cinese, perché porta fortuna?",
+    "risposte": [
+      "Rosso",
+      "Verde",
+      "Blu",
+      "Bianco"
+    ],
+    "curiosita": "Si regalano buste rosse con denaro, le «hongbao».",
+    "fatto": "capodanno cinese colore",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno_cinese",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0023",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale città tedesca si tiene l'Oktoberfest?",
+    "risposte": [
+      "Monaco di Baviera",
+      "Berlino",
+      "Amburgo",
+      "Norimberga"
+    ],
+    "curiosita": "Si svolge sul prato Theresienwiese e inizia a settembre.",
+    "fatto": "oktoberfest citta",
+    "fonte": "https://it.wikipedia.org/wiki/Oktoberfest",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0024",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale paese si svolge il celebre Carnevale di Rio?",
+    "risposte": [
+      "Brasile",
+      "Argentina",
+      "Portogallo",
+      "Cuba"
+    ],
+    "curiosita": "Le scuole di samba sfilano nel Sambodromo.",
+    "fatto": "carnevale rio paese",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Rio_de_Janeiro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0025",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale animale porta le uova di Pasqua nella tradizione tedesca?",
+    "risposte": [
+      "Coniglio",
+      "Agnello",
+      "Cigno",
+      "Cicogna"
+    ],
+    "curiosita": "L'Osterhase è documentato in Germania dal Seicento.",
+    "fatto": "pasqua animale uova germania",
+    "fonte": "https://it.wikipedia.org/wiki/Pasqua",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0026",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale colore domina la festa di San Patrizio in Irlanda?",
+    "risposte": [
+      "Verde",
+      "Arancione",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Si celebra il 17 marzo; a Chicago si tinge persino il fiume.",
+    "fatto": "san patrizio colore verde",
+    "fonte": "https://it.wikipedia.org/wiki/San_Patrizio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0027",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale fiore si regala per la Festa della donna in Italia?",
+    "risposte": [
+      "Mimosa",
+      "Rosa",
+      "Tulipano",
+      "Giglio"
+    ],
+    "curiosita": "Scelta dall'UDI nel 1946: fiorisce a inizio marzo ed è economica.",
+    "fatto": "festa donna fiore mimosa",
+    "fonte": "https://it.wikipedia.org/wiki/Giornata_internazionale_della_donna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0028",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Qual è la data del Pesce d'aprile?",
+    "risposte": [
+      "1° aprile",
+      "1° marzo",
+      "1° maggio",
+      "31 marzo"
+    ],
+    "curiosita": "In Francia i bambini attaccano un pesce di carta sulla schiena.",
+    "fatto": "pesce aprile data",
+    "fonte": "https://it.wikipedia.org/wiki/Pesce_d'aprile",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0029",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si dice a chi starnutisce, per augurio?",
+    "risposte": [
+      "Salute",
+      "Auguri",
+      "Bravo",
+      "Evviva"
+    ],
+    "curiosita": "Un'antica credenza temeva che con lo starnuto uscisse l'anima.",
+    "fatto": "augurio dopo starnuto salute",
+    "fonte": "https://it.wikipedia.org/wiki/Starnuto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0030",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiama la maschera dal vestito a rombi colorati?",
+    "risposte": [
+      "Arlecchino",
+      "Brighella",
+      "Colombina",
+      "Pierrot"
+    ],
+    "curiosita": "Il costume nacque da toppe cucite su abiti logori.",
+    "fatto": "maschera rombi colorati arlecchino",
+    "fonte": "https://it.wikipedia.org/wiki/Arlecchino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0031",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale maschera napoletana veste di bianco e porta mezza maschera nera?",
+    "risposte": [
+      "Pulcinella",
+      "Arlecchino",
+      "Gianduja",
+      "Balanzone"
+    ],
+    "curiosita": "Ha un naso adunco e un cappello a cono.",
+    "fatto": "maschera napoletana pulcinella",
+    "fonte": "https://it.wikipedia.org/wiki/Pulcinella",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0032",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale maschera piemontese dà il nome a un cioccolatino?",
+    "risposte": [
+      "Gianduja",
+      "Meneghino",
+      "Stenterello",
+      "Rugantino"
+    ],
+    "curiosita": "Il gianduiotto prende il nome dalla maschera.",
+    "fatto": "maschera gianduja cioccolatino",
+    "fonte": "https://it.wikipedia.org/wiki/Gianduja",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0033",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale data cade Halloween?",
+    "risposte": [
+      "31 ottobre",
+      "1 novembre",
+      "2 novembre",
+      "30 ottobre"
+    ],
+    "curiosita": "È la vigilia di Ognissanti: «All Hallows' Eve».",
+    "fatto": "halloween data",
+    "fonte": "https://it.wikipedia.org/wiki/Halloween",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0034",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quando si commemorano i defunti in Italia?",
+    "risposte": [
+      "2 novembre",
+      "1 novembre",
+      "11 novembre",
+      "8 dicembre"
+    ],
+    "curiosita": "Il giorno prima è Ognissanti.",
+    "fatto": "commemorazione defunti data",
+    "fonte": "https://it.wikipedia.org/wiki/Commemorazione_dei_defunti",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0035",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Qual è la data di Ferragosto?",
+    "risposte": [
+      "15 agosto",
+      "1 agosto",
+      "10 agosto",
+      "20 agosto"
+    ],
+    "curiosita": "Il nome viene da «Feriae Augusti», le ferie volute da Augusto.",
+    "fatto": "ferragosto data",
+    "fonte": "https://it.wikipedia.org/wiki/Ferragosto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0036",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale festa si celebra il 6 gennaio?",
+    "risposte": [
+      "Epifania",
+      "Immacolata",
+      "Candelora",
+      "Ognissanti"
+    ],
+    "curiosita": "Dice il proverbio: «L'Epifania tutte le feste porta via».",
+    "fatto": "festa 6 gennaio",
+    "fonte": "https://it.wikipedia.org/wiki/Epifania",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0037",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale data cade la festa del papà in Italia?",
+    "risposte": [
+      "19 marzo",
+      "8 marzo",
+      "1 maggio",
+      "25 marzo"
+    ],
+    "curiosita": "È il giorno di San Giuseppe, padre putativo di Gesù.",
+    "fatto": "festa papa data",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_del_pap%C3%A0",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0038",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Nel rito romano, quale giorno chiude il Carnevale?",
+    "risposte": [
+      "Martedì grasso",
+      "Giovedì grasso",
+      "Sabato santo",
+      "Lunedì dell'Angelo"
+    ],
+    "curiosita": "Il giorno dopo, il Mercoledì delle Ceneri, inizia la Quaresima.",
+    "fatto": "martedi grasso chiusura carnevale",
+    "fonte": "https://it.wikipedia.org/wiki/Marted%C3%AC_grasso",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0039",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quanti giorni ricorda la Quaresima?",
+    "risposte": [
+      "40",
+      "30",
+      "50",
+      "7"
+    ],
+    "curiosita": "Richiama i 40 giorni di Gesù nel deserto.",
+    "fatto": "quaresima quaranta giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Quaresima",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0040",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale dolce lievitato a forma di uccello è tipico della Pasqua?",
+    "risposte": [
+      "Colomba",
+      "Panettone",
+      "Pandoro",
+      "Struffoli"
+    ],
+    "curiosita": "La leggenda lo lega all'assedio di Pavia da parte di Alboino.",
+    "fatto": "colomba pasquale dolce",
+    "fonte": "https://it.wikipedia.org/wiki/Colomba_pasquale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0041",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale dolce natalizio milanese contiene uvetta e canditi?",
+    "risposte": [
+      "Panettone",
+      "Pandoro",
+      "Pastiera",
+      "Cassata"
+    ],
+    "curiosita": "Nasce a Milano ma oggi si mangia in tutta Italia.",
+    "fatto": "panettone milano natale",
+    "fonte": "https://it.wikipedia.org/wiki/Panettone",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0042",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale insetto rosso a puntini neri porta fortuna?",
+    "risposte": [
+      "Coccinella",
+      "Lucciola",
+      "Cavalletta",
+      "Farfalla"
+    ],
+    "curiosita": "In inglese si chiama «ladybird», legato alla Vergine Maria.",
+    "fatto": "coccinella portafortuna",
+    "fonte": "https://it.wikipedia.org/wiki/Coccinella",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0043",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quanti anni di sfortuna porta rompere uno specchio?",
+    "risposte": [
+      "7",
+      "3",
+      "5",
+      "10"
+    ],
+    "curiosita": "Per i Romani la vita si rinnovava ogni sette anni.",
+    "fatto": "specchio rotto anni sfortuna",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0044",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si fa vedendo una stella cadente?",
+    "risposte": [
+      "Si esprime un desiderio",
+      "Si conta fino a dieci",
+      "Si batte le mani",
+      "Si chiude gli occhi"
+    ],
+    "curiosita": "Le stelle cadenti sono granelli di polvere che bruciano nell'atmosfera.",
+    "fatto": "stella cadente desiderio",
+    "fonte": "https://it.wikipedia.org/wiki/Meteora_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0045",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quante foglie ha il quadrifoglio portafortuna?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "curiosita": "È una mutazione rara del trifoglio.",
+    "fatto": "quadrifoglio foglie",
+    "fonte": "https://it.wikipedia.org/wiki/Trifoglio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0046",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si spegne soffiando sulla torta di compleanno?",
+    "risposte": [
+      "Candeline",
+      "Lumini",
+      "Fiammiferi",
+      "Torce"
+    ],
+    "curiosita": "Si esprime un desiderio, da tenere segreto.",
+    "fatto": "compleanno candeline torta",
+    "fonte": "https://it.wikipedia.org/wiki/Compleanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0047",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale città italiana nasce la smorfia per giocare al lotto?",
+    "risposte": [
+      "Napoli",
+      "Roma",
+      "Palermo",
+      "Torino"
+    ],
+    "curiosita": "Trasforma sogni e fatti in numeri da 1 a 90.",
+    "fatto": "smorfia napoletana citta",
+    "fonte": "https://it.wikipedia.org/wiki/Smorfia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0048",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale festa indiana è detta «festa delle luci»?",
+    "risposte": [
+      "Diwali",
+      "Holi",
+      "Navratri",
+      "Onam"
+    ],
+    "curiosita": "Si accendono lampade a olio, le diya.",
+    "fatto": "diwali festa luci",
+    "fonte": "https://it.wikipedia.org/wiki/Diwali",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0049",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiama il lunedì dopo Pasqua?",
+    "risposte": [
+      "Pasquetta",
+      "Lunedì grasso",
+      "Lunedì Santo",
+      "Domenica in Albis"
+    ],
+    "curiosita": "La tradizione vuole la gita fuori porta con picnic.",
+    "fatto": "lunedi dopo pasqua nome",
+    "fonte": "https://it.wikipedia.org/wiki/Luned%C3%AC_dell'Angelo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0050",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale paese si tiene la Tomatina, battaglia di pomodori?",
+    "risposte": [
+      "Spagna",
+      "Messico",
+      "Italia",
+      "Portogallo"
+    ],
+    "curiosita": "Si svolge a Buñol, vicino a Valencia, in agosto.",
+    "fatto": "tomatina paese",
+    "fonte": "https://it.wikipedia.org/wiki/La_Tomatina",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0051",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale città spagnola si corre davanti ai tori a luglio, per San Firmino?",
+    "risposte": [
+      "Pamplona",
+      "Madrid",
+      "Siviglia",
+      "Valencia"
+    ],
+    "curiosita": "Le corse del mattino si chiamano «encierro».",
+    "fatto": "sanfermines pamplona",
+    "fonte": "https://it.wikipedia.org/wiki/Sanfermines",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0052",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale festa di Valencia culmina con il rogo di grandi statue?",
+    "risposte": [
+      "Las Fallas",
+      "La Tomatina",
+      "Feria de Abril",
+      "Semana Santa"
+    ],
+    "curiosita": "Il rogo, la «cremà», avviene nella notte di San Giuseppe.",
+    "fatto": "fallas valencia rogo",
+    "fonte": "https://it.wikipedia.org/wiki/Fallas",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0053",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale data si ricorda in Gran Bretagna con falò e fuochi per Guy Fawkes?",
+    "risposte": [
+      "5 novembre",
+      "31 ottobre",
+      "25 dicembre",
+      "1 gennaio"
+    ],
+    "curiosita": "Ricorda la Congiura delle polveri del 1605.",
+    "fatto": "guy fawkes data",
+    "fonte": "https://it.wikipedia.org/wiki/Congiura_delle_polveri",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0054",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale animale gli americani osservano il 2 febbraio per prevedere la fine dell'inverno?",
+    "risposte": [
+      "Marmotta",
+      "Orso",
+      "Scoiattolo",
+      "Riccio"
+    ],
+    "curiosita": "Se vede la propria ombra, dice la tradizione, l'inverno dura altre sei settimane.",
+    "fatto": "giorno marmotta animale",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_della_marmotta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0055",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale animale si serve tradizionalmente a Thanksgiving?",
+    "risposte": [
+      "Tacchino",
+      "Oca",
+      "Fagiano",
+      "Agnello"
+    ],
+    "curiosita": "Si festeggia il quarto giovedì di novembre.",
+    "fatto": "thanksgiving tacchino",
+    "fonte": "https://it.wikipedia.org/wiki/Giorno_del_ringraziamento",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0056",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Sotto quale pianta ci si bacia a Natale per tradizione anglosassone?",
+    "risposte": [
+      "Vischio",
+      "Agrifoglio",
+      "Edera",
+      "Pungitopo"
+    ],
+    "curiosita": "Per i Celti era una pianta sacra.",
+    "fatto": "bacio vischio natale",
+    "fonte": "https://it.wikipedia.org/wiki/Vischio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0057",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale pianta rossa è simbolo del Natale?",
+    "risposte": [
+      "Stella di Natale",
+      "Geranio",
+      "Orchidea",
+      "Viola"
+    ],
+    "curiosita": "È originaria del Messico, dove cresce spontanea.",
+    "fatto": "stella di natale pianta",
+    "fonte": "https://it.wikipedia.org/wiki/Natale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0058",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quante candele ha tradizionalmente la corona dell'Avvento?",
+    "risposte": [
+      "4",
+      "3",
+      "5",
+      "7"
+    ],
+    "curiosita": "Se ne accende una per ogni domenica d'Avvento.",
+    "fatto": "corona avvento candele",
+    "fonte": "https://it.wikipedia.org/wiki/Avvento",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0059",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi porta i regali ai bambini olandesi il 5 dicembre?",
+    "risposte": [
+      "Sinterklaas",
+      "Babbo Natale",
+      "Gesù Bambino",
+      "I Re Magi"
+    ],
+    "curiosita": "Dal suo nome deriva l'inglese «Santa Claus».",
+    "fatto": "sinterklaas regali",
+    "fonte": "https://it.wikipedia.org/wiki/Sinterklaas",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0060",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi porta i regali ai bambini spagnoli il 6 gennaio?",
+    "risposte": [
+      "I Re Magi",
+      "Babbo Natale",
+      "San Nicola",
+      "La Befana"
+    ],
+    "curiosita": "Il 5 gennaio sfilano le «cabalgatas» in ogni città.",
+    "fatto": "regali spagna re magi",
+    "fonte": "https://it.wikipedia.org/wiki/Re_Magi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0061",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama la paura del numero 13?",
+    "risposte": [
+      "Triscaidecafobia",
+      "Claustrofobia",
+      "Aracnofobia",
+      "Agorafobia"
+    ],
+    "curiosita": "In molti hotel e aerei manca il piano o la fila 13.",
+    "fatto": "paura numero tredici",
+    "fonte": "https://it.wikipedia.org/wiki/Triscaidecafobia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0062",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Da quale festa celtica deriva Halloween?",
+    "risposte": [
+      "Samhain",
+      "Beltane",
+      "Imbolc",
+      "Lughnasadh"
+    ],
+    "curiosita": "Segnava la fine dell'estate, tra il 31 ottobre e il 1° novembre.",
+    "fatto": "halloween origine celtica samhain",
+    "fonte": "https://it.wikipedia.org/wiki/Samhain",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0063",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Da quale festa deriva il nome «Befana»?",
+    "risposte": [
+      "Epifania",
+      "Pasqua",
+      "Candelora",
+      "Avvento"
+    ],
+    "curiosita": "Per deformazione popolare: Epifania, bifanìa, befana.",
+    "fatto": "origine nome befana",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0064",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale regione si tiene il Carnevale di Putignano?",
+    "risposte": [
+      "Puglia",
+      "Basilicata",
+      "Sicilia",
+      "Campania"
+    ],
+    "curiosita": "Il primo documento che lo cita risale al 1394.",
+    "fatto": "carnevale putignano regione",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Putignano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0065",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Il Carnevale ambrosiano, che finisce dopo le Ceneri, è tipico di quale città?",
+    "risposte": [
+      "Milano",
+      "Torino",
+      "Bologna",
+      "Genova"
+    ],
+    "curiosita": "Termina il sabato dopo il Mercoledì delle Ceneri.",
+    "fatto": "carnevale ambrosiano citta",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_ambrosiano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0066",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale città sarda si corre la Sartiglia?",
+    "risposte": [
+      "Oristano",
+      "Cagliari",
+      "Sassari",
+      "Nuoro"
+    ],
+    "curiosita": "È una giostra a cavallo: si cerca di infilare una stella con la spada.",
+    "fatto": "sartiglia citta",
+    "fonte": "https://it.wikipedia.org/wiki/Sartiglia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0067",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale paese sardo sfilano i Mamuthones?",
+    "risposte": [
+      "Mamoiada",
+      "Orgosolo",
+      "Fonni",
+      "Bosa"
+    ],
+    "curiosita": "Portano maschere nere di legno e pesanti campanacci.",
+    "fatto": "mamuthones paese",
+    "fonte": "https://it.wikipedia.org/wiki/Mamuthones",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0068",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale città si gioca il Calcio storico in costume?",
+    "risposte": [
+      "Firenze",
+      "Siena",
+      "Pisa",
+      "Lucca"
+    ],
+    "curiosita": "Si gioca in piazza Santa Croce tra i quartieri storici.",
+    "fatto": "calcio storico citta",
+    "fonte": "https://it.wikipedia.org/wiki/Calcio_storico_fiorentino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0069",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale città si disputa la Giostra del Saracino?",
+    "risposte": [
+      "Arezzo",
+      "Siena",
+      "Foligno",
+      "Gubbio"
+    ],
+    "curiosita": "I cavalieri colpiscono con la lancia il Buratto, fantoccio girevole.",
+    "fatto": "giostra saracino citta",
+    "fonte": "https://it.wikipedia.org/wiki/Giostra_del_Saracino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0070",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale città umbra si corre la Corsa dei Ceri?",
+    "risposte": [
+      "Gubbio",
+      "Assisi",
+      "Spoleto",
+      "Orvieto"
+    ],
+    "curiosita": "Si corre il 15 maggio in onore di Sant'Ubaldo.",
+    "fatto": "corsa ceri citta",
+    "fonte": "https://it.wikipedia.org/wiki/Corsa_dei_Ceri",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0071",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale cittadina laziale è famosa per l'Infiorata con tappeti di petali?",
+    "risposte": [
+      "Genzano di Roma",
+      "Frascati",
+      "Tivoli",
+      "Anagni"
+    ],
+    "curiosita": "Si svolge a giugno, nel periodo del Corpus Domini.",
+    "fatto": "infiorata genzano",
+    "fonte": "https://it.wikipedia.org/wiki/Infiorata_di_Genzano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0072",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale città campana si svolge la Festa dei Gigli?",
+    "risposte": [
+      "Nola",
+      "Salerno",
+      "Caserta",
+      "Pozzuoli"
+    ],
+    "curiosita": "Enormi obelischi di legno e cartapesta sono portati a spalla.",
+    "fatto": "festa gigli citta",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_dei_Gigli",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0073",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale città siciliana festeggia Sant'Agata ogni febbraio?",
+    "risposte": [
+      "Catania",
+      "Palermo",
+      "Messina",
+      "Siracusa"
+    ],
+    "curiosita": "La festa attira centinaia di migliaia di persone.",
+    "fatto": "sant agata catania festa",
+    "fonte": "https://it.wikipedia.org/wiki/Sant'Agata",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0074",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di quale città è patrona Santa Rosalia?",
+    "risposte": [
+      "Palermo",
+      "Catania",
+      "Messina",
+      "Trapani"
+    ],
+    "curiosita": "Fu invocata contro la peste del 1624; il Festino è a luglio.",
+    "fatto": "patrona santa rosalia",
+    "fonte": "https://it.wikipedia.org/wiki/Rosalia_da_Palermo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0075",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di quale città pugliese è patrono San Nicola?",
+    "risposte": [
+      "Bari",
+      "Lecce",
+      "Taranto",
+      "Brindisi"
+    ],
+    "curiosita": "Le reliquie arrivarono da Myra nel 1087.",
+    "fatto": "patrono san nicola bari",
+    "fonte": "https://it.wikipedia.org/wiki/Nicola_di_Bari",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0076",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale giorno si benedicono gli animali per Sant'Antonio abate?",
+    "risposte": [
+      "17 gennaio",
+      "13 giugno",
+      "2 febbraio",
+      "4 ottobre"
+    ],
+    "curiosita": "Il santo è considerato protettore degli animali domestici.",
+    "fatto": "sant antonio abate data",
+    "fonte": "https://it.wikipedia.org/wiki/Antonio_abate",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0077",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santa porta i doni il 13 dicembre in parte del Nord Italia?",
+    "risposte": [
+      "Santa Lucia",
+      "Sant'Agata",
+      "Santa Barbara",
+      "Santa Caterina"
+    ],
+    "curiosita": "Succede in zone di Lombardia, Veneto ed Emilia, con l'asinello.",
+    "fatto": "santa lucia doni nord italia",
+    "fonte": "https://it.wikipedia.org/wiki/Lucia_di_Siracusa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0078",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Che cosa porta in testa la «Lucia» nelle feste svedesi di dicembre?",
+    "risposte": [
+      "Corona di candele",
+      "Corona di rose",
+      "Cappello rosso",
+      "Elmo vichingo"
+    ],
+    "curiosita": "Il giorno di Santa Lucia, il 13 dicembre, è una grande festa della luce.",
+    "fatto": "lucia svezia corona candele",
+    "fonte": "https://it.wikipedia.org/wiki/Lucia_di_Siracusa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0079",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama in Giappone l'usanza di ammirare i fiori di ciliegio?",
+    "risposte": [
+      "Hanami",
+      "Ikebana",
+      "Origami",
+      "Tanabata"
+    ],
+    "curiosita": "Si fa tra marzo e aprile, con picnic sotto gli alberi.",
+    "fatto": "hanami fiori ciliegio",
+    "fonte": "https://it.wikipedia.org/wiki/Hanami",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0080",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Che cosa si lancia in Giappone a Setsubun per scacciare gli spiriti oni?",
+    "risposte": [
+      "Fagioli",
+      "Riso",
+      "Sale",
+      "Monete"
+    ],
+    "curiosita": "Si grida «Oni wa soto! Fuku wa uchi!»: fuori i demoni, dentro la fortuna.",
+    "fatto": "setsubun fagioli",
+    "fonte": "https://it.wikipedia.org/wiki/Setsubun",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0081",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quante volte suonano le campane dei templi giapponesi a Capodanno?",
+    "risposte": [
+      "108",
+      "12",
+      "100",
+      "365"
+    ],
+    "curiosita": "I rintocchi richiamano le 108 passioni umane del buddismo.",
+    "fatto": "campane tempio giappone 108",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0082",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa tailandese di aprile si celebra con battaglie d'acqua?",
+    "risposte": [
+      "Songkran",
+      "Loy Krathong",
+      "Vesak",
+      "Diwali"
+    ],
+    "curiosita": "È il Capodanno tradizionale thailandese.",
+    "fatto": "songkran acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Songkran",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0083",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale dolce si mangia alla Festa di metà autunno cinese?",
+    "risposte": [
+      "Mooncake",
+      "Ravioli",
+      "Involtini primavera",
+      "Tofu"
+    ],
+    "curiosita": "I «dolci della luna» sono ripieni di pasta di loto o semi.",
+    "fatto": "mooncake festa autunno",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_di_met%C3%A0_autunno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0084",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa coreana del raccolto ringrazia gli antenati?",
+    "risposte": [
+      "Chuseok",
+      "Seollal",
+      "Dano",
+      "Hangul"
+    ],
+    "curiosita": "Si celebra a metà autunno, con il piatto songpyeon.",
+    "fatto": "chuseok festa raccolto",
+    "fonte": "https://it.wikipedia.org/wiki/Chuseok",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0085",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale Paese celebra l'Hogmanay?",
+    "risposte": [
+      "Scozia",
+      "Irlanda",
+      "Galles",
+      "Inghilterra"
+    ],
+    "curiosita": "È il Capodanno scozzese e prevede il «first-footing».",
+    "fatto": "hogmanay paese",
+    "fonte": "https://it.wikipedia.org/wiki/Hogmanay",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0086",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale piatto scozzese si serve nella Burns Night?",
+    "risposte": [
+      "Haggis",
+      "Cullen skink",
+      "Shortbread",
+      "Porridge"
+    ],
+    "curiosita": "Si recita il poema «Address to a Haggis» di Robert Burns.",
+    "fatto": "burns night piatto haggis",
+    "fonte": "https://it.wikipedia.org/wiki/Burns_Night",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0087",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di che colore si vestono gli olandesi per il Giorno del Re?",
+    "risposte": [
+      "Arancione",
+      "Rosso",
+      "Blu",
+      "Giallo"
+    ],
+    "curiosita": "Il colore ricorda la casa reale degli Orange-Nassau.",
+    "fatto": "giorno del re olanda colore",
+    "fonte": "https://it.wikipedia.org/wiki/Koningsdag",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0088",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale notte tedesca del 30 aprile è legata alle streghe sul Brocken?",
+    "risposte": [
+      "Notte di Valpurga",
+      "Notte di San Silvestro",
+      "Notte di Halloween",
+      "Notte di San Giovanni"
+    ],
+    "curiosita": "Si accendono falò per scacciare gli spiriti.",
+    "fatto": "notte valpurga",
+    "fonte": "https://it.wikipedia.org/wiki/Notte_di_Valpurga",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0089",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale figura accompagna San Nicola nelle tradizioni alpine?",
+    "risposte": [
+      "Krampus",
+      "Babau",
+      "Orco",
+      "Folletto"
+    ],
+    "curiosita": "Con catene e campanacci, punisce i bambini cattivi.",
+    "fatto": "krampus san nicola",
+    "fonte": "https://it.wikipedia.org/wiki/Krampus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0090",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale animale è simbolo di fortuna a Capodanno in Germania?",
+    "risposte": [
+      "Maiale",
+      "Gallo",
+      "Cavallo",
+      "Pecora"
+    ],
+    "curiosita": "Si regalano maialini di marzapane, i Glücksschwein.",
+    "fatto": "maiale fortuna germania",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0091",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo è il protettore della gola?",
+    "risposte": [
+      "San Biagio",
+      "Sant'Agata",
+      "San Rocco",
+      "San Lorenzo"
+    ],
+    "curiosita": "Il 3 febbraio si benedice la gola con due candele incrociate.",
+    "fatto": "san biagio gola",
+    "fonte": "https://it.wikipedia.org/wiki/Biagio_di_Sebaste",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0092",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santa è protettrice della vista?",
+    "risposte": [
+      "Santa Lucia",
+      "Santa Agata",
+      "Santa Barbara",
+      "Santa Rita"
+    ],
+    "curiosita": "Il suo nome richiama la luce, «lux».",
+    "fatto": "santa lucia vista",
+    "fonte": "https://it.wikipedia.org/wiki/Lucia_di_Siracusa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0093",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "A quale santo ci si rivolge per ritrovare un oggetto smarrito?",
+    "risposte": [
+      "Sant'Antonio da Padova",
+      "San Francesco",
+      "San Cristoforo",
+      "San Rocco"
+    ],
+    "curiosita": "È uno dei santi più venerati al mondo.",
+    "fatto": "sant antonio oggetti smarriti",
+    "fonte": "https://it.wikipedia.org/wiki/Antonio_di_Padova",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0094",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo è patrono dei viaggiatori e degli automobilisti?",
+    "risposte": [
+      "San Cristoforo",
+      "San Rocco",
+      "San Martino",
+      "San Giorgio"
+    ],
+    "curiosita": "Il suo nome significa «portatore di Cristo».",
+    "fatto": "san cristoforo viaggiatori",
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_di_Licia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0095",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo, secondo la leggenda, divise il mantello con un povero?",
+    "risposte": [
+      "San Martino",
+      "San Francesco",
+      "San Nicola",
+      "San Giorgio"
+    ],
+    "curiosita": "L'11 novembre è il giorno della cosiddetta «estate di San Martino».",
+    "fatto": "san martino mantello",
+    "fonte": "https://it.wikipedia.org/wiki/Martino_di_Tours",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0096",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo è patrono dell'Inghilterra?",
+    "risposte": [
+      "San Giorgio",
+      "San Patrizio",
+      "San Davide",
+      "Sant'Andrea"
+    ],
+    "curiosita": "Si festeggia il 23 aprile ed è raffigurato mentre uccide un drago.",
+    "fatto": "patrono inghilterra",
+    "fonte": "https://it.wikipedia.org/wiki/Giorgio_di_Lidda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0097",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale conchiglia è simbolo dei pellegrini del Cammino di Santiago?",
+    "risposte": [
+      "Capasanta",
+      "Cozza",
+      "Vongola",
+      "Ostrica"
+    ],
+    "curiosita": "È la conchiglia di San Giacomo.",
+    "fatto": "conchiglia cammino santiago",
+    "fonte": "https://it.wikipedia.org/wiki/Cammino_di_Santiago_di_Compostela",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0098",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale gesto della mano si fa in Italia per scaramanzia?",
+    "risposte": [
+      "Le corna",
+      "Il saluto militare",
+      "Il pollice in su",
+      "Il segno di vittoria"
+    ],
+    "curiosita": "È un antico gesto contro il malocchio.",
+    "fatto": "gesto scaramanzia corna",
+    "fonte": "https://it.wikipedia.org/wiki/Corna_(gesto)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0099",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale portafortuna rosso a forma di corno è tipico di Napoli?",
+    "risposte": [
+      "Cornicello",
+      "Quadrifoglio",
+      "Scarabeo",
+      "Trifoglio"
+    ],
+    "curiosita": "Si regala e si porta con sé contro la sfortuna.",
+    "fatto": "cornicello napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Corno_portafortuna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0100",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama lo sguardo che, secondo la superstizione, porta sfortuna?",
+    "risposte": [
+      "Malocchio",
+      "Malumore",
+      "Malessere",
+      "Malanimo"
+    ],
+    "curiosita": "Contro di esso si usano corna, cornetti e amuleti.",
+    "fatto": "malocchio sguardo",
+    "fonte": "https://it.wikipedia.org/wiki/Malocchio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0101",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama l'amuleto turco a forma di occhio blu?",
+    "risposte": [
+      "Nazar",
+      "Hamsa",
+      "Ankh",
+      "Menorah"
+    ],
+    "curiosita": "Si trova appeso nelle case e sulle barche.",
+    "fatto": "nazar amuleto turco",
+    "fonte": "https://it.wikipedia.org/wiki/Nazar",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0102",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama il gatto portafortuna giapponese con la zampa alzata?",
+    "risposte": [
+      "Maneki-neko",
+      "Daruma",
+      "Tanuki",
+      "Kitsune"
+    ],
+    "curiosita": "Il nome significa «gatto che invita» e sta all'ingresso dei negozi.",
+    "fatto": "maneki neko gatto giapponese",
+    "fonte": "https://it.wikipedia.org/wiki/Maneki-neko",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0103",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale oggetto di origine nativa americana si appende per scacciare gli incubi?",
+    "risposte": [
+      "Acchiappasogni",
+      "Totem",
+      "Calumet",
+      "Tomahawk"
+    ],
+    "curiosita": "Nasce presso il popolo Ojibwe.",
+    "fatto": "acchiappasogni origine",
+    "fonte": "https://it.wikipedia.org/wiki/Acchiappasogni",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0104",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa ebraica ricorda l'olio che durò otto giorni nel Tempio?",
+    "risposte": [
+      "Hanukkah",
+      "Purim",
+      "Sukkot",
+      "Pesach"
+    ],
+    "curiosita": "Ogni sera si accende una candela in più sul candelabro.",
+    "fatto": "hanukkah olio otto giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Hanukkah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0105",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama la festa che conclude il Ramadan?",
+    "risposte": [
+      "Eid al-Fitr",
+      "Eid al-Adha",
+      "Ashura",
+      "Mawlid"
+    ],
+    "curiosita": "È detta anche «festa della rottura del digiuno».",
+    "fatto": "festa fine ramadan",
+    "fonte": "https://it.wikipedia.org/wiki/Ramadan",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0106",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale corno si suona per il Capodanno ebraico?",
+    "risposte": [
+      "Shofar",
+      "Tromba d'argento",
+      "Flauto",
+      "Tamburo"
+    ],
+    "curiosita": "Lo shofar è un corno di montone.",
+    "fatto": "shofar capodanno ebraico",
+    "fonte": "https://it.wikipedia.org/wiki/Rosh_haShanah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0107",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale tragedia di Shakespeare gli attori evitano di nominare in teatro?",
+    "risposte": [
+      "Macbeth",
+      "Amleto",
+      "Otello",
+      "Re Lear"
+    ],
+    "curiosita": "La chiamano «l'opera scozzese» per scaramanzia.",
+    "fatto": "macbeth superstizione teatro",
+    "fonte": "https://it.wikipedia.org/wiki/Macbeth",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0108",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale colore, secondo gli attori italiani, porta sfortuna a teatro?",
+    "risposte": [
+      "Viola",
+      "Rosso",
+      "Verde",
+      "Blu"
+    ],
+    "curiosita": "Pare derivi dai paramenti viola della Quaresima, quando i teatri chiudevano.",
+    "fatto": "viola teatro sfortuna",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0109",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Qual è la risposta tradizionale a «In bocca al lupo»?",
+    "risposte": [
+      "Crepi",
+      "Grazie mille",
+      "Tocca ferro",
+      "Magari"
+    ],
+    "curiosita": "Si risponde «Crepi!», sottinteso il lupo.",
+    "fatto": "risposta in bocca al lupo",
+    "fonte": "https://it.wikipedia.org/wiki/In_bocca_al_lupo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0110",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale giorno della settimana molti marinai evitavano per salpare?",
+    "risposte": [
+      "Venerdì",
+      "Lunedì",
+      "Domenica",
+      "Martedì"
+    ],
+    "curiosita": "Il venerdì era legato alla Crocifissione.",
+    "fatto": "marinai venerdi salpare",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0111",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale data si festeggia San Giovanni Battista?",
+    "risposte": [
+      "24 giugno",
+      "21 giugno",
+      "29 giugno",
+      "15 giugno"
+    ],
+    "curiosita": "Cade vicino al solstizio d'estate ed è una festa di falò.",
+    "fatto": "san giovanni battista data",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Battista",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0112",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale giorno si festeggiano Pietro e Paolo, patroni di Roma?",
+    "risposte": [
+      "29 giugno",
+      "24 giugno",
+      "15 agosto",
+      "1 maggio"
+    ],
+    "curiosita": "A Roma è festa cittadina.",
+    "fatto": "pietro paolo patroni roma data",
+    "fonte": "https://it.wikipedia.org/wiki/Pietro_(apostolo)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0113",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di quale città è patrono San Petronio?",
+    "risposte": [
+      "Bologna",
+      "Ferrara",
+      "Modena",
+      "Parma"
+    ],
+    "curiosita": "La basilica a lui dedicata si affaccia su piazza Maggiore.",
+    "fatto": "patrono san petronio",
+    "fonte": "https://it.wikipedia.org/wiki/Petronio_di_Bologna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0114",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa cinese chiude il Capodanno con le lanterne?",
+    "risposte": [
+      "Festa delle lanterne",
+      "Qingming",
+      "Duanwu",
+      "Festa di metà autunno"
+    ],
+    "curiosita": "Cade il quindicesimo giorno del primo mese lunare.",
+    "fatto": "festa lanterne cina",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_delle_lanterne",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0115",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa cinese prevede gare di barche a forma di drago?",
+    "risposte": [
+      "Festa delle barche drago",
+      "Qingming",
+      "Festa delle lanterne",
+      "Festa di metà autunno"
+    ],
+    "curiosita": "Si celebra il quinto giorno del quinto mese lunare.",
+    "fatto": "barche drago festa",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_delle_barche_drago",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0116",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale cibo caratterizza il martedì grasso anglosassone?",
+    "risposte": [
+      "Pancake",
+      "Pudding",
+      "Scones",
+      "Muffin"
+    ],
+    "curiosita": "Si fanno gare di corsa con la padella in mano.",
+    "fatto": "pancake day martedi grasso",
+    "fonte": "https://it.wikipedia.org/wiki/Marted%C3%AC_grasso",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0117",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama il 26 dicembre nel Regno Unito?",
+    "risposte": [
+      "Boxing Day",
+      "Twelfth Night",
+      "Hogmanay",
+      "Bonfire Night"
+    ],
+    "curiosita": "Un tempo si donavano scatole di regali ai servitori.",
+    "fatto": "boxing day",
+    "fonte": "https://it.wikipedia.org/wiki/Boxing_Day",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0118",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale insaccato ripieno nella zampa di maiale è tipico di Modena?",
+    "risposte": [
+      "Zampone",
+      "Cotechino",
+      "Salame",
+      "Mortadella"
+    ],
+    "curiosita": "A Capodanno si mangia con le lenticchie.",
+    "fatto": "zampone modena",
+    "fonte": "https://it.wikipedia.org/wiki/Zampone",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0119",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale dolce napoletano di Natale ha palline fritte e miele?",
+    "risposte": [
+      "Struffoli",
+      "Pastiera",
+      "Babà",
+      "Sfogliatella"
+    ],
+    "curiosita": "Si presentano a montagnola, con canditi e codette colorate.",
+    "fatto": "struffoli natale napoli",
+    "fonte": "https://it.wikipedia.org/wiki/Struffoli",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0120",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Il Palio di Siena del 2 luglio è dedicato a quale Madonna?",
+    "risposte": [
+      "Madonna di Provenzano",
+      "Assunta",
+      "Annunziata",
+      "Addolorata"
+    ],
+    "curiosita": "Il secondo Palio, il 16 agosto, è per l'Assunta.",
+    "fatto": "palio 2 luglio provenzano",
+    "fonte": "https://it.wikipedia.org/wiki/Palio_di_Siena",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0121",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama la paura del venerdì 13?",
+    "risposte": [
+      "Paraskevidekatriafobia",
+      "Nictofobia",
+      "Tetrafobia",
+      "Ofidiofobia"
+    ],
+    "curiosita": "Il nome unisce i termini greci per «venerdì» e «tredici».",
+    "fatto": "paura venerdi tredici",
+    "fonte": "https://it.wikipedia.org/wiki/Venerd%C3%AC_13",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0122",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale figura guida il corteo storico del Carnevale di Ivrea?",
+    "risposte": [
+      "La Vezzosa Mugnaia",
+      "Il Podestà",
+      "La Bella Gigogin",
+      "Il Doge"
+    ],
+    "curiosita": "Rappresenta la giovane Violetta che si ribellò al tiranno.",
+    "fatto": "vezzosa mugnaia ivrea",
+    "fonte": "https://it.wikipedia.org/wiki/Storico_Carnevale_di_Ivrea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0123",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama la maschera veneziana bianca con mantello e tricorno?",
+    "risposte": [
+      "Bauta",
+      "Moretta",
+      "Gnaga",
+      "Volto"
+    ],
+    "curiosita": "Garantiva l'anonimato e si portava anche fuori Carnevale.",
+    "fatto": "bauta maschera veneziana",
+    "fonte": "https://it.wikipedia.org/wiki/Bauta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0124",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Di quale città è maschera tradizionale il dottor Balanzone?",
+    "risposte": [
+      "Bologna",
+      "Firenze",
+      "Bergamo",
+      "Milano"
+    ],
+    "curiosita": "È il dottore pedante in toga nera.",
+    "fatto": "balanzone maschera bologna",
+    "fonte": "https://it.wikipedia.org/wiki/Balanzone",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0125",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Di quale città è maschera tradizionale Stenterello?",
+    "risposte": [
+      "Firenze",
+      "Roma",
+      "Venezia",
+      "Genova"
+    ],
+    "curiosita": "È un personaggio comico fiorentino nato nel Settecento.",
+    "fatto": "stenterello maschera firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Stenterello",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0126",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Di quale città è maschera tradizionale Meneghino?",
+    "risposte": [
+      "Milano",
+      "Torino",
+      "Bergamo",
+      "Bologna"
+    ],
+    "curiosita": "Il nome richiama «Domenichino», servo dei nobili.",
+    "fatto": "meneghino maschera milano",
+    "fonte": "https://it.wikipedia.org/wiki/Meneghino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0127",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale città svizzera si tiene la Fasnacht che inizia alle 4 del mattino?",
+    "risposte": [
+      "Basilea",
+      "Zurigo",
+      "Berna",
+      "Lucerna"
+    ],
+    "curiosita": "Il «Morgestraich» parte con le luci della città spente.",
+    "fatto": "fasnacht basilea",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Basilea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0128",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale Paese ha il Carnevale di Binche e i suoi Gilles?",
+    "risposte": [
+      "Belgio",
+      "Francia",
+      "Olanda",
+      "Germania"
+    ],
+    "curiosita": "I Gilles portano grandi cappelli di piume di struzzo.",
+    "fatto": "binche gilles paese",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Binche",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0129",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quali colori simboleggiano il Mardi Gras di New Orleans?",
+    "risposte": [
+      "Viola, verde e oro",
+      "Rosso, bianco e blu",
+      "Rosso, verde e bianco",
+      "Giallo, nero e rosso"
+    ],
+    "curiosita": "Rappresentano giustizia, fede e potere.",
+    "fatto": "mardi gras colori",
+    "fonte": "https://it.wikipedia.org/wiki/Mardi_Gras",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0130",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale fiore decora gli altari del Giorno dei morti messicano?",
+    "risposte": [
+      "Tagete",
+      "Girasole",
+      "Dalia",
+      "Bouganville"
+    ],
+    "curiosita": "I petali arancioni guidano le anime verso l'altare.",
+    "fatto": "tagete cempasuchil morti messico",
+    "fonte": "https://it.wikipedia.org/wiki/Tagetes",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0131",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa giapponese d'estate accoglie gli spiriti degli antenati?",
+    "risposte": [
+      "Obon",
+      "Tanabata",
+      "Hanami",
+      "Shichi-Go-San"
+    ],
+    "curiosita": "Si accendono lanterne e si danza la Bon Odori.",
+    "fatto": "obon antenati giappone",
+    "fonte": "https://it.wikipedia.org/wiki/Obon",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0132",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa giapponese del 7 luglio ricorda l'incontro di due stelle?",
+    "risposte": [
+      "Tanabata",
+      "Obon",
+      "Setsubun",
+      "Tsukimi"
+    ],
+    "curiosita": "Le stelle Vega e Altair si incontrano una volta all'anno.",
+    "fatto": "tanabata sette luglio",
+    "fonte": "https://it.wikipedia.org/wiki/Tanabata",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0133",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "A quali età si celebra in Giappone lo Shichi-Go-San?",
+    "risposte": [
+      "3, 5 e 7 anni",
+      "5, 10 e 15 anni",
+      "1, 3 e 5 anni",
+      "7, 14 e 21 anni"
+    ],
+    "curiosita": "Il 15 novembre i bambini vanno al santuario in kimono.",
+    "fatto": "shichi go san eta",
+    "fonte": "https://it.wikipedia.org/wiki/Shichi-Go-San",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0134",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Che cosa si fa in Cina durante Qingming?",
+    "risposte": [
+      "Si puliscono le tombe",
+      "Si lanciano lanterne",
+      "Si corre con i draghi",
+      "Si mangiano mooncake"
+    ],
+    "curiosita": "È la festa della «pulizia delle tombe», all'inizio di aprile.",
+    "fatto": "qingming tombe",
+    "fonte": "https://it.wikipedia.org/wiki/Qingming",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0135",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale cibo di riso avvolto in foglie si mangia durante Duanwu?",
+    "risposte": [
+      "Zongzi",
+      "Mooncake",
+      "Baozi",
+      "Jiaozi"
+    ],
+    "curiosita": "Ricorda il poeta Qu Yuan, annegato nel fiume Miluo.",
+    "fatto": "zongzi duanwu",
+    "fonte": "https://it.wikipedia.org/wiki/Zongzi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0136",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il Capodanno vietnamita?",
+    "risposte": [
+      "Tết",
+      "Songkran",
+      "Seollal",
+      "Nowruz"
+    ],
+    "curiosita": "Si decorano le case con rami di pesco e kumquat.",
+    "fatto": "capodanno vietnamita tet",
+    "fonte": "https://it.wikipedia.org/wiki/T%E1%BA%BFt",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0137",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa persiana si celebra all'equinozio di primavera?",
+    "risposte": [
+      "Nowruz",
+      "Yalda",
+      "Mehregan",
+      "Sizdah Bedar"
+    ],
+    "curiosita": "Significa «nuovo giorno» ed è patrimonio UNESCO.",
+    "fatto": "nowruz equinozio primavera",
+    "fonte": "https://it.wikipedia.org/wiki/Nowruz",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0138",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa thailandese si fa con cesti con candele sull'acqua?",
+    "risposte": [
+      "Loy Krathong",
+      "Songkran",
+      "Visakha Bucha",
+      "Makha Bucha"
+    ],
+    "curiosita": "Si celebra con la luna piena di novembre.",
+    "fatto": "loy krathong cesti acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Loy_Krathong",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0139",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa svedese celebra il solstizio d'estate con un palo ornato?",
+    "risposte": [
+      "Midsommar",
+      "Valborg",
+      "Lucia",
+      "Kräftskiva"
+    ],
+    "curiosita": "Si balla attorno al palo, il majstång.",
+    "fatto": "midsommar palo svezia",
+    "fonte": "https://it.wikipedia.org/wiki/Midsommar",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0140",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale cibo fermentato si mangia al Þorrablót islandese?",
+    "risposte": [
+      "Squalo (hákarl)",
+      "Aringa salata",
+      "Lutefisk",
+      "Surströmming"
+    ],
+    "curiosita": "Il hákarl ha un forte odore di ammoniaca.",
+    "fatto": "thorrablot hakarl",
+    "fonte": "https://it.wikipedia.org/wiki/H%C3%A1karl",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0141",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quando si festeggia San Davide, patrono del Galles?",
+    "risposte": [
+      "1° marzo",
+      "17 marzo",
+      "23 aprile",
+      "30 novembre"
+    ],
+    "curiosita": "Simboli della giornata sono il porro e il narciso.",
+    "fatto": "san davide galles data",
+    "fonte": "https://it.wikipedia.org/wiki/Davide_del_Galles",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0142",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santo è patrono della Scozia, festeggiato il 30 novembre?",
+    "risposte": [
+      "Sant'Andrea",
+      "San Giorgio",
+      "San Colombano",
+      "San Davide"
+    ],
+    "curiosita": "La bandiera scozzese riprende la sua croce a X.",
+    "fatto": "patrono scozia",
+    "fonte": "https://it.wikipedia.org/wiki/Andrea_(apostolo)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0143",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale romanzo di Joyce si celebra il 16 giugno a Dublino, nel Bloomsday?",
+    "risposte": [
+      "Ulisse",
+      "Gente di Dublino",
+      "Dedalus",
+      "Finnegans Wake"
+    ],
+    "curiosita": "Il 16 giugno 1904 è il giorno in cui è ambientata la storia.",
+    "fatto": "bloomsday romanzo",
+    "fonte": "https://it.wikipedia.org/wiki/Bloomsday",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0144",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa veneziana di luglio prevede un ponte di barche?",
+    "risposte": [
+      "Festa del Redentore",
+      "Festa della Sensa",
+      "Regata Storica",
+      "Festa di San Marco"
+    ],
+    "curiosita": "Si attraversa il canale della Giudecca.",
+    "fatto": "redentore venezia ponte barche",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_del_Redentore",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0145",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa veneziana ricorda lo «sposalizio col mare»?",
+    "risposte": [
+      "Festa della Sensa",
+      "Redentore",
+      "Regata Storica",
+      "Festa di San Marco"
+    ],
+    "curiosita": "Il doge gettava un anello in acqua.",
+    "fatto": "sensa sposalizio mare",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_della_Sensa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0146",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quante sono le contrade di Siena?",
+    "risposte": [
+      "17",
+      "10",
+      "12",
+      "20"
+    ],
+    "curiosita": "Solo 10 per volta corrono il Palio.",
+    "fatto": "contrade siena numero",
+    "fonte": "https://it.wikipedia.org/wiki/Contrada_(Siena)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0147",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale rito di Pasqua prevede a Firenze un carro esplosivo davanti al Duomo?",
+    "risposte": [
+      "Scoppio del Carro",
+      "Calcio storico",
+      "Giostra del Saracino",
+      "Infiorata"
+    ],
+    "curiosita": "Una «colombina» di fuochi parte dall'altare.",
+    "fatto": "scoppio carro firenze",
+    "fonte": "https://it.wikipedia.org/wiki/Scoppio_del_Carro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0148",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santo si venera a Cagliari nella sagra del 1° maggio?",
+    "risposte": [
+      "Sant'Efisio",
+      "San Saturnino",
+      "San Giorgio",
+      "San Costantino"
+    ],
+    "curiosita": "La processione è un voto del 1656 contro la peste.",
+    "fatto": "sant efisio cagliari",
+    "fonte": "https://it.wikipedia.org/wiki/Sagra_di_Sant'Efisio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0149",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale data cade la festa principale di San Gennaro in autunno?",
+    "risposte": [
+      "19 settembre",
+      "2 settembre",
+      "1 novembre",
+      "4 ottobre"
+    ],
+    "curiosita": "Nel Duomo di Napoli si attende lo scioglimento del sangue.",
+    "fatto": "san gennaro 19 settembre",
+    "fonte": "https://it.wikipedia.org/wiki/San_Gennaro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0150",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santa è patrona dei vigili del fuoco?",
+    "risposte": [
+      "Santa Barbara",
+      "Santa Lucia",
+      "Santa Rita",
+      "Santa Chiara"
+    ],
+    "curiosita": "È patrona anche di minatori e artiglieri.",
+    "fatto": "santa barbara vigili fuoco",
+    "fonte": "https://it.wikipedia.org/wiki/Barbara_di_Nicomedia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0151",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santo è patrono di Trieste?",
+    "risposte": [
+      "San Giusto",
+      "San Marco",
+      "San Zeno",
+      "San Nicolò"
+    ],
+    "curiosita": "Si festeggia il 3 novembre.",
+    "fatto": "patrono trieste",
+    "fonte": "https://it.wikipedia.org/wiki/Giusto_di_Trieste",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0152",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Di quale città è patrono San Zeno?",
+    "risposte": [
+      "Verona",
+      "Mantova",
+      "Vicenza",
+      "Brescia"
+    ],
+    "curiosita": "La sua basilica è un capolavoro romanico.",
+    "fatto": "patrono san zeno verona",
+    "fonte": "https://it.wikipedia.org/wiki/Zeno_di_Verona",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0153",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale città piemontese ha come patrono San Giovanni Battista?",
+    "risposte": [
+      "Torino",
+      "Cuneo",
+      "Alessandria",
+      "Novara"
+    ],
+    "curiosita": "Il 24 giugno la città festeggia con i fuochi d'artificio.",
+    "fatto": "patrono torino",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Battista",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0154",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale città si porta a spalla la Macchina di Santa Rosa?",
+    "risposte": [
+      "Viterbo",
+      "Rieti",
+      "Orvieto",
+      "Terni"
+    ],
+    "curiosita": "Una torre luminosa alta circa 30 metri sfila il 3 settembre.",
+    "fatto": "macchina santa rosa citta",
+    "fonte": "https://it.wikipedia.org/wiki/Macchina_di_Santa_Rosa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0155",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Il Carnevale di Fano è celebre per il lancio di che cosa?",
+    "risposte": [
+      "Dolciumi",
+      "Arance",
+      "Uova",
+      "Frutta"
+    ],
+    "curiosita": "Il pupazzo Vulon getta dolci dai carri.",
+    "fatto": "carnevale fano lancio",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Fano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0156",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale città emiliana ha un Carnevale gemellato con quello di Rio?",
+    "risposte": [
+      "Cento",
+      "Parma",
+      "Modena",
+      "Rimini"
+    ],
+    "curiosita": "È chiamato anche «il Carnevale d'Europa».",
+    "fatto": "carnevale cento gemellato rio",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale_di_Cento",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0157",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale paese sardo si corre S'Ardia, a cavallo, in onore di San Costantino?",
+    "risposte": [
+      "Sedilo",
+      "Orgosolo",
+      "Mamoiada",
+      "Fonni"
+    ],
+    "curiosita": "La corsa avviene attorno al santuario di San Costantino.",
+    "fatto": "ardia sedilo",
+    "fonte": "https://it.wikipedia.org/wiki/S'Ardia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0158",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale città ospita il Gioco del Ponte tra Mezzogiorno e Tramontana?",
+    "risposte": [
+      "Pisa",
+      "Lucca",
+      "Livorno",
+      "Siena"
+    ],
+    "curiosita": "Le squadre spingono un carrello sul Ponte di Mezzo.",
+    "fatto": "gioco del ponte pisa",
+    "fonte": "https://it.wikipedia.org/wiki/Gioco_del_Ponte",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0159",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale città marchigiana ospita la Quintana in costume medievale ad agosto?",
+    "risposte": [
+      "Ascoli Piceno",
+      "Urbino",
+      "Fabriano",
+      "Macerata"
+    ],
+    "curiosita": "I cavalieri infilano anelli con la lancia davanti a una statua.",
+    "fatto": "quintana ascoli piceno",
+    "fonte": "https://it.wikipedia.org/wiki/Quintana_di_Ascoli_Piceno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0160",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa romana di luglio si svolge a Trastevere?",
+    "risposte": [
+      "Festa de' Noantri",
+      "Natale di Roma",
+      "Festa dei Ceri",
+      "Festa del Redentore"
+    ],
+    "curiosita": "«Noantri» è il romanesco per «noi altri».",
+    "fatto": "festa noantri trastevere",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_de'_Noantri",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0161",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Che cosa si prepara in più a tavola per la Vigilia polacca?",
+    "risposte": [
+      "Un posto per l'ospite",
+      "Una seconda tovaglia",
+      "Un piatto di carne",
+      "Un fiore rosso"
+    ],
+    "curiosita": "Il posto vuoto è per un viandante inatteso o per un caro scomparso.",
+    "fatto": "vigilia polacca posto vuoto",
+    "fonte": "https://it.wikipedia.org/wiki/Wigilia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0162",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Che cosa si nasconde nella galette des rois francese dell'Epifania?",
+    "risposte": [
+      "Una fava",
+      "Una moneta",
+      "Un anello",
+      "Una nocciola"
+    ],
+    "curiosita": "Chi la trova è «re» o «regina» per un giorno.",
+    "fatto": "galette des rois fava",
+    "fonte": "https://it.wikipedia.org/wiki/Galette_des_Rois",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0163",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Che cosa si nasconde nella vasilopita greca di Capodanno?",
+    "risposte": [
+      "Una moneta",
+      "Una fava",
+      "Un anello",
+      "Una nocciola"
+    ],
+    "curiosita": "La fetta con la moneta porta fortuna per tutto l'anno.",
+    "fatto": "vasilopita moneta",
+    "fonte": "https://it.wikipedia.org/wiki/Vasilopita",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0164",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale usanza danese di Capodanno si fa davanti alle porte degli amici?",
+    "risposte": [
+      "Rompere piatti vecchi",
+      "Lanciare monete",
+      "Accendere candele",
+      "Suonare campanelli"
+    ],
+    "curiosita": "Più cocci ci sono davanti alla porta, più amici si hanno.",
+    "fatto": "danimarca capodanno piatti",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0165",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale Paese a Capodanno si indossa il bianco e si offrono fiori a Iemanjá?",
+    "risposte": [
+      "Brasile",
+      "Portogallo",
+      "Argentina",
+      "Cuba"
+    ],
+    "curiosita": "Sulle spiagge si gettano fiori in mare.",
+    "fatto": "iemanja capodanno brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0166",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa russa celebra la fine dell'inverno con i blini?",
+    "risposte": [
+      "Maslenitsa",
+      "Kupala",
+      "Pasqua ortodossa",
+      "Festa della Vittoria"
+    ],
+    "curiosita": "Alla fine si brucia un fantoccio di paglia.",
+    "fatto": "maslenitsa blini",
+    "fonte": "https://it.wikipedia.org/wiki/Maslenitsa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0167",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa dell'antica Roma cadeva il 17 dicembre, con scambio di doni?",
+    "risposte": [
+      "Saturnali",
+      "Lupercali",
+      "Vestali",
+      "Floralia"
+    ],
+    "curiosita": "Era il periodo di libertà, con i ruoli tra servi e padroni invertiti.",
+    "fatto": "saturnali diciassette dicembre",
+    "fonte": "https://it.wikipedia.org/wiki/Saturnali",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0168",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa romana del 15 febbraio vedeva giovani correre con strisce di pelle?",
+    "risposte": [
+      "Lupercali",
+      "Saturnali",
+      "Floralia",
+      "Vestali"
+    ],
+    "curiosita": "Dalla festa deriverebbe poi San Valentino, secondo alcuni.",
+    "fatto": "lupercali quindici febbraio",
+    "fonte": "https://it.wikipedia.org/wiki/Lupercalia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0169",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "A quale data corrispondono le Idi di marzo?",
+    "risposte": [
+      "15 marzo",
+      "1° marzo",
+      "13 marzo",
+      "21 marzo"
+    ],
+    "curiosita": "Il 15 marzo del 44 a.C. fu ucciso Giulio Cesare.",
+    "fatto": "idi di marzo data",
+    "fonte": "https://it.wikipedia.org/wiki/Idi_di_marzo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0170",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale frutto si rompe sulla soglia a Capodanno in Grecia?",
+    "risposte": [
+      "Melograno",
+      "Mela",
+      "Arancia",
+      "Fico"
+    ],
+    "curiosita": "Più i chicchi si spargono, più fortuna ci sarà.",
+    "fatto": "melograno grecia capodanno",
+    "fonte": "https://it.wikipedia.org/wiki/Melograno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0171",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama la bambola giapponese portafortuna cui si colora un occhio?",
+    "risposte": [
+      "Daruma",
+      "Kokeshi",
+      "Maneki-neko",
+      "Hotei"
+    ],
+    "curiosita": "Il secondo occhio si dipinge quando il desiderio si realizza.",
+    "fatto": "daruma occhio desiderio",
+    "fonte": "https://it.wikipedia.org/wiki/Daruma_(bambola)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0172",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale monaco di Norcia è patrono d'Europa?",
+    "risposte": [
+      "San Benedetto",
+      "San Bernardo",
+      "San Francesco",
+      "San Bruno"
+    ],
+    "curiosita": "La sua Regola è riassunta nel motto «Ora et labora».",
+    "fatto": "patrono europa benedetto",
+    "fonte": "https://it.wikipedia.org/wiki/Benedetto_da_Norcia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0173",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santo si invoca contro la peste, raffigurato con un cane?",
+    "risposte": [
+      "San Rocco",
+      "San Sebastiano",
+      "San Cristoforo",
+      "San Giorgio"
+    ],
+    "curiosita": "Secondo la tradizione un cane gli portava il pane.",
+    "fatto": "san rocco peste cane",
+    "fonte": "https://it.wikipedia.org/wiki/Rocco_di_Montpellier",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0174",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale santa è patrona dei musicisti?",
+    "risposte": [
+      "Santa Cecilia",
+      "Santa Lucia",
+      "Santa Chiara",
+      "Santa Rita"
+    ],
+    "curiosita": "Si festeggia il 22 novembre.",
+    "fatto": "patrona musicisti cecilia",
+    "fonte": "https://it.wikipedia.org/wiki/Cecilia_(santa)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0175",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa dell'8 dicembre ricorda Maria nata senza peccato?",
+    "risposte": [
+      "Immacolata Concezione",
+      "Assunzione",
+      "Annunciazione",
+      "Candelora"
+    ],
+    "curiosita": "A Roma il Papa omaggia la statua in piazza di Spagna.",
+    "fatto": "immacolata otto dicembre",
+    "fonte": "https://it.wikipedia.org/wiki/Immacolata_Concezione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0176",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale ricorrenza cade 40 giorni dopo Natale, con la benedizione delle candele?",
+    "risposte": [
+      "Candelora",
+      "Epifania",
+      "Ognissanti",
+      "Ascensione"
+    ],
+    "curiosita": "Si festeggia il 2 febbraio.",
+    "fatto": "candelora due febbraio",
+    "fonte": "https://it.wikipedia.org/wiki/Candelora",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0177",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "In quale mese cadono i Giorni della Merla?",
+    "risposte": [
+      "Gennaio",
+      "Dicembre",
+      "Febbraio",
+      "Marzo"
+    ],
+    "curiosita": "Secondo la tradizione sono i giorni più freddi dell'anno.",
+    "fatto": "giorni merla mese",
+    "fonte": "https://it.wikipedia.org/wiki/Giorni_della_merla",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0178",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale amuleto a forma di mano protegge dal malocchio nel mondo arabo ed ebraico?",
+    "risposte": [
+      "Hamsa",
+      "Nazar",
+      "Ankh",
+      "Scarabeo"
+    ],
+    "curiosita": "In ambito ebraico è detta anche «mano di Miriam».",
+    "fatto": "hamsa amuleto mano",
+    "fonte": "https://it.wikipedia.org/wiki/Hamsa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0179",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale festa celtica del 1° maggio accoglie l'estate con falò?",
+    "risposte": [
+      "Beltane",
+      "Samhain",
+      "Imbolc",
+      "Yule"
+    ],
+    "curiosita": "Il bestiame veniva fatto passare tra due fuochi.",
+    "fatto": "beltane primo maggio",
+    "fonte": "https://it.wikipedia.org/wiki/Beltane",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-tra-0180",
+    "tipo": "classica",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale candelabro a sette bracci è simbolo dell'ebraismo?",
+    "risposte": [
+      "Menorah",
+      "Mezuzah",
+      "Shofar",
+      "Kippah"
+    ],
+    "curiosita": "Quello di Hanukkah ne ha nove e si chiama hanukkiah.",
+    "fatto": "menorah sette bracci",
+    "fonte": "https://it.wikipedia.org/wiki/Menorah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

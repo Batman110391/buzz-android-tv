@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "cl-str-0001",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale pecora fu il primo mammifero clonato a partire da una cellula adulta?",
+    "risposte": [
+      "Dolly",
+      "Molly",
+      "Polly",
+      "Betty"
+    ],
+    "curiosita": "Nacque nel 1996 in Scozia e visse sei anni, fino al 2003.",
+    "fatto": "dolly pecora clonata",
+    "fonte": "https://it.wikipedia.org/wiki/Dolly_(pecora)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0002",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore è il sangue del polpo?",
+    "risposte": [
+      "Blu",
+      "Verde",
+      "Giallo",
+      "Viola"
+    ],
+    "curiosita": "Contiene emocianina, a base di rame, che con l'ossigeno diventa azzurra.",
+    "fatto": "polpo colore sangue",
+    "fonte": "https://it.wikipedia.org/wiki/Octopoda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0003",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale ha impronte digitali quasi identiche a quelle umane?",
+    "risposte": [
+      "Koala",
+      "Scimpanzé",
+      "Lemure",
+      "Panda"
+    ],
+    "curiosita": "Sono così simili che in teoria potrebbero confondere una scena del crimine.",
+    "fatto": "koala impronte digitali",
+    "fonte": "https://it.wikipedia.org/wiki/Phascolarctos_cinereus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0004",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Nel cavalluccio marino, chi partorisce i piccoli?",
+    "risposte": [
+      "Il maschio",
+      "La femmina",
+      "Entrambi a turno",
+      "Il più grande"
+    ],
+    "curiosita": "Il maschio li porta in una tasca sul ventre e poi li espelle.",
+    "fatto": "cavalluccio marino parto maschio",
+    "fonte": "https://it.wikipedia.org/wiki/Hippocampus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0005",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale di questi frutti è una vera bacca per i botanici?",
+    "risposte": [
+      "Banana",
+      "Fragola",
+      "Lampone",
+      "Mora"
+    ],
+    "curiosita": "Fragola, lampone e mora, botanicamente, sono frutti composti, non bacche.",
+    "fatto": "banana bacca botanica",
+    "fonte": "https://it.wikipedia.org/wiki/Banana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0006",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Su quale pianeta il giorno dura più dell'anno?",
+    "risposte": [
+      "Venere",
+      "Mercurio",
+      "Marte",
+      "Giove"
+    ],
+    "curiosita": "Venere ruota su sé stesso in 243 giorni terrestri e gira intorno al Sole in 225.",
+    "fatto": "venere giorno piu lungo anno",
+    "fonte": "https://it.wikipedia.org/wiki/Venere_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0007",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "In quale paese la legge vieta di tenere una sola cavia, perché soffre la solitudine?",
+    "risposte": [
+      "Svizzera",
+      "Germania",
+      "Austria",
+      "Paesi Bassi"
+    ],
+    "curiosita": "Le cavie sono animali sociali: in Svizzera devono vivere in coppia o in gruppo.",
+    "fatto": "svizzera cavia sola divieto",
+    "fonte": "https://it.wikipedia.org/wiki/Cavia_porcellus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0008",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale ha la pupilla orizzontale, a forma di rettangolo?",
+    "risposte": [
+      "Capra",
+      "Gatto",
+      "Gufo",
+      "Cane"
+    ],
+    "curiosita": "Questa forma permette di vedere quasi a 360 gradi anche mentre bruca.",
+    "fatto": "capra pupilla rettangolare",
+    "fonte": "https://it.wikipedia.org/wiki/Capra_hircus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0009",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale produce escrementi a forma di cubo?",
+    "risposte": [
+      "Wombat",
+      "Koala",
+      "Canguro",
+      "Dingo"
+    ],
+    "curiosita": "Li usa per segnare il territorio: i cubetti non rotolano via dalle rocce.",
+    "fatto": "wombat feci cubiche",
+    "fonte": "https://it.wikipedia.org/wiki/Vombatidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0010",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Perché i fenicotteri hanno le piume rosa?",
+    "risposte": [
+      "Dal cibo che mangiano",
+      "Dal sole intenso",
+      "Per mimetismo",
+      "Dall'acqua salata"
+    ],
+    "curiosita": "Crostacei e alghe contengono carotenoidi: senza, i fenicotteri sarebbero grigi.",
+    "fatto": "fenicotteri colore rosa cibo",
+    "fonte": "https://it.wikipedia.org/wiki/Phoenicopteridae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0011",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "In quale paese è stata inventata la pizza hawaiana?",
+    "risposte": [
+      "Canada",
+      "Stati Uniti",
+      "Italia",
+      "Australia"
+    ],
+    "curiosita": "La inventò nel 1962 il cuoco greco Sam Panopoulos, a Chatham, in Ontario.",
+    "fatto": "pizza hawaiana paese invenzione",
+    "fonte": "https://it.wikipedia.org/wiki/Pizza_hawaiana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0012",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale marino vive e si riproduce senza cervello?",
+    "risposte": [
+      "Medusa",
+      "Polpo",
+      "Delfino",
+      "Squalo"
+    ],
+    "curiosita": "Ha solo una rete di nervi sparsa nel corpo, eppure nuota da centinaia di milioni di anni.",
+    "fatto": "medusa senza cervello",
+    "fonte": "https://it.wikipedia.org/wiki/Cnidaria",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0013",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale ha le strisce anche sulla pelle, sotto il pelo?",
+    "risposte": [
+      "Tigre",
+      "Leone",
+      "Leopardo",
+      "Giaguaro"
+    ],
+    "curiosita": "Le strisce sono uniche per ogni esemplare, come le impronte digitali.",
+    "fatto": "tigre strisce pelle",
+    "fonte": "https://it.wikipedia.org/wiki/Panthera_tigris",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0014",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale uccello è capace di volare all'indietro?",
+    "risposte": [
+      "Colibrì",
+      "Passero",
+      "Rondine",
+      "Gabbiano"
+    ],
+    "curiosita": "Batte le ali fino a 50 volte al secondo e può restare fermo in aria.",
+    "fatto": "colibri volo indietro",
+    "fonte": "https://it.wikipedia.org/wiki/Trochilidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0015",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale cetaceo ha una zanna a spirale, scambiata un tempo per il corno dell'unicorno?",
+    "risposte": [
+      "Narvalo",
+      "Beluga",
+      "Orca",
+      "Capodoglio"
+    ],
+    "curiosita": "È un dente che può superare i due metri: i marinai lo vendevano come corno magico.",
+    "fatto": "narvalo zanna unicorno",
+    "fonte": "https://it.wikipedia.org/wiki/Monodon_monoceros",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0016",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale mammifero è l'unico capace di volo attivo, battendo le ali?",
+    "risposte": [
+      "Pipistrello",
+      "Scoiattolo volante",
+      "Pangolino",
+      "Riccio"
+    ],
+    "curiosita": "Gli scoiattoli volanti in realtà planano soltanto.",
+    "fatto": "pipistrello unico mammifero volo",
+    "fonte": "https://it.wikipedia.org/wiki/Chiroptera",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0017",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale frutto ha i suoi «semi» all'esterno?",
+    "risposte": [
+      "Fragola",
+      "Lampone",
+      "Mora",
+      "Ciliegia"
+    ],
+    "curiosita": "Quei puntini sono veri frutti secchi, gli acheni; la polpa è un ingrossamento del fiore.",
+    "fatto": "fragola semi esterni",
+    "fonte": "https://it.wikipedia.org/wiki/Fragola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0018",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale alimento si è conservato commestibile per millenni nelle tombe egizie?",
+    "risposte": [
+      "Miele",
+      "Burro",
+      "Pane",
+      "Olio"
+    ],
+    "curiosita": "Poca acqua e molti zuccheri: i batteri non riescono a svilupparsi.",
+    "fatto": "miele conservazione millenni",
+    "fonte": "https://it.wikipedia.org/wiki/Miele",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0019",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale fu il primo a orbitare attorno alla Terra, nel 1957?",
+    "risposte": [
+      "Laika, una cagna",
+      "Ham, uno scimpanzé",
+      "Belka, una cagna",
+      "Gordo, una scimmia"
+    ],
+    "curiosita": "Laika partì sullo Sputnik 2; la missione non prevedeva il ritorno.",
+    "fatto": "laika primo animale orbita",
+    "fonte": "https://it.wikipedia.org/wiki/Laika",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0020",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che colore ha la pelle dell'orso polare, sotto il pelo?",
+    "risposte": [
+      "Nera",
+      "Rosa",
+      "Bianca",
+      "Grigia"
+    ],
+    "curiosita": "Il pelo è trasparente e cavo: sembra bianco solo perché riflette la luce.",
+    "fatto": "orso polare pelle nera",
+    "fonte": "https://it.wikipedia.org/wiki/Ursus_maritimus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0021",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come gareggiavano gli atleti ai Giochi olimpici dell'antica Grecia?",
+    "risposte": [
+      "Nudi",
+      "Con la tunica",
+      "Con l'armatura",
+      "Con una maschera"
+    ],
+    "curiosita": "La parola «ginnasio» deriva da gymnos, che in greco vuol dire nudo.",
+    "fatto": "olimpiadi antiche atleti nudi",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_antichi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0022",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come venne venduta, all'inizio, la Coca-Cola?",
+    "risposte": [
+      "Come medicina",
+      "Come detersivo",
+      "Come liquore",
+      "Come colorante"
+    ],
+    "curiosita": "Nel 1886 un farmacista di Atlanta la proponeva come tonico contro il mal di testa.",
+    "fatto": "coca cola origine medicina",
+    "fonte": "https://it.wikipedia.org/wiki/Coca-Cola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0023",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come fu scoperta la penicillina?",
+    "risposte": [
+      "Per caso, da una muffa",
+      "Con un esperimento mirato",
+      "Studiando le piante",
+      "Dai fondali marini"
+    ],
+    "curiosita": "Nel 1928 Fleming notò che una muffa aveva ucciso i batteri in una sua piastra.",
+    "fatto": "penicillina scoperta caso muffa",
+    "fonte": "https://it.wikipedia.org/wiki/Penicillina",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0024",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale l'imperatore Caligola avrebbe voluto nominare console?",
+    "risposte": [
+      "Il suo cavallo",
+      "Il suo cane",
+      "Un pavone",
+      "Un leone"
+    ],
+    "curiosita": "Il cavallo si chiamava Incitatus e, dicono le fonti, aveva una stalla di marmo.",
+    "fatto": "caligola cavallo console",
+    "fonte": "https://it.wikipedia.org/wiki/Caligola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0025",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "In quale città-stato la vendita di chewing gum è vietata per legge?",
+    "risposte": [
+      "Singapore",
+      "Monaco",
+      "Hong Kong",
+      "Dubai"
+    ],
+    "curiosita": "Il divieto del 1992 nasce dal costo di staccare le gomme da treni e marciapiedi.",
+    "fatto": "singapore divieto chewing gum",
+    "fonte": "https://it.wikipedia.org/wiki/Singapore",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0026",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore sono le «scatole nere» degli aerei?",
+    "risposte": [
+      "Arancione",
+      "Nere",
+      "Rosse",
+      "Gialle"
+    ],
+    "curiosita": "Il colore vivace le rende facili da trovare tra i rottami.",
+    "fatto": "scatola nera colore arancione",
+    "fonte": "https://it.wikipedia.org/wiki/Registratore_di_volo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0027",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale animale prendono il nome le isole Canarie?",
+    "risposte": [
+      "Cani",
+      "Canarini",
+      "Cavalli",
+      "Gabbiani"
+    ],
+    "curiosita": "Dal latino Canariae insulae: i canarini hanno preso il nome dalle isole.",
+    "fatto": "canarie nome animale cani",
+    "fonte": "https://it.wikipedia.org/wiki/Isole_Canarie",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0028",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cosa c'è di unico in ogni zebra, come un'impronta digitale?",
+    "risposte": [
+      "Il disegno delle strisce",
+      "La lunghezza della coda",
+      "La forma degli zoccoli",
+      "Il suono del nitrito"
+    ],
+    "curiosita": "Non ce ne sono due uguali: i ricercatori le riconoscono dalle strisce.",
+    "fatto": "zebra strisce uniche",
+    "fonte": "https://it.wikipedia.org/wiki/Zebra",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0029",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale piccolo insetto può sollevare un peso molto maggiore del proprio?",
+    "risposte": [
+      "Formica",
+      "Ape",
+      "Mosca",
+      "Zanzara"
+    ],
+    "curiosita": "Una formica può portare dalle 10 alle 50 volte il proprio peso.",
+    "fatto": "formica peso sollevato",
+    "fonte": "https://it.wikipedia.org/wiki/Formicidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0030",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cosa significa, letteralmente, la parola «pomodoro»?",
+    "risposte": [
+      "Pomo d'oro",
+      "Mela rossa",
+      "Frutto del sole",
+      "Bacca dolce"
+    ],
+    "curiosita": "Il nome arriva dalle prime varietà portate dal Messico, che erano gialle.",
+    "fatto": "pomodoro significato pomo d oro",
+    "fonte": "https://it.wikipedia.org/wiki/Pomodoro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0031",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore è un cucciolo di panda gigante appena nato?",
+    "risposte": [
+      "Rosa",
+      "Bianco",
+      "Nero",
+      "Grigio"
+    ],
+    "curiosita": "Pesa un millesimo della madre e il pelo bianco e nero arriva dopo qualche settimana.",
+    "fatto": "panda neonato colore rosa",
+    "fonte": "https://it.wikipedia.org/wiki/Ailuropoda_melanoleuca",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0032",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cosa contiene la gobba del cammello?",
+    "risposte": [
+      "Grasso",
+      "Acqua",
+      "Aria",
+      "Muscoli"
+    ],
+    "curiosita": "È una riserva di energia: se il cammello digiuna, la gobba si affloscia.",
+    "fatto": "cammello gobba contenuto grasso",
+    "fonte": "https://it.wikipedia.org/wiki/Cammello",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0033",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quante ore al giorno dorme, in media, un gatto adulto?",
+    "risposte": [
+      "Dalle 12 alle 16",
+      "Dalle 6 alle 8",
+      "Dalle 3 alle 5",
+      "Dalle 20 alle 22"
+    ],
+    "curiosita": "Passa dormendo circa due terzi della vita: ecco perché sembra sempre in pausa.",
+    "fatto": "gatto ore di sonno",
+    "fonte": "https://it.wikipedia.org/wiki/Felis_silvestris_catus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0034",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale materia prima si ricavava la prima gomma da masticare?",
+    "risposte": [
+      "Linfa d'albero",
+      "Gomma di pneumatico",
+      "Cera d'api",
+      "Colla di pesce"
+    ],
+    "curiosita": "Era il chicle, il lattice della sapotiglia, masticato già dai Maya.",
+    "fatto": "gomma da masticare chicle",
+    "fonte": "https://it.wikipedia.org/wiki/Gomma_da_masticare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0035",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da che cosa prende il nome il cappuccino?",
+    "risposte": [
+      "Dai frati cappuccini",
+      "Dal cappello del barista",
+      "Da una città italiana",
+      "Dalla forma della tazza"
+    ],
+    "curiosita": "Il colore della bevanda ricorda l'abito marrone dell'ordine dei Cappuccini.",
+    "fatto": "cappuccino origine nome",
+    "fonte": "https://it.wikipedia.org/wiki/Cappuccino_(bevanda)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0036",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Su che cosa poggiano le fondamenta di Venezia?",
+    "risposte": [
+      "Milioni di pali di legno",
+      "Su roccia calcarea",
+      "Su blocchi di marmo",
+      "Su isole di cemento"
+    ],
+    "curiosita": "I tronchi, conficcati nel fango, restano sott'acqua e senza ossigeno non marciscono.",
+    "fatto": "venezia fondamenta pali legno",
+    "fonte": "https://it.wikipedia.org/wiki/Venezia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0037",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che cosa è fatto lo scheletro degli squali?",
+    "risposte": [
+      "Cartilagine",
+      "Osso",
+      "Calcio puro",
+      "Chitina"
+    ],
+    "curiosita": "Pesa meno dell'osso e rende gli squali più agili; per questo i loro fossili sono rari.",
+    "fatto": "squalo scheletro cartilagine",
+    "fonte": "https://it.wikipedia.org/wiki/Chondrichthyes",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0038",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Contro quale animale l'esercito australiano perse una «guerra» nel 1932?",
+    "risposte": [
+      "Emù",
+      "Canguri",
+      "Dingo",
+      "Coccodrilli"
+    ],
+    "curiosita": "Soldati e mitragliatrici non riuscirono ad avere ragione degli uccelli, velocissimi.",
+    "fatto": "guerra emu australia 1932",
+    "fonte": "https://it.wikipedia.org/wiki/Grande_guerra_degli_emu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0039",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Per quale animale Stati Uniti e Gran Bretagna rischiarono la guerra nel 1859?",
+    "risposte": [
+      "Un maiale",
+      "Una mucca",
+      "Un cavallo",
+      "Una capra"
+    ],
+    "curiosita": "L'unico morto della «guerra del maiale» nelle isole San Juan fu proprio il maiale.",
+    "fatto": "guerra del maiale 1859",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_del_maiale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0040",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale zar impose una tassa a chi portava la barba?",
+    "risposte": [
+      "Pietro il Grande",
+      "Ivan il Terribile",
+      "Nicola II",
+      "Alessandro I"
+    ],
+    "curiosita": "Chi pagava riceveva un gettone: «La barba è un peso inutile», diceva.",
+    "fatto": "pietro il grande tassa barba",
+    "fonte": "https://it.wikipedia.org/wiki/Pietro_I_di_Russia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0041",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Su che cosa gli inglesi pagarono una tassa dal 1696, tanto che molti la evitarono murando?",
+    "risposte": [
+      "Le finestre",
+      "I camini",
+      "Le porte",
+      "Le scale"
+    ],
+    "curiosita": "Le finestre murate sono ancora visibili in molte vecchie case inglesi.",
+    "fatto": "tassa finestre inghilterra",
+    "fonte": "https://it.wikipedia.org/wiki/Tassa_sulle_finestre",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0042",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa esisteva già quando fu fondata Tenochtitlán, capitale azteca, nel 1325?",
+    "risposte": [
+      "L'Università di Oxford",
+      "Il Taj Mahal",
+      "Il castello di Versailles",
+      "San Basilio a Mosca"
+    ],
+    "curiosita": "A Oxford si insegnava già dal 1096, due secoli prima degli Aztechi.",
+    "fatto": "oxford piu antica aztechi",
+    "fonte": "https://it.wikipedia.org/wiki/Università_di_Oxford",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0043",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale scienziato rifiutò l'offerta di diventare presidente di Israele, nel 1952?",
+    "risposte": [
+      "Albert Einstein",
+      "Sigmund Freud",
+      "Niels Bohr",
+      "Robert Oppenheimer"
+    ],
+    "curiosita": "Rispose di non avere né la capacità né l'esperienza per un incarico simile.",
+    "fatto": "einstein presidenza israele",
+    "fonte": "https://it.wikipedia.org/wiki/Albert_Einstein",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0044",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale anfibio messicano può far ricrescere anche parti del cervello e del cuore?",
+    "risposte": [
+      "Axolotl",
+      "Rana toro",
+      "Geco",
+      "Rospo"
+    ],
+    "curiosita": "È rimasto in forma di «girino adulto» e per questo i ricercatori lo studiano.",
+    "fatto": "axolotl rigenerazione",
+    "fonte": "https://it.wikipedia.org/wiki/Ambystoma_mexicanum",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0045",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Ogni quanto scende dall'albero il bradipo per fare i suoi bisogni?",
+    "risposte": [
+      "Una volta a settimana",
+      "Ogni giorno",
+      "Ogni ora",
+      "Una volta all'anno"
+    ],
+    "curiosita": "È un viaggio rischioso: a terra il bradipo è lento e facile preda.",
+    "fatto": "bradipo bisogni settimana",
+    "fonte": "https://it.wikipedia.org/wiki/Bradipo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0046",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quante vertebre ha il collo della giraffa?",
+    "risposte": [
+      "Sette",
+      "Quattordici",
+      "Venti",
+      "Trenta"
+    ],
+    "curiosita": "Sono sette come in noi umani, solo molto più lunghe.",
+    "fatto": "giraffa vertebre collo",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa_camelopardalis",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0047",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale frutto emette un po' di radioattività naturale, per il potassio che contiene?",
+    "risposte": [
+      "Banana",
+      "Mela",
+      "Limone",
+      "Ciliegia"
+    ],
+    "curiosita": "Il fenomeno è innocuo: per la dose da radiazione, servirebbero milioni di banane.",
+    "fatto": "banana radioattiva potassio",
+    "fonte": "https://it.wikipedia.org/wiki/Banana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0048",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa accade alla statura degli astronauti nello spazio?",
+    "risposte": [
+      "Aumenta di qualche cm",
+      "Diminuisce di qualche cm",
+      "Raddoppia",
+      "Resta identica"
+    ],
+    "curiosita": "Senza gravità la colonna vertebrale si distende; tornati sulla Terra si ritorna alla misura iniziale.",
+    "fatto": "astronauti altezza spazio",
+    "fonte": "https://it.wikipedia.org/wiki/Stazione_Spaziale_Internazionale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0049",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Da che cosa prende il nome il costume da bagno bikini?",
+    "risposte": [
+      "Un atollo del Pacifico",
+      "Una dea greca",
+      "Un attore francese",
+      "Una spiaggia di Rio"
+    ],
+    "curiosita": "Fu lanciato nel 1946, pochi giorni dopo i test atomici sull'atollo di Bikini.",
+    "fatto": "bikini nome atollo",
+    "fonte": "https://it.wikipedia.org/wiki/Bikini_(costume)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0050",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale Stato sudamericano ha due capitali, una sede del governo e una costituzionale?",
+    "risposte": [
+      "Bolivia",
+      "Perù",
+      "Paraguay",
+      "Ecuador"
+    ],
+    "curiosita": "La Paz ospita il governo, Sucre è la capitale costituzionale e sede della giustizia.",
+    "fatto": "bolivia due capitali",
+    "fonte": "https://it.wikipedia.org/wiki/Bolivia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0051",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa significa «leg godt», da cui nasce il nome Lego?",
+    "risposte": [
+      "Gioca bene",
+      "Costruisci tutto",
+      "Piccolo mondo",
+      "Mattoncino"
+    ],
+    "curiosita": "Fu scelto dal falegname danese Ole Kirk Christiansen, che poi scoprì che in latino vuol dire «io metto insieme».",
+    "fatto": "lego significato leg godt",
+    "fonte": "https://it.wikipedia.org/wiki/Lego",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0052",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale oggetto, lanciato dagli studenti per gioco, ispirò il Frisbee?",
+    "risposte": [
+      "Teglie per torte",
+      "Piatti di ceramica",
+      "Coperchi di pentola",
+      "Tappi di barile"
+    ],
+    "curiosita": "Le teglie erano quelle della Frisbie Pie Company, nel Connecticut.",
+    "fatto": "frisbee origine teglie torte",
+    "fonte": "https://it.wikipedia.org/wiki/Frisbee",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0053",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Di quali piccoli insetti hanno paura gli elefanti africani?",
+    "risposte": [
+      "Api",
+      "Formiche",
+      "Mosche",
+      "Zanzare"
+    ],
+    "curiosita": "In Africa alcune recinzioni con alveari tengono gli elefanti lontano dai campi.",
+    "fatto": "elefanti paura api",
+    "fonte": "https://it.wikipedia.org/wiki/Loxodonta_africana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0054",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Chi rese di moda l'abito da sposa bianco, sposandosi nel 1840?",
+    "risposte": [
+      "La regina Vittoria",
+      "Sissi",
+      "Maria Antonietta",
+      "Elisabetta I"
+    ],
+    "curiosita": "Prima il bianco era per le ricche; le altre spose indossavano il vestito più bello.",
+    "fatto": "abito sposa bianco vittoria",
+    "fonte": "https://it.wikipedia.org/wiki/Abito_da_sposa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0055",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Per criticare che cosa nacque il gioco da cui deriva il Monopoli?",
+    "risposte": [
+      "I grandi proprietari",
+      "Le banche",
+      "Le tasse",
+      "Il gioco d'azzardo"
+    ],
+    "curiosita": "Elizabeth Magie lo ideò nel 1904 contro l'abuso di rendita sugli affitti.",
+    "fatto": "monopoli origine landlord game",
+    "fonte": "https://it.wikipedia.org/wiki/Monopoly",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0056",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale faraona si faceva raffigurare con la barba finta?",
+    "risposte": [
+      "Hatshepsut",
+      "Nefertiti",
+      "Cleopatra",
+      "Nefertari"
+    ],
+    "curiosita": "Governò come faraone per oltre vent'anni, in un ruolo di norma maschile.",
+    "fatto": "hatshepsut barba finta",
+    "fonte": "https://it.wikipedia.org/wiki/Hatshepsut",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0057",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Di che colore è davvero il Sole, visto dallo spazio?",
+    "risposte": [
+      "Bianco",
+      "Giallo",
+      "Arancione",
+      "Rosso"
+    ],
+    "curiosita": "Sembra giallo solo per l'atmosfera, che disperde la luce blu.",
+    "fatto": "sole colore reale bianco",
+    "fonte": "https://it.wikipedia.org/wiki/Sole",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0058",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale pianeta galleggerebbe, in una vasca d'acqua abbastanza grande?",
+    "risposte": [
+      "Saturno",
+      "Giove",
+      "Urano",
+      "Nettuno"
+    ],
+    "curiosita": "La sua densità è circa 0,7 volte quella dell'acqua.",
+    "fatto": "saturno galleggia acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Saturno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0059",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale animale secerne un liquido rossastro che sembra sangue ma protegge dal sole?",
+    "risposte": [
+      "Ippopotamo",
+      "Rinoceronte",
+      "Elefante",
+      "Tapiro"
+    ],
+    "curiosita": "Quel «sudore di sangue» è un fluido acido antibatterico e filtra i raggi UV.",
+    "fatto": "ippopotamo sudore rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Hippopotamus_amphibius",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0060",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale scrittore francese compose un intero romanzo senza mai usare la lettera «e»?",
+    "risposte": [
+      "Georges Perec",
+      "Raymond Queneau",
+      "Jules Verne",
+      "Albert Camus"
+    ],
+    "curiosita": "Si intitola La scomparsa e fu poi tradotto mantenendo il vincolo.",
+    "fatto": "perec romanzo senza e",
+    "fonte": "https://it.wikipedia.org/wiki/Georges_Perec",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0061",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale papa fu processato dopo la morte, con il cadavere seduto sul trono?",
+    "risposte": [
+      "Formoso",
+      "Silvestro II",
+      "Giulio II",
+      "Bonifacio VIII"
+    ],
+    "curiosita": "Nell'897 il cadavere fu riesumato per il «Sinodo del cadavere» e poi gettato nel Tevere.",
+    "fatto": "papa formoso processo cadavere",
+    "fonte": "https://it.wikipedia.org/wiki/Sinodo_del_cadavere",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0062",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Come si chiamava la nave «inaffondabile» di un romanzo del 1898 che anticipò il Titanic?",
+    "risposte": [
+      "Titan",
+      "Atlantic",
+      "Leviathan",
+      "Neptune"
+    ],
+    "curiosita": "Nel libro urta un iceberg ad aprile, come il Titanic quattordici anni dopo.",
+    "fatto": "romanzo 1898 titan nave",
+    "fonte": "https://it.wikipedia.org/wiki/Titanic",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0063",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Che parte della pianta è il broccolo che mangiamo?",
+    "risposte": [
+      "Fiori ancora in boccio",
+      "Foglie arrotolate",
+      "Radici",
+      "Semi"
+    ],
+    "curiosita": "Se lo si lascia crescere, la testa si apre in tanti fiorellini gialli.",
+    "fatto": "broccolo parte pianta fiori",
+    "fonte": "https://it.wikipedia.org/wiki/Brassica_oleracea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0064",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale nordamericano sopravvive all'inverno con il corpo in parte congelato?",
+    "risposte": [
+      "Rana dei boschi",
+      "Orso nero",
+      "Castoro",
+      "Procione"
+    ],
+    "curiosita": "Il cuore si ferma e il sangue gela; con il disgelo primaverile tutto riparte.",
+    "fatto": "rana boschi congelata inverno",
+    "fonte": "https://it.wikipedia.org/wiki/Anura",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0065",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale metallo si scioglie nella mano, fondendo a circa 30 gradi?",
+    "risposte": [
+      "Gallio",
+      "Piombo",
+      "Stagno",
+      "Zinco"
+    ],
+    "curiosita": "Sparisce nel tè se usato come cucchiaino: lo scherzo preferito nei laboratori.",
+    "fatto": "gallio fonde in mano",
+    "fonte": "https://it.wikipedia.org/wiki/Gallio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0066",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanto è più caldo un fulmine rispetto alla superficie del Sole?",
+    "risposte": [
+      "Circa 5 volte",
+      "Circa uguale",
+      "Circa 100 volte",
+      "Circa la metà"
+    ],
+    "curiosita": "Per un istante l'aria intorno al fulmine arriva a circa 30.000 gradi.",
+    "fatto": "fulmine piu caldo sole",
+    "fonte": "https://it.wikipedia.org/wiki/Fulmine",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0067",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "In quale città delle Svalbard il cimitero è chiuso da decenni per via del permafrost?",
+    "risposte": [
+      "Longyearbyen",
+      "Ny-Ålesund",
+      "Barentsburg",
+      "Tromsø"
+    ],
+    "curiosita": "I corpi non si decompongono: chi sta per morire viene portato sulla terraferma.",
+    "fatto": "longyearbyen cimitero permafrost",
+    "fonte": "https://it.wikipedia.org/wiki/Longyearbyen",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0068",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quali uccelli portavano a bordo i navigatori vichinghi per cercare la terra?",
+    "risposte": [
+      "Corvi",
+      "Gabbiani",
+      "Aquile",
+      "Colombe"
+    ],
+    "curiosita": "Se il corvo liberato volava via in una direzione, la costa doveva essere lì.",
+    "fatto": "vichinghi corvi navigazione",
+    "fonte": "https://it.wikipedia.org/wiki/Vichinghi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0069",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale ingrediente, in Cina, nacque la salsa antenata del ketchup?",
+    "risposte": [
+      "Pesce in salamoia",
+      "Pomodoro",
+      "Soia",
+      "Uva"
+    ],
+    "curiosita": "Il nome viene dal cinese ke-tsiap; il pomodoro arrivò soltanto nell'Ottocento.",
+    "fatto": "ketchup origine pesce",
+    "fonte": "https://it.wikipedia.org/wiki/Ketchup",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0070",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanti denti può avere una lumaca di terra?",
+    "risposte": [
+      "Più di 10.000",
+      "32",
+      "Due",
+      "Zero"
+    ],
+    "curiosita": "Sono microscopici e disposti su una lingua a nastro, la radula.",
+    "fatto": "lumaca numero denti",
+    "fonte": "https://it.wikipedia.org/wiki/Gastropoda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0071",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanti giorni furono «cancellati» nel 1582 col passaggio al calendario gregoriano?",
+    "risposte": [
+      "10",
+      "7",
+      "12",
+      "15"
+    ],
+    "curiosita": "In Italia dal 4 ottobre si passò direttamente al 15 ottobre.",
+    "fatto": "calendario gregoriano giorni saltati",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario_gregoriano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0072",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale Stato cancellò il 30 dicembre 2011, spostandosi a ovest della linea del cambio data?",
+    "risposte": [
+      "Samoa",
+      "Tonga",
+      "Fiji",
+      "Tuvalu"
+    ],
+    "curiosita": "Voleva allinearsi ai partner commerciali di Australia e Nuova Zelanda.",
+    "fatto": "samoa 2011 giorno cancellato",
+    "fonte": "https://it.wikipedia.org/wiki/Samoa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0073",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Di quanto possono crescere in un solo giorno alcune specie di bambù?",
+    "risposte": [
+      "Quasi un metro",
+      "Circa 10 cm",
+      "Circa 3 metri",
+      "Circa 1 cm"
+    ],
+    "curiosita": "È una delle piante più veloci: se ne può quasi vedere la crescita.",
+    "fatto": "bambu crescita giornaliera",
+    "fonte": "https://it.wikipedia.org/wiki/Bambù",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0074",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale può trasmettere la lebbra all'uomo?",
+    "risposte": [
+      "Armadillo",
+      "Scimmia",
+      "Maiale",
+      "Topo"
+    ],
+    "curiosita": "Negli Stati Uniti del Sud alcuni casi sono legati agli armadilli.",
+    "fatto": "armadillo lebbra trasmissione",
+    "fonte": "https://it.wikipedia.org/wiki/Dasypodidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0075",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Che cos'è, per i botanici, l'ananas?",
+    "risposte": [
+      "Un insieme di frutti fusi",
+      "Una bacca",
+      "Un tubero",
+      "Una noce"
+    ],
+    "curiosita": "Ogni «scaglia» della buccia corrisponde a un fiore diverso.",
+    "fatto": "ananas infruttescenza",
+    "fonte": "https://it.wikipedia.org/wiki/Ananas_comosus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0076",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale elemento fu individuato nel Sole prima che sulla Terra?",
+    "risposte": [
+      "Elio",
+      "Neon",
+      "Xeno",
+      "Cripto"
+    ],
+    "curiosita": "Il nome deriva da Helios, il dio greco del Sole.",
+    "fatto": "elio scoperto nel sole",
+    "fonte": "https://it.wikipedia.org/wiki/Elio_(elemento)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0077",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale gara con animali vivi si disputò ai Giochi olimpici di Parigi 1900?",
+    "risposte": [
+      "Tiro al piccione",
+      "Corsa dei levrieri",
+      "Caccia alla volpe",
+      "Lotta tra galli"
+    ],
+    "curiosita": "Fu un'edizione stravagante, durata mesi, con gare anche di pesca e nuoto tra le barche.",
+    "fatto": "olimpiadi 1900 tiro piccione",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_della_II_Olimpiade",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0078",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale fondatore dei Giochi moderni vinse un oro olimpico per la letteratura nel 1912?",
+    "risposte": [
+      "Pierre de Coubertin",
+      "Jules Rimet",
+      "Avery Brundage",
+      "Jesse Owens"
+    ],
+    "curiosita": "Presentò l'«Ode allo sport» sotto pseudonimo, e la giuria lo premiò.",
+    "fatto": "coubertin oro letteratura 1912",
+    "fonte": "https://it.wikipedia.org/wiki/Pierre_de_Coubertin",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0079",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale è stato nominato cavaliere dalla Guardia reale norvegese?",
+    "risposte": [
+      "Un pinguino",
+      "Un cavallo",
+      "Un cane",
+      "Un'aquila"
+    ],
+    "curiosita": "Si chiama Nils Olav ed è stato promosso più volte: oggi è brigadiere.",
+    "fatto": "pinguino cavaliere norvegia",
+    "fonte": "https://it.wikipedia.org/wiki/Pinguino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0080",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale trasportava casse di munizioni con le truppe polacche a Montecassino?",
+    "risposte": [
+      "Un orso",
+      "Un mulo",
+      "Un cammello",
+      "Un elefante"
+    ],
+    "curiosita": "Si chiamava Wojtek ed era stato adottato dai soldati ancora cucciolo.",
+    "fatto": "orso wojtek montecassino",
+    "fonte": "https://it.wikipedia.org/wiki/Battaglia_di_Montecassino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0081",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Su che cosa appoggiavano la testa per dormire molti antichi Egizi?",
+    "risposte": [
+      "Un appoggiatesta rigido",
+      "Un cuscino di piume",
+      "Un guanciale di paglia",
+      "Un sacco di sabbia"
+    ],
+    "curiosita": "Era di legno o pietra e teneva il collo sollevato, lontano da insetti e calore.",
+    "fatto": "egizi appoggiatesta dormire",
+    "fonte": "https://it.wikipedia.org/wiki/Antico_Egitto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0082",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale mollusco i Fenici ricavavano la costosissima porpora?",
+    "risposte": [
+      "Murice",
+      "Ostrica",
+      "Seppia",
+      "Cozza"
+    ],
+    "curiosita": "Servivano migliaia di molluschi per tingere un solo mantello.",
+    "fatto": "porpora fenici murice",
+    "fonte": "https://it.wikipedia.org/wiki/Fenici",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0083",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale insetto si ricava il colorante rosso carminio?",
+    "risposte": [
+      "Cocciniglia",
+      "Coccinella",
+      "Cicala",
+      "Scarabeo"
+    ],
+    "curiosita": "Si trova ancora nell'etichetta di alcuni prodotti come E120.",
+    "fatto": "carminio cocciniglia colorante",
+    "fonte": "https://it.wikipedia.org/wiki/Cocciniglia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0084",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale mollusco si ricava il bisso, la «seta del mare»?",
+    "risposte": [
+      "Pinna nobilis",
+      "Cozza",
+      "Ostrica",
+      "Vongola"
+    ],
+    "curiosita": "Le sue fibre dorate venivano filate per fare guanti e stoffe preziose.",
+    "fatto": "bisso pinna nobilis",
+    "fonte": "https://it.wikipedia.org/wiki/Pinna_nobilis",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0085",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale artico vede la luce ultravioletta?",
+    "risposte": [
+      "Renna",
+      "Lupo artico",
+      "Orso polare",
+      "Volpe artica"
+    ],
+    "curiosita": "Così distingue sulla neve i licheni e l'urina dei predatori.",
+    "fatto": "renna ultravioletti",
+    "fonte": "https://it.wikipedia.org/wiki/Rangifer_tarandus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0086",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale crostaceo ha circa dodici tipi di recettori per i colori, contro i tre dell'uomo?",
+    "risposte": [
+      "Canocchia",
+      "Aragosta",
+      "Granchio",
+      "Gambero"
+    ],
+    "curiosita": "I suoi occhi si muovono indipendenti uno dall'altro.",
+    "fatto": "canocchia colori recettori",
+    "fonte": "https://it.wikipedia.org/wiki/Stomatopoda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0087",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale villaggio svedese ha dato il nome a ben quattro elementi chimici?",
+    "risposte": [
+      "Ytterby",
+      "Uppsala",
+      "Kiruna",
+      "Visby"
+    ],
+    "curiosita": "Sono ittrio, terbio, erbio e itterbio, scoperti in un minerale della miniera locale.",
+    "fatto": "ytterby quattro elementi",
+    "fonte": "https://it.wikipedia.org/wiki/Ytterby",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0088",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Che cosa conteneva il pigmento «marrone mummia», usato dai pittori fino all'Ottocento?",
+    "risposte": [
+      "Resti di mummie egizie",
+      "Terra di Siena",
+      "Corteccia di quercia",
+      "Guscio di noce"
+    ],
+    "curiosita": "Quando i pittori ne scoprirono l'origine, lo abbandonarono.",
+    "fatto": "marrone mummia pigmento",
+    "fonte": "https://it.wikipedia.org/wiki/Mummia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0089",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Di quanto si allontana ogni anno la Luna dalla Terra?",
+    "risposte": [
+      "Circa 4 centimetri",
+      "Circa 4 metri",
+      "Circa 40 metri",
+      "Circa 4 chilometri"
+    ],
+    "curiosita": "Succede per effetto delle maree: la durata del giorno terrestre aumenta di pochissimo.",
+    "fatto": "luna si allontana ogni anno",
+    "fonte": "https://it.wikipedia.org/wiki/Luna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0090",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Di quanto può allungarsi la Torre Eiffel per il caldo estivo?",
+    "risposte": [
+      "Fino a 15 cm",
+      "Fino a 1 metro",
+      "Fino a 2 mm",
+      "Fino a 50 cm"
+    ],
+    "curiosita": "Il ferro si dilata col caldo; d'inverno la torre torna più bassa.",
+    "fatto": "torre eiffel dilatazione estate",
+    "fonte": "https://it.wikipedia.org/wiki/Torre_Eiffel",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0091",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanto pagarono gli Stati Uniti alla Russia per l'Alaska, nel 1867?",
+    "risposte": [
+      "7,2 milioni di dollari",
+      "Dieci milioni di sterline",
+      "Un miliardo di rubli",
+      "Settecentomila dollari"
+    ],
+    "curiosita": "Fu un prezzo di circa due centesimi per acro: oggi l'Alaska vale molto di più.",
+    "fatto": "alaska prezzo acquisto 1867",
+    "fonte": "https://it.wikipedia.org/wiki/Acquisto_dell'Alaska",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0092",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Con quale unico altro Stato americano confina il Maine?",
+    "risposte": [
+      "New Hampshire",
+      "Vermont",
+      "Massachusetts",
+      "New York"
+    ],
+    "curiosita": "Il resto dei suoi confini è con il Canada e l'oceano Atlantico.",
+    "fatto": "maine confina new hampshire",
+    "fonte": "https://it.wikipedia.org/wiki/Maine",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0093",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "In quale lingua si può usare il bancomat del Vaticano?",
+    "risposte": [
+      "Latino",
+      "Greco antico",
+      "Aramaico",
+      "Ebraico"
+    ],
+    "curiosita": "Le istruzioni compaiono in latino: è forse l'unico bancomat al mondo così.",
+    "fatto": "bancomat vaticano latino",
+    "fonte": "https://it.wikipedia.org/wiki/Città_del_Vaticano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0094",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale pianta, detta «secolare», fiorisce una sola volta nella vita e poi muore?",
+    "risposte": [
+      "Agave",
+      "Aloe",
+      "Yucca",
+      "Oleandro"
+    ],
+    "curiosita": "Aspetta decine di anni, poi spara in alto un enorme fusto fiorito.",
+    "fatto": "agave fiorisce una volta",
+    "fonte": "https://it.wikipedia.org/wiki/Agave",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0095",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Con che cosa nacque, nel 1865, la finlandese Nokia?",
+    "risposte": [
+      "Una cartiera",
+      "Una fabbrica di telefoni",
+      "Un cantiere navale",
+      "Una miniera"
+    ],
+    "curiosita": "Il nome viene da una cittadina e dal fiume Nokianvirta, dove sorgeva lo stabilimento.",
+    "fatto": "nokia origine cartiera",
+    "fonte": "https://it.wikipedia.org/wiki/Nokia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0096",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "A che cosa serviva, all'inizio, il materiale del Play-Doh?",
+    "risposte": [
+      "Pulire la carta da parati",
+      "Sigillare le finestre",
+      "Lucidare i mobili",
+      "Spegnere il fuoco"
+    ],
+    "curiosita": "Quando la carta da parati passò di moda, divenne un giocattolo.",
+    "fatto": "play doh origine carta da parati",
+    "fonte": "https://it.wikipedia.org/wiki/Play-Doh",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0097",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale presidente americano brevettò un sistema per liberare le barche incagliate?",
+    "risposte": [
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "Theodore Roosevelt",
+      "George Washington"
+    ],
+    "curiosita": "Nel 1849 depositò l'idea per far passare le barche sulle secche.",
+    "fatto": "lincoln brevetto barche",
+    "fonte": "https://it.wikipedia.org/wiki/Abraham_Lincoln",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0098",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale strana epidemia colpì Strasburgo nel 1518?",
+    "risposte": [
+      "Una mania di ballo",
+      "Una mania di canto",
+      "Una mania di risate",
+      "Un sonno collettivo"
+    ],
+    "curiosita": "Per giorni centinaia di persone ballarono senza sosta; ancora oggi se ne discute la causa.",
+    "fatto": "epidemia ballo strasburgo 1518",
+    "fonte": "https://it.wikipedia.org/wiki/Strasburgo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0099",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale compositore russo era anche un chimico affermato?",
+    "risposte": [
+      "Borodin",
+      "Čajkovskij",
+      "Musorgskij",
+      "Rachmaninov"
+    ],
+    "curiosita": "Insegnava chimica all'accademia medico-chirurgica di San Pietroburgo.",
+    "fatto": "borodin compositore chimico",
+    "fonte": "https://it.wikipedia.org/wiki/Aleksandr_Porfir'evič_Borodin",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0100",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale città indiana è capitale di due Stati contemporaneamente?",
+    "risposte": [
+      "Chandigarh",
+      "Nuova Delhi",
+      "Mumbai",
+      "Calcutta"
+    ],
+    "curiosita": "Serve Punjab e Haryana ed è stata progettata da Le Corbusier.",
+    "fatto": "chandigarh capitale due stati",
+    "fonte": "https://it.wikipedia.org/wiki/Chandigarh",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0101",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "In quale Paese si trova il lago Hillier, dalle acque rosa?",
+    "risposte": [
+      "Australia",
+      "Senegal",
+      "Bolivia",
+      "Messico"
+    ],
+    "curiosita": "Il colore resta anche se l'acqua viene messa in un contenitore.",
+    "fatto": "lago hillier rosa paese",
+    "fonte": "https://it.wikipedia.org/wiki/Lago_Hillier",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0102",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale Paese asiatico usa un fuso orario con 45 minuti di scarto (UTC+5:45)?",
+    "risposte": [
+      "Nepal",
+      "India",
+      "Bhutan",
+      "Sri Lanka"
+    ],
+    "curiosita": "L'India, la vicina più grande, ha invece uno scarto di 30 minuti.",
+    "fatto": "nepal fuso orario 545",
+    "fonte": "https://it.wikipedia.org/wiki/Nepal",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0103",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanto durò la guerra anglo-zanzibarina del 1896, ritenuta la più breve della storia?",
+    "risposte": [
+      "Circa 40 minuti",
+      "Circa 4 ore",
+      "Tre giorni",
+      "Una settimana"
+    ],
+    "curiosita": "Il sultano di Zanzibar si arrese dopo il bombardamento del suo palazzo.",
+    "fatto": "guerra anglo zanzibarina durata",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_anglo-zanzibariana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0104",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale eruzione del 1815 causò «l'anno senza estate» in Europa nel 1816?",
+    "risposte": [
+      "Tambora",
+      "Krakatoa",
+      "Pinatubo",
+      "Santorini"
+    ],
+    "curiosita": "Le ceneri oscurarono il cielo: raccolti persi e freddo fuori stagione.",
+    "fatto": "tambora anno senza estate",
+    "fonte": "https://it.wikipedia.org/wiki/Tambora",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0105",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Qual è stato il primo oggetto venduto su eBay?",
+    "risposte": [
+      "Un puntatore laser rotto",
+      "Una bici usata",
+      "Un vecchio telefono",
+      "Una chitarra elettrica"
+    ],
+    "curiosita": "Costava 14,83 dollari; il fondatore chiese all'acquirente se sapesse che era rotto.",
+    "fatto": "ebay primo oggetto venduto",
+    "fonte": "https://it.wikipedia.org/wiki/EBay",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0106",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale sport praticò l'astronauta Alan Shepard sulla Luna, nel 1971?",
+    "risposte": [
+      "Golf",
+      "Baseball",
+      "Tennis",
+      "Cricket"
+    ],
+    "curiosita": "Colpì due palline con un ferro 6 attaccato a un attrezzo da campionatura.",
+    "fatto": "shepard golf luna 1971",
+    "fonte": "https://it.wikipedia.org/wiki/Apollo_14",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0107",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanto durò la guerra dei Cent'anni?",
+    "risposte": [
+      "116 anni",
+      "100 anni",
+      "99 anni",
+      "87 anni"
+    ],
+    "curiosita": "Combattuta a più riprese tra il 1337 e il 1453, fu un conflitto tra Francia e Inghilterra.",
+    "fatto": "guerra cent anni durata",
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_dei_cent'anni",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0108",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Nel romanzo di Mary Shelley, chi si chiama Frankenstein?",
+    "risposte": [
+      "Lo scienziato",
+      "Il mostro",
+      "Il maggiordomo",
+      "Il villaggio"
+    ],
+    "curiosita": "La creatura non ha un nome: Victor Frankenstein è il suo creatore.",
+    "fatto": "frankenstein nome scienziato",
+    "fonte": "https://it.wikipedia.org/wiki/Frankenstein",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0109",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale celebre frase di Sherlock Holmes manca in realtà nei racconti di Conan Doyle?",
+    "risposte": [
+      "Elementare, Watson",
+      "Il gioco è iniziato",
+      "Eliminato l'impossibile",
+      "Lei viene dall'Afghanistan"
+    ],
+    "curiosita": "Si diffuse con i film e la radio: Holmes dice «elementare» e «Watson» separatamente.",
+    "fatto": "sherlock elementare watson frase",
+    "fonte": "https://it.wikipedia.org/wiki/Sherlock_Holmes",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0110",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "A quale città canadese deve il nome l'orsetto Winnie the Pooh?",
+    "risposte": [
+      "Winnipeg",
+      "Vancouver",
+      "Toronto",
+      "Montréal"
+    ],
+    "curiosita": "Era il nome di un'orsa nera trasportata a Londra e ospite dello zoo.",
+    "fatto": "winnie pooh nome winnipeg",
+    "fonte": "https://it.wikipedia.org/wiki/Winnie_the_Pooh",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0111",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Con che nome Walt Disney voleva battezzare Topolino?",
+    "risposte": [
+      "Mortimer",
+      "Archibald",
+      "Theodore",
+      "Percival"
+    ],
+    "curiosita": "Fu la moglie Lillian a suggerire un nome più allegro: Mickey.",
+    "fatto": "topolino nome mortimer",
+    "fonte": "https://it.wikipedia.org/wiki/Topolino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0112",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale fu il testo del primo SMS della storia, inviato nel 1992?",
+    "risposte": [
+      "Merry Christmas",
+      "Hello world",
+      "Can you hear me",
+      "Test message"
+    ],
+    "curiosita": "Lo scrisse un ingegnere britannico a un dirigente, per gli auguri aziendali.",
+    "fatto": "primo sms merry christmas",
+    "fonte": "https://it.wikipedia.org/wiki/Short_Message_Service",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0113",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Con che cosa nacque la Nintendo, nel 1889?",
+    "risposte": [
+      "Carte da gioco",
+      "Console",
+      "Bambole",
+      "Giocattoli elettrici"
+    ],
+    "curiosita": "Produceva le hanafuda, carte giapponesi dipinte a mano.",
+    "fatto": "nintendo origine carte hanafuda",
+    "fonte": "https://it.wikipedia.org/wiki/Nintendo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0114",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale Stato africano ha tre capitali, una per ciascun potere dello Stato?",
+    "risposte": [
+      "Sudafrica",
+      "Nigeria",
+      "Kenya",
+      "Egitto"
+    ],
+    "curiosita": "Sono Pretoria (governo), Città del Capo (parlamento) e Bloemfontein (giustizia).",
+    "fatto": "sudafrica tre capitali",
+    "fonte": "https://it.wikipedia.org/wiki/Sudafrica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0115",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Da che cosa dipende il sesso dei piccoli di molti coccodrilli?",
+    "risposte": [
+      "Dalla temperatura",
+      "Dal ciclo lunare",
+      "Dal cibo della madre",
+      "Dall'ora della schiusa"
+    ],
+    "curiosita": "Con un nido caldo nascono maschi, con uno fresco femmine, o il contrario secondo la specie.",
+    "fatto": "coccodrilli sesso temperatura uova",
+    "fonte": "https://it.wikipedia.org/wiki/Crocodylia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0116",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale uccello australiano può imitare perfino il rumore di una motosega?",
+    "risposte": [
+      "Uccello lira",
+      "Cacatua",
+      "Kookaburra",
+      "Emù"
+    ],
+    "curiosita": "Imita ogni suono sentito nella foresta, compresi scatti di macchine fotografiche.",
+    "fatto": "uccello lira imita motosega",
+    "fonte": "https://it.wikipedia.org/wiki/Menura",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0117",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale mammifero marino usa un sasso, tenuto sul petto, per aprire le conchiglie?",
+    "risposte": [
+      "Lontra marina",
+      "Foca",
+      "Delfino",
+      "Tricheco"
+    ],
+    "curiosita": "Spesso ha anche una «tasca» sotto l'ascella dove conserva il suo sasso preferito.",
+    "fatto": "lontra marina sasso conchiglie",
+    "fonte": "https://it.wikipedia.org/wiki/Enhydra_lutris",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0118",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale ingrediente tipico del cioccolato manca al cioccolato bianco?",
+    "risposte": [
+      "Pasta di cacao",
+      "Burro di cacao",
+      "Zucchero",
+      "Latte"
+    ],
+    "curiosita": "Contiene solo burro di cacao: per questo molti lo considerano a parte.",
+    "fatto": "cioccolato bianco manca pasta cacao",
+    "fonte": "https://it.wikipedia.org/wiki/Cioccolato_bianco",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0119",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Il costoso caffè «kopi luwak» passa dall'apparato digerente di quale animale?",
+    "risposte": [
+      "Zibetto",
+      "Pipistrello",
+      "Elefante",
+      "Uccello"
+    ],
+    "curiosita": "I chicchi vengono raccolti tra gli escrementi, puliti e tostati.",
+    "fatto": "kopi luwak zibetto",
+    "fonte": "https://it.wikipedia.org/wiki/Kopi_luwak",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0120",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale animale da cortile è considerato parente stretto del Tyrannosaurus rex?",
+    "risposte": [
+      "Pollo",
+      "Maiale",
+      "Pecora",
+      "Mucca"
+    ],
+    "curiosita": "Gli uccelli discendono dai dinosauri teropodi, gruppo del T. rex.",
+    "fatto": "pollo parente tirannosauro",
+    "fonte": "https://it.wikipedia.org/wiki/Tyrannosaurus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0121",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale mare è delimitato soltanto da correnti oceaniche, senza alcuna costa?",
+    "risposte": [
+      "Mar dei Sargassi",
+      "Mar Morto",
+      "Mar Caspio",
+      "Mar dei Coralli"
+    ],
+    "curiosita": "Prende il nome dalle alghe che galleggiano a migliaia di chilometri dalla terra.",
+    "fatto": "mar dei sargassi senza coste",
+    "fonte": "https://it.wikipedia.org/wiki/Mar_dei_Sargassi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0122",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale noce cresce appesa all'esterno di un frutto carnoso, il «pomo»?",
+    "risposte": [
+      "Anacardo",
+      "Pistacchio",
+      "Nocciola",
+      "Mandorla"
+    ],
+    "curiosita": "La parte che mangiamo è il seme: il pomo è un falso frutto, quasi sempre scartato.",
+    "fatto": "anacardo noce fuori dal frutto",
+    "fonte": "https://it.wikipedia.org/wiki/Anacardium_occidentale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0123",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale pena rischiava nell'antico Egitto chi uccideva un gatto?",
+    "risposte": [
+      "La pena di morte",
+      "Una multa",
+      "Il carcere",
+      "L'esilio"
+    ],
+    "curiosita": "Secondo lo storico Diodoro, la folla poteva linciare chi uccideva un gatto, anche per errore.",
+    "fatto": "egitto uccidere gatto pena",
+    "fonte": "https://it.wikipedia.org/wiki/Bastet",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0124",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Come venivano soprannominati i gladiatori per la loro dieta a base di cereali?",
+    "risposte": [
+      "Mangiatori di orzo",
+      "Mangiatori di fave",
+      "Mangiatori di carne",
+      "Mangiatori di fuoco"
+    ],
+    "curiosita": "Il soprannome latino era hordearii: la dieta puntava a un corpo robusto, con strati di grasso.",
+    "fatto": "gladiatori mangiatori di orzo",
+    "fonte": "https://it.wikipedia.org/wiki/Gladiatore",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0125",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Di che materiale era la lama di un pugnale trovato nella tomba di Tutankhamon?",
+    "risposte": [
+      "Ferro meteoritico",
+      "Bronzo",
+      "Rame",
+      "Argento"
+    ],
+    "curiosita": "Il ferro, non ancora lavorato, arrivava dai meteoriti: le analisi hanno trovato nichel e cobalto.",
+    "fatto": "tutankhamon pugnale ferro meteorite",
+    "fonte": "https://it.wikipedia.org/wiki/Tutankhamon",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0126",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale città francese deriva il nome del tessuto «denim»?",
+    "risposte": [
+      "Nîmes",
+      "Lione",
+      "Marsiglia",
+      "Digione"
+    ],
+    "curiosita": "Viene da «de Nîmes», cioè «di Nîmes», dove si produceva la stoffa.",
+    "fatto": "denim nome nimes",
+    "fonte": "https://it.wikipedia.org/wiki/Denim",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0127",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quali animali furono i primi passeggeri di una mongolfiera, nel 1783 a Versailles?",
+    "risposte": [
+      "Pecora, anatra e gallo",
+      "Cane, gatto e topo",
+      "Cavallo e mucca",
+      "Colombe e conigli"
+    ],
+    "curiosita": "Atterrarono sani e salvi dopo otto minuti, davanti a re Luigi XVI.",
+    "fatto": "mongolfiera primi passeggeri animali",
+    "fonte": "https://it.wikipedia.org/wiki/Fratelli_Montgolfier",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0128",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Il sangue blu di quale animale marino è usato per verificare la sterilità dei vaccini?",
+    "risposte": [
+      "Limulo",
+      "Polpo",
+      "Aragosta",
+      "Seppia"
+    ],
+    "curiosita": "Il suo sangue coagula a contatto con i batteri: è un test per i farmaci.",
+    "fatto": "limulo sangue blu test vaccini",
+    "fonte": "https://it.wikipedia.org/wiki/Limulus_polyphemus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0129",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale verme piatto può rigenerare un intero corpo anche da un piccolo frammento?",
+    "risposte": [
+      "Planaria",
+      "Tenia",
+      "Lombrico",
+      "Sanguisuga"
+    ],
+    "curiosita": "Tagliata in pezzi, ogni parte dà vita a una nuova planaria.",
+    "fatto": "planaria rigenera corpo frammento",
+    "fonte": "https://it.wikipedia.org/wiki/Tricladida",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0130",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Dove ha i denti l'aragosta?",
+    "risposte": [
+      "Nello stomaco",
+      "Sulle chele",
+      "Sulle zampe",
+      "In gola"
+    ],
+    "curiosita": "Un «mulino gastrico» tritura il cibo nella parte interna del corpo.",
+    "fatto": "aragosta denti stomaco",
+    "fonte": "https://it.wikipedia.org/wiki/Aragosta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0131",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "In quale città tedesca un organo sta suonando un brano che durerà 639 anni?",
+    "risposte": [
+      "Halberstadt",
+      "Lipsia",
+      "Dresda",
+      "Amburgo"
+    ],
+    "curiosita": "È «As Slow as Possible» di John Cage: dal 2001 cambia nota ogni pochi anni, fino al 2640.",
+    "fatto": "halberstadt organo 639 anni",
+    "fonte": "https://it.wikipedia.org/wiki/John_Cage",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0132",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale canzone, cantata ovunque, fu coperta da diritti negli USA fino al 2016?",
+    "risposte": [
+      "Happy Birthday to You",
+      "Jingle Bells",
+      "Auld Lang Syne",
+      "Silent Night"
+    ],
+    "curiosita": "Chi la cantava in un film doveva pagare i diritti, finché un tribunale non intervenne.",
+    "fatto": "happy birthday diritti copyright",
+    "fonte": "https://it.wikipedia.org/wiki/Happy_Birthday_to_You",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0133",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Dove si trova il Principato di Sealand, micronazione autoproclamata?",
+    "risposte": [
+      "Su una piattaforma in mare",
+      "Su un'isola del Pacifico",
+      "In una valle alpina",
+      "Su un'isola del Baltico"
+    ],
+    "curiosita": "È una vecchia fortezza antiaerea britannica nel Mare del Nord, occupata dal 1967.",
+    "fatto": "sealand micronazione piattaforma",
+    "fonte": "https://it.wikipedia.org/wiki/Principato_di_Sealand",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0134",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quante lingue si parlano, più o meno, in Papua Nuova Guinea?",
+    "risposte": [
+      "Oltre 800",
+      "Circa 80",
+      "Circa 20",
+      "Circa 3.000"
+    ],
+    "curiosita": "È il Paese con la maggiore varietà linguistica del mondo, con oltre 800 lingue.",
+    "fatto": "papua lingue parlate",
+    "fonte": "https://it.wikipedia.org/wiki/Papua_Nuova_Guinea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0135",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Nel Seicento, in Olanda, quale fiore arrivò a costare quanto una casa?",
+    "risposte": [
+      "Tulipano",
+      "Rosa",
+      "Giglio",
+      "Orchidea"
+    ],
+    "curiosita": "La «tulipomania» finì nel 1637 con il crollo dei prezzi dei bulbi.",
+    "fatto": "tulipomania fiore olanda",
+    "fonte": "https://it.wikipedia.org/wiki/Tulipomania",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0136",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti mesi ha il calendario etiope?",
+    "risposte": [
+      "13",
+      "12",
+      "14",
+      "10"
+    ],
+    "curiosita": "Dodici mesi da 30 giorni più un tredicesimo di 5 o 6 giorni.",
+    "fatto": "calendario etiope mesi",
+    "fonte": "https://it.wikipedia.org/wiki/Calendario_etiope",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0137",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Qual è l'animale nazionale della Scozia?",
+    "risposte": [
+      "Unicorno",
+      "Leone",
+      "Cervo",
+      "Aquila"
+    ],
+    "curiosita": "Da secoli l'unicorno compare nello stemma reale scozzese.",
+    "fatto": "scozia animale nazionale unicorno",
+    "fonte": "https://it.wikipedia.org/wiki/Scozia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0138",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti fusi orari ufficiali ha la Cina, pur essendo larga quanto cinque fusi?",
+    "risposte": [
+      "Uno",
+      "Due",
+      "Tre",
+      "Cinque"
+    ],
+    "curiosita": "Da Pechino all'estremo ovest il Sole sorge con tre ore di scarto, ma l'ora è sempre la stessa.",
+    "fatto": "cina un solo fuso orario",
+    "fonte": "https://it.wikipedia.org/wiki/Fuso_orario",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0139",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale Paese fu il primo a concedere il voto alle donne a livello nazionale, nel 1893?",
+    "risposte": [
+      "Nuova Zelanda",
+      "Regno Unito",
+      "Stati Uniti",
+      "Francia"
+    ],
+    "curiosita": "Le neozelandesi votarono alle elezioni di quell'anno, molto prima delle europee.",
+    "fatto": "voto donne nuova zelanda 1893",
+    "fonte": "https://it.wikipedia.org/wiki/Suffragio_femminile",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0140",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Da quale espressione giapponese nasce il nome «Pokémon»?",
+    "risposte": [
+      "Mostri tascabili",
+      "Piccoli eroi",
+      "Palle di fuoco",
+      "Animali magici"
+    ],
+    "curiosita": "Sta per «pocket monsters»: all'inizio i mostri si catturavano e si tenevano in una tasca.",
+    "fatto": "pokemon significato nome",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0141",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa raccoglievano i Romani in vasi lungo le strade per lavare i tessuti?",
+    "risposte": [
+      "Urina",
+      "Cenere",
+      "Olio",
+      "Sabbia"
+    ],
+    "curiosita": "Era ricca di ammoniaca; Vespasiano arrivò a tassarne la raccolta.",
+    "fatto": "romani urina lavanderie",
+    "fonte": "https://it.wikipedia.org/wiki/Fullonica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0142",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale formaggio sardo viene mangiato con le larve vive dentro?",
+    "risposte": [
+      "Casu marzu",
+      "Fiore sardo",
+      "Pecorino romano",
+      "Casizolu"
+    ],
+    "curiosita": "È vietato dalle norme sanitarie, ma resta una tradizione amata e diffusa.",
+    "fatto": "casu marzu larve sardegna",
+    "fonte": "https://it.wikipedia.org/wiki/Casu_marzu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0143",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale pesce giapponese può essere letale se preparato male, e richiede cuochi con licenza?",
+    "risposte": [
+      "Pesce palla",
+      "Anguilla",
+      "Branzino",
+      "Salmone"
+    ],
+    "curiosita": "Il fugu contiene una tossina potentissima, soprattutto nel fegato.",
+    "fatto": "fugu pesce palla licenza cuoco",
+    "fonte": "https://it.wikipedia.org/wiki/Fugu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0144",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale frutto asiatico è vietato in molti hotel e metropolitane per il forte odore?",
+    "risposte": [
+      "Durian",
+      "Mangostano",
+      "Rambutan",
+      "Litchi"
+    ],
+    "curiosita": "Il suo profumo è paragonato a quello di cipolla marcia, ma la polpa è dolce e cremosa.",
+    "fatto": "durian vietato odore",
+    "fonte": "https://it.wikipedia.org/wiki/Durio_zibethinus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0145",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Con quale parte del corpo assaggiano il cibo le farfalle?",
+    "risposte": [
+      "Con le zampe",
+      "Con le antenne",
+      "Con le ali",
+      "Con gli occhi"
+    ],
+    "curiosita": "Sulle zampe hanno dei recettori del gusto: bastano per riconoscere una pianta adatta.",
+    "fatto": "farfalle gusto zampe",
+    "fonte": "https://it.wikipedia.org/wiki/Lepidoptera",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0146",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale città italiana diede il nome al «ghetto»?",
+    "risposte": [
+      "Venezia",
+      "Roma",
+      "Firenze",
+      "Livorno"
+    ],
+    "curiosita": "Nel 1516 la Repubblica istituì il primo recinto, in un'area dove si fondeva il metallo («geto»).",
+    "fatto": "ghetto nome venezia",
+    "fonte": "https://it.wikipedia.org/wiki/Ghetto_di_Venezia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0147",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale campione olimpico di nuoto interpretò Tarzan al cinema?",
+    "risposte": [
+      "Johnny Weissmuller",
+      "Mark Spitz",
+      "Duke Kahanamoku",
+      "Michael Phelps"
+    ],
+    "curiosita": "Vinse cinque ori e poi girò dodici film nei panni di Tarzan.",
+    "fatto": "tarzan weissmuller nuotatore",
+    "fonte": "https://it.wikipedia.org/wiki/Johnny_Weissmuller",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0148",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale compositore scrisse un brano di quattro minuti e mezzo di silenzio?",
+    "risposte": [
+      "John Cage",
+      "Erik Satie",
+      "Philip Glass",
+      "Karlheinz Stockhausen"
+    ],
+    "curiosita": "In «4′33″» il pubblico ascolta i rumori della sala: il «silenzio» in teoria non esiste.",
+    "fatto": "cage 433 silenzio",
+    "fonte": "https://it.wikipedia.org/wiki/John_Cage",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0149",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale strumento si suona senza toccarlo, muovendo le mani vicino a due antenne?",
+    "risposte": [
+      "Theremin",
+      "Moog",
+      "Mellotron",
+      "Armonica a bicchieri"
+    ],
+    "curiosita": "Fu inventato nel 1920 dal russo Lev Termen.",
+    "fatto": "theremin strumento senza toccare",
+    "fonte": "https://it.wikipedia.org/wiki/Theremin",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0150",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Da quale città italiana deriva il nome dei jeans?",
+    "risposte": [
+      "Genova",
+      "Torino",
+      "Napoli",
+      "Livorno"
+    ],
+    "curiosita": "I marinai genovesi indossavano pantaloni di tela robusta, detta «Gênes» in francese.",
+    "fatto": "jeans nome genova",
+    "fonte": "https://it.wikipedia.org/wiki/Jeans",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0151",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale roditore alpino passa sei mesi o più in letargo?",
+    "risposte": [
+      "Marmotta",
+      "Scoiattolo",
+      "Castoro",
+      "Istrice"
+    ],
+    "curiosita": "Si risveglia in primavera dopo aver perso circa metà del peso.",
+    "fatto": "marmotta letargo",
+    "fonte": "https://it.wikipedia.org/wiki/Marmota",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0152",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale ingrediente del pesto si ricava dalle pigne?",
+    "risposte": [
+      "Pinoli",
+      "Noci",
+      "Mandorle",
+      "Pistacchi"
+    ],
+    "curiosita": "Sono i semi del pino domestico: raccoglierli richiede molta fatica.",
+    "fatto": "pinoli pigne pesto",
+    "fonte": "https://it.wikipedia.org/wiki/Pinolo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0153",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale città tedesca prende il nome l'hamburger?",
+    "risposte": [
+      "Amburgo",
+      "Berlino",
+      "Francoforte",
+      "Monaco"
+    ],
+    "curiosita": "Il panino però, come lo conosciamo, è nato negli Stati Uniti.",
+    "fatto": "hamburger nome amburgo",
+    "fonte": "https://it.wikipedia.org/wiki/Hamburger",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0154",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come scriveva spesso Leonardo da Vinci nei suoi quaderni?",
+    "risposte": [
+      "Da destra a sinistra",
+      "Dall'alto in basso",
+      "In lettere greche",
+      "Con inchiostro invisibile"
+    ],
+    "curiosita": "Era mancino e la scrittura a specchio evitava di sbavare l'inchiostro.",
+    "fatto": "leonardo scrittura a specchio",
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0155",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale gas, inalato, rende la voce acuta e buffa?",
+    "risposte": [
+      "Elio",
+      "Azoto",
+      "Ossigeno",
+      "Anidride carbonica"
+    ],
+    "curiosita": "Il suono vi viaggia quasi tre volte più veloce che nell'aria.",
+    "fatto": "elio voce acuta",
+    "fonte": "https://it.wikipedia.org/wiki/Elio_(elemento)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0156",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale Stato occupa da solo un intero continente?",
+    "risposte": [
+      "Australia",
+      "Madagascar",
+      "Giappone",
+      "Canada"
+    ],
+    "curiosita": "L'Australia è anche l'unico Paese a coincidere con un continente.",
+    "fatto": "australia stato continente",
+    "fonte": "https://it.wikipedia.org/wiki/Australia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0157",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "In quale mese la Terra è più vicina al Sole?",
+    "risposte": [
+      "Gennaio",
+      "Luglio",
+      "Aprile",
+      "Ottobre"
+    ],
+    "curiosita": "Le stagioni dipendono dall'inclinazione dell'asse, non dalla distanza dal Sole.",
+    "fatto": "terra piu vicina sole gennaio",
+    "fonte": "https://it.wikipedia.org/wiki/Perielio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0158",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Vicino a quale polo vivono i pinguini?",
+    "risposte": [
+      "Polo Sud",
+      "Polo Nord",
+      "Entrambi i poli",
+      "Nessun polo"
+    ],
+    "curiosita": "Al Polo Nord non ce n'è nessuno, ma una specie vive anche alle Galápagos.",
+    "fatto": "pinguini polo sud",
+    "fonte": "https://it.wikipedia.org/wiki/Spheniscidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0159",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale vitamina produce la pelle quando riceve la luce del Sole?",
+    "risposte": [
+      "Vitamina D",
+      "Vitamina C",
+      "Vitamina A",
+      "Vitamina B12"
+    ],
+    "curiosita": "Per questo se ne carica soprattutto nelle stagioni di sole abbondante.",
+    "fatto": "vitamina d luce sole pelle",
+    "fonte": "https://it.wikipedia.org/wiki/Vitamina_D",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0160",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come comunicano alle compagne dove trovare i fiori le api?",
+    "risposte": [
+      "Con una danza",
+      "Con un canto",
+      "Con un colore",
+      "Con un fischio"
+    ],
+    "curiosita": "La «danza dell'addome» indica direzione e distanza: vinse un Nobel a Karl von Frisch.",
+    "fatto": "api danza fiori",
+    "fonte": "https://it.wikipedia.org/wiki/Ape_mellifera",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0161",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore è un'aragosta quando è ancora viva?",
+    "risposte": [
+      "Scuro, quasi blu",
+      "Rosso vivo",
+      "Rosa",
+      "Arancione"
+    ],
+    "curiosita": "Il rosso compare solo con la cottura, che libera il pigmento dalle proteine.",
+    "fatto": "aragosta colore da viva",
+    "fonte": "https://it.wikipedia.org/wiki/Aragosta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0162",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale animale si ricava la lana del cashmere?",
+    "risposte": [
+      "Capra",
+      "Pecora",
+      "Lama",
+      "Coniglio"
+    ],
+    "curiosita": "Il nome richiama il Kashmir, regione dove nacque la tradizione.",
+    "fatto": "cashmere capra lana",
+    "fonte": "https://it.wikipedia.org/wiki/Cashmere",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0163",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore è la pelle di una zebra, sotto il pelo?",
+    "risposte": [
+      "Nera",
+      "Bianca",
+      "Grigia",
+      "Rosa"
+    ],
+    "curiosita": "Le strisce chiare sono solo pelo: la pelle è scura.",
+    "fatto": "zebra pelle nera",
+    "fonte": "https://it.wikipedia.org/wiki/Zebra",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0164",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come dormono spesso i fenicotteri?",
+    "risposte": [
+      "Su una zampa sola",
+      "Su due zampe",
+      "Appesi ai rami",
+      "Seduti sul nido"
+    ],
+    "curiosita": "Così disperdono meno calore: l'altra zampa resta al caldo, ripiegata.",
+    "fatto": "fenicotteri dormono una zampa",
+    "fonte": "https://it.wikipedia.org/wiki/Phoenicopteridae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0165",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale terrestre può superare i 150 anni di vita?",
+    "risposte": [
+      "Tartaruga gigante",
+      "Elefante",
+      "Cavallo",
+      "Orso"
+    ],
+    "curiosita": "Una tartaruga di nome Jonathan, nata attorno al 1832, vive a Sant'Elena.",
+    "fatto": "tartaruga gigante longevita",
+    "fonte": "https://it.wikipedia.org/wiki/Testudinidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0166",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di quale pesce sono le uova che formano il caviale?",
+    "risposte": [
+      "Storione",
+      "Salmone",
+      "Merluzzo",
+      "Tonno"
+    ],
+    "curiosita": "Le uova di salmone sono un altro prodotto, di solito chiamato ikura.",
+    "fatto": "caviale uova storione",
+    "fonte": "https://it.wikipedia.org/wiki/Caviale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0167",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale spezia dà al curry il suo tipico colore giallo?",
+    "risposte": [
+      "Curcuma",
+      "Zafferano",
+      "Paprika",
+      "Zenzero"
+    ],
+    "curiosita": "Colora anche la senape e tanti piatti della cucina indiana.",
+    "fatto": "curry curcuma giallo",
+    "fonte": "https://it.wikipedia.org/wiki/Curcuma",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0168",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come trasformano le api il nettare in miele?",
+    "risposte": [
+      "Rigurgitandolo più volte",
+      "Mescolandolo con acqua",
+      "Scaldandolo con le ali",
+      "Spremendolo coi denti"
+    ],
+    "curiosita": "Poi lo fanno asciugare nell'alveare, ventilandolo con le ali.",
+    "fatto": "api nettare miele rigurgito",
+    "fonte": "https://it.wikipedia.org/wiki/Miele",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0169",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale uccello può ruotare la testa fino a circa 270 gradi?",
+    "risposte": [
+      "Gufo",
+      "Aquila",
+      "Pappagallo",
+      "Piccione"
+    ],
+    "curiosita": "Ha il doppio delle nostre vertebre cervicali: quattordici invece di sette.",
+    "fatto": "gufo ruota testa",
+    "fonte": "https://it.wikipedia.org/wiki/Strigiformes",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0170",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Per quanto tempo ricorda le cose un pesce rosso?",
+    "risposte": [
+      "Per mesi",
+      "Tre secondi",
+      "Un minuto",
+      "Un giorno"
+    ],
+    "curiosita": "Gli esperimenti mostrano che impara orari e percorsi e li ricorda a lungo.",
+    "fatto": "pesce rosso memoria mesi",
+    "fonte": "https://it.wikipedia.org/wiki/Carassius_auratus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0171",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cosa irrita il toro nell'arena?",
+    "risposte": [
+      "Il movimento del drappo",
+      "Il colore rosso",
+      "L'odore del sangue",
+      "Il rumore della folla"
+    ],
+    "curiosita": "I bovini distinguono male i colori: il drappo rosso serve soprattutto per tradizione.",
+    "fatto": "toro movimento drappo rosso",
+    "fonte": "https://it.wikipedia.org/wiki/Corrida",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0172",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Perché il cielo ci appare azzurro?",
+    "risposte": [
+      "L'aria diffonde il blu",
+      "Il mare lo riflette",
+      "Il Sole è azzurro",
+      "Lo strato di ozono"
+    ],
+    "curiosita": "La luce blu viene diffusa dalle molecole d'aria più delle altre.",
+    "fatto": "cielo azzurro diffusione",
+    "fonte": "https://it.wikipedia.org/wiki/Diffusione_di_Rayleigh",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0173",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quanto dura un anno su Mercurio?",
+    "risposte": [
+      "88 giorni terrestri",
+      "365 giorni",
+      "30 giorni",
+      "12 mesi"
+    ],
+    "curiosita": "È il pianeta più vicino al Sole e il suo anno è il più breve.",
+    "fatto": "anno su mercurio durata",
+    "fonte": "https://it.wikipedia.org/wiki/Mercurio_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0174",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa significa «sudoku» in giapponese?",
+    "risposte": [
+      "Numero singolo",
+      "Quadrato magico",
+      "Incrocio di numeri",
+      "Gioco di logica"
+    ],
+    "curiosita": "Il gioco fu ideato negli Stati Uniti, ma il nome giapponese lo ha reso famoso.",
+    "fatto": "sudoku significato giapponese",
+    "fonte": "https://it.wikipedia.org/wiki/Sudoku",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0175",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale albero africano accumula acqua nel tronco, fino a oltre 100.000 litri?",
+    "risposte": [
+      "Baobab",
+      "Acacia",
+      "Mogano",
+      "Ebano"
+    ],
+    "curiosita": "Di notte il tronco pare una bottiglia gonfia: per questo è chiamato «albero bottiglia».",
+    "fatto": "baobab accumula acqua",
+    "fonte": "https://it.wikipedia.org/wiki/Adansonia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0176",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale pianta chiude le foglie quando viene toccata?",
+    "risposte": [
+      "Mimosa pudica",
+      "Aloe",
+      "Edera",
+      "Ficus"
+    ],
+    "curiosita": "Si chiama anche «sensitiva»: le foglie si ripiegano in pochi secondi.",
+    "fatto": "mimosa pudica sensitiva",
+    "fonte": "https://it.wikipedia.org/wiki/Mimosa_pudica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0177",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale rettile può lanciare la lingua oltre la lunghezza del proprio corpo?",
+    "risposte": [
+      "Camaleonte",
+      "Iguana",
+      "Geco",
+      "Varano"
+    ],
+    "curiosita": "Per catturare le prede la lancia a una velocità notevolissima.",
+    "fatto": "camaleonte lingua lunga",
+    "fonte": "https://it.wikipedia.org/wiki/Chamaeleonidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0178",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa significa il soprannome «Caligola»?",
+    "risposte": [
+      "Piccolo stivale",
+      "Piccolo leone",
+      "Piccolo cavallo",
+      "Piccola spada"
+    ],
+    "curiosita": "Se lo guadagnò da bambino, vestito da soldato con le calighe, i calzari militari.",
+    "fatto": "caligola significato soprannome",
+    "fonte": "https://it.wikipedia.org/wiki/Caligola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0179",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "In quale arcipelago dei Caraibi i maiali nuotano liberamente tra i turisti?",
+    "risposte": [
+      "Bahamas",
+      "Barbados",
+      "Giamaica",
+      "Cuba"
+    ],
+    "curiosita": "I maiali di Big Major Cay si tuffano per raggiungere le barche e il cibo.",
+    "fatto": "bahamas maiali nuotatori",
+    "fonte": "https://it.wikipedia.org/wiki/Bahamas",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "cl-str-0180",
+    "tipo": "classica",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti metri di filo può produrre un solo bozzolo di baco da seta?",
+    "risposte": [
+      "Quasi un chilometro",
+      "Circa 10 metri",
+      "Circa 100 metri",
+      "Circa 50 chilometri"
+    ],
+    "curiosita": "Il filo è continuo e va dipanato con grande pazienza, senza spezzarlo.",
+    "fatto": "bozzolo seta lunghezza filo",
+    "fonte": "https://it.wikipedia.org/wiki/Seta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

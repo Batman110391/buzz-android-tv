@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "la-tra-0001",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi porta i doni ai bambini la notte dell'Epifania?",
+    "risposte": [
+      "La Befana",
+      "Babbo Natale",
+      "Santa Lucia",
+      "San Nicola"
+    ],
+    "curiosita": "Arriva nella notte tra il 5 e il 6 gennaio.",
+    "fatto": "chi porta doni epifania",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0002",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In quale mese cade Ferragosto?",
+    "risposte": [
+      "Agosto",
+      "Luglio",
+      "Giugno",
+      "Settembre"
+    ],
+    "curiosita": "La data è il 15 agosto.",
+    "fatto": "mese di ferragosto",
+    "fonte": "https://it.wikipedia.org/wiki/Ferragosto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0003",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiama il 26 dicembre in Italia?",
+    "risposte": [
+      "Santo Stefano",
+      "Capodanno",
+      "Epifania",
+      "San Silvestro"
+    ],
+    "curiosita": "Ricorda il primo martire cristiano.",
+    "fatto": "nome 26 dicembre italia",
+    "fonte": "https://it.wikipedia.org/wiki/Santo_Stefano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0004",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiama la notte del 31 dicembre?",
+    "risposte": [
+      "San Silvestro",
+      "Santo Stefano",
+      "Epifania",
+      "Immacolata"
+    ],
+    "curiosita": "Il nome ricorda un papa del IV secolo.",
+    "fatto": "nome notte 31 dicembre",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0005",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale animale c'è sempre nel presepe accanto al bue?",
+    "risposte": [
+      "Asino",
+      "Cavallo",
+      "Elefante",
+      "Giraffa"
+    ],
+    "curiosita": "Non è citato nei Vangeli, ma la tradizione lo ha aggiunto.",
+    "fatto": "presepe asino accanto bue",
+    "fonte": "https://it.wikipedia.org/wiki/Presepe",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0006",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quanti sono tradizionalmente i Re Magi?",
+    "risposte": [
+      "3",
+      "2",
+      "4",
+      "12"
+    ],
+    "curiosita": "Il numero deriva dai tre doni: oro, incenso e mirra.",
+    "fatto": "numero re magi",
+    "fonte": "https://it.wikipedia.org/wiki/Re_Magi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0007",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che animale nero in strada porta sfortuna?",
+    "risposte": [
+      "Gatto",
+      "Cane",
+      "Corvo",
+      "Cavallo"
+    ],
+    "curiosita": "Nel Regno Unito, invece, è spesso segno di fortuna.",
+    "fatto": "gatto nero strada italia",
+    "fonte": "https://it.wikipedia.org/wiki/Superstizione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0008",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiamano Gaspare, Melchiorre e Baldassarre?",
+    "risposte": [
+      "Re Magi",
+      "Apostoli",
+      "Evangelisti",
+      "Arcangeli"
+    ],
+    "curiosita": "Sono i nomi attribuiti dalla tradizione.",
+    "fatto": "nomi re magi",
+    "fonte": "https://it.wikipedia.org/wiki/Re_Magi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0009",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale festa precede la Quaresima?",
+    "risposte": [
+      "Carnevale",
+      "Natale",
+      "Ferragosto",
+      "Epifania"
+    ],
+    "curiosita": "Dura fino al Martedì grasso.",
+    "fatto": "carnevale precede quaresima",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0010",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale fiore è simbolo di San Valentino?",
+    "risposte": [
+      "Rosa",
+      "Margherita",
+      "Giglio",
+      "Orchidea"
+    ],
+    "curiosita": "Si regala il 14 febbraio.",
+    "fatto": "fiore san valentino",
+    "fonte": "https://it.wikipedia.org/wiki/San_Valentino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0011",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Chi porta una moneta in cambio del dentino da latte?",
+    "risposte": [
+      "Fatina dei denti",
+      "Befana",
+      "Gnomo",
+      "Sirena"
+    ],
+    "curiosita": "La tradizione è diffusa in molti Paesi.",
+    "fatto": "fatina denti moneta",
+    "fonte": "https://it.wikipedia.org/wiki/Fatina_dei_denti",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0012",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si lancia agli sposi all'uscita dalla chiesa?",
+    "risposte": [
+      "Riso",
+      "Pasta",
+      "Sale",
+      "Farina"
+    ],
+    "curiosita": "Il riso augura fertilità e prosperità.",
+    "fatto": "lancio riso sposi",
+    "fonte": "https://it.wikipedia.org/wiki/Matrimonio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0013",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si appende alla porta a Natale?",
+    "risposte": [
+      "Ghirlanda",
+      "Ombrello",
+      "Tenda",
+      "Zerbino"
+    ],
+    "curiosita": "Spesso è fatta di rami di abete, vischio e bacche.",
+    "fatto": "ghirlanda natale porta",
+    "fonte": "https://it.wikipedia.org/wiki/Natale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0014",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "In che data si festeggia Natale?",
+    "risposte": [
+      "25 dicembre",
+      "24 dicembre",
+      "6 gennaio",
+      "8 dicembre"
+    ],
+    "curiosita": "La data fu scelta nel IV secolo.",
+    "fatto": "data natale",
+    "fonte": "https://it.wikipedia.org/wiki/Natale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0015",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Come si chiama la grande cena del 24 dicembre?",
+    "risposte": [
+      "Cenone",
+      "Aperitivo",
+      "Merenda",
+      "Brunch"
+    ],
+    "curiosita": "Nel Sud è spesso a base di pesce.",
+    "fatto": "cenone vigilia",
+    "fonte": "https://it.wikipedia.org/wiki/Natale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0016",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si celebra il 1° maggio?",
+    "risposte": [
+      "Il lavoro",
+      "La mamma",
+      "La Repubblica",
+      "La Liberazione"
+    ],
+    "curiosita": "In Italia è la Festa dei lavoratori.",
+    "fatto": "primo maggio celebrazione",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_dei_lavoratori",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0017",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si celebra il 2 giugno in Italia?",
+    "risposte": [
+      "La Repubblica",
+      "La Liberazione",
+      "Il lavoro",
+      "L'Unità"
+    ],
+    "curiosita": "Ricorda il referendum del 1946.",
+    "fatto": "due giugno celebrazione",
+    "fonte": "https://it.wikipedia.org/wiki/Festa_della_Repubblica_Italiana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0018",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che uovo si rompe a Pasqua per trovare la sorpresa?",
+    "risposte": [
+      "Di cioccolato",
+      "Di gallina",
+      "Di struzzo",
+      "Di legno"
+    ],
+    "curiosita": "La sorpresa nasconde spesso un piccolo giocattolo.",
+    "fatto": "uovo pasqua sorpresa",
+    "fonte": "https://it.wikipedia.org/wiki/Uovo_di_Pasqua",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0019",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Quale dolce napoletano si mangia a Pasqua?",
+    "risposte": [
+      "Pastiera",
+      "Babà",
+      "Struffoli",
+      "Sfogliatella"
+    ],
+    "curiosita": "Contiene grano cotto, ricotta e fiori d'arancio.",
+    "fatto": "pastiera pasqua",
+    "fonte": "https://it.wikipedia.org/wiki/Pastiera",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0020",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "domanda": "Che cosa si stappa a mezzanotte di Capodanno?",
+    "risposte": [
+      "Spumante",
+      "Olio",
+      "Caffè",
+      "Latte"
+    ],
+    "curiosita": "Il tappo che salta è un rito di buon augurio.",
+    "fatto": "spumante capodanno",
+    "fonte": "https://it.wikipedia.org/wiki/Capodanno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0021",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quanti sono i Giorni della Merla?",
+    "risposte": [
+      "3",
+      "2",
+      "5",
+      "7"
+    ],
+    "curiosita": "Sono gli ultimi tre giorni di gennaio.",
+    "fatto": "numero giorni merla",
+    "fonte": "https://it.wikipedia.org/wiki/Giorni_della_merla",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0022",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale numero suona come «morte» in cinese e giapponese?",
+    "risposte": [
+      "4",
+      "7",
+      "9",
+      "13"
+    ],
+    "curiosita": "In molti edifici asiatici manca il quarto piano.",
+    "fatto": "numero morte asia",
+    "fonte": "https://it.wikipedia.org/wiki/Tetrafobia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0023",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale numero è molto fortunato in Cina?",
+    "risposte": [
+      "8",
+      "4",
+      "7",
+      "13"
+    ],
+    "curiosita": "Il suo suono ricorda la parola «prosperità».",
+    "fatto": "numero fortunato cina",
+    "fonte": "https://it.wikipedia.org/wiki/Numerologia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0024",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale mese cade di solito la Tomatina?",
+    "risposte": [
+      "Agosto",
+      "Giugno",
+      "Settembre",
+      "Luglio"
+    ],
+    "curiosita": "Si tiene l'ultimo mercoledì del mese.",
+    "fatto": "mese tomatina",
+    "fonte": "https://it.wikipedia.org/wiki/La_Tomatina",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0025",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "In quale mese inizia l'Oktoberfest?",
+    "risposte": [
+      "Settembre",
+      "Ottobre",
+      "Agosto",
+      "Novembre"
+    ],
+    "curiosita": "Finisce nella prima domenica di ottobre.",
+    "fatto": "mese inizio oktoberfest",
+    "fonte": "https://it.wikipedia.org/wiki/Oktoberfest",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0026",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Che cosa si celebra il 1° novembre?",
+    "risposte": [
+      "Ognissanti",
+      "Immacolata",
+      "Epifania",
+      "Ferragosto"
+    ],
+    "curiosita": "Il giorno dopo si ricordano i defunti.",
+    "fatto": "primo novembre celebrazione",
+    "fonte": "https://it.wikipedia.org/wiki/Ognissanti",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0027",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo si ricorda il 4 ottobre?",
+    "risposte": [
+      "San Francesco",
+      "Sant'Antonio",
+      "San Nicola",
+      "San Marco"
+    ],
+    "curiosita": "Ricorre il giorno della sua morte, nel 1226.",
+    "fatto": "santo 4 ottobre",
+    "fonte": "https://it.wikipedia.org/wiki/San_Francesco_d'Assisi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0028",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale santo si ricorda il 6 dicembre?",
+    "risposte": [
+      "San Nicola",
+      "Sant'Ambrogio",
+      "San Martino",
+      "Santo Stefano"
+    ],
+    "curiosita": "È il santo da cui deriva Babbo Natale.",
+    "fatto": "santo 6 dicembre",
+    "fonte": "https://it.wikipedia.org/wiki/Nicola_di_Bari",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0029",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale festa significa «cinquantesimo giorno»?",
+    "risposte": [
+      "Pentecoste",
+      "Ascensione",
+      "Corpus Domini",
+      "Trinità"
+    ],
+    "curiosita": "Ricorre cinquanta giorni dopo la Pasqua.",
+    "fatto": "pentecoste cinquantesimo giorno",
+    "fonte": "https://it.wikipedia.org/wiki/Pentecoste",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0030",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama il Capodanno ebraico?",
+    "risposte": [
+      "Rosh Hashanah",
+      "Hanukkah",
+      "Purim",
+      "Sukkot"
+    ],
+    "curiosita": "Cade in settembre o ottobre.",
+    "fatto": "capodanno ebraico nome",
+    "fonte": "https://it.wikipedia.org/wiki/Rosh_haShanah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0031",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama la «festa del sacrificio» musulmana?",
+    "risposte": [
+      "Eid al-Adha",
+      "Eid al-Fitr",
+      "Ashura",
+      "Mawlid"
+    ],
+    "curiosita": "Ricorda il sacrificio di Abramo.",
+    "fatto": "festa sacrificio musulmana",
+    "fonte": "https://it.wikipedia.org/wiki/Eid_al-Adha",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0032",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiama il mese islamico del digiuno diurno?",
+    "risposte": [
+      "Ramadan",
+      "Muharram",
+      "Rajab",
+      "Shawwal"
+    ],
+    "curiosita": "Il digiuno dura dall'alba al tramonto.",
+    "fatto": "mese digiuno islamico",
+    "fonte": "https://it.wikipedia.org/wiki/Ramadan",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0033",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Che forma ha il pandoro?",
+    "risposte": [
+      "Stella a 8 punte",
+      "Cupola",
+      "Ciambella",
+      "Cuore"
+    ],
+    "curiosita": "Nasce a Verona nell'Ottocento.",
+    "fatto": "forma pandoro",
+    "fonte": "https://it.wikipedia.org/wiki/Pandoro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0034",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di che colore è l'abito delle spose indiane?",
+    "risposte": [
+      "Rosso",
+      "Bianco",
+      "Verde",
+      "Azzurro"
+    ],
+    "curiosita": "Il rosso simboleggia fortuna e prosperità.",
+    "fatto": "abito sposa indiana colore",
+    "fonte": "https://it.wikipedia.org/wiki/Matrimonio_ind%C3%B9",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0035",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale bevanda si offre agli dei nei riti shintoisti?",
+    "risposte": [
+      "Sake",
+      "Tè verde",
+      "Whisky",
+      "Birra"
+    ],
+    "curiosita": "Le botti di sake sono spesso esposte nei santuari.",
+    "fatto": "sake offerta shinto",
+    "fonte": "https://it.wikipedia.org/wiki/Shintoismo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0036",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Che cosa si toglie entrando in una casa giapponese?",
+    "risposte": [
+      "Le scarpe",
+      "Il cappello",
+      "La giacca",
+      "I guanti"
+    ],
+    "curiosita": "Per il pavimento pulito si usano ciabatte.",
+    "fatto": "casa giapponese scarpe",
+    "fonte": "https://it.wikipedia.org/wiki/Genkan",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0037",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Come si chiamano le uova di Pasqua decorate ucraine?",
+    "risposte": [
+      "Pysanky",
+      "Matrioske",
+      "Kokoshnik",
+      "Pierogi"
+    ],
+    "curiosita": "Si dipingono con cera e coloranti, a strati.",
+    "fatto": "uova pasqua ucraine",
+    "fonte": "https://it.wikipedia.org/wiki/Pysanka",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0038",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale dolce di Carnevale è detto anche «frappe»?",
+    "risposte": [
+      "Chiacchiere",
+      "Panettone",
+      "Colomba",
+      "Pandoro"
+    ],
+    "curiosita": "In Italia ha decine di nomi: bugie, frappe, cenci.",
+    "fatto": "chiacchiere carnevale",
+    "fonte": "https://it.wikipedia.org/wiki/Chiacchiere",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0039",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Di che colore sono le uova di Pasqua in Grecia?",
+    "risposte": [
+      "Rosse",
+      "Blu",
+      "Nere",
+      "Dorate"
+    ],
+    "curiosita": "Il rosso ricorda il sangue di Cristo e la rinascita.",
+    "fatto": "uova pasqua grecia rosse",
+    "fonte": "https://it.wikipedia.org/wiki/Pasqua_ortodossa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0040",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "domanda": "Quale sottile ostia si condivide a Natale in Polonia?",
+    "risposte": [
+      "Opłatek",
+      "Pierogi",
+      "Bigos",
+      "Placek"
+    ],
+    "curiosita": "Prima di cenare ci si scambia un pezzo e gli auguri.",
+    "fatto": "oplatek natale polonia",
+    "fonte": "https://it.wikipedia.org/wiki/Wigilia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0041",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quando si festeggia il Natale ortodosso russo?",
+    "risposte": [
+      "7 gennaio",
+      "25 dicembre",
+      "6 gennaio",
+      "1 gennaio"
+    ],
+    "curiosita": "Si segue il calendario giuliano.",
+    "fatto": "natale ortodosso russo data",
+    "fonte": "https://it.wikipedia.org/wiki/Natale_ortodosso",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0042",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale colore è tradizionale per il lutto in Cina?",
+    "risposte": [
+      "Bianco",
+      "Nero",
+      "Rosso",
+      "Giallo"
+    ],
+    "curiosita": "Il rosso, invece, è il colore delle feste.",
+    "fatto": "lutto cina colore",
+    "fonte": "https://it.wikipedia.org/wiki/Lutto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0043",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quanti giorni dura il Diwali?",
+    "risposte": [
+      "5",
+      "3",
+      "7",
+      "10"
+    ],
+    "curiosita": "Il giorno centrale è quello delle lampade.",
+    "fatto": "diwali durata giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Diwali",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0044",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il pane intrecciato del Sabato ebraico?",
+    "risposte": [
+      "Challah",
+      "Pita",
+      "Matzah",
+      "Bagel"
+    ],
+    "curiosita": "Si mangiano due pani, a ricordo della manna.",
+    "fatto": "challah pane sabato",
+    "fonte": "https://it.wikipedia.org/wiki/Challah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0045",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il pane azzimo della Pasqua ebraica?",
+    "risposte": [
+      "Matzah",
+      "Challah",
+      "Pita",
+      "Focaccia"
+    ],
+    "curiosita": "Ricorda la fuga dall'Egitto, senza il tempo di lievitare.",
+    "fatto": "matzah pane azzimo pesach",
+    "fonte": "https://it.wikipedia.org/wiki/Matzah",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0046",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il «Giorno dell'Espiazione» ebraico?",
+    "risposte": [
+      "Yom Kippur",
+      "Purim",
+      "Sukkot",
+      "Shavuot"
+    ],
+    "curiosita": "È il giorno più solenne del calendario ebraico.",
+    "fatto": "yom kippur nome",
+    "fonte": "https://it.wikipedia.org/wiki/Yom_Kippur",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0047",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Che cosa si costruisce per la festa ebraica di Sukkot?",
+    "risposte": [
+      "Una capanna",
+      "Un altare",
+      "Un ponte",
+      "Un carro"
+    ],
+    "curiosita": "Ricorda le tende del popolo nel deserto.",
+    "fatto": "sukkot capanna",
+    "fonte": "https://it.wikipedia.org/wiki/Sukkot",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0048",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il pellegrinaggio alla Mecca?",
+    "risposte": [
+      "Hajj",
+      "Zakat",
+      "Sawm",
+      "Shahada"
+    ],
+    "curiosita": "È uno dei cinque pilastri dell'Islam.",
+    "fatto": "pellegrinaggio mecca nome",
+    "fonte": "https://it.wikipedia.org/wiki/Hajj",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0049",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come sono le scarpe della Befana nella filastrocca?",
+    "risposte": [
+      "Rotte",
+      "Nuove",
+      "Rosse",
+      "Lucide"
+    ],
+    "curiosita": "«La Befana vien di notte con le scarpe tutte rotte».",
+    "fatto": "filastrocca befana scarpe",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0050",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quanti giorni dura la novena di Natale?",
+    "risposte": [
+      "9",
+      "7",
+      "12",
+      "40"
+    ],
+    "curiosita": "Inizia il 16 dicembre, con canti e preghiere.",
+    "fatto": "novena natale giorni",
+    "fonte": "https://it.wikipedia.org/wiki/Novena",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0051",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama in Giappone la prima visita al tempio?",
+    "risposte": [
+      "Hatsumode",
+      "Hanami",
+      "Obon",
+      "Matsuri"
+    ],
+    "curiosita": "Si fa nei primi giorni di gennaio.",
+    "fatto": "hatsumode prima visita tempio",
+    "fonte": "https://it.wikipedia.org/wiki/Hatsumode",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0052",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiamano i disegni a terra per il Diwali?",
+    "risposte": [
+      "Rangoli",
+      "Mandala",
+      "Henné",
+      "Bindi"
+    ],
+    "curiosita": "Si fanno con polveri, petali o riso colorato.",
+    "fatto": "rangoli diwali disegni",
+    "fonte": "https://it.wikipedia.org/wiki/Rangoli",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0053",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Con che cosa si decorano le mani delle spose indiane?",
+    "risposte": [
+      "Henné",
+      "Oro",
+      "Argilla",
+      "Carbone"
+    ],
+    "curiosita": "Il disegno si chiama mehndi.",
+    "fatto": "henne spose indiane mani",
+    "fonte": "https://it.wikipedia.org/wiki/Henn%C3%A9",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0054",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama la cerimonia giapponese del tè?",
+    "risposte": [
+      "Chanoyu",
+      "Ikebana",
+      "Kabuki",
+      "Hanafuda"
+    ],
+    "curiosita": "Esalta armonia, rispetto, purezza e tranquillità.",
+    "fatto": "cerimonia te giappone",
+    "fonte": "https://it.wikipedia.org/wiki/Cerimonia_del_t%C3%A8",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0055",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale fiore si porta sulle tombe a Ognissanti?",
+    "risposte": [
+      "Crisantemo",
+      "Rosa",
+      "Margherita",
+      "Girasole"
+    ],
+    "curiosita": "In Italia è legato ai defunti, perciò si regala di rado.",
+    "fatto": "crisantemo ognissanti",
+    "fonte": "https://it.wikipedia.org/wiki/Crisantemo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0056",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il vin brulé dei mercatini tedeschi?",
+    "risposte": [
+      "Glühwein",
+      "Eierlikör",
+      "Schnaps",
+      "Radler"
+    ],
+    "curiosita": "Il nome significa «vino ardente».",
+    "fatto": "gluhwein vin brule",
+    "fonte": "https://it.wikipedia.org/wiki/Gl%C3%BChwein",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0057",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Come si chiama il ballo sardo in cerchio?",
+    "risposte": [
+      "Ballu tundu",
+      "Tarantella",
+      "Saltarello",
+      "Pizzica"
+    ],
+    "curiosita": "Si danza in tondo, tenendosi per mano.",
+    "fatto": "ballu tundu sardegna",
+    "fonte": "https://it.wikipedia.org/wiki/Ballu_tundu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0058",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale ballo salentino si lega al morso della tarantola?",
+    "risposte": [
+      "Pizzica",
+      "Saltarello",
+      "Monferrina",
+      "Furlana"
+    ],
+    "curiosita": "Il rito delle «tarantate» è documentato da secoli.",
+    "fatto": "pizzica tarantola salento",
+    "fonte": "https://it.wikipedia.org/wiki/Pizzica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0059",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale strumento suonano gli zampognari a Natale?",
+    "risposte": [
+      "Zampogna",
+      "Fisarmonica",
+      "Mandolino",
+      "Tamburello"
+    ],
+    "curiosita": "Scendono dai monti nelle città nei giorni dell'Avvento.",
+    "fatto": "zampogna natale zampognari",
+    "fonte": "https://it.wikipedia.org/wiki/Zampogna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-tra-0060",
+    "tipo": "lampo",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "domanda": "Quale animale ammansì San Francesco a Gubbio?",
+    "risposte": [
+      "Lupo",
+      "Orso",
+      "Volpe",
+      "Cinghiale"
+    ],
+    "curiosita": "La leggenda è raccontata nei «Fioretti».",
+    "fatto": "lupo gubbio san francesco",
+    "fonte": "https://it.wikipedia.org/wiki/Lupo_di_Gubbio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

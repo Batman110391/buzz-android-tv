@@ -1,0 +1,602 @@
+[
+  {
+    "id": "or-str-0001",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Gestazione, dalla più breve alla più lunga",
+    "elementi": [
+      "Topo",
+      "Gatto",
+      "Mucca",
+      "Elefante"
+    ],
+    "valori": [
+      "20 giorni",
+      "65 giorni",
+      "280 giorni",
+      "660 giorni"
+    ],
+    "curiosita": "Quasi due anni di attesa: nessun altro mammifero terrestre aspetta così a lungo.",
+    "fatto": "ordine gestazione animali",
+    "fonte": "https://it.wikipedia.org/wiki/Gestazione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0002",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Anno dei pianeti, dal più breve al più lungo",
+    "elementi": [
+      "Mercurio",
+      "Venere",
+      "Terra",
+      "Marte"
+    ],
+    "valori": [
+      "88 giorni",
+      "225 giorni",
+      "365 giorni",
+      "687 giorni"
+    ],
+    "curiosita": "Su Mercurio un anno dura meno di tre mesi terrestri.",
+    "fatto": "ordine anno pianeti",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0003",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Metalli, da quello che fonde prima",
+    "elementi": [
+      "Gallio",
+      "Stagno",
+      "Piombo",
+      "Rame"
+    ],
+    "valori": [
+      "30 °C",
+      "232 °C",
+      "327 °C",
+      "1085 °C"
+    ],
+    "curiosita": "Il gallio si scioglie in mano; il rame ha bisogno di una fornace.",
+    "fatto": "ordine metalli punto fusione",
+    "fonte": "https://it.wikipedia.org/wiki/Punto_di_fusione",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0004",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Eventi dell'antichità, dal più antico",
+    "elementi": [
+      "Prime Olimpiadi",
+      "Fondazione di Roma",
+      "Morte di Cesare",
+      "Eruzione del Vesuvio"
+    ],
+    "valori": [
+      "776 a.C.",
+      "753 a.C.",
+      "44 a.C.",
+      "79 d.C."
+    ],
+    "curiosita": "Le date delle prime Olimpiadi e di Roma sono tradizionali: quasi coetanee.",
+    "fatto": "ordine eventi antichita",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_romana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0005",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Invenzioni, dalla prima all'ultima nata",
+    "elementi": [
+      "Mongolfiera",
+      "Dagherrotipo",
+      "Telefono",
+      "Cinematografo"
+    ],
+    "valori": [
+      "1783",
+      "1839",
+      "1876",
+      "1895"
+    ],
+    "curiosita": "La mongolfiera volò un secolo prima del cinema.",
+    "fatto": "ordine invenzioni ottocento",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_tecnologia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0006",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Olimpiadi moderne, dalla prima in poi",
+    "elementi": [
+      "Atene",
+      "Parigi",
+      "Saint Louis",
+      "Londra"
+    ],
+    "valori": [
+      "1896",
+      "1900",
+      "1904",
+      "1908"
+    ],
+    "curiosita": "Parigi 1900 e Saint Louis 1904 durarono mesi, legate alle esposizioni universali.",
+    "fatto": "ordine olimpiadi moderne",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0007",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Densità, dal pianeta meno denso al più denso",
+    "elementi": [
+      "Saturno",
+      "Giove",
+      "Marte",
+      "Terra"
+    ],
+    "valori": [
+      "0,69 g/cm³",
+      "1,33 g/cm³",
+      "3,93 g/cm³",
+      "5,51 g/cm³"
+    ],
+    "curiosita": "La Terra è il pianeta più denso del sistema solare.",
+    "fatto": "ordine densita pianeti",
+    "fonte": "https://it.wikipedia.org/wiki/Densità",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0008",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Monumenti antichi, dal più vecchio al più recente",
+    "elementi": [
+      "Stonehenge",
+      "Piramide di Cheope",
+      "Partenone",
+      "Colosseo"
+    ],
+    "valori": [
+      "3000 a.C.",
+      "2560 a.C.",
+      "447 a.C.",
+      "80 d.C."
+    ],
+    "curiosita": "Il Colosseo è più vicino a noi di quanto sia alla piramide.",
+    "fatto": "ordine monumenti antichi",
+    "fonte": "https://it.wikipedia.org/wiki/Monumento",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0009",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Dal più antico al più recente",
+    "elementi": [
+      "Università di Oxford",
+      "Tenochtitlán",
+      "Viaggio di Colombo",
+      "Torre Eiffel"
+    ],
+    "valori": [
+      "1096",
+      "1325",
+      "1492",
+      "1889"
+    ],
+    "curiosita": "Si insegnava a Oxford già due secoli prima della fondazione di Tenochtitlán.",
+    "fatto": "ordine oxford aztechi colombo eiffel",
+    "fonte": "https://it.wikipedia.org/wiki/Università_di_Oxford",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0010",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Zampe, dall'animale che ne ha meno",
+    "elementi": [
+      "Cavallo",
+      "Mosca",
+      "Ragno",
+      "Aragosta"
+    ],
+    "valori": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "curiosita": "Anche i granchi e le aragoste hanno dieci zampe.",
+    "fatto": "ordine numero zampe",
+    "fonte": "https://it.wikipedia.org/wiki/Decapoda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0011",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Piccantezza, dal meno al più piccante",
+    "elementi": [
+      "Peperone dolce",
+      "Jalapeño",
+      "Cayenna",
+      "Habanero"
+    ],
+    "valori": [
+      "0 SHU",
+      "~5.000 SHU",
+      "~40.000 SHU",
+      "~200.000 SHU"
+    ],
+    "curiosita": "La piccantezza si misura nella scala Scoville, ideata nel 1912.",
+    "fatto": "ordine piccantezza scoville",
+    "fonte": "https://it.wikipedia.org/wiki/Scala_di_Scoville",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0012",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Numero di corde, dallo strumento che ne ha meno",
+    "elementi": [
+      "Violino",
+      "Chitarra",
+      "Mandolino",
+      "Pianoforte"
+    ],
+    "valori": [
+      "4",
+      "6",
+      "8",
+      "circa 230"
+    ],
+    "curiosita": "Il pianoforte ha più corde di ogni altro strumento comune.",
+    "fatto": "ordine corde strumenti",
+    "fonte": "https://it.wikipedia.org/wiki/Strumento_a_corda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0013",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Apertura alare, dall'uccello più piccolo",
+    "elementi": [
+      "Colibrì",
+      "Gabbiano",
+      "Aquila reale",
+      "Albatro"
+    ],
+    "valori": [
+      "~12 cm",
+      "~1,4 m",
+      "~2 m",
+      "~3 m"
+    ],
+    "curiosita": "L'albatro vola per ore, quasi senza battere le ali.",
+    "fatto": "ordine apertura alare uccelli",
+    "fonte": "https://it.wikipedia.org/wiki/Aves",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0014",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Uova, dalla più leggera alla più pesante",
+    "elementi": [
+      "Colibrì",
+      "Gallina",
+      "Oca",
+      "Struzzo"
+    ],
+    "valori": [
+      "0,5 g",
+      "60 g",
+      "150 g",
+      "1,4 kg"
+    ],
+    "curiosita": "Un uovo di struzzo equivale a circa venti uova di gallina.",
+    "fatto": "ordine peso uova",
+    "fonte": "https://it.wikipedia.org/wiki/Uovo_(biologia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0015",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Sonno al giorno, da chi dorme meno a chi più",
+    "elementi": [
+      "Elefante",
+      "Uomo",
+      "Gatto",
+      "Koala"
+    ],
+    "valori": [
+      "~4 ore",
+      "~8 ore",
+      "~13 ore",
+      "~20 ore"
+    ],
+    "curiosita": "Il koala dorme per via della dieta povera di energia.",
+    "fatto": "ordine ore di sonno",
+    "fonte": "https://it.wikipedia.org/wiki/Sonno",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0016",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Imperatori romani, per salita al trono",
+    "elementi": [
+      "Augusto",
+      "Nerone",
+      "Traiano",
+      "Costantino"
+    ],
+    "valori": [
+      "27 a.C.",
+      "54",
+      "98",
+      "306"
+    ],
+    "curiosita": "Da Augusto a Costantino passarono più di tre secoli.",
+    "fatto": "ordine imperatori romani",
+    "fonte": "https://it.wikipedia.org/wiki/Imperatori_romani",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0017",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Scienziati, dal nato prima al nato dopo",
+    "elementi": [
+      "Galileo",
+      "Newton",
+      "Darwin",
+      "Einstein"
+    ],
+    "valori": [
+      "1564",
+      "1643",
+      "1809",
+      "1879"
+    ],
+    "curiosita": "Newton nacque nell'anno in cui morì Galileo, secondo i calendari.",
+    "fatto": "ordine nascita scienziati",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_scienza",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0018",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Eruzioni celebri, dalla più antica",
+    "elementi": [
+      "Vesuvio",
+      "Etna",
+      "Tambora",
+      "Krakatoa"
+    ],
+    "valori": [
+      "79 d.C.",
+      "1669",
+      "1815",
+      "1883"
+    ],
+    "curiosita": "Il Krakatoa si udì fino a quasi 5.000 chilometri di distanza.",
+    "fatto": "ordine eruzioni celebri",
+    "fonte": "https://it.wikipedia.org/wiki/Eruzione_vulcanica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0019",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "criterio": "Numero atomico, dal più piccolo al più grande",
+    "elementi": [
+      "Idrogeno",
+      "Ossigeno",
+      "Ferro",
+      "Oro"
+    ],
+    "valori": [
+      "1",
+      "8",
+      "26",
+      "79"
+    ],
+    "curiosita": "L'idrogeno è l'elemento più abbondante dell'universo.",
+    "fatto": "ordine numero atomico",
+    "fonte": "https://it.wikipedia.org/wiki/Numero_atomico",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0020",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Distanza dal Sole, dal pianeta più vicino",
+    "elementi": [
+      "Terra",
+      "Marte",
+      "Giove",
+      "Saturno"
+    ],
+    "valori": [
+      "150 mln km",
+      "228 mln km",
+      "778 mln km",
+      "1.430 mln km"
+    ],
+    "curiosita": "La luce del Sole impiega circa 80 minuti ad arrivare a Saturno.",
+    "fatto": "ordine distanza dal sole",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0021",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Lune, dalla più piccola alla più grande",
+    "elementi": [
+      "Europa",
+      "Luna",
+      "Io",
+      "Titano"
+    ],
+    "valori": [
+      "3.122 km",
+      "3.474 km",
+      "3.643 km",
+      "5.150 km"
+    ],
+    "curiosita": "Titano è più grande di Mercurio.",
+    "fatto": "ordine diametro lune",
+    "fonte": "https://it.wikipedia.org/wiki/Satellite_naturale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0022",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Scrittori, dal nato prima al nato dopo",
+    "elementi": [
+      "Dante",
+      "Cervantes",
+      "Shakespeare",
+      "Manzoni"
+    ],
+    "valori": [
+      "1265",
+      "1547",
+      "1564",
+      "1785"
+    ],
+    "curiosita": "Cervantes e Shakespeare morirono lo stesso giorno, ma con calendari diversi.",
+    "fatto": "ordine nascita scrittori",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0023",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Gas, dal più leggero al più pesante",
+    "elementi": [
+      "Idrogeno",
+      "Elio",
+      "Azoto",
+      "Anidride carbonica"
+    ],
+    "valori": [
+      "2 g/mol",
+      "4 g/mol",
+      "28 g/mol",
+      "44 g/mol"
+    ],
+    "curiosita": "Il gas più pesante fra questi si accumula in basso, come una coperta invisibile.",
+    "fatto": "ordine gas massa molare",
+    "fonte": "https://it.wikipedia.org/wiki/Massa_molare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0024",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "criterio": "Luce visibile, dalla lunghezza d'onda più lunga",
+    "elementi": [
+      "Rosso",
+      "Giallo",
+      "Verde",
+      "Blu"
+    ],
+    "valori": [
+      "~700 nm",
+      "~580 nm",
+      "~530 nm",
+      "~470 nm"
+    ],
+    "curiosita": "Al tramonto il cielo vira al rosso perché la luce blu si disperde per prima.",
+    "fatto": "ordine lunghezza onda colori",
+    "fonte": "https://it.wikipedia.org/wiki/Luce",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "or-str-0025",
+    "tipo": "ordine",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "criterio": "Peso, dal più leggero al più pesante",
+    "elementi": [
+      "Formica",
+      "Topo",
+      "Gatto",
+      "Cavallo"
+    ],
+    "valori": [
+      "~3 mg",
+      "~20 g",
+      "~4 kg",
+      "~500 kg"
+    ],
+    "curiosita": "Un cavallo pesa quanto oltre cento milioni di formiche.",
+    "fatto": "ordine peso animali",
+    "fonte": "https://it.wikipedia.org/wiki/Peso",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

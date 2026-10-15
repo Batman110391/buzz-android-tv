@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "la-str-0001",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale cibo umano è tossico per i cani?",
+    "risposte": [
+      "Cioccolato",
+      "Pane",
+      "Riso",
+      "Mela"
+    ],
+    "curiosita": "Contiene teobromina, che i cani smaltiscono molto lentamente.",
+    "fatto": "cioccolato tossico cani",
+    "fonte": "https://it.wikipedia.org/wiki/Cioccolato",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0002",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale parte della pianta si ricava la cannella?",
+    "risposte": [
+      "Corteccia",
+      "Radice",
+      "Foglia",
+      "Fiore"
+    ],
+    "curiosita": "Sono strisce di corteccia interna, che si arrotolano seccando.",
+    "fatto": "cannella corteccia",
+    "fonte": "https://it.wikipedia.org/wiki/Cannella",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0003",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cosa rende piccante il peperoncino?",
+    "risposte": [
+      "Capsaicina",
+      "Piperina",
+      "Caffeina",
+      "Teina"
+    ],
+    "curiosita": "Gli uccelli non la sentono, così diffondono i semi senza lamentarsi.",
+    "fatto": "peperoncino capsaicina",
+    "fonte": "https://it.wikipedia.org/wiki/Capsaicina",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0004",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale animale prendono nome le Canarie?",
+    "risposte": [
+      "Cani",
+      "Canarini",
+      "Cavalli",
+      "Gabbiani"
+    ],
+    "curiosita": "Dal latino Canariae insulae: i canarini hanno preso il nome dalle isole.",
+    "fatto": "canarie nome da cani",
+    "fonte": "https://it.wikipedia.org/wiki/Isole_Canarie",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0005",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quanti occhi ha, di solito, un ragno?",
+    "risposte": [
+      "Otto",
+      "Due",
+      "Quattro",
+      "Sei"
+    ],
+    "curiosita": "Alcune specie ne hanno meno, ma la maggioranza ne ha otto.",
+    "fatto": "ragno otto occhi",
+    "fonte": "https://it.wikipedia.org/wiki/Araneae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0006",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Di che colore è la parte più calda di una fiamma?",
+    "risposte": [
+      "Azzurro",
+      "Rosso",
+      "Giallo",
+      "Arancione"
+    ],
+    "curiosita": "Il blu indica la combustione più completa e a temperatura più alta.",
+    "fatto": "fiamma parte piu calda azzurra",
+    "fonte": "https://it.wikipedia.org/wiki/Fiamma",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0007",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Qual è la bevanda più bevuta dopo l'acqua?",
+    "risposte": [
+      "Tè",
+      "Caffè",
+      "Birra",
+      "Latte"
+    ],
+    "curiosita": "Nasce in Cina, dove il tè si beve da millenni.",
+    "fatto": "bevanda piu bevuta dopo acqua te",
+    "fonte": "https://it.wikipedia.org/wiki/Tè",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0008",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale insetto si illumina al buio?",
+    "risposte": [
+      "Lucciola",
+      "Zanzara",
+      "Cicala",
+      "Formica"
+    ],
+    "curiosita": "Usa la luce per attirare i partner.",
+    "fatto": "lucciola luce",
+    "fonte": "https://it.wikipedia.org/wiki/Lampyridae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0009",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Il bambù è botanicamente un...",
+    "risposte": [
+      "Erba",
+      "Albero",
+      "Arbusto",
+      "Palma"
+    ],
+    "curiosita": "È la più alta delle erbe, ma resta una graminacea.",
+    "fatto": "bambu erba",
+    "fonte": "https://it.wikipedia.org/wiki/Bambù",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0010",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale insetto produce la cera per le candele?",
+    "risposte": [
+      "Ape",
+      "Vespa",
+      "Formica",
+      "Calabrone"
+    ],
+    "curiosita": "Le api la secernono da ghiandole sul ventre per costruire i favi.",
+    "fatto": "cera ape candele",
+    "fonte": "https://it.wikipedia.org/wiki/Cera_d'api",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0011",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quanto è grande un canguro appena nato?",
+    "risposte": [
+      "Come un fagiolo",
+      "Come un gatto",
+      "Come una mela",
+      "Come una mano"
+    ],
+    "curiosita": "Misura un paio di centimetri e si arrampica da solo nel marsupio.",
+    "fatto": "canguro neonato fagiolo",
+    "fonte": "https://it.wikipedia.org/wiki/Macropodidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0012",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale fiore ruota seguendo il Sole?",
+    "risposte": [
+      "Girasole",
+      "Rosa",
+      "Tulipano",
+      "Margherita"
+    ],
+    "curiosita": "Lo fa da giovane; da adulto resta rivolto a est.",
+    "fatto": "girasole segue sole",
+    "fonte": "https://it.wikipedia.org/wiki/Helianthus_annuus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0013",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale animale produce le perle?",
+    "risposte": [
+      "Ostrica",
+      "Granchio",
+      "Medusa",
+      "Polpo"
+    ],
+    "curiosita": "Nasce quando un corpo estraneo irrita il mollusco.",
+    "fatto": "ostrica perle",
+    "fonte": "https://it.wikipedia.org/wiki/Perla",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0014",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Come mangiavano i ricchi Romani ai banchetti?",
+    "risposte": [
+      "Sdraiati",
+      "In piedi",
+      "Seduti a terra",
+      "Su sgabelli"
+    ],
+    "curiosita": "Si stendevano sui triclini, appoggiati a un gomito.",
+    "fatto": "romani banchetto sdraiati",
+    "fonte": "https://it.wikipedia.org/wiki/Triclinio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0015",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Con che cosa si fa il tofu?",
+    "risposte": [
+      "Soia",
+      "Riso",
+      "Mais",
+      "Orzo"
+    ],
+    "curiosita": "Si ottiene coagulando il latte di soia, un po' come un formaggio.",
+    "fatto": "tofu soia",
+    "fonte": "https://it.wikipedia.org/wiki/Tofu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0016",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale lingua si parla in Brasile?",
+    "risposte": [
+      "Portoghese",
+      "Spagnolo",
+      "Brasiliano",
+      "Inglese"
+    ],
+    "curiosita": "Il Brasile è l'unico grande Paese sudamericano di lingua portoghese.",
+    "fatto": "lingua brasile portoghese",
+    "fonte": "https://it.wikipedia.org/wiki/Brasile",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0017",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Che cos'è il chicco di caffè?",
+    "risposte": [
+      "Un seme",
+      "Un frutto intero",
+      "Una radice",
+      "Una foglia secca"
+    ],
+    "curiosita": "Sta dentro una drupa rossa, la «ciliegia» di caffè.",
+    "fatto": "chicco di caffe seme",
+    "fonte": "https://it.wikipedia.org/wiki/Caffè",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0018",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Quale elemento si unisce al sodio nel sale da cucina?",
+    "risposte": [
+      "Cloro",
+      "Fluoro",
+      "Iodio",
+      "Zolfo"
+    ],
+    "curiosita": "Da soli sodio e cloro sono pericolosi: insieme formano un condimento.",
+    "fatto": "sale sodio cloro",
+    "fonte": "https://it.wikipedia.org/wiki/Cloruro_di_sodio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0019",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Con quale cereale si produce la birra?",
+    "risposte": [
+      "Orzo",
+      "Riso",
+      "Mais",
+      "Segale"
+    ],
+    "curiosita": "L'orzo viene maltato: si fa germogliare e poi si essicca.",
+    "fatto": "birra orzo malto",
+    "fonte": "https://it.wikipedia.org/wiki/Birra",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0020",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "domanda": "Da quale pianta si ricava il tè?",
+    "risposte": [
+      "Camelia",
+      "Menta",
+      "Rosa",
+      "Alloro"
+    ],
+    "curiosita": "Si usa la Camellia sinensis, parente di quelle da giardino.",
+    "fatto": "te pianta camelia",
+    "fonte": "https://it.wikipedia.org/wiki/Camellia_sinensis",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0021",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Chi scoprì per caso i raggi X, nel 1895?",
+    "risposte": [
+      "Röntgen",
+      "Marie Curie",
+      "Becquerel",
+      "Tesla"
+    ],
+    "curiosita": "Notò che uno schermo si illuminava anche lontano dal tubo.",
+    "fatto": "raggi x scoperta rontgen",
+    "fonte": "https://it.wikipedia.org/wiki/Wilhelm_Conrad_Röntgen",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0022",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Di quale origine era Cleopatra?",
+    "risposte": [
+      "Greca",
+      "Egizia",
+      "Romana",
+      "Fenicia"
+    ],
+    "curiosita": "Discendeva dai Tolomei, una dinastia macedone.",
+    "fatto": "cleopatra origine greca",
+    "fonte": "https://it.wikipedia.org/wiki/Cleopatra",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0023",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Da quale pianta si ricava l'aspirina?",
+    "risposte": [
+      "Salice",
+      "Quercia",
+      "Betulla",
+      "Pioppo"
+    ],
+    "curiosita": "L'acido salicilico fu isolato dalla corteccia del salice.",
+    "fatto": "aspirina salice",
+    "fonte": "https://it.wikipedia.org/wiki/Aspirina",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0024",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanto dura la gravidanza di un'elefantessa?",
+    "risposte": [
+      "Circa 22 mesi",
+      "Circa 9 mesi",
+      "Circa 12 mesi",
+      "Circa 3 anni"
+    ],
+    "curiosita": "È la gestazione più lunga fra i mammiferi terrestri.",
+    "fatto": "elefantessa gravidanza 22 mesi",
+    "fonte": "https://it.wikipedia.org/wiki/Elephantidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0025",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti tentacoli ha una seppia?",
+    "risposte": [
+      "Dieci",
+      "Otto",
+      "Sei",
+      "Dodici"
+    ],
+    "curiosita": "In realtà otto braccia e due tentacoli più lunghi.",
+    "fatto": "seppia dieci arti",
+    "fonte": "https://it.wikipedia.org/wiki/Sepiida",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0026",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale grande felino miagola invece di ruggire?",
+    "risposte": [
+      "Ghepardo",
+      "Leone",
+      "Tigre",
+      "Giaguaro"
+    ],
+    "curiosita": "Fa anche le fusa, come i gatti domestici.",
+    "fatto": "ghepardo miagola",
+    "fonte": "https://it.wikipedia.org/wiki/Acinonyx_jubatus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0027",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale insetto può vivere giorni senza testa?",
+    "risposte": [
+      "Scarafaggio",
+      "Zanzara",
+      "Libellula",
+      "Cavalletta"
+    ],
+    "curiosita": "Respira da fori sul corpo e ha un sistema nervoso diffuso.",
+    "fatto": "scarafaggio senza testa",
+    "fonte": "https://it.wikipedia.org/wiki/Blattodea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0028",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quale attrice brevettò un antenato del Wi-Fi?",
+    "risposte": [
+      "Hedy Lamarr",
+      "Greta Garbo",
+      "Audrey Hepburn",
+      "Rita Hayworth"
+    ],
+    "curiosita": "Ideò il salto di frequenza insieme al compositore George Antheil.",
+    "fatto": "hedy lamarr salto di frequenza",
+    "fonte": "https://it.wikipedia.org/wiki/Hedy_Lamarr",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0029",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Chi dei Queen è dottore in astrofisica?",
+    "risposte": [
+      "Brian May",
+      "Roger Taylor",
+      "John Deacon",
+      "Freddie Mercury"
+    ],
+    "curiosita": "Ha discusso la tesi nel 2007, dopo trentasei anni.",
+    "fatto": "brian may astrofisica",
+    "fonte": "https://it.wikipedia.org/wiki/Brian_May",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0030",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa produceva Lamborghini prima delle auto?",
+    "risposte": [
+      "Trattori",
+      "Moto",
+      "Aerei",
+      "Elettrodomestici"
+    ],
+    "curiosita": "Ferruccio Lamborghini iniziò riadattando mezzi militari.",
+    "fatto": "lamborghini prima trattori",
+    "fonte": "https://it.wikipedia.org/wiki/Lamborghini",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0031",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Che cosa vendeva da ragazzo il fondatore di IKEA?",
+    "risposte": [
+      "Fiammiferi",
+      "Mobili",
+      "Libri",
+      "Biciclette"
+    ],
+    "curiosita": "Ingvar Kamprad iniziò a cinque anni, in bicicletta, tra i vicini.",
+    "fatto": "ikea fondatore fiammiferi",
+    "fonte": "https://it.wikipedia.org/wiki/IKEA",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0032",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Chi vinse il Nobel per la Letteratura nel 2016?",
+    "risposte": [
+      "Bob Dylan",
+      "Leonard Cohen",
+      "Paul Simon",
+      "Joni Mitchell"
+    ],
+    "curiosita": "Fu premiato per aver creato nuove espressioni poetiche nella canzone americana.",
+    "fatto": "nobel letteratura 2016 dylan",
+    "fonte": "https://it.wikipedia.org/wiki/Bob_Dylan",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0033",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Con quale fiore è imparentata la fragola?",
+    "risposte": [
+      "Rosa",
+      "Giglio",
+      "Tulipano",
+      "Orchidea"
+    ],
+    "curiosita": "Fragole e rose appartengono alle Rosacee.",
+    "fatto": "fragola parente rosa",
+    "fonte": "https://it.wikipedia.org/wiki/Rosaceae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0034",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Con quali animali è più imparentato l'ippopotamo?",
+    "risposte": [
+      "Balene",
+      "Rinoceronti",
+      "Elefanti",
+      "Maiali"
+    ],
+    "curiosita": "I suoi parenti viventi più stretti sono i cetacei.",
+    "fatto": "ippopotamo parente balene",
+    "fonte": "https://it.wikipedia.org/wiki/Hippopotamus_amphibius",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0035",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti lati ha, di solito, un cristallo di neve?",
+    "risposte": [
+      "Sei",
+      "Otto",
+      "Quattro",
+      "Cinque"
+    ],
+    "curiosita": "La struttura delle molecole d'acqua impone la simmetria esagonale.",
+    "fatto": "cristallo neve sei lati",
+    "fonte": "https://it.wikipedia.org/wiki/Fiocco_di_neve",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0036",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Di che metallo è fatta la Statua della Libertà?",
+    "risposte": [
+      "Rame",
+      "Bronzo",
+      "Ferro",
+      "Ottone"
+    ],
+    "curiosita": "Il verde è l'ossidazione: all'inizio era color rame.",
+    "fatto": "statua liberta rame",
+    "fonte": "https://it.wikipedia.org/wiki/Statua_della_Libertà",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0037",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Quanti pianeti del sistema solare hanno gli anelli?",
+    "risposte": [
+      "Quattro",
+      "Uno",
+      "Due",
+      "Tre"
+    ],
+    "curiosita": "Giove, Saturno, Urano e Nettuno, ma solo quelli di Saturno sono famosi.",
+    "fatto": "pianeti con anelli",
+    "fonte": "https://it.wikipedia.org/wiki/Anello_planetario",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0038",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "In che anno Plutone perse lo status di pianeta?",
+    "risposte": [
+      "2006",
+      "1996",
+      "2016",
+      "1986"
+    ],
+    "curiosita": "L'Unione astronomica internazionale lo ridefinì «pianeta nano».",
+    "fatto": "plutone declassato 2006",
+    "fonte": "https://it.wikipedia.org/wiki/Plutone_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0039",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "A quale famiglia appartiene l'orca?",
+    "risposte": [
+      "Delfini",
+      "Balene",
+      "Squali",
+      "Foche"
+    ],
+    "curiosita": "È il più grande dei delfini, non una balena.",
+    "fatto": "orca famiglia delfini",
+    "fonte": "https://it.wikipedia.org/wiki/Orcinus_orca",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0040",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "domanda": "Su quale pianeta c'è una tempesta esagonale?",
+    "risposte": [
+      "Saturno",
+      "Giove",
+      "Marte",
+      "Venere"
+    ],
+    "curiosita": "L'esagono avvolge il polo nord di Saturno.",
+    "fatto": "saturno esagono polo",
+    "fonte": "https://it.wikipedia.org/wiki/Saturno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0041",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale animale microscopico sopravvive nello spazio?",
+    "risposte": [
+      "Tardigrado",
+      "Acaro",
+      "Planaria",
+      "Pulce d'acqua"
+    ],
+    "curiosita": "Entra in uno stato di quiete e resiste anche a forti radiazioni.",
+    "fatto": "tardigrado spazio",
+    "fonte": "https://it.wikipedia.org/wiki/Tardigrada",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0042",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanto dura circa un giorno su Giove?",
+    "risposte": [
+      "Circa 10 ore",
+      "Circa 24 ore",
+      "Circa 3 ore",
+      "Circa 40 ore"
+    ],
+    "curiosita": "Giove ruota così in fretta da risultare schiacciato ai poli.",
+    "fatto": "giorno su giove durata",
+    "fonte": "https://it.wikipedia.org/wiki/Giove_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0043",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Su quale luna di Saturno ci sono laghi di metano?",
+    "risposte": [
+      "Titano",
+      "Encelado",
+      "Rea",
+      "Mimas"
+    ],
+    "curiosita": "È l'unico satellite con una vera atmosfera densa.",
+    "fatto": "titano laghi metano",
+    "fonte": "https://it.wikipedia.org/wiki/Titano_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0044",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale luna di Giove ha molti vulcani attivi?",
+    "risposte": [
+      "Io",
+      "Europa",
+      "Ganimede",
+      "Callisto"
+    ],
+    "curiosita": "Le maree di Giove la scaldano dall'interno.",
+    "fatto": "io vulcani giove",
+    "fonte": "https://it.wikipedia.org/wiki/Io_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0045",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Chi usò per primo la parola «robot» a teatro, nel 1920?",
+    "risposte": [
+      "Karel Čapek",
+      "Isaac Asimov",
+      "Jules Verne",
+      "H. G. Wells"
+    ],
+    "curiosita": "La suggerì il fratello Josef, da «robota», lavoro forzato.",
+    "fatto": "parola robot capek",
+    "fonte": "https://it.wikipedia.org/wiki/Karel_Čapek",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0046",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale parola deriva il saluto «ciao»?",
+    "risposte": [
+      "Schiavo",
+      "Salvo",
+      "Saluto",
+      "Chiaro"
+    ],
+    "curiosita": "Dal veneto «s-ciào», cioè «sono vostro schiavo».",
+    "fatto": "ciao deriva da schiavo",
+    "fonte": "https://it.wikipedia.org/wiki/Ciao",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0047",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "A che età Mozart scrisse la sua prima sinfonia?",
+    "risposte": [
+      "Otto anni",
+      "Dodici anni",
+      "Sedici anni",
+      "Cinque anni"
+    ],
+    "curiosita": "La compose a Londra, durante una tournée con la famiglia.",
+    "fatto": "mozart prima sinfonia otto anni",
+    "fonte": "https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0048",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale sacerdote belga propose l'idea del Big Bang?",
+    "risposte": [
+      "Lemaître",
+      "Hubble",
+      "Hoyle",
+      "Einstein"
+    ],
+    "curiosita": "Fu un prete e un fisico: parlò di «atomo primitivo».",
+    "fatto": "lemaitre big bang prete",
+    "fonte": "https://it.wikipedia.org/wiki/Georges_Lemaître",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0049",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Chi scoprì la radioattività per caso, nel 1896?",
+    "risposte": [
+      "Becquerel",
+      "Marie Curie",
+      "Rutherford",
+      "Röntgen"
+    ],
+    "curiosita": "Notò che sali di uranio annerivano una lastra fotografica al buio.",
+    "fatto": "radioattivita becquerel",
+    "fonte": "https://it.wikipedia.org/wiki/Henri_Becquerel",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0050",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale scienziato inventò il termometro a mercurio?",
+    "risposte": [
+      "Fahrenheit",
+      "Celsius",
+      "Kelvin",
+      "Réaumur"
+    ],
+    "curiosita": "Lo realizzò nel 1714, prima di proporre la sua scala.",
+    "fatto": "termometro mercurio fahrenheit",
+    "fonte": "https://it.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0051",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Chi coniò il termine «cellula» nel 1665?",
+    "risposte": [
+      "Robert Hooke",
+      "Leeuwenhoek",
+      "Pasteur",
+      "Darwin"
+    ],
+    "curiosita": "Osservando il sughero al microscopio vide piccole celle, come in un convento.",
+    "fatto": "cellula hooke 1665",
+    "fonte": "https://it.wikipedia.org/wiki/Robert_Hooke",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0052",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Qual era il vero nome di Freddie Mercury?",
+    "risposte": [
+      "Farrokh Bulsara",
+      "Farid Sethna",
+      "Farhad Mehta",
+      "Feroz Daruwalla"
+    ],
+    "curiosita": "Nacque a Zanzibar da una famiglia parsi di origine indiana.",
+    "fatto": "freddie mercury vero nome",
+    "fonte": "https://it.wikipedia.org/wiki/Freddie_Mercury",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0053",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Da quale popolo derivano le nostre cifre da 0 a 9?",
+    "risposte": [
+      "Indiani",
+      "Arabi",
+      "Romani",
+      "Greci"
+    ],
+    "curiosita": "Le portarono in Europa gli Arabi: per questo si dicono «arabe».",
+    "fatto": "cifre indo arabe origine",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_di_numerazione_indo-arabo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0054",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale imperatore cinese ha un esercito di terracotta?",
+    "risposte": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Wu Zetian",
+      "Puyi"
+    ],
+    "curiosita": "Le statue, tutte diverse, sono migliaia: scoperte nel 1974.",
+    "fatto": "esercito terracotta imperatore",
+    "fonte": "https://it.wikipedia.org/wiki/Qin_Shi_Huang",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0055",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quante corde ha un'arpa da concerto?",
+    "risposte": [
+      "47",
+      "36",
+      "52",
+      "61"
+    ],
+    "curiosita": "Ha anche sette pedali che cambiano l'altezza delle note.",
+    "fatto": "arpa corde 47",
+    "fonte": "https://it.wikipedia.org/wiki/Arpa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0056",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quanti tasti neri ha un pianoforte?",
+    "risposte": [
+      "36",
+      "28",
+      "44",
+      "52"
+    ],
+    "curiosita": "Insieme ai 52 tasti bianchi fanno 88 tasti.",
+    "fatto": "pianoforte tasti neri",
+    "fonte": "https://it.wikipedia.org/wiki/Pianoforte",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0057",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Con quale legno si fanno i migliori archetti?",
+    "risposte": [
+      "Pernambuco",
+      "Ebano",
+      "Acero",
+      "Abete"
+    ],
+    "curiosita": "Viene dal Brasile ed è oggi una specie protetta.",
+    "fatto": "archetto pernambuco",
+    "fonte": "https://it.wikipedia.org/wiki/Violino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0058",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Quale lettera greca indica il rapporto aureo?",
+    "risposte": [
+      "Phi",
+      "Pi",
+      "Sigma",
+      "Omega"
+    ],
+    "curiosita": "Vale circa 1,618 e ricorre nell'arte e nella natura.",
+    "fatto": "rapporto aureo phi",
+    "fonte": "https://it.wikipedia.org/wiki/Sezione_aurea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0059",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "In quale città si consegna il Nobel per la pace?",
+    "risposte": [
+      "Oslo",
+      "Stoccolma",
+      "Ginevra",
+      "Copenaghen"
+    ],
+    "curiosita": "Gli altri premi Nobel si consegnano a Stoccolma.",
+    "fatto": "nobel pace oslo",
+    "fonte": "https://it.wikipedia.org/wiki/Premio_Nobel_per_la_pace",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "la-str-0060",
+    "tipo": "lampo",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "domanda": "Chi rifiutò il Nobel per la letteratura nel 1964?",
+    "risposte": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Henri Bergson",
+      "Bertrand Russell"
+    ],
+    "curiosita": "Disse di rifiutare ogni onorificenza ufficiale.",
+    "fatto": "sartre rifiuta nobel",
+    "fonte": "https://it.wikipedia.org/wiki/Jean-Paul_Sartre",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]
