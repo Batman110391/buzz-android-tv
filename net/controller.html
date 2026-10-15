@@ -68,6 +68,15 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .und{margin-top:10px;height:48px;border:4px solid var(--ink);border-bottom-width:8px;border-radius:24px;background:var(--cream);color:var(--ink);font:inherit;font-size:20px;cursor:pointer}
 .torta{margin:auto 0;flex:1;font-size:56px;background:var(--mag);color:var(--cream);text-shadow:0 4px 0 var(--ink)}
 .pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
+.tasti{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:12px;margin-top:14px}
+#cl{display:flex;flex-direction:column}
+.k{flex-direction:column;justify-content:center;gap:0;padding:0}
+.k .f,.k .f svg{width:110px;height:110px}
+.k .f i{font-size:52px}
+.k.on{outline:0;opacity:.35}
+.kc b{font-size:90px}
+.scr.rosso{background:#C4172E}
+#s-esito.good{background:#1FA64A}#s-esito.bad{background:#D62839}
 </style>
 </head>
 <body>
@@ -85,55 +94,45 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 
 <section class="scr" id="s-att">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
- <div class="mid"><div class="big d">Sei dentro!</div><div class="sub">Guarda la TV</div></div>
+ <div class="mid"><div class="big d">📺 Guarda la TV</div></div>
 </section>
 
 <section class="scr" id="s-q">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div><span class="tm d" id="tm"></span></div>
- <div class="bb d" id="bb">Tocca a te! 💣</div>
- <div class="q" id="qt"></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
  <div class="tasti" id="tasti"></div>
+ <div class="sub" id="sent" style="display:none;text-align:center;font-size:16px;margin-top:10px">Risposta inviata · 📺 Guarda la TV</div>
 </section>
 
 <section class="scr" id="s-ord">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div><span class="tm d"></span></div>
- <div class="q" id="ot"></div>
- <div class="crit d" id="oc"></div>
- <div class="tasti" id="otasti" style="margin-top:10px"></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
+ <div class="big d" id="oc" style="text-align:center;margin:14px 0 0;font-size:56px;letter-spacing:6px"></div>
+ <div class="tasti" id="otasti"></div>
  <button class="und d" id="oundo">ANNULLA ULTIMA</button>
 </section>
 
 <section class="scr" id="s-torta">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Torta in Faccia</small></div><span class="tm d"></span></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
  <button class="btn d torta" id="tbtn">LANCIA! 🥧</button>
 </section>
 
 <section class="scr" id="s-ruba">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Ruba Punti</small></div><span class="tm d"></span></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
  <div class="big d" style="font-size:36px;text-align:center;margin-top:12px">Ruba 300 punti!</div>
  <div class="vl" id="vl"></div>
 </section>
 
 <section class="scr" id="s-cat">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Categoria</small></div><span class="tm d"></span></div>
- <div class="big d" style="font-size:34px;text-align:center;margin:12px 0 10px">Scegli la categoria!</div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
  <div class="tasti" id="cl"></div>
 </section>
 
 <section class="scr" id="s-w">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="wq"></small></div><span class="tm d"></span></div>
- <div class="mid"><div class="big d" id="w1"></div><div class="sub" id="w2"></div></div>
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
+ <div class="mid"><div class="big d" id="w1"></div></div>
 </section>
 
 <section class="scr" id="s-esito">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
- <div class="mid"><div class="badge d" id="eb"></div><div class="pt d" id="ep"></div>
- <div class="sub" id="et"></div><div class="sub d" id="etx" style="color:var(--cream);font-size:24px"></div><div class="big d" id="epos"></div></div>
-</section>
-
-<section class="scr" id="s-fin">
- <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
- <div class="mid"><div class="sub">Partita finita! Sei</div><div class="big d" id="fpos"></div><div class="sub">Guarda la TV</div></div>
+ <div class="mid"><div class="big d" id="eb" style="font-size:200px;text-shadow:0 8px 0 var(--ink)"></div><div class="sub d" id="etx" style="color:var(--cream);font-size:22px"></div></div>
 </section>
 
 <section class="scr" id="s-rej">
@@ -186,77 +185,69 @@ $("grid").onclick = function(e){
  sel = b.dataset.id; buildGrid();
 };
 
+function kf(i){return '<span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span>'}
+function wait(t){ $("w1").textContent = t }
+var lastCall = "";
+function vib(p){ try{ if(navigator.vibrate) navigator.vibrate(p) }catch(e){} }
 function render(){
  if(!me){
   if(rej){ $("rmsg").textContent = rej; show("s-rej"); return }
   if(presi.indexOf(sel)>=0) sel = "";
   buildGrid(); $("jerr").textContent = err; $("code").style.display = urlCode?"none":"block"; show("s-join"); return;
  }
- var f = st ? st.fase : "lobby", id;
+ var f = st ? st.fase : "lobby", id, call = "";
  if(f==="domanda"){
   var done = st.scelta>=0; id = "s-q";
-  $("qt").textContent = st.domanda||"";
-  document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
-  var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot, conto = st.gioco==="conto";
-  $("bb").style.display = mia||conto?"block":"none"; $("bb").textContent = conto?"Conto alla rovescia: −50 punti al secondo!":"Tocca a te! 💣";
-  if(bomba && !mia){
-   id = "s-w"; $("w1").textContent = (st.bomba_nome||"Qualcuno")+" ha la bomba!"; $("w2").textContent = "💣 Guarda la TV";
-   document.querySelector("#s-w .wq").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
-  }
+  var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot;
+  if(bomba && !mia){ id = "s-w"; wait("💣 "+(st.bomba_nome||"Qualcuno")+" ha la bomba") }
   if(st.gioco==="ordine"){
    id = "s-ord"; if(oq!==st.q){ oq = st.q; oseq = [] }
    var lock = (st.scelta||[]).length===4, sq = lock?st.scelta:oseq;
-   $("ot").textContent = st.domanda||""; $("oc").textContent = st.criterio||"";
-   document.querySelector("#s-ord .qn").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
+   $("oc").textContent = [0,1,2,3].map(function(n){return n<sq.length?"ABCD".charAt(sq[n]):"_"}).join(" ");
    $("oundo").style.display = lock?"none":"";
-   $("otasti").innerHTML = (st.risposte||[]).map(function(r,i){
-    var n = sq.indexOf(i);
-    return '<button class="k'+(n>=0?" on":"")+'" data-i="'+i+'"'+(lock?" disabled":"")+'><span class="kn d">'+(n>=0?n+1:"")+'</span><span>'+esc(r)+'</span></button>';
+   $("otasti").innerHTML = [0,1,2,3].map(function(i){
+    return '<button class="k'+(sq.indexOf(i)>=0?" on":"")+'" data-i="'+i+'"'+(lock?" disabled":"")+'>'+kf(i)+'</button>';
    }).join("");
   }
-  if(id==="s-q") $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
-   return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'><span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span><span>'+esc(r)+'</span></button>';
-  }).join("");
+  if(id==="s-q"){
+   $("tasti").innerHTML = [0,1,2,3].map(function(i){
+    return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'>'+kf(i)+'</button>';
+   }).join("");
+   $("sent").style.display = done?"block":"none";
+   $("s-q").classList.toggle("rosso", mia && !done);
+   if(mia && !done) call = "b"+st.q;
+  }
  } else if(f==="ruba"){
   if(st.puo && rub!==st.q){
-   id = "s-ruba";
+   id = "s-ruba"; call = "r"+st.q;
    $("vl").innerHTML = (st.vittime||[]).filter(function(v){return v.slot!==me.slot}).map(function(v){
     return '<button class="v" data-s="'+v.slot+'"><span class="a" style="--c:'+esc(v.color||"#fff")+'">'+(SVG[v.avatar]||"")+'</span><b class="d">'+esc(v.name)+'</b><span class="d">'+esc(v.punti)+'</span></button>';
    }).join("");
   } else {
-   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Ruba Punti";
-   if(st.puo){ $("w1").textContent = "Bersaglio scelto!"; $("w2").textContent = "Guarda la TV" }
-   else { $("w1").textContent = "Qualcuno sta rubando…"; $("w2").textContent = "Guarda la TV" }
+   id = "s-w"; wait("📺 Guarda la TV");
   }
  } else if(f==="categoria"){
   if(st.puo && catr!==st.r){
-   id = "s-cat";
+   id = "s-cat"; call = "c"+st.r;
    $("cl").innerHTML = (st.opzioni||[]).map(function(o,i){
-    return '<button class="k kc d" data-i="'+i+'"><b>'+esc(o.icona||"")+'</b><span>'+esc(o.nome)+'</span></button>';
+    return '<button class="k kc d" data-i="'+i+'"><b>'+esc(o.icona||"")+'</b></button>';
    }).join("");
   } else {
-   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Categoria";
-   if(st.puo){ $("w1").textContent = "Hai scelto: "+catn; $("w2").textContent = "Guarda la TV" }
-   else { $("w1").textContent = (st.chi_nome||"Qualcuno")+" sta scegliendo la categoria…"; $("w2").textContent = "Guarda la TV" }
+   id = "s-w"; wait("📺 Guarda la TV");
   }
  } else if(f==="torta"){
-  if(st.puo){ id = "s-torta" }
+  if(st.puo){ id = "s-torta"; call = "t"+st.q }
   else {
-   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Torta in Faccia";
-   if(st.chi===me.slot){ $("w1").textContent = "Torta lanciata! 🥧"; $("w2").textContent = "Guarda la TV" }
-   else { $("w1").textContent = (st.chi_nome||"Qualcuno")+" sta per lanciare una torta!"; $("w2").textContent = "🥧 Guarda la TV" }
+   id = "s-w"; wait("📺 Guarda la TV");
   }
  } else if(f==="rivela" && res){
-  id = "s-esito";
-  $("eb").textContent = res.giusta?"GIUSTA!":"SBAGLIATA"; $("eb").className = "badge d "+(res.giusta?"ok":"ko");
-  $("ep").textContent = (res.punti>=0?"+":"")+res.punti;
-  $("etx").textContent = res.testo||"";
-  $("et").textContent = "Totale: "+res.totale+" punti"; $("epos").textContent = res.posizione+"° posto";
- } else if(f==="finale"){
-  id = "s-fin";
-  $("fpos").textContent = res ? res.posizione+"° posto" : "in classifica";
+  id = "s-esito"; $("eb").textContent = res.giusta?"✓":"✗"; $("etx").textContent = res.testo||"";
+  $("s-esito").className = "scr "+(res.giusta?"good":"bad"); call = "e"+(res.giusta?1:0)+"_"+res.totale;
+ } else if(f==="finale"){ id = "s-att";
  } else id = "s-att";
  head($(id)); show(id); tick();
+ if(call && call!==lastCall) vib(call.charAt(0)==="e"?(res.giusta?[200]:[150,100,150]):[300,100,300]);
+ lastCall = call;
 }
 function tick(){
  if(!st||(st.fase!=="domanda"&&st.fase!=="ruba"&&st.fase!=="categoria"&&st.fase!=="torta")) return;
@@ -330,10 +321,10 @@ if(demo){
  presi = ["nonna","gatto"]; sel = "chef";
  if(demo==="codice"){ urlCode = ""; }
  else if(demo==="attesa"){ me = D; st = {t:"state",fase:"lobby"} }
- else if(demo==="1m"){ me = D; st = Q }
- else if(demo==="1n"){ me = D; st = Object.assign({},Q,{scelta:1}) }
+ else if(demo==="1m"||demo==="domanda"){ me = D; st = Q }
+ else if(demo==="1n"||demo==="domanda_inviata"){ me = D; st = Object.assign({},Q,{scelta:1}) }
  else if(demo==="bomba_mia"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:0}) }
- else if(demo==="bomba_altro"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:2,bomba_nome:"Ugo"}) }
+ else if(demo==="bomba_altri"||demo==="bomba_altro"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:2,bomba_nome:"Ugo"}) }
  else if(demo==="ruba"||demo==="ruba_attesa"){ me = D; fine = Date.now()+8000;
   st = {t:"state",fase:"ruba",q:2,punti:300,tempo:8,puo:demo==="ruba",vittime:[
    {slot:0,name:"Gastone",color:"#F2384A",avatar:"chef",punti:2350},{slot:1,name:"Nonna Pina",color:"#2F7BFF",avatar:"nonna",punti:3100},
@@ -348,7 +339,8 @@ if(demo){
   st = {t:"state",fase:"torta",q:2,tempo:5,chi:demo==="torta"?0:3,chi_nome:"Brioche",puo:demo==="torta"} }
  else if(demo==="conto"){ me = D; st = Object.assign({},Q,{gioco:"conto"}) }
  else if(demo==="esito_testo"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2,testo:"Hai rubato 300 punti a Ugo!"} }
- else if(demo==="esito"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
+ else if(demo==="esito"||demo==="esito_ok"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
+ else if(demo==="esito_ko"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:false,punti:-100,totale:2250,posizione:3} }
  else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }
  else if(demo==="reject"){ rej = REJ.pieno }
  render();

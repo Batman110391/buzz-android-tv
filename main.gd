@@ -11,8 +11,8 @@ const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude s
 		"regola": "I punti scendono da 1000 a zero: rispondi giusto e prendi quelli che restano!"},
 	{"id": "bomba", "titolo": "Passa la Bomba", "icona": "💣", "tipo": "lampo", "breve": "Non farla esplodere in mano.",
 		"regola": "Rispondi giusto per passare la bomba. Se ti esplode in mano perdi 500 punti!"},
-	{"id": "ruba", "titolo": "Ruba Punti", "icona": "🦝", "tipo": "classica", "breve": "Sfila i punti agli altri.",
-		"regola": "Chi risponde giusto ruba 300 punti a un avversario a scelta!"},
+	{"id": "ruba", "titolo": "Ruba Punti", "icona": "🦝", "tipo": "classica", "breve": "Il più rapido sfila i punti.",
+		"regola": "Il primo che risponde giusto ruba 300 punti a un avversario a scelta!"},
 	{"id": "torta", "titolo": "Torta in Faccia", "icona": "🥧", "tipo": "classica", "breve": "Il più veloce lancia la torta.",
 		"regola": "Giusta vale 500 punti. Il primo che indovina lancia una torta: chi la prende perde 300 punti!"},
 	{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
@@ -770,7 +770,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		Sfx.play("applause")
 	await get_tree().create_timer(1.8, false).timeout
 	if gioco == "ruba" and not giusti.is_empty():
-		await _fase_ruba(giusti)
+		await _fase_ruba([_game.ordine_giusti()[0]["pid"]])  # ruba solo il primo che ha indovinato
 		punteggi = _punti.duplicate()
 	elif gioco == "torta" and _game.lanciatore() >= 0:
 		await _fase_torta()
@@ -807,7 +807,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	_game.advance()  # -> domanda successiva oppure FINAL (game_over -> _fine_round)
 
 
-## Ruba Punti: chi ha indovinato sceglie una vittima sul telefono; i bot e chi non sceglie in tempo
+## Ruba Punti: il primo che ha indovinato sceglie una vittima sul telefono; i bot e chi non sceglie in tempo
 ## rubano al primo in classifica tra gli altri.
 func _fase_ruba(giusti: Array) -> void:
 	_fase = "ruba"
