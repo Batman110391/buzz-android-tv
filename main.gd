@@ -283,8 +283,13 @@ func _vai_scelta() -> void:
 	if _demo:
 		await get_tree().create_timer(1.5, false).timeout
 		var tutti: Array[String] = []
+		var solo := ""  # `-- --demo --giochi torta,conto`: solo quei giochi (per le catture)
+		var args := OS.get_cmdline_user_args()
+		if "--giochi" in args and args.find("--giochi") + 1 < args.size():
+			solo = args[args.find("--giochi") + 1]
 		for d: Dictionary in GIOCHI:
-			tutti.append(d["id"])
+			if solo == "" or d["id"] in solo.split(","):
+				tutti.append(d["id"])
 		_scelti(tutti)
 
 
@@ -318,8 +323,9 @@ func _vai_round() -> void:
 	_server.invia_stato({"fase": "attesa"})
 	_fase = "round"
 	_lobby.visible = false
-	await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
-	await _presenta_giocatori()
+	if not "--giochi" in OS.get_cmdline_user_args():  # nelle catture si va dritti ai giochi
+		await _commenta(_pesca("intro"), "saluto", FUMETTO_BASSO, false)
+		await _presenta_giocatori()
 	_inizia_partita()
 	_r = 0
 	_prossimo_round()
