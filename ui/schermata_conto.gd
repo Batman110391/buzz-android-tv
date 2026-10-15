@@ -118,6 +118,7 @@ func set_tempo(left: float, total: float) -> void:
 
 func set_punti(pid: int, punti: int) -> void:
 	_punti[pid] = maxi(punti, 0)
+	_scala = minf(_scala, ALTEZZA / maxf(punti, 1.0))  # con il +300 si può superare il massimo iniziale
 	_barre.queue_redraw()
 
 

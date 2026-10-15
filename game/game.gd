@@ -7,6 +7,7 @@ const RUBA_PUNTI := 300
 const TORTA_PUNTI := 300
 const ORDINE_PUNTI := 125
 const CONTO_AL_SEC := 50
+const CONTO_BONUS := 300  # conto: chi indovina prende anche questi (S 2026-10-15: rimonte possibili, nessuno a zero per forza)
 enum Phase { MENU, INTRO, QUESTION, REVEAL, SCOREBOARD, FINAL }
 
 signal phase_changed(phase: Phase)
@@ -170,7 +171,7 @@ func tick(delta: float) -> void:
 				"accumula", "torta": p = POINTS_CORRECT
 				"dito": p = int(_presi.get(i, 0))
 		if _modo == "conto":
-			p = -mini(_perdita_conto(i, ok), _scores[i])
+			p = -mini(_perdita_conto(i, ok), _scores[i]) + (CONTO_BONUS if ok else 0)
 		_presi[i] = p
 		_scores[i] += p
 	_set_phase(Phase.REVEAL)

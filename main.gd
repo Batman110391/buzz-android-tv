@@ -18,7 +18,7 @@ const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude s
 	{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
 		"regola": "Tocca le 4 voci nell'ordine giusto: 125 punti per ogni voce al posto giusto!"},
 	{"id": "conto", "titolo": "Conto alla Rovescia", "icona": "⏳", "tipo": "classica", "breve": "Il gran finale.", "fisso": true,
-		"regola": "I tuoi punti scendono di 50 al secondo finché non rispondi. Se sbagli perdi tutti i 15 secondi!"},
+		"regola": "I punti scendono di 50 al secondo finché non rispondi. Giusta: +300! Sbagliata: perdi tutti i 15 secondi."},
 ]
 const RUBA_TEMPO := 10.0
 const TORTA_TEMPO := 6.0

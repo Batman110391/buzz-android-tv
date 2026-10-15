@@ -80,12 +80,12 @@ func _process(dt: float) -> void:
 func _draw() -> void:
 	if not _pos.is_empty() and not _vola:
 		var c := _pos[_idx]
-		var r := 70.0 + (4.0 * sin(_t * 20.0) if _mira else 0.0)
-		draw_arc(c, r, 0, TAU, 48, INK, 14.0, true)
-		draw_arc(c, r, 0, TAU, 48, MAGENTA, 6.0, true)
+		var r := 95.0 + (6.0 * sin(_t * 20.0) if _mira else 0.0)
+		draw_arc(c, r, 0, TAU, 48, INK, 22.0, true)
+		draw_arc(c, r, 0, TAU, 48, GOLD, 11.0, true)
 		for d in [Vector2.UP, Vector2.DOWN, Vector2.LEFT, Vector2.RIGHT]:
-			draw_line(c + d * (r - 26.0), c + d * (r + 18.0), INK, 16.0)
-			draw_line(c + d * (r - 24.0), c + d * (r + 16.0), MAGENTA, 6.0)
+			draw_line(c + d * (r - 34.0), c + d * (r + 26.0), INK, 24.0)
+			draw_line(c + d * (r - 31.0), c + d * (r + 23.0), GOLD, 11.0)
 	if _vola:
 		var p := _da.lerp(_a, _k) + Vector2(0, -260.0 * 4.0 * _k * (1.0 - _k))
 		disegna(self, p, 54.0, _k * TAU * 2.0)
