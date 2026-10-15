@@ -94,6 +94,7 @@ func mostra_domanda(n: int, tot: int, testo: String, risposte: Array) -> void:
 	_tab.size = Vector2(w, 60)
 	_tab_lbl.size.x = w - 12.0
 	_domanda.text = testo
+	Risposta.adatta(_domanda, 52)
 	for i in 4:
 		_carte[i].reset()
 		_carte[i]._testo.text = risposte[i]

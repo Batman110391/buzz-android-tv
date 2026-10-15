@@ -38,6 +38,7 @@ func mostra(prima: Array, dopo: Array) -> void:
 		val_dopo[dopo[i]["pid"]] = dopo[i]["punti"]
 	for i in prima.size():
 		var d: Dictionary = prima[i]
+		massimo = maxi(massimo, d["punti"])  # se qualcuno è sceso, la sua barra partiva oltre lo schermo
 		var n := Control.new()
 		n.size = Vector2(1920, 80)
 		add_child(n)

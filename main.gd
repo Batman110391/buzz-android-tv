@@ -15,10 +15,11 @@ const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude s
 		"regola": "Il primo che risponde giusto ruba 300 punti a un avversario a scelta!"},
 	{"id": "torta", "titolo": "Torta in Faccia", "icona": "🥧", "tipo": "classica", "breve": "Il più veloce lancia la torta.",
 		"regola": "Giusta vale 500 punti. Il primo che indovina lancia una torta: chi la prende perde 300 punti!"},
-	{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
-		"regola": "Tocca le 4 voci nell'ordine giusto: 125 punti per ogni voce al posto giusto!"},
+	# Metti in Ordine sospeso (S 2026-10-15: "per ora no"); per riattivarlo togliere il commento
+	#{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
+		#"regola": "Tocca le 4 voci nell'ordine giusto: 125 punti per ogni voce al posto giusto!"},
 	{"id": "conto", "titolo": "Conto alla Rovescia", "icona": "⏳", "tipo": "classica", "breve": "Il gran finale.", "fisso": true,
-		"regola": "I punti scendono di 50 al secondo finché non rispondi. Giusta: +300! Sbagliata: perdi tutti i 15 secondi."},
+		"regola": "Perdi 50 punti al secondo finché non rispondi. Giusta: +300!"},
 ]
 const RUBA_TEMPO := 10.0
 const TORTA_TEMPO := 6.0
@@ -61,7 +62,9 @@ var _r := 0  # round in corso (indice in _giochi)
 var _punti := {}  # pid -> punti totali della partita
 var _punti_prima := {}  # punti all'inizio del round in corso (per la classifica intermedia)
 var _cat := ""  # categoria del round in corso
-var _cat_scelta := -1  # indice scelto dal fanalino di coda
+var _cat_scelta := -1  # indice scelto da chi sceglie la categoria
+var _sceglie := -1  # pid di chi sceglie la categoria del round in corso
+var _hanno_scelto: Array = []  # pid che hanno già scelto una categoria in questa partita
 var _classifica_ui: SchermataClassifica
 var _categoria_ui: SchermataCategoria
 var _ruba_da: Array = []  # Ruba Punti: chi ha indovinato e non ha ancora rubato
@@ -141,7 +144,7 @@ func _ready() -> void:
 		if _pid_di.has(slot) and q == _i:
 			_risponde(_pid_di[slot], scelta))
 	_server.categoria_scelta.connect(func(slot: int, r: int, scelta: int) -> void:
-		if _fase == "categoria" and r == _r and _pid_di.get(slot, -1) == _ultimo(_punti):
+		if _fase == "categoria" and r == _r and _pid_di.get(slot, -1) == _sceglie:
 			_cat_scelta = scelta)
 	_server.stole.connect(func(slot: int, q: int, vittima: int) -> void:
 		if _fase == "ruba" and _pid_di.has(slot) and q == _i:
@@ -399,6 +402,7 @@ func _inizia_partita() -> void:
 		_s.podio(i).metti_personaggio(p)
 		_pers.append(p)
 	_capo = -1
+	_hanno_scelto.clear()
 
 
 func _gioco() -> Dictionary:
@@ -424,10 +428,7 @@ func _prossimo_round() -> void:
 	_fase = "round"
 	_s.visible = false
 	_server.invia_stato({"fase": "attesa"})
-	if _r == 0:  # al primo round non c'è ancora un ultimo: categoria a caso
-		_cat = _categorie_per(gi).pick_random()
-	else:
-		await _intermezzo(gi)
+	await _intermezzo(gi)
 	_fase = "round"
 	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"] + "\n%s %s" % [CATEGORIE[_cat][1], CATEGORIE[_cat][0]], gi["icona"])
 	await get_tree().create_timer(0.6, false).timeout
@@ -477,29 +478,39 @@ func _categorie_per(gi: Dictionary) -> Array:
 	return ok
 
 
-## Tra un round e l'altro: classifica intermedia, poi il fanalino di coda sceglie la categoria (telefono, 10 s;
-## bot o tempo scaduto -> a caso).
+## Prima di ogni round: classifica intermedia (dal 2° round), poi un giocatore sceglie la categoria (telefono, 10 s;
+## bot o tempo scaduto -> a caso). Chi sceglie (S 2026-10-15): round 1 e 2 uno a caso tra chi non ha ancora scelto,
+## dal 3° il fanalino di coda.
 func _intermezzo(gi: Dictionary) -> void:
 	_fase = "intermezzo"
 	Sfx.music("intermezzo")
-	_classifica_ui.visible = true
-	_classifica_ui.mostra(_righe(_punti_prima), _righe(_punti))
-	await _commenta(_pesca("classifica"), "annuncio", FUMETTO_BASSO)
-	_classifica_ui.nascondi()
+	if _r > 0:
+		_classifica_ui.visible = true
+		_classifica_ui.mostra(_righe(_punti_prima), _righe(_punti))
+		await _commenta(_pesca("classifica"), "annuncio", FUMETTO_BASSO)
+		_classifica_ui.nascondi()
 	var ult := _ultimo(_punti)
+	var titolo := ""
+	if _r < 2:
+		var liberi := range(_n).filter(func(p: int) -> bool: return not _hanno_scelto.has(p))
+		ult = liberi.pick_random() if not liberi.is_empty() else randi() % _n
+		titolo = "%s, scegli tu la categoria!" % _g[ult]["nome"]
+	_sceglie = ult
+	_hanno_scelto.append(ult)
 	var cats := _categorie_per(gi)
 	cats.shuffle()
 	var opz: Array = []
 	for c: String in cats.slice(0, 3):
 		opz.append({"id": c, "nome": CATEGORIE[c][0], "icona": CATEGORIE[c][1]})
 	_categoria_ui.visible = true
-	_categoria_ui.mostra(_g[ult]["nome"], _g[ult]["colore"], _g[ult]["id"], opz)
+	_categoria_ui.mostra(_g[ult]["nome"], _g[ult]["colore"], _g[ult]["id"], opz, titolo)
 	_cat_scelta = -1
 	_t = 0.0
 	_fase = "categoria"
 	_server.invia_stato({"fase": "categoria", "r": _r, "tempo": CAT_TEMPO, "opzioni": opz, "chi": _g[ult]["slot"],
 			"chi_nome": _g[ult]["nome"], "puo": [_g[ult]["slot"]] if _pid_di.values().has(ult) else []})
-	_dici(_pesca("fanalino"), "annuncio", FUMETTO_BASSO)
+	if titolo == "":  # battute solo per il fanalino; per la scelta a caso servono battute nuove di Gilda
+		_dici(_pesca("fanalino"), "annuncio", FUMETTO_BASSO)
 	var bot := _demo or not _pid_di.values().has(ult)
 	var quando := randf_range(2.0, 4.0)
 	while _cat_scelta < 0 and _t < CAT_TEMPO:

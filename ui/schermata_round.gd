@@ -52,6 +52,7 @@ func mostra(n: int, tot: int, titolo: String, regola: String, icona: String) -> 
 	_pill.text = "ROUND %d DI %d" % [n, tot]
 	_titolo.text = titolo
 	_regola.text = regola
+	Risposta.adatta(_regola, 44)
 	_icona.text = icona
 	_carta.scale = Vector2.ZERO
 	visible = true

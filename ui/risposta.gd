@@ -30,6 +30,15 @@ static func font_testo() -> Font:
 	return _ft
 
 
+## Rimpicciolisce il font (da `da` a `minimo`) finché il testo, andando a capo, sta nell'altezza della label.
+static func adatta(l: Label, da: int, minimo := 28) -> void:
+	var f := l.get_theme_font("font")
+	var s := da
+	while s > minimo and f.get_multiline_string_size(l.text, HORIZONTAL_ALIGNMENT_LEFT, l.size.x, s).y > l.size.y:
+		s -= 2
+	l.add_theme_font_size_override("font_size", s)
+
+
 static func etichetta(testo: String, font: Font, dim: int, col: Color, w: float, h: float, allinea := HORIZONTAL_ALIGNMENT_CENTER) -> Label:
 	var l := Label.new()
 	l.text = testo
