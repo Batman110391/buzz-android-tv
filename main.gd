@@ -62,13 +62,15 @@ var _cond: Array[Personaggio] = []  # 0 = Tony (entra da sinistra), 1 = Gilda (e
 var _fumetti: Array[PanelContainer] = []  # uno per conduttore
 var _testi: Dictionary
 var _sottotitoli := true  # fumetti con le battute dei conduttori; si cambia dal titolo, salvato in user://
-var _domande := Domande.new()
+# static: sopravvivono al ricaricamento della scena quando si esce dalla pausa (i telefoni restano collegati)
+static var _domande: Domande
 var _game: Game
 var _n := 0  # giocatori in partita (= _g.size())
 var _g: Array[Dictionary] = []  # giocatori in partita, per pid: {nome, id, colore, slot, bot}
-var _bot := {}  # slot della lobby -> personaggio dei bot (restano tra una partita e l'altra)
+static var _bot := {}  # slot della lobby -> personaggio dei bot (restano tra una partita e l'altra)
 var _pid_di := {}  # slot -> pid dei telefoni in partita
-var _server: Node
+static var _server: Node
+var _pausa_ui: SchermataPausa
 var _pers: Array[Personaggio] = []
 var _q: Dictionary
 var _i := 0  # indice della domanda in corso
@@ -78,9 +80,9 @@ var _scelte := {}  # pid -> risposta
 var _hurry := false
 var _ult_sec := 0  # ultimo secondo del timer che ha fatto tic
 # battute di Tony e Gilda: ogni situazione è un mazzo (nessuna frase torna finché non sono uscite tutte) + pause tra i commenti
-var _mazzi := {}  # prefisso -> chiavi ancora da pescare
-var _ultima := {}  # prefisso -> ultima chiave uscita
-var _presentati := {}  # personaggi già presentati da Tony in questa sessione
+static var _mazzi := {}  # prefisso -> chiavi ancora da pescare
+static var _ultima := {}  # prefisso -> ultima chiave uscita
+static var _presentati := {}  # personaggi già presentati da Tony in questa sessione
 var _salta := false  # OK durante le presentazioni
 var _ult_commento := -9  # domanda dell'ultimo commento dopo la rivelazione
 var _ult_buzz := -9
@@ -110,8 +112,15 @@ func _ready() -> void:
 	_bomba_ui.visible = false
 	_s.add_child(_bomba_ui)
 	_round.position.y = -70.0  # lascia spazio al fumetto di Tony sotto la carta
-	_server = preload("res://net/server.gd").new()
-	add_child(_server)
+	if _server == null:
+		_server = preload("res://net/server.gd").new()
+		_server.process_mode = Node.PROCESS_MODE_ALWAYS  # i telefoni restano collegati anche in pausa
+		get_tree().root.add_child.call_deferred(_server)
+		_domande = Domande.new()
+		_domande.carica()
+	_pausa_ui = SchermataPausa.new()
+	_pausa_ui.scelto.connect(_fine_pausa)
+	add_child(_pausa_ui)
 	_server.joined.connect(_tel_entra)
 	_server.left.connect(_tel_esce)
 	_server.answered.connect(func(slot: int, q: int, scelta: int) -> void:
@@ -143,7 +152,6 @@ func _ready() -> void:
 		for k: String in lines:
 			if ResourceLoader.exists("res://assets/voice/%s.mp3" % k):  # solo le battute già generate
 				_testi[k] = re.sub(str(lines[k]), "", true)
-	_domande.carica()
 	_mostra_titolo()
 
 
@@ -159,7 +167,7 @@ func _mostra_titolo() -> void:
 	if _demo and _fase == "titolo":
 		_vai_lobby()
 	for _volta in 2:  # poi i conduttori richiamano l'attenzione al massimo due volte, con calma, e tacciono
-		await get_tree().create_timer(28.0).timeout
+		await get_tree().create_timer(28.0, false).timeout
 		if _fase != "titolo":
 			return
 		if not _parla:
@@ -186,9 +194,9 @@ func _vai_lobby() -> void:
 	_server.invia_stato({"fase": "lobby"})
 	if _demo:
 		for _k in 5:
-			await get_tree().create_timer(0.5).timeout
+			await get_tree().create_timer(0.5, false).timeout
 			_cambia_giocatori(1)
-		await get_tree().create_timer(1.0).timeout
+		await get_tree().create_timer(1.0, false).timeout
 		_vai_scelta()
 
 
@@ -253,7 +261,7 @@ func _vai_scelta() -> void:
 	_scelta.visible = true
 	_scelta.mostra(g)
 	if _demo:
-		await get_tree().create_timer(1.5).timeout
+		await get_tree().create_timer(1.5, false).timeout
 		var tutti: Array[String] = []
 		for d: Dictionary in GIOCHI:
 			tutti.append(d["id"])
@@ -396,7 +404,7 @@ func _prossimo_round() -> void:
 		await _intermezzo(gi)
 	_fase = "round"
 	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"] + "\n%s %s" % [CATEGORIE[_cat][1], CATEGORIE[_cat][0]], gi["icona"])
-	await get_tree().create_timer(0.6).timeout
+	await get_tree().create_timer(0.6, false).timeout
 	var k: String
 	if _r == 0 and gi["id"] == "accumula":
 		k = ["round_1", "gilda_round_1"].pick_random()
@@ -471,7 +479,7 @@ func _intermezzo(gi: Dictionary) -> void:
 	_cat = opz[_cat_scelta]["id"]
 	_categoria_ui.scegli(_cat_scelta)
 	Sfx.play("pop")
-	await get_tree().create_timer(1.5).timeout
+	await get_tree().create_timer(1.5, false).timeout
 	while _parla:
 		await get_tree().process_frame
 	_nascondi_fumetti()
@@ -555,7 +563,7 @@ func _b_esplosa(pid: int, punti: Dictionary) -> void:
 	for slot in _pid_di:
 		if _pid_di[slot] == pid:
 			_server.invia_esito(slot, {"giusta": false, "punti": -persi, "totale": punti[pid], "posizione": _posizione(pid), "testo": "BOOM! −%d" % persi})
-	await get_tree().create_timer(3.0).timeout
+	await get_tree().create_timer(3.0, false).timeout
 	_bomba.advance()  # bomba successiva (-> _b_domanda) oppure fine round (-> _fine_round)
 	if _fase == "bomba":
 		_bomba_ui.nuova()
@@ -660,7 +668,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	var ultimo_round := _r == _giochi.size() - 1
 	if _i == DOMANDE - 1 and ultimo_round:  # ultima domanda della partita: rullo di tamburi prima della rivelazione
 		Sfx.play("drumroll")
-		await get_tree().create_timer(2.0).timeout
+		await get_tree().create_timer(2.0, false).timeout
 	_s.rivela(corretta, _scelte, punti)
 	var gioco: String = _gioco()["id"]
 	if gioco == "dito":  # al posto di "+740": ordine di arrivo e tempo
@@ -680,7 +688,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		Sfx.play("aww")
 	elif giusti.size() == _n:
 		Sfx.play("applause")
-	await get_tree().create_timer(1.8).timeout
+	await get_tree().create_timer(1.8, false).timeout
 	if gioco == "ruba" and not giusti.is_empty():
 		await _fase_ruba(giusti)
 		punteggi = _punti.duplicate()
@@ -708,7 +716,7 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 		elif randf() < 0.4:
 			k = _pesca("someright")
 	if k == "":
-		await get_tree().create_timer(1.2).timeout
+		await get_tree().create_timer(1.2, false).timeout
 	else:
 		_ult_commento = _i
 		await _commenta(k, g, FUMETTO_DOMANDA)
@@ -734,7 +742,7 @@ func _fase_ruba(giusti: Array) -> void:
 		if giusti.has(_pid_di[slot]):
 			puo.append(slot)
 	_server.invia_stato({"fase": "ruba", "q": _i, "punti": Game.RUBA_PUNTI, "tempo": RUBA_TEMPO, "vittime": vittime, "puo": puo})
-	await get_tree().create_timer(1.5).timeout
+	await get_tree().create_timer(1.5, false).timeout
 	for pid in giusti:  # i bot rubano subito
 		if _g[pid]["bot"] or _demo or not _pid_di.values().has(pid):
 			_furto(pid, _game.vittima_predefinita(pid))
@@ -742,7 +750,7 @@ func _fase_ruba(giusti: Array) -> void:
 		await get_tree().process_frame
 	for pid in _ruba_da.duplicate():
 		_furto(pid, _game.vittima_predefinita(pid))
-	await get_tree().create_timer(1.5).timeout
+	await get_tree().create_timer(1.5, false).timeout
 	_s.nascondi_ruba()
 	_server.invia_stato({"fase": "rivela"})
 	_fase = "rivela"
@@ -804,14 +812,14 @@ func _fine(classifica: Array) -> void:
 	_finale.mostra(c)
 	_server.invia_stato({"fase": "finale"})
 	Sfx.play("rise")
-	await get_tree().create_timer(2.5).timeout
+	await get_tree().create_timer(2.5, false).timeout
 	Sfx.play("applause")
 	await _commenta(_pesca("final"), "annuncio", FUMETTO_FINALE, false)
 	var pari: bool = classifica.size() > 1 and classifica[0]["score"] == classifica[1]["score"]
 	await _commenta(_pesca("tie" if pari else "win_" + _g[classifica[0]["id"]]["id"]), "esulta", FUMETTO_FINALE, false)
 	await _commenta(_pesca("outro"), "saluto", FUMETTO_FINALE)
 	if _demo:
-		await get_tree().create_timer(2.0).timeout
+		await get_tree().create_timer(2.0, false).timeout
 		_torna_al_titolo()
 
 
@@ -820,7 +828,7 @@ func _torna_al_titolo() -> void:
 		return
 	_fase = "transizione"
 	_finale.nascondi()
-	await get_tree().create_timer(0.4).timeout
+	await get_tree().create_timer(0.4, false).timeout
 	_mostra_titolo()
 
 
@@ -862,6 +870,21 @@ func _input(e: InputEvent) -> void:
 		"finale":
 			if ok:
 				_torna_al_titolo()
+		"round", "intermezzo", "categoria", "domanda", "rivela", "ruba", "bomba", "esplosione":
+			if ok:
+				get_tree().paused = true
+				_server.pausa()
+				_pausa_ui.mostra()
+
+
+## Fine della pausa: riprende, oppure torna al titolo ricaricando la scena (server, bot e mazzi delle battute restano: sono static).
+func _fine_pausa(esci: bool) -> void:
+	get_tree().paused = false
+	if not esci:
+		_server.riprendi()
+		return
+	Sfx.duck(false)
+	get_tree().reload_current_scene()
 
 
 func _tasto(e: InputEvent, k: Key) -> bool:
@@ -900,7 +923,7 @@ func _nascondi_fumetti() -> void:
 func _commenta(k: String, g: String, pos_fumetto: Vector2, esce := true) -> void:
 	await _dici(k, g, pos_fumetto)
 	if esce:
-		await get_tree().create_timer(0.5).timeout
+		await get_tree().create_timer(0.5, false).timeout
 		_nascondi_fumetti()
 		await _esci()
 

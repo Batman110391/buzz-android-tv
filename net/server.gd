@@ -36,6 +36,7 @@ var _bot := {}  # slot -> avatar
 var _aperta := false
 var _state := {}
 var _t_stato := 0  # ms di quando è arrivato _state: "tempo" si accorcia per chi lo riceve dopo
+var _sospeso := {}  # stato messo da parte dalla pausa
 var _risposte := {}  # slot -> {q, choice}
 var _rubato := {}  # slot -> q in cui ha già rubato
 var _scelto := {}  # slot -> r in cui ha già scelto la categoria
@@ -105,6 +106,20 @@ func invia_stato(d: Dictionary) -> void:
 	_state.merge(d, true)
 	_state["t"] = "state"
 	_t_stato = Time.get_ticks_msec()
+	for c in _conns:
+		if c.slot >= 0:
+			_send(c, _msg_state(c.slot))
+
+
+## Pausa: i telefoni aspettano (e non possono rispondere); riprendi() rimanda lo stato di prima, col tempo fermo durante la pausa.
+func pausa() -> void:
+	_sospeso = {"state": _state, "t": _t_stato, "da": Time.get_ticks_msec()}
+	invia_stato({"fase": "attesa"})
+
+
+func riprendi() -> void:
+	_state = _sospeso.state
+	_t_stato = _sospeso.t + Time.get_ticks_msec() - _sospeso.da
 	for c in _conns:
 		if c.slot >= 0:
 			_send(c, _msg_state(c.slot))
