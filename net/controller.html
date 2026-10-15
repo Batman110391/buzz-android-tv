@@ -77,6 +77,8 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .kc b{font-size:90px}
 .scr.rosso{background:#C4172E}
 #s-esito.good{background:#1FA64A}#s-esito.bad{background:#D62839}
+@keyframes lampo{0%,50%{filter:brightness(1.9)}25%,75%,100%{filter:none}}
+body.lampo{animation:lampo .6s}
 </style>
 </head>
 <body>
@@ -189,6 +191,19 @@ function kf(i){return '<span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'
 function wait(t){ $("w1").textContent = t }
 var lastCall = "";
 function vib(p){ try{ if(navigator.vibrate) navigator.vibrate(p) }catch(e){} }
+// iPhone: niente vibrazione dalle pagine web -> "ding" + lampo quando tocca a te. L'audio si sblocca al primo tocco.
+var actx = null;
+document.addEventListener("pointerdown", function(){ try{
+ if(navigator.audioSession) navigator.audioSession.type = "playback"; // Safari: suona anche col tasto silenzioso
+ if(!actx){ var A = window.AudioContext || window.webkitAudioContext; if(A) actx = new A() }
+ if(actx && actx.state === "suspended") actx.resume();
+}catch(e){} }, true);
+function ding(){ try{ if(!actx) return; var t = actx.currentTime;
+ [880, 1320].forEach(function(fr, i){ var o = actx.createOscillator(), g = actx.createGain(), t0 = t + i*0.12;
+  o.frequency.value = fr; o.connect(g); g.connect(actx.destination);
+  g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.4, t0+0.01); g.gain.exponentialRampToValueAtTime(0.0001, t0+0.25);
+  o.start(t0); o.stop(t0+0.3) }) }catch(e){} }
+function lampo(){ document.body.classList.remove("lampo"); void document.body.offsetWidth; document.body.classList.add("lampo") }
 function render(){
  if(!me){
   if(rej){ $("rmsg").textContent = rej; show("s-rej"); return }
@@ -247,6 +262,7 @@ function render(){
  } else id = "s-att";
  head($(id)); show(id); tick();
  if(call && call!==lastCall) vib(call.charAt(0)==="e"?(res.giusta?[200]:[150,100,150]):[300,100,300]);
+ if(call && call!==lastCall && call.charAt(0)!=="e"){ ding(); lampo() } // tocca a te
  lastCall = call;
 }
 function tick(){
