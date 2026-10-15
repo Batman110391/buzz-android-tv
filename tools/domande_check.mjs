@@ -92,12 +92,15 @@ export function controlla(dir) {
       inc(conteggi.categoria, f.categoria); inc(conteggi.tipo, f.tipo); inc(conteggi.difficolta, q.difficolta);
       if (ids.has(q.id)) err(q.id, `[id-doppio] già in ${ids.get(q.id)}`); else ids.set(q.id, f.file);
       if (isStr(q.fatto)) { const k = norm(q.fatto); if (fatti.has(k)) err(q.id, `[fatto-doppio] come ${fatti.get(k)}`); else fatti.set(k, q.id); }
-      const t = norm(q.domanda ?? q.criterio ?? "");
+      const t = norm(testoChiave(q));
       if (t) { if (testi.has(t)) err(q.id, `[testo-doppio] come ${testi.get(t)}`); else testi.set(t, q.id); }
     }
   }
   return { errori, conteggi };
 }
+
+// testo per i doppioni: in "ordine" il criterio si ripete per natura, contano anche le voci
+export const testoChiave = (q) => q.domanda ?? [q.criterio ?? "", ...(Array.isArray(q.elementi) ? q.elementi : [])].join(" ");
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const { errori, conteggi } = controlla(process.argv[2] ?? "domande");

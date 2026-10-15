@@ -21,7 +21,14 @@ for (let i = 0; i < titoli.length; i += 50) {
   if (i) await sleep(5500);
   const blocco = titoli.slice(i, i + 50);
   const url = 'https://it.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=' + encodeURIComponent(blocco.join('|'));
-  const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(15000) });
+  let res;
+  for (let tentativo = 0; tentativo < 4; tentativo++) { // 429 = limite temporaneo: aspetta (Retry-After o 60 s) e riprova
+    res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(15000) });
+    if (res.status !== 429 || tentativo === 3) break;
+    const attesa = Math.min(Number(res.headers.get('retry-after')) || 60, 300);
+    console.error(`429 al blocco ${i / 50 + 1}: riprovo tra ${attesa} s`);
+    await sleep(attesa * 1000);
+  }
   let j;
   try { if (res.status !== 200) throw 0; j = await res.json(); } catch { console.error('STOP: risposta', res.status, 'non valida'); process.exit(2); }
   const norm = new Map((j.query.normalized ?? []).map((n) => [n.from, n.to]));

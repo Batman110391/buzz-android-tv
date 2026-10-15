@@ -1,21 +1,23 @@
 // Banco di prova dei prompt di generazione/verifica domande (PLAN.md §4).
 // Mock (default):  QUIZZONE_MOCK=1 node tools/prompt_test.mjs
 // Reale:           node --env-file=.env tools/prompt_test.mjs --n 8   (con QUIZZONE_MOCK=0 nel .env)
+// --solo-genera:    solo (c) con le regole meccaniche, senza verificatore (non consuma la quota OpenRouter)
 import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
-import { carica, controlla, norm } from "./domande_check.mjs";
+import { carica, controlla, norm, testoChiave } from "./domande_check.mjs";
 
 const qui = (p) => fileURLToPath(new URL(p, import.meta.url));
 const leggi = (p) => readFileSync(qui(p), "utf8");
 const MOCK = process.env.QUIZZONE_MOCK !== "0";
+const SOLO = process.argv.includes("--solo-genera");
 const ia = process.argv.indexOf("--n");
 const N = ia > 0 ? Number(process.argv[ia + 1]) : MOCK ? 40 : 8;
 const TIMEOUT_MS = 90_000;
 const PREF = { classica: "cl", lampo: "la", ordine: "or" };
 const COMBO = [["classica", "natura", 2], ["lampo", "cucina", 1], ["ordine", "scienza", 2]];
-const PER_COMBO = Math.max(1, Math.round(N / 10));
+const PER_COMBO = Math.max(3, Math.round(N / 10)); // con 1 per tipo una sola bocciatura fa fallire la soglia
 
 // PRNG con seme: il mock è riproducibile
 let seme = 20261014;
@@ -25,7 +27,7 @@ const mescola = (a) => { const r = [...a]; for (let i = r.length - 1; i > 0; i--
 // ---------- dotazione ----------
 const dotazione = carica("domande").flatMap((f) => JSON.parse(readFileSync(f.path, "utf8")));
 const fattiEsistenti = new Set(dotazione.map((q) => norm(q.fatto)));
-const testiEsistenti = new Set(dotazione.map((q) => norm(q.domanda ?? q.criterio)));
+const testiEsistenti = new Set(dotazione.map((q) => norm(testoChiave(q))));
 
 // ---------- IA reali ----------
 async function http(nome, url, opts) {
@@ -38,18 +40,22 @@ const jsonDa = (testo) => { const m = String(testo).match(/\{[\s\S]*\}/); if (!m
 const richiedi = (v) => { if (!process.env[v]) throw new Error(`manca ${v} (node --env-file=.env ... e QUIZZONE_MOCK=0)`); return process.env[v]; };
 
 const S = (type, extra = {}) => ({ type, ...extra });
+// limiti nello schema (Gemini li accetta): le lunghezze a parole nel prompt da sole non bastano
+const LIM = { classica: [75, 22], lampo: [45, 14], ordine: [40, 18, 12] }; // ~85% dei limiti veri: Gemini li sfora di qualche carattere
 function schemaGemini(tipo) {
-  const testo = S("STRING"), lista = S("ARRAY", { items: testo });
-  const props = { tipo: testo, categoria: testo, difficolta: S("INTEGER"), curiosita: testo, fatto: testo, fonte: testo };
+  const testo = S("STRING"), max = (n) => S("STRING", { maxLength: n }), lista = (n) => S("ARRAY", { minItems: 4, maxItems: 4, items: max(n) });
+  const [l1, l2, l3] = LIM[tipo];
+  const props = { tipo: testo, categoria: testo, difficolta: S("INTEGER"), curiosita: max(95), fatto: testo,
+    fonte: S("STRING", { pattern: "^https://it\\.wikipedia\\.org/wiki/[^ ]+$" }) };
   const req = ["tipo", "categoria", "difficolta", "curiosita", "fatto", "fonte"];
-  if (tipo === "ordine") { Object.assign(props, { criterio: testo, elementi: lista, valori: lista }); req.push("criterio", "elementi", "valori"); }
-  else { Object.assign(props, { domanda: testo, risposte: lista }); req.push("domanda", "risposte"); }
+  if (tipo === "ordine") { Object.assign(props, { criterio: max(l1), elementi: lista(l2), valori: lista(l3) }); req.push("criterio", "elementi", "valori"); }
+  else { Object.assign(props, { domanda: max(l1), risposte: lista(l2) }); req.push("domanda", "risposte"); }
   return S("OBJECT", { properties: { domande: S("ARRAY", { items: S("OBJECT", { properties: props, required: req }) }) }, required: ["domande"] });
 }
 const FORMATO = {
-  classica: "`domanda` (max 90 caratteri), `risposte`: 4 stringhe (max 26 caratteri ciascuna), la giusta per prima.",
-  lampo: "Domanda che si capisce in 2 secondi: `domanda` max 55 caratteri, `risposte`: 4 stringhe max 16 caratteri, la giusta per prima.",
-  ordine: "`criterio` (max 50 caratteri, es. \"Eventi, dal più antico al più recente\"), `elementi`: 4 stringhe max 22 caratteri GIÀ nell'ordine giusto, `valori`: 4 stringhe max 14 caratteri (il dato per ciascun elemento, nello stesso ordine).",
+  classica: "`domanda` (max 75 caratteri), `risposte`: 4 stringhe (max 22 caratteri ciascuna), la giusta per prima.",
+  lampo: "Domanda che si capisce in 2 secondi: `domanda` max 45 caratteri, `risposte`: 4 stringhe max 14 caratteri, la giusta per prima.",
+  ordine: "`criterio` (max 40 caratteri, es. \"Dal più antico al più recente\"), `elementi`: 4 stringhe max 18 caratteri GIÀ nell'ordine giusto, `valori`: 4 stringhe max 12 caratteri (il dato per ciascun elemento, nello stesso ordine).",
 };
 
 async function generaReale(tipo, cat, diff, n) {
@@ -123,6 +129,7 @@ async function valuta(items) {
     for (const q of completi) {
       const mecc = errori.filter((e) => e.includes(` ${q.id}:`));
       if (mecc.length) { esiti.push({ q, ok: false, schema: mecc.length, motivo: "regole: " + mecc[0].split("]")[1]?.trim() }); continue; }
+      if (SOLO) { esiti.push({ q, ok: true, schema: 0 }); continue; }
       const p = presenta(q);
       const v = MOCK ? verificaMock(q, p) : await verificaReale(q, p);
       const corretta = q.tipo === "ordine" ? JSON.stringify(v.ordine) === JSON.stringify([0, 1, 2, 3].map((k) => p.perm.indexOf(k))) : v.scelta === p.perm.indexOf(0);
@@ -141,6 +148,7 @@ const righe = [], falliti = [];
 const mostraScarti = (titolo, esiti) => esiti.filter((e) => !e.ok).forEach((e) => console.log(`  ${titolo} scartata: ${e.q.id ?? e.q.fatto} (${e.motivo})${e.dett ?? ""}`));
 
 try {
+  if (!SOLO) {
   const buoni = mescola(dotazione).slice(0, N);
   const eA = await valuta(buoni);
   const a = pct(eA.filter((e) => e.ok).length, eA.length);
@@ -154,12 +162,15 @@ try {
   eB.filter((e) => e.ok).forEach((e) => console.log(`  (b) sfuggita: ${e.q.id} [${e.q._difetto}]`));
   righe.push(`(b) rotte scartate:    ${b}% (${eB.filter((e) => !e.ok).length}/${eB.length})  soglia >= 90`); if (b < 90) falliti.push("b");
 
+  }
   const prodotte = [];
   for (const [tipo, cat, diff] of COMBO) for (const q of await (MOCK ? generaMock : generaReale)(tipo, cat, diff, PER_COMBO)) prodotte.push({ ...q, tipo, categoria: cat, difficolta: diff });
   const eC = await valuta(prodotte);
   const c = pct(eC.filter((e) => e.ok).length, eC.length);
   const schema = eC.reduce((s, e) => s + e.schema, 0);
-  const doppioni = prodotte.filter((q) => fattiEsistenti.has(norm(q.fatto ?? "")) || testiEsistenti.has(norm(q.domanda ?? q.criterio ?? ""))).length;
+  const dop = prodotte.filter((q) => fattiEsistenti.has(norm(q.fatto ?? "")) || testiEsistenti.has(norm(testoChiave(q))));
+  dop.forEach((q) => console.log(`  (c) doppione: ${q.fatto} | ${q.domanda ?? q.criterio}`));
+  const doppioni = dop.length;
   mostraScarti("(c)", eC);
   righe.push(`(c) generate accettate: ${c}% (${eC.filter((e) => e.ok).length}/${eC.length})  soglia >= 70`);
   righe.push(`    errori di schema:  ${schema}  soglia 0`, `    doppioni:          ${doppioni}  soglia 0`);
