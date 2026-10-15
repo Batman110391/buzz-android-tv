@@ -1,0 +1,25 @@
+[
+  {
+    "id": "in-geo-0001",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "categoria_indizi": "Città",
+    "indizi": [
+      "Si trova in Europa",
+      "Sorge sulla Senna",
+      "Ha una torre di ferro famosissima"
+    ],
+    "risposte": [
+      "Parigi",
+      "Londra",
+      "Vienna",
+      "Berlino"
+    ],
+    "curiosita": "La torre fu costruita per l'Expo del 1889.",
+    "fatto": "indizi parigi torre",
+    "fonte": "https://it.wikipedia.org/wiki/Parigi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "in-sto-0001",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Visse in Italia, duemila anni fa",
+      "Fu dittatore e conquistò la Gallia",
+      "Attraversò il Rubicone e morì alle Idi di marzo"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Fu pugnalato in Senato da una congiura.",
+    "fatto": "giulio cesare indizi",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

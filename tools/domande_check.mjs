@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const CATEGORIE = ["geografia","storia","scienza","natura","cinema_tv","musica","sport","cucina","arte_letteratura","lingua","tecnologia","costume","videogiochi","mitologia","citazioni","strano_ma_vero","corpo_umano","tradizioni"];
-const PREFISSI = { classica: "cl", lampo: "la", ordine: "or", foto: "fo" };
+const PREFISSI = { classica: "cl", lampo: "la", ordine: "or", foto: "fo", indizi: "in" };
 const LIM = { classica: { domanda: 90, risposta: 26 }, lampo: { domanda: 55, risposta: 16 } };
 const SENZA_ACCENTO = /\b(perche|poiche|cioe|piu|gia|puo|citta)\b/i;
 
@@ -27,7 +27,7 @@ export function carica(dir) {
 
 function valida(q, tipo, cat, err) {
   const e = (codice, m) => err(q.id ?? "?", `[${codice}] ${m}`);
-  if (!isStr(q.id) || !/^(cl|la|or|fo)-[a-z0-9]{3}-\d{4}$/.test(q.id)) e("schema", "id non nel formato <cl|la|or|fo>-<cat3>-<NNNN>");
+  if (!isStr(q.id) || !/^(cl|la|or|fo|in)-[a-z0-9]{3}-\d{4}$/.test(q.id)) e("schema", "id non nel formato <cl|la|or|fo|in>-<cat3>-<NNNN>");
   else if (!q.id.startsWith(PREFISSI[tipo] + "-") || q.id.slice(3, 6) !== cat.slice(0, 3)) e("schema", `id incoerente con tipo/categoria (${tipo}/${cat})`);
   if (q.tipo !== tipo) e("schema", `tipo "${q.tipo}" diverso dalla cartella "${tipo}"`);
   if (q.categoria !== cat) e("schema", `categoria "${q.categoria}" diversa dal file "${cat}"`);
@@ -63,6 +63,27 @@ function valida(q, tipo, cat, err) {
     if (!v || v.length !== 4 || !v.every(isStr)) e("schema", "valori deve avere esattamente 4 valori");
     else v.forEach((x) => { if (x.trim().length > 14) e("lunghezza", `valore "${x}" > 14`); });
     testi.push(q.criterio ?? "", ...(Array.isArray(q.elementi) ? q.elementi : []));
+  } else if (tipo === "indizi") {
+    if (!isStr(q.categoria_indizi)) e("schema", "categoria_indizi mancante");
+    else if (q.categoria_indizi.trim().length > 30) e("lunghezza", `categoria_indizi ${q.categoria_indizi.trim().length} > 30`);
+    const okI = Array.isArray(q.indizi) && q.indizi.length === 3 && q.indizi.every(isStr);
+    if (!okI) e("schema", "indizi deve avere esattamente 3 stringhe");
+    else {
+      testi.push(...q.indizi);
+      q.indizi.forEach((x) => { if (x.trim().length > 70) e("lunghezza", `indizio "${x}" ${x.trim().length} > 70`); if (/\bnon\b/i.test(x)) e("regola", `negazione nell'indizio "${x}"`); });
+    }
+    if (!arr4(q.risposte)) e("schema", "risposte deve avere esattamente 4 stringhe");
+    else {
+      testi.push(...q.risposte);
+      q.risposte.forEach((r) => { if (r.trim().length > 26) e("lunghezza", `risposta "${r}" ${r.trim().length} > 26`); });
+      if (new Set(q.risposte.map(norm)).size < 4) e("regola", "risposte duplicate");
+      if (okI) {
+        // la giusta (prima) non deve comparire negli indizi, né intera né con una parola di >= 4 lettere
+        const ind = norm(q.indizi.join(" ")), giusta = norm(q.risposte[0]);
+        if (ind.includes(giusta)) e("regola", `la risposta "${q.risposte[0]}" compare negli indizi`);
+        else for (const w of giusta.split(" ").filter((w) => w.length >= 4)) if (ind.split(" ").includes(w)) e("regola", `parola "${w}" della risposta compare negli indizi`);
+      }
+    }
   } else if (tipo === "foto") {
     // ponytail: lunghezze foto in G3
     if (!isStr(q.immagine) || !isStr(q.autore) || !isStr(q.pagina) || !arr4(q.risposte)) e("schema", "foto: servono immagine, autore, pagina, risposte[4]");
@@ -100,7 +121,7 @@ export function controlla(dir) {
 }
 
 // testo per i doppioni: in "ordine" il criterio si ripete per natura, contano anche le voci
-export const testoChiave = (q) => q.domanda ?? [q.criterio ?? "", ...(Array.isArray(q.elementi) ? q.elementi : [])].join(" ");
+export const testoChiave = (q) => q.domanda ?? (q.indizi ? [q.categoria_indizi ?? "", ...(Array.isArray(q.indizi) ? q.indizi : [])].join(" ") : [q.criterio ?? "", ...(Array.isArray(q.elementi) ? q.elementi : [])].join(" "));
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const { errori, conteggi } = controlla(process.argv[2] ?? "domande");

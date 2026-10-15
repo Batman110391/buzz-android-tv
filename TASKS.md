@@ -68,6 +68,7 @@ Design come in G1 (screenshot di `design/Quizzone Design System.dc.html`).
 | G3n3 | `ui/schermata_duello.gd`: due squadre, indizi che compaiono, premio che scende, 4 risposte, chi risponde | W | G3n2 | `ui/schermata_duello.gd`, `tests/test_duello_ui.*` | cattura | done |
 | G3n4 | Telefono + server: fase `duello` (risponde solo il membro di turno, gli altri "Consigliate <nome>!") | W | — | `net/*`, `tests/test_server.gd` | test PASS + screenshot | todo |
 | G3n5 | `main`: Duello a metà partita se primo − ultimo ≥ 1500 e ≥ 3 giocatori | P | G3n1–4 | `main.*` | demo + prova S | todo |
+| G3p | **Idea di S (2026-10-15): gioco del disegno a squadre.** A turno una squadra sceglie un membro; sul suo telefono appare la parola da disegnare (es. "uccello"); lui disegna sul telefono e il disegno si vede **in diretta in TV**; i compagni guardano la TV e provano a indovinare a voce. 30 s in tutto. Se indovinano prima, il disegnatore preme "Hanno indovinato"; a tempo scaduto sceglie "Hanno indovinato" / "Non hanno indovinato". Poi tocca a un membro dell'altra squadra, e così via finché hanno disegnato tutti. "Va pensato bene" (S): da progettare prima di scrivere i task | P + S | G3n5 | — | — | todo |
 | G3f6 | La risposta più vicina (tipo `stima`) con **scommessa sulle stime altrui** (S) · round a **squadre** da 3 giocatori in su (S) · "scommetti sull'amico" (S: sì, da definire) | — | G3n5 | — | — | todo |
 
 ## D — Domande dal server (PLAN.md §4 "Domande": leggere SOLO quella sezione)

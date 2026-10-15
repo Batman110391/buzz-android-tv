@@ -1,0 +1,70 @@
+[
+  {
+    "id": "in-sto-0002",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Visse in Italia, duemila anni fa",
+      "Fu dittatore e conquistò la Gallia",
+      "Il suo nome è Giulio Cesare, noto a tutti"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Fu pugnalato in Senato da una congiura.",
+    "fatto": "rotto uno",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0003",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Visse in Italia, duemila anni fa",
+      "Fu dittatore e conquistò la Gallia"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Fu pugnalato in Senato da una congiura.",
+    "fatto": "rotto due",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0004",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Visse in Italia, duemila anni fa",
+      "Fu dittatore e non conquistò mai la Gallia",
+      "Attraversò il Rubicone e morì alle Idi di marzo"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Giulio Cesare",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Fu pugnalato in Senato da una congiura.",
+    "fatto": "rotto tre",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]
