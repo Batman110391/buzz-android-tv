@@ -19,6 +19,9 @@ var _icona: Control
 var _icona_stato := ""
 var _badge: Panel
 var _tween_hop: Tween
+var _torte := 0
+var _torte_ctl: Control
+var _splat_ctl: Control
 
 
 func _init() -> void:
@@ -81,6 +84,63 @@ func setup(nome: String, col: Color, numero: int, p: int) -> void:
 	_badge.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_badge.visible = false
 	_cont.add_child(_badge)
+	_torte_ctl = Control.new()
+	_torte_ctl.position = Vector2(0, 204)
+	_torte_ctl.size = Vector2(240, 40)
+	_torte_ctl.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_torte_ctl.draw.connect(_disegna_torte)
+	_cont.add_child(_torte_ctl)
+	_splat_ctl = Control.new()
+	_splat_ctl.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_splat_ctl.draw.connect(_disegna_splat)
+	_splat_ctl.visible = false
+	_cont.add_child(_splat_ctl)
+
+
+## Icone dei colpi subiti: fino a 3, oltre "×N".
+func set_torte(n: int) -> void:
+	_torte = n
+	_torte_ctl.queue_redraw()
+
+
+## Torta sul volto per ~2 s + espressione arrabbiata, poi torna normale.
+func splat() -> void:
+	_splat_ctl.visible = true
+	_splat_ctl.pivot_offset = Vector2(120, 100)
+	_splat_ctl.scale = Vector2.ZERO
+	create_tween().tween_property(_splat_ctl, "scale", Vector2.ONE, 0.15).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	if _personaggio != null and _personaggio.has_method("espressione"):
+		_personaggio.espressione("arrabbiato")
+	await get_tree().create_timer(2.0).timeout
+	_splat_ctl.visible = false
+	set_stato(_stato)
+
+
+func _disegna_torte() -> void:
+	if _torte <= 0:
+		return
+	var f := Risposta.font_display()
+	var m := mini(_torte, 3)
+	var x0 := 120.0 - (m * 36.0 + (46.0 if _torte > 3 else 0.0)) / 2.0 + 18.0
+	for i in m:
+		TortaUI.disegna(_torte_ctl, Vector2(x0 + i * 36.0, 20), 16.0)
+	if _torte > 3:
+		_torte_ctl.draw_string(f, Vector2(x0 + m * 36.0 - 6.0, 32), "×%d" % _torte, HORIZONTAL_ALIGNMENT_LEFT, 60, 28, INK)
+
+
+func _disegna_splat() -> void:
+	var c := Vector2(120, 100)
+	for d in [Vector2(-50, 40), Vector2(0, 62), Vector2(48, 44)]:
+		_splat_ctl.draw_line(c + d * 0.6, c + d * 1.3, INK, 26.0)
+		_splat_ctl.draw_line(c + d * 0.6, c + d * 1.3, CREAM, 14.0)
+	_splat_ctl.draw_circle(c, 72, INK)
+	_splat_ctl.draw_circle(c, 64, CREAM)
+	for i in 7:
+		var a := i * TAU / 7.0 + 0.3
+		_splat_ctl.draw_circle(c + Vector2.from_angle(a) * 66, 18, INK)
+		_splat_ctl.draw_circle(c + Vector2.from_angle(a) * 66, 12, CREAM)
+	_splat_ctl.draw_circle(c + Vector2(-14, -10), 14, Color("FF3DA8"))
+	_splat_ctl.draw_circle(c + Vector2(-14, -10), 8, Color.WHITE)
 
 
 func _aggiorna_punti(p: int) -> void:

@@ -61,6 +61,12 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
 .v b{flex:1;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .kc{font-size:30px;justify-content:center;gap:14px}
 .kc b{font-size:48px;font-weight:400;line-height:1}
+.kn{flex:none;width:46px;height:46px;border-radius:50%;background:var(--ink);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:26px}
+.k.on .kn{background:var(--pc);color:var(--ink)}
+.k.on{outline:5px solid var(--pc);outline-offset:-1px}
+.crit{margin:10px 0 0;text-align:center;color:var(--gold);font-size:20px;line-height:1.1}
+.und{margin-top:10px;height:48px;border:4px solid var(--ink);border-bottom-width:8px;border-radius:24px;background:var(--cream);color:var(--ink);font:inherit;font-size:20px;cursor:pointer}
+.torta{margin:auto 0;flex:1;font-size:56px;background:var(--mag);color:var(--cream);text-shadow:0 4px 0 var(--ink)}
 .pt{font-size:56px;color:var(--gold);text-shadow:0 4px 0 var(--ink)}
 </style>
 </head>
@@ -87,6 +93,19 @@ input{width:100%;margin-top:12px;height:50px;border:4px solid var(--ink);border-
  <div class="bb d" id="bb">Tocca a te! 💣</div>
  <div class="q" id="qt"></div>
  <div class="tasti" id="tasti"></div>
+</section>
+
+<section class="scr" id="s-ord">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="qn"></small></div><span class="tm d"></span></div>
+ <div class="q" id="ot"></div>
+ <div class="crit d" id="oc"></div>
+ <div class="tasti" id="otasti" style="margin-top:10px"></div>
+ <button class="und d" id="oundo">ANNULLA ULTIMA</button>
+</section>
+
+<section class="scr" id="s-torta">
+ <div class="hd"><span class="av"></span><div><b class="d nm"></b><small>Torta in Faccia</small></div><span class="tm d"></span></div>
+ <button class="btn d torta" id="tbtn">LANCIA! 🥧</button>
 </section>
 
 <section class="scr" id="s-ruba">
@@ -140,6 +159,7 @@ var urlCode = (P.get("c")||"").toUpperCase();
 var code = urlCode || ls.get("qz_code");
 var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
 var rub = -1;  // q in cui ho già scelto la vittima
+var oseq = [], oq = -1;  // sequenza in costruzione per Metti in Ordine, e la q a cui appartiene
 var catr = -1, catn = "";  // round in cui ho già scelto la categoria, e il suo nome
 var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
 
@@ -177,11 +197,22 @@ function render(){
   var done = st.scelta>=0; id = "s-q";
   $("qt").textContent = st.domanda||"";
   document.querySelector("#s-q .qn").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
-  var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot;
-  $("bb").style.display = mia?"block":"none";
+  var bomba = st.gioco==="bomba", mia = bomba && st.bomba===me.slot, conto = st.gioco==="conto";
+  $("bb").style.display = mia||conto?"block":"none"; $("bb").textContent = conto?"Conto alla rovescia: −50 punti al secondo!":"Tocca a te! 💣";
   if(bomba && !mia){
    id = "s-w"; $("w1").textContent = (st.bomba_nome||"Qualcuno")+" ha la bomba!"; $("w2").textContent = "💣 Guarda la TV";
    document.querySelector("#s-w .wq").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
+  }
+  if(st.gioco==="ordine"){
+   id = "s-ord"; if(oq!==st.q){ oq = st.q; oseq = [] }
+   var lock = (st.scelta||[]).length===4, sq = lock?st.scelta:oseq;
+   $("ot").textContent = st.domanda||""; $("oc").textContent = st.criterio||"";
+   document.querySelector("#s-ord .qn").textContent = "Domanda "+(st.q+1)+(st.tot>0?" di "+st.tot:"");
+   $("oundo").style.display = lock?"none":"";
+   $("otasti").innerHTML = (st.risposte||[]).map(function(r,i){
+    var n = sq.indexOf(i);
+    return '<button class="k'+(n>=0?" on":"")+'" data-i="'+i+'"'+(lock?" disabled":"")+'><span class="kn d">'+(n>=0?n+1:"")+'</span><span>'+esc(r)+'</span></button>';
+   }).join("");
   }
   if(id==="s-q") $("tasti").innerHTML = (st.risposte||[]).map(function(r,i){
    return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(done?" disabled":"")+'><span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span><span>'+esc(r)+'</span></button>';
@@ -208,6 +239,13 @@ function render(){
    if(st.puo){ $("w1").textContent = "Hai scelto: "+catn; $("w2").textContent = "Guarda la TV" }
    else { $("w1").textContent = (st.chi_nome||"Qualcuno")+" sta scegliendo la categoria…"; $("w2").textContent = "Guarda la TV" }
   }
+ } else if(f==="torta"){
+  if(st.puo){ id = "s-torta" }
+  else {
+   id = "s-w"; document.querySelector("#s-w .wq").textContent = "Torta in Faccia";
+   if(st.chi===me.slot){ $("w1").textContent = "Torta lanciata! 🥧"; $("w2").textContent = "Guarda la TV" }
+   else { $("w1").textContent = (st.chi_nome||"Qualcuno")+" sta per lanciare una torta!"; $("w2").textContent = "🥧 Guarda la TV" }
+  }
  } else if(f==="rivela" && res){
   id = "s-esito";
   $("eb").textContent = res.giusta?"GIUSTA!":"SBAGLIATA"; $("eb").className = "badge d "+(res.giusta?"ok":"ko");
@@ -221,7 +259,7 @@ function render(){
  head($(id)); show(id); tick();
 }
 function tick(){
- if(!st||(st.fase!=="domanda"&&st.fase!=="ruba"&&st.fase!=="categoria")) return;
+ if(!st||(st.fase!=="domanda"&&st.fase!=="ruba"&&st.fase!=="categoria"&&st.fase!=="torta")) return;
  var s = Math.max(0, Math.ceil((fine-Date.now())/1000)), l = document.querySelectorAll(".tm");
  for(var i=0;i<l.length;i++){ l[i].textContent = s; l[i].classList.toggle("hurry", s<=5); l[i].style.visibility = st.gioco==="bomba"?"hidden":"" }  // Bomba: miccia nascosta, niente timer
 }
@@ -231,6 +269,19 @@ $("tasti").onclick = function(e){
  var i = +b.dataset.i;
  st.scelta = i; if(navigator.vibrate) navigator.vibrate(50);
  send({t:"answer",q:st.q,choice:i}); render();
+};
+$("otasti").onclick = function(e){
+ var b = e.target.closest(".k"); if(!b||b.disabled||!st||(st.scelta||[]).length===4) return;
+ var i = +b.dataset.i; if(oseq.indexOf(i)>=0) return;
+ oseq.push(i); if(navigator.vibrate) navigator.vibrate(50);
+ if(oseq.length===4){ st.scelta = oseq.slice(); send({t:"order",q:st.q,seq:st.scelta}) }
+ render();
+};
+$("oundo").onclick = function(){ oseq.pop(); render() };
+$("tbtn").onclick = function(){
+ if(!st||!st.puo) return;
+ st.puo = false; if(navigator.vibrate) navigator.vibrate(80);
+ send({t:"throw",q:st.q}); render();
 };
 $("vl").onclick = function(e){
  var b = e.target.closest(".v"); if(!b||!st||rub===st.q) return;
@@ -256,7 +307,7 @@ function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
  else if(m.t==="lobby"){ presi = m.presi||[] }
- else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria"||m.fase==="torta")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
   ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
@@ -290,6 +341,12 @@ if(demo){
  else if(demo==="categoria"||demo==="categoria_attesa"){ me = D; fine = Date.now()+8000;
   st = {t:"state",fase:"categoria",r:1,tempo:8,chi:3,chi_nome:"Brioche",puo:demo==="categoria",opzioni:[
    {id:"geo",nome:"Geografia",icona:"🌍"},{id:"cinema",nome:"Cinema e TV",icona:"🎬"},{id:"cucina",nome:"Cucina",icona:"🍝"}]} }
+ else if(demo==="ordine"||demo==="ordine_bloccata"){ me = D;
+  st = Object.assign({},Q,{gioco:"ordine",domanda:"Metti in ordine",criterio:"Dal più antico al più recente",risposte:["Colosseo","Torre Eiffel","Piramidi di Giza","Statua della Libertà"],scelta:demo==="ordine"?[]:[2,0,3,1]});
+  if(demo==="ordine"){ oq = st.q; oseq = [1] } }
+ else if(demo==="torta"||demo==="torta_attesa"){ me = D; fine = Date.now()+5000;
+  st = {t:"state",fase:"torta",q:2,tempo:5,chi:demo==="torta"?0:3,chi_nome:"Brioche",puo:demo==="torta"} }
+ else if(demo==="conto"){ me = D; st = Object.assign({},Q,{gioco:"conto"}) }
  else if(demo==="esito_testo"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2,testo:"Hai rubato 300 punti a Ugo!"} }
  else if(demo==="esito"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }
  else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }

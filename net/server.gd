@@ -7,6 +7,8 @@ signal left(slot: int)
 signal answered(slot: int, q: int, choice: int)
 signal stole(slot: int, q: int, victim: int)
 signal categoria_scelta(slot: int, r: int, scelta: int)
+signal ordered(slot: int, q: int, seq: Array)
+signal thrown(slot: int, q: int)
 
 const HTTP_PORT := 8080
 const WS_PORT := 8081
@@ -40,6 +42,8 @@ var _sospeso := {}  # stato messo da parte dalla pausa
 var _risposte := {}  # slot -> {q, choice}
 var _rubato := {}  # slot -> q in cui ha già rubato
 var _scelto := {}  # slot -> r in cui ha già scelto la categoria
+var _ordinato := {}  # slot -> {q, seq}
+var _lanciato := {}  # slot -> q in cui ha già lanciato la torta
 
 
 func _init() -> void:
@@ -97,6 +101,8 @@ func reset() -> void:
 	_risposte.clear()
 	_rubato.clear()
 	_scelto.clear()
+	_ordinato.clear()
+	_lanciato.clear()
 	_state = {}
 	_tutti(_msg_lobby())
 
@@ -222,6 +228,10 @@ func _ricevi(c: Dictionary, txt: String) -> void:
 			_steal(c, m)
 		"cat":
 			_cat(c, m)
+		"order":
+			_order(c, m)
+		"throw":
+			_throw(c, m)
 
 
 func _join(c: Dictionary, m: Dictionary) -> void:
@@ -335,6 +345,39 @@ func _cat(c: Dictionary, m: Dictionary) -> void:
 	categoria_scelta.emit(c.slot, int(r), int(sc))
 
 
+func _order(c: Dictionary, m: Dictionary) -> void:
+	if c.slot < 0 or _state.get("fase") != "domanda" or _state.get("gioco") != "ordine":
+		return
+	var q = m.get("q")
+	var seq = m.get("seq")
+	if not _es_int(q) or not seq is Array or seq.size() != 4:
+		return
+	if not _es_int(_state.get("q")) or int(q) != int(_state.get("q")):
+		return
+	var s: Array = []
+	for x in seq:
+		if not _es_int(x) or int(x) < 0 or int(x) > 3 or int(x) in s:
+			return
+		s.append(int(x))
+	var r = _ordinato.get(c.slot)
+	if r != null and r.q == int(q):
+		return
+	_ordinato[c.slot] = {"q": int(q), "seq": s}
+	ordered.emit(c.slot, int(q), s)
+
+
+func _throw(c: Dictionary, m: Dictionary) -> void:
+	if c.slot < 0 or _state.get("fase") != "torta":
+		return
+	var q = m.get("q")
+	if not _es_int(q) or not _es_int(_state.get("q")) or int(q) != int(_state.get("q")):
+		return
+	if not _es_int(_state.get("chi")) or int(_state.get("chi")) != c.slot or _lanciato.get(c.slot, -1) == int(q):
+		return
+	_lanciato[c.slot] = int(q)
+	thrown.emit(c.slot, int(q))
+
+
 func _es_int(v) -> bool:
 	return v is int or (v is float and absf(v) < 1e9 and v == floorf(v))
 
@@ -366,9 +409,14 @@ func _msg_state(slot: int) -> Dictionary:
 	if d.get("fase") == "domanda":
 		var r = _risposte.get(slot)
 		d["scelta"] = r.choice if r != null and r.q == int(d.get("q", -1)) else -1
+		if d.get("gioco") == "ordine":
+			var o = _ordinato.get(slot)
+			d["scelta"] = o.seq if o != null and o.q == int(d.get("q", -1)) else []
 	if d.get("fase") == "ruba":
 		var puo = d.get("puo", [])
 		d["puo"] = puo is Array and slot in puo and _rubato.get(slot, -1) != int(d.get("q", -1))
+	if d.get("fase") == "torta":
+		d["puo"] = _es_int(d.get("chi")) and int(d.get("chi")) == slot and _lanciato.get(slot, -1) != int(d.get("q", -1))
 	if d.get("fase") == "categoria":
 		var puo = d.get("puo", [])
 		d["puo"] = puo is Array and slot in puo and _scelto.get(slot, -1) != int(d.get("r", -1))

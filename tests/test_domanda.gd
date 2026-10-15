@@ -39,12 +39,14 @@ func _ready() -> void:
 		sp.col = Color(GIOCATORI[i][1])
 		sp.iniz = GIOCATORI[i][0][0]
 		_s.podio(i).metti_personaggio(sp)
+	if "ordine" in OS.get_cmdline_user_args():
+		_giro = 2  # il prossimo giro è Metti in Ordine
 	_inizia()
 
 
 func _inizia() -> void:
 	_fase = 0
-	_giro = (_giro + 1) % 3
+	_giro = (_giro + 1) % 4
 	_t = TOT
 	_quando.clear()
 	_scelta.clear()
@@ -53,8 +55,11 @@ func _inizia() -> void:
 		_quando.append(randf_range(1.0, TOT - 1.0))
 		_scelta.append(randi() % 4)
 		_fatto.append(false)
-	_s.mostra_domanda(3, 10, ["ACCUMULA PUNTI", "DITO VELOCE", "RUBA PUNTI"][_giro], "Quale di questi formaggi si fa con il latte di bufala?",
-		["Parmigiano", "Mozzarella campana", "Gorgonzola", "Asiago"])
+	if _giro == 3:
+		_s.mostra_domanda(3, 10, "METTI IN ORDINE", "Dal più antico al più recente", ["Scoperta dell'America", "Caduta di Roma", "Sbarco sulla Luna", "Rivoluzione francese"])
+	else:
+		_s.mostra_domanda(3, 10, ["ACCUMULA PUNTI", "DITO VELOCE", "RUBA PUNTI"][_giro], "Quale di questi formaggi si fa con il latte di bufala?",
+			["Parmigiano", "Mozzarella campana", "Gorgonzola", "Asiago"])
 	_s.set_tempo(TOT, TOT)
 
 
@@ -70,6 +75,10 @@ func _process(dt: float) -> void:
 			_s.set_contatore(int(1000 * maxf(_t, 0.0) / TOT / 10.0) * 10)
 		if _t <= 0.0:
 			_fase = 1
+			if _giro == 3:
+				_s.rivela_ordine([1, 0, 3, 2], ["1492", "476", "1969", "1789"], {0: "A B C D", 1: "B A D C", 2: "C A B D", 3: "A B D C", 4: "B A C D", 5: "D C B A"})
+				_t = 5.0
+				return
 			var scelte := {}
 			var punti: Array = []
 			for i in 6:

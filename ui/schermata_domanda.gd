@@ -20,6 +20,7 @@ var _numero := 0
 var _ultimo_sec := -1
 var _carte: Array[Risposta] = []
 var _podi: Array[Podio] = []
+var _extra: Array[Control] = []
 
 
 func _ready() -> void:
@@ -97,6 +98,9 @@ func mostra_domanda(n: int, tot: int, titolo_round: String, testo: String, rispo
 	_tab_lbl.size.x = w - 12.0
 	_tab_lbl.position = Vector2(0, 0)
 	_domanda.text = testo
+	for x in _extra:
+		x.queue_free()
+	_extra.clear()
 	for i in 4:
 		_carte[i].reset()
 		_carte[i]._testo.text = risposte[i]
@@ -156,6 +160,35 @@ func rivela(corretta: int, scelte: Dictionary, punti: Array) -> void:
 			_podi[pid].set_punti(_podi[pid].punti + punti[pid])
 		else:
 			_podi[pid].set_stato("ko")
+
+
+## Metti in Ordine: sulle carte numero giusto (1-4) + valore; sui podi la sequenza del giocatore.
+## giusto[i] = posizione corretta (0-3) della carta i; valori[i] = valore della carta i; sequenze = {pid: "C A B D"}.
+func rivela_ordine(giusto: Array, valori: Array, sequenze: Dictionary) -> void:
+	set_tempo(0.0, 1.0)
+	for i in 4:
+		var c := _carte[i]
+		var num := Panel.new()
+		num.position = Vector2(c.size.x - 84, 29)
+		num.size = Vector2(76, 76)
+		num.add_theme_stylebox_override("panel", Risposta.box(GOLD, INK, 6, 6, 38))
+		num.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		num.add_child(Risposta.etichetta(str(int(giusto[i]) + 1), Risposta.font_display(), 48, INK, 76, 72))
+		c.add_child(num)
+		var f := Risposta.font_display()
+		var w := f.get_string_size(str(valori[i]), HORIZONTAL_ALIGNMENT_LEFT, -1, 32).x + 40.0
+		var val := Panel.new()
+		val.size = Vector2(w, 44)
+		val.position = Vector2(c.size.x - 100 - w, 45)
+		val.add_theme_stylebox_override("panel", Risposta.box(INK, INK, 0, 0, 22))
+		val.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		val.add_child(Risposta.etichetta(str(valori[i]), f, 32, GOLD, w, 44))
+		c.add_child(val)
+		_extra.append(num)
+		_extra.append(val)
+	for pid in _podi.size():
+		_podi[pid].set_stato("")
+		_podi[pid].badge(sequenze.get(pid, ""))
 
 
 ## Dito Veloce: il timer diventa il contatore dei punti.

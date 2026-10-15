@@ -10,6 +10,8 @@ var answered_log: Array = []
 var left_log: Array = []
 var stole_log: Array = []
 var cat_log: Array = []
+var ord_log: Array = []
+var thr_log: Array = []
 
 
 func _check(nome: String, cond: bool) -> void:
@@ -91,6 +93,8 @@ func _initialize() -> void:
 	server.answered.connect(func(s: int, q: int, ch: int): answered_log.append([s, q, ch]))
 	server.stole.connect(func(s: int, q: int, v: int): stole_log.append([s, q, v]))
 	server.categoria_scelta.connect(func(s: int, r: int, sc: int): cat_log.append([s, r, sc]))
+	server.ordered.connect(func(s: int, q: int, seq: Array): ord_log.append([s, q, seq]))
+	server.thrown.connect(func(s: int, q: int): thr_log.append([s, q]))
 	server.apri_lobby()
 	var code: String = server.codice
 
@@ -221,6 +225,64 @@ func _initialize() -> void:
 	server.invia_stato({"fase": "categoria", "r": 1, "tempo": 10, "opzioni": [], "chi": 0, "puo": [0]})
 	await _pump()
 	_check("dopo la scelta puo false", _take(a2, "state").get("puo") == false)
+
+	_tx(a2, {"t": "order", "q": 7, "seq": [0, 1, 2, 3]})
+	await _pump()
+	_check("order fuori fase ignorato", ord_log.is_empty())
+	_vuota(a2)
+	server.invia_stato({"fase": "domanda", "gioco": "accumula", "q": 7, "tot": 10, "domanda": "?", "risposte": ["a", "b", "c", "d"]})
+	await _pump()
+	_tx(a2, {"t": "order", "q": 7, "seq": [0, 1, 2, 3]})
+	await _pump()
+	_check("order con gioco sbagliato ignorato", ord_log.is_empty())
+	_vuota(a2)
+	server.invia_stato({"fase": "domanda", "gioco": "ordine", "criterio": "x", "q": 7, "tot": 10, "domanda": "?", "risposte": ["a", "b", "c", "d"]})
+	await _pump()
+	_check("ordine: scelta [] all'inizio", _take(a2, "state").get("scelta") == [])
+	for m in [{"t": "order", "q": 6, "seq": [0, 1, 2, 3]}, {"t": "order", "q": 7, "seq": [0, 1, 2]}, {"t": "order", "q": 7, "seq": [0, 1, 2, 3, 0]},
+			{"t": "order", "q": 7, "seq": [0, 1, 1, 3]}, {"t": "order", "q": 7, "seq": [0, 1, 2, 4]}, {"t": "order", "q": 7, "seq": [-1, 1, 2, 3]},
+			{"t": "order", "q": 7, "seq": [0, 1, 2, "3"]}, '{"t":"order","q":7,"seq":[0,1,2,3.5]}', {"t": "order", "q": 7, "seq": "0123"},
+			{"t": "order", "q": "7", "seq": [0, 1, 2, 3]}, {"t": "order", "q": 7}]:
+		_tx(a2, m)
+	_tx(c, {"t": "order", "q": 7, "seq": [0, 1, 2, 3]})
+	await _pump()
+	_check("order seq/q/tipi sbagliati, non entrato ignorati", ord_log.is_empty())
+	_tx(a2, {"t": "order", "q": 7, "seq": [2, 0, 3, 1]})
+	await _pump()
+	_check("order valido -> ordered", ord_log == [[0, 7, [2, 0, 3, 1]]])
+	_tx(a2, {"t": "order", "q": 7, "seq": [0, 1, 2, 3]})
+	await _pump()
+	_check("doppio order ignorato", ord_log.size() == 1)
+	_vuota(a2)
+	server.invia_stato({"fase": "domanda", "gioco": "ordine", "criterio": "x", "q": 7, "tot": 10, "domanda": "?", "risposte": ["a", "b", "c", "d"]})
+	await _pump()
+	var sc = _take(a2, "state").get("scelta")
+	_check("ordine: scelta = sequenza inviata", sc is Array and sc.size() == 4 and int(sc[0]) == 2 and int(sc[3]) == 1)
+
+	_tx(a2, {"t": "throw", "q": 8})
+	await _pump()
+	_check("throw fuori fase ignorato", thr_log.is_empty())
+	_vuota(a2)
+	_vuota(b)
+	server.invia_stato({"fase": "torta", "q": 8, "tempo": 6, "chi": 0, "chi_nome": "x"})
+	await _pump()
+	_check("torta puo per telefono", _take(a2, "state").get("puo") == true and _take(b, "state").get("puo") == false)
+	for m in [{"t": "throw", "q": 7}, {"t": "throw", "q": "8"}, '{"t":"throw","q":8.5}', {"t": "throw"}]:
+		_tx(a2, m)
+	_tx(b, {"t": "throw", "q": 8})
+	_tx(c, {"t": "throw", "q": 8})
+	await _pump()
+	_check("throw q vecchio/tipi, non lanciatore, non entrato ignorati", thr_log.is_empty())
+	_tx(a2, {"t": "throw", "q": 8})
+	await _pump()
+	_check("throw valido -> thrown", thr_log == [[0, 8]])
+	_tx(a2, {"t": "throw", "q": 8})
+	await _pump()
+	_check("doppio lancio ignorato", thr_log.size() == 1)
+	_vuota(a2)
+	server.invia_stato({"fase": "torta", "q": 8, "tempo": 6, "chi": 0, "chi_nome": "x"})
+	await _pump()
+	_check("dopo il lancio puo false", _take(a2, "state").get("puo") == false)
 
 	var d := _nuovo()
 	await _apri(d)
