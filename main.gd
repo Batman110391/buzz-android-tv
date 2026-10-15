@@ -509,8 +509,7 @@ func _intermezzo(gi: Dictionary) -> void:
 	_fase = "categoria"
 	_server.invia_stato({"fase": "categoria", "r": _r, "tempo": CAT_TEMPO, "opzioni": opz, "chi": _g[ult]["slot"],
 			"chi_nome": _g[ult]["nome"], "puo": [_g[ult]["slot"]] if _pid_di.values().has(ult) else []})
-	if titolo == "":  # battute solo per il fanalino; per la scelta a caso servono battute nuove di Gilda
-		_dici(_pesca("fanalino"), "annuncio", FUMETTO_BASSO)
+	_dici(_pesca("fanalino" if titolo == "" else "sorte"), "annuncio", FUMETTO_BASSO)  # sorte = scelta a caso (round 1-2)
 	var bot := _demo or not _pid_di.values().has(ult)
 	var quando := randf_range(2.0, 4.0)
 	while _cat_scelta < 0 and _t < CAT_TEMPO:

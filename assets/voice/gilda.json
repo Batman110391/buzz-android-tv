@@ -70,5 +70,10 @@
   "gilda_boom_2": "[dry] È esplosa. Peccato, era una bomba così carina.",
   "gilda_boom_3": "[playful] Ahia! Quella faceva male. Prossima bomba, prossima vittima.",
   "gilda_furto_1": "[dry] Furto riuscito. La polizia è stata avvisata, ma arriva dopo la pubblicità.",
-  "gilda_furto_2": "[playful] Che mani svelte! Controllate le tasche, gente."
+  "gilda_furto_2": "[playful] Che mani svelte! Controllate le tasche, gente.",
+  "gilda_sorte_1": "[playful] Il destino ha scelto te! Decidi la categoria, e se va male… è colpa del destino.",
+  "gilda_sorte_2": "[dry] Estrazione a sorte: tocca a te scegliere la categoria. Niente pressione. Solo tutti che ti guardano.",
+  "gilda_sorte_3": "[brisk] Sorteggio fatto! Scegli tu la categoria: hai dieci secondi e nessuna scusa.",
+  "gilda_sorte_4": "[warm] Questa volta sceglie qualcuno a caso. Fortunato tu! Scegli una categoria che ti piace.",
+  "gilda_sorte_5": "[playful] La sorte ha parlato e ha detto il tuo nome. Scegli bene, gli altri prendono appunti."
 }
