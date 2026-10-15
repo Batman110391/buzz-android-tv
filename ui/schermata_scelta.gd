@@ -12,7 +12,7 @@ const COLORI: Array[Color] = [Color("3D9BFF"), Color("FF8A1F"), Color("FF3B4E"),
 const CARTA := Vector2(400, 330)
 const GAP := 28.0
 const ORIGINE := Vector2(118, 180)
-const MIN_ACCESI := 4
+const MIN_ACCESI := 1  # S 2026-10-15: minimo 3 giochi, Accumula e finale (fissi) compresi
 
 var _giochi: Array = []
 var _on: Array[bool] = []

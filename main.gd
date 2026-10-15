@@ -4,8 +4,8 @@ extends Node2D
 ## Si gioca dal telefono (+ bot); il telecomando serve solo a preparare la partita. `-- --demo`: tutto automatico.
 
 const DOMANDE := 5  # per round
-const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude sempre (fisso)
-	{"id": "accumula", "titolo": "Accumula Punti", "icona": "💰", "tipo": "classica", "breve": "Più rispondi, più incassi.",
+const GIOCHI := [  # Accumula apre e Conto alla Rovescia chiude sempre (fissi); gli altri scelti escono in ordine casuale (S 2026-10-15)
+	{"id": "accumula", "titolo": "Accumula Punti", "icona": "💰", "tipo": "classica", "breve": "Più rispondi, più incassi.", "fisso": true,
 		"regola": "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!"},
 	{"id": "dito", "titolo": "Dito Veloce", "icona": "⚡", "tipo": "lampo", "breve": "Il più rapido incassa di più.",
 		"regola": "I punti scendono da 1000 a zero: rispondi giusto e prendi quelli che restano!"},
@@ -18,6 +18,8 @@ const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude s
 	# Metti in Ordine sospeso (S 2026-10-15: "per ora no"); per riattivarlo togliere il commento
 	#{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
 		#"regola": "Tocca le 4 voci nell'ordine giusto: 125 punti per ogni voce al posto giusto!"},
+	{"id": "duello", "titolo": "Duello degli indizi", "icona": "🕵️", "tipo": "indizi", "breve": "Squadre e indizi: chi indovina prima incassa di più.",
+		"regola": "Squadre! Gli indizi arrivano uno alla volta: prima indovinate, più punti prendete. Risponde uno a turno, gli altri consigliano!"},
 	{"id": "conto", "titolo": "Conto alla Rovescia", "icona": "⏳", "tipo": "classica", "breve": "Il gran finale.", "fisso": true,
 		"regola": "Perdi 50 punti al secondo finché non rispondi. Giusta: +300!"},
 ]
@@ -57,7 +59,6 @@ var _bomba: Bomba
 var _conto: SchermataConto
 var _duello_ui: SchermataDuello
 var _dg: Duello
-var _duello_fatto := false
 var _d_fatta: Array[bool] = [false, false]  # Duello: squadra che ha già indovinato la domanda
 var _d_blocco: Array[bool] = [false, false]  # Duello: squadra bloccata fino al prossimo indizio
 var _d_quando: Array[float] = [INF, INF]  # Duello: quando prova a rispondere il bot di turno (secondi dall'ultimo indizio)
@@ -287,7 +288,10 @@ func _vai_scelta() -> void:
 	_fase = "scelta"
 	_lobby.visible = false
 	var g: Array = []
+	var n: int = _server.giocatori().size() + _bot.size()
 	for d: Dictionary in GIOCHI:
+		if d["id"] == "duello" and n < 3:  # servono due squadre
+			continue
 		g.append({"id": d["id"], "titolo": d["titolo"], "icona": d["icona"], "regola": d["breve"], "fisso": d.get("fisso", false)})
 	_scelta.visible = true
 	_scelta.mostra(g)
@@ -299,7 +303,7 @@ func _vai_scelta() -> void:
 		if "--giochi" in args and args.find("--giochi") + 1 < args.size():
 			solo = args[args.find("--giochi") + 1]
 		for d: Dictionary in GIOCHI:
-			if solo == "" or d["id"] in solo.split(","):
+			if (solo == "" or d["id"] in solo.split(",")) and not (d["id"] == "duello" and _server.giocatori().size() + _bot.size() < 3):
 				tutti.append(d["id"])
 		_scelti(tutti)
 
@@ -307,7 +311,14 @@ func _vai_scelta() -> void:
 func _scelti(ids: Array[String]) -> void:
 	if _fase != "scelta":
 		return
-	_giochi = ids
+	var mezzo := ids.filter(func(id: String) -> bool: return id != "accumula" and id != "conto")
+	mezzo.shuffle()
+	_giochi = []
+	if "accumula" in ids:
+		_giochi.append("accumula")
+	_giochi.append_array(mezzo)
+	if "conto" in ids:
+		_giochi.append("conto")
 	_scelta.nascondi()
 	_vai_round()
 
@@ -411,7 +422,6 @@ func _inizia_partita() -> void:
 		_pers.append(p)
 	_capo = -1
 	_hanno_scelto.clear()
-	_duello_fatto = false
 
 
 func _gioco() -> Dictionary:
@@ -437,6 +447,11 @@ func _prossimo_round() -> void:
 	_fase = "round"
 	_s.visible = false
 	_server.invia_stato({"fase": "attesa"})
+	if gi["id"] == "duello":  # niente categoria: le squadre e gli indizi bastano
+		await _duello()
+		_r += 1
+		_prossimo_round()
+		return
 	await _intermezzo(gi)
 	_fase = "round"
 	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"] + "\n%s %s" % [CATEGORIE[_cat][1], CATEGORIE[_cat][0]], gi["icona"])
@@ -566,10 +581,6 @@ func _fine_round(classifica: Array) -> void:
 	_bomba_ui.visible = false
 	_conto.visible = false
 	_r += 1
-	var forza := "--duello" in OS.get_cmdline_user_args()  # prove: Duello subito dopo il 1° round
-	if not _duello_fatto and _n >= 3 and (forza and _r == 1 or _r == _giochi.size() / 2 and Duello.serve(_punti)):  # a metà partita, se qualcuno è molto indietro
-		_duello_fatto = true
-		await _duello()
 	_prossimo_round()
 
 
@@ -578,7 +589,9 @@ func _duello() -> void:
 	_fase = "round"
 	_s.visible = false
 	_server.invia_stato({"fase": "attesa"})
-	_round.mostra(0, 0, "DUELLO DEGLI INDIZI", "Squadre! Gli indizi arrivano uno alla volta: prima indovinate, più punti prendete. Risponde uno a turno, gli altri consigliano!", "🕵️")
+	var gi := _gioco()
+	_round.mostra(_r + 1, _giochi.size(), gi["titolo"].to_upper(), gi["regola"], gi["icona"])
+	_punti_prima = _punti.duplicate()
 	await get_tree().create_timer(4.0, false).timeout
 	_round.nascondi()
 	var sq := Duello.squadre(_punti)
