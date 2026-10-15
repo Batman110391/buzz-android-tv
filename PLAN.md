@@ -159,7 +159,7 @@ Messaggi JSON con il campo `t`:
 | tel → TV | `answer` | `q` (indice domanda, int), `choice` (0–3) |
 | TV → tel | `welcome` | `slot`, `token` (16 hex casuali), `name`, `avatar`, `color` ("#F2384A") |
 | TV → tel | `reject` | `reason`: `codice` · `pieno` · `preso` (personaggio occupato) · `partita` (partita in corso e token sconosciuto) |
-| TV → tutti | `lobby` | `presi` (personaggi occupati, bot compresi) — anche a chi non è ancora entrato |
+| TV → tutti | `lobby` | `presi` (personaggi occupati, bot compresi), `aperta` (bool: lobby aperta = nuova partita) — anche a chi non è ancora entrato |
 | TV → tutti | `state` | `fase`: `lobby` · `domanda` · `rivela` · `attesa` · `finale`; con `domanda`: `q`, `tot`, `domanda`, `risposte[4]` (nell'ordine mostrato in TV) e, per ciascun telefono, `scelta` (-1 se non ha risposto) |
 | TV → tel | `result` | `giusta` (bool), `punti` (guadagnati), `totale`, `posizione` |
 | tel → TV | `steal` (G3) | `q` (indice della domanda appena rivelata), `victim` (slot) |
@@ -173,7 +173,7 @@ Messaggi JSON con il campo `t`:
 
 **Validazione sul lato TV** (la TV è l'unica autorità; tutto il resto si ignora in silenzio): JSON valido e oggetto, tipi esatti; `join` una sola volta per connessione, codice giusto, personaggio esistente e libero; `answer` solo da connessione entrata, fase `domanda`, `q` = domanda attiva, `choice` intero 0–3; `steal` solo da connessione entrata, fase `ruba`, `q` = domanda attiva, `victim` tra le `vittime` e diverso dal proprio slot, una volta per domanda (il resto lo controlla `Game.ruba`); `cat` solo dal fanalino (`puo`), fase `categoria`, `r` = round attivo, `scelta` intero 0–2, una volta sola; `order` come `answer` ma con `seq` (array di 4 interi 0–3 distinti) e solo se `gioco` = `ordine`; `throw` solo dal lanciatore (`puo`), fase `torta`, `q` = domanda attiva, una volta sola; "non ha già risposto" e "tempo non scaduto" li controlla `Game.submit_answer` (tempo misurato sulla TV).
 
-**Riconnessione.** Il telefono salva `token` nel `localStorage` e lo rimanda nel `join`: riprende il suo slot (anche a partita in corso) e riceve subito l'ultimo `state`. Nella lobby uno slot disconnesso si libera dopo 15 s; in partita resta suo fino al ritorno al titolo.
+**Riconnessione.** Il telefono salva `token`, personaggio e nome nel `localStorage`. Con `aperta` = true (nuova partita) mostra sempre la scelta, con personaggio e nome dell'ultima volta preselezionati, e fa il `join` solo al tocco di "Entra": il token in lobby vale come join nuovo e libera il suo vecchio slot se scollegato (S 2026-10-15). Con `aperta` = false (partita in corso) rientra da solo con il token, riprende il suo slot e riceve subito l'ultimo `state`. Nella lobby uno slot disconnesso si libera dopo 15 s; in partita resta suo fino al ritorno al titolo.
 
 ---
 

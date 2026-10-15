@@ -160,7 +160,7 @@ var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
 var rub = -1;  // q in cui ho già scelto la vittima
 var oseq = [], oq = -1;  // sequenza in costruzione per Metti in Ordine, e la q a cui appartiene
 var catr = -1, catn = "";  // round in cui ho già scelto la categoria, e il suo nome
-var sel = "", presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
+var need = false, sel = ls.get("qz_av"), presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
 
 function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
 function show(id){
@@ -289,7 +289,7 @@ $("go").onclick = function(){
  if(!sel){ err = "Scegli un personaggio."; return render() }
  if(!/^[A-Z0-9]{4}$/.test(c)){ err = "Inserisci il codice di 4 caratteri."; return render() }
  err = ""; code = c; ls.set("qz_code", c);
- send({t:"join",code:c,name:$("name").value.trim(),avatar:sel,token:""});
+ ls.set("qz_name",$("name").value.trim()); send({t:"join",code:c,name:$("name").value.trim(),avatar:sel,token:ls.get("qz_token")});
 };
 $("rback").onclick = function(){ rej = ""; render() };
 
@@ -297,7 +297,10 @@ function send(o){ if(ws && ws.readyState===1) ws.send(JSON.stringify(o)) }
 function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
- else if(m.t==="lobby"){ presi = m.presi||[] }
+ else if(m.t==="lobby"){ presi = m.presi||[];
+  if(need){ need = false; var t = ls.get("qz_token");
+   if(t&&code&&!m.aperta) send({t:"join",code:code,name:"",avatar:ls.get("qz_av"),token:t});
+   else if(t&&code&&me) send({t:"join",code:code,name:me.name,avatar:me.avatar,token:t}) } }
  else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria"||m.fase==="torta")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
@@ -309,7 +312,7 @@ function onMsg(m){
 function connect(){
  ws = new WebSocket("ws://"+location.hostname+":8081");
  ws.onopen = function(){ $("net").style.display = "none";
-  var t = ls.get("qz_token"); if(t&&code) send({t:"join",code:code,name:"",avatar:ls.get("qz_av"),token:t}) };
+  need = true };
  ws.onmessage = function(e){ try{ onMsg(JSON.parse(e.data)) }catch(x){} };
  ws.onclose = function(){ $("net").style.display = "block"; setTimeout(connect, 1000) };
  ws.onerror = function(){ try{ws.close()}catch(x){} };
@@ -344,7 +347,7 @@ if(demo){
  else if(demo==="finale"){ me = D; st = {t:"state",fase:"finale"}; res = {giusta:true,punti:500,totale:5200,posizione:1} }
  else if(demo==="reject"){ rej = REJ.pieno }
  render();
-} else { render(); connect(); }
+} else { $("name").value = ls.get("qz_name"); render(); connect(); }
 </script>
 </body>
 </html>

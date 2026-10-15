@@ -247,9 +247,17 @@ func _join(c: Dictionary, m: Dictionary) -> void:
 		_reject(c, "codice")
 		return
 	if tok != "":
-		for s in _players:
+		for s in _players.keys():
 			var p: Dictionary = _players[s]
 			if p.token == tok:
+				if _aperta:
+					# lobby: join nuovo; il vecchio slot si libera se scollegato
+					if p.conn == null:
+						_players.erase(s)
+						_risposte.erase(s)
+						left.emit(s)
+						_tutti(_msg_lobby())
+					break
 				if p.conn != null and p.conn != c:
 					p.conn.slot = -1
 					p.conn.ws.close()
@@ -399,7 +407,8 @@ func _presi() -> Array:
 
 
 func _msg_lobby() -> Dictionary:
-	return {"t": "lobby", "presi": _presi()}
+	# `aperta` (bool): true = lobby (il telefono fa scegliere il personaggio); false = partita in corso (rientro automatico col token)
+	return {"t": "lobby", "presi": _presi(), "aperta": _aperta}
 
 
 func _msg_state(slot: int) -> Dictionary:

@@ -163,6 +163,22 @@ func _initialize() -> void:
 	await _pump()
 	_check("result al telefono", _take(a, "result").get("punti") == 500)
 
+	# lobby + token noto + personaggio diverso -> nuovo slot, vecchio liberato
+	var e := _nuovo()
+	await _apri(e)
+	_tx(e, _join(code, "boss"))
+	await _pump()
+	var we := _take(e, "welcome")
+	e.ws.close()
+	await _pump(40)
+	var f := _nuovo()
+	await _apri(f)
+	_tx(f, _join(code, "diva", "", we.get("token", "")))
+	await _pump()
+	var wc := _take(f, "welcome")
+	_check("lobby+token+altro personaggio -> nuovo slot", wc.get("avatar") == "diva" and wc.get("token") != we.get("token"))
+	_check("vecchio slot liberato", not ("boss" in server._presi()) and _take(f, "lobby").get("aperta") == true)
+
 	server.chiudi_lobby()
 	a.ws.close()
 	await _pump()
@@ -172,7 +188,8 @@ func _initialize() -> void:
 	await _pump()
 	_check("rientro col token -> stesso slot", _take(a2, "welcome").get("slot") == 0)
 	_check("rientro -> ultimo state con scelta", _take(a2, "state").get("scelta") == 2)
-	_check("rientro non rimette joined", joined_log.size() == 2)
+	_check("lobby chiusa -> aperta false", _take(a2, "lobby").get("aperta") == false)
+	_check("rientro non rimette joined", joined_log.size() == 4)
 
 	_tx(a2, {"t": "steal", "q": 5, "victim": 2})
 	await _pump()
