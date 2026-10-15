@@ -97,6 +97,7 @@ body.lampo{animation:lampo .6s}
 <section class="scr" id="s-att">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b><small class="ch"></small></div></div>
  <div class="mid"><div class="big d">📺 Guarda la TV</div></div>
+ <button class="und" id="cambia" style="display:none">Cambia personaggio</button>
 </section>
 
 <section class="scr" id="s-q">
@@ -162,7 +163,7 @@ var fine = 0;  // Date.now() di fine domanda, dal "tempo" mandato dalla TV
 var rub = -1;  // q in cui ho già scelto la vittima
 var oseq = [], oq = -1;  // sequenza in costruzione per Metti in Ordine, e la q a cui appartiene
 var catr = -1, catn = "";  // round in cui ho già scelto la categoria, e il suo nome
-var need = false, sel = ls.get("qz_av"), presi = [], me = null, st = null, res = null, ws = null, err = "", rej = "";
+var need = false, sel = ls.get("qz_av"), presi = [], aperta = false, me = null, st = null, res = null, ws = null, err = "", rej = "";
 
 function pers(id){return PERS.filter(function(p){return p.id===id})[0]}
 function show(id){
@@ -260,6 +261,7 @@ function render(){
   $("s-esito").className = "scr "+(res.giusta?"good":"bad"); call = "e"+(res.giusta?1:0)+"_"+res.totale;
  } else if(f==="finale"){ id = "s-att";
  } else id = "s-att";
+ $("cambia").style.display = (id==="s-att" && f==="lobby" && aperta)?"":"none";
  head($(id)); show(id); tick();
  if(call && call!==lastCall) vib(call.charAt(0)==="e"?(res.giusta?[200]:[150,100,150]):[300,100,300]);
  if(call && call!==lastCall && call.charAt(0)!=="e"){ ding(); lampo() } // tocca a te
@@ -307,13 +309,18 @@ $("go").onclick = function(){
  err = ""; code = c; ls.set("qz_code", c);
  ls.set("qz_name",$("name").value.trim()); send({t:"join",code:c,name:$("name").value.trim(),avatar:sel,token:ls.get("qz_token")});
 };
+$("cambia").onclick = function(){
+ if(!me||!aperta) return;
+ send({t:"leave"}); sel = me.avatar; presi = presi.filter(function(x){return x!==me.avatar});
+ $("name").value = me.name; me = null; st = null; render();
+};
 $("rback").onclick = function(){ rej = ""; render() };
 
 function send(o){ if(ws && ws.readyState===1) ws.send(JSON.stringify(o)) }
 function onMsg(m){
  if(!m || typeof m!=="object") return;
  if(m.t==="welcome"){ me = {slot:m.slot,name:m.name,avatar:m.avatar,color:m.color}; ls.set("qz_token",m.token); ls.set("qz_av",m.avatar); err = ""; rej = "" }
- else if(m.t==="lobby"){ presi = m.presi||[];
+ else if(m.t==="lobby"){ presi = m.presi||[]; aperta = !!m.aperta;
   if(need){ need = false; var t = ls.get("qz_token");
    if(t&&code&&!m.aperta) send({t:"join",code:code,name:"",avatar:ls.get("qz_av"),token:t});
    else if(t&&code&&me) send({t:"join",code:code,name:me.name,avatar:me.avatar,token:t}) } }
@@ -340,6 +347,7 @@ if(demo){
  presi = ["nonna","gatto"]; sel = "chef";
  if(demo==="codice"){ urlCode = ""; }
  else if(demo==="attesa"){ me = D; st = {t:"state",fase:"lobby"} }
+ else if(demo==="attesa_lobby"){ me = D; aperta = true; st = {t:"state",fase:"lobby"} }
  else if(demo==="1m"||demo==="domanda"){ me = D; st = Q }
  else if(demo==="1n"||demo==="domanda_inviata"){ me = D; st = Object.assign({},Q,{scelta:1}) }
  else if(demo==="bomba_mia"){ me = D; st = Object.assign({},Q,{gioco:"bomba",bomba:0}) }

@@ -179,7 +179,30 @@ func _initialize() -> void:
 	_check("lobby+token+altro personaggio -> nuovo slot", wc.get("avatar") == "diva" and wc.get("token") != we.get("token"))
 	_check("vecchio slot liberato", not ("boss" in server._presi()) and _take(f, "lobby").get("aperta") == true)
 
+	# leave: da connessione non entrata -> ignorato
+	var g := _nuovo()
+	await _apri(g)
+	var n_left := left_log.size()
+	_tx(g, {"t": "leave"})
+	await _pump()
+	_check("leave non entrata ignorata", left_log.size() == n_left)
+	# leave in lobby -> slot libero, nuovo join con altro personaggio
+	_tx(g, _join(code, "zombi"))
+	await _pump()
+	_check("join mago ok", _take(g, "welcome").get("avatar") == "zombi" and "zombi" in server._presi())
+	_tx(g, {"t": "leave"})
+	await _pump()
+	_check("leave lobby libera slot", not ("zombi" in server._presi()) and left_log.size() == n_left + 1)
+	_check("leave -> lobby aggiornata", not ("zombi" in _take(g, "lobby").get("presi", [])))
+	_tx(g, _join(code, "boss"))
+	await _pump()
+	_check("dopo leave nuovo join ok", _take(g, "welcome").get("avatar") == "boss")
+
 	server.chiudi_lobby()
+	# leave a lobby chiusa -> ignorato
+	_tx(g, {"t": "leave"})
+	await _pump()
+	_check("leave lobby chiusa ignorata", "boss" in server._presi() and left_log.size() == n_left + 1)
 	a.ws.close()
 	await _pump()
 	var a2 := _nuovo()
@@ -189,7 +212,7 @@ func _initialize() -> void:
 	_check("rientro col token -> stesso slot", _take(a2, "welcome").get("slot") == 0)
 	_check("rientro -> ultimo state con scelta", _take(a2, "state").get("scelta") == 2)
 	_check("lobby chiusa -> aperta false", _take(a2, "lobby").get("aperta") == false)
-	_check("rientro non rimette joined", joined_log.size() == 4)
+	_check("rientro non rimette joined", joined_log.size() == 6)
 
 	_tx(a2, {"t": "steal", "q": 5, "victim": 2})
 	await _pump()

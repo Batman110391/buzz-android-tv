@@ -222,6 +222,8 @@ func _ricevi(c: Dictionary, txt: String) -> void:
 	match m.get("t"):
 		"join":
 			_join(c, m)
+		"leave":
+			_leave(c)
 		"answer":
 			_answer(c, m)
 		"steal":
@@ -232,6 +234,19 @@ func _ricevi(c: Dictionary, txt: String) -> void:
 			_order(c, m)
 		"throw":
 			_throw(c, m)
+
+
+# Messaggio tel -> TV `leave` (nessun campo): solo da connessione entrata e a lobby aperta.
+# Libera subito lo slot (left + lobby a tutti); la connessione resta aperta e puo' rifare `join`.
+func _leave(c: Dictionary) -> void:
+	var s: int = c.slot
+	if not _aperta or s < 0 or not _players.has(s) or _players[s].conn != c:
+		return
+	_players.erase(s)
+	_risposte.erase(s)
+	c.slot = -1
+	left.emit(s)
+	_tutti(_msg_lobby())
 
 
 func _join(c: Dictionary, m: Dictionary) -> void:

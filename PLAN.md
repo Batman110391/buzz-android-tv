@@ -156,6 +156,7 @@ Messaggi JSON con il campo `t`:
 | Direzione | `t` | Campi |
 |---|---|---|
 | tel → TV | `join` | `code`, `name` (trim, senza caratteri di controllo, max 12; vuoto = nome del personaggio), `avatar` (id personaggio), `token` (solo per rientrare) |
+| tel → TV | `leave` | nessun campo: solo in lobby aperta, libera lo slot per cambiare personaggio (tasto "Cambia personaggio", S 2026-10-15) |
 | tel → TV | `answer` | `q` (indice domanda, int), `choice` (0–3) |
 | TV → tel | `welcome` | `slot`, `token` (16 hex casuali), `name`, `avatar`, `color` ("#F2384A") |
 | TV → tel | `reject` | `reason`: `codice` · `pieno` · `preso` (personaggio occupato) · `partita` (partita in corso e token sconosciuto) |
