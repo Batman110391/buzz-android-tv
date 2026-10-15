@@ -23,7 +23,7 @@ const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude s
 ]
 const RUBA_TEMPO := 10.0
 const TORTA_TEMPO := 6.0
-const CAT_TEMPO := 10.0
+const CAT_TEMPO := 30.0  # S 2026-10-15: più tempo per scegliere (e chiacchierare)
 const CATEGORIE := {  # chiave di domande/ -> [nome, icona] (PLAN.md §4 "Domande")
 	"geografia": ["Geografia", "🌍"], "storia": ["Storia", "🏛️"], "scienza": ["Scienza", "🔬"],
 	"natura": ["Natura e animali", "🐾"], "cinema_tv": ["Cinema e TV", "🎬"], "musica": ["Musica", "🎵"],
@@ -95,6 +95,7 @@ var _ult_sec := 0  # ultimo secondo del timer che ha fatto tic
 # battute di Tony e Gilda: ogni situazione è un mazzo (nessuna frase torna finché non sono uscite tutte) + pause tra i commenti
 static var _mazzi := {}  # prefisso -> chiavi ancora da pescare
 static var _ultima := {}  # prefisso -> ultima chiave uscita
+static var _cat_viste := {}  # categorie già proposte in questa sessione: prima si propongono le nuove
 static var _presentati := {}  # personaggi già presentati da Tony in questa sessione
 var _salta := false  # OK durante le presentazioni
 var _ult_commento := -9  # domanda dell'ultimo commento dopo la rivelazione
@@ -478,7 +479,7 @@ func _categorie_per(gi: Dictionary) -> Array:
 	return ok
 
 
-## Prima di ogni round: classifica intermedia (dal 2° round), poi un giocatore sceglie la categoria (telefono, 10 s;
+## Prima di ogni round: classifica intermedia (dal 2° round), poi un giocatore sceglie la categoria (telefono, 30 s;
 ## bot o tempo scaduto -> a caso). Chi sceglie (S 2026-10-15): round 1 e 2 uno a caso tra chi non ha ancora scelto,
 ## dal 3° il fanalino di coda.
 func _intermezzo(gi: Dictionary) -> void:
@@ -498,7 +499,16 @@ func _intermezzo(gi: Dictionary) -> void:
 	_sceglie = ult
 	_hanno_scelto.append(ult)
 	var cats := _categorie_per(gi)
-	cats.shuffle()
+	var nuove := cats.filter(func(c: String) -> bool: return not _cat_viste.has(c))
+	if nuove.size() < 3:  # viste quasi tutte: si ricomincia il giro
+		_cat_viste.clear()
+		nuove = cats.duplicate()
+	var vecchie := cats.filter(func(c: String) -> bool: return not nuove.has(c))
+	nuove.shuffle()
+	vecchie.shuffle()
+	cats = nuove + vecchie
+	for c: String in cats.slice(0, 3):
+		_cat_viste[c] = true
 	var opz: Array = []
 	for c: String in cats.slice(0, 3):
 		opz.append({"id": c, "nome": CATEGORIE[c][0], "icona": CATEGORIE[c][1]})
@@ -528,6 +538,7 @@ func _intermezzo(gi: Dictionary) -> void:
 	_nascondi_fumetti()
 	await _esci()
 	_categoria_ui.nascondi()
+	await get_tree().create_timer(0.35, false).timeout  # la carta del round entra a schermo libero
 	_server.invia_stato({"fase": "attesa"})
 
 

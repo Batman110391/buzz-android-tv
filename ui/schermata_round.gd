@@ -51,6 +51,7 @@ func _ready() -> void:
 func mostra(n: int, tot: int, titolo: String, regola: String, icona: String) -> void:
 	_pill.text = "ROUND %d DI %d" % [n, tot]
 	_titolo.text = titolo
+	Risposta.adatta(_titolo, 136, 72)
 	_regola.text = regola
 	Risposta.adatta(_regola, 44)
 	_icona.text = icona

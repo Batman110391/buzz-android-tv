@@ -42,6 +42,7 @@ func mostra(chi_nome: String, chi_colore: Color, chi_personaggio: String, opzion
 		_pers.queue_free()
 	_striscia.add_theme_stylebox_override("panel", Risposta.box(chi_colore, INK, 8, 14, 40))
 	_titolo.text = titolo if titolo != "" else "%s, fanalino di coda: scegli tu!" % chi_nome
+	Risposta.adatta(_titolo, 60, 36)
 	_pers = Personaggio.new()
 	_pers.setup(chi_personaggio)
 	_pers.scale = Vector2(0.5, 0.5)

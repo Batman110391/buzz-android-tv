@@ -30,11 +30,13 @@ static func font_testo() -> Font:
 	return _ft
 
 
-## Rimpicciolisce il font (da `da` a `minimo`) finché il testo, andando a capo, sta nell'altezza della label.
+## Rimpicciolisce il font (da `da` a `minimo`) finché il testo sta nella label: in altezza se va a capo,
+## in larghezza (contorno compreso) se è su una riga.
 static func adatta(l: Label, da: int, minimo := 28) -> void:
 	var f := l.get_theme_font("font")
 	var s := da
-	while s > minimo and f.get_multiline_string_size(l.text, HORIZONTAL_ALIGNMENT_LEFT, l.size.x, s).y > l.size.y:
+	var bordo := 2.0 * l.get_theme_constant("outline_size")
+	while s > minimo and (f.get_multiline_string_size(l.text, HORIZONTAL_ALIGNMENT_LEFT, l.size.x, s).y > l.size.y if l.autowrap_mode != TextServer.AUTOWRAP_OFF else f.get_string_size(l.text, HORIZONTAL_ALIGNMENT_LEFT, -1, s).x + bordo > l.size.x):
 		s -= 2
 	l.add_theme_font_size_override("font_size", s)
 
