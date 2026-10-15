@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-cin-0001",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "categoria_indizi": "Film",
+    "indizi": [
+      "Film d'animazione Disney",
+      "Si svolge in Africa",
+      "Il giovane eroe perde il padre e canta Hakuna Matata"
+    ],
+    "risposte": [
+      "Il re leone",
+      "Bambi",
+      "Il libro della giungla",
+      "Tarzan"
+    ],
+    "curiosita": "Uscì nel 1994 e la colonna sonora vinse due premi Oscar.",
+    "fatto": "film il re leone si svolge nella savana e canta hakuna matata",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0002",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 2,
+    "categoria_indizi": "Regista",
+    "indizi": [
+      "Regista italiano del Novecento",
+      "Nato in una città del Nord",
+      "Girò La dolce vita e 8½, era di Rimini"
+    ],
+    "risposte": [
+      "Federico Fellini",
+      "Luchino Visconti",
+      "Vittorio De Sica",
+      "Sergio Leone"
+    ],
+    "curiosita": "Vinse cinque premi Oscar, tra cui quello alla carriera nel 1993.",
+    "fatto": "regista federico fellini nato a rimini e famoso in tutto il mondo",
+    "fonte": "https://it.wikipedia.org/wiki/Federico_Fellini",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0003",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio",
+    "indizi": [
+      "Eroe del cinema d'avventura",
+      "Lo interpretò Harrison Ford",
+      "Archeologo con cappello e frusta, cerca l'arca perduta"
+    ],
+    "risposte": [
+      "Indiana Jones",
+      "James Bond",
+      "Jack Sparrow",
+      "Han Solo"
+    ],
+    "curiosita": "Il nome venne dal cane del regista George Lucas, un malamute chiamato Indiana.",
+    "fatto": "personaggio indiana jones cerca larca perduta e teme i serpenti",
+    "fonte": "https://it.wikipedia.org/wiki/Indiana_Jones",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0004",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "categoria_indizi": "Serie TV",
+    "indizi": [
+      "Serie TV americana drammatica",
+      "Il protagonista è un padre di famiglia che dirige affari illeciti",
+      "Un professore di chimica con un tumore produce droga"
+    ],
+    "risposte": [
+      "Breaking Bad",
+      "I Soprano",
+      "The Wire",
+      "House of Cards"
+    ],
+    "curiosita": "È ambientata ad Albuquerque, nel Nuovo Messico.",
+    "fatto": "serie tv breaking bad ha per protagonista walter white",
+    "fonte": "https://it.wikipedia.org/wiki/Breaking_Bad",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0005",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "categoria_indizi": "Attore",
+    "indizi": [
+      "Attore e regista italiano",
+      "Nato in Toscana",
+      "Vinse l'Oscar con La vita è bella"
+    ],
+    "risposte": [
+      "Roberto Benigni",
+      "Leonardo Pieraccioni",
+      "Carlo Verdone",
+      "Massimo Troisi"
+    ],
+    "curiosita": "Vinse l'Oscar come miglior attore nel 1999.",
+    "fatto": "attore roberto benigni nel film interpretava guido",
+    "fonte": "https://it.wikipedia.org/wiki/Roberto_Benigni",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0006",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 1,
+    "categoria_indizi": "Film",
+    "indizi": [
+      "Film di fantascienza",
+      "Ambientato nello spazio profondo",
+      "Eroi ribelli, cavalieri Jedi e Darth Vader contro un impero"
+    ],
+    "risposte": [
+      "Guerre stellari",
+      "Alien",
+      "Matrix",
+      "Blade Runner"
+    ],
+    "curiosita": "Il primo film uscì nel 1977 ed è il capitolo IV della saga.",
+    "fatto": "film guerre stellari ce darth vader e ce la forza",
+    "fonte": "https://it.wikipedia.org/wiki/Guerre_stellari",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cin-0007",
+    "tipo": "indizi",
+    "categoria": "cinema_tv",
+    "difficolta": 3,
+    "categoria_indizi": "Film",
+    "indizi": [
+      "Film italiano del dopoguerra",
+      "Racconta la vita di gente povera a Roma",
+      "Un padre cerca il mezzo a due ruote che gli hanno rubato"
+    ],
+    "risposte": [
+      "Ladri di biciclette",
+      "Roma città aperta",
+      "Rocco e i suoi fratelli",
+      "La strada"
+    ],
+    "curiosita": "Girato nel 1948 con attori presi dalla strada, senza esperienza.",
+    "fatto": "film ladri di biciclette il suo mezzo di lavoro ha due ruote e i pedali",
+    "fonte": "https://it.wikipedia.org/wiki/Ladri_di_biciclette",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

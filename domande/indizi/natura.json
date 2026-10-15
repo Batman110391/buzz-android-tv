@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-nat-0001",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 1,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Mammifero africano",
+      "Ha il manto a macchie o strisce",
+      "È il più alto dei mammiferi terrestri"
+    ],
+    "risposte": [
+      "Giraffa",
+      "Zebra",
+      "Elefante",
+      "Rinoceronte"
+    ],
+    "curiosita": "Ha il collo lungo ma, come noi, solo sette vertebre cervicali.",
+    "fatto": "animale giraffa e il mammifero terrestre piu alto",
+    "fonte": "https://it.wikipedia.org/wiki/Giraffa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0002",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 2,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Animale marino invertebrato",
+      "Ha i tentacoli",
+      "Ha otto braccia e tre cuori"
+    ],
+    "risposte": [
+      "Polpo",
+      "Medusa",
+      "Stella marina",
+      "Riccio di mare"
+    ],
+    "curiosita": "Ha il sangue blu perché usa il rame invece del ferro.",
+    "fatto": "animale polpo se minacciato rilascia un liquido scuro",
+    "fonte": "https://it.wikipedia.org/wiki/Polpo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0003",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 3,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Grande mammifero dei climi freddi",
+      "Ha il pelo chiaro",
+      "Caccia le foche sui ghiacci dell'Artico"
+    ],
+    "risposte": [
+      "Orso polare",
+      "Lupo artico",
+      "Orso bruno",
+      "Tricheco"
+    ],
+    "curiosita": "Sotto il pelo bianco la pelle è nera e aiuta ad assorbire il calore.",
+    "fatto": "animale orso polare ha il pelo bianco e caccia le foche",
+    "fonte": "https://it.wikipedia.org/wiki/Ursus_maritimus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0004",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 2,
+    "categoria_indizi": "Albero",
+    "indizi": [
+      "Albero tipico del Mediterraneo",
+      "Ha foglie piatte invece di aghi",
+      "Ha foglie argentate; dai frutti si ricava l'olio"
+    ],
+    "risposte": [
+      "Olivo",
+      "Leccio",
+      "Cipresso",
+      "Pino"
+    ],
+    "curiosita": "Alcuni olivi italiani hanno oltre mille anni.",
+    "fatto": "albero olivo dai suoi frutti si ricava un olio",
+    "fonte": "https://it.wikipedia.org/wiki/Olea_europaea",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0005",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 2,
+    "categoria_indizi": "Uccello",
+    "indizi": [
+      "Uccello dell'emisfero australe",
+      "Vive in zone fredde",
+      "Ali a pinna per nuotare; vive in colonie sul ghiaccio"
+    ],
+    "risposte": [
+      "Pinguino",
+      "Albatro",
+      "Struzzo",
+      "Cormorano"
+    ],
+    "curiosita": "Il pinguino imperatore resiste a temperature sotto i -40 gradi.",
+    "fatto": "uccello pinguino vive in colonie sul ghiaccio dellantartide",
+    "fonte": "https://it.wikipedia.org/wiki/Spheniscidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0006",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 2,
+    "categoria_indizi": "Pianta",
+    "indizi": [
+      "Pianta tropicale da frutto",
+      "Ha un tronco alto e sottile",
+      "Il falso tronco è di foglie avvolte; frutti gialli a caschi"
+    ],
+    "risposte": [
+      "Banano",
+      "Palma da dattero",
+      "Ananas",
+      "Mango"
+    ],
+    "curiosita": "Il banano è un'erba gigante, non un albero.",
+    "fatto": "pianta banano i suoi frutti gialli sono tra i piu venduti al mondo",
+    "fonte": "https://it.wikipedia.org/wiki/Banana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-nat-0007",
+    "tipo": "indizi",
+    "categoria": "natura",
+    "difficolta": 3,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Marsupiale australiano",
+      "Si sposta saltando",
+      "È il più grande dei marsupiali"
+    ],
+    "risposte": [
+      "Canguro",
+      "Wallaby",
+      "Koala",
+      "Diavolo della Tasmania"
+    ],
+    "curiosita": "I piccoli, grandi come un fagiolo alla nascita, arrivano da soli nel marsupio.",
+    "fatto": "animale canguro salta su due zampe e mangia erba",
+    "fonte": "https://it.wikipedia.org/wiki/Canguro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

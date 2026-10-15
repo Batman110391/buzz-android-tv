@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-cuc-0001",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "categoria_indizi": "Piatto",
+    "indizi": [
+      "Piatto italiano a base di farina",
+      "Nato in Campania",
+      "Con pomodoro e mozzarella si chiama Margherita"
+    ],
+    "risposte": [
+      "Pizza",
+      "Calzone",
+      "Focaccia",
+      "Piadina"
+    ],
+    "curiosita": "La pizza napoletana è patrimonio dell'umanità UNESCO dal 2017.",
+    "fatto": "piatto pizza con pomodoro e mozzarella si chiama margherita",
+    "fonte": "https://it.wikipedia.org/wiki/Pizza",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0002",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "categoria_indizi": "Formaggio",
+    "indizi": [
+      "Formaggio italiano famoso",
+      "Si stagiona a lungo e ha la pasta dura",
+      "Si produce in Emilia e si grattugia sulla pasta"
+    ],
+    "risposte": [
+      "Parmigiano Reggiano",
+      "Pecorino Romano",
+      "Gorgonzola",
+      "Mozzarella"
+    ],
+    "curiosita": "Si stagiona per almeno 12 mesi e una forma pesa circa 40 kg.",
+    "fatto": "formaggio parmigiano reggiano si produce stagionato in emilia",
+    "fonte": "https://it.wikipedia.org/wiki/Parmigiano_Reggiano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0003",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 1,
+    "categoria_indizi": "Dolce",
+    "indizi": [
+      "Dolce della tradizione italiana",
+      "Si serve freddo",
+      "Strati di savoiardi e mascarpone con cacao in cima"
+    ],
+    "risposte": [
+      "Tiramisù",
+      "Panna cotta",
+      "Cannoli",
+      "Zabaione"
+    ],
+    "curiosita": "Il suo nome significa tirami su, per l'energia di uova e caffè.",
+    "fatto": "dolce tiramisu ha caffe e cacao in cima",
+    "fonte": "https://it.wikipedia.org/wiki/Tiramisù",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0004",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "categoria_indizi": "Spezia",
+    "indizi": [
+      "Spezia usata in cucina",
+      "Ha un colore giallo-arancio",
+      "Si ricava dai pistilli di un fiore viola"
+    ],
+    "risposte": [
+      "Zafferano",
+      "Curcuma",
+      "Paprika",
+      "Cannella"
+    ],
+    "curiosita": "Servono circa 150 fiori per ottenere un solo grammo di spezia.",
+    "fatto": "spezia zafferano da il colore giallo al risotto alla milanese",
+    "fonte": "https://it.wikipedia.org/wiki/Zafferano",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0005",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 2,
+    "categoria_indizi": "Primo piatto",
+    "indizi": [
+      "Primo piatto a base di pasta",
+      "Si condisce con il guanciale",
+      "Spaghetti con uova, guanciale e pecorino"
+    ],
+    "risposte": [
+      "Carbonara",
+      "Amatriciana",
+      "Cacio e pepe",
+      "Pasta e fagioli"
+    ],
+    "curiosita": "Si parla dei carbonai, ma la ricetta moderna è del Novecento.",
+    "fatto": "primo piatto carbonara si prepara con spaghetti e un condimento a base di uova",
+    "fonte": "https://it.wikipedia.org/wiki/Spaghetti_alla_carbonara",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0006",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "categoria_indizi": "Bevanda",
+    "indizi": [
+      "Bevanda calda",
+      "Contiene una sostanza stimolante",
+      "Si dice che la scoprì un pastore di capre in Etiopia"
+    ],
+    "risposte": [
+      "Caffè",
+      "Tè",
+      "Orzo",
+      "Camomilla"
+    ],
+    "curiosita": "L'espresso moderno nasce a Milano nel 1901 con una macchina brevettata.",
+    "fatto": "bevanda caffe si dice sia nata in etiopia grazie a un pastore",
+    "fonte": "https://it.wikipedia.org/wiki/Caffè",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cuc-0007",
+    "tipo": "indizi",
+    "categoria": "cucina",
+    "difficolta": 3,
+    "categoria_indizi": "Pasta",
+    "indizi": [
+      "Pasta fresca fatta a mano",
+      "Tipica del Sud Italia",
+      "Piccolo disco concavo, con le cime di rapa"
+    ],
+    "risposte": [
+      "Orecchiette",
+      "Cavatelli",
+      "Pici",
+      "Strozzapreti"
+    ],
+    "curiosita": "Il nome viene dalla forma, che ricorda un piccolo orecchio.",
+    "fatto": "pasta orecchiette si condisce con le cime di rapa",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchiette",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

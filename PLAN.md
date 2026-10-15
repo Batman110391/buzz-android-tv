@@ -169,6 +169,7 @@ Messaggi JSON con il campo `t`:
 | tel → TV | `cat` (G3) | `r` (indice del round), `scelta` (0–2) |
 | TV → tutti | `state` fase `categoria` (G3) | `r`, `tempo` (30), `opzioni` [{`id`,`nome`,`icona`}] ×3, `chi` (slot del fanalino), `chi_nome`; per ciascun telefono `puo` (true solo per il fanalino) |
 | TV → tutti | `state` G3f | `gioco` anche `torta` `ordine` `conto`. Con `ordine` anche `criterio`; `risposte[4]` = le voci nell'ordine mostrato in TV; per ciascun telefono `scelta` = `[]` o la sequenza inviata. Fase `torta`: `q`, `tempo` (6), `chi` (slot del lanciatore), `chi_nome`; per ciascun telefono `puo` (true solo per il lanciatore, finché non ha lanciato) |
+| TV → tutti | `state` fase `duello` (G3n) | `q` (0–2), `tot` (3), `indizi` (1–3 scoperti); la TV manda `squadre` [[slot..],[slot..]], `chi` [slot di turno per squadra], `chi_nome`, `bloccate` [slot]; il server li trasforma per ogni telefono in `squadra`, `risponde` (bool), `risponde_nome`, `bloccata`. `answer` vale solo da chi `risponde`, una volta per indizio |
 | tel → TV | `order` (G3f) | `q`, `seq` (4 interi 0–3 tutti diversi = indici delle voci mostrate, nell'ordine scelto) |
 | tel → TV | `throw` (G3f) | `q` (il bersaglio è dove si trova il mirino in TV in quel momento) |
 

@@ -55,6 +55,12 @@ var _s: SchermataDomanda
 var _bomba_ui: BombaUI
 var _bomba: Bomba
 var _conto: SchermataConto
+var _duello_ui: SchermataDuello
+var _dg: Duello
+var _duello_fatto := false
+var _d_fatta: Array[bool] = [false, false]  # Duello: squadra che ha già indovinato la domanda
+var _d_blocco: Array[bool] = [false, false]  # Duello: squadra bloccata fino al prossimo indizio
+var _d_quando: Array[float] = [INF, INF]  # Duello: quando prova a rispondere il bot di turno (secondi dall'ultimo indizio)
 var _torta_ui: TortaUI
 var _lanciato := false  # Torta: il lanciatore ha premuto LANCIA
 var _giochi: Array[String] = []  # id dei giochi scelti, nell'ordine di GIOCHI
@@ -118,7 +124,8 @@ func _ready() -> void:
 	_classifica_ui = SchermataClassifica.new()
 	_categoria_ui = SchermataCategoria.new()
 	_conto = SchermataConto.new()
-	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _classifica_ui, _categoria_ui, _s, _conto, _finale]:
+	_duello_ui = SchermataDuello.new()
+	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _classifica_ui, _categoria_ui, _s, _conto, _duello_ui, _finale]:
 		sc.visible = false
 		add_child(sc)
 	_scelta.confermato.connect(_scelti)
@@ -404,6 +411,7 @@ func _inizia_partita() -> void:
 		_pers.append(p)
 	_capo = -1
 	_hanno_scelto.clear()
+	_duello_fatto = false
 
 
 func _gioco() -> Dictionary:
@@ -558,7 +566,97 @@ func _fine_round(classifica: Array) -> void:
 	_bomba_ui.visible = false
 	_conto.visible = false
 	_r += 1
+	var forza := "--duello" in OS.get_cmdline_user_args()  # per le catture
+	if not _duello_fatto and _r == _giochi.size() / 2 and (Duello.serve(_punti) or forza and _n >= 3):  # a metà partita, se qualcuno è molto indietro
+		_duello_fatto = true
+		await _duello()
 	_prossimo_round()
+
+
+# ---------------------------------------------------------------- Duello degli indizi (PLAN §2)
+func _duello() -> void:
+	_fase = "round"
+	_s.visible = false
+	_server.invia_stato({"fase": "attesa"})
+	_round.mostra(0, 0, "DUELLO DEGLI INDIZI", "Squadre! Gli indizi arrivano uno alla volta: prima indovinate, più punti prendete. Risponde uno a turno, gli altri consigliano!", "🕵️")
+	await get_tree().create_timer(4.0, false).timeout
+	_round.nascondi()
+	var sq := Duello.squadre(_punti)
+	var squadre: Array = []
+	for membri: Array in sq:
+		var lista: Array = []
+		for pid: int in membri:
+			lista.append({"pid": pid, "nome": _g[pid]["nome"], "colore": _g[pid]["colore"], "personaggio": _g[pid]["id"]})
+		squadre.append(lista)
+	_duello_ui.setup(squadre)
+	_duello_ui.visible = true
+	Sfx.music("intermezzo")
+	_dg = Duello.new()
+	_dg.domanda_iniziata.connect(func(q: Dictionary, chi: Array, k: int) -> void:
+		_q = q
+		_i = k
+		_d_fatta = [false, false]
+		_d_blocco = [false, false]
+		_d_nuovo_indizio()
+		_duello_ui.mostra_domanda(k + 1, q["categoria_indizi"], q["indizi"], q["risposte"], chi)
+		_duello_ui.mostra_indizio(1)
+		_duello_ui.set_premio(_dg.premio())
+		_d_stato())
+	_dg.nuovo_indizio.connect(func(n: int) -> void:
+		_d_blocco = [false, false]
+		_d_nuovo_indizio()
+		_duello_ui.mostra_indizio(n)
+		_duello_ui.set_premio(_dg.premio())
+		Sfx.play("pop")
+		_d_stato())
+	_dg.risposta.connect(func(squadra: int, giusta: bool, per_membro: int, punti: Dictionary) -> void:
+		if giusta:
+			_d_fatta[squadra] = true
+		else:
+			_d_blocco[squadra] = true
+		_duello_ui.esito_squadra(squadra, giusta, per_membro)
+		Sfx.play("correct" if giusta else "wrong")
+		for pid: int in sq[squadra]:
+			for slot in _pid_di:
+				if _pid_di[slot] == pid:
+					_server.invia_esito(slot, {"giusta": giusta, "punti": punti[pid] - _punti[pid], "totale": punti[pid], "posizione": _posizione(pid)})
+		_punti = punti.duplicate()
+		_d_stato())
+	_dg.domanda_finita.connect(func(_punti_ora: Dictionary) -> void:
+		_fase = "rivela"
+		_duello_ui.rivela(_q["correct"])
+		_server.invia_stato({"fase": "rivela"})
+		await get_tree().create_timer(3.0, false).timeout
+		_fase = "duello"
+		_dg.advance())
+	_dg.setup(_nomi(), _domande.pesca("indizi", Duello.DOMANDE), _punti)
+	_fase = "duello"
+	_dg.start()
+	await _dg.duello_finito
+	_punti = _dg.punti()
+	_fase = "round"
+	_duello_ui.visible = false
+	_server.invia_stato({"fase": "attesa"})
+
+
+## Duello: a ogni indizio il bot di turno di ogni squadra decide quando (e se) provare.
+func _d_nuovo_indizio() -> void:
+	_t = 0.0
+	for s in 2:
+		_d_quando[s] = randf_range(2.0, 8.0) if randf() < 0.3 + 0.3 * (_dg.indizi_visibili() - 1) else INF
+
+
+func _d_stato() -> void:
+	var squadre: Array = [[], []]
+	var bloccate: Array = []
+	for s in 2:
+		for pid: int in _dg.squadre_attive()[s]:
+			squadre[s].append(_g[pid]["slot"])
+			if _d_fatta[s] or _d_blocco[s]:
+				bloccate.append(_g[pid]["slot"])
+	var chi := _dg.chi_risponde()
+	_server.invia_stato({"fase": "duello", "q": _i, "tot": Duello.DOMANDE, "indizi": _dg.indizi_visibili(), "squadre": squadre,
+			"chi": [_g[chi[0]]["slot"], _g[chi[1]]["slot"]], "chi_nome": [_g[chi[0]]["nome"], _g[chi[1]]["nome"]], "bloccate": bloccate})
 
 
 ## Stesso formato di Game._ranking().
@@ -664,6 +762,9 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 
 
 func _risponde(pid: int, scelta: int) -> void:
+	if _fase == "duello":
+		_dg.submit_answer(pid, scelta)  # risponde solo chi è di turno (lo controlla Duello)
+		return
 	if _fase == "bomba":
 		_bomba.submit_answer(pid, scelta)  # giusta o sbagliata, parte subito la domanda dopo (_b_domanda)
 		return
@@ -705,6 +806,17 @@ func _process(dt: float) -> void:
 		return
 	if _fase == "ruba" or _fase == "categoria" or _fase == "torta":
 		_t += dt
+		return
+	if _fase == "duello":
+		_t += dt
+		var chi := _dg.chi_risponde()
+		for s in 2:
+			if _t >= _d_quando[s] and not _d_fatta[s] and not _d_blocco[s] and (_demo or _g[chi[s]]["bot"]):
+				_d_quando[s] = INF
+				var p: float = [0.35, 0.6, 0.85][_dg.indizi_visibili() - 1]
+				_dg.submit_answer(chi[s], _q["correct"] if randf() < p else randi() % 4)
+		_duello_ui.set_tempo(_dg.secondi_al_prossimo(), Duello.INDIZIO_SEC)
+		_dg.tick(dt)  # può emettere nuovo_indizio / domanda_finita
 		return
 	if _fase != "domanda":
 		return
@@ -1020,7 +1132,7 @@ func _input(e: InputEvent) -> void:
 		"finale":
 			if ok:
 				_torna_al_titolo()
-		"round", "intermezzo", "categoria", "domanda", "rivela", "ruba", "torta", "bomba", "esplosione":
+		"round", "intermezzo", "categoria", "domanda", "rivela", "ruba", "torta", "bomba", "esplosione", "duello":
 			if ok:
 				get_tree().paused = true
 				_server.pausa()

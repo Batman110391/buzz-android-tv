@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-spo-0001",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 1,
+    "categoria_indizi": "Sport",
+    "indizi": [
+      "Sport di squadra con la palla",
+      "Nato negli Stati Uniti nell'Ottocento",
+      "Cinque contro cinque, si segna in un cerchio a tre metri"
+    ],
+    "risposte": [
+      "Pallacanestro",
+      "Pallavolo",
+      "Rugby",
+      "Calcio a 5"
+    ],
+    "curiosita": "Fu inventato nel 1891 da James Naismith, che usava cesti per le pesche.",
+    "fatto": "sport pallacanestro e nato negli stati uniti ed e famoso per la nba",
+    "fonte": "https://it.wikipedia.org/wiki/Pallacanestro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0002",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 1,
+    "categoria_indizi": "Competizione",
+    "indizi": [
+      "Competizione sportiva internazionale",
+      "Si svolge ogni quattro anni",
+      "Ha cinque cerchi colorati come simbolo"
+    ],
+    "risposte": [
+      "Olimpiadi",
+      "Mondiali di calcio",
+      "Tour de France",
+      "Wimbledon"
+    ],
+    "curiosita": "Le prime Olimpiadi moderne si tennero ad Atene nel 1896.",
+    "fatto": "competizione olimpiadi ha cinque cerchi colorati come simbolo",
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0003",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 3,
+    "categoria_indizi": "Atleta",
+    "indizi": [
+      "Velocista di fama mondiale",
+      "È giamaicano",
+      "Dominò dal 2008 al 2016 esultando come un fulmine"
+    ],
+    "risposte": [
+      "Usain Bolt",
+      "Yohan Blake",
+      "Carl Lewis",
+      "Tyson Gay"
+    ],
+    "curiosita": "Ha vinto otto medaglie d'oro olimpiche.",
+    "fatto": "atleta usain bolt esultava imitando un fulmine",
+    "fonte": "https://it.wikipedia.org/wiki/Usain_Bolt",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0004",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 1,
+    "categoria_indizi": "Squadra di calcio",
+    "indizi": [
+      "Squadra di calcio italiana",
+      "Ha sede in Piemonte",
+      "Gioca con maglia a strisce bianche e nere"
+    ],
+    "risposte": [
+      "Juventus",
+      "Torino",
+      "Napoli",
+      "Roma"
+    ],
+    "curiosita": "Fu fondata a Torino nel 1897 da un gruppo di studenti.",
+    "fatto": "squadra di calcio juventus ha sede a torino",
+    "fonte": "https://it.wikipedia.org/wiki/Juventus_Football_Club",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0005",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 2,
+    "categoria_indizi": "Sport",
+    "indizi": [
+      "Sport olimpico invernale sul ghiaccio",
+      "Si pratica su una superficie piana di ghiaccio",
+      "Si lanciano pietre levigate e si spazza il ghiaccio"
+    ],
+    "risposte": [
+      "Curling",
+      "Hockey",
+      "Skeleton",
+      "Bob"
+    ],
+    "curiosita": "Nasce in Scozia nel Cinquecento ed è sport olimpico dal 1998.",
+    "fatto": "sport curling gli atleti spazzano il ghiaccio con una scopa",
+    "fonte": "https://it.wikipedia.org/wiki/Curling",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0006",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 2,
+    "categoria_indizi": "Tennista",
+    "indizi": [
+      "Tennista che ha vinto uno Slam",
+      "Svizzero",
+      "Ha vinto Wimbledon otto volte"
+    ],
+    "risposte": [
+      "Roger Federer",
+      "Stan Wawrinka",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "curiosita": "Ha vinto 20 tornei del Grande Slam in singolare.",
+    "fatto": "tennista roger federer ebbe una storica rivalita con nadal",
+    "fonte": "https://it.wikipedia.org/wiki/Roger_Federer",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-spo-0007",
+    "tipo": "indizi",
+    "categoria": "sport",
+    "difficolta": 3,
+    "categoria_indizi": "Corsa ciclistica",
+    "indizi": [
+      "Corsa ciclistica famosa",
+      "Si corre in più tappe",
+      "Si corre a luglio e il leader veste di giallo"
+    ],
+    "risposte": [
+      "Tour de France",
+      "Giro d'Italia",
+      "Parigi-Roubaix",
+      "Milano-Sanremo"
+    ],
+    "curiosita": "La prima edizione fu nel 1903 e la corsa dura tre settimane.",
+    "fatto": "corsa ciclistica tour de france il leader indossa la maglia gialla",
+    "fonte": "https://it.wikipedia.org/wiki/Tour_de_France",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-mus-0001",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 1,
+    "categoria_indizi": "Strumento musicale",
+    "indizi": [
+      "Strumento a tastiera",
+      "Il suono nasce da corde",
+      "Ha 88 tasti e piccoli martelletti"
+    ],
+    "risposte": [
+      "Pianoforte",
+      "Clavicembalo",
+      "Organo",
+      "Fisarmonica"
+    ],
+    "curiosita": "Fu inventato a Firenze intorno al 1700 da Bartolomeo Cristofori.",
+    "fatto": "strumento musicale pianoforte dentro ha corde colpite da piccoli martelletti",
+    "fonte": "https://it.wikipedia.org/wiki/Pianoforte",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0002",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 3,
+    "categoria_indizi": "Compositore",
+    "indizi": [
+      "Compositore classico",
+      "Nacque in Austria",
+      "Nato a Salisburgo, scrisse Il flauto magico"
+    ],
+    "risposte": [
+      "Wolfgang Amadeus Mozart",
+      "Joseph Haydn",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven"
+    ],
+    "curiosita": "Iniziò a comporre a soli cinque anni e morì a 35.",
+    "fatto": "compositore wolfgang amadeus mozart scrisse il flauto magico e don giovanni",
+    "fonte": "https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0003",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 3,
+    "categoria_indizi": "Gruppo musicale",
+    "indizi": [
+      "Gruppo rock britannico",
+      "Nato negli anni Sessanta",
+      "Quattro ragazzi di Liverpool: John, Paul, George e Ringo"
+    ],
+    "risposte": [
+      "The Beatles",
+      "Rolling Stones",
+      "Queen",
+      "Oasis"
+    ],
+    "curiosita": "Il gruppo si sciolse nel 1970 dopo circa dieci anni di attività.",
+    "fatto": "gruppo musicale the beatles ne facevano parte john paul george e ringo",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0004",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 2,
+    "categoria_indizi": "Compositore",
+    "indizi": [
+      "Compositore italiano d'opera",
+      "Nato nel Nord Italia",
+      "Scrisse Rigoletto e il Va, pensiero del Nabucco"
+    ],
+    "risposte": [
+      "Giuseppe Verdi",
+      "Gaetano Donizetti",
+      "Giacomo Puccini",
+      "Gioachino Rossini"
+    ],
+    "curiosita": "Il coro Va, pensiero è tratto dal Nabucco, andato in scena nel 1842.",
+    "fatto": "compositore giuseppe verdi il suo nabucco contiene il va pensiero",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Verdi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0005",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 2,
+    "categoria_indizi": "Strumento ad arco",
+    "indizi": [
+      "Strumento ad arco",
+      "Si suona appoggiato alla spalla",
+      "È il più piccolo e acuto; lo suonava Paganini"
+    ],
+    "risposte": [
+      "Violino",
+      "Viola",
+      "Violoncello",
+      "Contrabbasso"
+    ],
+    "curiosita": "Ha quattro corde accordate per quinte.",
+    "fatto": "strumento ad arco violino lo suonava paganini",
+    "fonte": "https://it.wikipedia.org/wiki/Violino",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0006",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 2,
+    "categoria_indizi": "Cantautore",
+    "indizi": [
+      "Cantautore italiano",
+      "Nato in Emilia",
+      "Ha scritto Albachiara e Vita spericolata"
+    ],
+    "risposte": [
+      "Vasco Rossi",
+      "Ligabue",
+      "Jovanotti",
+      "Max Pezzali"
+    ],
+    "curiosita": "Albachiara fu pubblicata nel 1979.",
+    "fatto": "cantautore vasco rossi tra i suoi soprannomi ce il blasco",
+    "fonte": "https://it.wikipedia.org/wiki/Vasco_Rossi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mus-0007",
+    "tipo": "indizi",
+    "categoria": "musica",
+    "difficolta": 3,
+    "categoria_indizi": "Genere musicale",
+    "indizi": [
+      "Genere musicale americano",
+      "Nato prima del 1930",
+      "Nasce a New Orleans con improvvisazione e swing"
+    ],
+    "risposte": [
+      "Jazz",
+      "Blues",
+      "Hip hop",
+      "Funk"
+    ],
+    "curiosita": "Nasce all'inizio del Novecento a New Orleans, in Louisiana.",
+    "fatto": "genere musicale jazz si basa su improvvisazione e swing",
+    "fonte": "https://it.wikipedia.org/wiki/Jazz",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

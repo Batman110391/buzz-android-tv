@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-cit-0001",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "categoria_indizi": "Chi l'ha detto?",
+    "indizi": [
+      "Condottiero dell'antichità",
+      "Fu un generale romano",
+      "«Veni, vidi, vici» è una sua frase, dopo l'Asia Minore"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Pompeo",
+      "Annibale",
+      "Alessandro Magno"
+    ],
+    "curiosita": "Cesare la scrisse dopo la vittoria di Zela nel 47 a.C.",
+    "fatto": "chi lha detto giulio cesare fu attribuita a un dittatore romano",
+    "fonte": "https://it.wikipedia.org/wiki/Veni,_vidi,_vici",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cit-0002",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "categoria_indizi": "Film",
+    "indizi": [
+      "Film d'azione americano",
+      "Lo interpreta Schwarzenegger",
+      "Nel 1991 un cyborg dice «Hasta la vista, baby»"
+    ],
+    "risposte": [
+      "Terminator 2",
+      "Rambo",
+      "Predator",
+      "Die Hard"
+    ],
+    "curiosita": "L'attore protagonista è nato in Austria.",
+    "fatto": "film terminator 2 pronunciata da un cyborg interpretato da schwarzenegger",
+    "fonte": "https://it.wikipedia.org/wiki/Terminator_2_-_Il_giorno_del_giudizio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cit-0003",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "categoria_indizi": "Canzone",
+    "indizi": [
+      "Canzone italiana famosa",
+      "Uscì tra il 1958 e il 1960",
+      "Il ritornello fa «Volare, oh oh»; vinse Sanremo nel 1958"
+    ],
+    "risposte": [
+      "Nel blu dipinto di blu",
+      "Azzurro",
+      "Felicità",
+      "Il cielo in una stanza"
+    ],
+    "curiosita": "Vinse due Grammy nel 1959 ed è un classico noto in tutto il mondo.",
+    "fatto": "canzone nel blu dipinto di blu cantata da domenico modugno a sanremo 1958",
+    "fonte": "https://it.wikipedia.org/wiki/Nel_blu,_dipinto_di_blu",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cit-0004",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "categoria_indizi": "Chi l'ha detto?",
+    "indizi": [
+      "Filosofo francese",
+      "Visse nel Seicento",
+      "«Penso, dunque sono» fonda il suo metodo sul dubbio"
+    ],
+    "risposte": [
+      "Cartesio",
+      "Voltaire",
+      "Pascal",
+      "Montaigne"
+    ],
+    "curiosita": "Nella forma latina cogito, ergo sum compare nei Principi di filosofia.",
+    "fatto": "chi lha detto cartesio fonda il metodo sul dubbio",
+    "fonte": "https://it.wikipedia.org/wiki/Cartesio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cit-0005",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "categoria_indizi": "Film",
+    "indizi": [
+      "Film americano ambientato nello spazio",
+      "Uscì prima del 2000",
+      "Con Tom Hanks: «Houston, abbiamo un problema»"
+    ],
+    "risposte": [
+      "Apollo 13",
+      "Gravity",
+      "Interstellar",
+      "Armageddon"
+    ],
+    "curiosita": "Il film è del 1995 e racconta una missione NASA del 1970.",
+    "fatto": "film apollo 13 film con tom hanks sul viaggio verso la luna",
+    "fonte": "https://it.wikipedia.org/wiki/Apollo_13_(film)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cit-0006",
+    "tipo": "indizi",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "categoria_indizi": "Chi l'ha detto?",
+    "indizi": [
+      "Imprenditore americano della tecnologia",
+      "Fondò un'azienda negli anni Settanta",
+      "Disse «Siate affamati, siate folli» a Stanford nel 2005"
+    ],
+    "risposte": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Elon Musk"
+    ],
+    "curiosita": "Il discorso era alla cerimonia di laurea dell'università di Stanford.",
+    "fatto": "chi lha detto steve jobs lo pronuncio il fondatore dellazienda della mela",
+    "fonte": "https://it.wikipedia.org/wiki/Steve_Jobs",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

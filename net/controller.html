@@ -102,6 +102,7 @@ body.lampo{animation:lampo .6s}
 
 <section class="scr" id="s-q">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
+ <div class="q d" id="dtxt" style="display:none">Rispondi per la squadra! Consultatevi.</div>
  <div class="tasti" id="tasti"></div>
  <div class="sub" id="sent" style="display:none;text-align:center;font-size:16px;margin-top:10px">Risposta inviata · 📺 Guarda la TV</div>
 </section>
@@ -131,7 +132,7 @@ body.lampo{animation:lampo .6s}
 
 <section class="scr" id="s-w">
  <div class="hd"><span class="av"></span><div><b class="d nm"></b></div></div>
- <div class="mid"><div class="big d" id="w1"></div></div>
+ <div class="mid"><div class="big d" id="w1"></div><div class="sub d" id="w2"></div></div>
 </section>
 
 <section class="scr" id="s-esito">
@@ -189,7 +190,7 @@ $("grid").onclick = function(e){
 };
 
 function kf(i){return '<span class="f"><svg viewBox="0 0 46 46" fill="#1B0B3A">'+SHAPE[i]+'</svg><i>'+"ABCD".charAt(i)+'</i></span>'}
-function wait(t){ $("w1").textContent = t }
+function wait(t,u){ $("w1").textContent = t; $("w2").textContent = u||"" }
 var lastCall = "";
 function vib(p){ try{ if(navigator.vibrate) navigator.vibrate(p) }catch(e){} }
 // iPhone: niente vibrazione dalle pagine web -> "ding" + lampo quando tocca a te. L'audio si sblocca al primo tocco.
@@ -256,11 +257,22 @@ function render(){
   else {
    id = "s-w"; wait("📺 Guarda la TV");
   }
+ } else if(f==="duello"){
+  var dd = st.scelta>=0;
+  if(st.bloccata){ id = "s-w"; wait(res&&res.giusta?"✓ Indovinato!":"⏳ Aspettate il prossimo indizio") }
+  else if(st.risponde){
+   id = "s-q"; call = "d"+st.q+"_"+st.indizi;
+   $("tasti").innerHTML = [0,1,2,3].map(function(i){
+    return '<button class="k'+(st.scelta===i?" sc":"")+'" data-i="'+i+'"'+(dd?" disabled":"")+'>'+kf(i)+'</button>';
+   }).join("");
+   $("sent").style.display = dd?"block":"none"; $("s-q").classList.remove("rosso");
+  } else { id = "s-w"; wait("🗣️ Consigliate "+(st.risponde_nome||"il compagno")+"!","📺 Guarda la TV") }
  } else if(f==="rivela" && res){
   id = "s-esito"; $("eb").textContent = res.giusta?"✓":"✗"; $("etx").textContent = res.testo||"";
   $("s-esito").className = "scr "+(res.giusta?"good":"bad"); call = "e"+(res.giusta?1:0)+"_"+res.totale;
  } else if(f==="finale"){ id = "s-att";
  } else id = "s-att";
+ $("dtxt").style.display = (id==="s-q"&&f==="duello")?"":"none";
  $("cambia").style.display = (id==="s-att" && f==="lobby" && aperta)?"":"none";
  head($(id)); show(id); tick();
  if(call && call!==lastCall) vib(call.charAt(0)==="e"?(res.giusta?[200]:[150,100,150]):[300,100,300]);
@@ -324,7 +336,7 @@ function onMsg(m){
   if(need){ need = false; var t = ls.get("qz_token");
    if(t&&code&&!m.aperta) send({t:"join",code:code,name:"",avatar:ls.get("qz_av"),token:t});
    else if(t&&code&&me) send({t:"join",code:code,name:me.name,avatar:me.avatar,token:t}) } }
- else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria"||m.fase==="torta")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if(m.fase==="domanda"&&(!st||st.q!==m.q)) res = null; st = m }
+ else if(m.t==="state"){ if((m.fase==="domanda"||m.fase==="ruba"||m.fase==="categoria"||m.fase==="torta")&&typeof m.tempo==="number") fine = Date.now()+m.tempo*1000; if((m.fase==="domanda"||m.fase==="duello")&&(!st||st.fase!==m.fase||st.q!==m.q)) res = null; st = m }
  else if(m.t==="result"){ res = m }
  else if(m.t==="reject"){
   ls.set("qz_token",""); me = null; var r = REJ[m.reason]||"Non puoi entrare.";
@@ -364,6 +376,8 @@ if(demo){
   if(demo==="ordine"){ oq = st.q; oseq = [1] } }
  else if(demo==="torta"||demo==="torta_attesa"){ me = D; fine = Date.now()+5000;
   st = {t:"state",fase:"torta",q:2,tempo:5,chi:demo==="torta"?0:3,chi_nome:"Brioche",puo:demo==="torta"} }
+ else if(demo.indexOf("duello_")===0){ me = D; res = null;
+  st = {t:"state",fase:"duello",q:1,tot:3,indizi:2,squadra:0,risponde:demo==="duello_risponde",risponde_nome:"Nonna Pina",bloccata:demo==="duello_bloccata"} }
  else if(demo==="conto"){ me = D; st = Object.assign({},Q,{gioco:"conto"}) }
  else if(demo==="esito_testo"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2,testo:"Hai rubato 300 punti a Ugo!"} }
  else if(demo==="esito"||demo==="esito_ok"){ me = D; st = {t:"state",fase:"rivela"}; res = {giusta:true,punti:850,totale:2350,posizione:2} }

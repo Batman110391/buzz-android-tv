@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-str-0001",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Grande animale marino",
+      "Si nutre filtrando il plancton",
+      "È il più grande animale mai esistito"
+    ],
+    "risposte": [
+      "Balenottera azzurra",
+      "Squalo balena",
+      "Capodoglio",
+      "Orca"
+    ],
+    "curiosita": "Il suo cuore pesa circa 180 kg, più di molte persone.",
+    "fatto": "animale balenottera azzurra e il piu grande animale mai esistito",
+    "fonte": "https://it.wikipedia.org/wiki/Balaenoptera_musculus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-str-0002",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "categoria_indizi": "Animale",
+    "indizi": [
+      "Marsupiale australiano",
+      "Vive anche in Tasmania",
+      "Le sue feci hanno forma di cubetto"
+    ],
+    "risposte": [
+      "Vombato",
+      "Diavolo della Tasmania",
+      "Koala",
+      "Quokka"
+    ],
+    "curiosita": "Le feci cubiche servono a marcare il territorio senza rotolare via.",
+    "fatto": "animale vombato ha un aspetto goffo e scava tane",
+    "fonte": "https://it.wikipedia.org/wiki/Vombatidae",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-str-0003",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "categoria_indizi": "Luogo",
+    "indizi": [
+      "Specchio d'acqua famoso",
+      "Si trova in Medio Oriente",
+      "Tra Israele e Giordania, vi si galleggia con facilità"
+    ],
+    "risposte": [
+      "Mar Morto",
+      "Mar Rosso",
+      "Lago di Garda",
+      "Mar Caspio"
+    ],
+    "curiosita": "Ha una salinità circa dieci volte quella del mare.",
+    "fatto": "luogo mar morto ha una salinita altissima e un nome che richiama la mancanza di vita",
+    "fonte": "https://it.wikipedia.org/wiki/Mar_Morto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-str-0004",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 2,
+    "categoria_indizi": "Pianeta",
+    "indizi": [
+      "Pianeta del Sistema solare",
+      "Più vicino al Sole della Terra",
+      "Ruota in senso contrario, con nubi di acido solforico"
+    ],
+    "risposte": [
+      "Venere",
+      "Mercurio",
+      "Giove",
+      "Urano"
+    ],
+    "curiosita": "Un giorno su Venere dura più del suo anno.",
+    "fatto": "pianeta venere e il piu caldo con nubi di acido solforico",
+    "fonte": "https://it.wikipedia.org/wiki/Venere_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-str-0005",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 1,
+    "categoria_indizi": "Insetto",
+    "indizi": [
+      "Insetto sociale",
+      "Da adulto ha le ali",
+      "Danza per indicare i fiori e produce miele"
+    ],
+    "risposte": [
+      "Ape",
+      "Vespa",
+      "Formica",
+      "Termite"
+    ],
+    "curiosita": "Per fare un chilo di miele le api visitano milioni di fiori.",
+    "fatto": "insetto ape produce il miele",
+    "fonte": "https://it.wikipedia.org/wiki/Apis_mellifera",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-str-0006",
+    "tipo": "indizi",
+    "categoria": "strano_ma_vero",
+    "difficolta": 3,
+    "categoria_indizi": "Frutto",
+    "indizi": [
+      "Frutto piccolo e dolce",
+      "Matura in primavera",
+      "Falso frutto, con i semi sulla superficie"
+    ],
+    "risposte": [
+      "Fragola",
+      "Ciliegia",
+      "Mirtillo",
+      "Mora"
+    ],
+    "curiosita": "In media una fragola ha circa 200 semi sulla superficie.",
+    "fatto": "frutto fragola botanicamente e un falso frutto",
+    "fonte": "https://it.wikipedia.org/wiki/Fragola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-sci-0001",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "categoria_indizi": "Pianeta",
+    "indizi": [
+      "Pianeta gigante del Sistema solare",
+      "È un gigante gassoso",
+      "Secondo per dimensioni, con anelli visibili al telescopio"
+    ],
+    "risposte": [
+      "Saturno",
+      "Giove",
+      "Urano",
+      "Nettuno"
+    ],
+    "curiosita": "Gli anelli di Saturno sono fatti soprattutto di ghiaccio d'acqua.",
+    "fatto": "pianeta saturno ha un grande sistema di anelli visibili col telescopio",
+    "fonte": "https://it.wikipedia.org/wiki/Saturno_(astronomia)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0002",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "categoria_indizi": "Elemento chimico",
+    "indizi": [
+      "Elemento chimico metallico",
+      "È tossico per l'uomo",
+      "Liquido a temperatura ambiente, simbolo Hg"
+    ],
+    "risposte": [
+      "Mercurio",
+      "Piombo",
+      "Zinco",
+      "Stagno"
+    ],
+    "curiosita": "Il simbolo Hg viene dal latino hydrargyrum, argento liquido.",
+    "fatto": "elemento chimico mercurio si usava nei vecchi termometri simbolo hg",
+    "fonte": "https://it.wikipedia.org/wiki/Mercurio_(elemento_chimico)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0003",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "categoria_indizi": "Scienziato",
+    "indizi": [
+      "Fisico europeo del Novecento",
+      "Nato in Germania",
+      "Formulò la relatività e la formula E=mc²"
+    ],
+    "risposte": [
+      "Albert Einstein",
+      "Max Planck",
+      "Niels Bohr",
+      "Erwin Schrödinger"
+    ],
+    "curiosita": "Vinse il Nobel nel 1921 per l'effetto fotoelettrico, non per la relatività.",
+    "fatto": "scienziato albert einstein il suo nome e legato alla formula emc²",
+    "fonte": "https://it.wikipedia.org/wiki/Albert_Einstein",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0004",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 3,
+    "categoria_indizi": "Scienziato",
+    "indizi": [
+      "Italiano vissuto tra Cinquecento e Seicento",
+      "Fu uno scienziato",
+      "Con il telescopio scoprì quattro lune di Giove e fu processato"
+    ],
+    "risposte": [
+      "Galileo Galilei",
+      "Evangelista Torricelli",
+      "Giordano Bruno",
+      "Tommaso Campanella"
+    ],
+    "curiosita": "Le quattro lune scoperte nel 1610 si chiamano oggi galileiane.",
+    "fatto": "scienziato galileo galilei fu processato dallinquisizione per le sue idee",
+    "fonte": "https://it.wikipedia.org/wiki/Galileo_Galilei",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0005",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "categoria_indizi": "Fenomeno",
+    "indizi": [
+      "Fenomeno astronomico",
+      "Coinvolge la Luna",
+      "La Luna passa davanti al Sole e il giorno si oscura"
+    ],
+    "risposte": [
+      "Eclissi solare",
+      "Eclissi lunare",
+      "Aurora boreale",
+      "Solstizio d'estate"
+    ],
+    "curiosita": "Mai guardarla senza occhiali speciali: il Sole danneggia la vista.",
+    "fatto": "fenomeno eclissi solare il giorno diventa buio per pochi minuti",
+    "fonte": "https://it.wikipedia.org/wiki/Eclissi_solare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0006",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 2,
+    "categoria_indizi": "Unità di misura",
+    "indizi": [
+      "Unità del Sistema internazionale",
+      "Prende il nome da uno scienziato del Seicento",
+      "Misura la forza; è il nome dello scienziato della mela"
+    ],
+    "risposte": [
+      "Newton",
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "curiosita": "Un newton è circa il peso di una mela da 100 grammi.",
+    "fatto": "unita di misura newton porta il nome dello scienziato della mela caduta",
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_internazionale_di_unità_di_misura",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sci-0007",
+    "tipo": "indizi",
+    "categoria": "scienza",
+    "difficolta": 1,
+    "categoria_indizi": "Gas",
+    "indizi": [
+      "Gas presente nell'atmosfera",
+      "Interviene in respirazione e fotosintesi",
+      "Le piante lo assorbono ed è tra i gas serra"
+    ],
+    "risposte": [
+      "Anidride carbonica",
+      "Ossigeno",
+      "Azoto",
+      "Argon"
+    ],
+    "curiosita": "Un grande albero ne cattura decine di chili ogni anno.",
+    "fatto": "gas anidride carbonica lo emettiamo respirando ed e tra i gas serra",
+    "fonte": "https://it.wikipedia.org/wiki/Anidride_carbonica",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

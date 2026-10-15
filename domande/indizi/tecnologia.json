@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-tec-0001",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "categoria_indizi": "Invenzione",
+    "indizi": [
+      "Invenzione per comunicare a distanza",
+      "Trasmette la voce",
+      "Fu brevettata da Alexander Graham Bell"
+    ],
+    "risposte": [
+      "Telefono",
+      "Radio",
+      "Telegrafo",
+      "Televisione"
+    ],
+    "curiosita": "Il brevetto è del 1876, ma l'italiano Meucci lo aveva anticipato nel 1871.",
+    "fatto": "invenzione telefono fu brevettata da alexander graham bell",
+    "fonte": "https://it.wikipedia.org/wiki/Telefono",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0002",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "categoria_indizi": "Invenzione",
+    "indizi": [
+      "Invenzione di prima del 1500",
+      "Aiuta a leggere",
+      "Messa a punto da Gutenberg, moltiplicò i libri"
+    ],
+    "risposte": [
+      "Macchina da stampa",
+      "Occhiali",
+      "Bussola",
+      "Orologio meccanico"
+    ],
+    "curiosita": "Gutenberg stampò la sua Bibbia intorno al 1455.",
+    "fatto": "invenzione macchina da stampa fu messa a punto da gutenberg",
+    "fonte": "https://it.wikipedia.org/wiki/Stampa",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0003",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "categoria_indizi": "Strumento",
+    "indizi": [
+      "Strumento usato dai navigatori",
+      "Funziona senza guardare il cielo",
+      "Ha un ago magnetizzato e indica sempre il nord"
+    ],
+    "risposte": [
+      "Bussola",
+      "Carta nautica",
+      "Sestante",
+      "Astrolabio"
+    ],
+    "curiosita": "Nasce in Cina e arriva in Europa nel XII secolo.",
+    "fatto": "strumento bussola indica sempre il nord",
+    "fonte": "https://it.wikipedia.org/wiki/Bussola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0004",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "categoria_indizi": "Inventore",
+    "indizi": [
+      "Scienziato italiano",
+      "Nato nell'Ottocento",
+      "Vinse il Nobel per la fisica nel 1909 per i segnali senza fili"
+    ],
+    "risposte": [
+      "Guglielmo Marconi",
+      "Antonio Meucci",
+      "Alessandro Volta",
+      "Enrico Fermi"
+    ],
+    "curiosita": "Nel 1901 trasmise un segnale radio attraverso l'Oceano Atlantico.",
+    "fatto": "inventore guglielmo marconi vinse il nobel per la fisica nel 1909",
+    "fonte": "https://it.wikipedia.org/wiki/Guglielmo_Marconi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0005",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 2,
+    "categoria_indizi": "Invenzione",
+    "indizi": [
+      "Dispositivo legato all'elettricità",
+      "Produce corrente elettrica",
+      "Dischi di metalli diversi; la ideò Volta"
+    ],
+    "risposte": [
+      "Pila",
+      "Dinamo",
+      "Lampadina",
+      "Telegrafo elettrico"
+    ],
+    "curiosita": "Il volt prende il nome dal suo inventore, Alessandro Volta.",
+    "fatto": "invenzione pila la invento uno scienziato comasco ricordato dallunita di tensione",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Volta",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0006",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 3,
+    "categoria_indizi": "Dispositivo",
+    "indizi": [
+      "Supporto per memorizzare dati",
+      "È portatile e di piccole dimensioni",
+      "Sostituì il floppy e si inserisce in una porta del computer"
+    ],
+    "risposte": [
+      "Chiavetta USB",
+      "Scheda SD",
+      "Hard disk",
+      "CD-ROM"
+    ],
+    "curiosita": "Arrivò nel 2000 e rese quasi inutili floppy e CD per i file.",
+    "fatto": "dispositivo chiavetta usb si inserisce in una porta del computer",
+    "fonte": "https://it.wikipedia.org/wiki/Chiavetta_USB",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tec-0007",
+    "tipo": "indizi",
+    "categoria": "tecnologia",
+    "difficolta": 1,
+    "categoria_indizi": "Azienda",
+    "indizi": [
+      "Azienda tecnologica americana",
+      "Fondata negli anni Settanta",
+      "Fondata nel 1976 da Jobs e Wozniak, con una mela morsicata"
+    ],
+    "risposte": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "Amazon"
+    ],
+    "curiosita": "Fu fondata in un garage della California.",
+    "fatto": "azienda apple ha il logo di una mela morsicata",
+    "fonte": "https://it.wikipedia.org/wiki/Apple",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

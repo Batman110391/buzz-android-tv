@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-tra-0001",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "categoria_indizi": "Oggetto portafortuna",
+    "indizi": [
+      "Oggetto portafortuna",
+      "Si appende o si porta con sé",
+      "Metallo a forma di U, sopra la porta di casa"
+    ],
+    "risposte": [
+      "Ferro di cavallo",
+      "Cornetto rosso",
+      "Quadrifoglio",
+      "Coccinella"
+    ],
+    "curiosita": "Si appende con le punte verso l'alto, per non far scappare la fortuna.",
+    "fatto": "oggetto portafortuna ferro di cavallo si appende sopra la porta di casa",
+    "fonte": "https://it.wikipedia.org/wiki/Ferro_di_cavallo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tra-0002",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "categoria_indizi": "Festa",
+    "indizi": [
+      "Festa italiana",
+      "Cade tra giugno e agosto",
+      "Si celebra il 15 agosto con pranzi e gite fuori città"
+    ],
+    "risposte": [
+      "Ferragosto",
+      "Festa della Repubblica",
+      "Pasqua",
+      "Natale"
+    ],
+    "curiosita": "Il nome viene dal latino feriae Augusti, il riposo di Augusto.",
+    "fatto": "festa ferragosto il pranzo e le gite fuori citta sono tradizione",
+    "fonte": "https://it.wikipedia.org/wiki/Ferragosto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tra-0003",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 1,
+    "categoria_indizi": "Tradizione natalizia",
+    "indizi": [
+      "Usanza natalizia italiana",
+      "Si prepara in casa con decorazioni",
+      "Statuine e capanna per la nascita di Gesù"
+    ],
+    "risposte": [
+      "Presepe",
+      "Albero",
+      "Calza",
+      "Cenone"
+    ],
+    "curiosita": "Il primo presepe vivente fu fatto da San Francesco a Greccio nel 1223.",
+    "fatto": "tradizione natalizia presepe rappresenta la nascita di gesu in una capanna",
+    "fonte": "https://it.wikipedia.org/wiki/Presepe",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tra-0004",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "categoria_indizi": "Cibo portafortuna",
+    "indizi": [
+      "Legume secco",
+      "Ha il seme piatto e tondo come un disco",
+      "Si mangia a Capodanno; somiglia a monete e porta ricchezza"
+    ],
+    "risposte": [
+      "Lenticchie",
+      "Fave",
+      "Ceci",
+      "Fagioli"
+    ],
+    "curiosita": "Le lenticchie ricordano monete: simbolo di denaro per l'anno nuovo.",
+    "fatto": "cibo portafortuna lenticchie piccoli legumi che somigliano a monete",
+    "fonte": "https://it.wikipedia.org/wiki/Lens_culinaris",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tra-0005",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 2,
+    "categoria_indizi": "Superstizione",
+    "indizi": [
+      "Animale legato a una superstizione",
+      "Ha quattro zampe",
+      "Ha il pelo scuro, i baffi e miagola"
+    ],
+    "risposte": [
+      "Gatto nero",
+      "Cane nero",
+      "Corvo",
+      "Civetta"
+    ],
+    "curiosita": "In altri Paesi, come il Regno Unito, il gatto nero porta fortuna.",
+    "fatto": "superstizione gatto nero ha il pelo scuro i baffi e miagola",
+    "fonte": "https://it.wikipedia.org/wiki/Gatto_nero",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-tra-0006",
+    "tipo": "indizi",
+    "categoria": "tradizioni",
+    "difficolta": 3,
+    "categoria_indizi": "Ricorrenza",
+    "indizi": [
+      "Ricorrenza d'autunno",
+      "Si va al cimitero",
+      "Cade il 2 novembre, dopo Ognissanti"
+    ],
+    "risposte": [
+      "Giorno dei morti",
+      "Ognissanti",
+      "Halloween",
+      "San Martino"
+    ],
+    "curiosita": "Il 1º novembre si festeggia Ognissanti, il 2 si ricordano i defunti.",
+    "fatto": "ricorrenza giorno dei morti cade il 2 novembre subito dopo ognissanti",
+    "fonte": "https://it.wikipedia.org/wiki/Commemorazione_dei_defunti",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

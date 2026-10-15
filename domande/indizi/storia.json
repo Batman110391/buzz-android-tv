@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-sto-0001",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Romano antico che comandò Roma",
+      "Visse nel I secolo a.C.",
+      "Conquistò la Gallia e attraversò il Rubicone"
+    ],
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Fu ucciso nel 44 a.C. con 23 pugnalate dai congiurati.",
+    "fatto": "personaggio storico giulio cesare attraverso il rubicone e mori alle idi di marzo",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0002",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 3,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Grande condottiero europeo",
+      "Fu sovrano di un impero nell'Europa occidentale",
+      "Nato in Corsica, fu sconfitto a Waterloo"
+    ],
+    "risposte": [
+      "Napoleone Bonaparte",
+      "Carlo Magno",
+      "Attila",
+      "Alessandro Magno"
+    ],
+    "curiosita": "Era alto circa 1,69 m: la fama di nanetto nasce da un equivoco sulle misure.",
+    "fatto": "personaggio storico napoleone bonaparte fu sconfitto a waterloo ed esiliato a santelena",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0003",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Evento storico",
+    "indizi": [
+      "Conflitto del Novecento",
+      "Coinvolse molti Stati europei",
+      "Iniziò nel 1939 con l'invasione della Polonia"
+    ],
+    "risposte": [
+      "Seconda guerra mondiale",
+      "Prima guerra mondiale",
+      "Guerra fredda",
+      "Guerra di Corea"
+    ],
+    "curiosita": "Finì nel 1945 e fu il conflitto più grande e sanguinoso della storia.",
+    "fatto": "evento storico seconda guerra mondiale inizio nel 1939 con linvasione della polonia",
+    "fonte": "https://it.wikipedia.org/wiki/Seconda_guerra_mondiale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0004",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 2,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Regina famosa",
+      "Regnò nell'antichità",
+      "Amata da Cesare, morì per il morso di un serpente"
+    ],
+    "risposte": [
+      "Cleopatra",
+      "Nefertiti",
+      "Elisabetta I",
+      "Maria Antonietta"
+    ],
+    "curiosita": "Era di origine greca: fu la prima della sua dinastia a imparare l'egiziano.",
+    "fatto": "personaggio storico cleopatra secondo la tradizione mori per il morso di un serpente",
+    "fonte": "https://it.wikipedia.org/wiki/Cleopatra",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0005",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 1,
+    "categoria_indizi": "Popolo antico",
+    "indizi": [
+      "Popolo dell'antichità",
+      "Ebbe la sede in Italia centrale",
+      "Parlava latino e fondò un impero"
+    ],
+    "risposte": [
+      "Romani",
+      "Etruschi",
+      "Greci",
+      "Fenici"
+    ],
+    "curiosita": "Costruirono oltre 80.000 km di strade: da qui Tutte le strade portano a Roma.",
+    "fatto": "popolo antico romani ebbe per capitale una citta sul tevere",
+    "fonte": "https://it.wikipedia.org/wiki/Antica_Roma",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0006",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 3,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Esploratore del passato",
+      "Era italiano di una città marinara",
+      "Con tre caravelle trovò l'America"
+    ],
+    "risposte": [
+      "Cristoforo Colombo",
+      "Marco Polo",
+      "Vasco da Gama",
+      "Amerigo Vespucci"
+    ],
+    "curiosita": "Nato a Genova, salpò nel 1492 con Niña, Pinta e Santa Maria.",
+    "fatto": "personaggio storico cristoforo colombo salpo con tre caravelle verso le indie e trovo lamerica",
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-sto-0007",
+    "tipo": "indizi",
+    "categoria": "storia",
+    "difficolta": 3,
+    "categoria_indizi": "Personaggio storico",
+    "indizi": [
+      "Protagonista del Risorgimento",
+      "Fu piemontese",
+      "Primo capo del governo dell'Italia unita"
+    ],
+    "risposte": [
+      "Camillo Cavour",
+      "Vittorio Emanuele II",
+      "Giuseppe Mazzini",
+      "Giuseppe Garibaldi"
+    ],
+    "curiosita": "Morì nel giugno 1861, pochi mesi dopo la nascita del Regno d'Italia.",
+    "fatto": "personaggio storico camillo cavour fu il primo capo del governo dellitalia unita",
+    "fonte": "https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

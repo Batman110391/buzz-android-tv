@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-cor-0001",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "categoria_indizi": "Organo",
+    "indizi": [
+      "Organo interno del corpo umano",
+      "Si trova nel torace",
+      "Pompa il sangue e batte centomila volte al giorno"
+    ],
+    "risposte": [
+      "Cuore",
+      "Fegato",
+      "Polmone",
+      "Rene"
+    ],
+    "curiosita": "Un cuore adulto pesa circa 300 grammi.",
+    "fatto": "organo cuore batte circa centomila volte al giorno",
+    "fonte": "https://it.wikipedia.org/wiki/Cuore",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cor-0002",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "categoria_indizi": "Osso",
+    "indizi": [
+      "Osso lungo del corpo umano",
+      "Si trova nella gamba",
+      "È il più lungo e robusto dello scheletro"
+    ],
+    "risposte": [
+      "Femore",
+      "Tibia",
+      "Omero",
+      "Radio"
+    ],
+    "curiosita": "Può sostenere pesi pari a molte volte quello del corpo.",
+    "fatto": "osso femore si trova nella coscia",
+    "fonte": "https://it.wikipedia.org/wiki/Femore",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cor-0003",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 2,
+    "categoria_indizi": "Organo",
+    "indizi": [
+      "Ghiandola del corpo umano",
+      "Aiuta la digestione",
+      "È la più grande del corpo e produce la bile"
+    ],
+    "risposte": [
+      "Fegato",
+      "Pancreas",
+      "Tiroide",
+      "Ipofisi"
+    ],
+    "curiosita": "È l'unico organo interno che può rigenerarsi in parte.",
+    "fatto": "organo fegato produce la bile e filtra il sangue",
+    "fonte": "https://it.wikipedia.org/wiki/Fegato",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cor-0004",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 1,
+    "categoria_indizi": "Organo",
+    "indizi": [
+      "Organo del corpo umano",
+      "A contatto con l'aria",
+      "Ricopre tutto il corpo e contiene la melanina"
+    ],
+    "risposte": [
+      "Pelle",
+      "Polmone",
+      "Intestino",
+      "Fegato"
+    ],
+    "curiosita": "Nell'adulto pesa circa 4 kg e si rinnova in circa un mese.",
+    "fatto": "organo pelle ricopre tutto il corpo e contiene la melanina",
+    "fonte": "https://it.wikipedia.org/wiki/Cute",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cor-0005",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "categoria_indizi": "Senso",
+    "indizi": [
+      "Uno dei cinque sensi",
+      "Percepisce sostanze chimiche nell'aria o nel cibo",
+      "Ha i recettori nella parte alta del naso e riconosce i profumi"
+    ],
+    "risposte": [
+      "Olfatto",
+      "Gusto",
+      "Udito",
+      "Vista"
+    ],
+    "curiosita": "Il naso umano distingue migliaia di odori diversi.",
+    "fatto": "senso olfatto ha i recettori nella parte alta del naso",
+    "fonte": "https://it.wikipedia.org/wiki/Olfatto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cor-0006",
+    "tipo": "indizi",
+    "categoria": "corpo_umano",
+    "difficolta": 3,
+    "categoria_indizi": "Osso",
+    "indizi": [
+      "Parte dell'orecchio",
+      "È un osso",
+      "Il più piccolo dello scheletro; il nome richiama l'equitazione"
+    ],
+    "risposte": [
+      "Staffa",
+      "Incudine",
+      "Coclea",
+      "Timpano"
+    ],
+    "curiosita": "Misura circa 3 millimetri e trasmette i suoni all'orecchio interno.",
+    "fatto": "osso staffa sta nellorecchio e il suo nome ricorda un attrezzo per cavalcare",
+    "fonte": "https://it.wikipedia.org/wiki/Orecchio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

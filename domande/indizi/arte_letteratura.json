@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-art-0001",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "categoria_indizi": "Pittore",
+    "indizi": [
+      "Maestro italiano tra Quattrocento e Cinquecento",
+      "Nacque in un piccolo borgo della Toscana",
+      "Dipinse la Gioconda"
+    ],
+    "risposte": [
+      "Leonardo da Vinci",
+      "Raffaello",
+      "Michelangelo",
+      "Botticelli"
+    ],
+    "curiosita": "La Gioconda è esposta al Louvre di Parigi dal 1797.",
+    "fatto": "pittore leonardo da vinci era anche scienziato e inventore",
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0002",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "categoria_indizi": "Poeta",
+    "indizi": [
+      "Grande autore della letteratura italiana",
+      "Nato a Firenze o nei dintorni",
+      "Scrisse la Divina Commedia"
+    ],
+    "risposte": [
+      "Dante Alighieri",
+      "Petrarca",
+      "Boccaccio",
+      "Ariosto"
+    ],
+    "curiosita": "Il suo poema è diviso in Inferno, Purgatorio e Paradiso.",
+    "fatto": "poeta dante alighieri scrisse la divina commedia",
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0003",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "categoria_indizi": "Scrittore",
+    "indizi": [
+      "Autore italiano dell'Ottocento",
+      "Scrisse anche opere in versi",
+      "Il suo romanzo storico ha per eroi Renzo e Lucia"
+    ],
+    "risposte": [
+      "Alessandro Manzoni",
+      "Giovanni Verga",
+      "Italo Svevo",
+      "Ugo Foscolo"
+    ],
+    "curiosita": "Rivide il romanzo per anni per usare il fiorentino colto.",
+    "fatto": "scrittore alessandro manzoni i suoi personaggi sono renzo e lucia",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Manzoni",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0004",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "categoria_indizi": "Dipinto",
+    "indizi": [
+      "Dipinto di un pittore olandese dell'Ottocento",
+      "Raffigura un paesaggio",
+      "Un cipresso e un cielo di vortici sopra un villaggio"
+    ],
+    "risposte": [
+      "Notte stellata",
+      "I girasoli",
+      "La camera da letto",
+      "Campo di grano con corvi"
+    ],
+    "curiosita": "Oggi è esposto al MoMA di New York.",
+    "fatto": "dipinto notte stellata lo dipinse van gogh dal manicomio di saintremy",
+    "fonte": "https://it.wikipedia.org/wiki/Notte_stellata",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0005",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 2,
+    "categoria_indizi": "Scrittore",
+    "indizi": [
+      "Drammaturgo inglese tra Cinquecento e Seicento",
+      "Fu anche attore",
+      "Scrisse Romeo e Giulietta e Amleto"
+    ],
+    "risposte": [
+      "William Shakespeare",
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "John Webster"
+    ],
+    "curiosita": "Scrisse circa 37 opere teatrali.",
+    "fatto": "scrittore william shakespeare e lautore di romeo e giulietta",
+    "fonte": "https://it.wikipedia.org/wiki/William_Shakespeare",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0006",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 1,
+    "categoria_indizi": "Romanzo",
+    "indizi": [
+      "Romanzo italiano per ragazzi",
+      "Fu scritto nell'Ottocento",
+      "Un burattino di legno ha un naso che cresce con le bugie"
+    ],
+    "risposte": [
+      "Le avventure di Pinocchio",
+      "Cuore",
+      "Gian Burrasca",
+      "Cipollino"
+    ],
+    "curiosita": "Fu pubblicato a puntate sul Giornale per i bambini dal 1881.",
+    "fatto": "romanzo le avventure di pinocchio ha un naso che si allunga quando dice bugie",
+    "fonte": "https://it.wikipedia.org/wiki/Le_avventure_di_Pinocchio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-art-0007",
+    "tipo": "indizi",
+    "categoria": "arte_letteratura",
+    "difficolta": 3,
+    "categoria_indizi": "Pittore",
+    "indizi": [
+      "Pittore spagnolo celebre in tutto il mondo",
+      "Nacque prima del 1890",
+      "Fu tra i fondatori del cubismo e dipinse Guernica"
+    ],
+    "risposte": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "Juan Gris"
+    ],
+    "curiosita": "Guernica, del 1937, ricorda il bombardamento di una città basca.",
+    "fatto": "pittore pablo picasso dipinse guernica",
+    "fonte": "https://it.wikipedia.org/wiki/Pablo_Picasso",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

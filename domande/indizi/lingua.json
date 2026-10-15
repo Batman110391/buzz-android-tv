@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-lin-0001",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "categoria_indizi": "Espressione italiana",
+    "indizi": [
+      "Modo di dire italiano",
+      "Si dice o si fa per scaramanzia",
+      "Augurio prima di una prova; si risponde Crepi!"
+    ],
+    "risposte": [
+      "In bocca al lupo",
+      "Toccare ferro",
+      "Fare un buco nell'acqua",
+      "Gettare la spugna"
+    ],
+    "curiosita": "Si risponde crepi! per scaramanzia, scherzando sull'augurio.",
+    "fatto": "espressione italiana in bocca al lupo la risposta tradizionale e crepi",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_italiana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0002",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "categoria_indizi": "Figura retorica",
+    "indizi": [
+      "Figura retorica",
+      "Mette a confronto due cose",
+      "Il confronto è esplicito, con come o simile a"
+    ],
+    "risposte": [
+      "Similitudine",
+      "Metafora",
+      "Iperbole",
+      "Metonimia"
+    ],
+    "curiosita": "Un esempio classico è veloce come il vento.",
+    "fatto": "figura retorica similitudine usa come o simile a per il confronto",
+    "fonte": "https://it.wikipedia.org/wiki/Similitudine",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0003",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "categoria_indizi": "Lingua",
+    "indizi": [
+      "Lingua romanza della penisola iberica",
+      "Si parla anche fuori dall'Europa",
+      "È la lingua ufficiale del Brasile"
+    ],
+    "risposte": [
+      "Portoghese",
+      "Spagnolo",
+      "Catalano",
+      "Galiziano"
+    ],
+    "curiosita": "Si parla in nove Paesi, tra cui Brasile, Portogallo e Angola.",
+    "fatto": "lingua portoghese e la lingua ufficiale del brasile",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_portoghese",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0004",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 1,
+    "categoria_indizi": "Parte del discorso",
+    "indizi": [
+      "Parte del discorso",
+      "È una parte variabile",
+      "Indica l'azione e si coniuga per tempi e modi"
+    ],
+    "risposte": [
+      "Verbo",
+      "Nome",
+      "Avverbio",
+      "Preposizione"
+    ],
+    "curiosita": "In italiano ci sono tre coniugazioni: in -are, -ere e -ire.",
+    "fatto": "parte del discorso verbo si coniuga per tempi e modi",
+    "fonte": "https://it.wikipedia.org/wiki/Verbo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0005",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 2,
+    "categoria_indizi": "Espressione italiana",
+    "indizi": [
+      "Modo di dire italiano",
+      "Contiene il nome di un animale",
+      "Si usa per chi è stupito e ignorava tutto: c'entra il cielo"
+    ],
+    "risposte": [
+      "Cadere dalle nuvole",
+      "Prendere due piccioni",
+      "Avere le mani in pasta",
+      "Menare il can per l'aia"
+    ],
+    "curiosita": "Si dice quando si scopre una cosa che tutti già sapevano.",
+    "fatto": "espressione italiana cadere dalle nuvole ha a che fare con il cielo e una caduta",
+    "fonte": "https://it.wikipedia.org/wiki/Lingua_italiana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0006",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "categoria_indizi": "Segno di punteggiatura",
+    "indizi": [
+      "Segno di punteggiatura",
+      "Segna una pausa breve dentro la frase",
+      "Separa gli elementi di un semplice elenco"
+    ],
+    "risposte": [
+      "Virgola",
+      "Punto e virgola",
+      "Punto",
+      "Trattino"
+    ],
+    "curiosita": "Dal latino virgula, piccola verga.",
+    "fatto": "segno di punteggiatura virgola separa gli elementi di un elenco",
+    "fonte": "https://it.wikipedia.org/wiki/Virgola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-lin-0007",
+    "tipo": "indizi",
+    "categoria": "lingua",
+    "difficolta": 3,
+    "categoria_indizi": "Parola",
+    "indizi": [
+      "Parola italiana di origine greca",
+      "Ci si va a imparare o ad allenarsi",
+      "In greco antico voleva dire tempo libero"
+    ],
+    "risposte": [
+      "Scuola",
+      "Palestra",
+      "Teatro",
+      "Stadio"
+    ],
+    "curiosita": "Viene dal greco scholé, tempo libero dedicato allo studio.",
+    "fatto": "parola scuola oggi e il luogo dove vanno gli studenti",
+    "fonte": "https://it.wikipedia.org/wiki/Scuola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

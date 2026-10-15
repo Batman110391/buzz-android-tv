@@ -1,6 +1,11 @@
 extends Node
 # Server telefoni: HTTP 8080 (controller.html) + WebSocket 8081. Protocollo: PLAN.md §4 (G2).
 # Non conosce il gioco: lo pilota main.gd.
+# Duello degli indizi (G3n4). TV -> server `state` fase `duello`: `q` (0-2), `tot` (3), `indizi` (1-3 scoperti),
+# `squadre` [[slot..],[slot..]], `chi` [slot di turno squadra 0, slot di turno squadra 1], `chi_nome` [nome0, nome1],
+# `bloccate` [slot..] (squadra bloccata o che ha indovinato). Per ogni telefono il server aggiunge `squadra` (0/1, -1 se in nessuna),
+# `risponde` (bool: e' lui di turno e non bloccato), `risponde_nome` (compagno di turno), `bloccata` (bool) e toglie i 4 campi array.
+# tel -> TV: `answer` {q, choice 0-3} valido in fase duello solo se `risponde`; emette answered(slot, q, choice), uno per slot e per numero di indizi.
 
 signal joined(slot: int, nome: String, avatar: String)
 signal left(slot: int)
@@ -43,6 +48,7 @@ var _risposte := {}  # slot -> {q, choice}
 var _rubato := {}  # slot -> q in cui ha già rubato
 var _scelto := {}  # slot -> r in cui ha già scelto la categoria
 var _ordinato := {}  # slot -> {q, seq}
+var _duello := {}  # slot -> "q:indizi" in cui ha già risposto al duello
 var _lanciato := {}  # slot -> q in cui ha già lanciato la torta
 
 
@@ -103,6 +109,7 @@ func reset() -> void:
 	_scelto.clear()
 	_ordinato.clear()
 	_lanciato.clear()
+	_duello.clear()
 	_state = {}
 	_tutti(_msg_lobby())
 
@@ -316,13 +323,22 @@ func _entrato(c: Dictionary) -> void:
 
 
 func _answer(c: Dictionary, m: Dictionary) -> void:
-	if c.slot < 0 or _state.get("fase") != "domanda":
+	var duello: bool = _state.get("fase") == "duello"
+	if c.slot < 0 or (_state.get("fase") != "domanda" and not duello):
 		return
 	var q = m.get("q")
 	var ch = m.get("choice")
 	if not (_es_int(q) and _es_int(ch)) or int(ch) < 0 or int(ch) > 3:
 		return
 	if not _es_int(_state.get("q")) or int(q) != int(_state.get("q")):
+		return
+	if duello:
+		var mio := _msg_state(c.slot)
+		var chiave := "%d:%s" % [int(q), str(_state.get("indizi"))]
+		if not mio.get("risponde", false) or _duello.get(c.slot) == chiave:
+			return
+		_duello[c.slot] = chiave
+		answered.emit(c.slot, int(q), int(ch))
 		return
 	var r = _risposte.get(c.slot)
 	if r != null and r.q == int(q):
@@ -436,6 +452,21 @@ func _msg_state(slot: int) -> Dictionary:
 		if d.get("gioco") == "ordine":
 			var o = _ordinato.get(slot)
 			d["scelta"] = o.seq if o != null and o.q == int(d.get("q", -1)) else []
+	if d.get("fase") == "duello":
+		var sq: Array = d.get("squadre", []) if d.get("squadre") is Array else []
+		var chi: Array = d.get("chi", []) if d.get("chi") is Array else []
+		var nomi: Array = d.get("chi_nome", []) if d.get("chi_nome") is Array else []
+		var blk: Array = d.get("bloccate", []) if d.get("bloccate") is Array else []
+		var mia := -1
+		for i in sq.size():
+			if sq[i] is Array and slot in sq[i]:
+				mia = i
+		d["squadra"] = mia
+		d["bloccata"] = slot in blk
+		d["risponde"] = mia >= 0 and mia < chi.size() and _es_int(chi[mia]) and int(chi[mia]) == slot and not d["bloccata"]
+		d["risponde_nome"] = str(nomi[mia]) if mia >= 0 and mia < nomi.size() else ""
+		for k in ["squadre", "chi", "chi_nome", "bloccate"]:
+			d.erase(k)
 	if d.get("fase") == "ruba":
 		var puo = d.get("puo", [])
 		d["puo"] = puo is Array and slot in puo and _rubato.get(slot, -1) != int(d.get("q", -1))

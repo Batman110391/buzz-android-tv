@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-mit-0001",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 1,
+    "categoria_indizi": "Divinità greca",
+    "indizi": [
+      "Divinità dell'antica Grecia",
+      "Era figlio di Crono",
+      "Re degli dèi, abitava sull'Olimpo e scagliava i fulmini"
+    ],
+    "risposte": [
+      "Zeus",
+      "Poseidone",
+      "Apollo",
+      "Ares"
+    ],
+    "curiosita": "Era figlio di Crono e di Rea.",
+    "fatto": "divinita greca zeus scagliava i fulmini",
+    "fonte": "https://it.wikipedia.org/wiki/Zeus",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mit-0002",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 1,
+    "categoria_indizi": "Eroe",
+    "indizi": [
+      "Eroe dell'antica Grecia",
+      "Uccise mostri con le sue mani",
+      "Figlio di Zeus e di una mortale, compì dodici fatiche"
+    ],
+    "risposte": [
+      "Ercole",
+      "Teseo",
+      "Achille",
+      "Ulisse"
+    ],
+    "curiosita": "Eracle è il nome greco, Ercole quello romano.",
+    "fatto": "eroe ercole compi dodici fatiche",
+    "fonte": "https://it.wikipedia.org/wiki/Eracle",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mit-0003",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 3,
+    "categoria_indizi": "Creatura mitologica",
+    "indizi": [
+      "Creatura mitologica ibrida",
+      "Ha il corpo in parte umano",
+      "Testa di toro, viveva nel labirinto di Cnosso"
+    ],
+    "risposte": [
+      "Minotauro",
+      "Centauro",
+      "Chimera",
+      "Grifone"
+    ],
+    "curiosita": "Teseo lo uccise grazie al filo di Arianna.",
+    "fatto": "creatura mitologica minotauro viveva nel labirinto di cnosso",
+    "fonte": "https://it.wikipedia.org/wiki/Minotauro",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mit-0004",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 1,
+    "categoria_indizi": "Divinità norrena",
+    "indizi": [
+      "Dio della mitologia norrena",
+      "È figlio di Odino",
+      "Dio del tuono con un martello; dà il nome al giovedì"
+    ],
+    "risposte": [
+      "Thor",
+      "Baldr",
+      "Odino",
+      "Loki"
+    ],
+    "curiosita": "In inglese Thursday significa giorno di Thor.",
+    "fatto": "divinita norrena thor da il nome al giovedi in inglese",
+    "fonte": "https://it.wikipedia.org/wiki/Thor",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mit-0005",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 2,
+    "categoria_indizi": "Mostro",
+    "indizi": [
+      "Mostro della mitologia greca",
+      "Fu uccisa da un eroe",
+      "Ogni testa tagliata ricresceva, nella palude di Lerna"
+    ],
+    "risposte": [
+      "Idra",
+      "Medusa",
+      "Cerbero",
+      "Scilla"
+    ],
+    "curiosita": "Per fermarla furono bruciati i colli dopo ogni taglio.",
+    "fatto": "mostro idra fu uccisa da ercole nella palude di lerna",
+    "fonte": "https://it.wikipedia.org/wiki/Idra_di_Lerna",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-mit-0006",
+    "tipo": "indizi",
+    "categoria": "mitologia",
+    "difficolta": 2,
+    "categoria_indizi": "Personaggio mitico",
+    "indizi": [
+      "Personaggio del mito di Roma",
+      "Fu re di Roma",
+      "Allattato da una lupa, uccise il fratello e fondò la città"
+    ],
+    "risposte": [
+      "Romolo",
+      "Numa Pompilio",
+      "Remo",
+      "Enea"
+    ],
+    "curiosita": "Secondo la tradizione Roma fu fondata il 21 aprile del 753 a.C.",
+    "fatto": "personaggio mitico romolo uccise il fratello e fondo la citta",
+    "fonte": "https://it.wikipedia.org/wiki/Romolo",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

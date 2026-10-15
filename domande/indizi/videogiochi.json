@@ -1,0 +1,140 @@
+[
+  {
+    "id": "in-vid-0001",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 1,
+    "categoria_indizi": "Personaggio",
+    "indizi": [
+      "Personaggio dei videogiochi",
+      "Porta un cappello",
+      "Idraulico con baffi e cappello rosso; salva Peach"
+    ],
+    "risposte": [
+      "Super Mario",
+      "Luigi",
+      "Sonic",
+      "Kirby"
+    ],
+    "curiosita": "Esordì nel 1981 come Jumpman in Donkey Kong.",
+    "fatto": "personaggio super mario salva la principessa peach",
+    "fonte": "https://it.wikipedia.org/wiki/Super_Mario",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-vid-0002",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "categoria_indizi": "Videogioco",
+    "indizi": [
+      "Videogioco arcade classico",
+      "È un gioco di logica",
+      "Nato in Russia, si completano le righe orizzontali"
+    ],
+    "risposte": [
+      "Tetris",
+      "Columns",
+      "Pac-Man",
+      "Pong"
+    ],
+    "curiosita": "Fu ideato nel 1984 da Alexey Pajitnov.",
+    "fatto": "videogioco tetris bisogna completare le righe orizzontali",
+    "fonte": "https://it.wikipedia.org/wiki/Tetris",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-vid-0003",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "categoria_indizi": "Videogioco",
+    "indizi": [
+      "Videogioco molto popolare tra i giovani",
+      "Ha una grafica a blocchi",
+      "Mondo di cubi, picconi e creeper"
+    ],
+    "risposte": [
+      "Minecraft",
+      "Roblox",
+      "Fortnite",
+      "Terraria"
+    ],
+    "curiosita": "È uno dei videogiochi più venduti di sempre.",
+    "fatto": "videogioco minecraft si gioca con picconi e creeper",
+    "fonte": "https://it.wikipedia.org/wiki/Minecraft",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-vid-0004",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 2,
+    "categoria_indizi": "Console",
+    "indizi": [
+      "Console di gioco",
+      "Uscì tra il 1988 e il 1990",
+      "Mascotte: porcospino blu rivale del Super Nintendo"
+    ],
+    "risposte": [
+      "Sega Mega Drive",
+      "Neo Geo",
+      "Atari 2600",
+      "PlayStation"
+    ],
+    "curiosita": "Si chiamava Mega Drive in Europa e Genesis in Nord America.",
+    "fatto": "console sega mega drive fu la grande rivale del super nintendo",
+    "fonte": "https://it.wikipedia.org/wiki/Sega_Mega_Drive",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-vid-0005",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "categoria_indizi": "Personaggio",
+    "indizi": [
+      "Eroe di un videogioco",
+      "Combatte con una spada",
+      "Berretto verde, regno di Hyrule, salva Zelda"
+    ],
+    "risposte": [
+      "Link",
+      "Cloud",
+      "Master Chief",
+      "Gordon Freeman"
+    ],
+    "curiosita": "Link non parla mai: Zelda è la principessa, non l'eroe.",
+    "fatto": "personaggio link viaggia nel regno di hyrule per salvare zelda",
+    "fonte": "https://it.wikipedia.org/wiki/The_Legend_of_Zelda",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-vid-0006",
+    "tipo": "indizi",
+    "categoria": "videogiochi",
+    "difficolta": 3,
+    "categoria_indizi": "Videogioco",
+    "indizi": [
+      "Videogioco arcade classico",
+      "Nato in Giappone",
+      "Cerchio giallo in un labirinto, mangia puntini e scappa dai fantasmi"
+    ],
+    "risposte": [
+      "Pac-Man",
+      "Donkey Kong",
+      "Pong",
+      "Asteroids"
+    ],
+    "curiosita": "Secondo la leggenda, la forma nasce da una pizza con una fetta mancante.",
+    "fatto": "videogioco pacman mangia puntini e scappa da quattro fantasmi",
+    "fonte": "https://it.wikipedia.org/wiki/Pac-Man",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

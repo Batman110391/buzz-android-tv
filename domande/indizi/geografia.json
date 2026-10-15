@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-geo-0001",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "categoria_indizi": "Fiume",
+    "indizi": [
+      "Fiume italiano",
+      "Scorre nel Nord Italia",
+      "È il più lungo d'Italia e attraversa Piemonte e Lombardia"
+    ],
+    "risposte": [
+      "Po",
+      "Adige",
+      "Tevere",
+      "Arno"
+    ],
+    "curiosita": "Il Po è lungo circa 650 km e sfocia nell'Adriatico con un grande delta.",
+    "fatto": "fiume po e il fiume piu lungo ditalia",
+    "fonte": "https://it.wikipedia.org/wiki/Po_(fiume)",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0002",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "categoria_indizi": "Città",
+    "indizi": [
+      "Città europea attraversata da canali",
+      "Fu un grande porto commerciale",
+      "Ha piazza San Marco e il Canal Grande"
+    ],
+    "risposte": [
+      "Venezia",
+      "Amsterdam",
+      "Bruges",
+      "San Pietroburgo"
+    ],
+    "curiosita": "Venezia sorge su oltre cento isolette unite da circa 400 ponti.",
+    "fatto": "citta venezia ha piazza san marco e il canal grande",
+    "fonte": "https://it.wikipedia.org/wiki/Venezia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0003",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "categoria_indizi": "Stato",
+    "indizi": [
+      "Stato africano",
+      "Si affaccia sul Mar Mediterraneo",
+      "Il Nilo lo attraversa e ha le piramidi di Giza"
+    ],
+    "risposte": [
+      "Egitto",
+      "Libia",
+      "Sudan",
+      "Etiopia"
+    ],
+    "curiosita": "La piramide di Cheope fu per millenni la costruzione più alta del mondo.",
+    "fatto": "stato egitto ha le piramidi di giza",
+    "fonte": "https://it.wikipedia.org/wiki/Egitto",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0004",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "categoria_indizi": "Montagna",
+    "indizi": [
+      "Vetta delle Alpi",
+      "Ha un ghiacciaio e supera i 4000 metri",
+      "È la più alta delle Alpi, al confine con la Francia"
+    ],
+    "risposte": [
+      "Monte Bianco",
+      "Gran Paradiso",
+      "Marmolada",
+      "Ortles"
+    ],
+    "curiosita": "Alto circa 4.800 metri, è la vetta più alta dell'Europa occidentale.",
+    "fatto": "montagna monte bianco e la vetta piu alta delle alpi",
+    "fonte": "https://it.wikipedia.org/wiki/Monte_Bianco",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0005",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 1,
+    "categoria_indizi": "Isola",
+    "indizi": [
+      "Isola del Mediterraneo",
+      "Appartiene all'Italia",
+      "Ospita l'Etna, vulcano attivo"
+    ],
+    "risposte": [
+      "Sicilia",
+      "Sardegna",
+      "Corsica",
+      "Malta"
+    ],
+    "curiosita": "È la più grande isola del Mediterraneo.",
+    "fatto": "isola sicilia ospita letna vulcano attivo",
+    "fonte": "https://it.wikipedia.org/wiki/Sicilia",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0006",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 2,
+    "categoria_indizi": "Deserto",
+    "indizi": [
+      "Grande deserto",
+      "Si trova in Africa",
+      "È il più grande deserto caldo del mondo"
+    ],
+    "risposte": [
+      "Sahara",
+      "Namib",
+      "Gobi",
+      "Atacama"
+    ],
+    "curiosita": "Il Sahara copre una superficie grande quasi come gli Stati Uniti.",
+    "fatto": "deserto sahara e il piu grande deserto caldo del mondo",
+    "fonte": "https://it.wikipedia.org/wiki/Sahara",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-geo-0007",
+    "tipo": "indizi",
+    "categoria": "geografia",
+    "difficolta": 3,
+    "categoria_indizi": "Città",
+    "indizi": [
+      "Capitale europea sul fiume",
+      "Fu capitale di un Paese del blocco sovietico",
+      "Sorge sulla Moldava e ha il Ponte Carlo"
+    ],
+    "risposte": [
+      "Praga",
+      "Varsavia",
+      "Vienna",
+      "Parigi"
+    ],
+    "curiosita": "Il Ponte Carlo fu costruito nel Trecento e conta trenta statue.",
+    "fatto": "citta praga il suo centro e famoso per il ponte carlo",
+    "fonte": "https://it.wikipedia.org/wiki/Praga",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]

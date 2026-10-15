@@ -1,0 +1,163 @@
+[
+  {
+    "id": "in-cos-0001",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 1,
+    "categoria_indizi": "Gioco",
+    "indizi": [
+      "Gioco da tavolo per due giocatori",
+      "Si gioca su una tavola quadrettata di 64 caselle",
+      "Ha pezzi come torre, alfiere e cavallo"
+    ],
+    "risposte": [
+      "Scacchi",
+      "Dama",
+      "Backgammon",
+      "Go"
+    ],
+    "curiosita": "Il gioco nasce in India circa 1.500 anni fa.",
+    "fatto": "gioco scacchi vince chi da scacco matto al re",
+    "fonte": "https://it.wikipedia.org/wiki/Scacchi",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0002",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 2,
+    "categoria_indizi": "Gioco",
+    "indizi": [
+      "Gioco da tavolo per più giocatori",
+      "Si tirano i dadi",
+      "Si conquistano territori e ognuno ha un obiettivo segreto"
+    ],
+    "risposte": [
+      "Risiko",
+      "Monopoli",
+      "Scarabeo",
+      "Taboo"
+    ],
+    "curiosita": "In origine il gioco si chiama Risk ed è nato in Francia nel 1957.",
+    "fatto": "gioco risiko ogni giocatore ha un obiettivo segreto di conquista",
+    "fonte": "https://it.wikipedia.org/wiki/Risiko",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0003",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 3,
+    "categoria_indizi": "Personaggio",
+    "indizi": [
+      "Personaggio che porta doni ai bambini",
+      "È una donna",
+      "Vola su una scopa con un sacco di dolci e carbone"
+    ],
+    "risposte": [
+      "Befana",
+      "Santa Lucia",
+      "Babbo Natale",
+      "San Nicola"
+    ],
+    "curiosita": "Il suo nome deriva da Epifania.",
+    "fatto": "personaggio befana vola su una scopa con un sacco di dolci",
+    "fonte": "https://it.wikipedia.org/wiki/Befana",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0004",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 1,
+    "categoria_indizi": "Festa",
+    "indizi": [
+      "Festa tradizionale italiana",
+      "Cade in inverno",
+      "Maschere in strada, chiacchiere e frittelle"
+    ],
+    "risposte": [
+      "Carnevale",
+      "Pasqua",
+      "Epifania",
+      "Ferragosto"
+    ],
+    "curiosita": "Quello di Venezia è tra i più antichi e famosi del mondo.",
+    "fatto": "festa carnevale i dolci tipici sono chiacchiere e frittelle",
+    "fonte": "https://it.wikipedia.org/wiki/Carnevale",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0005",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 1,
+    "categoria_indizi": "Oggetto",
+    "indizi": [
+      "Oggetto che si indossa",
+      "Si porta al braccio",
+      "Segna ore e minuti con le lancette"
+    ],
+    "risposte": [
+      "Orologio",
+      "Braccialetto",
+      "Collana",
+      "Cintura"
+    ],
+    "curiosita": "Il primo orologio da polso fu creato nel 1810 per una regina di Napoli.",
+    "fatto": "oggetto orologio segna ore e minuti",
+    "fonte": "https://it.wikipedia.org/wiki/Orologio",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0006",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 2,
+    "categoria_indizi": "Capo d'abbigliamento",
+    "indizi": [
+      "Capo d'abbigliamento diffuso",
+      "Nacque nella seconda metà dell'Ottocento",
+      "Tela robusta di cotone blu, reso famoso da Levi Strauss"
+    ],
+    "risposte": [
+      "Jeans",
+      "Smoking",
+      "Cappotto",
+      "Gilet"
+    ],
+    "curiosita": "Il nome deriva da Gênes, il francese per Genova.",
+    "fatto": "capo dabbigliamento jeans fu reso famoso da levi strauss nellovest americano",
+    "fonte": "https://it.wikipedia.org/wiki/Jeans",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  },
+  {
+    "id": "in-cos-0007",
+    "tipo": "indizi",
+    "categoria": "costume",
+    "difficolta": 3,
+    "categoria_indizi": "Gioco di carte",
+    "indizi": [
+      "Gioco di carte",
+      "Si usa un mazzo italiano da 40 carte",
+      "Si dichiara un seme che vince su tutti gli altri"
+    ],
+    "risposte": [
+      "Briscola",
+      "Scopa",
+      "Burraco",
+      "Poker"
+    ],
+    "curiosita": "Le carte italiane hanno i semi denari, coppe, spade e bastoni.",
+    "fatto": "gioco di carte briscola prevede un seme che prende tutte le altre carte",
+    "fonte": "https://it.wikipedia.org/wiki/Briscola",
+    "origine": "claude",
+    "creata": "2026-10-15"
+  }
+]
