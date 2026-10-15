@@ -566,8 +566,8 @@ func _fine_round(classifica: Array) -> void:
 	_bomba_ui.visible = false
 	_conto.visible = false
 	_r += 1
-	var forza := "--duello" in OS.get_cmdline_user_args()  # per le catture
-	if not _duello_fatto and _r == _giochi.size() / 2 and (Duello.serve(_punti) or forza and _n >= 3):  # a metà partita, se qualcuno è molto indietro
+	var forza := "--duello" in OS.get_cmdline_user_args()  # prove: Duello subito dopo il 1° round
+	if not _duello_fatto and _n >= 3 and (forza and _r == 1 or _r == _giochi.size() / 2 and Duello.serve(_punti)):  # a metà partita, se qualcuno è molto indietro
 		_duello_fatto = true
 		await _duello()
 	_prossimo_round()
