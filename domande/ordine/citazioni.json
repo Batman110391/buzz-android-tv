@@ -1,0 +1,602 @@
+[
+  {
+    "id": "or-cit-0001",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dalla frase più antica alla più recente",
+    "elementi": [
+      "Veni, vidi, vici",
+      "Essere o non essere",
+      "Obbedisco",
+      "I have a dream"
+    ],
+    "valori": [
+      "47 a.C.",
+      "1600 circa",
+      "1866",
+      "1963"
+    ],
+    "curiosita": "Il discorso di King è del 1963, quello di Garibaldi un telegramma.",
+    "fatto": "citazione frasi veni vidi amleto obbedisco dream",
+    "fonte": "https://it.wikipedia.org/wiki/Frase_celebre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0002",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "criterio": "Dalla canzone italiana più antica alla recente",
+    "elementi": [
+      "Nel blu dipinto di blu",
+      "Azzurro",
+      "Vita spericolata",
+      "Con te partirò"
+    ],
+    "valori": [
+      "1958",
+      "1968",
+      "1983",
+      "1995"
+    ],
+    "curiosita": "Tutte e quattro hanno segnato Sanremo o le classifiche.",
+    "fatto": "citazione canzoni nel blu azzurro vita spericolata con te partiro",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_di_Sanremo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0003",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "criterio": "Dal film più antico al più recente (battute)",
+    "elementi": [
+      "Casablanca",
+      "Il Padrino",
+      "Guerre stellari",
+      "Titanic"
+    ],
+    "valori": [
+      "1942",
+      "1972",
+      "1977",
+      "1997"
+    ],
+    "curiosita": "Ognuno ha almeno una battuta entrata nel linguaggio comune.",
+    "fatto": "citazione film casablanca padrino guerre stellari titanic battute",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0004",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal libro più antico al più recente",
+    "elementi": [
+      "La Divina Commedia",
+      "I promessi sposi",
+      "Pinocchio",
+      "Il Piccolo Principe"
+    ],
+    "valori": [
+      "1320 circa",
+      "1827",
+      "1883",
+      "1943"
+    ],
+    "curiosita": "Il Piccolo Principe fu pubblicato a New York.",
+    "fatto": "citazione libri commedia promessi sposi pinocchio piccolo principe",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0005",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal romanzo di fantasia più antico al recente",
+    "elementi": [
+      "Lo Hobbit",
+      "1984",
+      "Fahrenheit 451",
+      "Harry Potter"
+    ],
+    "valori": [
+      "1937",
+      "1949",
+      "1953",
+      "1997"
+    ],
+    "curiosita": "Il primo Harry Potter uscì in Gran Bretagna nel 1997.",
+    "fatto": "citazione libri hobbit 1984 fahrenheit harry potter",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_fantastica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0006",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal programma TV italiano più antico al recente",
+    "elementi": [
+      "Lascia o raddoppia?",
+      "Rischiatutto",
+      "Striscia la notizia",
+      "Il Grande Fratello"
+    ],
+    "valori": [
+      "1955",
+      "1970",
+      "1988",
+      "2000"
+    ],
+    "curiosita": "Tutti e quattro hanno lanciato frasi e tormentoni.",
+    "fatto": "citazione tv lascia raddoppia rischiatutto striscia grande fratello",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_della_televisione_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0007",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dalla frase storica più antica alla recente",
+    "elementi": [
+      "Sangue e lacrime",
+      "Ich bin ein Berliner",
+      "Un piccolo passo",
+      "Houston, problema"
+    ],
+    "valori": [
+      "1940",
+      "1963",
+      "1969",
+      "1970"
+    ],
+    "curiosita": "Gli ultimi due sono legati alle missioni Apollo.",
+    "fatto": "citazione frasi sangue lacrime berliner piccolo passo houston",
+    "fonte": "https://it.wikipedia.org/wiki/Frase_celebre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0008",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dalla hit anni 60-80 più antica alla recente",
+    "elementi": [
+      "Hey Jude",
+      "Imagine",
+      "Bohemian Rhapsody",
+      "Billie Jean"
+    ],
+    "valori": [
+      "1968",
+      "1971",
+      "1975",
+      "1983"
+    ],
+    "curiosita": "Imagine è il secondo album solista di Lennon.",
+    "fatto": "citazione canzoni hey jude imagine bohemian billie jean",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_rock",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0009",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dalla hit anni Dieci più antica alla recente",
+    "elementi": [
+      "Gangnam Style",
+      "Happy",
+      "Hello",
+      "Shape of You"
+    ],
+    "valori": [
+      "2012",
+      "2013",
+      "2015",
+      "2017"
+    ],
+    "curiosita": "Sono quattro successi planetari degli anni Dieci.",
+    "fatto": "citazione canzoni gangnam happy hello shape of you",
+    "fonte": "https://it.wikipedia.org/wiki/Musica_pop",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0010",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film più vecchio al più nuovo (anni 70-00)",
+    "elementi": [
+      "Rocky",
+      "Ritorno al futuro",
+      "Forrest Gump",
+      "Il Gladiatore"
+    ],
+    "valori": [
+      "1976",
+      "1985",
+      "1994",
+      "2000"
+    ],
+    "curiosita": "Rocky vinse l'Oscar come miglior film.",
+    "fatto": "citazione film rocky ritorno al futuro forrest gump gladiatore battute",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0011",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film italiano più vecchio: battute celebri",
+    "elementi": [
+      "La dolce vita",
+      "Amici miei",
+      "Ecce Bombo",
+      "La vita è bella"
+    ],
+    "valori": [
+      "1960",
+      "1975",
+      "1978",
+      "1997"
+    ],
+    "curiosita": "Nel 1960 «La dolce vita» vinse la Palma d'oro a Cannes.",
+    "fatto": "citazione film italiani dolce vita amici miei ecce bombo vita e bella",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema_italiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0012",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dal brano vincitore di Sanremo più antico",
+    "elementi": [
+      "Grazie dei fiori",
+      "Non ho l'età",
+      "Fiumi di parole",
+      "Zitti e buoni"
+    ],
+    "valori": [
+      "1951",
+      "1964",
+      "1997",
+      "2021"
+    ],
+    "curiosita": "Il primo Festival si tenne nel 1951.",
+    "fatto": "citazione sanremo vincitori grazie dei fiori eta fiumi zitti",
+    "fonte": "https://it.wikipedia.org/wiki/Festival_di_Sanremo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0013",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dalla poesia più antica alla più recente",
+    "elementi": [
+      "I Sepolcri",
+      "L'infinito",
+      "M'illumino d'immenso",
+      "Ed è subito sera"
+    ],
+    "valori": [
+      "1807",
+      "1819",
+      "1917",
+      "1930"
+    ],
+    "curiosita": "Ungaretti scrisse «Mattina» in trincea.",
+    "fatto": "citazione poesie sepolcri infinito illumino subito sera",
+    "fonte": "https://it.wikipedia.org/wiki/Poesia_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0014",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dall'opera lirica più antica alla recente",
+    "elementi": [
+      "Barbiere di Siviglia",
+      "Nabucco",
+      "Rigoletto",
+      "Turandot"
+    ],
+    "valori": [
+      "1816",
+      "1842",
+      "1851",
+      "1926"
+    ],
+    "curiosita": "Turandot rimase incompiuta alla morte di Puccini.",
+    "fatto": "citazione opere barbiere nabucco rigoletto turandot",
+    "fonte": "https://it.wikipedia.org/wiki/Opera_lirica",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0015",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dalla frase dell'antichità a quella medievale",
+    "elementi": [
+      "Molon labe",
+      "Il dado è tratto",
+      "Veni, vidi, vici",
+      "Dio lo vuole"
+    ],
+    "valori": [
+      "480 a.C.",
+      "49 a.C.",
+      "47 a.C.",
+      "1095"
+    ],
+    "curiosita": "Cesare scrisse il suo motto dopo Zela.",
+    "fatto": "citazione frasi molon labe dado vidi dio lo vuole",
+    "fonte": "https://it.wikipedia.org/wiki/Frase_celebre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0016",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film di fantascienza più vecchio al nuovo",
+    "elementi": [
+      "Guerre stellari",
+      "Alien",
+      "Blade Runner",
+      "Matrix"
+    ],
+    "valori": [
+      "1977",
+      "1979",
+      "1982",
+      "1999"
+    ],
+    "curiosita": "Alien e Blade Runner sono di Ridley Scott.",
+    "fatto": "citazione film fantascienza guerre stellari alien blade runner matrix",
+    "fonte": "https://it.wikipedia.org/wiki/Fantascienza",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0017",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal tormentone anni 80 più vecchio al recente",
+    "elementi": [
+      "Sarà perché ti amo",
+      "Felicità",
+      "L'italiano",
+      "L'estate sta finendo"
+    ],
+    "valori": [
+      "1981",
+      "1982",
+      "1983",
+      "1985"
+    ],
+    "curiosita": "Quattro tormentoni degli anni Ottanta.",
+    "fatto": "citazione brani sara perche felicita italiano estate finendo",
+    "fonte": "https://it.wikipedia.org/wiki/Musica_leggera_italiana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0018",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film classico più vecchio al più recente",
+    "elementi": [
+      "Via col vento",
+      "Quarto potere",
+      "Taxi Driver",
+      "Pulp Fiction"
+    ],
+    "valori": [
+      "1939",
+      "1941",
+      "1976",
+      "1994"
+    ],
+    "curiosita": "«Quarto potere» è di Orson Welles.",
+    "fatto": "citazione film via col vento quarto potere taxi driver pulp fiction",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0019",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dal romanzo classico più antico al recente",
+    "elementi": [
+      "Don Chisciotte",
+      "I tre moschettieri",
+      "Moby Dick",
+      "Il vecchio e il mare"
+    ],
+    "valori": [
+      "1605",
+      "1844",
+      "1851",
+      "1952"
+    ],
+    "curiosita": "Il vecchio e il mare fece vincere a Hemingway il Pulitzer.",
+    "fatto": "citazione libri don chisciotte moschettieri moby dick vecchio mare",
+    "fonte": "https://it.wikipedia.org/wiki/Letteratura_mondiale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0020",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film italiano più vecchio (da Rossellini)",
+    "elementi": [
+      "Roma città aperta",
+      "Il sorpasso",
+      "Ricomincio da tre",
+      "Il postino"
+    ],
+    "valori": [
+      "1945",
+      "1962",
+      "1981",
+      "1994"
+    ],
+    "curiosita": "Troisi girò «Il postino» da malato.",
+    "fatto": "citazione film italiani roma citta aperta sorpasso ricomincio postino",
+    "fonte": "https://it.wikipedia.org/wiki/Storia_del_cinema_italiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0021",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "criterio": "Dalla canzone Disney più antica alla recente",
+    "elementi": [
+      "Fischia mentre lavori",
+      "Bibbidi-Bobbidi-Bu",
+      "Hakuna Matata",
+      "Libera sono"
+    ],
+    "valori": [
+      "1937",
+      "1950",
+      "1994",
+      "2013"
+    ],
+    "curiosita": "Libera sono è la versione italiana di Let It Go.",
+    "fatto": "citazione disney canzoni fischia bibbidi hakuna libera sono",
+    "fonte": "https://it.wikipedia.org/wiki/Walt_Disney_Animation_Studios",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0022",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dal pensiero più antico al più recente",
+    "elementi": [
+      "Carpe diem",
+      "Penso, dunque sono",
+      "Proletari, unitevi!",
+      "Dio è morto"
+    ],
+    "valori": [
+      "23 a.C.",
+      "1637",
+      "1848",
+      "1882"
+    ],
+    "curiosita": "Il Manifesto del Partito Comunista è del 1848.",
+    "fatto": "citazione pensiero carpe diem penso dunque sono dio morto proletari",
+    "fonte": "https://it.wikipedia.org/wiki/Filosofia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0023",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "criterio": "Dal motto più antico al più recente",
+    "elementi": [
+      "Dio e Popolo",
+      "Roma o morte",
+      "Obbedisco",
+      "Memento audere semper"
+    ],
+    "valori": [
+      "1831",
+      "1862",
+      "1866",
+      "1918"
+    ],
+    "curiosita": "Sono motti legati al Risorgimento e alla Grande Guerra.",
+    "fatto": "citazione motti dio e popolo roma o morte obbedisco memento",
+    "fonte": "https://it.wikipedia.org/wiki/Risorgimento",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0024",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "criterio": "Dal film d'animazione più vecchio al nuovo",
+    "elementi": [
+      "Il re leone",
+      "Toy Story",
+      "Alla ricerca di Nemo",
+      "Frozen"
+    ],
+    "valori": [
+      "1994",
+      "1995",
+      "2003",
+      "2013"
+    ],
+    "curiosita": "Toy Story fu il primo lungometraggio interamente in 3D.",
+    "fatto": "citazione film animazione re leone toy story nemo frozen",
+    "fonte": "https://it.wikipedia.org/wiki/Film_d'animazione",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "or-cit-0025",
+    "tipo": "ordine",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "criterio": "Dal film di supereroi più vecchio al nuovo",
+    "elementi": [
+      "Superman",
+      "Spider-Man",
+      "Iron Man",
+      "Black Panther"
+    ],
+    "valori": [
+      "1978",
+      "2002",
+      "2008",
+      "2018"
+    ],
+    "curiosita": "Iron Man aprì l'universo cinematografico Marvel.",
+    "fatto": "citazione film supereroi superman spider man iron man black panther",
+    "fonte": "https://it.wikipedia.org/wiki/Film_di_supereroi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

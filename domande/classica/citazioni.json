@@ -1,0 +1,3242 @@
+[
+  {
+    "id": "cl-cit-0001",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi disse «Veni, vidi, vici»?",
+    "risposte": [
+      "Giulio Cesare",
+      "Augusto",
+      "Nerone",
+      "Annibale"
+    ],
+    "curiosita": "La scrisse al Senato dopo la rapida vittoria di Zela, nel 47 a.C.",
+    "fatto": "citazione veni vidi vici cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0002",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Houston, abbiamo…»",
+    "risposte": [
+      "un problema",
+      "un guasto",
+      "un'emergenza",
+      "un allarme"
+    ],
+    "curiosita": "Fu detto durante Apollo 13, nel 1970: in realtà «abbiamo avuto» un problema.",
+    "fatto": "citazione houston abbiamo un problema",
+    "fonte": "https://it.wikipedia.org/wiki/Apollo_13",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0003",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "In quale film si dice «Che la Forza sia con te»?",
+    "risposte": [
+      "Guerre stellari",
+      "Star Trek",
+      "Matrix",
+      "Alien"
+    ],
+    "curiosita": "Il primo film della saga uscì nel 1977.",
+    "fatto": "citazione che la forza sia con te film",
+    "fonte": "https://it.wikipedia.org/wiki/Guerre_stellari",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0004",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse «Nel mezzo del cammin di nostra vita»?",
+    "risposte": [
+      "Dante Alighieri",
+      "Petrarca",
+      "Boccaccio",
+      "Ariosto"
+    ],
+    "curiosita": "È il primo verso dell'Inferno.",
+    "fatto": "citazione nel mezzo del cammin autore",
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0005",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi disse «Un piccolo passo per l'uomo»?",
+    "risposte": [
+      "Neil Armstrong",
+      "Michael Collins",
+      "Yuri Gagarin",
+      "John Glenn"
+    ],
+    "curiosita": "Disse di aver detto «per un uomo», ma nella registrazione non si sente.",
+    "fatto": "citazione piccolo passo per l uomo armstrong",
+    "fonte": "https://it.wikipedia.org/wiki/Neil_Armstrong",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0006",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi cantò «Nel blu dipinto di blu»?",
+    "risposte": [
+      "Domenico Modugno",
+      "Claudio Villa",
+      "Renato Carosone",
+      "Tony Renis"
+    ],
+    "curiosita": "Vinse Sanremo nel 1958 ed è conosciuta anche come «Volare».",
+    "fatto": "citazione nel blu dipinto di blu modugno",
+    "fonte": "https://it.wikipedia.org/wiki/Domenico_Modugno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0007",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale conduttore salutava il pubblico con «Allegria!»?",
+    "risposte": [
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Corrado",
+      "Enzo Tortora"
+    ],
+    "curiosita": "Il suo nome è legato a «Lascia o raddoppia?» e «Rischiatutto».",
+    "fatto": "citazione allegria saluto mike bongiorno",
+    "fonte": "https://it.wikipedia.org/wiki/Mike_Bongiorno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0008",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ripeteva «Ma mi faccia il piacere!»?",
+    "risposte": [
+      "Totò",
+      "Peppino De Filippo",
+      "Alberto Sordi",
+      "Aldo Fabrizi"
+    ],
+    "curiosita": "Il suo vero nome era Antonio de Curtis.",
+    "fatto": "citazione ma mi faccia il piacere toto",
+    "fonte": "https://it.wikipedia.org/wiki/Totò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0009",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale pulcino nero esclama «È un'ingiustizia!»?",
+    "risposte": [
+      "Calimero",
+      "Titti",
+      "Woodstock",
+      "Beep Beep"
+    ],
+    "curiosita": "Nacque a Carosello nel 1963 per pubblicizzare un detersivo.",
+    "fatto": "citazione calimero ingiustizia pulcino",
+    "fonte": "https://it.wikipedia.org/wiki/Calimero",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0010",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Dopo Carosello tutti a…»",
+    "risposte": [
+      "nanna",
+      "casa",
+      "scuola",
+      "cena"
+    ],
+    "curiosita": "Carosello andò in onda dal 1957 al 1977.",
+    "fatto": "citazione dopo carosello tutti a nanna",
+    "fonte": "https://it.wikipedia.org/wiki/Carosello_(programma_televisivo)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0011",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Voglio una vita spericolata»?",
+    "risposte": [
+      "Vasco Rossi",
+      "Ligabue",
+      "Piero Pelù",
+      "Zucchero"
+    ],
+    "curiosita": "Al Sanremo del 1983 arrivò ultima.",
+    "fatto": "citazione vita spericolata vasco",
+    "fonte": "https://it.wikipedia.org/wiki/Vasco_Rossi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0012",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse il monologo «Essere o…»?",
+    "risposte": [
+      "William Shakespeare",
+      "Christopher Marlowe",
+      "Molière",
+      "Goethe"
+    ],
+    "curiosita": "È il monologo di Amleto, principe di Danimarca.",
+    "fatto": "citazione essere o non essere shakespeare",
+    "fonte": "https://it.wikipedia.org/wiki/William_Shakespeare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0013",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi gridò «Eureka!» uscendo dalla vasca?",
+    "risposte": [
+      "Archimede",
+      "Euclide",
+      "Pitagora",
+      "Talete"
+    ],
+    "curiosita": "Secondo Vitruvio aveva scoperto come misurare il volume di un corpo.",
+    "fatto": "citazione eureka archimede vasca",
+    "fonte": "https://it.wikipedia.org/wiki/Archimede",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0014",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi pronunciò il discorso «I have a dream»?",
+    "risposte": [
+      "Martin Luther King",
+      "Malcolm X",
+      "Nelson Mandela",
+      "Rosa Parks"
+    ],
+    "curiosita": "Lo tenne a Washington il 28 agosto 1963.",
+    "fatto": "citazione i have a dream martin luther king",
+    "fonte": "https://it.wikipedia.org/wiki/Martin_Luther_King",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0015",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «La vita è come una scatola di…»",
+    "risposte": [
+      "cioccolatini",
+      "biscotti",
+      "caramelle",
+      "sorprese"
+    ],
+    "curiosita": "La frase è nel film «Forrest Gump», del 1994.",
+    "fatto": "citazione vita scatola di cioccolatini forrest gump",
+    "fonte": "https://it.wikipedia.org/wiki/Forrest_Gump",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0016",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Hasta la vista,…»",
+    "risposte": [
+      "baby",
+      "amigo",
+      "señor",
+      "compadre"
+    ],
+    "curiosita": "Lo dice il Terminator nel secondo film, del 1991.",
+    "fatto": "citazione hasta la vista baby terminator",
+    "fonte": "https://it.wikipedia.org/wiki/Arnold_Schwarzenegger",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0017",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Ti faccio un'offerta che…»",
+    "risposte": [
+      "non potrà rifiutare",
+      "sarà un onore",
+      "ti farà ricco",
+      "pagherai caro"
+    ],
+    "curiosita": "La dice Vito Corleone ne «Il Padrino».",
+    "fatto": "citazione offerta che non potra rifiutare padrino",
+    "fonte": "https://it.wikipedia.org/wiki/Il_padrino_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0018",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi grida «Sono il re del mondo!» sulla prua?",
+    "risposte": [
+      "Jack Dawson",
+      "Cal Hockley",
+      "Capitano Smith",
+      "Thomas Andrews"
+    ],
+    "curiosita": "Nel film del 1997 lo dice Jack, interpretato da DiCaprio.",
+    "fatto": "citazione re del mondo prua titanic",
+    "fonte": "https://it.wikipedia.org/wiki/Titanic_(film_1997)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0019",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi sussurra «Il mio tesssoro»?",
+    "risposte": [
+      "Gollum",
+      "Frodo",
+      "Saruman",
+      "Smaug"
+    ],
+    "curiosita": "Si riferisce all'Unico Anello, che gli ha consumato la vita.",
+    "fatto": "citazione mio tesoro gollum anello",
+    "fonte": "https://it.wikipedia.org/wiki/Gollum",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0020",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ferma il Balrog sul ponte di Khazad-dûm?",
+    "risposte": [
+      "Gandalf",
+      "Saruman",
+      "Aragorn",
+      "Elrond"
+    ],
+    "curiosita": "Lo dice al Balrog sul ponte di Khazad-dûm.",
+    "fatto": "citazione tu non puoi passare gandalf",
+    "fonte": "https://it.wikipedia.org/wiki/Gandalf",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0021",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi urla «Adriana!» alla fine di «Rocky»?",
+    "risposte": [
+      "Rocky Balboa",
+      "Apollo Creed",
+      "Paulie",
+      "Mickey"
+    ],
+    "curiosita": "Il film del 1976 vinse l'Oscar come miglior film.",
+    "fatto": "citazione adriana urlo rocky balboa",
+    "fonte": "https://it.wikipedia.org/wiki/Rocky_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0022",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Verso l'infinito e…»",
+    "risposte": [
+      "oltre",
+      "avanti",
+      "ancora",
+      "altrove"
+    ],
+    "curiosita": "È il motto di un giocattolo astronauta della Pixar.",
+    "fatto": "citazione verso l infinito e oltre",
+    "fonte": "https://it.wikipedia.org/wiki/Pixar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0023",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Imagine there's no heaven»?",
+    "risposte": [
+      "John Lennon",
+      "Paul McCartney",
+      "Elton John",
+      "David Bowie"
+    ],
+    "curiosita": "Uscì nel 1971, dopo lo scioglimento dei Beatles.",
+    "fatto": "citazione imagine no heaven lennon",
+    "fonte": "https://it.wikipedia.org/wiki/John_Lennon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0024",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale gruppo canta «Is this the real life?»?",
+    "risposte": [
+      "Queen",
+      "Beatles",
+      "Rolling Stones",
+      "Pink Floyd"
+    ],
+    "curiosita": "È il primo verso di «Bohemian Rhapsody», del 1975.",
+    "fatto": "citazione is this the real life queen",
+    "fonte": "https://it.wikipedia.org/wiki/Bohemian_Rhapsody",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0025",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi cantò «Con te partirò»?",
+    "risposte": [
+      "Andrea Bocelli",
+      "Luciano Pavarotti",
+      "Eros Ramazzotti",
+      "Zucchero"
+    ],
+    "curiosita": "Fu presentata a Sanremo nel 1995.",
+    "fatto": "citazione con te partiro bocelli",
+    "fonte": "https://it.wikipedia.org/wiki/Andrea_Bocelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0026",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale gruppo ha lanciato nel 1981 «Sarà perché ti amo»?",
+    "risposte": [
+      "Ricchi e Poveri",
+      "Matia Bazar",
+      "Righeira",
+      "Pooh"
+    ],
+    "curiosita": "Fu un grande successo del 1981.",
+    "fatto": "citazione sara perche ti amo ricchi e poveri",
+    "fonte": "https://it.wikipedia.org/wiki/Ricchi_e_Poveri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0027",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Lasciatemi cantare, sono un italiano»?",
+    "risposte": [
+      "Toto Cutugno",
+      "Al Bano",
+      "Pupo",
+      "Umberto Tozzi"
+    ],
+    "curiosita": "«L'italiano» è del 1983.",
+    "fatto": "citazione lasciatemi cantare italiano cutugno",
+    "fonte": "https://it.wikipedia.org/wiki/Toto_Cutugno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0028",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi disse «Date a Cesare quel che è di Cesare»?",
+    "risposte": [
+      "Gesù",
+      "San Pietro",
+      "Ponzio Pilato",
+      "Giovanni Battista"
+    ],
+    "curiosita": "La risposta riguardava il pagamento delle tasse ai Romani.",
+    "fatto": "citazione date a cesare quel che e di cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Gesù",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0029",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «E quindi uscimmo a riveder le…»",
+    "risposte": [
+      "stelle",
+      "nuvole",
+      "montagne",
+      "città"
+    ],
+    "curiosita": "È l'ultimo verso dell'Inferno di Dante.",
+    "fatto": "citazione uscimmo a riveder le stelle",
+    "fonte": "https://it.wikipedia.org/wiki/Inferno_(Divina_Commedia)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0030",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi cantò «Caruso»?",
+    "risposte": [
+      "Lucio Dalla",
+      "Fabrizio De André",
+      "Francesco Guccini",
+      "Gino Paoli"
+    ],
+    "curiosita": "Dalla la scrisse nel 1986 dopo aver soggiornato nell'albergo di Sorrento dove stette Caruso.",
+    "fatto": "citazione caruso canzone dalla",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Dalla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0031",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «La solitudine»?",
+    "risposte": [
+      "Laura Pausini",
+      "Giorgia",
+      "Elisa",
+      "Emma Marrone"
+    ],
+    "curiosita": "Vinse Sanremo Giovani nel 1993.",
+    "fatto": "citazione la solitudine pausini",
+    "fonte": "https://it.wikipedia.org/wiki/Laura_Pausini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0032",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale gruppo ha cantato «Yesterday»?",
+    "risposte": [
+      "Beatles",
+      "Rolling Stones",
+      "Queen",
+      "Beach Boys"
+    ],
+    "curiosita": "È una delle canzoni più reincise della storia.",
+    "fatto": "citazione yesterday canzone beatles",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0033",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Thriller»?",
+    "risposte": [
+      "Michael Jackson",
+      "Prince",
+      "Stevie Wonder",
+      "Lionel Richie"
+    ],
+    "curiosita": "Il disco del 1982 è tra i più venduti di sempre.",
+    "fatto": "citazione thriller canzone jackson",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Jackson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0034",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Dancing Queen»?",
+    "risposte": [
+      "ABBA",
+      "Bee Gees",
+      "Boney M",
+      "Spice Girls"
+    ],
+    "curiosita": "Il brano è del 1976.",
+    "fatto": "citazione dancing queen abba",
+    "fonte": "https://it.wikipedia.org/wiki/ABBA",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0035",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Waka Waka (This Time for Africa)»?",
+    "risposte": [
+      "Shakira",
+      "Beyoncé",
+      "Jennifer Lopez",
+      "Rihanna"
+    ],
+    "curiosita": "Fu la canzone ufficiale dei Mondiali di calcio del 2010.",
+    "fatto": "citazione waka waka shakira",
+    "fonte": "https://it.wikipedia.org/wiki/Shakira",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0036",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Bad Romance»?",
+    "risposte": [
+      "Lady Gaga",
+      "Katy Perry",
+      "Rihanna",
+      "Madonna"
+    ],
+    "curiosita": "Il videoclip ha miliardi di visualizzazioni.",
+    "fatto": "citazione bad romance lady gaga",
+    "fonte": "https://it.wikipedia.org/wiki/Lady_Gaga",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0037",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Shake It Off»?",
+    "risposte": [
+      "Taylor Swift",
+      "Katy Perry",
+      "Selena Gomez",
+      "Ariana Grande"
+    ],
+    "curiosita": "Uscì nel 2014 nell'album «1989».",
+    "fatto": "citazione shake it off taylor swift",
+    "fonte": "https://it.wikipedia.org/wiki/Taylor_Swift",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0038",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Roar»?",
+    "risposte": [
+      "Katy Perry",
+      "Lady Gaga",
+      "Pink",
+      "Demi Lovato"
+    ],
+    "curiosita": "Uscì nel 2013 ed è un inno all'autostima.",
+    "fatto": "citazione roar katy perry",
+    "fonte": "https://it.wikipedia.org/wiki/Katy_Perry",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0039",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale gruppo canta «Zitti e buoni»?",
+    "risposte": [
+      "Måneskin",
+      "Negramaro",
+      "Subsonica",
+      "Elio e le Storie Tese"
+    ],
+    "curiosita": "Con questo brano vinse Sanremo e l'Eurovision nel 2021.",
+    "fatto": "citazione zitti e buoni maneskin",
+    "fonte": "https://it.wikipedia.org/wiki/Måneskin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0040",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Soldi»?",
+    "risposte": [
+      "Mahmood",
+      "Blanco",
+      "Ultimo",
+      "Achille Lauro"
+    ],
+    "curiosita": "Vinse Sanremo nel 2019.",
+    "fatto": "citazione soldi mahmood sanremo",
+    "fonte": "https://it.wikipedia.org/wiki/Mahmood",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0041",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Basta un poco di zucchero e la pillola…»",
+    "risposte": [
+      "va giù",
+      "sparisce",
+      "è dolce",
+      "passa"
+    ],
+    "curiosita": "È la canzone di «Mary Poppins», del 1964.",
+    "fatto": "citazione basta un poco di zucchero pillola",
+    "fonte": "https://it.wikipedia.org/wiki/Mary_Poppins_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0042",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale principessa canta «Libera sono»?",
+    "risposte": [
+      "Elsa",
+      "Anna",
+      "Rapunzel",
+      "Belle"
+    ],
+    "curiosita": "Il film «Frozen» uscì nel 2013.",
+    "fatto": "citazione libera sono elsa frozen",
+    "fonte": "https://it.wikipedia.org/wiki/Frozen_-_Il_regno_di_ghiaccio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0043",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale orso canta «Lo stretto indispensabile»?",
+    "risposte": [
+      "Baloo",
+      "Yogi",
+      "Winnie the Pooh",
+      "Paddington"
+    ],
+    "curiosita": "Compare nel «Libro della giungla» Disney del 1967.",
+    "fatto": "citazione stretto indispensabile baloo",
+    "fonte": "https://it.wikipedia.org/wiki/Il_libro_della_giungla_(film_1967)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0044",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale franchise ha lo slogan «Dobbiamo catturarli tutti»?",
+    "risposte": [
+      "Pokémon",
+      "Digimon",
+      "Yu-Gi-Oh",
+      "Dragon Ball"
+    ],
+    "curiosita": "Il primo videogioco uscì in Giappone nel 1996.",
+    "fatto": "citazione dobbiamo catturarli tutti pokemon",
+    "fonte": "https://it.wikipedia.org/wiki/Pokémon",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0045",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse «C'era una volta un pezzo di legno»?",
+    "risposte": [
+      "Carlo Collodi",
+      "Gianni Rodari",
+      "Edmondo De Amicis",
+      "Italo Calvino"
+    ],
+    "curiosita": "Collodi iniziò a pubblicare Pinocchio a puntate nel 1881.",
+    "fatto": "citazione c era una volta un pezzo di legno collodi",
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_Collodi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0046",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "In quale film si dice «Ohana vuol dire famiglia»?",
+    "risposte": [
+      "Lilo & Stitch",
+      "Oceania",
+      "Frozen",
+      "Coco"
+    ],
+    "curiosita": "Il film Disney uscì nel 2002 ed è ambientato alle Hawaii.",
+    "fatto": "citazione ohana vuol dire famiglia lilo stitch",
+    "fonte": "https://it.wikipedia.org/wiki/Lilo_&_Stitch",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0047",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ha cantato «Hello» («Hello, it's me»)?",
+    "risposte": [
+      "Adele",
+      "Beyoncé",
+      "Rihanna",
+      "Lana Del Rey"
+    ],
+    "curiosita": "Uscì nel 2015 e batté record di visualizzazioni.",
+    "fatto": "citazione hello it s me adele",
+    "fonte": "https://it.wikipedia.org/wiki/Adele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0048",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi dice «Gli orchi sono come le cipolle»?",
+    "risposte": [
+      "Shrek",
+      "Ciuchino",
+      "Lord Farquaad",
+      "Il Gatto con gli stivali"
+    ],
+    "curiosita": "Il film d'animazione è del 2001.",
+    "fatto": "citazione orchi come le cipolle shrek",
+    "fonte": "https://it.wikipedia.org/wiki/Shrek_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0049",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale pugile ha reso celebre «Vola come una farfalla, pungi come un'ape»?",
+    "risposte": [
+      "Muhammad Ali",
+      "Mike Tyson",
+      "Rocky Marciano",
+      "Joe Frazier"
+    ],
+    "curiosita": "La frase è del suo assistente Drew Bundini Brown.",
+    "fatto": "citazione vola come una farfalla ali",
+    "fonte": "https://it.wikipedia.org/wiki/Muhammad_Ali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0050",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi disse «Siate affamati, siate folli» a Stanford nel 2005?",
+    "risposte": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Jeff Bezos"
+    ],
+    "curiosita": "Citava la rivista «Whole Earth Catalog».",
+    "fatto": "citazione siate affamati siate folli jobs",
+    "fonte": "https://it.wikipedia.org/wiki/Steve_Jobs",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0051",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale film ha la frase «Vedo la gente morta»?",
+    "risposte": [
+      "Il sesto senso",
+      "The Others",
+      "Ghost",
+      "Poltergeist"
+    ],
+    "curiosita": "Lo dice un bambino al suo psicologo, nel film del 1999.",
+    "fatto": "citazione vedo la gente morta sesto senso",
+    "fonte": "https://it.wikipedia.org/wiki/Il_sesto_senso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0052",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "In quale film si urla «Si può fare!»?",
+    "risposte": [
+      "Frankenstein Junior",
+      "Balle spaziali",
+      "Il Gobbo di Notre Dame",
+      "La Mummia"
+    ],
+    "curiosita": "Il film di Mel Brooks è del 1974, girato in bianco e nero.",
+    "fatto": "citazione si puo fare frankenstein junior",
+    "fonte": "https://it.wikipedia.org/wiki/Frankenstein_Junior",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0053",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale computer rifiuta di aprire il portello a Dave?",
+    "risposte": [
+      "HAL 9000",
+      "Skynet",
+      "KITT",
+      "Mother"
+    ],
+    "curiosita": "Compare in «2001: Odissea nello spazio», del 1968.",
+    "fatto": "citazione mi dispiace dave non posso farlo hal",
+    "fonte": "https://it.wikipedia.org/wiki/HAL_9000",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0054",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi annunciava in TV «Il pranzo è servito»?",
+    "risposte": [
+      "Corrado Mantoni",
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Enzo Tortora"
+    ],
+    "curiosita": "Il programma andò in onda negli anni Ottanta.",
+    "fatto": "citazione il pranzo e servito corrado",
+    "fonte": "https://it.wikipedia.org/wiki/Corrado_Mantoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0055",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi gridò «Il cielo è azzurro sopra Berlino!» nel 2006?",
+    "risposte": [
+      "Fabio Caressa",
+      "Bruno Pizzul",
+      "Nando Martellini",
+      "Marco Civoli"
+    ],
+    "curiosita": "Lo disse commentando i Mondiali di calcio per Sky.",
+    "fatto": "citazione cielo azzurro sopra berlino caressa",
+    "fonte": "https://it.wikipedia.org/wiki/Fabio_Caressa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0056",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ripeté tre volte «Campioni del mondo!» nel 1982?",
+    "risposte": [
+      "Nando Martellini",
+      "Bruno Pizzul",
+      "Sandro Ciotti",
+      "Giampiero Galeazzi"
+    ],
+    "curiosita": "Il commento accompagnò il 3-1 alla Germania Ovest a Madrid.",
+    "fatto": "citazione campioni del mondo 1982 martellini",
+    "fonte": "https://it.wikipedia.org/wiki/Nando_Martellini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0057",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse «E il naufragar m'è dolce in questo mare»?",
+    "risposte": [
+      "Giacomo Leopardi",
+      "Ugo Foscolo",
+      "Giovanni Pascoli",
+      "Eugenio Montale"
+    ],
+    "curiosita": "È l'ultimo verso de «L'infinito».",
+    "fatto": "citazione naufragar m e dolce leopardi",
+    "fonte": "https://it.wikipedia.org/wiki/Giacomo_Leopardi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0058",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse «Si sta come d'autunno sugli alberi le foglie»?",
+    "risposte": [
+      "Giuseppe Ungaretti",
+      "Eugenio Montale",
+      "Salvatore Quasimodo",
+      "Umberto Saba"
+    ],
+    "curiosita": "La poesia «Soldati» è del 1918, scritta durante la guerra.",
+    "fatto": "citazione si sta come d autunno ungaretti",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Ungaretti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0059",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi scrisse «Le donne, i cavallier, l'arme, gli amori»?",
+    "risposte": [
+      "Ludovico Ariosto",
+      "Torquato Tasso",
+      "Matteo Maria Boiardo",
+      "Dante Alighieri"
+    ],
+    "curiosita": "È il primo verso dell'«Orlando furioso».",
+    "fatto": "citazione le donne i cavallier ariosto",
+    "fonte": "https://it.wikipedia.org/wiki/Ludovico_Ariosto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0060",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "In quale film Dorothy dice a Toto che sono lontani dal Kansas?",
+    "risposte": [
+      "Il mago di Oz",
+      "Mary Poppins",
+      "Peter Pan",
+      "Alice in Wonderland"
+    ],
+    "curiosita": "Il film del 1939 passa dal bianco e nero al colore.",
+    "fatto": "citazione non siamo piu in kansas oz",
+    "fonte": "https://it.wikipedia.org/wiki/Il_mago_di_Oz_(film_1939)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0061",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Francamente, me ne infischio»?",
+    "risposte": [
+      "Via col vento",
+      "Casablanca",
+      "Ben-Hur",
+      "Cleopatra"
+    ],
+    "curiosita": "La dice Rhett Butler a Rossella O'Hara, alla fine del film.",
+    "fatto": "citazione francamente me ne infischio film",
+    "fonte": "https://it.wikipedia.org/wiki/Via_col_vento_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0062",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Suonala ancora, Sam»?",
+    "risposte": [
+      "Casablanca",
+      "Via col vento",
+      "Quarto potere",
+      "Il Padrino"
+    ],
+    "curiosita": "Nell'originale la frase è «Play it, Sam», detta da Ilsa.",
+    "fatto": "citazione suonala ancora sam film",
+    "fonte": "https://it.wikipedia.org/wiki/Casablanca_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0063",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi telegrafò «Obbedisco» nel 1866?",
+    "risposte": [
+      "Giuseppe Garibaldi",
+      "Giuseppe Mazzini",
+      "Vittorio Emanuele II",
+      "Camillo Cavour"
+    ],
+    "curiosita": "Rispondeva all'ordine di lasciare il Trentino dopo Bezzecca.",
+    "fatto": "citazione obbedisco telegramma 1866",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Garibaldi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0064",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi lanciò il grido «O Roma o morte» nel 1862?",
+    "risposte": [
+      "Giuseppe Garibaldi",
+      "Giuseppe Mazzini",
+      "Nino Bixio",
+      "Carlo Pisacane"
+    ],
+    "curiosita": "Finì ad Aspromonte, dove fu ferito a un piede.",
+    "fatto": "citazione o roma o morte aspromonte",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Garibaldi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0065",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi disse «Il dado è tratto» passando il Rubicone?",
+    "risposte": [
+      "Giulio Cesare",
+      "Pompeo",
+      "Bruto",
+      "Marco Antonio"
+    ],
+    "curiosita": "Era il 49 a.C.: varcare il Rubicone con l'esercito era vietato.",
+    "fatto": "citazione dado e tratto rubicone cesare",
+    "fonte": "https://it.wikipedia.org/wiki/Giulio_Cesare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0066",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò nel 1968 «Azzurro»?",
+    "risposte": [
+      "Adriano Celentano",
+      "Gianni Morandi",
+      "Lucio Battisti",
+      "Little Tony"
+    ],
+    "curiosita": "La musica è di Paolo Conte, il testo di Vito Pallavicini.",
+    "fatto": "citazione azzurro 1968 celentano",
+    "fonte": "https://it.wikipedia.org/wiki/Adriano_Celentano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0067",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi disse «Quisquilie… pinzillacchere»?",
+    "risposte": [
+      "Totò",
+      "Peppino De Filippo",
+      "Macario",
+      "Walter Chiari"
+    ],
+    "curiosita": "Indicano cose di poco conto: la battuta è un classico di Totò.",
+    "fatto": "citazione quisquilie pinzillacchere toto",
+    "fonte": "https://it.wikipedia.org/wiki/Totò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0068",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Mi si nota di più se vengo…»?",
+    "risposte": [
+      "Ecce Bombo",
+      "Io sono un autarchico",
+      "Caro diario",
+      "Bianca"
+    ],
+    "curiosita": "Il film di Nanni Moretti è del 1978.",
+    "fatto": "citazione mi si nota di piu ecce bombo",
+    "fonte": "https://it.wikipedia.org/wiki/Ecce_bombo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0069",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi urla «Le parole sono importanti!»?",
+    "risposte": [
+      "Nanni Moretti",
+      "Massimo Troisi",
+      "Carlo Verdone",
+      "Roberto Benigni"
+    ],
+    "curiosita": "La scena è nel film «Palombella rossa», del 1989.",
+    "fatto": "citazione le parole sono importanti moretti",
+    "fonte": "https://it.wikipedia.org/wiki/Palombella_rossa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0070",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi dice «Maccarone, m'hai provocato e io ti distruggo»?",
+    "risposte": [
+      "Alberto Sordi",
+      "Totò",
+      "Nino Manfredi",
+      "Ugo Tognazzi"
+    ],
+    "curiosita": "La scena è in «Un americano a Roma», del 1954.",
+    "fatto": "citazione maccarone m hai provocato sordi",
+    "fonte": "https://it.wikipedia.org/wiki/Alberto_Sordi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0071",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Chi siete? Cosa portate? Un fiorino!»?",
+    "risposte": [
+      "Non ci resta che piangere",
+      "Ricomincio da tre",
+      "Il postino",
+      "Non ti pago"
+    ],
+    "curiosita": "Il film del 1984 è diretto e interpretato da Troisi e Benigni.",
+    "fatto": "citazione un fiorino non ci resta che piangere",
+    "fonte": "https://it.wikipedia.org/wiki/Non_ci_resta_che_piangere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0072",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film Anita Ekberg chiama «Marcello, come here!»?",
+    "risposte": [
+      "La dolce vita",
+      "8½",
+      "Amarcord",
+      "La strada"
+    ],
+    "curiosita": "Il film di Fellini è del 1960; la scena è alla Fontana di Trevi.",
+    "fatto": "citazione marcello come here ekberg",
+    "fonte": "https://it.wikipedia.org/wiki/La_dolce_vita",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0073",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi detta con Totò «Signorina, veniamo noi con questa mia…»?",
+    "risposte": [
+      "Peppino De Filippo",
+      "Aldo Fabrizi",
+      "Nino Taranto",
+      "Mario Castellani"
+    ],
+    "curiosita": "La scena è nel film «Totò, Peppino e la malafemmina», del 1956.",
+    "fatto": "citazione signorina veniamo noi con questa mia",
+    "fonte": "https://it.wikipedia.org/wiki/Peppino_De_Filippo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0074",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Mi piace l'odore del napalm al mattino»?",
+    "risposte": [
+      "Apocalypse Now",
+      "Platoon",
+      "Full Metal Jacket",
+      "Il cacciatore"
+    ],
+    "curiosita": "Lo dice il tenente colonnello Kilgore, nel film del 1979.",
+    "fatto": "citazione odore del napalm al mattino",
+    "fonte": "https://it.wikipedia.org/wiki/Apocalypse_Now",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0075",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film un tassista dice allo specchio «Dici a me?»",
+    "risposte": [
+      "Taxi Driver",
+      "Il Padrino",
+      "Toro scatenato",
+      "Mean Streets"
+    ],
+    "curiosita": "Robert De Niro improvvisò la scena, nel film del 1976.",
+    "fatto": "citazione dici a me taxi driver",
+    "fonte": "https://it.wikipedia.org/wiki/Taxi_Driver",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0076",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Di quale film è lo slogan «Nello spazio nessuno può sentirti urlare»?",
+    "risposte": [
+      "Alien",
+      "Guerre stellari",
+      "Interstellar",
+      "Solaris"
+    ],
+    "curiosita": "Il film di Ridley Scott è del 1979.",
+    "fatto": "citazione nello spazio nessuno puo sentirti urlare",
+    "fonte": "https://it.wikipedia.org/wiki/Alien_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0077",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Ci serve una barca più grossa»?",
+    "risposte": [
+      "Lo squalo",
+      "Il vecchio e il mare",
+      "Free Willy",
+      "Titanic"
+    ],
+    "curiosita": "La battuta fu improvvisata da Roy Scheider.",
+    "fatto": "citazione ci serve una barca piu grossa",
+    "fonte": "https://it.wikipedia.org/wiki/Lo_squalo_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0078",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film Doc Brown parte dicendo che le strade sono inutili?",
+    "risposte": [
+      "Ritorno al futuro",
+      "Terminator",
+      "Gremlins",
+      "I Goonies"
+    ],
+    "curiosita": "Lo dice Doc Brown alla fine del primo film, nel 1985.",
+    "fatto": "citazione dove andiamo non c e bisogno di strade",
+    "fonte": "https://it.wikipedia.org/wiki/Ritorno_al_futuro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0079",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film Morpheus offre una pillola rossa o una blu?",
+    "risposte": [
+      "Matrix",
+      "Inception",
+      "Blade Runner",
+      "Tron"
+    ],
+    "curiosita": "Il film delle sorelle Wachowski è del 1999.",
+    "fatto": "citazione pillola rossa pillola blu matrix",
+    "fonte": "https://it.wikipedia.org/wiki/Matrix",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0080",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale attore dice «Mi chiamo Massimo Decimo Meridio»?",
+    "risposte": [
+      "Russell Crowe",
+      "Mel Gibson",
+      "Brad Pitt",
+      "Joaquin Phoenix"
+    ],
+    "curiosita": "Per «Il gladiatore» vinse l'Oscar come miglior attore.",
+    "fatto": "citazione mi chiamo massimo decimo meridio",
+    "fonte": "https://it.wikipedia.org/wiki/Russell_Crowe",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0081",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Lascia la pistola, prendi i cannoli»?",
+    "risposte": [
+      "Il Padrino",
+      "Quei bravi ragazzi",
+      "Scarface",
+      "Casinò"
+    ],
+    "curiosita": "La dice Clemenza, dopo un omicidio.",
+    "fatto": "citazione lascia la pistola prendi i cannoli",
+    "fonte": "https://it.wikipedia.org/wiki/Il_padrino_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0082",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si grida «O Capitano! Mio Capitano!»?",
+    "risposte": [
+      "L'attimo fuggente",
+      "Will Hunting",
+      "Scuola di rock",
+      "Il club degli imperatori"
+    ],
+    "curiosita": "Il verso è di Walt Whitman, dedicato ad Abraham Lincoln.",
+    "fatto": "citazione o capitano mio capitano film",
+    "fonte": "https://it.wikipedia.org/wiki/L'attimo_fuggente",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0083",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Ho visto cose che voi umani…»?",
+    "risposte": [
+      "Blade Runner",
+      "Matrix",
+      "Alien",
+      "Terminator"
+    ],
+    "curiosita": "Il monologo finale di Roy Batty fu in parte riscritto da Rutger Hauer.",
+    "fatto": "citazione ho visto cose che voi umani",
+    "fonte": "https://it.wikipedia.org/wiki/Blade_Runner",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0084",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale film si dice «Sono solo una ragazza, davanti a un ragazzo…»?",
+    "risposte": [
+      "Notting Hill",
+      "Pretty Woman",
+      "Se scappi, ti sposo",
+      "Ghost"
+    ],
+    "curiosita": "La dice Julia Roberts a Hugh Grant, nel film del 1999.",
+    "fatto": "citazione sono solo una ragazza davanti a un ragazzo",
+    "fonte": "https://it.wikipedia.org/wiki/Notting_Hill_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0085",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi insegna «Dai la cera, togli la cera»?",
+    "risposte": [
+      "Mr. Miyagi",
+      "Bruce Lee",
+      "Splinter",
+      "Master Roshi"
+    ],
+    "curiosita": "Lo dice a Daniel nel film «Karate Kid», del 1984.",
+    "fatto": "citazione dai la cera togli la cera miyagi",
+    "fonte": "https://it.wikipedia.org/wiki/Karate_Kid_-_Per_vincere_domani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0086",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale guru dice «La risposta è dentro di te, ma è sbagliata»?",
+    "risposte": [
+      "Quelo",
+      "Padre Pizarro",
+      "Brunello",
+      "Lorenzo"
+    ],
+    "curiosita": "È un personaggio di Corrado Guzzanti.",
+    "fatto": "citazione la risposta e dentro di te quelo",
+    "fonte": "https://it.wikipedia.org/wiki/Corrado_Guzzanti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0087",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi invitava la tv a «Meditate, gente, meditate»?",
+    "risposte": [
+      "Renzo Arbore",
+      "Gianni Boncompagni",
+      "Pippo Baudo",
+      "Maurizio Costanzo"
+    ],
+    "curiosita": "Era il motto di «Quelli della notte», del 1985.",
+    "fatto": "citazione meditate gente meditate arbore",
+    "fonte": "https://it.wikipedia.org/wiki/Renzo_Arbore",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0088",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa lo slogan: «Dove c'è Barilla c'è…»",
+    "risposte": [
+      "casa",
+      "gusto",
+      "famiglia",
+      "festa"
+    ],
+    "curiosita": "È lo slogan storico dell'azienda di Parma.",
+    "fatto": "citazione dove c e barilla c e casa",
+    "fonte": "https://it.wikipedia.org/wiki/Barilla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0089",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi vinse Sanremo 1964 a soli 16 anni?",
+    "risposte": [
+      "Gigliola Cinquetti",
+      "Mina",
+      "Caterina Caselli",
+      "Rita Pavone"
+    ],
+    "curiosita": "Vinse Sanremo e anche l'Eurovision nel 1964.",
+    "fatto": "citazione non ho l eta cinquetti",
+    "fonte": "https://it.wikipedia.org/wiki/Gigliola_Cinquetti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0090",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Il cielo in una stanza»?",
+    "risposte": [
+      "Mina",
+      "Ornella Vanoni",
+      "Patty Pravo",
+      "Milva"
+    ],
+    "curiosita": "È un brano del 1960, scritto da Gino Paoli.",
+    "fatto": "citazione il cielo in una stanza mina",
+    "fonte": "https://it.wikipedia.org/wiki/Mina_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0091",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Caro amico ti scrivo»?",
+    "risposte": [
+      "Lucio Dalla",
+      "Francesco De Gregori",
+      "Antonello Venditti",
+      "Claudio Baglioni"
+    ],
+    "curiosita": "È l'incipit di «L'anno che verrà», del 1979.",
+    "fatto": "citazione caro amico ti scrivo dalla",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Dalla",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0092",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Dai diamanti… dal letame nascono i fiori»?",
+    "risposte": [
+      "Fabrizio De André",
+      "Gino Paoli",
+      "Francesco Guccini",
+      "Luigi Tenco"
+    ],
+    "curiosita": "È un verso di «Via del Campo», del 1967.",
+    "fatto": "citazione dai diamanti non nasce niente de andre",
+    "fonte": "https://it.wikipedia.org/wiki/Fabrizio_De_André",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0093",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Ci vuole un fisico bestiale»?",
+    "risposte": [
+      "Luca Carboni",
+      "Jovanotti",
+      "Eros Ramazzotti",
+      "Max Pezzali"
+    ],
+    "curiosita": "Il brano è del 1992.",
+    "fatto": "citazione ci vuole un fisico bestiale carboni",
+    "fonte": "https://it.wikipedia.org/wiki/Luca_Carboni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0094",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale gruppo canta «Wonderwall»?",
+    "risposte": [
+      "Oasis",
+      "Blur",
+      "Radiohead",
+      "Coldplay"
+    ],
+    "curiosita": "Uscì nel 1995 nell'album «(What's the Story) Morning Glory?».",
+    "fatto": "citazione wonderwall oasis",
+    "fonte": "https://it.wikipedia.org/wiki/Oasis_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0095",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale gruppo canta «Smells Like Teen Spirit»?",
+    "risposte": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Foo Fighters"
+    ],
+    "curiosita": "Il titolo viene da un deodorante.",
+    "fatto": "citazione smells like teen spirit nirvana",
+    "fonte": "https://it.wikipedia.org/wiki/Nirvana_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0096",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale gruppo canta «Hotel California»?",
+    "risposte": [
+      "Eagles",
+      "Doors",
+      "Fleetwood Mac",
+      "Toto"
+    ],
+    "curiosita": "Il brano è del 1976.",
+    "fatto": "citazione hotel california eagles",
+    "fonte": "https://it.wikipedia.org/wiki/Eagles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0097",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale cantante portoricano ha lanciato «Livin' la vida loca»?",
+    "risposte": [
+      "Ricky Martin",
+      "Enrique Iglesias",
+      "Marc Anthony",
+      "Julio Iglesias"
+    ],
+    "curiosita": "Il brano è del 1999.",
+    "fatto": "citazione livin la vida loca ricky martin",
+    "fonte": "https://it.wikipedia.org/wiki/Ricky_Martin",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0098",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Tu vuo' fa' l'americano»?",
+    "risposte": [
+      "Renato Carosone",
+      "Domenico Modugno",
+      "Peppino di Capri",
+      "Nino D'Angelo"
+    ],
+    "curiosita": "È un brano del 1956 che ironizza sulla moda americana.",
+    "fatto": "citazione tu vuo fa l americano carosone",
+    "fonte": "https://it.wikipedia.org/wiki/Renato_Carosone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0099",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Fai rumore»?",
+    "risposte": [
+      "Diodato",
+      "Francesco Gabbani",
+      "Ermal Meta",
+      "Fabrizio Moro"
+    ],
+    "curiosita": "Vinse Sanremo nel 2020.",
+    "fatto": "citazione fai rumore diodato",
+    "fonte": "https://it.wikipedia.org/wiki/Diodato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0100",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Occidentali's Karma»?",
+    "risposte": [
+      "Francesco Gabbani",
+      "Ermal Meta",
+      "Fabrizio Moro",
+      "Ultimo"
+    ],
+    "curiosita": "Vinse Sanremo nel 2017, con un gorilla che balla sul palco.",
+    "fatto": "citazione occidentali s karma gabbani",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_Gabbani",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0101",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «Ai posteri l'ardua sentenza»?",
+    "risposte": [
+      "Alessandro Manzoni",
+      "Ugo Foscolo",
+      "Giacomo Leopardi",
+      "Giosuè Carducci"
+    ],
+    "curiosita": "È un verso de «Il cinque maggio», dedicato a Napoleone.",
+    "fatto": "citazione ai posteri l ardua sentenza manzoni",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Manzoni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0102",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «Odi et amo»?",
+    "risposte": [
+      "Catullo",
+      "Orazio",
+      "Virgilio",
+      "Ovidio"
+    ],
+    "curiosita": "È un distico di due soli versi.",
+    "fatto": "citazione odi et amo catullo",
+    "fonte": "https://it.wikipedia.org/wiki/Gaio_Valerio_Catullo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0103",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi esclamò «O tempora, o mores!»?",
+    "risposte": [
+      "Cicerone",
+      "Seneca",
+      "Catone",
+      "Tacito"
+    ],
+    "curiosita": "Lo disse nelle Catilinarie, contro Catilina.",
+    "fatto": "citazione o tempora o mores cicerone",
+    "fonte": "https://it.wikipedia.org/wiki/Marco_Tullio_Cicerone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0104",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «Carpe diem»?",
+    "risposte": [
+      "Orazio",
+      "Cicerone",
+      "Virgilio",
+      "Seneca"
+    ],
+    "curiosita": "È nelle «Odi», scritte attorno al 23 a.C.",
+    "fatto": "citazione carpe diem orazio",
+    "fonte": "https://it.wikipedia.org/wiki/Quinto_Orazio_Flacco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0105",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «Penso, dunque sono»?",
+    "risposte": [
+      "Cartesio",
+      "Kant",
+      "Pascal",
+      "Spinoza"
+    ],
+    "curiosita": "Compare nel «Discorso sul metodo», del 1637.",
+    "fatto": "citazione penso dunque sono cartesio",
+    "fonte": "https://it.wikipedia.org/wiki/Cartesio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0106",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «L'essenziale è invisibile agli occhi»?",
+    "risposte": [
+      "Saint-Exupéry",
+      "Jules Verne",
+      "Victor Hugo",
+      "Albert Camus"
+    ],
+    "curiosita": "Lo dice la volpe al Piccolo Principe.",
+    "fatto": "citazione essenziale invisibile agli occhi",
+    "fonte": "https://it.wikipedia.org/wiki/Antoine_de_Saint-Exupéry",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0107",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale romanzo comincia con «Chiamatemi Ismaele»?",
+    "risposte": [
+      "Moby Dick",
+      "Il vecchio e il mare",
+      "L'isola del tesoro",
+      "Robinson Crusoe"
+    ],
+    "curiosita": "Il libro di Melville è del 1851.",
+    "fatto": "citazione chiamatemi ismaele moby dick",
+    "fonte": "https://it.wikipedia.org/wiki/Moby_Dick",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0108",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale romanzo comincia con «Tutte le famiglie felici si assomigliano»?",
+    "risposte": [
+      "Anna Karenina",
+      "Guerra e pace",
+      "Madame Bovary",
+      "Delitto e castigo"
+    ],
+    "curiosita": "Ogni famiglia infelice, prosegue l'incipit, lo è a modo suo.",
+    "fatto": "citazione tutte le famiglie felici si assomigliano",
+    "fonte": "https://it.wikipedia.org/wiki/Anna_Karenina",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0109",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «Tutti gli animali sono uguali, ma alcuni sono più uguali degli…»",
+    "risposte": [
+      "altri",
+      "forti",
+      "furbi",
+      "grandi"
+    ],
+    "curiosita": "È nel romanzo «La fattoria degli animali» di Orwell, del 1945.",
+    "fatto": "citazione animali piu uguali degli altri orwell",
+    "fonte": "https://it.wikipedia.org/wiki/La_fattoria_degli_animali",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0110",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale fisico rifiutò l'idea che Dio «giochi a dadi»?",
+    "risposte": [
+      "Albert Einstein",
+      "Werner Heisenberg",
+      "Niels Bohr",
+      "Stephen Hawking"
+    ],
+    "curiosita": "Lo scrisse nel 1926 al fisico Max Born.",
+    "fatto": "citazione dio non gioca a dadi einstein",
+    "fonte": "https://it.wikipedia.org/wiki/Albert_Einstein",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0111",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "In quale opera si grida «Il mio regno per un cavallo!»?",
+    "risposte": [
+      "Riccardo III",
+      "Macbeth",
+      "Amleto",
+      "Re Lear"
+    ],
+    "curiosita": "Lo grida il re durante la battaglia di Bosworth.",
+    "fatto": "citazione il mio regno per un cavallo",
+    "fonte": "https://it.wikipedia.org/wiki/Riccardo_III_(Shakespeare)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0112",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi disse «Chiedetevi cosa potete fare voi per il vostro paese»?",
+    "risposte": [
+      "John F. Kennedy",
+      "Franklin Roosevelt",
+      "Ronald Reagan",
+      "Winston Churchill"
+    ],
+    "curiosita": "Lo disse nel discorso di insediamento, nel 1961.",
+    "fatto": "citazione non chiederti cosa il tuo paese kennedy",
+    "fonte": "https://it.wikipedia.org/wiki/John_Fitzgerald_Kennedy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0113",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi promise «sangue, fatica, lacrime e sudore»?",
+    "risposte": [
+      "Winston Churchill",
+      "Charles de Gaulle",
+      "Franklin Roosevelt",
+      "Clement Attlee"
+    ],
+    "curiosita": "Lo disse nel 1940, appena diventato primo ministro.",
+    "fatto": "citazione sangue fatica lacrime sudore churchill",
+    "fonte": "https://it.wikipedia.org/wiki/Winston_Churchill",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0114",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale papa nel 1978 esortò «Spalancate le porte a Cristo»?",
+    "risposte": [
+      "Giovanni Paolo II",
+      "Paolo VI",
+      "Giovanni XXIII",
+      "Benedetto XVI"
+    ],
+    "curiosita": "Lo disse all'inizio del pontificato, il 22 ottobre 1978.",
+    "fatto": "citazione non abbiate paura giovanni paolo ii",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Paolo_II",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0115",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale film ha reso famosa la «supercazzola»?",
+    "risposte": [
+      "Amici miei",
+      "Fantozzi",
+      "Il sorpasso",
+      "Febbre da cavallo"
+    ],
+    "curiosita": "Il film di Monicelli è del 1975.",
+    "fatto": "citazione supercazzola amici miei",
+    "fonte": "https://it.wikipedia.org/wiki/Amici_miei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0116",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale gruppo cantò «(I Can't Get No) Satisfaction»?",
+    "risposte": [
+      "Rolling Stones",
+      "Beatles",
+      "The Who",
+      "The Kinks"
+    ],
+    "curiosita": "Il celebre riff è di Keith Richards, nel 1965.",
+    "fatto": "citazione satisfaction rolling stones",
+    "fonte": "https://it.wikipedia.org/wiki/The_Rolling_Stones",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0117",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò per primo «Gigi l'amoroso»?",
+    "risposte": [
+      "Dalida",
+      "Mina",
+      "Ornella Vanoni",
+      "Iva Zanicchi"
+    ],
+    "curiosita": "Dalida ne fece un successo nel 1974.",
+    "fatto": "citazione gigi l amoroso dalida",
+    "fonte": "https://it.wikipedia.org/wiki/Dalida",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0118",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò nel 1977 «Ti amo»?",
+    "risposte": [
+      "Umberto Tozzi",
+      "Riccardo Fogli",
+      "Pupo",
+      "Gianni Bella"
+    ],
+    "curiosita": "Due anni dopo arrivò il suo altro grande successo, «Gloria».",
+    "fatto": "citazione ti amo tozzi 1977",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_Tozzi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0119",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò a Sanremo 1978 «Gianna»?",
+    "risposte": [
+      "Rino Gaetano",
+      "Ivan Graziani",
+      "Edoardo Bennato",
+      "Franco Battiato"
+    ],
+    "curiosita": "Arrivò terzo, con un ritornello che divenne un tormentone.",
+    "fatto": "citazione gianna sanremo 1978 rino gaetano",
+    "fonte": "https://it.wikipedia.org/wiki/Rino_Gaetano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0120",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Ti proteggerò dalle paure delle ipocondrie»?",
+    "risposte": [
+      "Franco Battiato",
+      "Lucio Battisti",
+      "Fabrizio De André",
+      "Ivano Fossati"
+    ],
+    "curiosita": "«La cura» è del 1996.",
+    "fatto": "citazione la cura battiato ipocondrie",
+    "fonte": "https://it.wikipedia.org/wiki/Franco_Battiato",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0121",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Di chi è il motto «Memento audere semper»?",
+    "risposte": [
+      "Gabriele D'Annunzio",
+      "Filippo Marinetti",
+      "Italo Balbo",
+      "Giosuè Carducci"
+    ],
+    "curiosita": "Fu coniato per i MAS, i motoscafi della Beffa di Buccari (1918).",
+    "fatto": "citazione memento audere semper dannunzio",
+    "fonte": "https://it.wikipedia.org/wiki/Gabriele_D'Annunzio",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0122",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi rispose «Molon labe» (vieni a prenderle) ai Persiani?",
+    "risposte": [
+      "Leonida",
+      "Temistocle",
+      "Milziade",
+      "Pericle"
+    ],
+    "curiosita": "Lo racconta Plutarco: Serse gli chiedeva di deporre le armi.",
+    "fatto": "citazione molon labe leonida",
+    "fonte": "https://it.wikipedia.org/wiki/Leonida_I",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0123",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi gridò «Varo, rendimi le mie legioni!»?",
+    "risposte": [
+      "Augusto",
+      "Tiberio",
+      "Giulio Cesare",
+      "Nerone"
+    ],
+    "curiosita": "Lo riferisce Svetonio, dopo il disastro di Teutoburgo nel 9 d.C.",
+    "fatto": "citazione varo rendimi le legioni augusto",
+    "fonte": "https://it.wikipedia.org/wiki/Augusto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0124",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi gridò «Tierra!» avvistando l'America nel 1492?",
+    "risposte": [
+      "Rodrigo de Triana",
+      "Cristoforo Colombo",
+      "Amerigo Vespucci",
+      "Martín Pinzón"
+    ],
+    "curiosita": "Era il marinaio di vedetta sulla Pinta.",
+    "fatto": "citazione tierra 1492 rodrigo de triana",
+    "fonte": "https://it.wikipedia.org/wiki/Rodrigo_de_Triana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0125",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «L'unica cosa di cui aver paura è la paura stessa»?",
+    "risposte": [
+      "Franklin Roosevelt",
+      "Herbert Hoover",
+      "Harry Truman",
+      "Theodore Roosevelt"
+    ],
+    "curiosita": "Lo disse nel 1933, nel discorso d'insediamento in piena Grande Depressione.",
+    "fatto": "citazione unica cosa paura e la paura stessa",
+    "fonte": "https://it.wikipedia.org/wiki/Franklin_Delano_Roosevelt",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0126",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «Ich bin ein Berliner» nel 1963?",
+    "risposte": [
+      "John F. Kennedy",
+      "Willy Brandt",
+      "Konrad Adenauer",
+      "Charles de Gaulle"
+    ],
+    "curiosita": "Lo disse a Berlino Ovest, in segno di solidarietà durante la Guerra fredda.",
+    "fatto": "citazione ich bin ein berliner kennedy",
+    "fonte": "https://it.wikipedia.org/wiki/John_Fitzgerald_Kennedy",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0127",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi pronunciò «Libera Chiesa in libero Stato»?",
+    "risposte": [
+      "Camillo Cavour",
+      "Giuseppe Mazzini",
+      "Giuseppe Garibaldi",
+      "Francesco Crispi"
+    ],
+    "curiosita": "La formula risale al 1861, anno della proclamazione del Regno d'Italia.",
+    "fatto": "citazione libera chiesa in libero stato cavour",
+    "fonte": "https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0128",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Di chi è il motto «Dio e Popolo»?",
+    "risposte": [
+      "Giuseppe Mazzini",
+      "Giuseppe Garibaldi",
+      "Camillo Cavour",
+      "Vittorio Alfieri"
+    ],
+    "curiosita": "Era il motto della Giovine Italia, fondata nel 1831.",
+    "fatto": "citazione dio e popolo mazzini",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Mazzini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0129",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «Quaranta secoli vi guardano» ai soldati davanti alle piramidi?",
+    "risposte": [
+      "Napoleone",
+      "Alessandro Magno",
+      "Giulio Cesare",
+      "Nelson"
+    ],
+    "curiosita": "Lo avrebbe detto nel 1798, prima della battaglia delle Piramidi.",
+    "fatto": "citazione quaranta secoli vi guardano napoleone",
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0130",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "A chi è attribuita (a torto) la frase «Che mangino brioche»?",
+    "risposte": [
+      "Maria Antonietta",
+      "Caterina de' Medici",
+      "Elisabetta I",
+      "Luigi XIV"
+    ],
+    "curiosita": "Appare in Rousseau, scritta quando Maria Antonietta era una bambina.",
+    "fatto": "citazione che mangino brioche maria antonietta",
+    "fonte": "https://it.wikipedia.org/wiki/Maria_Antonietta_d'Asburgo-Lorena",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0131",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «Vae victis», guai ai vinti?",
+    "risposte": [
+      "Brenno",
+      "Annibale",
+      "Vercingetorige",
+      "Attila"
+    ],
+    "curiosita": "Lo avrebbe detto gettando la spada sulla bilancia del riscatto di Roma.",
+    "fatto": "citazione vae victis brenno",
+    "fonte": "https://it.wikipedia.org/wiki/Brenno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0132",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi chiudeva ogni discorso con «Cartagine deve essere distrutta»?",
+    "risposte": [
+      "Catone il Censore",
+      "Scipione",
+      "Cicerone",
+      "Giulio Cesare"
+    ],
+    "curiosita": "La formula latina è «Ceterum censeo Carthaginem esse delendam».",
+    "fatto": "citazione cartagine deve essere distrutta catone",
+    "fonte": "https://it.wikipedia.org/wiki/Marco_Porcio_Catone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0133",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Spesso il male di vivere ho incontrato»?",
+    "risposte": [
+      "Eugenio Montale",
+      "Salvatore Quasimodo",
+      "Giuseppe Ungaretti",
+      "Umberto Saba"
+    ],
+    "curiosita": "Vinse il Nobel per la letteratura nel 1975.",
+    "fatto": "citazione spesso il male di vivere montale",
+    "fonte": "https://it.wikipedia.org/wiki/Eugenio_Montale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0134",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «San Lorenzo, io lo so perché tanto di stelle…»?",
+    "risposte": [
+      "Giovanni Pascoli",
+      "Giosuè Carducci",
+      "Gabriele D'Annunzio",
+      "Guido Gozzano"
+    ],
+    "curiosita": "La poesia «X Agosto» ricorda il padre ucciso il 10 agosto 1867.",
+    "fatto": "citazione san lorenzo io lo so perche pascoli",
+    "fonte": "https://it.wikipedia.org/wiki/Giovanni_Pascoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0135",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «I cipressi che a Bólgheri alti e schietti»?",
+    "risposte": [
+      "Giosuè Carducci",
+      "Giovanni Pascoli",
+      "Ugo Foscolo",
+      "Giacomo Leopardi"
+    ],
+    "curiosita": "Nel 1906 fu il primo italiano a vincere il Nobel per la letteratura.",
+    "fatto": "citazione cipressi bolgheri carducci",
+    "fonte": "https://it.wikipedia.org/wiki/Giosuè_Carducci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0136",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «All'ombra de' cipressi e dentro l'urne»?",
+    "risposte": [
+      "Ugo Foscolo",
+      "Giosuè Carducci",
+      "Giacomo Leopardi",
+      "Vincenzo Monti"
+    ],
+    "curiosita": "Apre il carme «Dei Sepolcri», del 1807.",
+    "fatto": "citazione ombra de cipressi urne foscolo",
+    "fonte": "https://it.wikipedia.org/wiki/Ugo_Foscolo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0137",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Ognuno sta solo sul cuor della terra»?",
+    "risposte": [
+      "Salvatore Quasimodo",
+      "Eugenio Montale",
+      "Giuseppe Ungaretti",
+      "Umberto Saba"
+    ],
+    "curiosita": "Il poeta siciliano vinse il Nobel nel 1959.",
+    "fatto": "citazione ognuno sta solo sul cuor della terra",
+    "fonte": "https://it.wikipedia.org/wiki/Salvatore_Quasimodo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0138",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Trieste ha una scontrosa grazia»?",
+    "risposte": [
+      "Umberto Saba",
+      "Italo Svevo",
+      "Eugenio Montale",
+      "Scipio Slataper"
+    ],
+    "curiosita": "Era anche libraio antiquario a Trieste.",
+    "fatto": "citazione trieste scontrosa grazia saba",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_Saba",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0139",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Stat rosa pristina nomine, nomina nuda tenemus»?",
+    "risposte": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Leonardo Sciascia",
+      "Primo Levi"
+    ],
+    "curiosita": "È l'ultimo verso de «Il nome della rosa», del 1980.",
+    "fatto": "citazione stat rosa pristina nomine eco",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_Eco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0140",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Dio è morto»?",
+    "risposte": [
+      "Friedrich Nietzsche",
+      "Arthur Schopenhauer",
+      "Georg Hegel",
+      "Søren Kierkegaard"
+    ],
+    "curiosita": "Compare ne «La gaia scienza», del 1882.",
+    "fatto": "citazione dio e morto nietzsche",
+    "fonte": "https://it.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0141",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Il cuore ha le sue ragioni…»?",
+    "risposte": [
+      "Blaise Pascal",
+      "René Descartes",
+      "Voltaire",
+      "Michel de Montaigne"
+    ],
+    "curiosita": "La frase è nei «Pensieri», pubblicati dopo la sua morte.",
+    "fatto": "citazione il cuore ha le sue ragioni pascal",
+    "fonte": "https://it.wikipedia.org/wiki/Blaise_Pascal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0142",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Il cielo stellato sopra di me e la legge morale in me»?",
+    "risposte": [
+      "Immanuel Kant",
+      "Georg Hegel",
+      "David Hume",
+      "Friedrich Nietzsche"
+    ],
+    "curiosita": "È nella «Critica della ragion pratica», del 1788.",
+    "fatto": "citazione cielo stellato sopra di me kant",
+    "fonte": "https://it.wikipedia.org/wiki/Immanuel_Kant",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0143",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Verrà la morte e avrà i tuoi occhi»?",
+    "risposte": [
+      "Cesare Pavese",
+      "Giuseppe Ungaretti",
+      "Eugenio Montale",
+      "Pier Paolo Pasolini"
+    ],
+    "curiosita": "Pavese la scrisse nel 1950, pochi mesi prima di morire.",
+    "fatto": "citazione verra la morte e avra i tuoi occhi pavese",
+    "fonte": "https://it.wikipedia.org/wiki/Cesare_Pavese",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0144",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Solo et pensoso i più deserti campi»?",
+    "risposte": [
+      "Francesco Petrarca",
+      "Giovanni Boccaccio",
+      "Dante Alighieri",
+      "Guido Cavalcanti"
+    ],
+    "curiosita": "È un sonetto del «Canzoniere».",
+    "fatto": "citazione solo et pensoso petrarca",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_Petrarca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0145",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Canto l'arme pietose e 'l capitano»?",
+    "risposte": [
+      "Torquato Tasso",
+      "Ludovico Ariosto",
+      "Dante Alighieri",
+      "Matteo Maria Boiardo"
+    ],
+    "curiosita": "È l'inizio della «Gerusalemme liberata».",
+    "fatto": "citazione canto l arme pietose tasso",
+    "fonte": "https://it.wikipedia.org/wiki/Torquato_Tasso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0146",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Arma virumque cano»?",
+    "risposte": [
+      "Virgilio",
+      "Ovidio",
+      "Lucrezio",
+      "Orazio"
+    ],
+    "curiosita": "È l'incipit dell'«Eneide».",
+    "fatto": "citazione arma virumque cano virgilio",
+    "fonte": "https://it.wikipedia.org/wiki/Publio_Virgilio_Marone",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0147",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Bisogna che tutto cambi perché tutto rimanga com'è»?",
+    "risposte": [
+      "Tomasi di Lampedusa",
+      "Leonardo Sciascia",
+      "Luigi Pirandello",
+      "Giovanni Verga"
+    ],
+    "curiosita": "La frase è nel «Gattopardo», pubblicato dopo la sua morte.",
+    "fatto": "citazione tutto cambi perche tutto rimanga gattopardo",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Tomasi_di_Lampedusa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0148",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Quale film racconta l'amicizia tra un postino e il poeta Neruda?",
+    "risposte": [
+      "Il postino",
+      "Mediterraneo",
+      "Nuovo Cinema Paradiso",
+      "Ricomincio da tre"
+    ],
+    "curiosita": "Massimo Troisi morì poche ore dopo aver finito le riprese.",
+    "fatto": "citazione film postino neruda troisi",
+    "fonte": "https://it.wikipedia.org/wiki/Il_postino_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0149",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Quale amaro prometteva «Contro il logorio della vita moderna»?",
+    "risposte": [
+      "Cynar",
+      "Averna",
+      "Montenegro",
+      "Ramazzotti"
+    ],
+    "curiosita": "Lo spot di Carosello aveva Ernesto Calindri seduto in mezzo al traffico.",
+    "fatto": "citazione contro il logorio della vita moderna cynar",
+    "fonte": "https://it.wikipedia.org/wiki/Cynar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0150",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Quale marchio ha lo slogan «La potenza è nulla senza controllo»?",
+    "risposte": [
+      "Pirelli",
+      "Michelin",
+      "Bridgestone",
+      "Goodyear"
+    ],
+    "curiosita": "Lo spot del 1994 aveva come testimonial l'atleta Carl Lewis.",
+    "fatto": "citazione potenza e nulla senza controllo pirelli",
+    "fonte": "https://it.wikipedia.org/wiki/Pirelli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0151",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Quale birra diceva «Chiamami Peroni, sarò la tua birra»?",
+    "risposte": [
+      "Peroni",
+      "Moretti",
+      "Menabrea",
+      "Forst"
+    ],
+    "curiosita": "Lo slogan è degli anni Sessanta.",
+    "fatto": "citazione chiamami peroni saro la tua birra",
+    "fonte": "https://it.wikipedia.org/wiki/Birra_Peroni",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0152",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi tornò in TV nel 1987 dicendo «Dove eravamo rimasti?»",
+    "risposte": [
+      "Enzo Tortora",
+      "Mike Bongiorno",
+      "Pippo Baudo",
+      "Corrado Mantoni"
+    ],
+    "curiosita": "Tornò a «Portobello» dopo la lunga vicenda giudiziaria.",
+    "fatto": "citazione dove eravamo rimasti tortora",
+    "fonte": "https://it.wikipedia.org/wiki/Enzo_Tortora",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0153",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «Datemi un punto d'appoggio e solleverò il mondo»?",
+    "risposte": [
+      "Archimede",
+      "Euclide",
+      "Aristotele",
+      "Galileo"
+    ],
+    "curiosita": "La frase è riferita da Pappo di Alessandria, parlando della leva.",
+    "fatto": "citazione punto d appoggio sollevero il mondo archimede",
+    "fonte": "https://it.wikipedia.org/wiki/Archimede",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0154",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse che il libro della natura è «scritto in lingua matematica»?",
+    "risposte": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Leonardo da Vinci",
+      "Giordano Bruno"
+    ],
+    "curiosita": "Lo scrisse ne «Il Saggiatore», nel 1623.",
+    "fatto": "citazione libro della natura lingua matematica galileo",
+    "fonte": "https://it.wikipedia.org/wiki/Galileo_Galilei",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0155",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse di aver visto più lontano «stando sulle spalle di giganti»?",
+    "risposte": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Robert Hooke"
+    ],
+    "curiosita": "Lo scrisse a Hooke in una lettera del 1675.",
+    "fatto": "citazione spalle di giganti newton",
+    "fonte": "https://it.wikipedia.org/wiki/Isaac_Newton",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0156",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Di chi è il motto «Ostinato rigore»?",
+    "risposte": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raffaello",
+      "Galileo Galilei"
+    ],
+    "curiosita": "È un motto attribuito a lui, scritto nei suoi manoscritti.",
+    "fatto": "citazione ostinato rigore leonardo",
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0157",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi diceva nello spot «L'ottimismo è il profumo della vita»?",
+    "risposte": [
+      "Tonino Guerra",
+      "Federico Fellini",
+      "Dario Fo",
+      "Gianni Rodari"
+    ],
+    "curiosita": "Poeta e sceneggiatore, scrisse per Fellini e Antonioni.",
+    "fatto": "citazione ottimismo profumo della vita tonino guerra",
+    "fonte": "https://it.wikipedia.org/wiki/Tonino_Guerra",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0158",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Considerate se questo è un uomo»?",
+    "risposte": [
+      "Primo Levi",
+      "Elie Wiesel",
+      "Italo Svevo",
+      "Giorgio Bassani"
+    ],
+    "curiosita": "È nella poesia che apre «Se questo è un uomo», del 1947.",
+    "fatto": "citazione considerate se questo e un uomo levi",
+    "fonte": "https://it.wikipedia.org/wiki/Primo_Levi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0159",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Un anello per domarli tutti»?",
+    "risposte": [
+      "J. R. R. Tolkien",
+      "C. S. Lewis",
+      "George R. R. Martin",
+      "Michael Ende"
+    ],
+    "curiosita": "Il verso è nella poesia dell'Anello, ne «Il Signore degli Anelli».",
+    "fatto": "citazione un anello per domarli tutti tolkien",
+    "fonte": "https://it.wikipedia.org/wiki/J._R._R._Tolkien",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0160",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Una rosa è una rosa è una rosa»?",
+    "risposte": [
+      "Gertrude Stein",
+      "Virginia Woolf",
+      "Emily Dickinson",
+      "Sylvia Plath"
+    ],
+    "curiosita": "Compare in una poesia del 1913.",
+    "fatto": "citazione una rosa e una rosa stein",
+    "fonte": "https://it.wikipedia.org/wiki/Gertrude_Stein",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0161",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Nessun uomo è un'isola»?",
+    "risposte": [
+      "John Donne",
+      "William Blake",
+      "Lord Byron",
+      "John Keats"
+    ],
+    "curiosita": "Hemingway ne prese il titolo «Per chi suona la campana».",
+    "fatto": "citazione nessun uomo e un isola donne",
+    "fonte": "https://it.wikipedia.org/wiki/John_Donne",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0162",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «La bellezza salverà il mondo»?",
+    "risposte": [
+      "Fëdor Dostoevskij",
+      "Lev Tolstoj",
+      "Anton Čechov",
+      "Nikolaj Gogol"
+    ],
+    "curiosita": "La frase è ne «L'idiota», del 1869.",
+    "fatto": "citazione la bellezza salvera il mondo dostoevskij",
+    "fonte": "https://it.wikipedia.org/wiki/Fëdor_Dostoevskij",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0163",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Ciò che è razionale è reale»?",
+    "risposte": [
+      "Georg Hegel",
+      "Immanuel Kant",
+      "Johann Fichte",
+      "Arthur Schopenhauer"
+    ],
+    "curiosita": "È nei «Lineamenti di filosofia del diritto», del 1821.",
+    "fatto": "citazione cio che e razionale e reale hegel",
+    "fonte": "https://it.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0164",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «L'inferno sono gli altri»?",
+    "risposte": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Samuel Beckett",
+      "Jean Cocteau"
+    ],
+    "curiosita": "Compare nel dramma «A porte chiuse», del 1944.",
+    "fatto": "citazione l inferno sono gli altri sartre",
+    "fonte": "https://it.wikipedia.org/wiki/Jean-Paul_Sartre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0165",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Bisogna immaginare Sisifo felice»?",
+    "risposte": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Simone de Beauvoir",
+      "André Gide"
+    ],
+    "curiosita": "Chiude «Il mito di Sisifo», del 1942.",
+    "fatto": "citazione immaginare sisifo felice camus",
+    "fonte": "https://it.wikipedia.org/wiki/Albert_Camus",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0166",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi vinse Sanremo 1988 con «Perdere l'amore»?",
+    "risposte": [
+      "Massimo Ranieri",
+      "Gianni Morandi",
+      "Fausto Leali",
+      "Marcella Bella"
+    ],
+    "curiosita": "Il successo rilanciò la sua carriera di cantante.",
+    "fatto": "citazione perdere l amore ranieri 1988",
+    "fonte": "https://it.wikipedia.org/wiki/Massimo_Ranieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0167",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «Una lacrima sul viso»?",
+    "risposte": [
+      "Bobby Solo",
+      "Little Tony",
+      "Peppino di Capri",
+      "Gianni Pettenati"
+    ],
+    "curiosita": "Fu il suo primo grande successo, nel 1964.",
+    "fatto": "citazione una lacrima sul viso bobby solo",
+    "fonte": "https://it.wikipedia.org/wiki/Bobby_Solo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0168",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò a Sanremo 1967 «Ciao amore, ciao»?",
+    "risposte": [
+      "Luigi Tenco",
+      "Gino Paoli",
+      "Sergio Endrigo",
+      "Bruno Lauzi"
+    ],
+    "curiosita": "Fu l'ultima canzone della sua carriera.",
+    "fatto": "citazione ciao amore ciao tenco 1967",
+    "fonte": "https://it.wikipedia.org/wiki/Luigi_Tenco",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0169",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «Almeno tu nell'universo»?",
+    "risposte": [
+      "Mia Martini",
+      "Mina",
+      "Loredana Bertè",
+      "Fiorella Mannoia"
+    ],
+    "curiosita": "È un brano del 1989, scritto da Bruno Lauzi e Maurizio Fabrizio.",
+    "fatto": "citazione almeno tu nell universo mia martini",
+    "fonte": "https://it.wikipedia.org/wiki/Mia_Martini",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0170",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi vinse il primo Sanremo, nel 1951, con «Grazie dei fiori»?",
+    "risposte": [
+      "Nilla Pizzi",
+      "Teddy Reno",
+      "Carla Boni",
+      "Achille Togliani"
+    ],
+    "curiosita": "Il primo Festival si tenne al Casinò di Sanremo.",
+    "fatto": "citazione grazie dei fiori nilla pizzi 1951",
+    "fonte": "https://it.wikipedia.org/wiki/Nilla_Pizzi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0171",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «Nessuno mi può giudicare»?",
+    "risposte": [
+      "Caterina Caselli",
+      "Rita Pavone",
+      "Patty Pravo",
+      "Gigliola Cinquetti"
+    ],
+    "curiosita": "Era detta «Casco d'oro» per il suo caschetto biondo.",
+    "fatto": "citazione nessuno mi puo giudicare caselli",
+    "fonte": "https://it.wikipedia.org/wiki/Caterina_Caselli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0172",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «Una rotonda sul mare»?",
+    "risposte": [
+      "Fred Bongusto",
+      "Peppino di Capri",
+      "Nico Fidenco",
+      "Jimmy Fontana"
+    ],
+    "curiosita": "Il brano è del 1964, simbolo dell'estate italiana.",
+    "fatto": "citazione una rotonda sul mare bongusto",
+    "fonte": "https://it.wikipedia.org/wiki/Fred_Bongusto",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0173",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «Il mondo»?",
+    "risposte": [
+      "Jimmy Fontana",
+      "Fred Bongusto",
+      "Bobby Solo",
+      "Sergio Endrigo"
+    ],
+    "curiosita": "Il brano è del 1965 e ha avuto versioni in molte lingue.",
+    "fatto": "citazione il mondo jimmy fontana",
+    "fonte": "https://it.wikipedia.org/wiki/Jimmy_Fontana",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0174",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi cantò «E la chiamano estate»?",
+    "risposte": [
+      "Bruno Martino",
+      "Fred Bongusto",
+      "Nico Fidenco",
+      "Little Tony"
+    ],
+    "curiosita": "È uno standard jazz italiano del 1965.",
+    "fatto": "citazione e la chiamano estate bruno martino",
+    "fonte": "https://it.wikipedia.org/wiki/Bruno_Martino",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0175",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi disse «Navigare necesse est»?",
+    "risposte": [
+      "Pompeo",
+      "Giulio Cesare",
+      "Ottaviano",
+      "Crasso"
+    ],
+    "curiosita": "Lo disse ai marinai per convincerli a salpare nella tempesta, secondo Plutarco.",
+    "fatto": "citazione navigare necesse est pompeo",
+    "fonte": "https://it.wikipedia.org/wiki/Gneo_Pompeo_Magno",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0176",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Quale imperatore tassò le latrine pubbliche, poi dette «vespasiane»?",
+    "risposte": [
+      "Vespasiano",
+      "Tito",
+      "Nerone",
+      "Traiano"
+    ],
+    "curiosita": "Al figlio Tito che protestava rispose con una moneta sotto il naso.",
+    "fatto": "citazione tassa latrine vespasiano",
+    "fonte": "https://it.wikipedia.org/wiki/Vespasiano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0177",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Panem et circenses»?",
+    "risposte": [
+      "Giovenale",
+      "Marziale",
+      "Tacito",
+      "Petronio"
+    ],
+    "curiosita": "Lo scrisse nelle «Satire», criticando i Romani.",
+    "fatto": "citazione panem et circenses giovenale",
+    "fonte": "https://it.wikipedia.org/wiki/Decimo_Giunio_Giovenale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0178",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi scrisse «Homo sum, humani nihil a me alienum puto»?",
+    "risposte": [
+      "Terenzio",
+      "Plauto",
+      "Seneca",
+      "Lucrezio"
+    ],
+    "curiosita": "Il verso è nella commedia «Heautontimorumenos», del 163 a.C.",
+    "fatto": "citazione homo sum humani nihil terenzio",
+    "fonte": "https://it.wikipedia.org/wiki/Publio_Terenzio_Afro",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0179",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "In quale film si dice «Ne resterà soltanto uno»?",
+    "risposte": [
+      "Highlander",
+      "Conan il barbaro",
+      "Excalibur",
+      "Willow"
+    ],
+    "curiosita": "Il film del 1986 ha come protagonista Christopher Lambert.",
+    "fatto": "citazione ne restera soltanto uno highlander",
+    "fonte": "https://it.wikipedia.org/wiki/Highlander_-_L'ultimo_immortale",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "cl-cit-0180",
+    "tipo": "classica",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi chiede «Perché così serio?»",
+    "risposte": [
+      "Joker",
+      "Bane",
+      "Pinguino",
+      "Enigmista"
+    ],
+    "curiosita": "Lo dice nel film «Il cavaliere oscuro», del 2008.",
+    "fatto": "citazione perche cosi serio joker",
+    "fonte": "https://it.wikipedia.org/wiki/Joker_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]

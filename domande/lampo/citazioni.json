@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "la-cit-0001",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi grida «Yabba Dabba Doo!»?",
+    "risposte": [
+      "Fred Flintstone",
+      "Homer Simpson",
+      "Peter Griffin",
+      "Stan Smith"
+    ],
+    "curiosita": "Lo dice nella serie «Gli Antenati».",
+    "fatto": "citazione yabba dabba doo fred",
+    "fonte": "https://it.wikipedia.org/wiki/Gli_Antenati",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0002",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi esclama «D'oh!»?",
+    "risposte": [
+      "Homer Simpson",
+      "Fred Flintstone",
+      "Peter Griffin",
+      "Bart Simpson"
+    ],
+    "curiosita": "Nei Simpson ha anche un'entrata nell'Oxford Dictionary.",
+    "fatto": "citazione doh homer simpson",
+    "fonte": "https://it.wikipedia.org/wiki/Homer_Simpson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0003",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi dice «Mi è sembrato di vedere un gatto»?",
+    "risposte": [
+      "Titti",
+      "Calimero",
+      "Woodstock",
+      "Bugs Bunny"
+    ],
+    "curiosita": "Il canarino è nato nel 1942.",
+    "fatto": "citazione mi e sembrato di vedere un gatto titti",
+    "fonte": "https://it.wikipedia.org/wiki/Titti_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0004",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi grida «Arriba, arriba!»?",
+    "risposte": [
+      "Speedy Gonzales",
+      "Topo Gigio",
+      "Jerry",
+      "Mickey Mouse"
+    ],
+    "curiosita": "È il topo più veloce del Messico.",
+    "fatto": "citazione arriba arriba speedy gonzales",
+    "fonte": "https://it.wikipedia.org/wiki/Speedy_Gonzales",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0005",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ordina il Martini «agitato»?",
+    "risposte": [
+      "James Bond",
+      "Jason Bourne",
+      "Ethan Hunt",
+      "Jack Ryan"
+    ],
+    "curiosita": "L'agente 007 nacque dalla penna di Ian Fleming.",
+    "fatto": "citazione martini agitato james bond",
+    "fonte": "https://it.wikipedia.org/wiki/James_Bond",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0006",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Mamma, ho perso l'…»",
+    "risposte": [
+      "aereo",
+      "treno",
+      "autobus",
+      "nave"
+    ],
+    "curiosita": "Il film con Macaulay Culkin è del 1990.",
+    "fatto": "citazione mamma ho perso l aereo",
+    "fonte": "https://it.wikipedia.org/wiki/Mamma,_ho_perso_l'aereo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0007",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi dice «Io sono Iron Man»?",
+    "risposte": [
+      "Tony Stark",
+      "Steve Rogers",
+      "Bruce Banner",
+      "Thor"
+    ],
+    "curiosita": "Lo dice alla fine del primo film, nel 2008.",
+    "fatto": "citazione io sono iron man stark",
+    "fonte": "https://it.wikipedia.org/wiki/Iron_Man_(film)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0008",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «È un uccello? È un aereo? No, è…»",
+    "risposte": [
+      "Superman",
+      "Batman",
+      "Flash",
+      "Aquaman"
+    ],
+    "curiosita": "Il supereroe debuttò nel 1938.",
+    "fatto": "citazione uccello aereo superman",
+    "fonte": "https://it.wikipedia.org/wiki/Superman",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0009",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale marchio dice «Just do it»?",
+    "risposte": [
+      "Nike",
+      "Adidas",
+      "Puma",
+      "Reebok"
+    ],
+    "curiosita": "Lo slogan è del 1988.",
+    "fatto": "citazione just do it nike",
+    "fonte": "https://it.wikipedia.org/wiki/Nike",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0010",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale catena dice «I'm lovin' it»?",
+    "risposte": [
+      "McDonald's",
+      "Burger King",
+      "KFC",
+      "Subway"
+    ],
+    "curiosita": "Lo slogan è in uso dal 2003.",
+    "fatto": "citazione i m lovin it mcdonalds",
+    "fonte": "https://it.wikipedia.org/wiki/McDonald's",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0011",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Quale marchio dice «Perché io valgo»?",
+    "risposte": [
+      "L'Oréal",
+      "Nivea",
+      "Garnier",
+      "Maybelline"
+    ],
+    "curiosita": "Nell'originale inglese è «Because you're worth it».",
+    "fatto": "citazione perche io valgo loreal",
+    "fonte": "https://it.wikipedia.org/wiki/L'Oréal",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0012",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi grida «Tutti per uno, uno per tutti»?",
+    "risposte": [
+      "Moschettieri",
+      "Argonauti",
+      "Cavalieri",
+      "Gladiatori"
+    ],
+    "curiosita": "Lo scrisse Alexandre Dumas nel 1844.",
+    "fatto": "citazione tutti per uno uno per tutti",
+    "fonte": "https://it.wikipedia.org/wiki/I_tre_moschettieri",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0013",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi è il Signore Oscuro nemico di Harry Potter?",
+    "risposte": [
+      "Voldemort",
+      "Piton",
+      "Draco Malfoy",
+      "Sirius Black"
+    ],
+    "curiosita": "Il suo vero nome è Tom Riddle.",
+    "fatto": "citazione colui che non deve essere nominato voldemort",
+    "fonte": "https://it.wikipedia.org/wiki/Lord_Voldemort",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0014",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Continua a nuotare»?",
+    "risposte": [
+      "Dory",
+      "Nemo",
+      "Marlin",
+      "Bruce"
+    ],
+    "curiosita": "Lo dice in «Alla ricerca di Nemo», del 2003.",
+    "fatto": "citazione continua a nuotare dory",
+    "fonte": "https://it.wikipedia.org/wiki/Dory_(personaggio)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0015",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «Specchio, specchio delle mie…»",
+    "risposte": [
+      "brame",
+      "voglie",
+      "mani",
+      "cose"
+    ],
+    "curiosita": "Lo chiede la regina cattiva di Biancaneve.",
+    "fatto": "citazione specchio specchio delle mie brame",
+    "fonte": "https://it.wikipedia.org/wiki/Biancaneve_e_i_sette_nani_(film_1937)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0016",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale alieno dice «Telefono casa»?",
+    "risposte": [
+      "ET",
+      "Alf",
+      "Mork",
+      "Yoda"
+    ],
+    "curiosita": "Il film di Spielberg è del 1982.",
+    "fatto": "citazione telefono casa alieno",
+    "fonte": "https://it.wikipedia.org/wiki/E.T._l'extra-terrestre",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0017",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale film Disney ha «Hakuna Matata»?",
+    "risposte": [
+      "Il re leone",
+      "Tarzan",
+      "Aladdin",
+      "Bambi"
+    ],
+    "curiosita": "In swahili significa «nessun problema».",
+    "fatto": "citazione hakuna matata film",
+    "fonte": "https://it.wikipedia.org/wiki/Il_re_leone_(film_1994)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0018",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "In quale film si dice «Buongiorno, principessa!»?",
+    "risposte": [
+      "La vita è bella",
+      "Il postino",
+      "Johnny Stecchino",
+      "Il mostro"
+    ],
+    "curiosita": "Il film di Benigni vinse tre Oscar nel 1999.",
+    "fatto": "citazione buongiorno principessa film",
+    "fonte": "https://it.wikipedia.org/wiki/La_vita_è_bella",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0019",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi chiede «Siamo uomini o caporali?»",
+    "risposte": [
+      "Totò",
+      "Sordi",
+      "Gassman",
+      "Tognazzi"
+    ],
+    "curiosita": "Il film omonimo con Totò è del 1955.",
+    "fatto": "citazione uomini o caporali toto",
+    "fonte": "https://it.wikipedia.org/wiki/Totò",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0020",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Billie Jean is not my lover»?",
+    "risposte": [
+      "Michael Jackson",
+      "Prince",
+      "Stevie Wonder",
+      "Lionel Richie"
+    ],
+    "curiosita": "Il brano è del 1983.",
+    "fatto": "citazione billie jean jackson",
+    "fonte": "https://it.wikipedia.org/wiki/Michael_Jackson",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0021",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Like a Virgin»?",
+    "risposte": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Kylie Minogue"
+    ],
+    "curiosita": "Il brano è del 1984.",
+    "fatto": "citazione like a virgin madonna",
+    "fonte": "https://it.wikipedia.org/wiki/Madonna_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0022",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «My Heart Will Go On»?",
+    "risposte": [
+      "Céline Dion",
+      "Mariah Carey",
+      "Whitney Houston",
+      "Adele"
+    ],
+    "curiosita": "È la canzone di «Titanic», del 1997.",
+    "fatto": "citazione my heart will go on dion",
+    "fonte": "https://it.wikipedia.org/wiki/Céline_Dion",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0023",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Quale gruppo canta «Hey Jude»?",
+    "risposte": [
+      "Beatles",
+      "Rolling Stones",
+      "The Who",
+      "The Doors"
+    ],
+    "curiosita": "Il brano è del 1968 ed è lungo più di sette minuti.",
+    "fatto": "citazione hey jude beatles",
+    "fonte": "https://it.wikipedia.org/wiki/The_Beatles",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0024",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi ha scritto e cantato «Shape of You»?",
+    "risposte": [
+      "Ed Sheeran",
+      "Justin Bieber",
+      "Bruno Mars",
+      "Harry Styles"
+    ],
+    "curiosita": "Uscì nel 2017.",
+    "fatto": "citazione shape of you sheeran",
+    "fonte": "https://it.wikipedia.org/wiki/Ed_Sheeran",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0025",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Happy» («Because I'm happy»)?",
+    "risposte": [
+      "Pharrell",
+      "Mars",
+      "Timberlake",
+      "Usher"
+    ],
+    "curiosita": "Uscì nel 2013 nel film «Cattivissimo me 2».",
+    "fatto": "citazione happy pharrell",
+    "fonte": "https://it.wikipedia.org/wiki/Pharrell_Williams",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0026",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Chi canta «Gangnam Style»?",
+    "risposte": [
+      "Psy",
+      "BTS",
+      "Rain",
+      "G-Dragon"
+    ],
+    "curiosita": "Il video del 2012 fu il primo a superare il miliardo di visualizzazioni.",
+    "fatto": "citazione gangnam style psy",
+    "fonte": "https://it.wikipedia.org/wiki/Psy_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0027",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Quel ramo del lago di…»",
+    "risposte": [
+      "Como",
+      "Garda",
+      "Iseo",
+      "Maggiore"
+    ],
+    "curiosita": "È l'incipit de «I promessi sposi».",
+    "fatto": "citazione quel ramo del lago di como",
+    "fonte": "https://it.wikipedia.org/wiki/I_promessi_sposi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0028",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «Sempre caro mi fu quest'ermo…»",
+    "risposte": [
+      "colle",
+      "prato",
+      "monte",
+      "sentiero"
+    ],
+    "curiosita": "È l'inizio de «L'infinito» di Leopardi.",
+    "fatto": "citazione sempre caro mi fu ermo colle",
+    "fonte": "https://it.wikipedia.org/wiki/L'infinito_(Leopardi)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0029",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa il verso di Ungaretti: «M'illumino d'…»",
+    "risposte": [
+      "immenso",
+      "azzurro",
+      "oro",
+      "amore"
+    ],
+    "curiosita": "È una delle poesie più brevi della letteratura italiana.",
+    "fatto": "citazione m illumino d immenso",
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Ungaretti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0030",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa il verso di Quasimodo: «Ed è subito…»",
+    "risposte": [
+      "sera",
+      "notte",
+      "buio",
+      "mattina"
+    ],
+    "curiosita": "Il titolo della poesia è «Ed è subito sera».",
+    "fatto": "citazione ed e subito sera",
+    "fonte": "https://it.wikipedia.org/wiki/Salvatore_Quasimodo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0031",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Completa: «Chiare, fresche et dolci…»",
+    "risposte": [
+      "acque",
+      "onde",
+      "fonti",
+      "sorgenti"
+    ],
+    "curiosita": "È l'inizio di una canzone del Petrarca.",
+    "fatto": "citazione chiare fresche et dolci acque",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_Petrarca",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0032",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Completa: «Tanto gentile e tanto…»",
+    "risposte": [
+      "onesta",
+      "umile",
+      "bella",
+      "pura"
+    ],
+    "curiosita": "È un sonetto di Dante, nella «Vita nova».",
+    "fatto": "citazione tanto gentile e tanto onesta",
+    "fonte": "https://it.wikipedia.org/wiki/Vita_nova",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0033",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «La donna è mobile qual piuma al…»",
+    "risposte": [
+      "vento",
+      "sole",
+      "mare",
+      "cielo"
+    ],
+    "curiosita": "È un'aria del «Rigoletto» di Verdi.",
+    "fatto": "citazione la donna e mobile piuma al vento",
+    "fonte": "https://it.wikipedia.org/wiki/Rigoletto_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0034",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «Va', pensiero, sull'ali…»",
+    "risposte": [
+      "dorate",
+      "pesanti",
+      "veloci",
+      "lievi"
+    ],
+    "curiosita": "È il coro del «Nabucco» di Verdi.",
+    "fatto": "citazione va pensiero sull ali dorate",
+    "fonte": "https://it.wikipedia.org/wiki/Nabucco_(opera)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0035",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Felicità è un bicchiere di…»",
+    "risposte": [
+      "vino",
+      "latte",
+      "birra",
+      "spumante"
+    ],
+    "curiosita": "Al Bano e Romina la cantarono a Sanremo nel 1982.",
+    "fatto": "citazione felicita e un bicchiere di vino",
+    "fonte": "https://it.wikipedia.org/wiki/Al_Bano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0036",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Ma il cielo è sempre più…»",
+    "risposte": [
+      "blu",
+      "bello",
+      "grigio",
+      "lontano"
+    ],
+    "curiosita": "È la canzone di Rino Gaetano del 1975.",
+    "fatto": "citazione il cielo e sempre piu blu",
+    "fonte": "https://it.wikipedia.org/wiki/Rino_Gaetano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0037",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa: «Il mio canto…»",
+    "risposte": [
+      "libero",
+      "felice",
+      "nuovo",
+      "lontano"
+    ],
+    "curiosita": "È un successo di Lucio Battisti del 1972.",
+    "fatto": "citazione il mio canto libero",
+    "fonte": "https://it.wikipedia.org/wiki/Lucio_Battisti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0038",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 1,
+    "domanda": "Completa: «Sapore di sale, sapore di…»",
+    "risposte": [
+      "mare",
+      "sole",
+      "vento",
+      "luna"
+    ],
+    "curiosita": "La canzone di Gino Paoli è del 1963.",
+    "fatto": "citazione sapore di sale sapore di mare",
+    "fonte": "https://it.wikipedia.org/wiki/Gino_Paoli",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0039",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "In quale film si sussurra «Rosebud»?",
+    "risposte": [
+      "Quarto potere",
+      "Casablanca",
+      "Psyco",
+      "Vertigo"
+    ],
+    "curiosita": "Il film di Orson Welles è del 1941.",
+    "fatto": "citazione rosebud film",
+    "fonte": "https://it.wikipedia.org/wiki/Quarto_potere",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0040",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi scrisse «Et tu, Brute?» nel «Giulio Cesare»?",
+    "risposte": [
+      "Shakespeare",
+      "Marlowe",
+      "Molière",
+      "Goethe"
+    ],
+    "curiosita": "Nella tragedia è l'ultima frase di Cesare.",
+    "fatto": "citazione et tu brute shakespeare",
+    "fonte": "https://it.wikipedia.org/wiki/William_Shakespeare",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0041",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Completa lo slogan: «Metti un tigre nel…»",
+    "risposte": [
+      "motore",
+      "serbatoio",
+      "cofano",
+      "faro"
+    ],
+    "curiosita": "Fu lo slogan di una compagnia petrolifera negli anni Sessanta.",
+    "fatto": "citazione metti un tigre nel motore",
+    "fonte": "https://it.wikipedia.org/wiki/Esso",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0042",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Gloria»?",
+    "risposte": [
+      "Umberto Tozzi",
+      "Gianna Nannini",
+      "Zucchero",
+      "Raf"
+    ],
+    "curiosita": "Il brano è del 1979.",
+    "fatto": "citazione gloria tozzi",
+    "fonte": "https://it.wikipedia.org/wiki/Umberto_Tozzi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0043",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Il ragazzo della via Gluck»?",
+    "risposte": [
+      "Celentano",
+      "Morandi",
+      "Little Tony",
+      "Bobby Solo"
+    ],
+    "curiosita": "Racconta la sua infanzia a Milano, nel 1966.",
+    "fatto": "citazione ragazzo della via gluck celentano",
+    "fonte": "https://it.wikipedia.org/wiki/Il_ragazzo_della_via_Gluck",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0044",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Quello che le donne…»?",
+    "risposte": [
+      "Fiorella Mannoia",
+      "Giorgia",
+      "Laura Pausini",
+      "Alexia"
+    ],
+    "curiosita": "Il brano è del 1987, scritto da Enrico Ruggeri.",
+    "fatto": "citazione quello che le donne mannoia",
+    "fonte": "https://it.wikipedia.org/wiki/Fiorella_Mannoia",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0045",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «La donna cannone»?",
+    "risposte": [
+      "De Gregori",
+      "Venditti",
+      "Baglioni",
+      "Fossati"
+    ],
+    "curiosita": "Il brano è del 1983.",
+    "fatto": "citazione la donna cannone de gregori",
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_De_Gregori",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0046",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Bocca di rosa»?",
+    "risposte": [
+      "De André",
+      "Guccini",
+      "Dalla",
+      "Paoli"
+    ],
+    "curiosita": "Il brano è del 1967.",
+    "fatto": "citazione bocca di rosa de andre",
+    "fonte": "https://it.wikipedia.org/wiki/Fabrizio_De_André",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0047",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Penso positivo»?",
+    "risposte": [
+      "Jovanotti",
+      "Max Pezzali",
+      "Eros Ramazzotti",
+      "Ligabue"
+    ],
+    "curiosita": "Il brano è del 1994.",
+    "fatto": "citazione penso positivo jovanotti",
+    "fonte": "https://it.wikipedia.org/wiki/Jovanotti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0048",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Roma capoccia»?",
+    "risposte": [
+      "Venditti",
+      "De Gregori",
+      "Califano",
+      "Renato Zero"
+    ],
+    "curiosita": "Il brano è del 1972.",
+    "fatto": "citazione roma capoccia venditti",
+    "fonte": "https://it.wikipedia.org/wiki/Antonello_Venditti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0049",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Napul'è»?",
+    "risposte": [
+      "Pino Daniele",
+      "Edoardo Bennato",
+      "Eugenio Bennato",
+      "Gragnaniello"
+    ],
+    "curiosita": "Il brano è del 1977.",
+    "fatto": "citazione napul e pino daniele",
+    "fonte": "https://it.wikipedia.org/wiki/Pino_Daniele",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0050",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «L'estate sta finendo»?",
+    "risposte": [
+      "Righeira",
+      "Pooh",
+      "Matia Bazar",
+      "Ricchi e Poveri"
+    ],
+    "curiosita": "Il brano è del 1985.",
+    "fatto": "citazione l estate sta finendo righeira",
+    "fonte": "https://it.wikipedia.org/wiki/Righeira",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0051",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Hanno ucciso l'Uomo Ragno»?",
+    "risposte": [
+      "883",
+      "Pooh",
+      "Stadio",
+      "Nomadi"
+    ],
+    "curiosita": "Il brano è del 1992.",
+    "fatto": "citazione hanno ucciso l uomo ragno 883",
+    "fonte": "https://it.wikipedia.org/wiki/883_(gruppo_musicale)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0052",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi cantò «Fatti mandare dalla mamma»?",
+    "risposte": [
+      "Gianni Morandi",
+      "Little Tony",
+      "Bobby Solo",
+      "Rita Pavone"
+    ],
+    "curiosita": "Il brano è del 1962.",
+    "fatto": "citazione fatti mandare dalla mamma morandi",
+    "fonte": "https://it.wikipedia.org/wiki/Gianni_Morandi",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0053",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi canta «Tutto il resto è noia»?",
+    "risposte": [
+      "Franco Califano",
+      "Renato Zero",
+      "Lucio Dalla",
+      "Rino Gaetano"
+    ],
+    "curiosita": "Il brano è del 1977.",
+    "fatto": "citazione tutto il resto e noia califano",
+    "fonte": "https://it.wikipedia.org/wiki/Franco_Califano",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0054",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Ma che freddo fa»?",
+    "risposte": [
+      "Nada",
+      "Mina",
+      "Patty Pravo",
+      "Ornella Vanoni"
+    ],
+    "curiosita": "Il brano è del 1969.",
+    "fatto": "citazione ma che freddo fa nada",
+    "fonte": "https://it.wikipedia.org/wiki/Nada_(cantante)",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0055",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Pensiero stupendo»?",
+    "risposte": [
+      "Patty Pravo",
+      "Mina",
+      "Loredana Bertè",
+      "Nada"
+    ],
+    "curiosita": "Il brano è del 1978.",
+    "fatto": "citazione pensiero stupendo patty pravo",
+    "fonte": "https://it.wikipedia.org/wiki/Patty_Pravo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0056",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi canta «Un'emozione da poco»?",
+    "risposte": [
+      "Anna Oxa",
+      "Fiorella Mannoia",
+      "Marcella Bella",
+      "Gianna Nannini"
+    ],
+    "curiosita": "Il brano è del 1978.",
+    "fatto": "citazione un emozione da poco anna oxa",
+    "fonte": "https://it.wikipedia.org/wiki/Anna_Oxa",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0057",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Ti sento»?",
+    "risposte": [
+      "Matia Bazar",
+      "Pooh",
+      "Jalisse",
+      "Stadio"
+    ],
+    "curiosita": "Il brano è del 1985.",
+    "fatto": "citazione ti sento matia bazar",
+    "fonte": "https://it.wikipedia.org/wiki/Matia_Bazar",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0058",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Su di noi»?",
+    "risposte": [
+      "Pupo",
+      "Toto Cutugno",
+      "Umberto Tozzi",
+      "Riccardo Fogli"
+    ],
+    "curiosita": "Il brano è del 1980.",
+    "fatto": "citazione su di noi pupo",
+    "fonte": "https://it.wikipedia.org/wiki/Pupo",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0059",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 3,
+    "domanda": "Chi canta «Quando quando quando»?",
+    "risposte": [
+      "Tony Renis",
+      "Fred Bongusto",
+      "Bobby Solo",
+      "Peppino di Capri"
+    ],
+    "curiosita": "Il brano è del 1962.",
+    "fatto": "citazione quando quando quando tony renis",
+    "fonte": "https://it.wikipedia.org/wiki/Tony_Renis",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  },
+  {
+    "id": "la-cit-0060",
+    "tipo": "lampo",
+    "categoria": "citazioni",
+    "difficolta": 2,
+    "domanda": "Chi canta «Notte prima degli esami»?",
+    "risposte": [
+      "Venditti",
+      "Baglioni",
+      "Ramazzotti",
+      "Antonacci"
+    ],
+    "curiosita": "Il brano è del 1984.",
+    "fatto": "citazione notte prima degli esami venditti",
+    "fonte": "https://it.wikipedia.org/wiki/Antonello_Venditti",
+    "origine": "claude",
+    "creata": "2026-10-14"
+  }
+]
