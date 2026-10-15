@@ -224,7 +224,7 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 - [ ] Musica e effetti coerenti con lo stile
 - [ ] Icona e banner del launcher rifiniti
 - [ ] Playtest con amici veri
-- [ ] Repo pubblico con licenza, README, release dell'APK firmato
+- [x] Repo pubblico con licenza e README (2026-10-15) · [ ] release dell'APK firmato
 
 ---
 
