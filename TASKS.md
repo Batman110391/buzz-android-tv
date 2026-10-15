@@ -65,7 +65,7 @@ Design come in G1 (screenshot di `design/Quizzone Design System.dc.html`).
 | G3f5 | `main`: round torta/ordine/conto (conto sempre ultimo), scelta con 6 giochi, battute | P | G3f1–4 | `main.*`, `ui/schermata_scelta.gd` | `-- --demo` partita intera | review |
 | G3n1 | Domande `indizi`: `domande_check` valida il tipo (PLAN §4 Tipi: `categoria_indizi`, `indizi[3]` dal vago al chiaro, `risposte[4]`; lunghezze) + ~120 domande in `domande/indizi/<categoria>.json` | W | — | `tools/domande_check.mjs`, `tools/fixtures/**`, `domande/indizi/**` | check verde + campione letto dal padre | todo |
 | G3n2 | `game/duello.gd`: squadre dalla classifica, indizi a tempo, turni, premio 1500/1000/500, −300, 3 domande (PLAN §2 "Duello degli indizi") | W | — | `game/duello.gd`, `tests/test_duello.gd` | test PASS | done |
-| G3n3 | `ui/schermata_duello.gd`: due squadre, indizi che compaiono, premio che scende, 4 risposte, chi risponde | W | G3n2 | `ui/schermata_duello.gd`, `tests/test_duello_ui.*` | cattura | doing |
+| G3n3 | `ui/schermata_duello.gd`: due squadre, indizi che compaiono, premio che scende, 4 risposte, chi risponde | W | G3n2 | `ui/schermata_duello.gd`, `tests/test_duello_ui.*` | cattura | done |
 | G3n4 | Telefono + server: fase `duello` (risponde solo il membro di turno, gli altri "Consigliate <nome>!") | W | — | `net/*`, `tests/test_server.gd` | test PASS + screenshot | todo |
 | G3n5 | `main`: Duello a metà partita se primo − ultimo ≥ 1500 e ≥ 3 giocatori | P | G3n1–4 | `main.*` | demo + prova S | todo |
 | G3f6 | La risposta più vicina (tipo `stima`) con **scommessa sulle stime altrui** (S) · round a **squadre** da 3 giocatori in su (S) · "scommetti sull'amico" (S: sì, da definire) | — | G3n5 | — | — | todo |
