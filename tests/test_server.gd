@@ -324,6 +324,38 @@ func _initialize() -> void:
 	await _pump()
 	_check("dopo il lancio puo false", _take(a2, "state").get("puo") == false)
 
+	var dst := {"fase": "duello", "q": 1, "tot": 3, "indizi": 2, "squadre": [[0], [2]], "chi": [0, 2], "chi_nome": ["x", "y"], "bloccate": []}
+	answered_log.clear()
+	_vuota(a2)
+	_vuota(b)
+	server.invia_stato(dst)
+	await _pump()
+	var sa := _take(a2, "state")
+	var sb := _take(b, "state")
+	_check("duello: risponde per telefono", sa.get("risponde") == true and sa.get("squadra") == 0 and sb.get("risponde") == true and sb.get("squadra") == 1)
+	_tx(a2, {"t": "answer", "q": 0, "choice": 1})
+	await _pump()
+	_check("duello: q vecchio ignorato", answered_log.is_empty())
+	_tx(a2, {"t": "answer", "q": 1, "choice": 1})
+	await _pump()
+	_check("duello: answer da chi risponde accettato", answered_log == [[0, 1, 1]])
+	var dst2 := dst.duplicate()
+	dst2["chi"] = [0, 0]
+	dst2["bloccate"] = [2]
+	dst2["indizi"] = 3
+	server.invia_stato(dst2)
+	await _pump()
+	_tx(b, {"t": "answer", "q": 1, "choice": 2})
+	await _pump()
+	_check("duello: da bloccato ignorato", answered_log.size() == 1)
+	dst2["squadre"] = [[0, 2], []]
+	dst2["bloccate"] = []
+	server.invia_stato(dst2)
+	await _pump()
+	_tx(b, {"t": "answer", "q": 1, "choice": 2})
+	await _pump()
+	_check("duello: compagno non di turno ignorato", answered_log.size() == 1)
+
 	var d := _nuovo()
 	await _apri(d)
 	_tx(d, _join(code, "diva"))
