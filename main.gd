@@ -4,7 +4,7 @@ extends Node2D
 ## Si gioca dal telefono (+ bot); il telecomando serve solo a preparare la partita. `-- --demo`: tutto automatico.
 
 const DOMANDE := 5  # per round
-const GIOCHI := [  # solo quelli già fatti (G3f aggiunge gli altri e Conto alla Rovescia)
+const GIOCHI := [  # nell'ordine in cui si giocano; Conto alla Rovescia chiude sempre (fisso)
 	{"id": "accumula", "titolo": "Accumula Punti", "icona": "💰", "tipo": "classica", "breve": "Più rispondi, più incassi.",
 		"regola": "Rispondi giusto per fare 500 punti. Hai 15 secondi per ogni domanda!"},
 	{"id": "dito", "titolo": "Dito Veloce", "icona": "⚡", "tipo": "lampo", "breve": "Il più rapido incassa di più.",
@@ -13,8 +13,15 @@ const GIOCHI := [  # solo quelli già fatti (G3f aggiunge gli altri e Conto alla
 		"regola": "Rispondi giusto per passare la bomba. Se ti esplode in mano perdi 500 punti!"},
 	{"id": "ruba", "titolo": "Ruba Punti", "icona": "🦝", "tipo": "classica", "breve": "Sfila i punti agli altri.",
 		"regola": "Chi risponde giusto ruba 300 punti a un avversario a scelta!"},
+	{"id": "torta", "titolo": "Torta in Faccia", "icona": "🥧", "tipo": "classica", "breve": "Il più veloce lancia la torta.",
+		"regola": "Giusta vale 500 punti. Il primo che indovina lancia una torta: chi la prende perde 300 punti!"},
+	{"id": "ordine", "titolo": "Metti in Ordine", "icona": "🔢", "tipo": "ordine", "breve": "Tocca le voci nell'ordine giusto.",
+		"regola": "Tocca le 4 voci nell'ordine giusto: 125 punti per ogni voce al posto giusto!"},
+	{"id": "conto", "titolo": "Conto alla Rovescia", "icona": "⏳", "tipo": "classica", "breve": "Il gran finale.", "fisso": true,
+		"regola": "I tuoi punti scendono di 50 al secondo finché non rispondi. Se sbagli perdi tutti i 15 secondi!"},
 ]
 const RUBA_TEMPO := 10.0
+const TORTA_TEMPO := 6.0
 const CAT_TEMPO := 10.0
 const CATEGORIE := {  # chiave di domande/ -> [nome, icona] (PLAN.md §4 "Domande")
 	"geografia": ["Geografia", "🌍"], "storia": ["Storia", "🏛️"], "scienza": ["Scienza", "🔬"],
@@ -46,6 +53,9 @@ var _scelta: SchermataScelta
 var _s: SchermataDomanda
 var _bomba_ui: BombaUI
 var _bomba: Bomba
+var _conto: SchermataConto
+var _torta_ui: TortaUI
+var _lanciato := false  # Torta: il lanciatore ha premuto LANCIA
 var _giochi: Array[String] = []  # id dei giochi scelti, nell'ordine di GIOCHI
 var _r := 0  # round in corso (indice in _giochi)
 var _punti := {}  # pid -> punti totali della partita
@@ -103,7 +113,8 @@ func _ready() -> void:
 	_finale = SchermataFinale.new()
 	_classifica_ui = SchermataClassifica.new()
 	_categoria_ui = SchermataCategoria.new()
-	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _classifica_ui, _categoria_ui, _s, _finale]:
+	_conto = SchermataConto.new()
+	for sc: CanvasItem in [_titolo, _lobby, _scelta, _round, _classifica_ui, _categoria_ui, _s, _conto, _finale]:
 		sc.visible = false
 		add_child(sc)
 	_scelta.confermato.connect(_scelti)
@@ -111,6 +122,9 @@ func _ready() -> void:
 	_bomba_ui.position = Vector2(1664, 88)  # al posto del timer
 	_bomba_ui.visible = false
 	_s.add_child(_bomba_ui)
+	_torta_ui = TortaUI.new()
+	_s.add_child(_torta_ui)
+	_torta_ui.colpito.connect(func() -> void: Sfx.play("boing"))
 	_round.position.y = -70.0  # lascia spazio al fumetto di Tony sotto la carta
 	if _server == null:
 		_server = preload("res://net/server.gd").new()
@@ -134,6 +148,12 @@ func _ready() -> void:
 			for pid in _n:
 				if _g[pid]["slot"] == vittima:
 					_furto(_pid_di[slot], pid))
+	_server.ordered.connect(func(slot: int, q: int, seq: Array) -> void:
+		if _pid_di.has(slot) and q == _i:
+			_ordina(_pid_di[slot], seq))
+	_server.thrown.connect(func(slot: int, q: int) -> void:
+		if _fase == "torta" and q == _i and _pid_di.get(slot, -1) == _game.lanciatore():
+			_lanciato = true)
 	_lobby.setup(_server.url(), _server.codice)
 	for id: String in ["host", "gilda"]:
 		var c := Personaggio.new()
@@ -257,7 +277,7 @@ func _vai_scelta() -> void:
 	_lobby.visible = false
 	var g: Array = []
 	for d: Dictionary in GIOCHI:
-		g.append({"id": d["id"], "titolo": d["titolo"], "icona": d["icona"], "regola": d["breve"], "fisso": false})
+		g.append({"id": d["id"], "titolo": d["titolo"], "icona": d["icona"], "regola": d["breve"], "fisso": d.get("fisso", false)})
 	_scelta.visible = true
 	_scelta.mostra(g)
 	if _demo:
@@ -415,9 +435,16 @@ func _prossimo_round() -> void:
 	await _commenta(k, "annuncio", FUMETTO_BASSO)
 	_round.nascondi()
 	_punti_prima = _punti.duplicate()
+	var g: Array = []
 	for i in _n:
 		_s.podio(i).set_punti(_punti[i])
-	_s.visible = true
+		_s.podio(i).set_torte(0)
+		g.append({"nome": _g[i]["nome"], "colore": _g[i]["colore"], "punti": _punti[i]})
+	if gi["id"] == "conto":  # schermata sua: barre al posto dei podi
+		_conto.setup(g)
+		_conto.visible = true
+	else:
+		_s.visible = true
 	Sfx.music(gi["id"])  # ogni gioco la sua musica
 	_ult_commento = -9
 	_ult_buzz = -9
@@ -502,6 +529,7 @@ func _fine_round(classifica: Array) -> void:
 		_punti[r["id"]] = r["score"]
 	_s.mostra_timer(true)
 	_bomba_ui.visible = false
+	_conto.visible = false
 	_r += 1
 	_prossimo_round()
 
@@ -590,8 +618,15 @@ func _domanda(i: int, tot: int, q: Dictionary) -> void:
 		_quando.append(INF if umano else randf_range(2.0, _game.tempo_domanda() * 0.75))
 		_pers[pid].stato("pensa")
 	var gi := _gioco()
-	_s.mostra_domanda(i + 1, tot, gi["titolo"].to_upper(), q["domanda"], q["risposte"])
-	_server.invia_stato({"fase": "domanda", "gioco": gi["id"], "q": i, "tot": tot, "domanda": q["domanda"], "risposte": q["risposte"], "tempo": _game.tempo_domanda()})
+	var testo: String = q["criterio"] if gi["id"] == "ordine" else q["domanda"]
+	if gi["id"] == "conto":
+		_conto.mostra_domanda(i + 1, tot, testo, q["risposte"])
+	else:
+		_s.mostra_domanda(i + 1, tot, gi["titolo"].to_upper(), testo, q["risposte"])
+	var st := {"fase": "domanda", "gioco": gi["id"], "q": i, "tot": tot, "domanda": testo, "risposte": q["risposte"], "tempo": _game.tempo_domanda()}
+	if gi["id"] == "ordine":
+		st["criterio"] = testo
+	_server.invia_stato(st)
 	_s.set_tempo(_game.tempo_domanda(), _game.tempo_domanda())
 	if i == 0 and _r == 0:
 		_dici(_pesca("qfirst"), "annuncio")
@@ -611,6 +646,18 @@ func _risponde(pid: int, scelta: int) -> void:
 		_ult_buzz = _i
 		_dici(_pesca("firstbuzz"), "sorpresa")
 	_scelte[pid] = scelta
+	if _gioco()["id"] == "conto":
+		_conto.risposto(pid)
+	else:
+		_s.risposto(pid)
+	Sfx.play("lock")
+
+
+## Metti in Ordine: seq = indici delle voci mostrate, nell'ordine scelto.
+func _ordina(pid: int, seq: Array) -> void:
+	if _fase != "domanda" or not _game.submit_ordine(pid, seq):
+		return
+	_scelte[pid] = seq
 	_s.risposto(pid)
 	Sfx.play("lock")
 
@@ -629,18 +676,31 @@ func _process(dt: float) -> void:
 			_risponde(_bomba.chi_ha_bomba(), _q["correct"] if randf() < 0.7 else randi() % 4)
 		_bomba.tick(dt)  # può emettere esplosa -> _b_esplosa
 		return
-	if _fase == "ruba" or _fase == "categoria":
+	if _fase == "ruba" or _fase == "categoria" or _fase == "torta":
 		_t += dt
 		return
 	if _fase != "domanda":
 		return
+	var gioco: String = _gioco()["id"]
 	var trascorso := _game.tempo_domanda() - _game.time_left()
 	for pid in _n:
 		if not _scelte.has(pid) and trascorso >= _quando[pid]:
 			# bot: indovina poco più di una volta su due
-			_risponde(pid, _q["correct"] if randf() < 0.55 else randi() % 4)
-	if _gioco()["id"] == "dito":
+			if gioco == "ordine":
+				var seq := [0, 0, 0, 0]
+				for k in 4:
+					seq[int(_q["giusto"][k])] = k
+				if randf() >= 0.55:
+					seq.shuffle()
+				_ordina(pid, seq)
+			else:
+				_risponde(pid, _q["correct"] if randf() < 0.55 else randi() % 4)
+	if gioco == "dito":
 		_s.set_contatore(_game.punti_ora())
+	elif gioco == "conto":
+		_conto.set_tempo(_game.time_left(), _game.tempo_domanda())
+		for pid in _n:
+			_conto.set_punti(pid, _game.punti_visti(pid))
 	else:
 		_s.set_tempo(_game.time_left(), _game.tempo_domanda())
 	var sec := ceili(_game.time_left())
@@ -669,8 +729,22 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	if _i == DOMANDE - 1 and ultimo_round:  # ultima domanda della partita: rullo di tamburi prima della rivelazione
 		Sfx.play("drumroll")
 		await get_tree().create_timer(2.0, false).timeout
-	_s.rivela(corretta, _scelte, punti)
 	var gioco: String = _gioco()["id"]
+	if gioco == "ordine":
+		var seqs := {}
+		for pid in _scelte:
+			seqs[pid] = _game.sequenza(pid)
+		_s.rivela_ordine(_q["giusto"], _q["valori"], seqs)
+		for pid in _n:
+			_s.podio(pid).set_stato("ok" if punti[pid] > 0 else "ko")
+			_s.podio(pid).set_punti(punteggi[pid])
+	elif gioco == "conto":
+		var finali: Array = []
+		for pid in _n:
+			finali.append(punteggi[pid])
+		_conto.rivela(corretta, _scelte, finali)
+	else:
+		_s.rivela(corretta, _scelte, punti)
 	if gioco == "dito":  # al posto di "+740": ordine di arrivo e tempo
 		var n := 1
 		for d: Dictionary in _game.ordine_giusti():
@@ -691,6 +765,9 @@ func _rivela(corretta: int, risultati: Dictionary, punteggi: Dictionary) -> void
 	await get_tree().create_timer(1.8, false).timeout
 	if gioco == "ruba" and not giusti.is_empty():
 		await _fase_ruba(giusti)
+		punteggi = _punti.duplicate()
+	elif gioco == "torta" and _game.lanciatore() >= 0:
+		await _fase_torta()
 		punteggi = _punti.duplicate()
 	while _parla:  # una battuta (o un duetto) della domanda non è ancora finita
 		await get_tree().process_frame
@@ -776,6 +853,52 @@ func _furto(ladro: int, vittima: int) -> void:
 		elif pid == vittima:
 			_server.invia_esito(slot, {"giusta": false, "punti": -n, "totale": _punti[pid], "posizione": _posizione(pid),
 					"testo": "%s ti ha rubato %d punti!" % [_g[ladro]["nome"], n]})
+
+
+## Torta in Faccia: il mirino salta tra i podi degli altri e il primo che ha indovinato preme LANCIA sul telefono
+## (bot e tempo scaduto: la torta parte dove si trova il mirino).
+func _fase_torta() -> void:
+	var chi := _game.lanciatore()
+	_fase = "torta"
+	_t = 0.0
+	_lanciato = false
+	var altri: Array[int] = []
+	var pos: Array[Vector2] = []
+	for pid in _n:
+		if pid != chi:
+			altri.append(pid)
+			pos.append(_s.podio(pid).position + Vector2(120, 110))
+	_s.podio(chi).badge("Lancia!")
+	_torta_ui.mira(pos)
+	_server.invia_stato({"fase": "torta", "q": _i, "tempo": TORTA_TEMPO, "chi": _g[chi]["slot"], "chi_nome": _g[chi]["nome"]})
+	var bot: bool = _demo or _g[chi]["bot"]
+	var quando := randf_range(1.5, 4.0)
+	while not _lanciato and _t < TORTA_TEMPO and not (bot and _t >= quando):
+		await get_tree().process_frame
+	var k := _torta_ui.ferma()
+	var a := altri[k]
+	_s.podio(chi).badge("")
+	Sfx.play("whoosh")
+	_torta_ui.lancia(_s.podio(chi).position + Vector2(120, 100), pos[k])
+	await _torta_ui.colpito
+	var n := _game.torta(chi, a)
+	_punti[a] -= n
+	_s.podio(a).splat()
+	_s.podio(a).set_torte(_game.torte(a))
+	_s.podio(a).badge("−%d" % n if n > 0 else "")
+	_s.podio(a).set_punti(_punti[a])
+	for slot in _pid_di:
+		var pid: int = _pid_di[slot]
+		if pid == chi:
+			_server.invia_esito(slot, {"giusta": true, "punti": 0, "totale": _punti[pid], "posizione": _posizione(pid),
+					"testo": "Torta in faccia a %s!" % _g[a]["nome"]})
+		elif pid == a:
+			_server.invia_esito(slot, {"giusta": false, "punti": -n, "totale": _punti[pid], "posizione": _posizione(pid),
+					"testo": "%s ti ha tirato una torta! −%d" % [_g[chi]["nome"], n]})
+	await get_tree().create_timer(2.0, false).timeout
+	_torta_ui.nascondi()
+	_server.invia_stato({"fase": "rivela"})
+	_fase = "rivela"
 
 
 ## Chi è primo da solo (-1 se a pari merito in testa).
@@ -870,7 +993,7 @@ func _input(e: InputEvent) -> void:
 		"finale":
 			if ok:
 				_torna_al_titolo()
-		"round", "intermezzo", "categoria", "domanda", "rivela", "ruba", "bomba", "esplosione":
+		"round", "intermezzo", "categoria", "domanda", "rivela", "ruba", "torta", "bomba", "esplosione":
 			if ok:
 				get_tree().paused = true
 				_server.pausa()

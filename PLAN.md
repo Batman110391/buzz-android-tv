@@ -213,9 +213,9 @@ Domande: dalla riserva `domande/` (o dal mock) attraverso `game/domande.gd`; il 
 
 ### G3 — Mini-giochi
 - [x] Dito Veloce · Passa la Bomba · Ruba Punti (+ schermata vittime sul telefono 1o) — da provare sulla TV
-- [ ] Torta in Faccia · Metti in Ordine
-- [ ] Conto alla Rovescia come finale
-- [ ] Schermata di scelta dei minigiochi prima della partita (telecomando; tutti accesi, minimo 4)
+- [x] Torta in Faccia · Metti in Ordine — da provare sulla TV
+- [x] Conto alla Rovescia come finale — da provare sulla TV
+- [x] Schermata di scelta dei minigiochi prima della partita (telecomando; tutti accesi, minimo 4)
 - [ ] La risposta più vicina (stima dal telefono, vince chi si avvicina di più)
 - [ ] Duello degli indizi (recupero automatico a metà partita, squadre dalla classifica)
 
