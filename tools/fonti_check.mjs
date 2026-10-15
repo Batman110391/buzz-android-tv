@@ -2,7 +2,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 const PREFIX = 'https://it.wikipedia.org/wiki/';
-const UA = { 'User-Agent': 'Quizzone-check/1.0 (progetto personale)' };
+const UA = { 'User-Agent': 'Quizzone-fonti/1.0 (https://github.com/Batman110391/buzz-android-tv) node/' + process.versions.node }; // policy Wikimedia: nome + contatto
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const titolo = (u) => decodeURIComponent(u.slice(PREFIX.length)).replace(/_/g, ' ');
 
